@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ajigu.com/sitemap.xml
