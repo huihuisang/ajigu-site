@@ -286,3 +286,37 @@ h1 {
   .hero-icons img { width: 84px; height: 84px; }
   .nav-links { display: none; }
 }
+
+/* Motion */
+:root { --ease-out-strong: cubic-bezier(0.23, 1, 0.32, 1); }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+}
+
+.hero > * { animation: rise 0.6s var(--ease-out-strong) both; }
+.hero > .hero-art { animation-delay: 0.12s; }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s var(--ease-out-strong), transform 0.6s var(--ease-out-strong);
+}
+.reveal.is-visible { opacity: 1; transform: none; }
+
+@media (hover: hover) and (pointer: fine) {
+  .app-card, .feature-card {
+    transition: transform 0.25s var(--ease-out-strong), box-shadow 0.25s var(--ease-out-strong), border-color 0.25s;
+  }
+  .app-card:hover, .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(45, 42, 38, 0.10);
+    border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero > * { animation: none; }
+  .reveal { transition: opacity 0.2s ease; transform: none; }
+  .app-card:hover, .feature-card:hover { transform: none; }
+}
