@@ -1,0 +1,79 @@
+/*
+ * lang-kit — shared language switcher styles for ajigu sites.
+ * Canonical copy: ajigu-site repo. Keep synced copies in
+ * snorz-site / dailyapod-site / typenote-landing.
+ * Colors adapt via each site's CSS variables; fallbacks match the warm palette.
+ */
+
+/* Shared dropdown (ajigu.com / gosleep / dailyapod markup) */
+.language-switcher { position: relative; font-size: 0.9rem; }
+.language-switcher summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--muted, #6f6a62);
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 38px;
+  padding: 8px 13px;
+  border: 1px solid var(--border, var(--line, #e7e0d6));
+  border-radius: 999px;
+  background: var(--card, #fffdf9);
+}
+.language-switcher summary::-webkit-details-marker { display: none; }
+.language-switcher summary:hover { color: var(--ink, #2d2a26); }
+.language-switcher[open] summary { color: var(--ink, #2d2a26); }
+
+.language-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  background: var(--card, #fffdf9);
+  border: 1px solid var(--border, var(--line, #e7e0d6));
+  border-radius: 12px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  box-shadow: 0 8px 24px rgba(45, 42, 38, 0.12);
+  z-index: 60;
+}
+.language-menu a {
+  padding: 7px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--muted, #6f6a62);
+  white-space: nowrap;
+}
+.language-menu a:hover { background: var(--bg, #f8f5f1); color: var(--ink, #2d2a26); }
+.language-menu a[aria-current="page"] { color: var(--accent, #e07856); font-weight: 600; }
+
+/* Full-width sheet on phones: menus can overflow small screens otherwise */
+@media (max-width: 650px) {
+  .language-menu {
+    position: fixed;
+    top: 76px;
+    left: 12px;
+    right: 12px;
+    min-width: 0;
+  }
+}
+
+/* TypeNote variant: replaces the old .lang-btn row */
+.langswitch-inline { position: relative; display: inline-flex; }
+.langswitch-inline summary {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0.45rem 0.62rem;
+  min-height: 32px;
+  border-radius: 5px;
+  border: 1px solid rgba(26, 21, 16, 0.14);
+  background: transparent;
+  color: var(--ink-muted, #786e64);
+  gap: 4px;
+}
+.langswitch-inline[open] summary { background: rgba(26, 21, 16, 0.06); color: var(--ink, #1a1510); }
+.langswitch-inline .language-menu { font-size: 0.85rem; }
+.langswitch-inline .language-menu a[aria-current="page"] { color: var(--accent, #d4720a); }
