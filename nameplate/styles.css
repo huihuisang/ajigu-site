@@ -66,6 +66,48 @@ select {
   padding: clamp(1.25rem, 3vw, 1.75rem) clamp(1.25rem, 3vw, 2rem) 0.9rem;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex: none;
+  padding-top: 0.2rem;
+}
+
+.by-ajigu {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 2.4rem;
+  padding: 0.3rem 0.65rem;
+  color: #697087;
+  background: #fff;
+  border: 1px solid #dcdfea;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.by-ajigu img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.by-ajigu span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.by-ajigu:hover {
+  color: #1f2742;
+  border-color: #b9c4f5;
+}
+
 .panel-body {
   flex: 1;
   overflow-y: auto;
