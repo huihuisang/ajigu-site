@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Nameplate Studio</title>
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="control-panel" aria-labelledby="page-title">
+        <header class="panel-header">
+          <div>
+            <p class="eyebrow">NAMEPLATE STUDIO</p>
+            <h1 id="page-title" data-i18n="title">桌面铭牌工作室</h1>
+            <p class="subtitle" data-i18n="subtitle">输入姓名和编号，一键导出可打印的桌面铭牌。</p>
+          </div>
+          <div id="languageDropdownHost" class="language-select"></div>
+        </header>
+
+        <div class="panel-body">
+          <section class="panel-section" aria-labelledby="layers-title">
+            <div class="section-title-row">
+              <h2 class="section-title" id="layers-title" data-i18n="layers">图层</h2>
+              <div class="section-title-actions">
+                <button id="addTextButton" class="mini-button" type="button" data-i18n="addText">＋文本</button>
+                <button id="addImageButton" class="mini-button" type="button" data-i18n="addImage">＋图片</button>
+              </div>
+            </div>
+
+            <div id="layerList" class="layer-chips" aria-label="Layers"></div>
+            <input id="imageUpload" type="file" accept="image/png,image/jpeg,image/webp,image/gif" class="hidden-input" tabindex="-1" aria-hidden="true" />
+            <input id="fontUpload" type="file" accept=".ttf,.otf,.woff,.woff2,font/ttf,font/otf,font/woff,font/woff2" class="hidden-input" tabindex="-1" aria-hidden="true" />
+
+            <div id="layerInspector" class="inspector">
+              <div class="inspector-header">
+                <span id="inspectorTitle" class="inspector-title"></span>
+                <div class="inspector-actions action-group">
+                  <button id="layerUp" class="icon-button" type="button" data-tooltip="moveUp">↑</button>
+                  <button id="layerDown" class="icon-button" type="button" data-tooltip="moveDown">↓</button>
+                  <button id="layerDuplicate" class="icon-button" type="button" data-tooltip="duplicate">⧉</button>
+                  <button id="layerDelete" class="icon-button danger" type="button" data-tooltip="delete">×</button>
+                </div>
+              </div>
+
+              <div class="inspector-body">
+                <label class="field text-only">
+                  <span data-i18n="content">文字</span>
+                  <input id="layerText" type="text" maxlength="30" autocomplete="off" />
+                </label>
+
+                <div class="field text-only">
+                  <span data-i18n="font">字体</span>
+                  <button id="fontPickerButton" class="font-picker-button" type="button" aria-haspopup="dialog">
+                    <span id="fontPickerLabel">ZCOOL KuaiLe</span>
+                    <span class="font-picker-chevron" aria-hidden="true">▾</span>
+                  </button>
+                </div>
+
+                <div class="two-col text-only">
+                  <label class="field">
+                    <span data-i18n="size">字号</span>
+                    <div class="range-control">
+                      <input id="layerSize" type="range" min="80" max="680" value="430" />
+                      <output id="layerSizeValue" for="layerSize">430</output>
+                    </div>
+                  </label>
+                  <label class="field">
+                    <span data-i18n="color">颜色</span>
+                    <input id="layerColor" type="color" value="#627ef5" />
+                  </label>
+                </div>
+
+                <details id="shadowSection" class="shadow-section text-only field-wide">
+                  <summary>
+                    <label class="check-field">
+                      <input id="layerShadowEnabled" type="checkbox" />
+                      <span data-i18n="shadow">阴影</span>
+                    </label>
+                    <span class="fold-chevron" aria-hidden="true">▸</span>
+                  </summary>
+                  <div id="shadowControls" class="shadow-grid">
+                    <label class="field color-field">
+                      <span data-i18n="shadowColor">阴影颜色</span>
+                      <input id="layerShadowColor" type="color" value="#1e232d" />
+                    </label>
+                    <label class="field">
+                      <span data-i18n="opacity">透明度</span>
+                      <div class="range-control compact">
+                        <input id="layerShadowOpacity" type="range" min="0" max="100" value="48" />
+                        <output id="layerShadowOpacityValue" for="layerShadowOpacity">48%</output>
+                      </div>
+                    </label>
+                    <label class="field">
+                      <span data-i18n="blur">模糊</span>
+                      <div class="range-control compact">
+                        <input id="layerShadowBlur" type="range" min="0" max="100" value="24" />
+                        <output id="layerShadowBlurValue" for="layerShadowBlur">24</output>
+                      </div>
+                    </label>
+                    <label class="field">
+                      <span data-i18n="offsetX">水平偏移</span>
+                      <div class="range-control compact">
+                        <input id="layerShadowX" type="range" min="-100" max="100" value="13" />
+                        <output id="layerShadowXValue" for="layerShadowX">13</output>
+                      </div>
+                    </label>
+                    <label class="field">
+                      <span data-i18n="offsetY">垂直偏移</span>
+                      <div class="range-control compact">
+                        <input id="layerShadowY" type="range" min="-100" max="100" value="24" />
+                        <output id="layerShadowYValue" for="layerShadowY">24</output>
+                      </div>
+                    </label>
+                  </div>
+                </details>
+
+                <details id="outlineSection" class="shadow-section">
+                  <summary>
+                    <label class="check-field">
+                      <input id="layerOutlineEnabled" type="checkbox" />
+                      <span data-i18n="outline">描边</span>
+                    </label>
+                    <span class="fold-chevron" aria-hidden="true">▸</span>
+                  </summary>
+                  <div class="shadow-grid">
+                    <label class="field color-field">
+                      <span data-i18n="outlineColor">描边颜色</span>
+                      <input id="layerOutlineColor" type="color" value="#ffffff" />
+                    </label>
+                    <label class="field">
+                      <span data-i18n="outlineWidth">粗细</span>
+                      <div class="range-control compact">
+                        <input id="layerOutlineWidth" type="range" min="0" max="25" step="0.5" value="7.5" />
+                        <output id="layerOutlineWidthValue" for="layerOutlineWidth">7.5%</output>
+                      </div>
+                    </label>
+                  </div>
+                </details>
+
+                <div class="image-controls image-only" hidden>
+                  <img id="layerImageThumb" class="image-thumb" alt="" />
+                  <div class="image-controls-side">
+                    <label class="field">
+                      <span data-i18n="opacity">透明度</span>
+                      <div class="stepper-control">
+                        <input id="layerImageOpacity" type="number" min="0" max="100" step="1" value="100" inputmode="numeric" />
+                        <span class="stepper-suffix" aria-hidden="true">%</span>
+                      </div>
+                    </label>
+                    <label class="check-field">
+                      <input id="layerImageFill" type="checkbox" />
+                      <span data-i18n="fillCanvas">撑满尺寸</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <details class="panel-section collapsible">
+            <summary data-i18n="batchExport">批量导出（CSV / Excel）</summary>
+            <div class="collapsible-body">
+              <label class="field upload-field">
+                <span data-i18n="importSheet">表格文件</span>
+                <input id="batchFile" type="file" accept=".csv,.tsv,.xlsx,.xls,text/csv,text/tab-separated-values,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+              </label>
+              <div id="batchBindings" class="batch-bindings"></div>
+              <p id="batchSummary" class="field-note" data-i18n="batchEmpty">导入 CSV 或 Excel，每行生成一张卡片。</p>
+              <progress id="batchProgress" value="0" max="1" hidden></progress>
+              <button id="batchExportButton" class="button button-primary batch-button" type="button" disabled data-i18n="downloadZip">下载 ZIP</button>
+            </div>
+          </details>
+        </div>
+
+        <footer class="panel-actions">
+          <button id="downloadButton" class="button button-primary" type="button" data-i18n="download">下载 PNG</button>
+          <button id="resetButton" class="button button-secondary" type="button" data-i18n="reset">重置</button>
+        </footer>
+      </section>
+
+      <section class="preview-panel" aria-labelledby="preview-title">
+        <header class="preview-heading">
+          <h2 id="preview-title" data-i18n="preview">预览</h2>
+          <div class="preview-heading-meta">
+            <button id="fullCardToggle" class="switch-field" type="button" role="switch" aria-checked="false">
+              <span class="switch" aria-hidden="true"></span>
+              <span class="switch-label" data-i18n="threeDTab">3D 预览</span>
+            </button>
+            <span id="sizePresetHost"></span>
+            <span id="customSizeFields" class="custom-size" hidden>
+              <input id="customWidth" type="number" min="400" max="8192" step="1" value="2362" aria-label="宽度" />
+              <span aria-hidden="true">×</span>
+              <input id="customHeight" type="number" min="400" max="8192" step="2" value="2362" aria-label="高度" />
+              <button id="applyCustomSize" class="mini-button" type="button" data-i18n="apply">应用</button>
+            </span>
+          </div>
+        </header>
+
+        <div id="editorView" class="preview-view active">
+          <div class="canvas-frame">
+            <canvas id="editorCanvas" width="2362" height="1181" aria-label="Editable lower panel"></canvas>
+          </div>
+          <p class="canvas-hint" data-i18n="dragHint">拖动调整位置 · 方向键微调 · Shift + 方向键做 1px 步进</p>
+        </div>
+
+        <div id="threeDView" class="preview-view">
+          <div id="threeDContainer" class="three-container"></div>
+          <p class="canvas-hint" data-i18n="threeDHint">拖动旋转 · 滚轮缩放 · 双击复位</p>
+          <canvas id="cardCanvas" class="visually-hidden" width="2362" height="2362" aria-hidden="true"></canvas>
+        </div>
+
+        <section class="template-section" aria-labelledby="templates-title">
+          <h3 class="template-section-title" id="templates-title" data-i18n="templates">模板</h3>
+          <div id="templateStrip" class="template-strip" role="listbox" aria-label="Templates"></div>
+        </section>
+      </section>
+    </main>
+
+    <div id="fontModal" class="font-modal" hidden>
+      <div class="font-modal-backdrop" data-font-modal-close></div>
+      <div class="font-modal-panel" role="dialog" aria-modal="true" aria-labelledby="fontModalTitle">
+        <div class="font-modal-header">
+          <h3 id="fontModalTitle" data-i18n="fontPickerTitle">选择字体</h3>
+          <button id="fontModalClose" class="icon-button" type="button" data-tooltip="close">×</button>
+        </div>
+        <div class="font-modal-search">
+          <input id="fontSearch" type="text" autocomplete="off" spellcheck="false" data-i18n-placeholder="fontSearchPlaceholder" />
+        </div>
+        <div id="fontModalList" class="font-modal-list" role="listbox" data-i18n-aria-label="fontPickerTitle"></div>
+        <div class="font-modal-footer">
+          <button id="loadSystemFontsButton" class="link-button" type="button" data-i18n="loadSystemFonts">加载系统字体</button>
+          <button id="uploadFontButton" class="link-button" type="button" data-i18n="uploadFont">上传字体文件</button>
+          <small class="field-note" data-i18n="systemFontsNote">“加载系统字体”需要浏览器授权，仅在本机服务下可用。</small>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <!-- xlsx / jszip / three 按需加载（首次使用批量导入、ZIP 打包或 3D 预览时才下载） -->
+    <script defer src="template-data.js?v=2"></script>
+    <script defer src="app.js?v=2"></script>
+  </body>
+</html>
