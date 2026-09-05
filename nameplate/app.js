@@ -464,7 +464,32 @@ function getLayerName(layer) {
 
 /* ---------- i18n & toast ---------- */
 
-let currentLocale = "zh-CN";
+function resolveInitialLocale() {
+  // 1) 链接显式指定：?lang=xx
+  const fromUrl = new URLSearchParams(location.search).get("lang");
+  if (fromUrl && fromUrl in translations) return fromUrl;
+  // 2) 用户手动切换过的语言（仅记录手动选择，自动检测不持久化）
+  try {
+    const saved = localStorage.getItem("nameplate-lang");
+    if (saved && saved in translations) return saved;
+  } catch (error) { /* 隐私模式等 */ }
+  // 3) 从 ajigu 主站某语言版本点进来：跟随该语言
+  if (document.referrer.startsWith("https://ajigu.com")) {
+    const match = document.referrer.match(/ajigu\.com\/(zh-hans|zh-hant|ja|ko)\b/);
+    if (match && match[1] in translations) return match[1];
+    if (document.referrer.startsWith("https://ajigu.com/")) return "en"; // 主站英文首页
+  }
+  // 4) 浏览器语言
+  const nav = (navigator.languages?.[0] || navigator.language || "").toLowerCase();
+  if (nav.startsWith("zh")) return "zh-CN";
+  for (const locale of navigator.languages || []) {
+    const short = locale.toLowerCase().split("-")[0];
+    if (short in translations) return short;
+  }
+  return "en";
+}
+
+let currentLocale = resolveInitialLocale();
 
 function getLocale() {
   return currentLocale in translations ? currentLocale : "en";
@@ -2251,6 +2276,7 @@ document.querySelector("#languageDropdownHost").append(languageDropdown.element)
 function setLocale(next) {
   if (!(next in translations)) return;
   currentLocale = next;
+  try { localStorage.setItem("nameplate-lang", next); } catch (error) { /* 隐私模式等 */ }
   languageDropdown.setValue(next);
   applyTranslations();
   updateBatchUi();
