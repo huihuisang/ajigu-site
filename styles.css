@@ -170,12 +170,22 @@ h1 {
   border: 1px solid var(--line);
 }
 
-.hero-icons { display: flex; gap: 20px; }
+.hero-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(10px, 1vw, 14px);
+  width: 100%;
+}
 .hero-icons img {
-  border-radius: 24px;
+  width: min(112px, 16%);
+  height: auto;
+  border-radius: clamp(12px, 2.4vw, 24px);
   box-shadow: 0 12px 32px rgba(45, 42, 38, 0.12);
 }
 .hero-icons img:first-child { transform: rotate(-6deg) translateY(8px); }
+.hero-icons img:nth-child(2) { transform: rotate(5deg) translateY(6px); }
+.hero-icons img:nth-child(4) { transform: rotate(-5deg) translateY(6px); }
 .hero-icons img:last-child { transform: rotate(6deg) translateY(-8px); }
 
 .float-note {
@@ -282,8 +292,9 @@ h1 {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .hero-art { order: -1; padding: 24px; }
-  .hero-icons img { width: 84px; height: 84px; }
+  .hero-art { order: -1; padding: 20px 16px; gap: 14px; }
+  /* Wrap into a playful 3 + 2 arrangement on phones */
+  .hero-icons img { width: min(84px, 27%); }
   .nav-links { display: none; }
 }
 
