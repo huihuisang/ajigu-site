@@ -370,6 +370,10 @@ function applyTemplate(tpl, quiet = false) {
   const previous = layers;
   currentTemplateId = tpl.id;
   layers = tpl.buildLayers();
+  // 模板默认位置也必须满足边界约束
+  layers.forEach((layer) => {
+    if (!layer.fillsCanvas) clampLayer(layer);
+  });
   selectedLayerId = layers[0]?.id ?? null;
   previous.forEach((layer) => releaseLayerAssets(layer, previous));
   renderLayerList();
@@ -435,7 +439,7 @@ function defaultLayerOptions(role) {
     return {
       role,
       x: 2070 * ratioX,
-      y: 310 * ratioY,
+      y: 235 * ratioY, // 蓝色扇形（y ≈ 6–465）的视觉中心
       font: BUILTIN_FONTS[0].family,
       size: Math.round(410 * ratioX),
       color: "#ffffff",
@@ -962,12 +966,13 @@ function getLayerBounds(layer, targetContext = editorContext) {
   targetContext.font = `${fontSize}px ${cssFontFamily(layer.font)}`;
   const measuredWidth = Math.min(targetContext.measureText(layer.text || " ").width, layer.maxWidth);
   targetContext.restore();
-  const padding = Math.max(24, fontSize * 0.1);
+  // 选框贴近字形（em 框 + 小余量）：既方便点选，也不会把位置约束得过紧
+  const padding = Math.max(20, fontSize * 0.04);
   return {
     x: layer.x - measuredWidth / 2 - padding,
-    y: layer.y - fontSize * 0.58 - padding,
+    y: layer.y - fontSize / 2 - padding,
     width: measuredWidth + padding * 2,
-    height: fontSize * 1.16 + padding * 2,
+    height: fontSize + padding * 2,
   };
 }
 
@@ -1583,6 +1588,9 @@ function updateSelectedLayerFromInspector(event) {
     width: Number(controls.outlineWidth.value),
   };
 
+  // 检查器里改字号或文字都会改变边界，同步收紧位置
+  if (!layer.fillsCanvas) clampLayer(layer);
+
   updateControlOutputs();
   updateShadowAvailability();
   if (event?.target === controls.text) renderLayerList();
@@ -1595,8 +1603,13 @@ function clampLayer(layer) {
   const bounds = getLayerBounds(layer);
   const halfWidth = bounds.width / 2;
   const halfHeight = bounds.height / 2;
-  layer.x = Math.max(halfWidth, Math.min(card.width - halfWidth, layer.x));
-  layer.y = Math.max(halfHeight, Math.min(panelHeight() - halfHeight, layer.y));
+  // 图层本身比画布还大时直接居中，避免 max/min 区间倒挂导致越界
+  layer.x = halfWidth * 2 > card.width
+    ? card.width / 2
+    : Math.max(halfWidth, Math.min(card.width - halfWidth, layer.x));
+  layer.y = halfHeight * 2 > panelHeight()
+    ? panelHeight() / 2
+    : Math.max(halfHeight, Math.min(panelHeight() - halfHeight, layer.y));
 }
 
 function addTextLayer() {
@@ -1769,6 +1782,8 @@ editorCanvas.addEventListener("pointermove", (event) => {
     } else {
       layer.width = nextSize;
     }
+    // 变大后边界随之扩张，位置需要重新收紧到画布内
+    clampLayer(layer);
     updateControlOutputs();
     render();
     return;
