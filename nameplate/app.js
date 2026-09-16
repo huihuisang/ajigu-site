@@ -390,29 +390,6 @@ function reset(quiet = false) {
   if (!quiet) notify("resetDone");
 }
 
-let templateLowerImage = null;
-
-// 底图下半区的独立图片对象：让背景以普通图片图层的身份参与渲染和检查器
-function getTemplateLowerImage() {
-  if (!templateLowerImage) {
-    const c = document.createElement("canvas");
-    c.width = TEMPLATE_SIZE;
-    c.height = TEMPLATE_SIZE / 2;
-    c
-      .getContext("2d")
-      .drawImage(template, 0, TEMPLATE_SIZE / 2, TEMPLATE_SIZE, TEMPLATE_SIZE / 2, 0, 0, TEMPLATE_SIZE, TEMPLATE_SIZE / 2);
-    templateLowerImage = new Image();
-    templateLowerImage.src = c.toDataURL("image/png");
-    if (!templateLowerImage.complete) {
-      templateLowerImage.addEventListener("load", () => {
-        render();
-        buildTemplateStrip();
-      }, { once: true });
-    }
-  }
-  return templateLowerImage;
-}
-
 function createBackgroundLayer() {
   return {
     id: `layer-${nextLayerId++}`,
@@ -421,7 +398,10 @@ function createBackgroundLayer() {
     label: null,
     visible: true,
     fillsCanvas: true, // 始终铺满画布：不参与拖拽缩放，忽略位置/宽度
-    image: getTemplateLowerImage(),
+    // 直接引用主模板图（load 之后才会建层，complete 恒为真），
+    // 用 srcRect 取下半区——不再裁剪出第二张异步图片，避免缩略图/画布竞态丢底图
+    image: template,
+    srcRect: [0, TEMPLATE_SIZE / 2, TEMPLATE_SIZE, TEMPLATE_SIZE / 2],
     aspectRatio: TEMPLATE_SIZE / (TEMPLATE_SIZE / 2),
     x: card.width / 2,
     y: panelHeight() / 2,
@@ -896,8 +876,9 @@ function drawImageLayer(targetContext, layer) {
   targetContext.save();
   targetContext.globalAlpha = layer.opacity / 100;
   if (layer.fillsCanvas) {
-    // 背景图铺满整个编辑区
-    targetContext.drawImage(layer.image, 0, 0, card.width, panelHeight());
+    // 背景图铺满整个编辑区（带 srcRect 时只取源图对应区域）
+    const [sx, sy, sw, sh] = layer.srcRect ?? [0, 0, layer.image.naturalWidth, layer.image.naturalHeight];
+    targetContext.drawImage(layer.image, sx, sy, sw, sh, 0, 0, card.width, panelHeight());
   } else {
     const height = layer.width / layer.aspectRatio;
     const left = layer.x - layer.width / 2;
@@ -1540,8 +1521,13 @@ function syncInspector() {
   } else if (layer.type === "image") {
     controls.imageOpacity.value = layer.opacity;
     controls.imageFill.checked = Boolean(layer.fillsCanvas);
-    // 图片小图：对象 URL 仍在则直接复用
-    if (layerThumb) layerThumb.src = layer.objectUrl || layer.image?.src || "";
+    // 图片小图：优先对象 URL；背景图层用当前模板缩略图（正是下半区画面）
+    if (layerThumb) {
+      layerThumb.src = layer.objectUrl
+        || (layer.fillsCanvas && templateThumbnails[currentTemplateId])
+        || layer.image?.src
+        || "";
+    }
   }
   updateControlOutputs();
   updateShadowAvailability();
