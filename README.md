@@ -1,6 +1,6 @@
 # ajigu.com
 
-Main brand site for ajigu — the home of [TypeNote](https://typenote.ajigu.com/) (macOS) and [Snorz](https://snorz.ajigu.com/) (iPhone).
+Main brand site for ajigu — the home of [TypeNote](https://typenote.ajigu.com/) (macOS) and [Go Sleep](https://gosleep.ajigu.com/) (iPhone).
 
 Static HTML, no build step. Deployed via GitHub Pages with a custom domain (`CNAME`).
 
