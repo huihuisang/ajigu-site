@@ -440,16 +440,9 @@ a { color: inherit; }
 .sheet-tag { margin: 5px 0 0; font-size: 13px; font-weight: 600; color: var(--accent); }
 .sheet-desc { margin: 14px 0 0; font-size: 15px; line-height: 1.65; color: var(--muted); }
 
-.sheet-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 22px;
-}
-
 .sheet-visit {
   display: inline-block;
+  margin-top: 22px;
   padding: 12px 24px;
   border-radius: 999px;
   background: var(--ink);
@@ -459,7 +452,6 @@ a { color: inherit; }
   text-decoration: none;
   transition: transform 0.2s var(--ease-out), opacity 0.2s;
 }
-.sheet-visit--secondary { background: color-mix(in srgb, var(--ink) 12%, transparent); color: var(--ink); }
 .sheet-visit:hover { transform: translateY(-1px); opacity: 0.92; }
 .sheet-visit:active { transform: scale(0.97); }
 
