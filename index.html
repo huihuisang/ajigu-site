@@ -3,19 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7e8d4">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161119">
+  <meta name="theme-color" content="#f8f5f1">
   <meta name="description" content="ajigu makes small, private, delightful apps. Meet TypeNote for macOS and Go Sleep for iPhone.">
   <meta property="og:title" content="ajigu — Small, private, delightful apps">
   <meta property="og:description" content="ajigu makes small, private, delightful apps. Meet TypeNote for macOS and Go Sleep for iPhone.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://ajigu.com/assets/logo.png">
+  <meta property="og:image" content="https://ajigu.com/assets/logo.png"
   <meta property="og:url" content="https://ajigu.com/">
   <meta property="og:locale" content="en_US">
   <title>ajigu — Small, private, delightful apps</title>
-  <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="home.css?v=1">
-  <link rel="stylesheet" href="lang-kit.css">
+  <link rel="icon" href="/assets/favicon.png">
+  <link rel="stylesheet" href="/styles.css?v=6">
+  <link rel="stylesheet" href="/lang-kit.css">
   <link rel="canonical" href="https://ajigu.com/">
   <link rel="alternate" hreflang="en" href="https://ajigu.com/">
   <link rel="alternate" hreflang="zh-Hans" href="https://ajigu.com/zh-hans/">
@@ -24,174 +23,117 @@
   <link rel="alternate" hreflang="ko" href="https://ajigu.com/ko/">
   <link rel="alternate" hreflang="x-default" href="https://ajigu.com/">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "Organization", "name": "ajigu", "alternateName": "啊叽咕", "url": "https://ajigu.com/", "logo": "https://ajigu.com/assets/logo.png", "slogan": "Small, private, delightful apps."}, {"@context": "https://schema.org", "@type": "WebSite", "name": "ajigu", "url": "https://ajigu.com/"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "Organization", "name": "ajigu", "alternateName": "啊叽咕", "url": "https://ajigu.com/", "logo": "https://ajigu.com/assets/logo.png", "sameAs": ["https://github.com/huihuisang"], "slogan": "Small, private, delightful apps."}, {"@context": "https://schema.org", "@type": "WebSite", "name": "ajigu", "url": "https://ajigu.com/"}]}</script>
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="ajigu — Small, private, delightful apps">
   <meta name="twitter:description" content="Meet TypeNote for macOS and Go Sleep for iPhone.">
   <meta name="twitter:image" content="https://ajigu.com/assets/logo.png">
 </head>
 <body>
-  <div class="wallpaper" aria-hidden="true"><span class="blob blob-a"></span><span class="blob blob-b"></span></div>
-
-  <header class="statusbar">
-    <span class="sb-time" id="sb-time">9:41</span>
-    <span class="sb-glyphs" aria-hidden="true">
-      <svg width="18" height="13" viewBox="0 0 18 13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M1.5 4.3a11.2 11.2 0 0 1 15 0"/><path d="M4.3 7.4a7.1 7.1 0 0 1 9.4 0"/><path d="M7.1 10.4a3.1 3.1 0 0 1 3.8 0"/></svg>
-      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.75" y="0.75" width="20.5" height="10.5" rx="3.25" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.5"/><rect x="2.5" y="2.5" width="17" height="7" rx="1.8" fill="currentColor"/><path d="M23 4v4a2.2 2.2 0 0 0 0-4Z" fill="currentColor" fill-opacity="0.45"/></svg>
-    </span>
-    <details class="language-switcher">
-      <summary aria-label="Choose language"><span aria-hidden="true">◎</span> English</summary>
-      <div class="language-menu">
-        <a data-language="en" href="index.html" lang="en" aria-current="page">English</a>
-        <a data-language="zh-Hans" href="zh-hans/index.html" lang="zh-Hans">简体中文</a>
-        <a data-language="zh-Hant" href="zh-hant/index.html" lang="zh-Hant">繁體中文</a>
-        <a data-language="ja" href="ja/index.html" lang="ja">日本語</a>
-        <a data-language="ko" href="ko/index.html" lang="ko">한국어</a>
+  <header class="site-header">
+    <nav class="nav site-shell" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="ajigu home">
+        <img class="brand-logo" src="/assets/logo.png" alt="">
+        <span>ajigu</span>
+      </a>
+      <div class="nav-links">
+        <a href="#apps">Apps</a>
       </div>
-    </details>
+      <details class="language-switcher">
+        <summary aria-label="Choose language"><span aria-hidden="true">◎</span> English</summary>
+        <div class="language-menu">
+          <a data-language="en" href="/" lang="en"aria-current="page">English</a>
+          <a data-language="zh-Hans" href="/zh-hans/" lang="zh-Hans">简体中文</a>
+          <a data-language="zh-Hant" href="/zh-hant/" lang="zh-Hant">繁體中文</a>
+          <a data-language="ja" href="/ja/" lang="ja">日本語</a>
+          <a data-language="ko" href="/ko/" lang="ko">한국어</a>
+        </div>
+      </details>
+    </nav>
   </header>
 
-  <main class="screen">
-    <div class="home-grid">
-      <section class="icon-grid" aria-label="Apps">
-        <a class="app" style="--i:0" href="#sheet-typenote" data-sheet="sheet-typenote">
-          <span class="app-tile"><img src="assets/typenote-icon.png" alt="" width="72" height="72"></span>
-          <span class="app-label">TypeNote</span>
-        </a>
-        <a class="app" style="--i:1" href="#sheet-gosleep" data-sheet="sheet-gosleep">
-          <span class="app-tile"><img src="assets/snorz-icon.png" alt="" width="72" height="72"></span>
-          <span class="app-label">Go Sleep</span>
-        </a>
-        <a class="app" style="--i:2" href="#sheet-dailyapod" data-sheet="sheet-dailyapod">
-          <span class="app-tile"><img src="assets/dailyapod-icon.png" alt="" width="72" height="72"></span>
-          <span class="app-label">DailyApod</span>
-        </a>
-        <a class="app" style="--i:3" href="#sheet-nameplate" data-sheet="sheet-nameplate">
-          <span class="app-tile"><img src="assets/nameplate-icon.png" alt="" width="72" height="72"></span>
-          <span class="app-label">Nameplate Studio</span>
-        </a>
-        <a class="app" style="--i:4" href="#sheet-moodsk" data-sheet="sheet-moodsk">
-          <span class="app-tile"><img src="assets/moodsk-icon.png" alt="" width="72" height="72"></span>
-          <span class="app-label">Moodsk</span>
-        </a>
-        <a class="app" style="--i:5" href="#sheet-about" data-sheet="sheet-about">
-          <span class="app-tile tile-about"><img src="assets/logo.png" alt="" width="72" height="72"></span>
-          <span class="app-label">About</span>
-        </a>
-      </section>
-
-      <aside class="widget-grid" aria-label="Widgets">
-        <div class="widget widget-clock" style="--i:0" role="img" aria-label="Clock">
-          <div class="clock-face">
-            <span class="hand hand-hour"></span>
-            <span class="hand hand-minute"></span>
-            <span class="hand hand-second"></span>
-            <span class="clock-pin"></span>
-          </div>
+  <main>
+    <section class="hero site-shell">
+      <div>
+        <p class="eyebrow">An indie app studio</p>
+        <h1>Small, private,<br><span class="gradient-word">delightful</span> apps.</h1>
+        <div class="hero-actions">
+          <a class="button primary" href="#apps">Meet the apps ↓</a>
         </div>
-        <a class="widget widget-date" style="--i:1" href="#sheet-dailyapod" data-sheet="sheet-dailyapod" aria-label="DailyApod — today">
-          <span class="date-weekday">Wed</span>
-          <span class="date-day">17</span>
-          <span class="date-month">September</span>
-        </a>
-        <section class="widget widget-studio" style="--i:2" aria-label="About ajigu">
-          <div class="studio-head">
-            <img class="studio-logo" src="assets/logo.png" alt="">
-            <div>
-              <p class="studio-name">ajigu</p>
-              <h1 class="studio-tagline">Small, private, delightful apps.</h1>
-            </div>
+      </div>
+    </section>
+
+    <section class="section site-shell" id="apps">
+      <div class="section-heading reveal">
+        <p class="section-kicker">The apps</p>
+        <h2>For your days, your nights, and everything above.</h2>
+      </div>
+      <div class="app-grid">
+        <article class="app-card reveal">
+          <img class="app-icon" src="/assets/typenote-icon.png" alt="TypeNote app icon" width="96" height="96">
+          <h3>TypeNote</h3>
+          <p class="app-tag">macOS · Menu bar</p>
+          <p>Turn your keyboard into an instrument. Every keystroke plays a note—choose from 128 sounds, or type out a melody of your own.</p>
+          <div class="app-actions">
+            <a class="button primary" href="https://typenote.ajigu.com/?lang=en">Visit TypeNote ↗</a>
           </div>
-        </section>
-      </aside>
-    </div>
+        </article>
+        <article class="app-card reveal">
+          <img class="app-icon" src="/assets/snorz-icon.png" alt="Go Sleep app icon" width="96" height="96">
+          <h3>Go Sleep</h3>
+          <p class="app-tag">iPhone · Sleep</p>
+          <p>Record. Understand. Discover. Go Sleep organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends.</p>
+          <div class="app-actions">
+            <a class="button primary" href="https://gosleep.ajigu.com/?lang=en">Visit Go Sleep ↗</a>
+          </div>
+        </article>
+
+        <article class="app-card reveal">
+          <img class="app-icon" src="/assets/dailyapod-icon.png" alt="DailyApod app icon" width="96" height="96">
+          <h3>DailyApod</h3>
+          <p class="app-tag">iPhone · Astronomy</p>
+          <p>The universe, one picture a day. NASA's Astronomy Picture of the Day, beautifully on your iPhone—with widgets, search, and favourites.</p>
+          <div class="app-actions">
+            <a class="button primary" href="https://dailyapod.ajigu.com/">Visit DailyApod ↗</a>
+          </div>
+        </article>
+
+        <article class="app-card reveal">
+          <img class="app-icon" src="/assets/nameplate-icon.png" alt="Nameplate Studio app icon" width="96" height="96">
+          <h3>Nameplate Studio</h3>
+          <p class="app-tag">Web · Design tool</p>
+          <p>Folded desk nameplates, right in your browser. Type a name, tweak the style, download a print-ready card—everything stays on your device.</p>
+          <div class="app-actions">
+            <a class="button primary" href="/nameplate/?lang=en">Open Nameplate Studio ↗</a>
+          </div>
+        </article>
+        <article class="app-card reveal">
+          <img class="app-icon" src="/assets/moodsk-icon.png" alt="Moodsk app icon" width="96" height="96">
+          <h3>Moodsk</h3>
+          <p class="app-tag">macOS · Icons</p>
+          <p>Make your Mac unmistakably yours. Moodsk designs file and folder icons from images, SF Symbols or text — apply them one by one or in batches, and restore defaults from Finder.</p>
+          <div class="app-actions">
+            <a class="button primary" href="https://moodsk.ajigu.com/?lang=en">Visit Moodsk ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
   </main>
 
-  <nav class="dock" aria-label="Dock">
-    <a class="dock-app" href="#sheet-typenote" data-sheet="sheet-typenote" aria-label="TypeNote"><img src="assets/typenote-icon.png" alt=""></a>
-    <a class="dock-app" href="#sheet-gosleep" data-sheet="sheet-gosleep" aria-label="Go Sleep"><img src="assets/snorz-icon.png" alt=""></a>
-    <a class="dock-app" href="#sheet-dailyapod" data-sheet="sheet-dailyapod" aria-label="DailyApod"><img src="assets/dailyapod-icon.png" alt=""></a>
-    <a class="dock-app" href="#sheet-nameplate" data-sheet="sheet-nameplate" aria-label="Nameplate Studio"><img src="assets/nameplate-icon.png" alt=""></a>
-  </nav>
-
-  <article class="sheet" id="sheet-typenote" role="dialog" aria-modal="true" aria-labelledby="t-typenote">
-    <div class="sheet-card">
-      <button class="sheet-close" type="button" aria-label="Close">
-        <svg viewBox="0 0 20 20" width="13" height="13" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      </button>
-      <img class="sheet-icon" src="assets/typenote-icon.png" alt="">
-      <h2 class="sheet-title" id="t-typenote">TypeNote</h2>
-      <p class="sheet-tag">macOS · Menu bar</p>
-      <p class="sheet-desc">Turn your keyboard into an instrument. Every keystroke plays a note—choose from 128 sounds, or type out a melody of your own.</p>
-      <a class="sheet-visit" href="https://typenote.ajigu.com/?lang=en">Visit TypeNote ↗</a>
+  <footer class="site-footer">
+    <div class="site-shell footer-inner">
+      <p>© 2026 ajigu</p>
+      <div class="footer-links">
+        <a href="https://typenote.ajigu.com/?lang=en">TypeNote</a>
+        <a href="https://gosleep.ajigu.com/?lang=en">Go Sleep</a>
+        <a href="https://dailyapod.ajigu.com/">DailyApod</a>
+        <a href="/nameplate/?lang=en">Nameplate Studio</a>
+        <a href="https://moodsk.ajigu.com/?lang=en">Moodsk</a>
+      </div>
     </div>
-  </article>
-
-  <article class="sheet" id="sheet-gosleep" role="dialog" aria-modal="true" aria-labelledby="t-gosleep">
-    <div class="sheet-card">
-      <button class="sheet-close" type="button" aria-label="Close">
-        <svg viewBox="0 0 20 20" width="13" height="13" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      </button>
-      <img class="sheet-icon" src="assets/snorz-icon.png" alt="">
-      <h2 class="sheet-title" id="t-gosleep">Go Sleep</h2>
-      <p class="sheet-tag">iPhone · Sleep</p>
-      <p class="sheet-desc">Record. Understand. Discover. Go Sleep organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends.</p>
-      <a class="sheet-visit" href="https://gosleep.ajigu.com/?lang=en">Visit Go Sleep ↗</a>
-    </div>
-  </article>
-
-  <article class="sheet" id="sheet-dailyapod" role="dialog" aria-modal="true" aria-labelledby="t-dailyapod">
-    <div class="sheet-card">
-      <button class="sheet-close" type="button" aria-label="Close">
-        <svg viewBox="0 0 20 20" width="13" height="13" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      </button>
-      <img class="sheet-icon" src="assets/dailyapod-icon.png" alt="">
-      <h2 class="sheet-title" id="t-dailyapod">DailyApod</h2>
-      <p class="sheet-tag">iPhone · Astronomy</p>
-      <p class="sheet-desc">The universe, one picture a day. NASA's Astronomy Picture of the Day, beautifully on your iPhone—with widgets, search, and favourites.</p>
-      <a class="sheet-visit" href="https://dailyapod.ajigu.com/">Visit DailyApod ↗</a>
-    </div>
-  </article>
-
-  <article class="sheet" id="sheet-nameplate" role="dialog" aria-modal="true" aria-labelledby="t-nameplate">
-    <div class="sheet-card">
-      <button class="sheet-close" type="button" aria-label="Close">
-        <svg viewBox="0 0 20 20" width="13" height="13" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      </button>
-      <img class="sheet-icon" src="assets/nameplate-icon.png" alt="">
-      <h2 class="sheet-title" id="t-nameplate">Nameplate Studio</h2>
-      <p class="sheet-tag">Web · Design tool</p>
-      <p class="sheet-desc">Folded desk nameplates, right in your browser. Type a name, tweak the style, download a print-ready card.</p>
-      <a class="sheet-visit" href="nameplate/index.html?lang=en">Open Nameplate Studio ↗</a>
-    </div>
-  </article>
-
-  <article class="sheet" id="sheet-moodsk" role="dialog" aria-modal="true" aria-labelledby="t-moodsk">
-    <div class="sheet-card">
-      <button class="sheet-close" type="button" aria-label="Close">
-        <svg viewBox="0 0 20 20" width="13" height="13" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      </button>
-      <img class="sheet-icon" src="assets/moodsk-icon.png" alt="">
-      <h2 class="sheet-title" id="t-moodsk">Moodsk</h2>
-      <p class="sheet-tag">macOS · Icons</p>
-      <p class="sheet-desc">Make your Mac unmistakably yours. Moodsk designs file and folder icons from images, SF Symbols or text — apply them one by one or in batches, and restore defaults from Finder.</p>
-      <a class="sheet-visit" href="https://moodsk.ajigu.com/?lang=en">Visit Moodsk ↗</a>
-    </div>
-  </article>
-
-  <article class="sheet" id="sheet-about" role="dialog" aria-modal="true" aria-labelledby="t-about">
-    <div class="sheet-card">
-      <button class="sheet-close" type="button" aria-label="Close">
-        <svg viewBox="0 0 20 20" width="13" height="13" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
-      </button>
-      <img class="sheet-icon tile-about-img" src="assets/logo.png" alt="">
-      <h2 class="sheet-title" id="t-about">ajigu</h2>
-      <p class="sheet-tag">An indie app studio</p>
-      <p class="sheet-desc">Small, private, delightful apps.</p>
-    </div>
-  </article>
-
-  <script defer src="lang-kit.js"></script>
-  <script defer src="home.js"></script>
+  </footer>
+  <script defer src="/reveal.js"></script>
+  <script defer src="/lang-kit.js"></script>
 </body>
 </html>
