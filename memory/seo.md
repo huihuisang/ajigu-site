@@ -9,3 +9,4 @@
 - Prioritize canonical entry pages for URL Inspection requests. Do not request each translated page individually; let Google discover them through the sitemap and internal links.
 - 2026-09-29 canonical audit: `/ko/` and `/zh-hant/` had missing trailing slashes in their canonical URLs. Published the fixes in ajigu-site commit `be6d404`.
 - 2026-09-29 guide audit: the Go Sleep and Daily APOD guide pages had malformed canonical and `mainEntityOfPage` URLs (the hostname was joined to a filename). Published corrections in `huihuisang/snorz-site` commit `23d2b01` and `huihuisang/dailyapod-site` commit `cb8f13b`.
+- 2026-09-29 Nameplate Studio audit: Search Console URL Inspection reported `https://ajigu.com/nameplate/` as indexed. The English product name was absent from its HTML title and description, so the page metadata now includes the English name and purpose. Indexing and ranking are separate; monitor Search performance for the exact query.
