@@ -511,6 +511,8 @@ function buildTemplateStrip() {
     cardButton.setAttribute("aria-selected", String(selected));
 
     const image = document.createElement("img");
+    image.width = 240;
+    image.height = 120;
     image.src = thumbnail;
     image.alt = "";
 

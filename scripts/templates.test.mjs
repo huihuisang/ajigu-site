@@ -9,6 +9,24 @@ const catalogSource = app.match(/const TEMPLATES = \[[\s\S]*?\n\];/)[0];
 const classic = { naturalWidth: 2362, naturalHeight: 2362 };
 const backgrounds = Object.fromEntries(["navy", "coral", "forest"].map((id) => [id, { naturalWidth: 2362, naturalHeight: 1181 }]));
 
+test("thumbnail dimensions are reserved before images load", () => {
+  const cards = [];
+  const context = {
+    TEMPLATES: [{ id: "classic", nameKey: "templateClassic" }],
+    currentTemplateId: "classic",
+    templateThumbnail: () => "data:image/png;base64,test",
+    t: () => "Classic",
+    applyTemplate() {},
+    templateStrip: { replaceChildren() {}, append: (card) => cards.push(card) },
+    document: { createElement: (tag) => ({ tag, children: [], width: 0, height: 0, setAttribute() {}, addEventListener() {}, append(...children) { this.children.push(...children); } }) },
+  };
+  const render = app.match(/function buildTemplateStrip\(\) \{[\s\S]*?\n\}/)[0];
+  vm.runInNewContext(`${render}; buildTemplateStrip();`, context);
+  const image = cards[0].children.find((child) => child.tag === "img");
+  assert.equal(image.width, 240);
+  assert.equal(image.height, 120);
+});
+
 function catalog(width = 2362, height = 2362) {
   const context = { template: classic, generatedTemplateBackgrounds: backgrounds, TEMPLATE_SIZE: 2362, nextLayerId: 1, card: { width, height }, panelHeight: () => height / 2, BUILTIN_FONTS: Array.from({ length: 6 }, (_, i) => ({ family: `Font ${i}` })), t: () => "Guest", createTextLayer: (options) => ({ type: "text", ...options }), defaultLayerOptions: () => ({ role: "name" }) };
   const backgroundFunction = app.match(/function createBackgroundLayer\([^)]*\) \{[\s\S]*?\n\}/)[0];
