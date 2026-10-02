@@ -40,23 +40,16 @@ test("layout changes retain the complete SEO guides in both languages", async ()
   }
 });
 
-test("the toolbar owns language and the preview owns export controls", async () => {
+test("the toolbar owns title, language, reset, and export controls", async () => {
   for (const path of ["nameplate/index.html", "nameplate/zh-hans/index.html"]) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), "utf8");
     const toolbar = html.match(/<header class="app-toolbar">([\s\S]*?)<\/header>/)?.[1];
     assert.ok(toolbar, path);
-    for (const id of ["page-title", "languageDropdownHost"]) {
+    for (const id of ["page-title", "languageDropdownHost", "resetButton", "downloadButton"]) {
       assert.ok(toolbar.includes(`id="${id}"`), id);
       assert.equal([...html.matchAll(new RegExp(`id="${id}"`, "g"))].length, 1);
     }
-    assert.doesNotMatch(toolbar, /id="resetButton"|id="downloadButton"/);
-    const actions = html.match(/<footer class="preview-actions">([\s\S]*?)<\/footer>/)?.[1];
-    assert.ok(actions, path);
-    for (const id of ["resetButton", "downloadButton"]) {
-      assert.ok(actions.includes(`id="${id}"`), id);
-      assert.equal([...html.matchAll(new RegExp(`id="${id}"`, "g"))].length, 1);
-    }
-    assert.doesNotMatch(html, /class="panel-actions"|class="eyebrow"/);
+    assert.doesNotMatch(html, /class="panel-actions"|class="preview-actions"|class="eyebrow"/);
     const sidebar = html.slice(html.indexOf('<section class="control-panel"'), html.indexOf('<section class="preview-panel"'));
     assert.ok(sidebar.includes('id="layerList"'));
     assert.ok(sidebar.includes('id="layerInspector"'));

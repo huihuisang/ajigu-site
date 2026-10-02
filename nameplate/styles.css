@@ -56,7 +56,7 @@ select {
 .app-shell {
   --workspace-height: min(100svh, 60rem);
   /* Reserve room for the toolbar, preview controls, and template rail. */
-  --preview-height: clamp(8rem, calc(var(--workspace-height) - 32rem), 20rem);
+  --preview-height: clamp(8rem, calc(var(--workspace-height) - 28rem), 20rem);
   display: grid;
   grid-template-columns: 20rem minmax(0, 1fr);
   grid-template-rows: auto minmax(0, 1fr);
@@ -110,15 +110,12 @@ select {
   flex-wrap: wrap;
 }
 
-.preview-actions {
-  flex: none;
+.toolbar-export {
   display: flex;
-  justify-content: flex-end;
   gap: 0.55rem;
-  margin-top: 1rem;
 }
 
-.preview-actions .button {
+.toolbar-export .button {
   min-height: 2.75rem;
   padding: 0.55rem 1rem;
   border-radius: 0.65rem;
@@ -1373,7 +1370,11 @@ progress {
     width: 100%;
   }
 
-  .preview-actions .button {
+  .toolbar-export {
+    flex: 1 1 100%;
+  }
+
+  .toolbar-export .button {
     flex: 1;
   }
 

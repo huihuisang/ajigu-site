@@ -53,7 +53,7 @@
     }
     </script>
 
-    <link rel="stylesheet" href="styles.css?v=7" />
+    <link rel="stylesheet" href="styles.css?v=8" />
   </head>
   <body>
     <main>
@@ -69,6 +69,10 @@
               <span>by ajigu</span>
             </a>
             <div id="languageDropdownHost" class="language-select"></div>
+            <div class="toolbar-export">
+              <button id="resetButton" class="button button-secondary" type="button" data-i18n="reset">Reset</button>
+              <button id="downloadButton" class="button button-primary" type="button" data-i18n="download">Download PNG</button>
+            </div>
           </div>
         </header>
 
@@ -265,10 +269,6 @@
           <h3 class="template-section-title" id="templates-title" data-i18n="templates">Templates</h3>
           <div id="templateStrip" class="template-strip" role="listbox" aria-label="Templates" data-i18n-aria-label="templates"></div>
         </section>
-        <footer class="preview-actions">
-          <button id="resetButton" class="button button-secondary" type="button" data-i18n="reset">Reset</button>
-          <button id="downloadButton" class="button button-primary" type="button" data-i18n="download">Download PNG</button>
-        </footer>
       </section>
     </div>
 
