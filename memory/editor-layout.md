@@ -1,0 +1,7 @@
+# Editor Layout
+
+- The desktop workspace height is `min(100svh, 60rem)`. The 60rem cap is 960px at the default root font size. Do not use an unbounded `min-height: 100vh`: tall windows create large empty spaces around the preview and separate it from the template gallery.
+- A bounded grid row keeps the control and preview panels within the workspace. The control body scrolls; the download actions stay outside it. The preview panel can scroll when a short window cannot fit its controls. Its active view does not shrink below content, so the template gallery does not overlap the canvas or 3D container.
+- The canvas scales through CSS only. Its maximum displayed height reserves room for the preview heading, hint, templates, and outer padding. The export canvas remains 2362 by 2362 pixels at the standard preset.
+- At widths of 900px or less, restore automatic shell height and automatic grid rows. The editor remains a vertical, content-sized layout rather than cropping the mobile controls.
+- Validation: all 17 regression tests passed. Browser measurements showed a 960px workspace in a 1504 by 1656 viewport and a 720px workspace in a 1280 by 720 viewport. The preview had no internal vertical overflow in these desktop sizes. The 390px mobile viewport had matching document client and scroll widths of 375px and retained all five templates and the 120px gallery. The 3D container rendered a canvas at 716 by 327px. PNG export showed its success message; downloaded file contents were not inspected. Direct file loading was not browser-tested.
