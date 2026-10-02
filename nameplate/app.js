@@ -259,13 +259,14 @@ document.querySelectorAll("img[src], script[src], link[rel='stylesheet'], link[r
 
 const template = new Image();
 const generatedTemplateBackgrounds = {
-  navy: createTemplateImage("assets/templates/navy-gold.png"),
-  coral: createTemplateImage("assets/templates/coral.png"),
-  forest: createTemplateImage("assets/templates/forest.png"),
+  navy: createTemplateImage("assets/templates/navy-gold.webp"),
+  coral: createTemplateImage("assets/templates/coral.webp"),
+  forest: createTemplateImage("assets/templates/forest.webp"),
 };
 
 function createTemplateImage(source) {
   const image = new Image();
+  image.decoding = "async";
   image.src = new URL(source, appAssetBase).href;
   return image;
 }
@@ -493,7 +494,7 @@ function templateThumbnail(tpl) {
     canvas.width = 240;
     canvas.height = 120;
     canvas.getContext("2d").drawImage(panel, 0, 0, 240, 120);
-    templateThumbnails[tpl.id] = canvas.toDataURL("image/png");
+    templateThumbnails[tpl.id] = canvas.toDataURL("image/webp", 0.9);
   }
   return templateThumbnails[tpl.id];
 }
@@ -513,6 +514,7 @@ function buildTemplateStrip() {
     const image = document.createElement("img");
     image.width = 240;
     image.height = 120;
+    image.decoding = "async";
     image.src = thumbnail;
     image.alt = "";
 

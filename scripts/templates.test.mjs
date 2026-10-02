@@ -69,5 +69,6 @@ test("all template panel files are available and have the expected dimensions", 
     const height = image.readUInt32BE(20);
     assert.ok(width >= 1600);
     assert.equal(width, height * 2);
+    assert.ok(app.includes(`assets/templates/${filename.replace(/\.png$/, ".webp")}`));
   }
 });

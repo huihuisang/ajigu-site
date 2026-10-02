@@ -1,0 +1,109 @@
+{
+  "images": [
+    {
+      "source": "assets/dailyapod-icon.png",
+      "output": "assets/dailyapod-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 21186,
+      "outputBytes": 15042
+    },
+    {
+      "source": "assets/favicon.png",
+      "output": "assets/favicon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 6446,
+      "outputBytes": 4054
+    },
+    {
+      "source": "assets/logo.png",
+      "output": "assets/logo.webp",
+      "encoding": "lossless",
+      "sourceBytes": 17327,
+      "outputBytes": 11008
+    },
+    {
+      "source": "assets/moodsk-icon.png",
+      "output": "assets/moodsk-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 102068,
+      "outputBytes": 67886
+    },
+    {
+      "source": "assets/nameplate-icon.png",
+      "output": "assets/nameplate-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 19758,
+      "outputBytes": 15022
+    },
+    {
+      "source": "assets/snorz-icon.png",
+      "output": "assets/snorz-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 39440,
+      "outputBytes": 24600
+    },
+    {
+      "source": "assets/tutu-icon.png",
+      "output": "assets/tutu-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 99016,
+      "outputBytes": 56146
+    },
+    {
+      "source": "assets/typenote-icon.png",
+      "output": "assets/typenote-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 97486,
+      "outputBytes": 70434
+    },
+    {
+      "source": "nameplate/assets/ajigu-logo.png",
+      "output": "nameplate/assets/ajigu-logo.webp",
+      "encoding": "lossless",
+      "sourceBytes": 17327,
+      "outputBytes": 11008
+    },
+    {
+      "source": "nameplate/assets/favicon-32.png",
+      "output": "nameplate/assets/favicon-32.webp",
+      "encoding": "lossless",
+      "sourceBytes": 3030,
+      "outputBytes": 2690
+    },
+    {
+      "source": "nameplate/assets/nameplate-icon.png",
+      "output": "nameplate/assets/nameplate-icon.webp",
+      "encoding": "lossless",
+      "sourceBytes": 55968,
+      "outputBytes": 39894
+    },
+    {
+      "source": "nameplate/assets/og.png",
+      "output": "nameplate/assets/og.webp",
+      "encoding": "lossless",
+      "sourceBytes": 209088,
+      "outputBytes": 119762
+    },
+    {
+      "source": "nameplate/assets/templates/coral.png",
+      "output": "nameplate/assets/templates/coral.webp",
+      "encoding": "quality-92",
+      "sourceBytes": 1795993,
+      "outputBytes": 138950
+    },
+    {
+      "source": "nameplate/assets/templates/forest.png",
+      "output": "nameplate/assets/templates/forest.webp",
+      "encoding": "quality-92",
+      "sourceBytes": 2453412,
+      "outputBytes": 288846
+    },
+    {
+      "source": "nameplate/assets/templates/navy-gold.png",
+      "output": "nameplate/assets/templates/navy-gold.webp",
+      "encoding": "quality-92",
+      "sourceBytes": 2200467,
+      "outputBytes": 235178
+    }
+  ]
+}
