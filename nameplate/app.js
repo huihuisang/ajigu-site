@@ -7,7 +7,7 @@ const translations = {
     guideTitle: "Make a printable folded desk nameplate",
     guideIntro: "Nameplate Studio is a free desk nameplate maker for meetings, classrooms, and events. Start with a template, add a name and number, and export a PNG to print and fold.",
     stepsTitle: "How to make and print your nameplate",
-    stepTemplate: "Choose Classic for a ready-made design, or Blank to start from an empty card.",
+    stepTemplate: "Choose Classic, Navy & Gold, Coral Pop, or Forest for a ready-made design. Choose Blank to start from an empty card.",
     stepEdit: "Select the Name or Number layer to edit its text. Adjust fonts, colors, outlines, and position. You can also add an image or upload a font.",
     stepPreview: "Use 3D preview to check the folded card. Download PNG exports the full card, including both name panels, rather than a screenshot of the editor.",
     stepPrint: "Print the exported PNG at a size that fits your paper. Keep both panels on the same sheet, trim the outer edge, and fold between the two mirrored panels. Test one card before printing a batch.",
@@ -18,7 +18,7 @@ const translations = {
     height: "Height",
     editorArea: "Editable lower panel",
     batchGuideTitle: "Create a batch from CSV or Excel",
-    batchGuideText: "Open Batch export, import your spreadsheet, and bind the Name and Number text layers to the matching columns. Check the first card, then download a ZIP containing one PNG per row. Keep text within the card boundaries.",
+    batchGuideText: "Classic includes both Name and Number layers. Other designs include a Name layer; add a text layer if you need a number. Open Batch export, import your spreadsheet, and bind the text layers to matching columns. Check the first card, then download a ZIP containing one PNG per row. Keep text within the card boundaries.",
     answersTitle: "Before you print",
     answerFormatTitle: "What does the tool export?",
     answerFormat: "A single card downloads as PNG. Batch export downloads a ZIP of PNG files. The editor supports different card ratios and custom pixel dimensions; it does not generate a PDF or set a physical paper size.",
@@ -33,6 +33,10 @@ const translations = {
     templates: "Templates",
     templateBlank: "Blank",
     templateClassic: "Classic",
+    templateSampleName: "Guest",
+    templateNavy: "Navy & Gold",
+    templateCoral: "Coral Pop",
+    templateForest: "Forest",
     backgroundLayer: "Background",
     templateApplied: "Template applied.",
     addText: "+ Text",
@@ -116,7 +120,7 @@ const translations = {
     guideTitle: "制作可打印的折叠桌面铭牌",
     guideIntro: "铭牌工作室是一款免费的在线桌牌制作工具，适合会议、课堂和活动。选择模板，填写姓名和编号，导出 PNG 后即可打印和折叠。",
     stepsTitle: "如何制作与打印桌牌",
-    stepTemplate: "选择「经典」使用现成设计，或选择「空白」从空卡片开始。",
+    stepTemplate: "选择「经典」「深蓝鎏金」「珊瑚活力」或「森林雅致」使用现成设计，也可以选择「空白」从空卡片开始。",
     stepEdit: "选中「姓名」或「编号」图层修改文字，再调整字体、颜色、描边和位置。也可以添加图片或上传字体文件。",
     stepPreview: "开启「3D 预览」检查折叠后的效果。「下载 PNG」导出的是包含上下两个姓名面板的完整卡片，而不是编辑区截图。",
     stepPrint: "将导出的 PNG 按纸张可容纳的尺寸打印。确保两个面板在同一张纸上，裁去外侧多余部分，再沿两个对称面板之间折叠。批量打印前先试印一张。",
@@ -127,7 +131,7 @@ const translations = {
     height: "高度",
     editorArea: "可编辑的下半面板",
     batchGuideTitle: "从 CSV 或 Excel 批量生成",
-    batchGuideText: "展开「批量导出」，导入表格，将「姓名」和「编号」文本图层绑定到对应列。确认第一张卡片的效果后，下载 ZIP，每行会生成一张 PNG。请确保文字没有超出卡片边界。",
+    batchGuideText: "「经典」包含姓名和编号图层，其他设计包含姓名图层，需要编号时可添加文本图层。展开「批量导出」，导入表格，将文本图层绑定到对应列。确认第一张卡片的效果后，下载 ZIP，每行会生成一张 PNG。请确保文字没有超出卡片边界。",
     answersTitle: "打印前的常见问题",
     answerFormatTitle: "可以导出什么格式？",
     answerFormat: "单张卡片导出为 PNG；批量导出为包含多张 PNG 的 ZIP。编辑器支持多种卡片比例和自定义像素尺寸，不生成 PDF，也不设置实际纸张尺寸。",
@@ -142,6 +146,10 @@ const translations = {
     templates: "模板",
     templateBlank: "空白",
     templateClassic: "经典",
+    templateSampleName: "灵不灵",
+    templateNavy: "深蓝鎏金",
+    templateCoral: "珊瑚活力",
+    templateForest: "森林雅致",
     backgroundLayer: "背景",
     templateApplied: "模板已应用。",
     addText: "＋文本",
@@ -250,6 +258,28 @@ document.querySelectorAll("img[src], script[src], link[rel='stylesheet'], link[r
 });
 
 const template = new Image();
+const generatedTemplateBackgrounds = {
+  navy: createTemplateImage("assets/templates/navy-gold.png"),
+  coral: createTemplateImage("assets/templates/coral.png"),
+  forest: createTemplateImage("assets/templates/forest.png"),
+};
+
+function createTemplateImage(source) {
+  const image = new Image();
+  image.src = new URL(source, appAssetBase).href;
+  return image;
+}
+
+function waitForTemplateImage(image) {
+  return new Promise((resolve, reject) => {
+    if (image.complete && image.naturalWidth > 0) {
+      resolve();
+      return;
+    }
+    image.addEventListener("load", resolve, { once: true });
+    image.addEventListener("error", reject, { once: true });
+  });
+}
 const canvas = document.querySelector("#cardCanvas");
 const context = canvas.getContext("2d");
 const editorCanvas = document.querySelector("#editorCanvas");
@@ -375,7 +405,7 @@ const TEMPLATES = [
       return [
         createBackgroundLayer(),
         createTextLayer({
-          text: "灵不灵",
+          text: t("templateSampleName"),
           outline: { enabled: true, color: "#ffffff", width: 7.5 },
           ...defaultLayerOptions("name"),
         }),
@@ -387,16 +417,71 @@ const TEMPLATES = [
       ];
     },
   },
+  {
+    id: "navy",
+    nameKey: "templateNavy",
+    buildLayers() {
+      return [
+        createBackgroundLayer(generatedTemplateBackgrounds.navy),
+        createTextLayer({
+          text: t("templateSampleName"),
+          ...nameplateTextOptions({
+            x: 1181, y: 590, size: 440, font: BUILTIN_FONTS[5].family,
+            color: "#fff8e8", outline: { enabled: false, color: "#fff8e8", width: 0 },
+            shadow: { enabled: true, color: "#020914", opacity: 55, blur: 22, x: 10, y: 16 },
+          }),
+        }),
+      ];
+    },
+  },
+  {
+    id: "coral",
+    nameKey: "templateCoral",
+    buildLayers() {
+      return [
+        createBackgroundLayer(generatedTemplateBackgrounds.coral),
+        createTextLayer({
+          text: t("templateSampleName"),
+          ...nameplateTextOptions({
+            x: 1181, y: 590, size: 450, color: "#9f3440",
+            outline: { enabled: false, color: "#9f3440", width: 0 },
+            shadow: { enabled: false, color: "#9f3440", opacity: 0, blur: 0, x: 0, y: 0 },
+          }),
+        }),
+      ];
+    },
+  },
+  {
+    id: "forest",
+    nameKey: "templateForest",
+    buildLayers() {
+      return [
+        createBackgroundLayer(generatedTemplateBackgrounds.forest),
+        createTextLayer({
+          text: t("templateSampleName"),
+          ...nameplateTextOptions({
+            x: 1181, y: 590, size: 440, font: BUILTIN_FONTS[2].family,
+            color: "#1d3a2d", outline: { enabled: false, color: "#1d3a2d", width: 0 },
+            shadow: { enabled: false, color: "#061814", opacity: 0, blur: 0, x: 0, y: 0 },
+          }),
+        }),
+      ];
+    },
+  },
 ];
 // 默认应用第二个模板（经典）
 let currentTemplateId = TEMPLATES[1].id;
 const templateThumbnails = {};
 
+function clearTemplateThumbnails() {
+  Object.keys(templateThumbnails).forEach((key) => delete templateThumbnails[key]);
+}
+
 const templateStrip = document.querySelector("#templateStrip");
 
 // 缩略图按模板数据完整合成（背景 + 默认文字），按模板 id 缓存
 function templateThumbnail(tpl) {
-  if (!(template.complete && template.naturalWidth > 0)) return null;
+  if (!templateReady) return null;
   if (!templateThumbnails[tpl.id]) {
     const panel = document.createElement("canvas");
     panel.width = card.width;
@@ -462,7 +547,24 @@ function reset(quiet = false) {
   if (!quiet) notify("resetDone");
 }
 
-function createBackgroundLayer() {
+function nameplateTextOptions({
+  role = "name", x, y, size, font, color, outline, shadow,
+}) {
+  const ratioX = card.width / TEMPLATE_SIZE;
+  const ratioY = panelHeight() / (TEMPLATE_SIZE / 2);
+  return {
+    role,
+    x: x * ratioX,
+    y: y * ratioY,
+    size: Math.round(size * ratioX),
+    font,
+    color,
+    outline,
+    shadow,
+  };
+}
+
+function createBackgroundLayer(image = template) {
   return {
     id: `layer-${nextLayerId++}`,
     type: "image",
@@ -470,11 +572,10 @@ function createBackgroundLayer() {
     label: null,
     visible: true,
     fillsCanvas: true, // 始终铺满画布：不参与拖拽缩放，忽略位置/宽度
-    // 直接引用主模板图（load 之后才会建层，complete 恒为真），
-    // 用 srcRect 取下半区——不再裁剪出第二张异步图片，避免缩略图/画布竞态丢底图
-    image: template,
-    srcRect: [0, TEMPLATE_SIZE / 2, TEMPLATE_SIZE, TEMPLATE_SIZE / 2],
-    aspectRatio: TEMPLATE_SIZE / (TEMPLATE_SIZE / 2),
+    // The legacy artwork is a full card; new backgrounds are single panels.
+    image,
+    srcRect: image === template ? [0, TEMPLATE_SIZE / 2, TEMPLATE_SIZE, TEMPLATE_SIZE / 2] : undefined,
+    aspectRatio: image === template ? 2 : image.naturalWidth / image.naturalHeight,
     x: card.width / 2,
     y: panelHeight() / 2,
     width: card.width,
@@ -1475,7 +1576,7 @@ function applyCardSize(width, height) {
     clampLayer(layer);
   });
   // 卡片尺寸变了，缩略图按新比例重新生成
-  Object.keys(templateThumbnails).forEach((key) => delete templateThumbnails[key]);
+  clearTemplateThumbnails();
   if (threeD.inited) buildTent();
   updateSizePresetDisplay();
   render();
@@ -2362,14 +2463,19 @@ document.querySelector("#languageDropdownHost").append(languageDropdown.element)
 
 function setLocale(next, updateHistory = true) {
   if (!(next in translations)) return;
+  const previousSampleName = t("templateSampleName");
   if (updateHistory && next !== currentLocale && location.protocol !== "file:") {
     history.pushState(null, "", localeMetadata[next].path + location.hash);
   }
   currentLocale = next;
+  const nameLayer = getRoleLayer("name");
+  if (nameLayer?.text === previousSampleName) nameLayer.text = t("templateSampleName");
   try { localStorage.setItem("nameplate-lang", next); } catch (error) { /* Storage can be unavailable. */ }
   languageDropdown.setValue(next);
+  clearTemplateThumbnails();
   applyTranslations();
   updateBatchUi();
+  render();
 }
 
 window.addEventListener("popstate", () => {
@@ -2391,12 +2497,13 @@ function refreshDropdownLabels() {
   sizeDropdown.setAriaLabel(t("sizeLabel"));
 }
 
-template.addEventListener("load", () => {
+Promise.all([
+  waitForTemplateImage(template),
+  ...Object.values(generatedTemplateBackgrounds).map(waitForTemplateImage),
+]).then(() => {
   templateReady = true;
   reset(true);
-});
-
-template.addEventListener("error", () => notify("error", {}, "error"));
+}).catch(() => notify("error", {}, "error"));
 
 applyTranslations();
 updateBatchUi();

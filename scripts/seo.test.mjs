@@ -100,7 +100,8 @@ test("legacy language URLs use the supported route and retain the hash", () => {
 test("language switches preserve editor state and do not navigate on disk", () => {
   for (const protocol of ["https:", "file:"]) {
     const calls = [];
-    const context = { translations: { en: {}, "zh-CN": {} }, localeMetadata, currentLocale: "en", location: { protocol, hash: "" }, history: { pushState: (_, __, url) => calls.push(url) }, localStorage: { setItem() {} }, languageDropdown: { setValue() {} }, applyTranslations() {}, updateBatchUi() {}, design: { text: "SEO QA" } };
+    const design = { text: "SEO QA" };
+    const context = { translations: { en: {}, "zh-CN": {} }, localeMetadata, currentLocale: "en", location: { protocol, hash: "" }, history: { pushState: (_, __, url) => calls.push(url) }, localStorage: { setItem() {} }, languageDropdown: { setValue() {} }, t: () => "Guest", getRoleLayer: () => design, clearTemplateThumbnails() {}, applyTranslations() {}, updateBatchUi() {}, render() {}, design };
     vm.runInNewContext(`${switcher}; setLocale('zh-CN'); setLocale('zh-CN'); setLocale('ko');`, context);
     assert.equal(context.currentLocale, "zh-CN");
     assert.equal(context.design.text, "SEO QA");

@@ -284,7 +284,7 @@
         <section aria-labelledby="steps-title">
           <h3 id="steps-title" data-i18n="stepsTitle">如何制作与打印桌牌</h3>
           <ol>
-            <li data-i18n="stepTemplate">选择「经典」使用现成设计，或选择「空白」从空卡片开始。</li>
+            <li data-i18n="stepTemplate">选择「经典」「深蓝鎏金」「珊瑚活力」或「森林雅致」使用现成设计，也可以选择「空白」从空卡片开始。</li>
             <li data-i18n="stepEdit">选中「姓名」或「编号」图层修改文字，再调整字体、颜色、描边和位置。也可以添加图片或上传字体文件。</li>
             <li data-i18n="stepPreview">开启「3D 预览」检查折叠后的效果。「下载 PNG」导出的是包含上下两个姓名面板的完整卡片，而不是编辑区截图。</li>
             <li data-i18n="stepPrint">将导出的 PNG 按纸张可容纳的尺寸打印。确保两个面板在同一张纸上，裁去外侧多余部分，再沿两个对称面板之间折叠。批量打印前先试印一张。</li>
@@ -299,7 +299,7 @@
 王悦,03</code></pre>
           <a id="sampleCsvLink" href="../examples/attendees-zh.csv" download data-i18n="sampleLink">下载 CSV 示例</a>
           <h3 data-i18n="batchGuideTitle">从 CSV 或 Excel 批量生成</h3>
-          <p data-i18n="batchGuideText">展开「批量导出」，导入表格，将「姓名」和「编号」文本图层绑定到对应列。确认第一张卡片的效果后，下载 ZIP，每行会生成一张 PNG。请确保文字没有超出卡片边界。</p>
+          <p data-i18n="batchGuideText">「经典」包含姓名和编号图层，其他设计包含姓名图层，需要编号时可添加文本图层。展开「批量导出」，导入表格，将文本图层绑定到对应列。确认第一张卡片的效果后，下载 ZIP，每行会生成一张 PNG。请确保文字没有超出卡片边界。</p>
         </section>
       </div>
       <section class="guide-answers" aria-labelledby="answers-title">
@@ -340,6 +340,6 @@
 
     <!-- Load XLSX, JSZip, and Three.js only when their features are used. -->
     <script defer src="../template-data.js?v=2"></script>
-    <script defer src="../app.js?v=3"></script>
+    <script defer src="../app.js?v=4"></script>
   </body>
 </html>
