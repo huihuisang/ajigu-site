@@ -53,15 +53,13 @@
     }
     </script>
 
-    <link rel="stylesheet" href="styles.css?v=5" />
+    <link rel="stylesheet" href="styles.css?v=6" />
   </head>
   <body>
     <main>
     <div class="app-shell">
-      <section class="control-panel" aria-labelledby="page-title">
-        <header class="panel-header">
-          <div>
-            <p class="eyebrow">NAMEPLATE STUDIO</p>
+        <header class="app-toolbar">
+          <div class="toolbar-brand">
             <h1 id="page-title" data-i18n="title">Nameplate Studio</h1>
             <p class="subtitle" data-i18n="subtitle">Pick a template, edit the layers, and download a print-ready desk nameplate.</p>
           </div>
@@ -71,9 +69,14 @@
               <span>by ajigu</span>
             </a>
             <div id="languageDropdownHost" class="language-select"></div>
+            <div class="toolbar-export">
+              <button id="resetButton" class="button button-secondary" type="button" data-i18n="reset">Reset</button>
+              <button id="downloadButton" class="button button-primary" type="button" data-i18n="download">Download PNG</button>
+            </div>
           </div>
         </header>
 
+      <section class="control-panel" aria-labelledby="layers-title">
         <div class="panel-body">
           <section class="panel-section" aria-labelledby="layers-title">
             <div class="section-title-row">
@@ -229,10 +232,6 @@
           </details>
         </div>
 
-        <footer class="panel-actions">
-          <button id="downloadButton" class="button button-primary" type="button" data-i18n="download">Download PNG</button>
-          <button id="resetButton" class="button button-secondary" type="button" data-i18n="reset">Reset</button>
-        </footer>
       </section>
 
       <section class="preview-panel" aria-labelledby="preview-title">
