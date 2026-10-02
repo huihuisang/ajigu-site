@@ -44,10 +44,6 @@ function render(locale) {
     return key in values ? setAttribute(tag, "content", values[key]) : tag;
   });
   html = html.replace(/<link rel="canonical"[^>]*>/, (tag) => setAttribute(tag, "href", url));
-  html = html.replace(/<a\b[^>]*\bdata-locale-link="([^"]+)"[^>]*>/g, (tag, language) => {
-    tag = tag.replace(/\saria-current="[^"]*"/, "");
-    return language === locale ? setAttribute(tag, "aria-current", "page") : tag;
-  });
   html = html.replace(/<a id="sampleCsvLink"[^>]*>/, (tag) => setAttribute(tag, "href", page.sample));
   // Relative assets preserve the editor's direct-from-disk workflow.
   const assetPrefix = locale === "en" ? "" : "../";

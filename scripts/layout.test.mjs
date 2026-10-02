@@ -29,23 +29,31 @@ test("preview scaling does not change the exported canvas dimensions", () => {
 
 test("layout changes retain the complete SEO guides in both languages", async () => {
   const snapshots = {
-    "nameplate/": "2410a9ef19c77355ba5a83c96544d8e5f191eb2a3142cd53f1e0fbae0f0eb127",
-    "nameplate/zh-hans/": "ea1a5b42c6ce47b3d8f45b3b34c81b1de323c8a2601a5a3e99f8c10f7cf994d5",
+    "nameplate/": "25182eea90001c94e23531d4be1fddf9acc63fc3efdc1e25284ab217eddfc943",
+    "nameplate/zh-hans/": "a59be4d46b18263ec4f4b12fc9a4547bbbc6f4c301ce1a2033b09f2032c656a8",
   };
   for (const [route, expected] of Object.entries(snapshots)) {
     const html = await readFile(new URL(`../${route}index.html`, import.meta.url), "utf8");
     const guide = html.slice(html.indexOf('<section class="nameplate-guide"'), html.indexOf("</main>"));
+    assert.doesNotMatch(guide, /locale-links|data-locale-link/);
     assert.equal(createHash("sha256").update(guide).digest("hex"), expected, route);
   }
 });
 
-test("the toolbar owns title, language, reset, and export controls", async () => {
+test("the toolbar owns language and the preview owns export controls", async () => {
   for (const path of ["nameplate/index.html", "nameplate/zh-hans/index.html"]) {
     const html = await readFile(new URL(`../${path}`, import.meta.url), "utf8");
     const toolbar = html.match(/<header class="app-toolbar">([\s\S]*?)<\/header>/)?.[1];
     assert.ok(toolbar, path);
-    for (const id of ["page-title", "languageDropdownHost", "resetButton", "downloadButton"]) {
+    for (const id of ["page-title", "languageDropdownHost"]) {
       assert.ok(toolbar.includes(`id="${id}"`), id);
+      assert.equal([...html.matchAll(new RegExp(`id="${id}"`, "g"))].length, 1);
+    }
+    assert.doesNotMatch(toolbar, /id="resetButton"|id="downloadButton"/);
+    const actions = html.match(/<footer class="preview-actions">([\s\S]*?)<\/footer>/)?.[1];
+    assert.ok(actions, path);
+    for (const id of ["resetButton", "downloadButton"]) {
+      assert.ok(actions.includes(`id="${id}"`), id);
       assert.equal([...html.matchAll(new RegExp(`id="${id}"`, "g"))].length, 1);
     }
     assert.doesNotMatch(html, /class="panel-actions"|class="eyebrow"/);

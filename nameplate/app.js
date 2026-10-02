@@ -754,10 +754,6 @@ function applyTranslations() {
   schema.offers.priceCurrency = metadata.currency;
   schemaElement.textContent = JSON.stringify(schema);
   document.querySelector("#sampleCsvLink").href = new URL(metadata.sample.slice("/nameplate/".length), appAssetBase).href;
-  document.querySelectorAll("[data-locale-link]").forEach((link) => {
-    if (link.dataset.localeLink === getLocale()) link.setAttribute("aria-current", "page");
-    else link.removeAttribute("aria-current");
-  });
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = t(element.dataset.i18n);
   });
@@ -2485,14 +2481,6 @@ function setLocale(next, updateHistory = true) {
 window.addEventListener("popstate", () => {
   const next = Object.keys(localeMetadata).find((locale) => localeMetadata[locale].path === location.pathname);
   if (next) setLocale(next, false);
-});
-
-document.querySelectorAll("[data-locale-link]").forEach((link) => {
-  link.addEventListener("click", (event) => {
-    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    event.preventDefault();
-    setLocale(link.dataset.localeLink);
-  });
 });
 
 function refreshDropdownLabels() {
