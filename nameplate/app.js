@@ -4,6 +4,29 @@ const panelHeight = () => Math.round(card.height / 2);
 
 const translations = {
   en: {
+    guideTitle: "Make a printable folded desk nameplate",
+    guideIntro: "Nameplate Studio is a free desk nameplate maker for meetings, classrooms, and events. Start with a template, add a name and number, and export a PNG to print and fold.",
+    stepsTitle: "How to make and print your nameplate",
+    stepTemplate: "Choose Classic for a ready-made design, or Blank to start from an empty card.",
+    stepEdit: "Select the Name or Number layer to edit its text. Adjust fonts, colors, outlines, and position. You can also add an image or upload a font.",
+    stepPreview: "Use 3D preview to check the folded card. Download PNG exports the full card, including both name panels, rather than a screenshot of the editor.",
+    stepPrint: "Print the exported PNG at a size that fits your paper. Keep both panels on the same sheet, trim the outer edge, and fold between the two mirrored panels. Test one card before printing a batch.",
+    exampleTitle: "Example: nameplates for a meeting",
+    exampleText: "For three attendees, put their names and seat numbers in a spreadsheet. The first row contains column names; each following row becomes one card.",
+    sampleLink: "Download the sample CSV",
+    sampleCsv: "name,number\nAlex Chen,01\nSam Lee,02\nJordan Kim,03",
+    height: "Height",
+    editorArea: "Editable lower panel",
+    batchGuideTitle: "Create a batch from CSV or Excel",
+    batchGuideText: "Open Batch export, import your spreadsheet, and bind the Name and Number text layers to the matching columns. Check the first card, then download a ZIP containing one PNG per row. Keep text within the card boundaries.",
+    answersTitle: "Before you print",
+    answerFormatTitle: "What does the tool export?",
+    answerFormat: "A single card downloads as PNG. Batch export downloads a ZIP of PNG files. The editor supports different card ratios and custom pixel dimensions; it does not generate a PDF or set a physical paper size.",
+    answerPrivacyTitle: "Are my files uploaded?",
+    answerPrivacy: "Names, uploaded images, fonts, and spreadsheets are processed in your browser. These files are not uploaded to a server. The site and font resources can still use an internet connection.",
+    answerSaveTitle: "Will my design be saved?",
+    answerSave: "Switching between English and Chinese keeps your current design. Reloading or leaving the page clears the design, so download your cards before you close it.",
+    guideSupport: "Questions or a bug? Open an issue on GitHub.",
     title: "Nameplate Studio",
     subtitle: "Pick a template, edit the layers, and download a print-ready desk nameplate.",
     layers: "Layers",
@@ -90,6 +113,29 @@ const translations = {
     localServerRequired: "The browser blocked canvas export. Run start.command and open http://localhost:4173, then try again.",
   },
   "zh-CN": {
+    guideTitle: "制作可打印的折叠桌面铭牌",
+    guideIntro: "铭牌工作室是一款免费的在线桌牌制作工具，适合会议、课堂和活动。选择模板，填写姓名和编号，导出 PNG 后即可打印和折叠。",
+    stepsTitle: "如何制作与打印桌牌",
+    stepTemplate: "选择「经典」使用现成设计，或选择「空白」从空卡片开始。",
+    stepEdit: "选中「姓名」或「编号」图层修改文字，再调整字体、颜色、描边和位置。也可以添加图片或上传字体文件。",
+    stepPreview: "开启「3D 预览」检查折叠后的效果。「下载 PNG」导出的是包含上下两个姓名面板的完整卡片，而不是编辑区截图。",
+    stepPrint: "将导出的 PNG 按纸张可容纳的尺寸打印。确保两个面板在同一张纸上，裁去外侧多余部分，再沿两个对称面板之间折叠。批量打印前先试印一张。",
+    exampleTitle: "示例：为会议制作多张姓名牌",
+    exampleText: "把三位参会者的姓名和座位编号放入表格。第一行填写列名，后续每行生成一张桌牌。",
+    sampleLink: "下载 CSV 示例",
+    sampleCsv: "name,number\n陈晓,01\n李明,02\n王悦,03",
+    height: "高度",
+    editorArea: "可编辑的下半面板",
+    batchGuideTitle: "从 CSV 或 Excel 批量生成",
+    batchGuideText: "展开「批量导出」，导入表格，将「姓名」和「编号」文本图层绑定到对应列。确认第一张卡片的效果后，下载 ZIP，每行会生成一张 PNG。请确保文字没有超出卡片边界。",
+    answersTitle: "打印前的常见问题",
+    answerFormatTitle: "可以导出什么格式？",
+    answerFormat: "单张卡片导出为 PNG；批量导出为包含多张 PNG 的 ZIP。编辑器支持多种卡片比例和自定义像素尺寸，不生成 PDF，也不设置实际纸张尺寸。",
+    answerPrivacyTitle: "文件会被上传吗？",
+    answerPrivacy: "姓名、上传的图片、字体和表格都在浏览器内处理，这些文件不会上传到服务器。网站文件和字体资源仍可能通过网络加载。",
+    answerSaveTitle: "设计会自动保存吗？",
+    answerSave: "切换中英文时会保留当前设计。刷新或离开页面会清除设计，请在关闭前下载所需卡片。",
+    guideSupport: "有疑问或遇到问题？可以在 GitHub 提交反馈。",
     title: "桌面铭牌工作室",
     subtitle: "选择模板、编辑图层，一键导出可打印的桌面铭牌。",
     layers: "图层",
@@ -176,6 +222,32 @@ const translations = {
     localServerRequired: "浏览器拦截了画布导出。请运行 start.command 并打开 http://localhost:4173 后重试。",
   },
 };
+
+const localeMetadata = {
+  en: {
+    path: "/nameplate/",
+    title: "Nameplate Studio — Free Printable Desk Nameplate Maker",
+    description: "Create folded desk nameplates for free. Edit names, fonts, and colors, preview in 3D, and export PNG cards or a batch from CSV and Excel. Files stay in your browser.",
+    ogLocale: "en_US",
+    currency: "USD",
+    sample: "/nameplate/examples/attendees.csv",
+  },
+  "zh-CN": {
+    path: "/nameplate/zh-hans/",
+    title: "铭牌工作室 Nameplate Studio — 免费在线桌牌制作与打印",
+    description: "免费在线制作折叠桌面铭牌与会议姓名牌。自定义姓名、字体、颜色和描边，支持 3D 预览、PNG 导出及 CSV、Excel 批量生成，文件在浏览器内处理。",
+    ogLocale: "zh_CN",
+    currency: "CNY",
+    sample: "/nameplate/examples/attendees-zh.csv",
+  },
+};
+
+const appAssetBase = new URL(".", document.currentScript.src);
+// Keep asset URLs stable when the language switch changes the page path.
+document.querySelectorAll("img[src], script[src], link[rel='stylesheet'], link[rel='icon'], link[rel='apple-touch-icon']").forEach((element) => {
+  const attribute = element.hasAttribute("src") ? "src" : "href";
+  element.setAttribute(attribute, element[attribute]);
+});
 
 const template = new Image();
 const canvas = document.querySelector("#cardCanvas");
@@ -449,28 +521,20 @@ function getLayerName(layer) {
 /* ---------- i18n & toast ---------- */
 
 function resolveInitialLocale() {
-  // 1) 链接显式指定：?lang=xx
   const fromUrl = new URLSearchParams(location.search).get("lang");
-  if (fromUrl && fromUrl in translations) return fromUrl;
-  // 2) 用户手动切换过的语言（仅记录手动选择，自动检测不持久化）
-  try {
-    const saved = localStorage.getItem("nameplate-lang");
-    if (saved && saved in translations) return saved;
-  } catch (error) { /* 隐私模式等 */ }
-  // 3) 从 ajigu 主站某语言版本点进来：跟随该语言
-  if (document.referrer.startsWith("https://ajigu.com")) {
-    const match = document.referrer.match(/ajigu\.com\/(zh-hans|zh-hant|ja|ko)\b/);
-    if (match && match[1] in translations) return match[1];
-    if (document.referrer.startsWith("https://ajigu.com/")) return "en"; // 主站英文首页
+  if (fromUrl !== null && location.protocol !== "file:") {
+    const legacyLocale = /^(zh(?:-|$)|zht$)/i.test(fromUrl) ? "zh-CN" : "en";
+    const target = localeMetadata[legacyLocale].path + location.hash;
+    if (location.pathname !== localeMetadata[legacyLocale].path) {
+      location.replace(target);
+    } else {
+      history.replaceState(null, "", target);
+    }
   }
-  // 4) 浏览器语言
-  const nav = (navigator.languages?.[0] || navigator.language || "").toLowerCase();
-  if (nav.startsWith("zh")) return "zh-CN";
-  for (const locale of navigator.languages || []) {
-    const short = locale.toLowerCase().split("-")[0];
-    if (short in translations) return short;
+  if (fromUrl !== null && location.protocol === "file:") {
+    return /^(zh(?:-|$)|zht$)/i.test(fromUrl) ? "zh-CN" : "en";
   }
-  return "en";
+  return document.documentElement.dataset.locale || "en";
 }
 
 let currentLocale = resolveInitialLocale();
@@ -504,7 +568,7 @@ function loadScript(src) {
   if (!loadedScripts.has(src)) {
     loadedScripts.set(src, new Promise((resolve, reject) => {
       const script = document.createElement("script");
-      script.src = src;
+      script.src = new URL(src, appAssetBase).href;
       script.onload = resolve;
       script.onerror = () => {
         loadedScripts.delete(src);
@@ -567,6 +631,28 @@ function showLoader(container, message = "") {
 
 function applyTranslations() {
   document.documentElement.lang = getLocale();
+  document.documentElement.dataset.locale = getLocale();
+  const metadata = localeMetadata[getLocale()];
+  const canonical = `https://ajigu.com${metadata.path}`;
+  document.title = metadata.title;
+  document.querySelector('meta[name="description"]').content = metadata.description;
+  document.querySelector('link[rel="canonical"]').href = canonical;
+  for (const prefix of ["og", "twitter"]) {
+    document.querySelector(`meta[${prefix === "og" ? "property" : "name"}="${prefix}:title"]`).content = metadata.title;
+    document.querySelector(`meta[${prefix === "og" ? "property" : "name"}="${prefix}:description"]`).content = metadata.description;
+  }
+  document.querySelector('meta[property="og:url"]').content = canonical;
+  document.querySelector('meta[property="og:locale"]').content = metadata.ogLocale;
+  const schemaElement = document.querySelector('script[type="application/ld+json"]');
+  const schema = JSON.parse(schemaElement.textContent);
+  Object.assign(schema, { url: canonical, inLanguage: getLocale(), description: metadata.description });
+  schema.offers.priceCurrency = metadata.currency;
+  schemaElement.textContent = JSON.stringify(schema);
+  document.querySelector("#sampleCsvLink").href = new URL(metadata.sample.slice("/nameplate/".length), appAssetBase).href;
+  document.querySelectorAll("[data-locale-link]").forEach((link) => {
+    if (link.dataset.localeLink === getLocale()) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = t(element.dataset.i18n);
   });
@@ -2274,14 +2360,30 @@ const languageDropdown = createDropdown({
 });
 document.querySelector("#languageDropdownHost").append(languageDropdown.element);
 
-function setLocale(next) {
+function setLocale(next, updateHistory = true) {
   if (!(next in translations)) return;
+  if (updateHistory && next !== currentLocale && location.protocol !== "file:") {
+    history.pushState(null, "", localeMetadata[next].path + location.hash);
+  }
   currentLocale = next;
-  try { localStorage.setItem("nameplate-lang", next); } catch (error) { /* 隐私模式等 */ }
+  try { localStorage.setItem("nameplate-lang", next); } catch (error) { /* Storage can be unavailable. */ }
   languageDropdown.setValue(next);
   applyTranslations();
   updateBatchUi();
 }
+
+window.addEventListener("popstate", () => {
+  const next = Object.keys(localeMetadata).find((locale) => localeMetadata[locale].path === location.pathname);
+  if (next) setLocale(next, false);
+});
+
+document.querySelectorAll("[data-locale-link]").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    setLocale(link.dataset.localeLink);
+  });
+});
 
 function refreshDropdownLabels() {
   languageDropdown.setAriaLabel(t("language"));
@@ -2303,4 +2405,4 @@ notify("loading");
 // The template ships inline as a data URI (template-data.js) so the canvas
 // never becomes tainted: downloads work even when index.html is opened
 // directly from disk. The file path is kept as a fallback.
-template.src = window.TEMPLATE_DATA_URI || "assets/template-clean.webp";
+template.src = window.TEMPLATE_DATA_URI || new URL("assets/template-clean.webp", appAssetBase).href;

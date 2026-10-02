@@ -4,6 +4,7 @@
 
 ## Apps
 
+- [Nameplate Studio](https://ajigu.com/nameplate/): Free browser tool for printable folded desk nameplates. Edit text and image layers, preview the folded card in 3D, export PNG, and generate batches from CSV or Excel. Files are processed locally. [Simplified Chinese](https://ajigu.com/nameplate/zh-hans/).
 - [Go Sleep](https://gosleep.ajigu.com/): iPhone sleep sound tracker. Organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports, Snore Load trends, and shareable Sound Matches. Free with Pro upgrade.
 - [TypeNote](https://typenote.ajigu.com/): Free macOS menu bar app that turns your keyboard into a musical instrument. 128 instrument sounds, play melodies by typing (Jianpu/MusicXML/MIDI), under 8ms latency, open source.
 - [DailyApod](https://dailyapod.ajigu.com/): iPhone app for NASA Astronomy Picture of the Day (APOD). Browse the archive since 1995, search, favourites with iCloud sync, home screen widgets and caption translation. Free with Pro upgrade.

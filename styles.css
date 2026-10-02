@@ -282,9 +282,15 @@ h1 {
   font-size: 0.9rem;
 }
 .footer-inner p { margin: 0; }
-.footer-links { display: flex; gap: 20px; }
-.footer-links a { color: var(--muted); text-decoration: none; }
+.footer-links { display: flex; flex-wrap: wrap; max-width: 100%; gap: 12px 20px; }
+.footer-links a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); text-decoration: none; }
 .footer-links a:hover { color: var(--ink); }
+
+.studio-note { max-width: 760px; padding-bottom: 40px; }
+.studio-note h2 { font-size: 1.35rem; }
+.studio-note p { color: var(--muted); }
+.studio-links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
+.studio-links a { display: inline-flex; align-items: center; min-height: 44px; text-underline-offset: 4px; }
 
 @media (max-width: 760px) {
   .hero {

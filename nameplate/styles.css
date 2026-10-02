@@ -23,6 +23,34 @@ body {
     #f5f2ea;
 }
 
+.nameplate-guide {
+  width: min(100% - 2rem, 68rem);
+  margin: 0 auto 3rem;
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  background: rgb(255 255 255 / 82%);
+  border: 1px solid rgb(31 39 66 / 10%);
+  border-radius: 1.5rem;
+  line-height: 1.75;
+}
+
+.nameplate-guide h2 { font-size: clamp(1.4rem, 3vw, 2rem); line-height: 1.3; }
+.nameplate-guide h3 { font-size: 1.1rem; line-height: 1.4; }
+.nameplate-guide a { color: #354daf; text-underline-offset: 0.2em; }
+.nameplate-guide li { margin-bottom: 0.75rem; }
+.guide-intro { color: #596278; }
+.guide-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.nameplate-guide pre { padding: 1rem; background: #f5f2ea; border-radius: 0.75rem; overflow-x: auto; }
+.guide-answers dt { font-weight: 700; margin-top: 1rem; }
+.guide-answers dd { margin: 0.4rem 0 0; }
+.guide-support { margin-top: 2rem; }
+.locale-links { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; }
+.locale-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.locale-links [aria-current="page"] { font-weight: 700; }
+
+@media (max-width: 760px) {
+  .guide-columns { grid-template-columns: minmax(0, 1fr); gap: 0.5rem; }
+}
+
 button,
 input,
 select {
