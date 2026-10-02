@@ -53,6 +53,13 @@ const translations = {
     delete: "Delete",
     content: "Text",
     font: "Font",
+    fontHeiti: "Heiti",
+    fontSongti: "Songti",
+    fontKaiti: "Kaiti",
+    fontYuanti: "Yuanti",
+    fontSans: "System Sans",
+    fontSerif: "Serif",
+    fontDefaultSuffix: " (default)",
     fontPickerTitle: "Choose font",
     fontSearchPlaceholder: "Search fonts…",
     fontPreviewSample: "Name 123",
@@ -166,6 +173,13 @@ const translations = {
     delete: "删除",
     content: "文字",
     font: "字体",
+    fontHeiti: "黑体",
+    fontSongti: "宋体",
+    fontKaiti: "楷体",
+    fontYuanti: "圆体",
+    fontSans: "无衬线",
+    fontSerif: "衬线",
+    fontDefaultSuffix: "（默认）",
     fontPickerTitle: "选择字体",
     fontSearchPlaceholder: "搜索字体…",
     fontPreviewSample: "姓名 123",
@@ -374,7 +388,8 @@ function createTextLayer(options = {}) {
     // Auto-shrink only guards against running off the canvas, so the size
     // slider stays effective across its whole range.
     maxWidth: options.maxWidth ?? card.width - 160,
-    font: options.font ?? BUILTIN_FONTS[0].family,
+    font: options.font ?? getDefaultFont(),
+    usesDefaultFont: options.font == null,
     size: options.size ?? 360,
     color: options.color ?? "#627ef5",
     outline: options.outline ?? { enabled: true, color: "#ffffff", width: 7.5 },
@@ -597,7 +612,6 @@ function defaultLayerOptions(role) {
       role,
       x: 2070 * ratioX,
       y: 235 * ratioY, // 蓝色扇形（y ≈ 6–465）的视觉中心
-      font: BUILTIN_FONTS[0].family,
       size: Math.round(410 * ratioX),
       color: "#ffffff",
       outline: false,
@@ -902,15 +916,20 @@ function createDropdown({
 
 const BUILTIN_FONTS = [
   {
-    label: "黑体（默认）",
+    labelKey: "fontHeiti",
     family: '"PingFang SC", "Microsoft YaHei", "Heiti SC", sans-serif',
   },
-  { label: "宋体", family: '"Songti SC", SimSun, serif' },
-  { label: "楷体", family: '"Kaiti SC", STKaiti, KaiTi, serif' },
-  { label: "圆体", family: '"Yuanti SC", YouYuan, sans-serif' },
-  { label: "无衬线", family: "system-ui, sans-serif" },
-  { label: "衬线", family: 'Georgia, "Times New Roman", "Songti SC", serif' },
+  { labelKey: "fontSongti", family: '"Songti SC", SimSun, serif' },
+  { labelKey: "fontKaiti", family: '"Kaiti SC", STKaiti, KaiTi, serif' },
+  { labelKey: "fontYuanti", family: '"Yuanti SC", YouYuan, sans-serif' },
+  { labelKey: "fontSans", family: "system-ui, sans-serif" },
+  { labelKey: "fontSerif", family: 'Georgia, "Times New Roman", "Songti SC", serif' },
 ];
+
+function getDefaultFont() {
+  const key = getLocale() === "en" ? "fontSans" : "fontHeiti";
+  return BUILTIN_FONTS.find((font) => font.labelKey === key).family;
+}
 
 let customFonts = []; // { family, label } — populated by font file upload
 let systemFontFamilies = null; // null until queryLocalFonts succeeds
@@ -919,7 +938,8 @@ function getFontLabel(family) {
   const custom = customFonts.find((font) => font.family === family);
   if (custom) return custom.label;
   const builtin = BUILTIN_FONTS.find((font) => font.family === family);
-  return builtin?.label ?? family;
+  if (!builtin) return family;
+  return t(builtin.labelKey) + (family === getDefaultFont() ? t("fontDefaultSuffix") : "");
 }
 
 function updateFontPickerLabel(layer) {
@@ -935,7 +955,7 @@ function getFontPreviewText() {
 
 function getFontGroups() {
   const groups = [
-    { label: t("fontGroupBuiltins"), fonts: [...BUILTIN_FONTS] },
+    { label: t("fontGroupBuiltins"), fonts: BUILTIN_FONTS.map((font) => ({ ...font, label: getFontLabel(font.family) })) },
     { label: t("fontGroupCustom"), fonts: [...customFonts] },
   ];
   if (systemFontFamilies) {
@@ -1012,6 +1032,7 @@ function applyFontSelection(family) {
   const layer = getSelectedLayer();
   if (layer?.type === "text" && family) {
     layer.font = family;
+    layer.usesDefaultFont = false;
     updateFontPickerLabel(layer);
     render();
   }
@@ -2087,6 +2108,7 @@ async function loadCustomFont(file) {
     const layer = getSelectedLayer();
     if (layer?.type === "text") {
       layer.font = family;
+      layer.usesDefaultFont = false;
       updateFontPickerLabel(layer);
       render();
     }
@@ -2468,6 +2490,9 @@ function setLocale(next, updateHistory = true) {
     history.pushState(null, "", localeMetadata[next].path + location.hash);
   }
   currentLocale = next;
+  for (const layer of layers) {
+    if (layer.type === "text" && layer.usesDefaultFont) layer.font = getDefaultFont();
+  }
   const nameLayer = getRoleLayer("name");
   if (nameLayer?.text === previousSampleName) nameLayer.text = t("templateSampleName");
   try { localStorage.setItem("nameplate-lang", next); } catch (error) { /* Storage can be unavailable. */ }
