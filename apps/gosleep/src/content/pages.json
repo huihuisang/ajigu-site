@@ -1,0 +1,2568 @@
+[
+  {
+    "route": "/",
+    "locale": "en-US",
+    "metadata": {
+      "title": "Go Sleep — Sleep Sound Tracker for iPhone: Snore · Sleep Talk · Cough",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "Go Sleep is a private sleep sound tracker. It organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends."
+        },
+        {
+          "property": "og:title",
+          "content": "Go Sleep — Record. Understand. Discover."
+        },
+        {
+          "property": "og:description",
+          "content": "Go Sleep is a private sleep sound tracker. It organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends."
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Go Sleep",
+          "alternateName": [
+            "Snorz",
+            "Go Sleep: Snore Tracker",
+            "snore tracker app",
+            "sleep sound recorder"
+          ],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "Go Sleep is a private sleep sound tracker. It organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "en-US",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I know if I snore at night?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Place your iPhone beside the bed and start Go Sleep. It saves only likely snoring events as short clips you can replay in the morning."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can it record sleep talking?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Speech-like sounds that may be sleep talking are detected on device and labelled separately from snores and coughs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will it fill my phone with audio files?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Silence is never intentionally stored—only short clips of detected events, and you can delete everything in-app."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Go Sleep a medical device?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Snore Load and nightly trends are wellness information, not a medical diagnosis."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "Record. Understand. Discover.",
+    "intro": "Go Sleep listens while you rest and organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports, useful trends, and a playful place to hear memorable Sound Matches.",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "See how it works ↓",
+        "external": false
+      },
+      {
+        "href": "/support/",
+        "label": "Get support",
+        "external": false
+      }
+    ],
+    "note": "On-device analysis · Silence is never intentionally stored · You choose what to share",
+    "sections": [
+      {
+        "id": "features",
+        "title": "A calmer way to make sense of the sounds at night.",
+        "body": "<p>Go Sleep focuses on the moments that matter—snoring, sleep talking, and coughs—keeps the experience understandable, and never pretends to be a medical diagnosis.</p>",
+        "items": [
+          {
+            "title": "Record privately",
+            "body": "<p>Place your iPhone beside the bed. Go Sleep analyses sound on-device and saves only likely snoring, speech-like, and cough-like events as playable clips.</p>"
+          },
+          {
+            "title": "Understand the night",
+            "body": "<p>Review Snoring, Possible Sleep Talking, and Cough-like Sounds separately, with Snore Load, duration, relative loudness, timing, and longer-term patterns.</p>"
+          },
+          {
+            "title": "Discover the fun",
+            "body": "<p>Hear memorable Sound Matches from the community and share only the specific clip you choose—never your full night.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "Your night, made understandable.",
+        "body": "<p>Snore Load combines several signals into one non-diagnostic wellness trend. Dive deeper only when you want to.</p><ul>\n          <li>Clock-aligned event timelines with playable clips</li>\n          <li>Weekly and monthly patterns from your recorded nights</li>\n          <li>Sleep-position comparisons and Home Screen widgets</li>\n          <li>Clear data-quality context when a night cannot be scored</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["Night report"]
+      },
+      {
+        "id": "section-2",
+        "title": "Mystery Sound",
+        "body": "<p>A playful match from Apple’s on-device sound classifier.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "Your bedroom is not content by default.",
+        "body": "<p>Audio analysis happens on your iPhone and no speech transcription is performed. Recordings stay private unless you explicitly enable iCloud Sync or choose one specific clip to publish to Discover.</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "Read the Privacy Policy",
+            "href": "/privacy/"
+          }
+        ],
+        "tags": [
+          "On-device analysis",
+          "No advertising trackers",
+          "Explicit public sharing",
+          "Delete your data in-app"
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "Questions, answered.",
+        "questions": [
+          {
+            "question": "How do I know if I snore at night?",
+            "answer": "<p>Place your iPhone beside the bed and start Go Sleep. It saves only likely snoring events as short clips you can replay in the morning.</p>"
+          },
+          {
+            "question": "Can it record sleep talking?",
+            "answer": "<p>Yes. Speech-like sounds that may be sleep talking are detected on device and labelled separately from snores and coughs.</p>"
+          },
+          {
+            "question": "Will it fill my phone with audio files?",
+            "answer": "<p>No. Silence is never intentionally stored—only short clips of detected events, and you can delete everything in-app.</p>"
+          },
+          {
+            "question": "Is Go Sleep a medical device?",
+            "answer": "<p>No. Snore Load and nightly trends are wellness information, not a medical diagnosis.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/support/",
+        "label": "Support",
+        "external": false
+      },
+      {
+        "href": "/privacy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/",
+        "label": "Night sounds guide",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 Go Sleep. Wellness trends, not a medical diagnosis."
+  },
+  {
+    "route": "/en-gb/",
+    "locale": "en-GB",
+    "metadata": {
+      "title": "Go Sleep — Sleep Sound Tracker App for iPhone",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "Go Sleep is a private sleep sound tracker. It organises likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends."
+        },
+        {
+          "property": "og:title",
+          "content": "Go Sleep — Record. Understand. Discover."
+        },
+        {
+          "property": "og:description",
+          "content": "Go Sleep is a private sleep sound tracker. It organises likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends."
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_GB"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Go Sleep",
+          "alternateName": ["Snorz", "snore tracker app"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "Go Sleep is a private sleep sound tracker. It organises likely snoring, possible sleep talking, and cough-like sounds into clear night reports and trends.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "en-GB",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I know if I snore at night?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Place your iPhone beside the bed and start Go Sleep. It saves only likely snoring events as short clips you can replay in the morning."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can it record sleep talking?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Speech-like sounds that may be sleep talking are detected on device and labelled separately from snores and coughs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will it fill my phone with audio files?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Silence is never intentionally stored—only short clips of detected events, and you can delete everything in-app."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Go Sleep a medical device?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Snore Load and nightly trends are wellness information, not a medical diagnosis."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "Record. Understand. Discover.",
+    "intro": "Go Sleep listens while you rest and organises likely snoring, possible sleep talking, and cough-like sounds into clear night reports, useful trends, and a playful place to hear memorable Sound Matches.",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "See how it works ↓",
+        "external": false
+      },
+      {
+        "href": "/en-gb/support/",
+        "label": "Get support",
+        "external": false
+      }
+    ],
+    "note": "On-device analysis · Silence is never intentionally stored · You choose what to share",
+    "sections": [
+      {
+        "id": "features",
+        "title": "A calmer way to make sense of the sounds at night.",
+        "body": "<p>Go Sleep focuses on the moments that matter—snoring, sleep talking, and coughs—keeps the experience understandable, and never pretends to be a medical diagnosis.</p>",
+        "items": [
+          {
+            "title": "Record privately",
+            "body": "<p>Place your iPhone beside the bed. Go Sleep analyses sound on-device and saves only likely snoring, speech-like, and cough-like events as playable clips.</p>"
+          },
+          {
+            "title": "Understand the night",
+            "body": "<p>See Snore Load, detected duration, relative loudness, event timing, reported sleep position, and longer-term patterns.</p>"
+          },
+          {
+            "title": "Discover the fun",
+            "body": "<p>Hear memorable Sound Matches from the community and share only the specific clip you choose—never your full night.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "Your night, made understandable.",
+        "body": "<p>Snore Load combines several signals into one non-diagnostic wellness trend. Dive deeper only when you want to.</p><ul>\n          <li>Clock-aligned event timelines with playable clips</li>\n          <li>Weekly and monthly patterns from your recorded nights</li>\n          <li>Sleep-position comparisons and Home Screen widgets</li>\n          <li>Clear data-quality context when a night cannot be scored</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["Night report"]
+      },
+      {
+        "id": "section-2",
+        "title": "Mystery Sound",
+        "body": "<p>A playful match from Apple’s on-device sound classifier.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "Your bedroom is not content by default.",
+        "body": "<p>Audio analysis happens on your iPhone and no speech transcription is performed. Recordings stay private unless you explicitly enable iCloud Sync or choose one specific clip to publish to Discover.</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "Read the Privacy Policy",
+            "href": "/en-gb/privacy/"
+          }
+        ],
+        "tags": [
+          "On-device analysis",
+          "No advertising trackers",
+          "Explicit public sharing",
+          "Delete your data in-app"
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "Questions, answered.",
+        "questions": [
+          {
+            "question": "How do I know if I snore at night?",
+            "answer": "<p>Place your iPhone beside the bed and start Go Sleep. It saves only likely snoring events as short clips you can replay in the morning.</p>"
+          },
+          {
+            "question": "Can it record sleep talking?",
+            "answer": "<p>Yes. Speech-like sounds that may be sleep talking are detected on device and labelled separately from snores and coughs.</p>"
+          },
+          {
+            "question": "Will it fill my phone with audio files?",
+            "answer": "<p>No. Silence is never intentionally stored—only short clips of detected events, and you can delete everything in-app.</p>"
+          },
+          {
+            "question": "Is Go Sleep a medical device?",
+            "answer": "<p>No. Snore Load and nightly trends are wellness information, not a medical diagnosis.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/en-gb/support/",
+        "label": "Support",
+        "external": false
+      },
+      {
+        "href": "/en-gb/privacy/",
+        "label": "Privacy",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/",
+        "label": "Night sounds guide",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 Go Sleep. Wellness trends, not a medical diagnosis."
+  },
+  {
+    "route": "/zh-hans/",
+    "locale": "zh-Hans",
+    "metadata": {
+      "title": "睡好 — iPhone 睡眠声音记录 app：鼾声 · 梦话 · 咳嗽",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "睡好是一款私密的睡眠声音记录 app，自动整理疑似鼾声、可能的梦话与类咳嗽声，生成清晰的夜间报告与趋势。"
+        },
+        {
+          "property": "og:title",
+          "content": "睡好 — 记录、读懂、发现"
+        },
+        {
+          "property": "og:description",
+          "content": "睡好是一款私密的睡眠声音记录 app，自动整理疑似鼾声、可能的梦话与类咳嗽声，生成清晰的夜间报告与趋势。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_Hans"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "睡好",
+          "alternateName": ["Snorz", "Go Sleep", "鼾声记录", "梦话记录", "睡眠监测 app"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "睡好是一款私密的睡眠声音记录 app，自动整理疑似鼾声、可能的梦话与类咳嗽声，生成清晰的夜间报告与趋势。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "zh-Hans",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "怎么知道自己晚上打不打呼噜？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "把 iPhone 放在床边运行睡好。它只把疑似鼾声保存成短片段，早上回放就能确认。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "能录到梦话吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "可以。疑似梦话的类语音声音会在设备上单独识别，与鼾声、咳嗽分开标记。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "会存一大堆音频文件吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "不会。静音不会被刻意保存，只有检测到事件的短片段，并且可以在 app 内全部删除。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "睡好是医疗器械吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "不是。Snore Load 与夜间趋势属于健康参考信息，不构成医疗诊断。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "记录。 读懂。 发现。",
+    "intro": "睡好会在您休息时安静聆听，把疑似鼾声、可能的梦话和类咳嗽声整理成清晰的夜间报告、实用趋势，还有令人印象深刻的 Sound Match。",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "了解其工作原理 ↓",
+        "external": false
+      },
+      {
+        "href": "/zh-hans/support/",
+        "label": "获取支持",
+        "external": false
+      }
+    ],
+    "note": "设备端分析 · 静音内容不会被主动保存 · 分享什么由您决定",
+    "sections": [
+      {
+        "id": "features",
+        "title": "更从容地读懂夜间的声音。",
+        "body": "<p>睡好专注于重要时刻——鼾声、梦话与咳嗽——保持体验易于理解，并且从不假装是医疗诊断。</p>",
+        "items": [
+          {
+            "title": "私密记录",
+            "body": "<p>将您的 iPhone 放在床边。睡好会在设备上分析声音，仅将疑似鼾声、类语音和类咳嗽事件保存为可播放的剪辑。</p>"
+          },
+          {
+            "title": "读懂每晚",
+            "body": "<p>查看 Snore Load、检测到的持续时间、相对响度、事件时间、报告的睡眠位置和长期模式。</p>"
+          },
+          {
+            "title": "发现趣味鼾声",
+            "body": "<p>聆听社区中令人难忘的 Sound Match，并仅分享您选择的特定剪辑，而不是整个夜晚。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "让每晚变得清晰易懂。",
+        "body": "<p>Snore Load 将多种信号组合成一种非诊断性健康趋势。仅当您愿意时才深入研究。</p><ul>\n          <li>带有可播放剪辑的时钟对齐事件时间线</li>\n          <li>记录的夜晚的每周和每月模式</li>\n          <li>睡眠位置比较和主屏幕小部件</li>\n          <li>当一晚无法得分时清晰的数据质量背景</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["夜间报告"]
+      },
+      {
+        "id": "section-2",
+        "title": "神秘声音",
+        "body": "<p>Apple 的有趣匹配设备上的声音分类器。</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "卧室里的声音，默认不会成为公开内容。",
+        "body": "<p>声音分析全部在您的 iPhone 上完成，也不会进行语音转录。除非您明确开启 iCloud 同步，或选择将某一段剪辑发布到“发现”，录音将始终保持私密。</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "阅读隐私政策",
+            "href": "/zh-hans/privacy/"
+          }
+        ],
+        "tags": ["设备上分析", "无广告跟踪器", "明确公开共享", "删除您的数据应用内"]
+      },
+      {
+        "id": "faq",
+        "title": "常见问题",
+        "questions": [
+          {
+            "question": "怎么知道自己晚上打不打呼噜？",
+            "answer": "<p>把 iPhone 放在床边运行睡好。它只把疑似鼾声保存成短片段，早上回放就能确认。</p>"
+          },
+          {
+            "question": "能录到梦话吗？",
+            "answer": "<p>可以。疑似梦话的类语音声音会在设备上单独识别，与鼾声、咳嗽分开标记。</p>"
+          },
+          {
+            "question": "会存一大堆音频文件吗？",
+            "answer": "<p>不会。静音不会被刻意保存，只有检测到事件的短片段，并且可以在 app 内全部删除。</p>"
+          },
+          {
+            "question": "睡好是医疗器械吗？",
+            "answer": "<p>不是。Snore Load 与夜间趋势属于健康参考信息，不构成医疗诊断。</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/zh-hans/support/",
+        "label": "支持",
+        "external": false
+      },
+      {
+        "href": "/zh-hans/privacy/",
+        "label": "隐私",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/zh-hans/",
+        "label": "夜间声音指南",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 睡好。健康趋势，而不是医疗诊断。"
+  },
+  {
+    "route": "/zh-hant/",
+    "locale": "zh-Hant",
+    "metadata": {
+      "title": "睡好 — iPhone 睡眠聲音記錄 app：鼾聲 · 夢話 · 咳嗽",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "睡好是一款私密的睡眠聲音記錄 app，自動整理疑似鼾聲、可能的夢話與類咳嗽聲，產生清晰的夜間報告與趨勢。"
+        },
+        {
+          "property": "og:title",
+          "content": "睡好 — 記錄、讀懂、探索"
+        },
+        {
+          "property": "og:description",
+          "content": "睡好是一款私密的睡眠聲音記錄 app，自動整理疑似鼾聲、可能的夢話與類咳嗽聲，產生清晰的夜間報告與趨勢。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_Hant"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "睡好",
+          "alternateName": ["Snorz", "Go Sleep", "鼾聲記錄", "睡眠監測 app"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "睡好是一款私密的睡眠聲音記錄 app，自動整理疑似鼾聲、可能的夢話與類咳嗽聲，產生清晰的夜間報告與趨勢。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "zh-Hant",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "怎麼知道自己晚上打不打呼？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "把 iPhone 放在床邊執行睡好。它只把疑似鼾聲儲存成短片段，早上回放就能確認。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "能錄到夢話嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "可以。疑似夢話的類語音聲音會在裝置上單獨辨識，與鼾聲、咳嗽分開標記。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "會存一大堆音訊檔案嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "不會。靜音不會被刻意保存，只有偵測到事件的短片段，並且可以在 app 內全部刪除。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "睡好是醫療器材嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "不是。Snore Load 與夜間趨勢屬於健康參考資訊，不構成醫療診斷。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "記錄。 讀懂。 探索。",
+    "intro": "睡好會在您休息時安靜聆聽，把疑似鼾聲、可能的夢話和類咳嗽聲整理成清晰的夜間報告、實用趨勢，還有令人印象深刻的 Sound Match。",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "看看它是如何運作的 ↓",
+        "external": false
+      },
+      {
+        "href": "/zh-hant/support/",
+        "label": "取得支持",
+        "external": false
+      }
+    ],
+    "note": "裝置端分析 · 靜音內容不會被主動儲存 · 分享什麼由您決定",
+    "sections": [
+      {
+        "id": "features",
+        "title": "更從容地讀懂夜間的聲音。",
+        "body": "<p>睡好專注於重要時刻——鼾聲、夢話與咳嗽——保持體驗易於理解，並且從不假裝是醫療診斷。</p>",
+        "items": [
+          {
+            "title": "私密記錄",
+            "body": "<p>將您的 iPhone 放在床邊。睡好會在裝置上分析聲音，僅將疑似鼾聲、類語音和類咳嗽事件儲存為可播放的剪輯。</p>"
+          },
+          {
+            "title": "讀懂每晚",
+            "body": "<p>查看 Snore Load、偵測到的持續時間、相對響度、事件時間、報告的睡眠位置和長期模式。</p>"
+          },
+          {
+            "title": "探索趣味鼾聲",
+            "body": "<p>聆聽社群中令人難忘的 Sound Match，並僅分享您選擇的特定剪輯，而不是分享您的整個夜晚。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "讓每晚變得清晰易懂。",
+        "body": "<p>Snore Load 將多種訊號組合成一種非診斷性健康趨勢。僅當您願意時才深入研究。</p><ul>\n          <li>具有可播放剪輯的時鐘對齊事件時間軸</li>\n          <li>記錄的夜晚的每周和每月模式</li>\n          <li>睡眠姿勢比較與主螢幕小工具</li>\n          <li>當一晚無法評分時清晰的數據品質背景</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["夜間報告"]
+      },
+      {
+        "id": "section-2",
+        "title": "神秘聲音",
+        "body": "<p>來自 Apple 裝置上聲音分類器的有趣匹配。</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "臥室裡的聲音，預設不會成為公開內容。",
+        "body": "<p>聲音分析全部在您的 iPhone 上完成，也不會進行語音轉錄。除非您明確開啟 iCloud 同步，或選擇將某段剪輯發佈到「發現」，錄音將始終保持私密。</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "閱讀隱私權政策",
+            "href": "/zh-hant/privacy/"
+          }
+        ],
+        "tags": ["設備上分析", "沒有廣告追蹤器", "明確的公開分享", "刪除應用程式內的資料"]
+      },
+      {
+        "id": "faq",
+        "title": "常見問題",
+        "questions": [
+          {
+            "question": "怎麼知道自己晚上打不打呼？",
+            "answer": "<p>把 iPhone 放在床邊執行睡好。它只把疑似鼾聲儲存成短片段，早上回放就能確認。</p>"
+          },
+          {
+            "question": "能錄到夢話嗎？",
+            "answer": "<p>可以。疑似夢話的類語音聲音會在裝置上單獨辨識，與鼾聲、咳嗽分開標記。</p>"
+          },
+          {
+            "question": "會存一大堆音訊檔案嗎？",
+            "answer": "<p>不會。靜音不會被刻意保存，只有偵測到事件的短片段，並且可以在 app 內全部刪除。</p>"
+          },
+          {
+            "question": "睡好是醫療器材嗎？",
+            "answer": "<p>不是。Snore Load 與夜間趨勢屬於健康參考資訊，不構成醫療診斷。</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/zh-hant/support/",
+        "label": "支持",
+        "external": false
+      },
+      {
+        "href": "/zh-hant/privacy/",
+        "label": "隱私權",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/zh-hans/",
+        "label": "夜間聲音指南",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 睡好。健康趨勢，而不是醫學診斷。"
+  },
+  {
+    "route": "/ja/",
+    "locale": "ja",
+    "metadata": {
+      "title": "ぐっすり — いびき・寝言・咳を記録する iPhone 睡眠サウンドアプリ",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "ぐっすりはプライベートな睡眠サウンドトラッカー。いびき・寝言の可能性・咳のような音を整理し、分かりやすい夜のレポートと傾向をお届けします。"
+        },
+        {
+          "property": "og:title",
+          "content": "ぐっすり — 記録・理解・発見"
+        },
+        {
+          "property": "og:description",
+          "content": "ぐっすりはプライベートな睡眠サウンドトラッカー。いびき・寝言の可能性・咳のような音を整理し、分かりやすい夜のレポートと傾向をお届けします。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "ぐっすり",
+          "alternateName": ["Snorz", "Go Sleep", "いびき記録アプリ", "寝言録音"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "ぐっすりはプライベートな睡眠サウンドトラッカー。いびき・寝言の可能性・咳のような音を整理し、分かりやすい夜のレポートと傾向をお届けします。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "ja",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "夜にいびきをかいているか知りたい",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "iPhone をベッドサイドに置いてぐっすりを起動。いびきの可能性が高い場面だけを短いクリップとして保存するので、朝に再生して確認できます。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "寝言も録音できますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "できます。寝言の可能性がある音声のような音はデバイス上で検出され、いびきや咳とは別にラベル付けされます。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "音声ファイルで一杯になりますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "なりません。無音は意図的に保存されず、検出したイベントの短いクリップだけ。アプリ内ですべて削除できます。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "ぐっすりは医療機器ですか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "いいえ。Snore Load や夜の傾向はウェルネス情報であり、医療診断ではありません。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "記録。 理解。 発見。",
+    "intro": "ぐっすりは眠っている間に静かに見守り、いびき・寝言の可能性・咳のような音を、分かりやすい夜のレポートと傾向に整理します。楽しい Sound Match も。",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "仕組みを確認してください ↓",
+        "external": false
+      },
+      {
+        "href": "/ja/support/",
+        "label": "サポートを受ける",
+        "external": false
+      }
+    ],
+    "note": "端末上で分析 · 無音は意図的に保存しません · 共有する内容は自分で選べます",
+    "sections": [
+      {
+        "id": "features",
+        "title": "夜の音を、もっと落ち着いて理解する方法。",
+        "body": "<p>ぐっすりは大切な瞬間——いびき、寝言、咳——に集中し、体験を分かりやすく保ちます。医療診断では決してありません。</p>",
+        "items": [
+          {
+            "title": "プライベートに記録",
+            "body": "<p>iPhone をベッドサイドに。ぐっすりはデバイス上で音を解析し、いびきの可能性・音声のような音・咳のような出来事だけを再生可能なクリップとして保存します。</p>"
+          },
+          {
+            "title": "夜を理解",
+            "body": "<p>いびきの負荷、検出された持続時間、相対的な音量、イベントのタイミング、報告された睡眠位置、長期パターンを確認します。</p>"
+          },
+          {
+            "title": "楽しいいびきを発見",
+            "body": "<p>コミュニティからの思い出に残るサウンド マッチを聞いて、選択した特定のクリップのみを共有します。一晩中共有する必要はありません。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "一晩の様子を、分かりやすく。",
+        "body": "<p>Snore Load は、複数の信号を 1 つの非診断的健康傾向に結合します。必要な場合にのみ、より深く潜ってください。</p><ul>\n          <li>再生可能なクリップを含む、時計に合わせたイベント タイムライン</li>\n          <li>記録された夜間の週次および月次のパターン</li>\n          <li>睡眠位置の比較とホーム画面ウィジェット</li>\n          <li>夜のスコアを獲得できない場合のデータ品質のコンテキストを明確にする</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["夜のレポート"]
+      },
+      {
+        "id": "section-2",
+        "title": "ミステリーサウンド",
+        "body": "<p>Apple のデバイス上のサウンド分類器による遊び心のある一致。</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "寝室の音が、勝手に公開されることはありません。",
+        "body": "<p>音声解析は iPhone 上で行われ、音声の文字起こしは行いません。iCloud 同期を明示的に有効にするか、特定のクリップを「発見」に公開しない限り、録音はプライベートのままです。</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "プライバシー ポリシーを読む",
+            "href": "/ja/privacy/"
+          }
+        ],
+        "tags": [
+          "オンデバイス分析",
+          "広告トラッカーなし",
+          "明示的なパブリック共有",
+          "アプリ内のデータを削除する"
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "よくある質問",
+        "questions": [
+          {
+            "question": "夜にいびきをかいているか知りたい",
+            "answer": "<p>iPhone をベッドサイドに置いてぐっすりを起動。いびきの可能性が高い場面だけを短いクリップとして保存するので、朝に再生して確認できます。</p>"
+          },
+          {
+            "question": "寝言も録音できますか？",
+            "answer": "<p>できます。寝言の可能性がある音声のような音はデバイス上で検出され、いびきや咳とは別にラベル付けされます。</p>"
+          },
+          {
+            "question": "音声ファイルで一杯になりますか？",
+            "answer": "<p>なりません。無音は意図的に保存されず、検出したイベントの短いクリップだけ。アプリ内ですべて削除できます。</p>"
+          },
+          {
+            "question": "ぐっすりは医療機器ですか？",
+            "answer": "<p>いいえ。Snore Load や夜の傾向はウェルネス情報であり、医療診断ではありません。</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/ja/support/",
+        "label": "サポート",
+        "external": false
+      },
+      {
+        "href": "/ja/privacy/",
+        "label": "プライバシー",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/ja/",
+        "label": "夜の音ガイド",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 ぐっすり.健康に関するトレンド。医学的診断ではありません。"
+  },
+  {
+    "route": "/ko/",
+    "locale": "ko",
+    "metadata": {
+      "title": "잘자 — 코골이 · 몸말 · 기침 기록 iPhone 수면 사운드 앱",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "잘자는 프라이빗한 수면 사운드 트래커입니다. 코골이 가능성, 수면 중 발화 가능성, 기침 유사 소리를 정리해 명확한 밤 리포트와 추세를 제공합니다."
+        },
+        {
+          "property": "og:title",
+          "content": "잘자 — 기록하고, 이해하고, 발견하세요"
+        },
+        {
+          "property": "og:description",
+          "content": "잘자는 프라이빗한 수면 사운드 트래커입니다. 코골이 가능성, 수면 중 발화 가능성, 기침 유사 소리를 정리해 명확한 밤 리포트와 추세를 제공합니다."
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "잘자",
+          "alternateName": ["Snorz", "Go Sleep", "코골이 기록 앱"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "잘자는 프라이빗한 수면 사운드 트래커입니다. 코골이 가능성, 수면 중 발화 가능성, 기침 유사 소리를 정리해 명확한 밤 리포트와 추세를 제공합니다.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "ko",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "밤에 코골이 하는지 어떻게 알 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "iPhone을 침대 옆에 두고 잘자를 실행하세요. 코골이 가능성이 높은 순간만 짧은 클립으로 저장되어 아침에 재생해 확인할 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "몸말도 녹음되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "네. 수면 중 발화 가능성이 있는 음성 유사 소리는 기기에서 감지되어 코골이·기침과 별도로 표시됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "오디오 파일로 가득 차나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "아니요. 무음은 의도적으로 저장되지 않고, 감지된 이벤트의 짧은 클립만 남습니다. 앱에서 모두 삭제할 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "잘자는 의료 기기인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "아니요. Snore Load와 밤 추세는 웰니스 정보이며 의료 진단이 아닙니다."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "기록. 이해. 발견.",
+    "intro": "잘자는 주무시는 동안 조용히 듣고, 코골이 가능성·수면 중 발화 가능성·기침 유사 소리를 명확한 밤 리포트와 유용한 추세로 정리합니다. 재미있는 Sound Match도.",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "작동 방식 보기 ↓",
+        "external": false
+      },
+      {
+        "href": "/ko/support/",
+        "label": "지원 받기",
+        "external": false
+      }
+    ],
+    "note": "기기 내 분석 · 무음은 의도적으로 저장하지 않음 · 공유할 내용은 직접 선택",
+    "sections": [
+      {
+        "id": "features",
+        "title": "밤의 소리를 더 편안하게 이해하는 방법.",
+        "body": "<p>잘자는 중요한 순간——코골이, 수면 중 말, 기침——에 집중하며, 이해하기 쉬운 경험을 유지하고 의료 진단을 가장하지 않습니다.</p>",
+        "items": [
+          {
+            "title": "비공개로 기록",
+            "body": "<p>iPhone을 침대 옆에 두세요. 잘자는 기기에서 소리를 분석하고 코골이 가능성·발화 유사·기침 유사 이벤트만 재생 가능한 클립으로 저장합니다.</p>"
+          },
+          {
+            "title": "밤을 이해",
+            "body": "<p>Snore Load, 감지된 지속 시간, 상대적인 음량, 이벤트 타이밍, 보고된 수면 자세, 장기 패턴을 확인하세요.</p>"
+          },
+          {
+            "title": "재미있는 코골이 발견",
+            "body": "<p>커뮤니티에서 기억에 남는 Sound Match 를 듣고 선택한 특정 클립만 공유하세요. 밤새도록 공유하지 마세요.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "매일 밤을 이해하기 쉽게.",
+        "body": "<p>Snore Load 는 여러 신호를 하나의 비진단적 건강 추세로 결합합니다. 원할 때만 더 자세히 알아보세요.</p><ul>\n          <li>재생 가능한 클립이 포함된 시계 정렬 이벤트 타임라인</li>\n          <li>기록된 밤의 주간 및 월간 패턴</li>\n          <li>수면 자세 비교 및 홈 화면 위젯</li>\n          <li>밤의 점수를 매길 수 없는 경우 명확한 데이터 품질 컨텍스트</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["야간 보고"]
+      },
+      {
+        "id": "section-2",
+        "title": "미스터리 사운드",
+        "body": "<p>Apple의 기기 내 사운드 분류기가 재미있는 일치를 보여줍니다.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "침실의 소리는 기본적으로 공개되지 않습니다.",
+        "body": "<p>오디오 분석은 iPhone에서 이루어지며 음성 전사는 수행하지 않습니다. iCloud 동기화를 명시적으로 켜거나 특정 클립을 Discover에 게시하기로 선택하지 않는 한 녹음은 비공개로 유지됩니다.</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "개인정보 보호정책 읽기",
+            "href": "/ko/privacy/"
+          }
+        ],
+        "tags": ["기기 내 분석", "광고 추적기 없음", "명시적 공개 공유", "인앱 데이터 삭제"]
+      },
+      {
+        "id": "faq",
+        "title": "자주 묻는 질문",
+        "questions": [
+          {
+            "question": "밤에 코골이 하는지 어떻게 알 수 있나요?",
+            "answer": "<p>iPhone을 침대 옆에 두고 잘자를 실행하세요. 코골이 가능성이 높은 순간만 짧은 클립으로 저장되어 아침에 재생해 확인할 수 있습니다.</p>"
+          },
+          {
+            "question": "몸말도 녹음되나요?",
+            "answer": "<p>네. 수면 중 발화 가능성이 있는 음성 유사 소리는 기기에서 감지되어 코골이·기침과 별도로 표시됩니다.</p>"
+          },
+          {
+            "question": "오디오 파일로 가득 차나요?",
+            "answer": "<p>아니요. 무음은 의도적으로 저장되지 않고, 감지된 이벤트의 짧은 클립만 남습니다. 앱에서 모두 삭제할 수 있습니다.</p>"
+          },
+          {
+            "question": "잘자는 의료 기기인가요?",
+            "answer": "<p>아니요. Snore Load와 밤 추세는 웰니스 정보이며 의료 진단이 아닙니다.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/ko/support/",
+        "label": "지원",
+        "external": false
+      },
+      {
+        "href": "/ko/privacy/",
+        "label": "개인정보 보호",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/",
+        "label": "야간 소리 가이드",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 스노르즈. 의학적 진단이 아닌 웰빙 트렌드"
+  },
+  {
+    "route": "/de/",
+    "locale": "de",
+    "metadata": {
+      "title": "Go Sleep — Schlafgeräusch-Tracker für iPhone: Schnarchen · Schlafgespräch · Husten",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "Go Sleep ist ein privater Schlaf-Sound-Tracker. Er ordnet wahrscheinliches Schnarchen, mögliches Schlafgespräch und hustenähnliche Geräusche in klare Nachtberichte und Trends."
+        },
+        {
+          "property": "og:title",
+          "content": "Go Sleep — Aufnehmen. Verstehen. Entdecken."
+        },
+        {
+          "property": "og:description",
+          "content": "Go Sleep ist ein privater Schlaf-Sound-Tracker. Er ordnet wahrscheinliches Schnarchen, mögliches Schlafgespräch und hustenähnliche Geräusche in klare Nachtberichte und Trends."
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "property": "og:locale",
+          "content": "de"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Go Sleep",
+          "alternateName": ["Snorz", "Schnarch-Tracker App"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "Go Sleep ist ein privater Schlaf-Sound-Tracker. Er ordnet wahrscheinliches Schnarchen, mögliches Schlafgespräch und hustenähnliche Geräusche in klare Nachtberichte und Trends.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "de",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie finde ich heraus, ob ich nachts schnarche?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Platziere dein iPhone am Bett und starte Go Sleep. Nur wahrscheinliche Schnarchereignisse werden als kurze Clips gespeichert, die du morgens ansehen kannst."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann es Schlafgespräch aufnehmen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Sprachähnliche Geräusche, die mögliches Schlafgespräch sein könnten, werden auf dem Gerät erkannt und getrennt von Schnarchen und Husten markiert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Füllt es mein Handy mit Audiodateien?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Stille wird nie absichtlich gespeichert—nur kurze Clips erkannter Ereignisse, und du kannst alles in der App löschen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist Go Sleep ein Medizinprodukt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Snore Load und nächtliche Trends sind Wellness-Informationen, keine medizinische Diagnose."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "Aufnehmen. Verstehen. Entdecken.",
+    "intro": "Go Sleep hört im Schlaf still zu und ordnet wahrscheinliches Schnarchen, mögliches Schlafgespräch und hustenähnliche Geräusche in klare Nachtberichte, nützliche Trends und ein verspieltes Zuhause für denkwürdige Sound Matches.",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "Sehen Sie, wie es funktioniert ↓",
+        "external": false
+      },
+      {
+        "href": "/de/support/",
+        "label": "Unterstützung erhalten",
+        "external": false
+      }
+    ],
+    "note": "Analyse auf dem Gerät · Stille wird nicht absichtlich gespeichert · Sie entscheiden, was Sie teilen",
+    "sections": [
+      {
+        "id": "features",
+        "title": "Die ruhigere Art, nächtliche Geräusche zu verstehen.",
+        "body": "<p>Go Sleep konzentriert sich auf die Momente, die zählen — Schnarchen, Schlafgespräch und Husten —, hält die Erfahrung verständlich und gibt niemals vor, eine medizinische Diagnose zu sein.</p>",
+        "items": [
+          {
+            "title": "Privat aufnehmen",
+            "body": "<p>Stelle dein iPhone ans Bett. Go Sleep analysiert Klang auf dem Gerät und speichert nur wahrscheinliche Schnarch-, sprachähnliche und hustenähnliche Ereignisse als abspielbare Clips.</p>"
+          },
+          {
+            "title": "Die Nacht verstehen",
+            "body": "<p>Sehen Sie sich die Schnarchbelastung, die erkannte Dauer, die relative Lautstärke, den Zeitpunkt des Ereignisses, die gemeldete Schlafposition und längerfristige Muster an.</p>"
+          },
+          {
+            "title": "Besondere Momente entdecken",
+            "body": "<p>Hören Sie unvergessliche Sound Matches aus der Community und teilen Sie nur den von Ihnen ausgewählten Clip – niemals Ihren ganzen Abend.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "Ihre Nacht, verständlich aufbereitet.",
+        "body": "<p>Snore Load kombiniert mehrere Signale zu einem nicht diagnostischen Wellness-Trend. Tauchen Sie nur dann tiefer ein, wenn Sie möchten.</p><ul>\n          <li>An der Uhr ausgerichtete Ereigniszeitleisten mit abspielbaren Clips</li>\n          <li>Wöchentliche und monatliche Muster Ihrer aufgezeichneten Nächte</li>\n          <li>Schlafpositionsvergleiche und Startbildschirm-Widgets</li>\n          <li>Klarer Datenqualitätskontext, wenn eine Nacht nicht bewertet werden kann</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["Nachtbericht"]
+      },
+      {
+        "id": "section-2",
+        "title": "Mystery Sound",
+        "body": "<p>Eine spielerische Übereinstimmung mit Apples On-Device-Sound-Klassifikator.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "Was im Schlafzimmer passiert, bleibt standardmäßig privat.",
+        "body": "<p>Die Audioanalyse findet auf deinem iPhone statt, eine Sprachtranskription erfolgt nicht. Aufnahmen bleiben privat, es sei denn, du aktivierst ausdrücklich iCloud-Sync oder veröffentlichst gezielt einen einzelnen Clip auf Entdecken.</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "Lesen Sie die Datenschutzrichtlinie",
+            "href": "/de/privacy/"
+          }
+        ],
+        "tags": [
+          "Analyse auf dem Gerät",
+          "Keine Werbe-Tracker",
+          "Explizites öffentliches Teilen",
+          "Löschen Sie Ihre Daten in der App"
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "Fragen, beantwortet.",
+        "questions": [
+          {
+            "question": "Wie finde ich heraus, ob ich nachts schnarche?",
+            "answer": "<p>Platziere dein iPhone am Bett und starte Go Sleep. Nur wahrscheinliche Schnarchereignisse werden als kurze Clips gespeichert, die du morgens ansehen kannst.</p>"
+          },
+          {
+            "question": "Kann es Schlafgespräch aufnehmen?",
+            "answer": "<p>Ja. Sprachähnliche Geräusche, die mögliches Schlafgespräch sein könnten, werden auf dem Gerät erkannt und getrennt von Schnarchen und Husten markiert.</p>"
+          },
+          {
+            "question": "Füllt es mein Handy mit Audiodateien?",
+            "answer": "<p>Nein. Stille wird nie absichtlich gespeichert—nur kurze Clips erkannter Ereignisse, und du kannst alles in der App löschen.</p>"
+          },
+          {
+            "question": "Ist Go Sleep ein Medizinprodukt?",
+            "answer": "<p>Nein. Snore Load und nächtliche Trends sind Wellness-Informationen, keine medizinische Diagnose.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/de/support/",
+        "label": "Unterstützung",
+        "external": false
+      },
+      {
+        "href": "/de/privacy/",
+        "label": "Datenschutz",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/",
+        "label": "Ratgeber Nachtgeräusche",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 Go Sleep. Wellnesstrends, keine medizinische Diagnose."
+  },
+  {
+    "route": "/fr/",
+    "locale": "fr",
+    "metadata": {
+      "title": "Go Sleep — Suivi des sons de sommeil sur iPhone : ronflements · Somniloquie · toux",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "Go Sleep est un suivi privé des sons de sommeil. Il organise ronflements probables, discours nocturnes possibles et sons semblables à la toux en rapports clairs et tendances."
+        },
+        {
+          "property": "og:title",
+          "content": "Go Sleep — Enregistrer. Comprendre. Découvrir."
+        },
+        {
+          "property": "og:description",
+          "content": "Go Sleep est un suivi privé des sons de sommeil. Il organise ronflements probables, discours nocturnes possibles et sons semblables à la toux en rapports clairs et tendances."
+        },
+        {
+          "property": "og:image",
+          "content": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "property": "og:locale",
+          "content": "fr"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-US",
+          "href": "https://gosleep.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://gosleep.ajigu.com/en-gb/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://gosleep.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://gosleep.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://gosleep.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://gosleep.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "de",
+          "href": "https://gosleep.ajigu.com/de/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "fr",
+          "href": "https://gosleep.ajigu.com/fr/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://gosleep.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Go Sleep",
+          "alternateName": ["Snorz", "application ronflements"],
+          "operatingSystem": "iOS",
+          "applicationCategory": "HealthApplication",
+          "description": "Go Sleep est un suivi privé des sons de sommeil. Il organise ronflements probables, discours nocturnes possibles et sons semblables à la toux en rapports clairs et tendances.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://gosleep.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "fr",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Comment savoir si je ronfle la nuit ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Placez votre iPhone près du lit et lancez Go Sleep. Seuls les ronflements probables sont enregistrés en courts clips à réécouter le matin."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Peut-il enregistrer les discours nocturnes ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui. Les sons semblables à la parole, possibles somniloquies, sont détectés sur l’appareil et étiquetés séparément des ronflements et de la toux."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Va-t-il remplir mon téléphone de fichiers audio ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Non. Les silences ne sont jamais stockés intentionnellement—seulement de courts clips des événements détectés, supprimables dans l’app."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Go Sleep est-il un dispositif médical ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Non. Le Snore Load et les tendances nocturnes sont des informations bien-être, pas un diagnostic médical."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-US",
+        "label": "English (US)"
+      },
+      {
+        "href": "/en-gb/",
+        "code": "en-GB",
+        "label": "English (UK)"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      },
+      {
+        "href": "/de/",
+        "code": "de",
+        "label": "Deutsch"
+      },
+      {
+        "href": "/fr/",
+        "code": "fr",
+        "label": "Français"
+      }
+    ],
+    "heading": "Go Sleep",
+    "claim": "Enregistrer. Comprendre. Découvrir.",
+    "intro": "Go Sleep vous écoute dormir et organise ronflements probables, discours nocturnes possibles et sons semblables à la toux en rapports clairs, tendances utiles et un espace ludique pour des Sound Match mémorables.",
+    "actions": [
+      {
+        "href": "#features",
+        "label": "Découvrez comment cela fonctionne ↓",
+        "external": false
+      },
+      {
+        "href": "/fr/support/",
+        "label": "Obtenir de l'aide",
+        "external": false
+      }
+    ],
+    "note": "Analyse sur l’appareil · Le silence n’est jamais enregistré volontairement · Vous choisissez ce que vous partagez",
+    "sections": [
+      {
+        "id": "features",
+        "title": "Une façon plus sereine de comprendre les sons de la nuit.",
+        "body": "<p>Go Sleep se concentre sur les moments qui comptent — ronflements, discours nocturnes et toux —, garde l’expérience compréhensible et ne prétend jamais être un diagnostic médical.</p>",
+        "items": [
+          {
+            "title": "Enregistrer en privé",
+            "body": "<p>Posez votre iPhone près du lit. Go Sleep analyse le son sur l’appareil et n’enregistre que les événements de ronflement probables, semblables à la parole ou à la toux, en clips lisibles.</p>"
+          },
+          {
+            "title": "Comprendre la nuit",
+            "body": "<p>Consultez la Snore Load, la durée détectée, le volume relatif, la synchronisation des événements, la position de sommeil signalée et les modèles à long terme.</p>"
+          },
+          {
+            "title": "Découvrir le côté amusant",
+            "body": "<p>Écoutez des Sound Matches mémorables de la communauté et partagez uniquement le clip spécifique que vous choisissez, jamais votre soirée complète.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-1",
+        "title": "Votre nuit, enfin facile à comprendre.",
+        "body": "<p>Snore Load combine plusieurs signaux en une seule tendance de bien-être sans diagnostic. Plongez plus profondément uniquement lorsque vous le souhaitez.</p><ul>\n          <li>Chronologies d&#x27;événements alignées sur une horloge avec clips lisibles</li>\n          <li>Modèles hebdomadaires et mensuels de vos nuits enregistrées</li>\n          <li>Comparaisons de positions de sommeil et widgets de l&#x27;écran d&#x27;accueil</li>\n          <li>Clarifier le contexte de la qualité des données lorsqu&#x27;une nuit ne peut pas être notée</li>\n        </ul>",
+        "items": [],
+        "links": [],
+        "tags": ["Rapport de nuit"]
+      },
+      {
+        "id": "section-2",
+        "title": "Son mystère",
+        "body": "<p>Une combinaison ludique du classificateur de son intégré à l&#x27;appareil d&#x27;Apple.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "Dans votre chambre, rien n’est public par défaut.",
+        "body": "<p>L’analyse audio se fait sur votre iPhone, sans transcription vocale. Les enregistrements restent privés, sauf si vous activez explicitement la synchronisation iCloud ou choisissez de publier un clip précis dans Découvrir.</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "Lire la politique de confidentialité",
+            "href": "/fr/privacy/"
+          }
+        ],
+        "tags": [
+          "Analyse sur l'appareil",
+          "Aucun tracker publicitaire",
+          "Partage public explicite",
+          "Supprimez vos données dans l'application"
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "Questions, réponses.",
+        "questions": [
+          {
+            "question": "Comment savoir si je ronfle la nuit ?",
+            "answer": "<p>Placez votre iPhone près du lit et lancez Go Sleep. Seuls les ronflements probables sont enregistrés en courts clips à réécouter le matin.</p>"
+          },
+          {
+            "question": "Peut-il enregistrer les discours nocturnes ?",
+            "answer": "<p>Oui. Les sons semblables à la parole, possibles somniloquies, sont détectés sur l’appareil et étiquetés séparément des ronflements et de la toux.</p>"
+          },
+          {
+            "question": "Va-t-il remplir mon téléphone de fichiers audio ?",
+            "answer": "<p>Non. Les silences ne sont jamais stockés intentionnellement—seulement de courts clips des événements détectés, supprimables dans l’app.</p>"
+          },
+          {
+            "question": "Go Sleep est-il un dispositif médical ?",
+            "answer": "<p>Non. Le Snore Load et les tendances nocturnes sont des informations bien-être, pas un diagnostic médical.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/fr/support/",
+        "label": "Assistance",
+        "external": false
+      },
+      {
+        "href": "/fr/privacy/",
+        "label": "Confidentialité",
+        "external": false
+      },
+      {
+        "href": "https://github.com/huihuisang/snorz-site",
+        "label": "GitHub",
+        "external": false
+      },
+      {
+        "href": "/guides/night-sounds/",
+        "label": "Guide des sons nocturnes",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "footerText": "© 2026 Go Sleep. Des tendances en matière de bien-être, pas un diagnostic médical."
+  }
+]

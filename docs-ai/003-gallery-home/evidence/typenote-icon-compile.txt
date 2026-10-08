@@ -1,0 +1,5 @@
+/* com.apple.actool.compilation-results */
+/Users/ajigu/.local/share/task-artifacts/work/689217bc6dae4a1e9555a94f1f8a5522/native-icons/typenote/AppIcon.icns
+/Users/ajigu/.local/share/task-artifacts/work/689217bc6dae4a1e9555a94f1f8a5522/native-icons/typenote/Assets.car
+/Users/ajigu/.local/share/task-artifacts/work/689217bc6dae4a1e9555a94f1f8a5522/native-icons/typenote/info.plist
+

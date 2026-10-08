@@ -1,0 +1,326 @@
+export const showcaseCopy = {
+  "en-GB": {
+    "scenes": [
+      [
+        "Welcome to Moodsk",
+        "A desktop<br>to love.",
+        "Give your folders new icons, choose a matching wallpaper, and keep useful widgets close at hand.",
+        "#f1e9dc"
+      ],
+      [
+        "01 / Themes and wallpapers",
+        "A new wallpaper.<br>Icons to match.",
+        "Choose a theme, give your folders new icons, and add its matching wallpaper.",
+        "#f5dce2"
+      ],
+      [
+        "02 / Desktop widgets",
+        "The things you use,<br>right on your desktop.",
+        "Check the time, finish a task, or keep a favourite photo in view. Small things need fewer windows.",
+        "#efe8d6"
+      ],
+      [
+        "03 / Cursor effects",
+        "Give your cursor<br>a little character.",
+        "Leave a trail as you move and ripples as you click. Try bubbles, koi and stardust.",
+        "#e0e9da"
+      ],
+      [
+        "04 / Custom icons",
+        "Your own photo.<br>Your own icon.",
+        "A pet photo, a quick snap, or your own drawing. Import an image, remove its background, and add text.",
+        "#dceef3"
+      ],
+      [
+        "05 / The collection",
+        "Start with something<br>you like.",
+        "Icons, wallpapers and widgets, all in one place.",
+        "#eee9df"
+      ]
+    ],
+    "messages": {
+      "Desktop preview": "Desktop preview",
+      "Preview only. Your desktop stays unchanged.": "Preview only. Your desktop stays unchanged.",
+      "Chapters": "Chapters",
+      "Pause animation": "Pause animation",
+      "Play animation": "Play animation",
+      "Replay chapter": "Replay chapter",
+      "Start exploring": "Start exploring",
+      "Continue": "Continue",
+      "Get Moodsk": "Get Moodsk",
+      "Picnic wallpaper": "Picnic wallpaper",
+      "Theme icon": "Theme icon",
+      "Clock widget": "Clock widget",
+      "Photo widget": "Photo widget",
+      "Music widget": "Music widget",
+      "To-do widget": "To-do widget",
+      "Amber Picnic wallpaper": "Amber Picnic wallpaper",
+      "Pearl Picnic wallpaper": "Pearl Picnic wallpaper",
+      "Picnic icon": "Picnic icon",
+      "Icons + matching wallpaper": "Icons + matching wallpaper",
+      "Widget with a completed task": "Widget with a completed task",
+      "Check the time": "Check the time",
+      "One small task, done": "One small task, done",
+      "A song for your work": "A song for your work",
+      "A favourite photo, nearby": "A favourite photo, nearby",
+      "Bubbles, koi and stardust preview": "Bubbles, koi and stardust preview",
+      "Cursor colours": "Cursor colours",
+      "Gold": "Gold",
+      "Peach": "Peach",
+      "Green": "Green",
+      "Purple": "Purple",
+      "Blue": "Blue",
+      "Bubbles": "Bubbles",
+      "Koi": "Koi",
+      "Stardust": "Stardust",
+      "Imported flower photo": "Imported flower photo",
+      "Flower with background removed": "Flower with background removed",
+      "Flowers": "Flowers",
+      "Import → Remove background → Add text": "Import → Remove background → Add text",
+      "Artwork preview": "Artwork preview"
+    }
+  },
+  "zh-Hans": {
+    "scenes": [
+      [
+        "欢迎来到 Moodsk",
+        "每天打开电脑，<br>先看见喜欢的。",
+        "给文件夹换上新图标，配好壁纸，再把常用的小组件放到手边。",
+        "#f1e9dc"
+      ],
+      [
+        "01 / 主题与壁纸",
+        "换张壁纸，<br>图标也配一套。",
+        "挑一套喜欢的主题，给文件夹换上新图标，再配上同系列壁纸。",
+        "#f5dce2"
+      ],
+      [
+        "02 / 桌面小组件",
+        "常用的，<br>就放在桌面上。",
+        "看时间、记待办，也可以放张喜欢的照片。不用每件小事都打开一个窗口。",
+        "#efe8d6"
+      ],
+      [
+        "03 / 光标效果",
+        "给鼠标，<br>加点特效。",
+        "移动时拖出尾迹，点击时泛起涟漪。试试泡泡、锦鲤和星芒。",
+        "#e0e9da"
+      ],
+      [
+        "04 / 自定义图标",
+        "用自己的照片，<br>做一个图标。",
+        "宠物照、随手拍，或自己画的小图。导入图片，去掉背景，再加上文字。",
+        "#dceef3"
+      ],
+      [
+        "05 / 素材库",
+        "先挑一套<br>喜欢的。",
+        "图标、壁纸、小组件，都在这里。",
+        "#eee9df"
+      ]
+    ],
+    "messages": {
+      "Desktop preview": "桌面动态预览",
+      "Preview only. Your desktop stays unchanged.": "效果预览 · 不会修改你的桌面",
+      "Chapters": "章节",
+      "Pause animation": "暂停播放",
+      "Play animation": "播放动画",
+      "Replay chapter": "重播本幕",
+      "Start exploring": "开始布置",
+      "Continue": "继续",
+      "Get Moodsk": "下载 Moodsk",
+      "Picnic wallpaper": "美食橱窗壁纸",
+      "Theme icon": "主题图标",
+      "Clock widget": "时钟组件",
+      "Photo widget": "照片组件",
+      "Music widget": "音乐组件",
+      "To-do widget": "待办组件",
+      "Amber Picnic wallpaper": "美食橱窗琥珀色配套壁纸",
+      "Pearl Picnic wallpaper": "美食橱窗珍珠色配套壁纸",
+      "Picnic icon": "美食橱窗图标",
+      "Icons + matching wallpaper": "图标 + 配套壁纸",
+      "Widget with a completed task": "完成一项待办后的组件",
+      "Check the time": "先看一眼时间",
+      "One small task, done": "做完一件小事",
+      "A song for your work": "放首歌，继续忙",
+      "A favourite photo, nearby": "喜欢的照片，也在身边",
+      "Bubbles, koi and stardust preview": "泡泡、锦鲤和星芒效果预览",
+      "Cursor colours": "光标颜色",
+      "Gold": "金色",
+      "Peach": "桃色",
+      "Green": "绿色",
+      "Purple": "紫色",
+      "Blue": "蓝色",
+      "Bubbles": "泡泡",
+      "Koi": "锦鲤",
+      "Stardust": "星芒",
+      "Imported flower photo": "导入的花朵照片",
+      "Flower with background removed": "去掉背景的花朵",
+      "Flowers": "花花",
+      "Import → Remove background → Add text": "导入图片 → 去背景 → 加文字",
+      "Artwork preview": "素材预览"
+    }
+  },
+  "ja": {
+    "scenes": [
+      [
+        "Moodsk へようこそ",
+        "Mac を開くたび、<br>好きなデスクトップに。",
+        "フォルダに新しいアイコンを。同じテーマの壁紙と、便利なウィジェットもそばに。",
+        "#f1e9dc"
+      ],
+      [
+        "01 / テーマと壁紙",
+        "壁紙を変えたら、<br>アイコンもお揃いに。",
+        "好きなテーマを選んで、フォルダアイコンと壁紙を揃えましょう。",
+        "#f5dce2"
+      ],
+      [
+        "02 / デスクトップウィジェット",
+        "よく使うものを、<br>デスクトップに。",
+        "時刻やタスクを確認したり、好きな写真を飾ったり。小さな用事のたびにウインドウを開く必要はありません。",
+        "#efe8d6"
+      ],
+      [
+        "03 / カーソルエフェクト",
+        "カーソルに、<br>ちょっとした遊び心を。",
+        "動きに軌跡を、クリックに波紋を。泡、錦鯉、星屑を試してみましょう。",
+        "#e0e9da"
+      ],
+      [
+        "04 / カスタムアイコン",
+        "自分の写真で、<br>自分だけのアイコンを。",
+        "ペットの写真、スナップ、自分のイラスト。画像を読み込み、背景を削除して、文字を追加。",
+        "#dceef3"
+      ],
+      [
+        "05 / コレクション",
+        "まずは、<br>好きなものから。",
+        "アイコン、壁紙、ウィジェットが、ここに。",
+        "#eee9df"
+      ]
+    ],
+    "messages": {
+      "Desktop preview": "デスクトッププレビュー",
+      "Preview only. Your desktop stays unchanged.": "プレビューです。デスクトップは変更されません。",
+      "Chapters": "チャプター",
+      "Pause animation": "アニメーションを一時停止",
+      "Play animation": "アニメーションを再生",
+      "Replay chapter": "このチャプターを再生",
+      "Start exploring": "見てみる",
+      "Continue": "次へ",
+      "Get Moodsk": "Moodsk を入手",
+      "Picnic wallpaper": "ピクニックの壁紙",
+      "Theme icon": "テーマアイコン",
+      "Clock widget": "時計ウィジェット",
+      "Photo widget": "写真ウィジェット",
+      "Music widget": "音楽ウィジェット",
+      "To-do widget": "タスクウィジェット",
+      "Amber Picnic wallpaper": "琥珀色のピクニック壁紙",
+      "Pearl Picnic wallpaper": "パール色のピクニック壁紙",
+      "Picnic icon": "ピクニックのアイコン",
+      "Icons + matching wallpaper": "アイコン ＋ お揃いの壁紙",
+      "Widget with a completed task": "タスクを完了したウィジェット",
+      "Check the time": "時刻を確認",
+      "One small task, done": "小さなタスクを完了",
+      "A song for your work": "音楽と一緒に作業を",
+      "A favourite photo, nearby": "好きな写真も、そばに",
+      "Bubbles, koi and stardust preview": "泡、錦鯉、星屑のプレビュー",
+      "Cursor colours": "カーソルの色",
+      "Gold": "ゴールド",
+      "Peach": "ピーチ",
+      "Green": "グリーン",
+      "Purple": "パープル",
+      "Blue": "ブルー",
+      "Bubbles": "泡",
+      "Koi": "錦鯉",
+      "Stardust": "星屑",
+      "Imported flower photo": "読み込んだ花の写真",
+      "Flower with background removed": "背景を削除した花",
+      "Flowers": "花",
+      "Import → Remove background → Add text": "読み込み → 背景削除 → 文字追加",
+      "Artwork preview": "素材プレビュー"
+    }
+  },
+  "ko": {
+    "scenes": [
+      [
+        "Moodsk에 오신 것을 환영합니다",
+        "Mac을 열 때마다,<br>좋아하는 데스크탑을.",
+        "폴더 아이콘과 배경화면을 맞추고 자주 쓰는 위젯을 가까이 두세요.",
+        "#f1e9dc"
+      ],
+      [
+        "01 / 테마와 배경화면",
+        "새 배경화면에,<br>어울리는 아이콘까지.",
+        "마음에 드는 테마를 골라 폴더 아이콘과 같은 시리즈의 배경화면을 적용하세요.",
+        "#f5dce2"
+      ],
+      [
+        "02 / 데스크탑 위젯",
+        "자주 쓰는 것들을,<br>데스크탑 바로 위에.",
+        "시간과 할 일을 확인하고 좋아하는 사진을 두세요. 작은 일마다 창을 열 필요가 없어요.",
+        "#efe8d6"
+      ],
+      [
+        "03 / 커서 효과",
+        "커서에,<br>작은 재미를 더하세요.",
+        "움직이면 잔상이, 클릭하면 물결이 생겨요. 비눗방울, 비단잉어, 별빛을 만나보세요.",
+        "#e0e9da"
+      ],
+      [
+        "04 / 맞춤 아이콘",
+        "내 사진으로,<br>나만의 아이콘을.",
+        "반려동물 사진, 일상 사진, 직접 그린 그림까지. 이미지를 가져와 배경을 지우고 텍스트를 더하세요.",
+        "#dceef3"
+      ],
+      [
+        "05 / 컬렉션",
+        "마음에 드는 것부터<br>골라보세요.",
+        "아이콘, 배경화면, 위젯을 한곳에서.",
+        "#eee9df"
+      ]
+    ],
+    "messages": {
+      "Desktop preview": "데스크탑 미리보기",
+      "Preview only. Your desktop stays unchanged.": "미리보기입니다. 데스크탑은 변경되지 않아요.",
+      "Chapters": "챕터",
+      "Pause animation": "애니메이션 일시 정지",
+      "Play animation": "애니메이션 재생",
+      "Replay chapter": "챕터 다시 재생",
+      "Start exploring": "둘러보기 시작",
+      "Continue": "계속",
+      "Get Moodsk": "Moodsk 다운로드",
+      "Picnic wallpaper": "피크닉 배경화면",
+      "Theme icon": "테마 아이콘",
+      "Clock widget": "시계 위젯",
+      "Photo widget": "사진 위젯",
+      "Music widget": "음악 위젯",
+      "To-do widget": "할 일 위젯",
+      "Amber Picnic wallpaper": "호박색 피크닉 배경화면",
+      "Pearl Picnic wallpaper": "진주색 피크닉 배경화면",
+      "Picnic icon": "피크닉 아이콘",
+      "Icons + matching wallpaper": "아이콘 + 어울리는 배경화면",
+      "Widget with a completed task": "할 일을 완료한 위젯",
+      "Check the time": "시간 확인",
+      "One small task, done": "작은 일 하나 완료",
+      "A song for your work": "음악과 함께 작업하기",
+      "A favourite photo, nearby": "좋아하는 사진을 가까이",
+      "Bubbles, koi and stardust preview": "비눗방울, 비단잉어, 별빛 미리보기",
+      "Cursor colours": "커서 색상",
+      "Gold": "금색",
+      "Peach": "복숭아색",
+      "Green": "초록색",
+      "Purple": "보라색",
+      "Blue": "파란색",
+      "Bubbles": "비눗방울",
+      "Koi": "비단잉어",
+      "Stardust": "별빛",
+      "Imported flower photo": "가져온 꽃 사진",
+      "Flower with background removed": "배경을 제거한 꽃",
+      "Flowers": "꽃",
+      "Import → Remove background → Add text": "가져오기 → 배경 제거 → 텍스트 추가",
+      "Artwork preview": "소재 미리보기"
+    }
+  }
+};

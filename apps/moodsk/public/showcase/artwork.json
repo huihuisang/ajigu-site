@@ -1,0 +1,570 @@
+[
+  {
+    "name": "extra-0",
+    "source": "Moodsk/Assets.xcassets/AfterHoursMuseum/AfterHoursMuseumAmber-small.imageset/AfterHoursMuseumAmber-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 82084,
+    "sha256": "6598b40d30e505c3ec5444b441fee315c44a917186d67c3f5fed2ff48babbdd0"
+  },
+  {
+    "name": "extra-1",
+    "source": "Moodsk/Assets.xcassets/AfternoonStoryroom/AfternoonStoryroomBiscuitTin-small.imageset/AfternoonStoryroomBiscuitTin-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 61128,
+    "sha256": "ec05f5e0105ad4971854d7fad1fa4016e1aec296f5ce408d20afb845324004f1"
+  },
+  {
+    "name": "extra-2",
+    "source": "Moodsk/Assets.xcassets/ImportBarFlower-small.imageset/ImportBarFlower-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 114394,
+    "sha256": "b14619d93a7b6afe4cfdc9b78ce60571348133db7173e6bd27ce7dfce52dac2b"
+  },
+  {
+    "name": "extra-3",
+    "source": "Moodsk/Assets.xcassets/CorkMoodboard/CorkMoodboardAirmailStamp-small.imageset/CorkMoodboardAirmailStamp-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 77332,
+    "sha256": "7ba1b4c03538852fb7890e2454ab6a18dfa6de9b2eb0ebd09dab6eca7d8141ba"
+  },
+  {
+    "name": "extra-4",
+    "source": "Moodsk/Assets.xcassets/EmotionsOnHoliday/EmotionsOnHolidayBashfulHeart-small.imageset/EmotionsOnHolidayBashfulHeart-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 45893,
+    "sha256": "8aa7f886232388d0ed6f75e2d418adc97fee4090e17867ab7a93030a56bc99e1"
+  },
+  {
+    "name": "extra-5",
+    "source": "Moodsk/Assets.xcassets/FeltHaberdashery/FeltHaberdasheryCamera-small.imageset/FeltHaberdasheryCamera-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 80939,
+    "sha256": "901233030d6827b12786ab0d1fdb7527f815d39de165f59b43bcc9d336680c38"
+  },
+  {
+    "name": "extra-6",
+    "source": "Moodsk/Assets.xcassets/GothicCuriosity/GothicCuriosityAmberVial-small.imageset/GothicCuriosityAmberVial-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 37968,
+    "sha256": "f0703f05a5fec053d3cd875298ba2616f982dab7e11440fa9f404db3e775d2a5"
+  },
+  {
+    "name": "extra-7",
+    "source": "Moodsk/Assets.xcassets/HalloweenPumpkinShop/HalloweenPumpkinShopBat-small.imageset/HalloweenPumpkinShopBat-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 14492,
+    "sha256": "3564b7746b0aeca6af371720d9ce7de2585bf5c1eca7e4ba06f8d698a790460b"
+  },
+  {
+    "name": "extra-8",
+    "source": "Moodsk/Assets.xcassets/HalloweenWitchRoom/HalloweenWitchRoomBat-small.imageset/HalloweenWitchRoomBat-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 18316,
+    "sha256": "13651a132cba92d3122398dc2048b1aea10f318be3d56d99709bb17feee7a731"
+  },
+  {
+    "name": "extra-9",
+    "source": "Moodsk/Assets.xcassets/IceGlass/IceGlassArchiveBox-small.imageset/IceGlassArchiveBox-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 45668,
+    "sha256": "e92cb33caae0cc260a938dc2fd2f6d878dc5322cd4d9ae32245981045bdf1671"
+  },
+  {
+    "name": "extra-10",
+    "source": "Moodsk/Assets.xcassets/Interface/PurchaseLock-small.imageset/PurchaseLock-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 35844,
+    "sha256": "0e60c984245a4a37f700dc5be5343ae1b7e6793e54749d24c8991debbd32a0ee"
+  },
+  {
+    "name": "extra-11",
+    "source": "Moodsk/Assets.xcassets/MendingPlanet/MendingPlanetCheeringChick-small.imageset/MendingPlanetCheeringChick-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 65315,
+    "sha256": "786700dafe023db6d8fdde64aa05d99994c9132cb6e0e227f0944c7f92f6c466"
+  },
+  {
+    "name": "extra-12",
+    "source": "Moodsk/Assets.xcassets/MoonbackMarket/MoonbackMarketAntennaTechnician-small.imageset/MoonbackMarketAntennaTechnician-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 68138,
+    "sha256": "e8694a7ff4ee9c3cfefe9b49432fdddc2f8a08f0b977437f79a02533f24f544e"
+  },
+  {
+    "name": "extra-13",
+    "source": "Moodsk/Assets.xcassets/MoonlitBriarGarden/MoonlitBriarGardenAmberPotion-small.imageset/MoonlitBriarGardenAmberPotion-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 60706,
+    "sha256": "a1048a299c1a70bee5a1d6de99b24f4b4fbda29010e439b7112539cd115b2ca0"
+  },
+  {
+    "name": "extra-14",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicBaconBurger-small.imageset/PicnicBaconBurger-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 106023,
+    "sha256": "e1c75ed27f05e9c325254a444fd103931c05041a8f3e3641a53063763476e00b"
+  },
+  {
+    "name": "extra-15",
+    "source": "Moodsk/Assets.xcassets/PixelYesteryear/PixelYesteryearCartridge-small.imageset/PixelYesteryearCartridge-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 59470,
+    "sha256": "36e89a30a3c8cfb2209bdeacd0fee7cdc442f97d3c22a308c569cdd18266af52"
+  },
+  {
+    "name": "extra-16",
+    "source": "Moodsk/Assets.xcassets/RainwashedTeaHills/RainwashedTeaHillsBasketBinder-small.imageset/RainwashedTeaHillsBasketBinder-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 44736,
+    "sha256": "9d74821893024ec7138b37f2ce9ba4e0a87799f2b7ce825763cf541a46e88a17"
+  },
+  {
+    "name": "extra-17",
+    "source": "Moodsk/Assets.xcassets/ScrachZoo/Cute Bear-small.imageset/Cute Bear-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 22680,
+    "sha256": "04a438477252243d1902c402bd8a7afbcd10c1595dbdbe9033758d8e79c1c955"
+  },
+  {
+    "name": "extra-18",
+    "source": "Moodsk/Assets.xcassets/SlowMorningCafe/SlowMorningCafeBook-small.imageset/SlowMorningCafeBook-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 22636,
+    "sha256": "06a1c0698c4942d37d9c20b61b3258a84f1f09af88ee3301ed00d6f382759e74"
+  },
+  {
+    "name": "extra-19",
+    "source": "Moodsk/Assets.xcassets/StarryMuseum/StarryMuseumFragment01-small.imageset/StarryMuseumFragment01-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 40642,
+    "sha256": "06fc6370dc316ae8db014bb58ff52a4250a3beac6b1333491491c2e9745c964c"
+  },
+  {
+    "name": "extra-20",
+    "source": "Moodsk/Assets.xcassets/StillwaterAquarium/StillwaterAquariumCardinalFollow-small.imageset/StillwaterAquariumCardinalFollow-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 35314,
+    "sha256": "4b67f02ae7d260dce18d6e27fbb0d0831f81f3c2e6164adcf662103abf2c650d"
+  },
+  {
+    "name": "extra-21",
+    "source": "Moodsk/Assets.xcassets/SunlitApartment/SunlitApartmentArchClock-small.imageset/SunlitApartmentArchClock-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 42681,
+    "sha256": "81b32c4268ceda0e480ae587c49d924d33efc4f07b993acb66244785a2e473f9"
+  },
+  {
+    "name": "extra-22",
+    "source": "Moodsk/Assets.xcassets/SystemIcons/Disk-small.imageset/Disk-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 56474,
+    "sha256": "c581772e3718496af7b36f39db7c78fdca2090fb030f05be607290d247c0fca5"
+  },
+  {
+    "name": "extra-23",
+    "source": "Moodsk/Assets.xcassets/TidalPhonograph/TidalPhonographConchSnail-small.imageset/TidalPhonographConchSnail-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 75646,
+    "sha256": "35f05b9096e6d4a132a03c920c20489a4d1f3e48534177777ffb005d1869d6e9"
+  },
+  {
+    "name": "extra-24",
+    "source": "Moodsk/Assets.xcassets/TravelScrapbook/TravelScrapbookCompass-small.imageset/TravelScrapbookCompass-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 73937,
+    "sha256": "4a4a112c1f7d5864a14fad28660a9ffe1947ebae869d008144942b402801bb64"
+  },
+  {
+    "name": "extra-25",
+    "source": "Moodsk/Assets.xcassets/VintageShadowTheatre/VintageShadowTheatreAntiqueCandle-small.imageset/VintageShadowTheatreAntiqueCandle-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 31249,
+    "sha256": "f313d47dcec8512a95f1e0519ac5e9d8c09d037062db04f689657baa13e7764a"
+  },
+  {
+    "name": "extra-26",
+    "source": "Moodsk/Assets.xcassets/WindowsideBotanical/WindowsideBotanicalBudVase-small.imageset/WindowsideBotanicalBudVase-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 35713,
+    "sha256": "1bd2e763fe4dcf90a9c8f58e00d303a6a9d2f1def659e82562f6d9f5e8fe7a61"
+  },
+  {
+    "name": "extra-27",
+    "source": "Moodsk/Assets.xcassets/AfterHoursMuseum/AfterHoursMuseumAmmonite-small.imageset/AfterHoursMuseumAmmonite-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 84487,
+    "sha256": "f938012308ff54264c8b8e85f45daa1134d7c0c008116158dd2b05c2c88fc93a"
+  },
+  {
+    "name": "extra-28",
+    "source": "Moodsk/Assets.xcassets/AfternoonStoryroom/AfternoonStoryroomBookStack-small.imageset/AfternoonStoryroomBookStack-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 58340,
+    "sha256": "447cad7c75b44f1a44240341c8b645d2a4b12da0f834b0b79aa7530dd507e223"
+  },
+  {
+    "name": "extra-29",
+    "source": "Moodsk/Assets.xcassets/ImportBarFlowerCutout-small.imageset/ImportBarFlowerCutout-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 84238,
+    "sha256": "441113a35797ca464c0f14a77b1fa3e94c0f827b0be21799fc6ab886a28b9604"
+  },
+  {
+    "name": "extra-30",
+    "source": "Moodsk/Assets.xcassets/CorkMoodboard/CorkMoodboardBluePin-small.imageset/CorkMoodboardBluePin-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 41107,
+    "sha256": "2857120b540af4728d1d214b07827074ccb0ecf236cb929f175351f2fef2b317"
+  },
+  {
+    "name": "library-8",
+    "source": "Moodsk/Assets.xcassets/ScrachZoo/Cute Penguin-small.imageset/Cute Penguin-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 23008,
+    "sha256": "6e1a07da9adf42013026493c929667e14309e34f139865d0a7895c3be1e209bd"
+  },
+  {
+    "name": "library-7",
+    "source": "Moodsk/Assets.xcassets/ScrachZoo/Cute Panda-small.imageset/Cute Panda-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 28784,
+    "sha256": "49d154721c7e0438a13352ad3d77b1d7dd22dc5d1cd078227956957cf827bb36"
+  },
+  {
+    "name": "library-6",
+    "source": "Moodsk/Assets.xcassets/ScrachZoo/Cute Fox-small.imageset/Cute Fox-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 24343,
+    "sha256": "046640557409b9660cd9f7046421e3e0ca270c6db6240b106d26765566df1988"
+  },
+  {
+    "name": "library-5",
+    "source": "Moodsk/Assets.xcassets/GothicCuriosity/GothicCuriosityPumpkinLantern-small.imageset/GothicCuriosityPumpkinLantern-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 73347,
+    "sha256": "e6f3190bba92d9d03cdec7184be15f0ed88e4d96ef5a7ff40a9894a9edc17edd"
+  },
+  {
+    "name": "library-4",
+    "source": "Moodsk/Assets.xcassets/GothicCuriosity/GothicCuriosityRaven-small.imageset/GothicCuriosityRaven-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 58836,
+    "sha256": "93a748125d537ec89f9b6aa520b082a9c724589370c53cd517b7c53221552dcf"
+  },
+  {
+    "name": "library-3",
+    "source": "Moodsk/Assets.xcassets/GothicCuriosity/GothicCuriosityEmeraldFlask-small.imageset/GothicCuriosityEmeraldFlask-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 43190,
+    "sha256": "5593fba4924a2bae9036967d19f88bc8a628b4421f0066bffadd7c9debaa5278"
+  },
+  {
+    "name": "library-2",
+    "source": "Moodsk/Assets.xcassets/SlowMorningCafe/SlowMorningCafeTimer-small.imageset/SlowMorningCafeTimer-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 51548,
+    "sha256": "9e5b9106feb877554baf1ecee4e97a314b2743036261eac360af53d65fc0beed"
+  },
+  {
+    "name": "library-1",
+    "source": "Moodsk/Assets.xcassets/SlowMorningCafe/SlowMorningCafeReadingGlasses-small.imageset/SlowMorningCafeReadingGlasses-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 19541,
+    "sha256": "77b28780f2d630c9e41faa04f6aca6676183efd4067eae334673eb29cddfec15"
+  },
+  {
+    "name": "library-0",
+    "source": "Moodsk/Assets.xcassets/SlowMorningCafe/SlowMorningCafeEspressoCup-small.imageset/SlowMorningCafeEspressoCup-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 26699,
+    "sha256": "4208a45ba188708ddd822f1adf2e2b255cb13c886a197520c8a3643bceb5ec06"
+  },
+  {
+    "name": "PicnicSoftServe",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicSoftServe-small.imageset/PicnicSoftServe-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 38000,
+    "sha256": "1a63cfa7563ac535ea130e1d2cc2b26d40138b70ccbff8f0a4ebdc5752d3a469"
+  },
+  {
+    "name": "PicnicPizza",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicPizza-small.imageset/PicnicPizza-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 34368,
+    "sha256": "1b14a8209ec92b5d2783070da43b25230ee2c79f20d4a7128961b6dd5dae3cdd"
+  },
+  {
+    "name": "PicnicStrawberryMilkshake",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicStrawberryMilkshake-small.imageset/PicnicStrawberryMilkshake-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 52541,
+    "sha256": "a4f86ec0211b4ed3b4802d061339fa110c16e6d54ac7d49a3ea43db12e929036"
+  },
+  {
+    "name": "PicnicRamen",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicRamen-small.imageset/PicnicRamen-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 70620,
+    "sha256": "961bb58c96e8c155d039dea3c1c152eb06a41863b01e48dd26ee472e0d6ed3c5"
+  },
+  {
+    "name": "PicnicOnionRings",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicOnionRings-small.imageset/PicnicOnionRings-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 82113,
+    "sha256": "78326710bfe7a35950328d3d43ced35a051edf94e2eb5af7a1613a4166dd4b6c"
+  },
+  {
+    "name": "PicnicChickenWrap",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicChickenWrap-small.imageset/PicnicChickenWrap-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 91055,
+    "sha256": "da5e65c42cce8309b0b86dfcef4e4d89298c9cef7938af7fc07ac616dce6f8b5"
+  },
+  {
+    "name": "PicnicLakesideWallpaper",
+    "source": "Moodsk/Assets.xcassets/PicnicLakesideWallpaper.imageset/PicnicLakesideWallpaper.png",
+    "width": 1120,
+    "height": 630,
+    "bytes": 558265,
+    "sha256": "bbb62e24ffa3cd3a9d33cbd9968ca585745c190fec4e581c13e69d84bd03e6bd"
+  },
+  {
+    "name": "PicnicAmberWallpaper",
+    "source": "Moodsk/Assets.xcassets/PicnicAmberWallpaper.imageset/PicnicAmberWallpaper.png",
+    "width": 1120,
+    "height": 630,
+    "bytes": 738203,
+    "sha256": "bf7708d9d2f138082145ffcb5436c7c9cc69699262d6aa5ccd895dfdee4e24ec"
+  },
+  {
+    "name": "PicnicCoffee",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicCoffee-small.imageset/PicnicCoffee-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 43569,
+    "sha256": "8506941c30b4cb8d1d6f57d687361cc28f4d4e05c8952b96a0e528b677280f7a"
+  },
+  {
+    "name": "PicnicCola",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicCola-small.imageset/PicnicCola-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 76104,
+    "sha256": "d15bfe75b30b68772cc6b016b733f21e446676efdb1480c47411a00bd1692e11"
+  },
+  {
+    "name": "PicnicFries",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicFries-small.imageset/PicnicFries-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 64898,
+    "sha256": "d026ed78052df9f046bdbe65b7d48af6d6be2539feeaa6d86cced2c363ee85a1"
+  },
+  {
+    "name": "PicnicChocolateDonut",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicChocolateDonut-small.imageset/PicnicChocolateDonut-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 61292,
+    "sha256": "30d604c1956c9c44eac0436fe1db2b5f296d709eff98f6975d9bb805f54af5b0"
+  },
+  {
+    "name": "PicnicBaconBurger",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicBaconBurger-small.imageset/PicnicBaconBurger-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 106023,
+    "sha256": "e1c75ed27f05e9c325254a444fd103931c05041a8f3e3641a53063763476e00b"
+  },
+  {
+    "name": "PicnicSushi",
+    "source": "Moodsk/Assets.xcassets/Picnic/PicnicSushi-small.imageset/PicnicSushi-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 50725,
+    "sha256": "ba5d7f4a1a1f3873c0e6b89f61f3c8886a117bf20578c1d2764c68ec971607e5"
+  },
+  {
+    "name": "ImportBarFlower",
+    "source": "Moodsk/Assets.xcassets/ImportBarFlower.imageset/import-bar-flower.png",
+    "width": 460,
+    "height": 460,
+    "bytes": 327865,
+    "sha256": "f52619771a5194cd6185f4bc627f2e8894788586cd87d6db39f1f77d39ec5f08"
+  },
+  {
+    "name": "ImportBarFlowerCutout",
+    "source": "Moodsk/Assets.xcassets/ImportBarFlowerCutout-small.imageset/ImportBarFlowerCutout-small.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 84238,
+    "sha256": "441113a35797ca464c0f14a77b1fa3e94c0f827b0be21799fc6ab886a28b9604"
+  },
+  {
+    "name": "clock",
+    "source": "Design/OnboardingMotion/media/clock.png",
+    "width": 492,
+    "height": 492,
+    "bytes": 98428,
+    "sha256": "73e072bcca376126b070031c46048981c0cda3c8dc5368374d4631115c2a7d32"
+  },
+  {
+    "name": "photo",
+    "source": "Design/OnboardingMotion/media/photo.png",
+    "width": 492,
+    "height": 492,
+    "bytes": 346933,
+    "sha256": "7395807c27d9a439bc4778d82de7143bb172c9e316f6b2f3a49487ab0b8bddef"
+  },
+  {
+    "name": "todo-done",
+    "source": "Design/OnboardingMotion/media/todo-done.png",
+    "width": 512,
+    "height": 244,
+    "bytes": 36105,
+    "sha256": "2c820b8e672106dace9985eb9ea959896426a3b59e8858f06ae6a94e80a1fc5e"
+  },
+  {
+    "name": "todo",
+    "source": "Design/OnboardingMotion/media/todo.png",
+    "width": 512,
+    "height": 244,
+    "bytes": 36053,
+    "sha256": "826a00223fea49cbb2bcde16194d7bbe05f0eb9e0c5db502700eff830e6cf543"
+  },
+  {
+    "name": "music",
+    "source": "Design/OnboardingMotion/media/music.png",
+    "width": 512,
+    "height": 244,
+    "bytes": 162744,
+    "sha256": "8fe9f2407dad4c6343efaec74b4bef97f43f4e03b544beccad980a5cca1e61f6"
+  },
+  {
+    "name": "bubble",
+    "source": "Design/OnboardingMotion/media/bubble.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 86636,
+    "sha256": "f878defa15eb68733206bba61ac01e4cb8a389c093d62cd4604d8223b4d582d7"
+  },
+  {
+    "name": "fish-0",
+    "source": "Design/OnboardingMotion/media/fish-0.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 11877,
+    "sha256": "61bbb0daefc8feed608e8b64a28465b6ea4e191a58663b656afee3382c4fef25"
+  },
+  {
+    "name": "fish-1",
+    "source": "Design/OnboardingMotion/media/fish-1.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 12017,
+    "sha256": "5364bce2758c7921d1c93d5a3f08804f5a2a1b4a4445a2448ac763bbe9b7c0be"
+  },
+  {
+    "name": "fish-2",
+    "source": "Design/OnboardingMotion/media/fish-2.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 12183,
+    "sha256": "7a3f98466dc3f1f4d6de5744ea6239536434af0bc98e8c74052d6ab472144a0e"
+  },
+  {
+    "name": "pointer",
+    "source": "Design/OnboardingMotion/media/pointer.png",
+    "width": 179,
+    "height": 256,
+    "bytes": 8165,
+    "sha256": "beba65a2f3bd44a1e3b61685fd086984de67aa65e8bd6a78a5d16f7288b7d868"
+  },
+  {
+    "name": "star-0",
+    "source": "Design/OnboardingMotion/media/star-0.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 27775,
+    "sha256": "b7c6c29898547e0bfcd54cfa59fbf8e3cac5d252d570db6571af625e20077115"
+  },
+  {
+    "name": "star-1",
+    "source": "Design/OnboardingMotion/media/star-1.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 27868,
+    "sha256": "fff21c7434f4b79f2520eb189cb8b3c8396f22a38e64ee689a1166b522770380"
+  },
+  {
+    "name": "star-2",
+    "source": "Design/OnboardingMotion/media/star-2.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 27965,
+    "sha256": "32e77c923cb96bb3fd00fc37f78432f97782d5652d6cb66c7ffdedd52bff7773"
+  },
+  {
+    "name": "star-3",
+    "source": "Design/OnboardingMotion/media/star-3.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 28104,
+    "sha256": "106e22bae5d8939e389a89f42429af805f69217b2687e2d01ec9303a7d63eaca"
+  },
+  {
+    "name": "star-4",
+    "source": "Design/OnboardingMotion/media/star-4.png",
+    "width": 192,
+    "height": 192,
+    "bytes": 27991,
+    "sha256": "7d7455c8bc389976ee6ac52b45bf959d2f1c8db3fbb9df321b0aeeaa34e0783d"
+  }
+]

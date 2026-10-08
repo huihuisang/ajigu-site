@@ -1,0 +1,88 @@
+Scope: all 5 workspace projects
+✓ Lockfile passes supply-chain policies (verified 25m ago)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +374
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are copied from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Volumes/Samsung SSD 990 PRO 2T/.pnpm-store/v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 374, reused 374, downloaded 0, added 358
+Progress: resolved 374, reused 374, downloaded 0, added 374, done
+
+devDependencies:
++ @playwright/test 1.64.1
++ @types/node 24.19.2
++ @types/react 19.3.0
++ @types/react-dom 19.3.0
++ prettier 3.9.10
++ prettier-plugin-astro 1.1.2
++ typescript 6.0.3
++ yaml 2.9.1
+
+Done in 1.8s using pnpm v11.25.0
+No peer dependency issues found
+$ node scripts/workspace.mjs check
+$ astro check
+10:57:02 [types] Generated 76ms
+10:57:02 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/eb5f0e36c926435eb739576eb2ad5de9/clean-source-4/apps/ajigu...
+Result (6 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+10:57:04 [types] Generated 55ms
+10:57:04 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/eb5f0e36c926435eb739576eb2ad5de9/clean-source-4/apps/typenote...
+Result (8 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ node scripts/workspace.mjs build
+$ astro build
+10:57:07 [types] Generated 12ms
+10:57:07 [build] output: "static"
+10:57:07 [build] mode: "static"
+10:57:07 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/eb5f0e36c926435eb739576eb2ad5de9/clean-source-4/node_modules/.cache/studio-build/ajigu/
+10:57:07 [build] Collecting build info...
+10:57:07 [build] ✓ Completed in 22ms.
+10:57:07 [build] Building static entrypoints...
+10:57:07 [vite] ✓ built in 444ms
+10:57:07 [vite] ✓ built in 59ms
+10:57:07 [build] Rearranging server assets...
+
+ generating static routes 
+10:57:07   ├─ /index.html (+9ms) 
+10:57:07   ├─ /zh-hans/index.html (+4ms) 
+10:57:07   ├─ /zh-hant/index.html (+1ms) 
+10:57:07   ├─ /ja/index.html (+1ms) 
+10:57:07   ├─ /ko/index.html (+1ms) 
+10:57:07   ├─ /nameplate/about/index.html (+4ms) 
+10:57:07   ├─ /nameplate/about/zh-hans/index.html (+1ms) 
+10:57:07 ✓ Completed in 36ms.
+
+10:57:07 [build] ✓ Completed in 554ms.
+10:57:07 [build] 7 page(s) built in 579ms
+10:57:07 [build] Complete!
+Collected ajigu: /Users/ajigu/.local/share/task-artifacts/work/eb5f0e36c926435eb739576eb2ad5de9/clean-output-4/ajigu
+$ astro build
+10:57:08 [types] Generated 13ms
+10:57:08 [build] output: "static"
+10:57:08 [build] mode: "static"
+10:57:08 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/eb5f0e36c926435eb739576eb2ad5de9/clean-source-4/node_modules/.cache/studio-build/typenote/
+10:57:08 [build] Collecting build info...
+10:57:08 [build] ✓ Completed in 23ms.
+10:57:08 [build] Building static entrypoints...
+10:57:08 [vite] ✓ built in 157ms
+10:57:08 [vite] ✓ built in 95ms
+10:57:08 [build] Rearranging server assets...
+
+ generating static routes 
+10:57:08   ├─ /index.html (+12ms) 
+10:57:08 ✓ Completed in 22ms.
+
+10:57:08 [build] ✓ Completed in 287ms.
+10:57:08 [build] 1 page(s) built in 312ms
+10:57:08 [build] Complete!
+Collected typenote: /Users/ajigu/.local/share/task-artifacts/work/eb5f0e36c926435eb739576eb2ad5de9/clean-output-4/typenote

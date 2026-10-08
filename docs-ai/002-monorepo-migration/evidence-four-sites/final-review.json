@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-31",
+  "status": "passed",
+  "scope": "Independent read-only source/content comparison, unit checks, all-six-site built output contracts and four Chinese mobile interaction samples. Final source hashes below identify the audited runtime version.",
+  "tests": {
+    "languageWorkspaceProductTests": 17,
+    "peerDependencies": "passed",
+    "sixSiteBuildContracts": "passed",
+    "mobileBrowserSamples": 4,
+    "consoleErrors": []
+  },
+  "sourceComparison": {
+    "localizedLandingPages": 22,
+    "originalCompatibilityFiles": 207,
+    "unchangedCompatibilityFiles": 204,
+    "headOnlyRepairs": 3,
+    "auxiliaryHTML": 62,
+    "allOriginalProductMediaURLs": "preserved",
+    "legacyStudioModules": "byte-identical"
+  },
+  "resolvedFindings": [
+    "DailyApod second screenshot URL restored",
+    "Go Sleep pre-existing malformed guide canonical/JSON-LD URLs repaired; body unchanged"
+  ],
+  "limitations": [
+    "Did not independently rerun the full primary browser matrix, all 45 unit tests or the clean-install build.",
+    "No remote CI, publish, DNS or production deployment verification."
+  ],
+  "files": {
+    "packages/site-kit/src/layouts/ProductLanding.astro": "72a8680d333448b32fc9b0e079c8e638ae0e47a6f64b46f8c4cd82d8184dde04",
+    "packages/site-kit/src/models.ts": "e3b5ff598e6ee860d32aedc6911176f37ca23cc08a8403e52791c0c01b4d6081",
+    "packages/site-kit/src/components/Lines.tsx": "8026c15e35eeba0d212ae311f2f51c7199f2305386088b93f9cad36cdadaf5bf",
+    "packages/site-kit/src/components/ProductHero.tsx": "61fac35bc9d217627cc3ac4369bdbd0f18ee6c42e41ca514c8f56ca45b223d74",
+    "packages/site-kit/src/components/SiteFooter.tsx": "a879f2faaa4174c5d55d66997ca74a5fcf3bf0dec16fa97d1c84b7900c3b4803",
+    "scripts/workspace.mjs": "a5970803e23fb0cf011cdde7be1872e1255d19fb7a5121cab1e69d9aa6d4a99c",
+    "scripts/check-build.mjs": "e8483e83962365b76041446287583873f757742724a823d7fde463b3c0867fba",
+    "packages/site-kit/config/paths.mjs": "b6771da829031f77444ba88b8fd42ecf61d61af3d6f831542288f86d9fe4743a",
+    ".github/workflows/build-websites.yml": "48dfdf48ef6a58f48451c2e51e680859684088d5c56c4eb12a88385c410ef54a",
+    "pnpm-lock.yaml": "190cc57730c9094370782cc0fd66eed5d01acc6a2afd08b687a02cec583e4540",
+    "tests/product-migration.test.mjs": "56c671d8cea672a6ea03b75dedf06fabbb497f1048d4bcc4c3e81df80ca426df",
+    "tests/workspace.test.mjs": "450e41b44895bb1dacc57c50b94098489907d9603041ffecc2679abbff824324",
+    "tests/browser.mjs": "47d0a50ad3762f3e41e830a5fe4d6191794f618a3ce5b31485782d02d6402fab",
+    "apps/moodsk/src/pages/[...route].astro": "e303fdd65bf5231a41a196c9e5551d57ff29b5d9c885c3d81e5fedd5058d0360",
+    "apps/moodsk/src/content/pages.json": "28f8d10c206a4a779b6095bde333e427290afab20067e7cffc464d39a6ee2c5d",
+    "apps/moodsk/src/content/product.json": "c8c8f68a2426e573805de1a108be3a3f0602165ecf5db854f5de2d330e002ca8",
+    "apps/moodsk/compatibility.json": "2b052d56110390e6bbd3a4b18336dbced7c3a8cc6412261d5bb5bba1f627e5a7",
+    "apps/moodsk/astro.config.mjs": "277c8bf06b9a12380b0c51c76a838a2c2daddcfaa6561d9e5fc31e88da9fe3c6",
+    "apps/gosleep/src/pages/[...route].astro": "42b82e2e5c952935362cab99bbba3b8f853d947d510e22dd47cd2d391546f23c",
+    "apps/gosleep/src/content/pages.json": "c4e5230ef96fdf536c610d21f4eb5812ba07759bbf5ec45c391baa46f0142527",
+    "apps/gosleep/src/content/product.json": "2306a3bd37c69cc68b03dad7781a0e3efdfbd8d73c543204f46646738ce89656",
+    "apps/gosleep/compatibility.json": "77532016267ec28b1a49846835cb3a1c44b0f48dc3b290318490e779564fa033",
+    "apps/gosleep/astro.config.mjs": "44c50abff40506e570179659f5e215202181e01883b427a10405ce0905ef76b4",
+    "apps/dailyapod/src/pages/[...route].astro": "21baaae0e94d5024895a40cac48c8cd3016e80eb2611ca7614e23922e00091ce",
+    "apps/dailyapod/src/content/pages.json": "acc09591a043fdabe11ba8e7b4558a60ef5483fda5194a0e897950c3952dadaa",
+    "apps/dailyapod/src/content/product.json": "a6ca48bef49e66c496e9deded9b49a72d6e6d80596df5286dc7a5a9e995d6042",
+    "apps/dailyapod/compatibility.json": "d94a808c58f9e1aae55ca0bf435631f0386b88726141a221ff061e7ca8ae690f",
+    "apps/dailyapod/astro.config.mjs": "cf5e0a137253bfaa395fb5e09d8741c7ace323bc802eb0aa06a771fadf3c7111",
+    "apps/tutu/src/pages/[...route].astro": "9ab4cf890d5efde401be9cd52f6d03cb07f9e7369266bfa263efeb3ad6fcc64c",
+    "apps/tutu/src/content/pages.json": "27aef81e7ae6bf0ed6473f12817e2133d9f6db448a2335a924e7e128203318c1",
+    "apps/tutu/src/content/product.json": "2d83628d5c9cfa35f43dce79188fe1391f7db25bb896d3e4ee77ca9537561ac2",
+    "apps/tutu/compatibility.json": "7ed69ad67e2773b5fdd8dcea9862c45534423064179caa49378f94c2651cf243",
+    "apps/tutu/astro.config.mjs": "b27e872fe11fb71b8d8a350a495d778e5a8724246e280eede5a2dac1b833e011",
+    "apps/gosleep/src/components/NightPreview.tsx": "fdcfd642691ffa8c5af35eecd47f18526f8bb7b99d12ab17c55d3e5a97c527fa",
+    "apps/dailyapod/src/components/GalleryPreview.tsx": "7c075672acc0d73a22cd2dc6b652783c5c7b684fdf4dee3b6ed787ce52af167b",
+    "apps/tutu/src/components/ComparisonPreview.tsx": "5c31d3a59922122458740902c4ee3aa19d0375c672b27e38f089c45e114013cf",
+    "scripts/preview-workspace.mjs": "0afd6478ddc90a3737d8d7491fabbbb554157297d57ca0a6cec7fb6dc160b77d",
+    "apps/moodsk/public/favicon.ico": "393c122e964073582d7811981130cf817f1586cd6a35402a5f3658aa8e627150",
+    "apps/gosleep/public/favicon.ico": "72026b434b5abc0a0c7e6957a782afe082e7d0af35d3053401b02a27d0f28663",
+    "apps/dailyapod/public/favicon.ico": "1f68606ecf1a8721485e7250be16c893d0603bca4f358e6cd1b74d910cf222bd",
+    "apps/tutu/public/favicon.ico": "446d9493f67156e14abfd582814e8e1196ad1d8e5100c9bdb27648a3ecd043e6"
+  },
+  "supplement": {
+    "scope": "Four new local favicon ICO files plus preview .ico MIME mapping only. Existing 36 audited hashes unchanged.",
+    "icoEntries": "16x16,32x32,48x48; decoded and matched existing per-product local icons",
+    "sourcePreservation": "No original HTML edits",
+    "http": "All four favicon URLs 200 with image/x-icon; response bytes equal source",
+    "previewCode": "Only one MIME mapping differs from pre-migration preview source",
+    "buildCompatibilityCounts": {
+      "ajigu": 81,
+      "moodsk": 136,
+      "tutu": 30,
+      "gosleep": 52,
+      "dailyapod": 61,
+      "typenote": 41
+    }
+  }
+}

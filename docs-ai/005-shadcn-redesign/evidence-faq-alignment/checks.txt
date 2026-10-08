@@ -1,0 +1,1 @@
+24 localized desktop/mobile FAQ alignment and keyboard checks, plus 2 no-script checks passed.

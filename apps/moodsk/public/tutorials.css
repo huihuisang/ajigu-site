@@ -1,0 +1,58 @@
+.tutorial-main { width: min(900px, calc(100% - 48px)); margin: auto; padding: 56px 0 32px; }
+.tutorial-page .legal-nav-inner { width: min(1120px, calc(100% - 48px)); }
+.tutorial-nav, .tutorial-languages { display: flex; align-items: center; gap: 22px; }
+.tutorial-nav a, .tutorial-back, .tutorial-footer a { color: var(--ink-soft); font-weight: 600; text-decoration: none; }
+.tutorial-languages { gap: 14px; font-size: 14px; }
+.tutorial-languages [aria-current] { color: var(--blue-deep); text-decoration: underline; text-underline-offset: 5px; }
+.tutorial-back { display: inline-block; margin-bottom: 28px; }
+.tutorial-heading { margin-bottom: 32px; }
+.tutorial-heading h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.22; text-wrap: balance; }
+.tutorial-lede { margin-top: 22px; font-size: 20px; color: var(--ink-soft); }
+.tutorial-byline { margin-top: 18px; font-size: 14px; color: var(--ink-soft); }
+.guide-hero, .tutorial-body figure { background: white; padding: 14px; border-radius: 22px; border: 1px solid #ffffff; box-shadow: var(--shadow-soft); }
+.guide-hero { margin-bottom: 36px; }
+.guide-hero img, .tutorial-body figure img { width: 100%; height: auto; }
+.guide-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.guide-card { display: flex; flex-direction: column; padding: 26px; border-radius: 22px; background: #ffffffcc; border: 1px solid white; color: var(--ink); text-decoration: none; box-shadow: var(--shadow-soft); }
+.guide-card:hover { background: white; }
+.guide-number { font-size: 13px; color: var(--blue-deep); font-weight: 700; margin-bottom: 20px; }
+.guide-card h3 { font-size: 22px; line-height: 1.35; }
+.guide-card p { margin-top: 16px; margin-bottom: 24px; color: var(--ink-soft); font-size: 15px; }
+.guide-read { margin-top: auto; color: var(--blue-deep); font-weight: 600; font-size: 15px; }
+.tutorial-contents { background: #ffffffa6; border: 1px solid white; border-radius: 20px; padding: 24px 28px; margin-bottom: 36px; }
+.tutorial-contents ul { padding-left: 20px; margin-top: 8px; }
+.tutorial-contents a, .tutorial-body a { color: var(--blue-deep); text-underline-offset: 4px; overflow-wrap: anywhere; }
+.tutorial-body { max-width: 800px; margin: auto; font-size: 18px; line-height: 1.9; }
+.tutorial-body p, .tutorial-body ol, .tutorial-body figure, .table-scroll { margin: 26px 0; }
+.tutorial-body h2 { margin: 48px 0 20px; font-size: 28px; line-height: 1.4; scroll-margin-top: 24px; }
+.tutorial-body ol { padding-left: 28px; }
+.tutorial-body li { padding-left: 8px; margin: 12px 0; }
+.tutorial-body figcaption { margin: 12px 8px 4px; font-size: 13px; line-height: 1.7; color: var(--ink-soft); }
+.tutorial-body code { font-size: .9em; background: #0e2a4d0b; border-radius: 5px; padding: 2px 5px; overflow-wrap: anywhere; }
+.table-scroll { overflow-x: auto; border: 1px solid #0e2a4d18; border-radius: 14px; }
+.tutorial-body table { width: 100%; border-collapse: collapse; background: #ffffffa6; font-size: 16px; }
+.tutorial-body th, .tutorial-body td { text-align: left; padding: 12px 18px; border-bottom: 1px solid #0e2a4d12; }
+.tutorial-body tr:last-child td { border-bottom: 0; }
+.related-guides { margin-top: 56px; }
+.related-guides h2 { margin-bottom: 24px; font-size: 26px; }
+.related-guides .guide-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.tutorial-cta { margin: 48px 0 32px; padding: 32px; border-radius: 24px; background: #ffffffbb; border: 1px solid white; }
+.tutorial-cta h2 { font-size: 26px; }
+.tutorial-cta p { margin: 16px 0 24px; color: var(--ink-soft); }
+.tutorial-cta .btn { white-space: normal; }
+.tutorial-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; font-size: 14px; color: var(--ink-soft); padding: 20px 0; }
+.tutorial-nav a:focus-visible, .guide-card:focus-visible, .tutorial-body a:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
+@media (max-width: 640px) {
+  .tutorial-main, .tutorial-page .legal-nav-inner { width: calc(100% - 32px); }
+  .tutorial-page .legal-nav-inner { flex-wrap: wrap; gap: 12px; }
+  .tutorial-main { padding-top: 34px; }
+  .tutorial-nav { gap: 14px; font-size: 14px; }
+  .tutorial-languages { gap: 10px; font-size: 12px; }
+  .tutorial-page .brand { gap: 7px; }
+  .tutorial-page .brand-name { font-size: 17px; }
+  .tutorial-page .brand-icon { width: 28px; height: 28px; }
+  .guide-cards, .related-guides .guide-cards { grid-template-columns: 1fr; }
+  .tutorial-body { font-size: 17px; }
+  .tutorial-contents, .tutorial-cta { padding: 22px; }
+  .tutorial-body th, .tutorial-body td { padding: 10px 12px; }
+}

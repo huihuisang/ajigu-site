@@ -1,1 +1,7 @@
 .seo-cache/
+
+node_modules/
+.astro/
+.cache/
+dist/
+public-generated/

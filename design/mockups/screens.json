@@ -1,0 +1,104 @@
+{
+  "design/mockups/screens/typenote-library.webp": {
+    "sha256": "b53d2fe24f25503fba6cd15fdbcdffc068510e1f4c955419b88815d3e3684894",
+    "size": [
+      2000,
+      1500
+    ],
+    "product": "typenote",
+    "proof": {
+      "capture": "Fresh current native Xcode build, --screenshot launch mode; own library window only, CGWindow ID35268, screencapture -o.",
+      "app": {
+        "version": "1.0",
+        "build": "1",
+        "bundleID": "com.treetree.typenote"
+      }
+    }
+  },
+  "apps/ajigu/public/gallery/moodsk-current.webp": {
+    "sha256": "e7c64d5836edab9d7587f1aa6dd9a95492288dce3df20183fb3ca88263a76af9",
+    "size": [
+      1600,
+      1103
+    ],
+    "product": "moodsk",
+    "proof": "Previously verified source and raw digest in packages/site-kit/icons/sources.json."
+  },
+  "apps/ajigu/public/gallery/gosleep-home.webp": {
+    "sha256": "65208920c8ba48b905405d17205043d3406142c9c1e529c9cc310c6fbec2f121",
+    "size": [
+      692,
+      1500
+    ],
+    "product": "gosleep",
+    "proof": "Previously verified source and raw digest in packages/site-kit/icons/sources.json."
+  },
+  "apps/ajigu/public/gallery/gosleep-report.webp": {
+    "sha256": "b3e5683f25dbfe246fa1ad793d818ce2105efc514435fa9685f80359c104bf31",
+    "size": [
+      692,
+      1500
+    ],
+    "product": "gosleep",
+    "proof": "Previously verified source and raw digest in packages/site-kit/icons/sources.json."
+  },
+  "apps/ajigu/public/gallery/gosleep-globe.webp": {
+    "sha256": "117d85771fd4ac0f97e55021b21e7ab17d98e8570bf70b0af62bdf12521cba05",
+    "size": [
+      690,
+      1500
+    ],
+    "product": "gosleep",
+    "proof": "Previously verified source and raw digest in packages/site-kit/icons/sources.json."
+  },
+  "design/mockups/screens/dailyapod-sky.webp": {
+    "sha256": "6340d9be53d0acd522c487b65335e2c4ddb17b40375c825cb12be4455c67bb08",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "dailyapod",
+    "proof": {
+      "capture": "Fresh current native Screenshots scheme build on a task-owned iPhone17Pro simulator. sim-use capture. Real SkyView / SolarSystemView, no mismatched media fixtures. Orion selected through native Search; solar time paused and Now selected.",
+      "app": {
+        "version": "2.6.7",
+        "build": "287",
+        "bundleID": "com.linsyorozua.DailyApod"
+      }
+    }
+  },
+  "design/mockups/screens/dailyapod-solar.webp": {
+    "sha256": "a3fb31e24080e314f33e84d677346351a151a71a4c3c0a1793a134162e4b0a35",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "dailyapod",
+    "proof": {
+      "capture": "Fresh current native Screenshots scheme build on a task-owned iPhone17Pro simulator. sim-use capture. Real SkyView / SolarSystemView, no mismatched media fixtures. Orion selected through native Search; solar time paused and Now selected.",
+      "app": {
+        "version": "2.6.7",
+        "build": "287",
+        "bundleID": "com.linsyorozua.DailyApod"
+      }
+    }
+  },
+  "design/mockups/screens/tutu-ipad.webp": {
+    "sha256": "c4046f15c57e8fb04b29feba8c6cc797a9c52099eb104819dea61fa73222ad27",
+    "size": [
+      1668,
+      2420
+    ],
+    "product": "tutu",
+    "proof": "Native current iPad capture, docs-ai/003-unobstructed-editor/evidence/ipad.png; source version verified previously, current bottom tool layout. Screenshot contains all UI; slight template ratio difference uses contain, not stretch."
+  },
+  "design/mockups/screens/nameplate-editor.webp": {
+    "sha256": "493852c0c8927bc3d86d0b2c051ea070f888d787c5c618efc27a19c7d04a4aee",
+    "size": [
+      1440,
+      936
+    ],
+    "product": "nameplate",
+    "proof": "Fresh in-app browser screenshot of current /nameplate/, Navy & Gold in 2D mode, top1440x936 viewport."
+  }
+}

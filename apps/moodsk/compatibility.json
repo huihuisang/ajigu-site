@@ -1,0 +1,216 @@
+{
+  "domain": "moodsk.ajigu.com",
+  "media": ["moodsk.webp", "ajigu.webp"],
+  "routes": [
+    {
+      "route": "/",
+      "locale": "en-GB",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/gb/app/moodsk-folder-icon-maker/id6752535811?mt=12",
+          "label": "Download on the App Store",
+          "external": false
+        },
+        {
+          "href": "#features",
+          "label": "See what it can do",
+          "external": false
+        },
+        {
+          "href": "/tutorials/",
+          "label": "Read tutorials",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/cn/app/moodsk-%E6%96%87%E4%BB%B6%E5%A4%B9%E5%9B%BE%E6%A0%87%E5%88%B6%E4%BD%9C/id6752535811?mt=12",
+          "label": "App Store \u4e0b\u8f7d",
+          "external": false
+        },
+        {
+          "href": "#features",
+          "label": "\u770b\u770b\u5b83\u80fd\u505a\u4ec0\u4e48",
+          "external": false
+        },
+        {
+          "href": "/zh-hans/tutorials/",
+          "label": "\u9605\u8bfb\u6559\u7a0b",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/ja/",
+      "locale": "ja",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/jp/app/moodsk-%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E4%BD%9C%E6%88%90/id6752535811?mt=12",
+          "label": "App Store \u3067\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9",
+          "external": false
+        },
+        {
+          "href": "#features",
+          "label": "\u3067\u304d\u308b\u3053\u3068\u3092\u898b\u308b",
+          "external": false
+        },
+        {
+          "href": "/tutorials/",
+          "label": "\u4f7f\u3044\u65b9\u3092\u8aad\u3080\uff08\u82f1\u8a9e\uff09",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/ko/",
+      "locale": "ko",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/kr/app/moodsk-%ED%8F%B4%EB%8D%94-%EC%95%84%EC%9D%B4%EC%BD%98-%EB%A7%8C%EB%93%A4%EA%B8%B0/id6752535811?mt=12",
+          "label": "App Store\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc",
+          "external": false
+        },
+        {
+          "href": "#features",
+          "label": "\ubb34\uc5c7\uc744 \ud560 \uc218 \uc788\ub294\uc9c0 \ubcf4\uae30",
+          "external": false
+        },
+        {
+          "href": "/tutorials/",
+          "label": "\uc0ac\uc6a9 \uac00\uc774\ub4dc \uc77d\uae30 (\uc601\uc5b4)",
+          "external": false
+        }
+      ]
+    }
+  ],
+  "compatibility": {
+    "404.html": "4131c796893ecfa83ad5fddfab1255d4dc7be355c0074d018b476f0c7d06f6b2",
+    "CNAME": "577482d8c18dd5fa7867c0bea3fd17b4846f148a7ca8761593b4ec2f9cde34f0",
+    "about/index.html": "0481a6a5d59a3cc259de39a2ce5ba32e3e57f4da65d8c038d2fa469dec0274b5",
+    "assets/ajigu-logo.png": "832774fad6e0a33c77fd7f693d19abc8ba0680ec6f8c31060e36873e2c1221e2",
+    "assets/appicon.jpg": "f53f13d8181b32a8baf00bab3e565eb42bdcf3cbcf8fe8cdfe1dec8138682226",
+    "assets/apple-touch-icon.png": "699f2495978cc7a2f0fa4e5a293702ac165b3e42270e11019fdc1e7708777e9f",
+    "assets/favicon.png": "13f8a1fe3a06e8174b6780379020a247a18e80e7b1e7aa4e61494d6a328d364a",
+    "assets/og-image.jpg": "976a8ba6c1bc6e49338cfb4897d6063c7cc4cb244a3b2a253699ad159bdb44d0",
+    "assets/pack-basic.jpg": "281ed9ec2a33248d55946c7f23fe251e9482a7b939db0acb321774b52ccd52c5",
+    "assets/pack-color.jpg": "7248b4cf3c261d0d8c3d0b4c81e9bc1cf25d2ce6acbe21310aeb66109c307df9",
+    "assets/pack-placard.jpg": "dc1ef6314fb1b128293ae30ae9980314e32fabde94e6ad1ee9f43e091e164fbd",
+    "assets/pack-zoo.jpg": "d43dbbef4029d70c1fde5fcbb8c9217c135904f2f8cec5287cfeb4c91f3ccbe7",
+    "assets/screens/discovery-hero.jpg": "2f5846a074ac192812168459670b74eb0623d7cdfa564bbde8da1f34028baefd",
+    "assets/screens/editor-text.jpg": "e7288a76f3828d21dbe327ba8f71ec1f8d9ac3a1f63c6502ad23567198387b0e",
+    "assets/screens/editor.jpg": "57c2ece24041ba25d09edd1be90c6fbda8a863f0fe444e80e909b7edac3d7d5f",
+    "assets/screens/quick-replace.jpg": "30922ec2c502de85495bba5f36f1f79e6aea6c686d9d165f8edc8eff8ef11208",
+    "assets/showcase/ImportBarFlower.png": "f52619771a5194cd6185f4bc627f2e8894788586cd87d6db39f1f77d39ec5f08",
+    "assets/showcase/ImportBarFlowerCutout.png": "441113a35797ca464c0f14a77b1fa3e94c0f827b0be21799fc6ab886a28b9604",
+    "assets/showcase/PicnicAmberWallpaper.png": "bf7708d9d2f138082145ffcb5436c7c9cc69699262d6aa5ccd895dfdee4e24ec",
+    "assets/showcase/PicnicBaconBurger.png": "e1c75ed27f05e9c325254a444fd103931c05041a8f3e3641a53063763476e00b",
+    "assets/showcase/PicnicChickenWrap.png": "da5e65c42cce8309b0b86dfcef4e4d89298c9cef7938af7fc07ac616dce6f8b5",
+    "assets/showcase/PicnicChocolateDonut.png": "30d604c1956c9c44eac0436fe1db2b5f296d709eff98f6975d9bb805f54af5b0",
+    "assets/showcase/PicnicCoffee.png": "8506941c30b4cb8d1d6f57d687361cc28f4d4e05c8952b96a0e528b677280f7a",
+    "assets/showcase/PicnicCola.png": "d15bfe75b30b68772cc6b016b733f21e446676efdb1480c47411a00bd1692e11",
+    "assets/showcase/PicnicFries.png": "d026ed78052df9f046bdbe65b7d48af6d6be2539feeaa6d86cced2c363ee85a1",
+    "assets/showcase/PicnicLakesideWallpaper.png": "bbb62e24ffa3cd3a9d33cbd9968ca585745c190fec4e581c13e69d84bd03e6bd",
+    "assets/showcase/PicnicOnionRings.png": "78326710bfe7a35950328d3d43ced35a051edf94e2eb5af7a1613a4166dd4b6c",
+    "assets/showcase/PicnicPizza.png": "1b14a8209ec92b5d2783070da43b25230ee2c79f20d4a7128961b6dd5dae3cdd",
+    "assets/showcase/PicnicRamen.png": "961bb58c96e8c155d039dea3c1c152eb06a41863b01e48dd26ee472e0d6ed3c5",
+    "assets/showcase/PicnicSoftServe.png": "1a63cfa7563ac535ea130e1d2cc2b26d40138b70ccbff8f0a4ebdc5752d3a469",
+    "assets/showcase/PicnicStrawberryMilkshake.png": "a4f86ec0211b4ed3b4802d061339fa110c16e6d54ac7d49a3ea43db12e929036",
+    "assets/showcase/PicnicSushi.png": "ba5d7f4a1a1f3873c0e6b89f61f3c8886a117bf20578c1d2764c68ec971607e5",
+    "assets/showcase/bubble.png": "f878defa15eb68733206bba61ac01e4cb8a389c093d62cd4604d8223b4d582d7",
+    "assets/showcase/clock.png": "73e072bcca376126b070031c46048981c0cda3c8dc5368374d4631115c2a7d32",
+    "assets/showcase/extra-0.png": "6598b40d30e505c3ec5444b441fee315c44a917186d67c3f5fed2ff48babbdd0",
+    "assets/showcase/extra-1.png": "ec05f5e0105ad4971854d7fad1fa4016e1aec296f5ce408d20afb845324004f1",
+    "assets/showcase/extra-10.png": "0e60c984245a4a37f700dc5be5343ae1b7e6793e54749d24c8991debbd32a0ee",
+    "assets/showcase/extra-11.png": "786700dafe023db6d8fdde64aa05d99994c9132cb6e0e227f0944c7f92f6c466",
+    "assets/showcase/extra-12.png": "e8694a7ff4ee9c3cfefe9b49432fdddc2f8a08f0b977437f79a02533f24f544e",
+    "assets/showcase/extra-13.png": "a1048a299c1a70bee5a1d6de99b24f4b4fbda29010e439b7112539cd115b2ca0",
+    "assets/showcase/extra-14.png": "e1c75ed27f05e9c325254a444fd103931c05041a8f3e3641a53063763476e00b",
+    "assets/showcase/extra-15.png": "36e89a30a3c8cfb2209bdeacd0fee7cdc442f97d3c22a308c569cdd18266af52",
+    "assets/showcase/extra-16.png": "9d74821893024ec7138b37f2ce9ba4e0a87799f2b7ce825763cf541a46e88a17",
+    "assets/showcase/extra-17.png": "04a438477252243d1902c402bd8a7afbcd10c1595dbdbe9033758d8e79c1c955",
+    "assets/showcase/extra-18.png": "06a1c0698c4942d37d9c20b61b3258a84f1f09af88ee3301ed00d6f382759e74",
+    "assets/showcase/extra-19.png": "06fc6370dc316ae8db014bb58ff52a4250a3beac6b1333491491c2e9745c964c",
+    "assets/showcase/extra-2.png": "b14619d93a7b6afe4cfdc9b78ce60571348133db7173e6bd27ce7dfce52dac2b",
+    "assets/showcase/extra-20.png": "4b67f02ae7d260dce18d6e27fbb0d0831f81f3c2e6164adcf662103abf2c650d",
+    "assets/showcase/extra-21.png": "81b32c4268ceda0e480ae587c49d924d33efc4f07b993acb66244785a2e473f9",
+    "assets/showcase/extra-22.png": "c581772e3718496af7b36f39db7c78fdca2090fb030f05be607290d247c0fca5",
+    "assets/showcase/extra-23.png": "35f05b9096e6d4a132a03c920c20489a4d1f3e48534177777ffb005d1869d6e9",
+    "assets/showcase/extra-24.png": "4a4a112c1f7d5864a14fad28660a9ffe1947ebae869d008144942b402801bb64",
+    "assets/showcase/extra-25.png": "f313d47dcec8512a95f1e0519ac5e9d8c09d037062db04f689657baa13e7764a",
+    "assets/showcase/extra-26.png": "1bd2e763fe4dcf90a9c8f58e00d303a6a9d2f1def659e82562f6d9f5e8fe7a61",
+    "assets/showcase/extra-27.png": "f938012308ff54264c8b8e85f45daa1134d7c0c008116158dd2b05c2c88fc93a",
+    "assets/showcase/extra-28.png": "447cad7c75b44f1a44240341c8b645d2a4b12da0f834b0b79aa7530dd507e223",
+    "assets/showcase/extra-29.png": "441113a35797ca464c0f14a77b1fa3e94c0f827b0be21799fc6ab886a28b9604",
+    "assets/showcase/extra-3.png": "7ba1b4c03538852fb7890e2454ab6a18dfa6de9b2eb0ebd09dab6eca7d8141ba",
+    "assets/showcase/extra-30.png": "2857120b540af4728d1d214b07827074ccb0ecf236cb929f175351f2fef2b317",
+    "assets/showcase/extra-4.png": "8aa7f886232388d0ed6f75e2d418adc97fee4090e17867ab7a93030a56bc99e1",
+    "assets/showcase/extra-5.png": "901233030d6827b12786ab0d1fdb7527f815d39de165f59b43bcc9d336680c38",
+    "assets/showcase/extra-6.png": "f0703f05a5fec053d3cd875298ba2616f982dab7e11440fa9f404db3e775d2a5",
+    "assets/showcase/extra-7.png": "3564b7746b0aeca6af371720d9ce7de2585bf5c1eca7e4ba06f8d698a790460b",
+    "assets/showcase/extra-8.png": "13651a132cba92d3122398dc2048b1aea10f318be3d56d99709bb17feee7a731",
+    "assets/showcase/extra-9.png": "e92cb33caae0cc260a938dc2fd2f6d878dc5322cd4d9ae32245981045bdf1671",
+    "assets/showcase/fish-0.png": "61bbb0daefc8feed608e8b64a28465b6ea4e191a58663b656afee3382c4fef25",
+    "assets/showcase/fish-1.png": "5364bce2758c7921d1c93d5a3f08804f5a2a1b4a4445a2448ac763bbe9b7c0be",
+    "assets/showcase/fish-2.png": "7a3f98466dc3f1f4d6de5744ea6239536434af0bc98e8c74052d6ab472144a0e",
+    "assets/showcase/library-0.png": "4208a45ba188708ddd822f1adf2e2b255cb13c886a197520c8a3643bceb5ec06",
+    "assets/showcase/library-1.png": "77b28780f2d630c9e41faa04f6aca6676183efd4067eae334673eb29cddfec15",
+    "assets/showcase/library-2.png": "9e5b9106feb877554baf1ecee4e97a314b2743036261eac360af53d65fc0beed",
+    "assets/showcase/library-3.png": "5593fba4924a2bae9036967d19f88bc8a628b4421f0066bffadd7c9debaa5278",
+    "assets/showcase/library-4.png": "93a748125d537ec89f9b6aa520b082a9c724589370c53cd517b7c53221552dcf",
+    "assets/showcase/library-5.png": "e6f3190bba92d9d03cdec7184be15f0ed88e4d96ef5a7ff40a9894a9edc17edd",
+    "assets/showcase/library-6.png": "046640557409b9660cd9f7046421e3e0ca270c6db6240b106d26765566df1988",
+    "assets/showcase/library-7.png": "49d154721c7e0438a13352ad3d77b1d7dd22dc5d1cd078227956957cf827bb36",
+    "assets/showcase/library-8.png": "6e1a07da9adf42013026493c929667e14309e34f139865d0a7895c3be1e209bd",
+    "assets/showcase/music.png": "8fe9f2407dad4c6343efaec74b4bef97f43f4e03b544beccad980a5cca1e61f6",
+    "assets/showcase/photo.png": "7395807c27d9a439bc4778d82de7143bb172c9e316f6b2f3a49487ab0b8bddef",
+    "assets/showcase/pointer.png": "beba65a2f3bd44a1e3b61685fd086984de67aa65e8bd6a78a5d16f7288b7d868",
+    "assets/showcase/star-0.png": "b7c6c29898547e0bfcd54cfa59fbf8e3cac5d252d570db6571af625e20077115",
+    "assets/showcase/star-1.png": "fff21c7434f4b79f2520eb189cb8b3c8396f22a38e64ee689a1166b522770380",
+    "assets/showcase/star-2.png": "32e77c923cb96bb3fd00fc37f78432f97782d5652d6cb66c7ffdedd52bff7773",
+    "assets/showcase/star-3.png": "106e22bae5d8939e389a89f42429af805f69217b2687e2d01ec9303a7d63eaca",
+    "assets/showcase/star-4.png": "7d7455c8bc389976ee6ac52b45bf959d2f1c8db3fbb9df321b0aeeaa34e0783d",
+    "assets/showcase/todo-done.png": "2c820b8e672106dace9985eb9ea959896426a3b59e8858f06ae6a94e80a1fc5e",
+    "assets/showcase/todo.png": "826a00223fea49cbb2bcde16194d7bbe05f0eb9e0c5db502700eff830e6cf543",
+    "assets/sticker-folder.png": "e262bed72c72865f51d6b619000736b05e0e04bc584f1f2d12a6c01bc1feddfe",
+    "assets/sticker-hello.png": "de883560f23915ea5ee20a11a6e58b618ff930f2c839664d319a55040561d1fe",
+    "assets/sticker-panda.png": "cc0ea38a78a792e611de50e89d272242791bfb39bbd92684c3d260ac381f6216",
+    "assets/tutorials/finder-after-detail.svg": "baf12288f1db02b3b51971eaa2b8de11a352408bf5b8e8c8159958a0a6029730",
+    "assets/tutorials/finder-before-detail.svg": "8ee49923f1464c6bfbfa4354c94ba31d7777c9f7ec7ccbcb6019caa1d64d643e",
+    "assets/tutorials/finder-colours-detail.svg": "a9ea9bba037f3fd4e25012d8d7a574ff501a648ee0bab7d885035437bc9f326e",
+    "ja/about/index.html": "02768ad7a9fdfbfacee676f028f9a42a1e3f8c0c73a44c914e92566582330a55",
+    "ko/about/index.html": "deb9c80fda9b33edfc8a884b7a7bec7fcd2e7a03947215965ad19a69f9502bdb",
+    "language.js": "228433795670a8389d8de64c45f22be930dafe720a347877556cbc7cd031fb77",
+    "llms.txt": "7768e64816af6b192c280ee6b4a3a77f2c555e97a1586458aa26647ac2f8d50a",
+    "main.js": "1c8fa184aac43040f85f8eef1dcedc180333656d119ec5adf0eb3a174bca44f7",
+    "privacy/index.html": "fefed02b02b630772423d3ca739a4e4c324a911db708b5b3e17ba5043cc51ddc",
+    "robots.txt": "ba15815143108e476ae4ea2443dc3316a6d29d0f9b6afc5b9a9b1e428fdab7a8",
+    "showcase/artwork.json": "7896da5d0ae2751b8539ec0d089980a536e7fba8137bb3857a811a5fc3c0c18d",
+    "showcase/assets.mjs": "60aee1cea853cf6a0d349e2142aee33f8820468f7aa370015aa4fc6882d97b16",
+    "showcase/copy.mjs": "34abdc2027a2ed9fb6a414ae63f81c9ba1f2b5c7dcabfaa1bf97aa9406a5d6af",
+    "showcase/glass.mjs": "fbe9a7f9ff3cfe60cdeb462666ac153f21e9113a999b22f15021b98bdf325d1d",
+    "showcase/motion.mjs": "46748f7eab7a97b5f3d2dacd980ae19e19c1a5b2e043458ef7a9676bd7a2469d",
+    "showcase/style.css": "22e5eedbb701979b16336d06a10113ec70bbd6664f2216d537117dc87d81495c",
+    "sitemap.xml": "9aa9701a530fa0f32e312b761862a092a1f8bac507f3b04c8a06947f876faf82",
+    "styles.css": "065c81f296b55ea5a2640e1d35264f9cf324336560086f3a159e2f1b767d55dc",
+    "support/index.html": "37588a72a2b87c824229062d62499998b52857a67ecf12705c738cd7ad36d7ec",
+    "tutorials.css": "bfb7498ed6b0fe54a75d4318ef60dd675e9b6cb9074df7a87bd8fcde923e751c",
+    "tutorials/change-folder-icons-on-mac/index.html": "4ea8a01bae5668d2077846cbe9241342fb46f992b46eca18e62813d5498416a3",
+    "tutorials/folder-color-system-on-mac/index.html": "a117c256b89135e56f9a7125e3061ce0ce6e1a8a87f7d0084616ab3ff1dc86b4",
+    "tutorials/folder-icons-with-text/index.html": "5789e49a597452be5632e370956c7fd9c0f91850cdd02447e3a366625ad78e17",
+    "tutorials/index.html": "7a0589755ca44860b5714347a74ffb4fc99733a8a744c4c2c22e6a1791ae9c74",
+    "zh-hans/about/index.html": "41886e0eb101be4dc2b255e08f92d3d1d79010846abc3554d23b06775fb2e35f",
+    "zh-hans/tutorials/change-folder-icons-on-mac/index.html": "9f29ac1777686945f6f58585d2adad68e4fbcfcc9decff2775bdd50fdda77788",
+    "zh-hans/tutorials/folder-color-system-on-mac/index.html": "09fa9d73c12251a0e211c4c3ccbb51309892b6af245379695aec3b4ad8a96221",
+    "zh-hans/tutorials/folder-icons-with-text/index.html": "4ba6d607495532f9f81e01803ab3b59036e8b003df8a6aaca8081405c7096679",
+    "zh-hans/tutorials/index.html": "c26f2bce0be2f791841e161d68cd85b4359698ca3d0049270c76b9b9eae08e3f"
+  },
+  "legacyStudio": {
+    "studio/style.css": "626b5c4ff0b19f0c339816a6b785231182e55bdb0f19dd2dddbb9efa101415fa",
+    "studio/runtime.mjs": "3e7332abe713aab284ccb0450d4bdad9045f67c7ef20ce2491dff9dede00e28e",
+    "studio/copy.mjs": "bca4bc63d46cd1c5cd22692d5e87ae17b79263e97b1de155f291989cb8697663"
+  }
+}

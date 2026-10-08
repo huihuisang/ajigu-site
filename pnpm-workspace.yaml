@@ -1,0 +1,17 @@
+packages:
+  - apps/*
+  - packages/*
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - "@tailwindcss/oxide"
+
+# These upstream packages declare different OXC peer ranges. Keep each peer local.
+packageExtensions:
+  "@astrojs/react@7.1.2":
+    dependencies:
+      oxc-transform-react: 0.145.0
+  "@vitejs/plugin-react@6.1.2":
+    dependencies:
+      oxc-transform-react: 0.152.0

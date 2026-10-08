@@ -1,0 +1,16 @@
+{
+  "packages/ui/src/components/link-button.tsx": "95e4d25cd475d3cfb88dce65ddc31c60c5d9186c24433daa158a1288034dbc20",
+  "apps/ajigu/src/components/NameplatePage.astro": "fcb91f4d73c069814e1b1d9d2b6d5ccba5ae901544d292190b3b389548aed527",
+  "apps/typenote/src/components/TypeNotePage.tsx": "49c84edc31b561755c4a8a014280b45039b2cf373bfb6cb84632f303e881f000",
+  "apps/typenote/src/components/SoundPreview.tsx": "801df33fb0a609e977926db5ee1eb00ea9d2b98e1559b4f94aa510bbb580f6be",
+  "apps/typenote/src/lib/language.ts": "8e509d45fb0d30a25b8b74b1641b93ce4ef9e2bc1eb0ed388f9124531f0f531b",
+  "apps/typenote/src/lib/tone-engine.ts": "35d63f23e7b40c742ce30fea56e07c38d6eaaea954239e462ef589fdda910844",
+  "apps/typenote/public/assets/favicon.png": "e81eeed986d139eb1ff6940f164ca2a1763cd877b6fd28b08bda2597e1c73ca7",
+  "packages/site-kit/src/scripts/enhance.ts": "cf40624acc27dcdb843e14a05403f3c441695438272afda1ec34008c5d0a45ae",
+  "packages/site-kit/config/paths.mjs": "42cb7c16f88318bc7622e2e42e2132e8a49c5d2e0af4051d2e7b1bbdfcfe468f",
+  "scripts/workspace.mjs": "f328977e50a825c685fe6c6071408a909bc5984bcffa6c9f94706ede501e90b3",
+  "scripts/preview-workspace.mjs": "35b704d162bdba0d4e60b61ae1b6d38d44f57cf5f4f41e690185c59eac0e5562",
+  "scripts/check-build.mjs": "99f534ff6432fccbf0fad5798f90e3fc115b29e4782bece9d37f381d2eea5b4c",
+  ".github/workflows/build-websites.yml": "c3fb09d5c2dbeb74f952de286e56d8d8fc0dc5e9c8373d373cd2bbb2e5eee9d2",
+  "pnpm-lock.yaml": "de2bc3ad5ce936c35efa96ac1a24a9b96d68c9e2979d6cf04c12cce1219f57b4"
+}

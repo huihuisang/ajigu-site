@@ -1,0 +1,1878 @@
+[
+  {
+    "route": "/",
+    "locale": "en-GB",
+    "metadata": {
+      "title": "Moodsk — Folder Icon Maker & Changer for Mac",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#eaf5ff"
+        },
+        {
+          "name": "description",
+          "content": "Create custom file and folder icons on Mac with images, text, emoji or SF Symbols. Use Moodsk to change icons in batches and restore defaults from Finder."
+        },
+        {
+          "property": "og:title",
+          "content": "Moodsk — Folder Icon Maker & Changer for Mac"
+        },
+        {
+          "property": "og:description",
+          "content": "Create custom file and folder icons on Mac with images, text, emoji or SF Symbols. Use Moodsk to change icons in batches and restore defaults from Finder."
+        },
+        {
+          "property": "og:image",
+          "content": "https://moodsk.ajigu.com/assets/og-image.jpg"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://moodsk.ajigu.com/"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_GB"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Moodsk"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Moodsk — Folder Icon Maker & Changer for Mac"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Create custom file and folder icons on Mac with images, text, emoji or SF Symbols. Use Moodsk to change icons in batches and restore defaults from Finder."
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://moodsk.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://moodsk.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://moodsk.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/apple-touch-icon.png"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "SoftwareApplication",
+              "@id": "https://moodsk.ajigu.com/#app",
+              "name": "Moodsk",
+              "operatingSystem": "macOS",
+              "applicationCategory": "UtilitiesApplication",
+              "description": "Create custom file and folder icons on Mac with images, text, emoji or SF Symbols. Use Moodsk to change icons in batches and restore defaults from Finder.",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "url": "https://moodsk.ajigu.com/",
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "sameAs": ["https://apps.apple.com/app/id6752535811"],
+              "image": "https://moodsk.ajigu.com/assets/og-image.jpg"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://moodsk.ajigu.com/#website",
+              "name": "Moodsk",
+              "url": "https://moodsk.ajigu.com/",
+              "inLanguage": ["en-GB", "zh-Hans", "ja", "ko"],
+              "publisher": {
+                "@id": "https://ajigu.com/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://moodsk.ajigu.com/#webpage",
+              "name": "Moodsk — Folder Icon Maker & Changer for Mac",
+              "url": "https://moodsk.ajigu.com/",
+              "inLanguage": "en-GB",
+              "dateModified": "2026-10-31",
+              "isPartOf": {
+                "@id": "https://moodsk.ajigu.com/#website"
+              },
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "mainEntity": {
+                "@id": "https://moodsk.ajigu.com/#app"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://ajigu.com/#organization",
+              "name": "ajigu",
+              "url": "https://ajigu.com/",
+              "logo": "https://ajigu.com/assets/logo.png",
+              "sameAs": ["https://github.com/Ajigu-Studio"]
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "en-GB",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Which Macs does Moodsk support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moodsk runs on macOS 14 or later, including Apple Silicon Macs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can I use to create icons?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Import your own images (PNG, JPG, HEIC or SVG), pick from thousands of SF Symbols, or compose icons from text and emoji. Curated icon packs are included."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I restore an original icon?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Drop the files back into Moodsk to restore them, or right-click any file in Finder and choose restore with the bundled Finder extension. Batch restore is supported."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Moodsk upload my files anywhere?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Moodsk renders and applies icons on your Mac without uploading your files or designs. Apple services handle in-app purchases."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-GB",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "Custom Mac\nfolder icons.",
+    "claim": "",
+    "intro": "Create file and folder icons from images, text, emoji or SF Symbols.\n        Change icons one by one or in batches, and restore defaults from Finder\n        whenever you like.",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/gb/app/moodsk-folder-icon-maker/id6752535811?mt=12",
+        "label": "Download on the App Store",
+        "external": false
+      },
+      {
+        "href": "#features",
+        "label": "See what it can do",
+        "external": false
+      },
+      {
+        "href": "/tutorials/",
+        "label": "Read tutorials",
+        "external": false
+      }
+    ],
+    "note": "macOS 14+  ·  简体中文 / English / 日本語 / 한국어  ·  On-device, privacy first",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "What is Moodsk?",
+        "body": "<p><strong>Moodsk is a macOS app for creating and changing file and folder icons.</strong> It works with your images, SF Symbols, text and emoji, and supports macOS 14 or later. Use it to give project folders a clear visual identity or make a set of icons with matching labels and colours.</p><p>Choose a built-in icon when you want a quick change. Use the layer editor when you need to combine an image, a symbol and a text label. Preview the design before applying it to your selected files or folders; batch actions let you reuse one design across multiple items.</p><p>Built-in free colour icons can be applied directly. Editor output requires Editor Pro, and paid icon packs are separate purchases. Changing an icon changes its appearance, without moving or renaming the item. You can restore the default icon later through Moodsk or its Finder extension.</p><p>Icon rendering and application happen on your Mac without uploading your files or designs. Apple services handle purchases. For the built-in Finder workflow and practical examples, follow the guides below.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "features",
+        "title": "How do you create, change and restore folder icons?",
+        "body": "<p>Moodsk lets you create custom file and folder icons, apply them to one or more items, and restore the originals. Use images, SF Symbols, text or emoji as your starting point.</p>",
+        "items": [
+          {
+            "title": "A what-you-see-is-what-you-get layer editor",
+            "body": "<p>Template plus layers: position, scale, rotation, 3D perspective, opacity and corner radius, combined however you like. Every change shows up instantly.</p>"
+          },
+          {
+            "title": "Rich sources",
+            "body": "<p>Import your own pictures, pick SF Symbols from the built-in browser, or express things with text and emoji.</p>"
+          },
+          {
+            "title": "Style effects",
+            "body": "<p>Normal, Embossed, Shadow, Sticker and Neon styles, with tinting, filters and a white outline.</p>"
+          },
+          {
+            "title": "Pack-wide editing",
+            "body": "<p>Edit once and the whole icon pack updates. Ten folders of text and colour, consistent in one step.</p>"
+          },
+          {
+            "title": "Batch apply / restore",
+            "body": "<p>Queue multiple items and apply one design in bulk, or restore default icons in batches with visible progress.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "editor",
+        "title": "How do you design custom folder icons?",
+        "body": "<p>Layer images, symbols and text freely. Font families and weights, automatic sizing, outlines and effects — every detail is yours to decide.</p>",
+        "items": [
+          {
+            "title": "Live preview",
+            "body": "<p>The selected layer is highlighted; border and radius guides appear as you scale.</p>"
+          },
+          {
+            "title": "Automatic sizing",
+            "body": "<p>Text adapts to its container, so titles and monograms always fit.</p>"
+          },
+          {
+            "title": "Undo / redo",
+            "body": "<p>Both edits and layer order can be reverted, so experiment freely.</p>"
+          },
+          {
+            "title": "Sharp export",
+            "body": "<p>Icons render at 4×, staying crisp in Finder and on the desktop.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "How do you change a folder icon on Mac?",
+        "body": "<p>Choose an icon, adjust its design, then apply it to your selected files or folders. Moodsk also supports batch replacement, so you can reuse one design across multiple items.</p><p>Prefer the built-in method? Apple explains how to copy and paste a custom icon in the Get Info window: <a href=\"https://support.apple.com/guide/mac-help/change-icons-for-files-or-folders-on-mac-mchlp2313/mac\">Change icons for files or folders on Mac</a>.</p><p><q>choose a custom icon for any file or folder</q></p><p>Apple, <cite><a href=\"https://support.apple.com/guide/mac-help/change-icons-for-files-or-folders-on-mac-mchlp2313/mac\">Mac User Guide</a></cite></p>",
+        "items": [
+          {
+            "title": "Pick a source",
+            "body": "<p>Open a curated icon pack, or import your own images, SF Symbols and text.</p>"
+          },
+          {
+            "title": "Polish the style",
+            "body": "<p>Adjust colour, scale, corner radius and effects, tuning every layer live.</p>"
+          },
+          {
+            "title": "Apply or restore",
+            "body": "<p>Replace a single icon by drag and drop, apply in batches, or restore defaults in one click.</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "Change icons for files or folders on Mac",
+            "href": "https://support.apple.com/guide/mac-help/change-icons-for-files-or-folders-on-mac-mchlp2313/mac"
+          },
+          {
+            "label": "Mac User Guide",
+            "href": "https://support.apple.com/guide/mac-help/change-icons-for-files-or-folders-on-mac-mchlp2313/mac"
+          }
+        ]
+      },
+      {
+        "id": "replace",
+        "title": "How do you change folder icons in batches?",
+        "body": "<p>Drag files or folders into the window and the icon is replaced the moment you let go. You can also export a brand-new folder with its icon already set.</p><p>Bundled Finder extension: right-click files in Finder to restore default icons in one click, with multi-select support.</p><ul>\n          <li>Single or multi-file drops, plus the system open panel</li>\n          <li>White outline switch for light wallpapers</li>\n          <li>Old icons are cleared before replacing, so nothing lingers</li>\n        </ul>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "packs",
+        "title": "Curated packs, picked for your desktop",
+        "body": "<p>Open any icon and make it yours — change the text, the colour, add a badge. It&#x27;s up to you.</p>",
+        "items": [
+          {
+            "title": "Basic",
+            "body": "<p>Essentials · Free</p>"
+          },
+          {
+            "title": "Placard",
+            "body": "<p>Typography</p>"
+          },
+          {
+            "title": "Cartoon Doodle Zoo",
+            "body": "<p>Illustration</p>"
+          },
+          {
+            "title": "Colors",
+            "body": "<p>Colour series · Free</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-6",
+        "title": "On your Mac.",
+        "body": "",
+        "items": [
+          {
+            "title": "On-device only",
+            "body": "<p>Rendering and icon application happen locally. Files and designs are not uploaded.</p>"
+          },
+          {
+            "title": "Light & dark",
+            "body": "<p>Follows the system appearance with frosted materials and motion.</p>"
+          },
+          {
+            "title": "Four languages",
+            "body": "<p>简体中文, English, 日本語 and 한국어 out of the box.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "Questions, answered",
+        "questions": [
+          {
+            "question": "Which Macs does Moodsk support?",
+            "answer": "<p>Moodsk runs on macOS 14 or later, including Apple Silicon Macs.</p>"
+          },
+          {
+            "question": "What can I use to create icons?",
+            "answer": "<p>Import your own images (PNG, JPG, HEIC or SVG), pick from thousands of SF Symbols, or compose icons from text and emoji. Curated icon packs are included.</p>"
+          },
+          {
+            "question": "How do I restore an original icon?",
+            "answer": "<p>Drop the files back into Moodsk to restore them, or right-click any file in Finder and choose restore with the bundled Finder extension. Batch restore is supported.</p>"
+          },
+          {
+            "question": "Does Moodsk upload my files anywhere?",
+            "answer": "<p>No. Moodsk renders and applies icons on your Mac without uploading your files or designs. Apple services handle in-app purchases.</p>"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Who makes Moodsk?",
+        "body": "<p>Moodsk is made by ajigu, an independent studio building focused apps for Mac and iPhone. Icon rendering and application run on your Mac; Apple services handle purchases.</p><p>Moodsk is free to download. Editor Pro and paid icon packs are separate in-app purchases.</p><p>Last updated: 31 October 2026</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "About ajigu",
+            "href": "https://ajigu.com/"
+          },
+          {
+            "label": "ajigu on GitHub",
+            "href": "https://github.com/Ajigu-Studio"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:support@ajigu.com"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "Make your desktop stand out, today",
+        "body": "<p>Download Moodsk for free and give every folder a little personality.</p><p>macOS 14+ · Apple Silicon supported</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "Download on the App Store",
+            "href": "https://apps.apple.com/gb/app/moodsk-folder-icon-maker/id6752535811?mt=12"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/about/",
+        "label": "About",
+        "external": false
+      },
+      {
+        "href": "/privacy/",
+        "label": "Privacy Policy",
+        "external": false
+      },
+      {
+        "href": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "label": "Terms of Use",
+        "external": false
+      },
+      {
+        "href": "/support/",
+        "label": "Support",
+        "external": false
+      },
+      {
+        "href": "/tutorials/",
+        "label": "Tutorials",
+        "external": false
+      },
+      {
+        "href": "mailto:support@ajigu.com",
+        "label": "Contact",
+        "external": false
+      }
+    ],
+    "mainId": "main-content",
+    "showcaseHTML": "<section data-ui class=\"desktop-showcase\" id=\"desktop-preview\" aria-label=\"Desktop preview\">\n        <img class=\"showcase-fallback\" src=\"assets/screens/discovery-hero.jpg\" alt=\"Moodsk Discover home showing curated icon packs over a desktop theme\">\n        <div class=\"showcase-interface\">\n          <header><b>Desktop preview</b><button type=\"button\" id=\"pause\">Pause animation</button></header>\n          <div class=\"showcase-main\">\n            <div class=\"copy\"><div id=\"eyebrow\"></div><h2 id=\"title\"></h2><p id=\"detail\"></p><button type=\"button\" id=\"next\" class=\"primary\">Start exploring</button></div>\n            <div id=\"stage\" aria-label=\"Desktop preview\"></div>\n          </div>\n          <footer><span>Preview only. Your desktop stays unchanged.</span><nav aria-label=\"Chapters\"></nav><button type=\"button\" id=\"replay\">Replay chapter</button></footer>\n        </div>\n      </section>"
+  },
+  {
+    "route": "/zh-hans/",
+    "locale": "zh-Hans",
+    "metadata": {
+      "title": "Moodsk — Mac 文件夹图标制作与更换工具",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#eaf5ff"
+        },
+        {
+          "name": "description",
+          "content": "用 Moodsk 自定义 Mac 文件与文件夹图标。通过图片、文字、Emoji 和 SF Symbols 制作图标，支持批量更换，并可在访达中随时还原默认图标。"
+        },
+        {
+          "property": "og:title",
+          "content": "Moodsk — Mac 文件夹图标制作与更换工具"
+        },
+        {
+          "property": "og:description",
+          "content": "用 Moodsk 自定义 Mac 文件与文件夹图标。通过图片、文字、Emoji 和 SF Symbols 制作图标，支持批量更换，并可在访达中随时还原默认图标。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://moodsk.ajigu.com/assets/og-image.jpg"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://moodsk.ajigu.com/zh-hans/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_Hans"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Moodsk"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Moodsk — Mac 文件夹图标制作与更换工具"
+        },
+        {
+          "name": "twitter:description",
+          "content": "用 Moodsk 自定义 Mac 文件与文件夹图标。通过图片、文字、Emoji 和 SF Symbols 制作图标，支持批量更换，并可在访达中随时还原默认图标。"
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://moodsk.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://moodsk.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://moodsk.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://moodsk.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/apple-touch-icon.png"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "SoftwareApplication",
+              "@id": "https://moodsk.ajigu.com/#app",
+              "name": "Moodsk",
+              "operatingSystem": "macOS",
+              "applicationCategory": "UtilitiesApplication",
+              "description": "用 Moodsk 自定义 Mac 文件与文件夹图标。通过图片、文字、Emoji 和 SF Symbols 制作图标，支持批量更换，并可在访达中随时还原默认图标。",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "url": "https://moodsk.ajigu.com/",
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "sameAs": ["https://apps.apple.com/app/id6752535811"],
+              "image": "https://moodsk.ajigu.com/assets/og-image.jpg"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://moodsk.ajigu.com/#website",
+              "name": "Moodsk",
+              "url": "https://moodsk.ajigu.com/",
+              "inLanguage": ["en-GB", "zh-Hans", "ja", "ko"],
+              "publisher": {
+                "@id": "https://ajigu.com/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://moodsk.ajigu.com/zh-hans/#webpage",
+              "name": "Moodsk — Mac 文件夹图标制作与更换工具",
+              "url": "https://moodsk.ajigu.com/zh-hans/",
+              "inLanguage": "zh-Hans",
+              "dateModified": "2026-10-31",
+              "isPartOf": {
+                "@id": "https://moodsk.ajigu.com/#website"
+              },
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "mainEntity": {
+                "@id": "https://moodsk.ajigu.com/#app"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://ajigu.com/#organization",
+              "name": "ajigu",
+              "url": "https://ajigu.com/",
+              "logo": "https://ajigu.com/assets/logo.png",
+              "sameAs": ["https://github.com/Ajigu-Studio"]
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "zh-Hans",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Moodsk 支持哪些 Mac？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moodsk 支持 macOS 14 及以上版本，兼容 Apple Silicon 芯片的 Mac。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "可以用哪些素材创作图标？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "可以导入自己的图片（PNG、JPG、HEIC 或 SVG），从数千个 SF Symbols 中挑选，或用文字与 Emoji 组合创作，还内置精选图标包。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "如何恢复默认图标？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "把文件重新拖入 Moodsk 即可还原；也可以在访达中右键文件，通过内置的访达扩展一键恢复，支持多选批量还原。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Moodsk 会上传我的文件吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "不会。Moodsk 在你的 Mac 本地渲染和应用图标，不会上传文件或设计。App 内购买由 Apple 服务处理。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-GB",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "自定义 Mac\n文件夹图标。",
+    "claim": "",
+    "intro": "用图片、文字、Emoji 和 SF Symbols 制作文件与文件夹图标，支持逐个或批量更换，并可在访达中随时还原默认图标。",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/cn/app/moodsk-%E6%96%87%E4%BB%B6%E5%A4%B9%E5%9B%BE%E6%A0%87%E5%88%B6%E4%BD%9C/id6752535811?mt=12",
+        "label": "App Store 下载",
+        "external": false
+      },
+      {
+        "href": "#features",
+        "label": "看看它能做什么",
+        "external": false
+      },
+      {
+        "href": "/zh-hans/tutorials/",
+        "label": "阅读教程",
+        "external": false
+      }
+    ],
+    "note": "macOS 14+  ·  简体中文 / English / 日本語 / 한국어  ·  本地处理，隐私优先",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Moodsk 是什么？",
+        "body": "<p><strong>Moodsk 是一款用于制作和更换文件与文件夹图标的 macOS 应用。</strong> 它支持图片、SF Symbols、文字和 Emoji，适用于 macOS 14 及以上版本。你可以为项目文件夹制作易于辨认的图标，也可以制作文字与配色一致的整套图标。</p><p>想快速更换时，可以选择内置图标。需要组合图片、符号和文字标签时，可以使用图层编辑器。先预览设计，再应用到选中的文件或文件夹；批量操作可以让多个项目使用同一套设计。</p><p>内置的免费颜色图标可以直接应用。编辑器输出需要 Editor Pro，付费图标包则需另行购买。更换图标只改变外观，不会移动文件或更改名称。你可以通过 Moodsk 或其访达扩展恢复默认图标。</p><p>图标渲染与应用在你的 Mac 本地完成，不会上传文件或设计。购买由 Apple 服务处理。下方指南介绍了访达自带的操作方法和实际使用示例。</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "features",
+        "title": "如何制作、更换与还原文件夹图标？",
+        "body": "<p>Moodsk 可以制作自定义文件与文件夹图标，应用到一个或多个项目，并恢复默认图标。你可以从图片、SF Symbols、文字或 Emoji 开始创作。</p>",
+        "items": [
+          {
+            "title": "所见即所得的图层编辑器",
+            "body": "<p>模板 + 图层式编辑：位置、缩放、旋转、3D 透视、透明度、圆角，随心组合。所见即所得，改完立刻看到效果。</p>"
+          },
+          {
+            "title": "丰富素材",
+            "body": "<p>导入自己的图片，从内置选择器挑选 SF Symbols，或用文字与 Emoji 表达个性。</p>"
+          },
+          {
+            "title": "样式特效",
+            "body": "<p>普通、浮雕、阴影、贴纸、霓虹五种风格，配合着色、滤镜与白色描边，一键换装。</p>"
+          },
+          {
+            "title": "整包同步",
+            "body": "<p>编辑一次，整个图标包同步更新。十个文件夹的文字与配色，一步到位保持统一。</p>"
+          },
+          {
+            "title": "批量应用 / 一键还原",
+            "body": "<p>把多个对象加入待应用列表，批量套用同一设计；也可以批量还原默认图标，全程进度可见。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "editor",
+        "title": "如何设计自定义文件夹图标？",
+        "body": "<p>图片、符号、文字自由叠加。字体家族与字重、自动字号、描边与特效——每个细节都由你决定。</p>",
+        "items": [
+          {
+            "title": "实时预览",
+            "body": "<p>选中图层高亮显示，边框与圆角参考随缩放出现。</p>"
+          },
+          {
+            "title": "自动字号",
+            "body": "<p>文字随容器自适应大小，标题与字母组合都恰到好处。</p>"
+          },
+          {
+            "title": "撤销 / 重做",
+            "body": "<p>编辑与图层顺序均可回退，大胆尝试不怕改坏。</p>"
+          },
+          {
+            "title": "高清导出",
+            "body": "<p>4× 渲染输出，图标在访达与桌面上都锐利清晰。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "如何更换 Mac 文件夹图标？",
+        "body": "<p>选择图标，调整设计，再应用到选中的文件或文件夹。Moodsk 也支持批量替换，让多个项目使用同一套设计。</p><p>想用系统自带的方法？Apple 官方指南介绍了如何在“显示简介”窗口中复制并粘贴自定义图标： <a href=\"https://support.apple.com/zh-cn/guide/mac-help/mchlp2313/mac\">在 Mac 上更改文件或文件夹图标</a>.</p><p><q>为任意文件或文件夹选取自定义图标</q></p><p>Apple, <cite><a href=\"https://support.apple.com/zh-cn/guide/mac-help/mchlp2313/mac\">Mac 使用手册</a></cite></p>",
+        "items": [
+          {
+            "title": "挑选素材",
+            "body": "<p>打开精选图标包，或导入自己的图片、SF Symbols 与文字。</p>"
+          },
+          {
+            "title": "打磨样式",
+            "body": "<p>调整颜色、缩放、圆角与特效，所见即所得地微调每个图层。</p>"
+          },
+          {
+            "title": "应用或还原",
+            "body": "<p>拖入即换单个图标，或批量应用；改错了随时一键恢复默认。</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "在 Mac 上更改文件或文件夹图标",
+            "href": "https://support.apple.com/zh-cn/guide/mac-help/mchlp2313/mac"
+          },
+          {
+            "label": "Mac 使用手册",
+            "href": "https://support.apple.com/zh-cn/guide/mac-help/mchlp2313/mac"
+          }
+        ]
+      },
+      {
+        "id": "replace",
+        "title": "如何批量更换文件夹图标？",
+        "body": "<p>把文件或文件夹拖入窗口，松手立即替换图标；也可以新建一个“自带图标”的文件夹直接导出。</p><p>内置访达扩展：在 Finder 中选中文件右键，即可一键恢复默认图标，支持多选批量还原。</p><ul>\n          <li>单选、多选拖放均可，支持系统文件面板选择</li>\n          <li>白色描边开关，搭配浅色壁纸更清晰</li>\n          <li>覆盖前自动清理旧图标，避免残影</li>\n        </ul>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "packs",
+        "title": "精选图标包，为桌面精心挑选",
+        "body": "<p>打开任意图标即可定制成你的专属样式——换字、换色、加徽章，都随你。</p>",
+        "items": [
+          {
+            "title": "基本",
+            "body": "<p>必备精选 · 免费</p>"
+          },
+          {
+            "title": "铭牌",
+            "body": "<p>字体排版</p>"
+          },
+          {
+            "title": "卡通涂鸦动物园",
+            "body": "<p>插画系列</p>"
+          },
+          {
+            "title": "颜色",
+            "body": "<p>色彩系列 · 免费</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-6",
+        "title": "留在你的 Mac 上。",
+        "body": "",
+        "items": [
+          {
+            "title": "本地处理",
+            "body": "<p>图像渲染与图标应用全部在本机完成，不会上传文件或设计。</p>"
+          },
+          {
+            "title": "深浅色自适应",
+            "body": "<p>跟随系统外观，毛玻璃质感与动效浑然一体。</p>"
+          },
+          {
+            "title": "多语言界面",
+            "body": "<p>简体中文、English、日本語、한국어 开箱即用。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "常见问题，一一解答",
+        "questions": [
+          {
+            "question": "Moodsk 支持哪些 Mac？",
+            "answer": "<p>Moodsk 支持 macOS 14 及以上版本，兼容 Apple Silicon 芯片的 Mac。</p>"
+          },
+          {
+            "question": "可以用哪些素材创作图标？",
+            "answer": "<p>可以导入自己的图片（PNG、JPG、HEIC 或 SVG），从数千个 SF Symbols 中挑选，或用文字与 Emoji 组合创作，还内置精选图标包。</p>"
+          },
+          {
+            "question": "如何恢复默认图标？",
+            "answer": "<p>把文件重新拖入 Moodsk 即可还原；也可以在访达中右键文件，通过内置的访达扩展一键恢复，支持多选批量还原。</p>"
+          },
+          {
+            "question": "Moodsk 会上传我的文件吗？",
+            "answer": "<p>不会。Moodsk 在你的 Mac 本地渲染和应用图标，不会上传文件或设计。App 内购买由 Apple 服务处理。</p>"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "title": "谁在开发 Moodsk？",
+        "body": "<p>Moodsk 由独立工作室 ajigu 开发，专注于为 Mac 和 iPhone 制作实用应用。图标渲染与应用在你的 Mac 本地完成，购买由 Apple 服务处理。</p><p>Moodsk 可免费下载。Editor Pro 与付费图标包需要分别通过 App 内购买解锁。</p><p>最近更新： 2026 年 10 月 31 日</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "关于 ajigu",
+            "href": "https://ajigu.com/"
+          },
+          {
+            "label": "ajigu 的 GitHub",
+            "href": "https://github.com/Ajigu-Studio"
+          },
+          {
+            "label": "联系我们",
+            "href": "mailto:support@ajigu.com"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "现在，就让桌面与众不同",
+        "body": "<p>免费下载 Moodsk，给每个文件夹一点个性。</p><p>macOS 14+ · 支持 Apple Silicon</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "App Store 下载",
+            "href": "https://apps.apple.com/cn/app/moodsk-%E6%96%87%E4%BB%B6%E5%A4%B9%E5%9B%BE%E6%A0%87%E5%88%B6%E4%BD%9C/id6752535811?mt=12"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/zh-hans/about/",
+        "label": "关于",
+        "external": false
+      },
+      {
+        "href": "/privacy/",
+        "label": "隐私政策",
+        "external": false
+      },
+      {
+        "href": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "label": "使用条款",
+        "external": false
+      },
+      {
+        "href": "/support/",
+        "label": "用户支持",
+        "external": false
+      },
+      {
+        "href": "/zh-hans/tutorials/",
+        "label": "教程",
+        "external": false
+      },
+      {
+        "href": "mailto:support@ajigu.com",
+        "label": "联系我们",
+        "external": false
+      }
+    ],
+    "mainId": "main-content",
+    "showcaseHTML": "<section data-ui class=\"desktop-showcase\" id=\"desktop-preview\" aria-label=\"桌面动态预览\">\n        <img class=\"showcase-fallback\" src=\"../assets/screens/discovery-hero.jpg\" alt=\"Moodsk 发现页：桌面主题展示与精选图标包\">\n        <div class=\"showcase-interface\">\n          <header><b>桌面动态预览</b><button type=\"button\" id=\"pause\">暂停播放</button></header>\n          <div class=\"showcase-main\">\n            <div class=\"copy\"><div id=\"eyebrow\"></div><h2 id=\"title\"></h2><p id=\"detail\"></p><button type=\"button\" id=\"next\" class=\"primary\">开始布置</button></div>\n            <div id=\"stage\" aria-label=\"桌面动态预览\"></div>\n          </div>\n          <footer><span>效果预览 · 不会修改你的桌面</span><nav aria-label=\"章节\"></nav><button type=\"button\" id=\"replay\">重播本幕</button></footer>\n        </div>\n      </section>"
+  },
+  {
+    "route": "/ja/",
+    "locale": "ja",
+    "metadata": {
+      "title": "Moodsk — Mac のフォルダアイコン作成・変更ツール",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#eaf5ff"
+        },
+        {
+          "name": "description",
+          "content": "Moodsk で Mac のファイルやフォルダのアイコンを作成・変更。画像、文字、絵文字、SF Symbols を使ってデザインし、一括変更や Finder からの復元もできます。"
+        },
+        {
+          "property": "og:title",
+          "content": "Moodsk — Mac のフォルダアイコン作成・変更ツール"
+        },
+        {
+          "property": "og:description",
+          "content": "Moodsk で Mac のファイルやフォルダのアイコンを作成・変更。画像、文字、絵文字、SF Symbols を使ってデザインし、一括変更や Finder からの復元もできます。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://moodsk.ajigu.com/assets/og-image.jpg"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://moodsk.ajigu.com/ja/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja_JP"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Moodsk"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Moodsk — Mac のフォルダアイコン作成・変更ツール"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Moodsk で Mac のファイルやフォルダのアイコンを作成・変更。画像、文字、絵文字、SF Symbols を使ってデザインし、一括変更や Finder からの復元もできます。"
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://moodsk.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://moodsk.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://moodsk.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://moodsk.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/apple-touch-icon.png"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "SoftwareApplication",
+              "@id": "https://moodsk.ajigu.com/#app",
+              "name": "Moodsk",
+              "operatingSystem": "macOS",
+              "applicationCategory": "UtilitiesApplication",
+              "description": "Moodsk で Mac のファイルやフォルダのアイコンを作成・変更。画像、文字、絵文字、SF Symbols を使ってデザインし、一括変更や Finder からの復元もできます。",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "url": "https://moodsk.ajigu.com/",
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "sameAs": ["https://apps.apple.com/app/id6752535811"],
+              "image": "https://moodsk.ajigu.com/assets/og-image.jpg"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://moodsk.ajigu.com/#website",
+              "name": "Moodsk",
+              "url": "https://moodsk.ajigu.com/",
+              "inLanguage": ["en-GB", "zh-Hans", "ja", "ko"],
+              "publisher": {
+                "@id": "https://ajigu.com/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://moodsk.ajigu.com/ja/#webpage",
+              "name": "Moodsk — Mac のフォルダアイコン作成・変更ツール",
+              "url": "https://moodsk.ajigu.com/ja/",
+              "inLanguage": "ja",
+              "dateModified": "2026-10-31",
+              "isPartOf": {
+                "@id": "https://moodsk.ajigu.com/#website"
+              },
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "mainEntity": {
+                "@id": "https://moodsk.ajigu.com/#app"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://ajigu.com/#organization",
+              "name": "ajigu",
+              "url": "https://ajigu.com/",
+              "logo": "https://ajigu.com/assets/logo.png",
+              "sameAs": ["https://github.com/Ajigu-Studio"]
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "ja",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "どの Mac で使えますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moodsk は macOS 14 以降で動作します。Apple Silicon Mac にも対応しています。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "アイコンは何で作れますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "自分の画像（PNG・JPG・HEIC・SVG）の読み込み、数千の SF Symbols からの選択、文字と絵文字での作成が可能です。厳選アイコンパックも内蔵しています。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "元のアイコンに戻すには？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ファイルを Moodsk にドラッグし直せば復元できます。内蔵の Finder 拡張を使えば、Finder で右クリックしてワンクリックで復元。複数選択の一括復元にも対応しています。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "ファイルはどこかにアップロードされますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "いいえ。Moodsk は Mac 上でアイコンを描画して適用し、ファイルやデザインをアップロードしません。アプリ内購入は Apple のサービスが処理します。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-GB",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "Mac のフォルダ\nアイコンを自由に。",
+    "claim": "",
+    "intro": "画像、文字、絵文字、SF Symbols でファイルやフォルダのアイコンを作成。個別でも一括でも変更でき、Finder からいつでも元のアイコンに戻せます。",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/jp/app/moodsk-%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E4%BD%9C%E6%88%90/id6752535811?mt=12",
+        "label": "App Store でダウンロード",
+        "external": false
+      },
+      {
+        "href": "#features",
+        "label": "できることを見る",
+        "external": false
+      },
+      {
+        "href": "/tutorials/",
+        "label": "使い方を読む（英語）",
+        "external": false
+      }
+    ],
+    "note": "macOS 14+  ·  简体中文 / English / 日本語 / 한국어  ·  オンデバイス処理でプライバシーを保護",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Moodsk とは？",
+        "body": "<p><strong>Moodsk は、ファイルやフォルダのアイコンを作成・変更する macOS アプリです。</strong> 画像、SF Symbols、文字、絵文字を使え、macOS 14 以降に対応しています。プロジェクトのフォルダを見分けやすくしたり、文字と配色がそろったアイコンを作成したりできます。</p><p>すぐに変更したい場合は、内蔵アイコンを選びます。画像、記号、文字ラベルを組み合わせる場合は、レイヤーエディタを使います。デザインを確認してから選択した項目に適用でき、一括操作で複数の項目に同じデザインを使えます。</p><p>内蔵の無料カラーアイコンは直接適用できます。エディタからの出力には Editor Pro が必要で、有料アイコンパックは別途購入します。アイコンの変更は外観のみを変え、項目の移動や名前の変更は行いません。Moodsk または Finder 拡張で元のアイコンに戻せます。</p><p>アイコンの描画と適用は Mac 上で行い、ファイルやデザインをアップロードしません。購入は Apple のサービスが処理します。Finder 標準の手順や実用例は、以下のガイドをご覧ください。</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "features",
+        "title": "フォルダアイコンの作成・変更・復元はどうする？",
+        "body": "<p>Moodsk ではファイルやフォルダのアイコンを作成し、単体または複数の項目に適用して、元のアイコンに戻せます。画像、SF Symbols、文字、絵文字を素材にできます。</p>",
+        "items": [
+          {
+            "title": "見たままを編集できるレイヤーエディタ",
+            "body": "<p>テンプレート＋レイヤー方式で、位置・拡大縮小・回転・3D パース・不透明度・角丸を自由に組み合わせ。変更はすぐに画面に反映されます。</p>"
+          },
+          {
+            "title": "豊かな素材",
+            "body": "<p>自分の画像を読み込み、内蔵ブラウザから SF Symbols を選び、文字や絵文字で個性を表現できます。</p>"
+          },
+          {
+            "title": "スタイル効果",
+            "body": "<p>ノーマル・エンボス・シャドウ・ステッカー・ネオンの 5 スタイルに、着色・フィルター・白フチを組み合わせられます。</p>"
+          },
+          {
+            "title": "パック全体をまとめて編集",
+            "body": "<p>一度の編集でアイコンパック全体が更新されます。10 個のフォルダの文字と色味を、ひとまとめに。</p>"
+          },
+          {
+            "title": "一括適用 / 一括復元",
+            "body": "<p>複数の項目をキューに入れて同じデザインを一括適用。デフォルトアイコンの一括復元も、進行状況を見ながら行えます。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "editor",
+        "title": "オリジナルのフォルダアイコンはどう作る？",
+        "body": "<p>画像・記号・文字を自由に重ねて、フォントファミリーとウェイト、自動サイズ調整、フチやエフェクトまで、細部はすべてあなた次第。</p>",
+        "items": [
+          {
+            "title": "ライブプレビュー",
+            "body": "<p>選択中のレイヤーはハイライト表示。拡大縮小に合わせて枠線や角丸のガイドが現れます。</p>"
+          },
+          {
+            "title": "自動サイズ調整",
+            "body": "<p>テキストはコンテナに合わせて自動調整。タイトルもモノグラムも常に収まります。</p>"
+          },
+          {
+            "title": "取り消す / やり直す",
+            "body": "<p>編集もレイヤー順序も元に戻せるので、思い切って試せます。</p>"
+          },
+          {
+            "title": "精細な書き出し",
+            "body": "<p>アイコンは 4 倍率でレンダリングされ、Finder やデスクトップでもくっきり。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "Mac のフォルダアイコンはどう変更しますか？",
+        "body": "<p>アイコンを選び、デザインを調整して、選択したファイルやフォルダに適用します。一括変更にも対応しているので、複数の項目に同じデザインを使えます。</p><p>Mac 標準の方法を使いたい方へ。「情報を見る」ウインドウで独自のアイコンをコピーして貼り付ける手順は、Apple の公式ガイドをご覧ください： <a href=\"https://support.apple.com/ja-jp/guide/mac-help/mchlp2313/mac\">Mac でファイルやフォルダのアイコンを変更する</a>.</p><p><q>任意のファイルやフォルダのカスタムアイコンを選択</q></p><p>Apple, <cite><a href=\"https://support.apple.com/ja-jp/guide/mac-help/mchlp2313/mac\">Macユーザガイド</a></cite></p>",
+        "items": [
+          {
+            "title": "素材を選ぶ",
+            "body": "<p>厳選アイコンパックを開くか、自分の画像・SF Symbols・文字を読み込みます。</p>"
+          },
+          {
+            "title": "スタイルを磨く",
+            "body": "<p>色・拡大縮小・角丸・エフェクトを調整しながら、各レイヤーをその場で仕上げます。</p>"
+          },
+          {
+            "title": "適用 or 復元",
+            "body": "<p>ドラッグ＆ドロップで 1 つずつ入れ替え、一括適用、ワンクリックでデフォルトに復元。</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "Mac でファイルやフォルダのアイコンを変更する",
+            "href": "https://support.apple.com/ja-jp/guide/mac-help/mchlp2313/mac"
+          },
+          {
+            "label": "Macユーザガイド",
+            "href": "https://support.apple.com/ja-jp/guide/mac-help/mchlp2313/mac"
+          }
+        ]
+      },
+      {
+        "id": "replace",
+        "title": "フォルダアイコンをまとめて変更するには？",
+        "body": "<p>ファイルやフォルダをウィンドウにドラッグすれば、手を離した瞬間にアイコンを置き換え。アイコン付きの新規フォルダを書き出すこともできます。</p><p>内蔵 Finder 拡張：Finder でファイルを右クリックして、ワンクリックでデフォルトアイコンに復元。複数選択の一括復元にも対応します。</p><ul>\n          <li>単体・複数のドロップに対応、システムの「開く」パネルも利用可能</li>\n          <li>白フチスイッチで明るい壁紙にもよく映える</li>\n          <li>置き換え前に古いアイコンを消去するので、残像なし</li>\n        </ul>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "packs",
+        "title": "デスクトップのために厳選したアイコンパック",
+        "body": "<p>どのアイコンを開いても自分好みに — 文字を変え、色を変え、バッジを足す。すべて自由。</p>",
+        "items": [
+          {
+            "title": "基本",
+            "body": "<p>厳選コレクション · 無料</p>"
+          },
+          {
+            "title": "プラカード",
+            "body": "<p>タイポグラフィ</p>"
+          },
+          {
+            "title": "漫画の落書き動物園",
+            "body": "<p>イラストシリーズ</p>"
+          },
+          {
+            "title": "カラー",
+            "body": "<p>カラーシリーズ · 無料</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-6",
+        "title": "あなたの Mac の中で。",
+        "body": "",
+        "items": [
+          {
+            "title": "オンデバイス処理",
+            "body": "<p>レンダリングとアイコンの適用はローカルで行い、ファイルやデザインをアップロードしません。</p>"
+          },
+          {
+            "title": "ライト / ダーク対応",
+            "body": "<p>システムの外観に合わせて、すりガラス素材とモーションで切り替わります。</p>"
+          },
+          {
+            "title": "4 つの言語",
+            "body": "<p>簡体字中国語・English・日本語・한국어に最初から対応。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "よくあるご質問",
+        "questions": [
+          {
+            "question": "どの Mac で使えますか？",
+            "answer": "<p>Moodsk は macOS 14 以降で動作します。Apple Silicon Mac にも対応しています。</p>"
+          },
+          {
+            "question": "アイコンは何で作れますか？",
+            "answer": "<p>自分の画像（PNG・JPG・HEIC・SVG）の読み込み、数千の SF Symbols からの選択、文字と絵文字での作成が可能です。厳選アイコンパックも内蔵しています。</p>"
+          },
+          {
+            "question": "元のアイコンに戻すには？",
+            "answer": "<p>ファイルを Moodsk にドラッグし直せば復元できます。内蔵の Finder 拡張を使えば、Finder で右クリックしてワンクリックで復元。複数選択の一括復元にも対応しています。</p>"
+          },
+          {
+            "question": "ファイルはどこかにアップロードされますか？",
+            "answer": "<p>いいえ。Moodsk は Mac 上でアイコンを描画して適用し、ファイルやデザインをアップロードしません。アプリ内購入は Apple のサービスが処理します。</p>"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Moodsk は誰が開発していますか？",
+        "body": "<p>Moodsk は、Mac と iPhone 向けの使いやすいアプリを作る独立スタジオ ajigu が開発しています。アイコンの描画と適用は Mac 上で行い、購入は Apple のサービスが処理します。</p><p>Moodsk は無料でダウンロードできます。Editor Pro と有料アイコンパックは、それぞれアプリ内購入で利用できます。</p><p>最終更新： 2026年10月31日</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "ajigu について",
+            "href": "https://ajigu.com/"
+          },
+          {
+            "label": "ajigu の GitHub",
+            "href": "https://github.com/Ajigu-Studio"
+          },
+          {
+            "label": "お問い合わせ",
+            "href": "mailto:support@ajigu.com"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "今日から、デスクトップを自分色に",
+        "body": "<p>Moodsk を無料でダウンロードして、フォルダひとつひとつに個性を。</p><p>macOS 14+ · Apple Silicon 対応</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "App Store でダウンロード",
+            "href": "https://apps.apple.com/jp/app/moodsk-%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E4%BD%9C%E6%88%90/id6752535811?mt=12"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/ja/about/",
+        "label": "概要",
+        "external": false
+      },
+      {
+        "href": "/privacy/",
+        "label": "プライバシーポリシー",
+        "external": false
+      },
+      {
+        "href": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "label": "利用規約",
+        "external": false
+      },
+      {
+        "href": "/support/",
+        "label": "サポート",
+        "external": false
+      },
+      {
+        "href": "/tutorials/",
+        "label": "チュートリアル（英語）",
+        "external": false
+      },
+      {
+        "href": "mailto:support@ajigu.com",
+        "label": "お問い合わせ",
+        "external": false
+      }
+    ],
+    "mainId": "main-content",
+    "showcaseHTML": "<section data-ui class=\"desktop-showcase\" id=\"desktop-preview\" aria-label=\"デスクトッププレビュー\">\n        <img class=\"showcase-fallback\" src=\"../assets/screens/discovery-hero.jpg\" alt=\"Moodsk の「見つける」ホーム。デスクトップテーマの上に厳選アイコンパックが並びます\">\n        <div class=\"showcase-interface\">\n          <header><b>デスクトッププレビュー</b><button type=\"button\" id=\"pause\">アニメーションを一時停止</button></header>\n          <div class=\"showcase-main\">\n            <div class=\"copy\"><div id=\"eyebrow\"></div><h2 id=\"title\"></h2><p id=\"detail\"></p><button type=\"button\" id=\"next\" class=\"primary\">見てみる</button></div>\n            <div id=\"stage\" aria-label=\"デスクトッププレビュー\"></div>\n          </div>\n          <footer><span>プレビューです。デスクトップは変更されません。</span><nav aria-label=\"チャプター\"></nav><button type=\"button\" id=\"replay\">このチャプターを再生</button></footer>\n        </div>\n      </section>"
+  },
+  {
+    "route": "/ko/",
+    "locale": "ko",
+    "metadata": {
+      "title": "Moodsk — Mac 폴더 아이콘 만들기 및 변경",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#eaf5ff"
+        },
+        {
+          "name": "description",
+          "content": "Moodsk로 Mac 파일과 폴더 아이콘을 만들고 변경하세요. 이미지, 텍스트, 이모지, SF Symbols로 디자인하고, 한 번에 여러 아이콘을 변경하거나 Finder에서 기본 아이콘으로 복원할 수 있습니다."
+        },
+        {
+          "property": "og:title",
+          "content": "Moodsk — Mac 폴더 아이콘 만들기 및 변경"
+        },
+        {
+          "property": "og:description",
+          "content": "Moodsk로 Mac 파일과 폴더 아이콘을 만들고 변경하세요. 이미지, 텍스트, 이모지, SF Symbols로 디자인하고, 한 번에 여러 아이콘을 변경하거나 Finder에서 기본 아이콘으로 복원할 수 있습니다."
+        },
+        {
+          "property": "og:image",
+          "content": "https://moodsk.ajigu.com/assets/og-image.jpg"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://moodsk.ajigu.com/ko/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko_KR"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Moodsk"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Moodsk — Mac 폴더 아이콘 만들기 및 변경"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Moodsk로 Mac 파일과 폴더 아이콘을 만들고 변경하세요. 이미지, 텍스트, 이모지, SF Symbols로 디자인하고, 한 번에 여러 아이콘을 변경하거나 Finder에서 기본 아이콘으로 복원할 수 있습니다."
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://moodsk.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en-GB",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://moodsk.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://moodsk.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://moodsk.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://moodsk.ajigu.com/"
+        },
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/apple-touch-icon.png"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "SoftwareApplication",
+              "@id": "https://moodsk.ajigu.com/#app",
+              "name": "Moodsk",
+              "operatingSystem": "macOS",
+              "applicationCategory": "UtilitiesApplication",
+              "description": "Moodsk로 Mac 파일과 폴더 아이콘을 만들고 변경하세요. 이미지, 텍스트, 이모지, SF Symbols로 디자인하고, 한 번에 여러 아이콘을 변경하거나 Finder에서 기본 아이콘으로 복원할 수 있습니다.",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              },
+              "url": "https://moodsk.ajigu.com/",
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "sameAs": ["https://apps.apple.com/app/id6752535811"],
+              "image": "https://moodsk.ajigu.com/assets/og-image.jpg"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://moodsk.ajigu.com/#website",
+              "name": "Moodsk",
+              "url": "https://moodsk.ajigu.com/",
+              "inLanguage": ["en-GB", "zh-Hans", "ja", "ko"],
+              "publisher": {
+                "@id": "https://ajigu.com/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://moodsk.ajigu.com/ko/#webpage",
+              "name": "Moodsk — Mac 폴더 아이콘 만들기 및 변경",
+              "url": "https://moodsk.ajigu.com/ko/",
+              "inLanguage": "ko",
+              "dateModified": "2026-10-31",
+              "isPartOf": {
+                "@id": "https://moodsk.ajigu.com/#website"
+              },
+              "author": {
+                "@id": "https://ajigu.com/#organization"
+              },
+              "mainEntity": {
+                "@id": "https://moodsk.ajigu.com/#app"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://ajigu.com/#organization",
+              "name": "ajigu",
+              "url": "https://ajigu.com/",
+              "logo": "https://ajigu.com/assets/logo.png",
+              "sameAs": ["https://github.com/Ajigu-Studio"]
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "ko",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "어떤 Mac에서 사용할 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moodsk는 macOS 14 이상에서 작동하며 Apple Silicon Mac도 지원합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "아이콘은 무엇으로 만들 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "내 이미지(PNG, JPG, HEIC, SVG)를 가져오거나 수천 개의 SF Symbols에서 고르거나 텍스트와 이모지로 구성할 수 있습니다. 엄선된 아이콘 팩도 포함되어 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "원래 아이콘으로 되돌리려면?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "파일을 Moodsk에 다시 드래그하면 복원됩니다. 내장 Finder 확장을 사용하면 Finder에서 오른쪽 클릭 한 번으로 복원되며, 다중 선택 일괄 복원도 지원합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "파일이 어딘가로 업로드되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "아니요. Moodsk는 Mac에서 아이콘을 렌더링하고 적용하며 파일이나 디자인을 업로드하지 않습니다. 앱 내 구매는 Apple 서비스가 처리합니다."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en-GB",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "Mac 폴더 아이콘,\n나만의 스타일로.",
+    "claim": "",
+    "intro": "이미지, 텍스트, 이모지, SF Symbols로 파일과 폴더 아이콘을 만드세요. 하나씩 또는 한꺼번에 변경하고, Finder에서 언제든 기본 아이콘으로 복원할 수 있습니다.",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/kr/app/moodsk-%ED%8F%B4%EB%8D%94-%EC%95%84%EC%9D%B4%EC%BD%98-%EB%A7%8C%EB%93%A4%EA%B8%B0/id6752535811?mt=12",
+        "label": "App Store에서 다운로드",
+        "external": false
+      },
+      {
+        "href": "#features",
+        "label": "무엇을 할 수 있는지 보기",
+        "external": false
+      },
+      {
+        "href": "/tutorials/",
+        "label": "사용 가이드 읽기 (영어)",
+        "external": false
+      }
+    ],
+    "note": "macOS 14+  ·  简体中文 / English / 日本語 / 한국어  ·  온디바이스 처리, 프라이버시 우선",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Moodsk란 무엇인가요?",
+        "body": "<p><strong>Moodsk는 파일과 폴더 아이콘을 만들고 변경하는 macOS 앱입니다.</strong> 이미지, SF Symbols, 텍스트, 이모지를 사용할 수 있으며 macOS 14 이상을 지원합니다. 프로젝트 폴더를 쉽게 구별하거나 라벨과 색상이 통일된 아이콘 세트를 만들 수 있습니다.</p><p>빠르게 변경하려면 내장 아이콘을 선택하세요. 이미지, 기호, 텍스트 라벨을 조합하려면 레이어 편집기를 사용하세요. 디자인을 미리 본 뒤 선택한 파일이나 폴더에 적용할 수 있고, 일괄 작업으로 여러 항목에 같은 디자인을 적용할 수 있습니다.</p><p>내장 무료 색상 아이콘은 바로 적용할 수 있습니다. 편집기 출력에는 Editor Pro가 필요하며 유료 아이콘 팩은 별도로 구매합니다. 아이콘을 변경해도 항목의 위치나 이름은 바뀌지 않습니다. 나중에 Moodsk나 Finder 확장으로 기본 아이콘을 복원할 수 있습니다.</p><p>아이콘 렌더링과 적용은 Mac에서 처리되며 파일이나 디자인을 업로드하지 않습니다. 구매는 Apple 서비스가 처리합니다. Finder의 기본 방법과 실제 사용 예시는 아래 가이드를 확인하세요.</p>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "features",
+        "title": "폴더 아이콘을 만들고 변경하고 복원하려면?",
+        "body": "<p>Moodsk로 파일과 폴더 아이콘을 만들고, 하나 또는 여러 항목에 적용한 뒤 기본 아이콘으로 복원할 수 있습니다. 이미지, SF Symbols, 텍스트 또는 이모지로 시작해 보세요.</p>",
+        "items": [
+          {
+            "title": "보이는 대로 편집하는 레이어 에디터",
+            "body": "<p>템플릿 + 레이어 방식으로 위치, 크기, 회전, 3D 원근, 불투명도, 모서리 반경을 자유롭게 조합하세요. 변경 사항은 즉시 화면에 반영됩니다.</p>"
+          },
+          {
+            "title": "풍부한 소재",
+            "body": "<p>내 이미지를 가져오고, 내장 브라우저에서 SF Symbols를 고르고, 텍스트와 이모지로 개성을 표현할 수 있습니다.</p>"
+          },
+          {
+            "title": "스타일 효과",
+            "body": "<p>일반, 엠보스, 섀도, 스티커, 네온 다섯 가지 스타일에 색조, 필터, 흰 테두리까지 더했습니다.</p>"
+          },
+          {
+            "title": "팩 전체 한 번에 편집",
+            "body": "<p>한 번 편집하면 아이콘 팩 전체가 업데이트됩니다. 열 개 폴더의 텍스트와 색을 한 번에 통일하세요.</p>"
+          },
+          {
+            "title": "일괄 적용 / 복원",
+            "body": "<p>여러 항목을 대기열에 넣어 하나의 디자인을 한꺼번에 적용하거나, 진행 상황을 보며 기본 아이콘을 일괄 복원할 수 있습니다.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "editor",
+        "title": "나만의 폴더 아이콘은 어떻게 디자인하나요?",
+        "body": "<p>이미지, 심볼, 텍스트를 자유롭게 겹쳐 보세요. 글꼴 종류와 굵기, 자동 크기, 테두리와 효과까지 — 모든 디테일은 당신의 몫입니다.</p>",
+        "items": [
+          {
+            "title": "실시간 미리보기",
+            "body": "<p>선택한 레이어가 강조되고, 크기를 조절하면 테두리와 모서리 가이드가 나타납니다.</p>"
+          },
+          {
+            "title": "자동 크기 조절",
+            "body": "<p>텍스트가 컨테이너에 맞춰 조절되어 제목도 모노그램도 늘 딱 맞습니다.</p>"
+          },
+          {
+            "title": "실행 취소 / 다시 실행",
+            "body": "<p>편집과 레이어 순서 모두 되돌릴 수 있어 마음껏 시도해도 안전합니다.</p>"
+          },
+          {
+            "title": "선명한 내보내기",
+            "body": "<p>아이콘은 4배 렌더링되어 Finder와 데스크탑에서도 또렷합니다.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-3",
+        "title": "Mac에서 폴더 아이콘을 어떻게 바꾸나요?",
+        "body": "<p>아이콘을 선택하고 디자인을 조정한 다음 선택한 파일이나 폴더에 적용하세요. 일괄 교체도 지원하므로 여러 항목에 같은 디자인을 사용할 수 있습니다.</p><p>Mac의 기본 기능을 쓰고 싶으신가요? Apple 공식 가이드에서 정보 가져오기 창에 사용자 지정 아이콘을 복사하고 붙여넣는 방법을 확인하세요: <a href=\"https://support.apple.com/ko-kr/guide/mac-help/mchlp2313/mac\">Mac에서 파일 또는 폴더 아이콘 변경하기</a>.</p><p><q>파일이나 폴더의 사용자 설정 아이콘을 선택할 수 있습니다.</q></p><p>Apple, <cite><a href=\"https://support.apple.com/ko-kr/guide/mac-help/mchlp2313/mac\">Mac 사용 설명서</a></cite></p>",
+        "items": [
+          {
+            "title": "소재 고르기",
+            "body": "<p>엄선된 아이콘 팩을 열거나 내 이미지, SF Symbols, 텍스트를 가져오세요.</p>"
+          },
+          {
+            "title": "스타일 다듬기",
+            "body": "<p>색상, 크기, 모서리 반경, 효과를 조정하며 매 레이어를 실시간으로 완성합니다.</p>"
+          },
+          {
+            "title": "적용 또는 복원",
+            "body": "<p>드래그 앤 드롭으로 하나씩 교체하거나, 일괄 적용하고, 한 번의 클릭으로 기본값을 복원하세요.</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "Mac에서 파일 또는 폴더 아이콘 변경하기",
+            "href": "https://support.apple.com/ko-kr/guide/mac-help/mchlp2313/mac"
+          },
+          {
+            "label": "Mac 사용 설명서",
+            "href": "https://support.apple.com/ko-kr/guide/mac-help/mchlp2313/mac"
+          }
+        ]
+      },
+      {
+        "id": "replace",
+        "title": "폴더 아이콘을 한 번에 변경하려면?",
+        "body": "<p>파일이나 폴더를 창으로 드래그하면 손을 떼는 순간 아이콘이 교체됩니다. 아이콘이 설정된 새 폴더를 내보낼 수도 있습니다.</p><p>내장 Finder 확장: Finder에서 파일을 오른쪽 클릭해 한 번에 기본 아이콘으로 복원하고, 다중 선택 일괄 복원도 지원합니다.</p><ul>\n          <li>단일·다중 드래그 모두 지원, 시스템 열기 패널 사용 가능</li>\n          <li>흰 테두리 스위치로 밝은 배경화면에서도 잘 보임</li>\n          <li>교체 전에 이전 아이콘을 지워 잔상이 남지 않습니다</li>\n        </ul>",
+        "items": [],
+        "links": []
+      },
+      {
+        "id": "packs",
+        "title": "데스크탑을 위해 엄선한 아이콘 팩",
+        "body": "<p>어떤 아이콘이든 열어 당신 것으로 만드세요 — 텍스트를 바꾸고, 색을 바꾸고, 배지를 더하세요. 모두 자유입니다.</p>",
+        "items": [
+          {
+            "title": "기본",
+            "body": "<p>엄선 컬렉션 · 무료</p>"
+          },
+          {
+            "title": "플래카드",
+            "body": "<p>타이포그래피</p>"
+          },
+          {
+            "title": "만화 낙서 동물원",
+            "body": "<p>일러스트 시리즈</p>"
+          },
+          {
+            "title": "색상",
+            "body": "<p>색상 시리즈 · 무료</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "section-6",
+        "title": "내 Mac 안에서.",
+        "body": "",
+        "items": [
+          {
+            "title": "온디바이스 전용",
+            "body": "<p>렌더링과 아이콘 적용은 로컬에서 처리됩니다. 파일과 디자인은 업로드하지 않습니다.</p>"
+          },
+          {
+            "title": "라이트 / 다크 대응",
+            "body": "<p>시스템 외관에 따라 흐린 유리 질감과 모션으로 함께 바뀝니다.</p>"
+          },
+          {
+            "title": "네 가지 언어",
+            "body": "<p>简体中文·English·日本語·한국어를 기본 지원합니다.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "궁금증을 해소해 드립니다",
+        "questions": [
+          {
+            "question": "어떤 Mac에서 사용할 수 있나요?",
+            "answer": "<p>Moodsk는 macOS 14 이상에서 작동하며 Apple Silicon Mac도 지원합니다.</p>"
+          },
+          {
+            "question": "아이콘은 무엇으로 만들 수 있나요?",
+            "answer": "<p>내 이미지(PNG, JPG, HEIC, SVG)를 가져오거나 수천 개의 SF Symbols에서 고르거나 텍스트와 이모지로 구성할 수 있습니다. 엄선된 아이콘 팩도 포함되어 있습니다.</p>"
+          },
+          {
+            "question": "원래 아이콘으로 되돌리려면?",
+            "answer": "<p>파일을 Moodsk에 다시 드래그하면 복원됩니다. 내장 Finder 확장을 사용하면 Finder에서 오른쪽 클릭 한 번으로 복원되며, 다중 선택 일괄 복원도 지원합니다.</p>"
+          },
+          {
+            "question": "파일이 어딘가로 업로드되나요?",
+            "answer": "<p>아니요. Moodsk는 Mac에서 아이콘을 렌더링하고 적용하며 파일이나 디자인을 업로드하지 않습니다. 앱 내 구매는 Apple 서비스가 처리합니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Moodsk는 누가 만드나요?",
+        "body": "<p>Moodsk는 Mac과 iPhone용 앱을 만드는 독립 스튜디오 ajigu가 개발합니다. 아이콘 렌더링과 적용은 Mac에서 처리하고, 구매는 Apple 서비스가 처리합니다.</p><p>Moodsk는 무료로 다운로드할 수 있습니다. Editor Pro와 유료 아이콘 팩은 각각 별도의 앱 내 구매로 이용할 수 있습니다.</p><p>최근 업데이트: 2026년 10월 31일</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "ajigu 소개",
+            "href": "https://ajigu.com/"
+          },
+          {
+            "label": "ajigu GitHub",
+            "href": "https://github.com/Ajigu-Studio"
+          },
+          {
+            "label": "문의",
+            "href": "mailto:support@ajigu.com"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "오늘, 데스크탑을 당신답게",
+        "body": "<p>Moodsk를 무료로 다운로드하고 모든 폴더에 개성을 더하세요.</p><p>macOS 14+ · Apple Silicon 지원</p>",
+        "items": [],
+        "links": [
+          {
+            "label": "App Store에서 다운로드",
+            "href": "https://apps.apple.com/kr/app/moodsk-%ED%8F%B4%EB%8D%94-%EC%95%84%EC%9D%B4%EC%BD%98-%EB%A7%8C%EB%93%A4%EA%B8%B0/id6752535811?mt=12"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/ko/about/",
+        "label": "소개",
+        "external": false
+      },
+      {
+        "href": "/privacy/",
+        "label": "개인정보 처리방침",
+        "external": false
+      },
+      {
+        "href": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "label": "이용 약관",
+        "external": false
+      },
+      {
+        "href": "/support/",
+        "label": "사용자 지원",
+        "external": false
+      },
+      {
+        "href": "/tutorials/",
+        "label": "사용 가이드 (영어)",
+        "external": false
+      },
+      {
+        "href": "mailto:support@ajigu.com",
+        "label": "문의",
+        "external": false
+      }
+    ],
+    "mainId": "main-content",
+    "showcaseHTML": "<section data-ui class=\"desktop-showcase\" id=\"desktop-preview\" aria-label=\"데스크탑 미리보기\">\n        <img class=\"showcase-fallback\" src=\"../assets/screens/discovery-hero.jpg\" alt=\"Moodsk 둘러보기 홈: 데스크탑 테마 위의 엄선된 아이콘 팩\">\n        <div class=\"showcase-interface\">\n          <header><b>데스크탑 미리보기</b><button type=\"button\" id=\"pause\">애니메이션 일시 정지</button></header>\n          <div class=\"showcase-main\">\n            <div class=\"copy\"><div id=\"eyebrow\"></div><h2 id=\"title\"></h2><p id=\"detail\"></p><button type=\"button\" id=\"next\" class=\"primary\">둘러보기 시작</button></div>\n            <div id=\"stage\" aria-label=\"데스크탑 미리보기\"></div>\n          </div>\n          <footer><span>미리보기입니다. 데스크탑은 변경되지 않아요.</span><nav aria-label=\"챕터\"></nav><button type=\"button\" id=\"replay\">챕터 다시 재생</button></footer>\n        </div>\n      </section>"
+  }
+]

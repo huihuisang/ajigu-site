@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-31",
+  "specification": "docs-ai/001-studio-redesign/000-plan.md",
+  "specificationSHA256": "2929893e9e1fa986bca70f9a70967d2d952f7f29b05d47043936c4141d4ae301",
+  "sourceManifest": "source-sha256.json",
+  "sourceManifestSHA256": "da3d11f61ff47c7ce0fe90e8d866e186b334a4f61c7cf1f649e7317b60cc7417",
+  "evidenceSHA256": {
+    "browser-results.json": "dc326af38fb9472da97d8396c77bc7455251db2a3dcad5566f4746b208e69f34",
+    "home-desktop.webp": "043148c9b01ae5047a30d6180bc987ff1226ea0316eb8d2b133af0fde5d91a60",
+    "home-mobile.webp": "69ecccaef9bd85b6ecd338c3ccde6b9b7796905fc4f2654733df16f03edc3f9a",
+    "nameplate-desktop.webp": "441feb07eba927644d5885c52e8a44a936d45686a381fbbb963fc4f3846d9916",
+    "nameplate-export.json": "b7bd7be032a2bce42b335068aac74d2050aa7eeecea37e3dccfa4e88d76a4010",
+    "nameplate-inspection.json": "36cf6c3574720a68185e64d4d02fa05d7b4cf537c25bc190ba613860136e1b2d",
+    "nameplate-mobile.webp": "67c4cde2929fda7b70ce4e1327abe06f82a5286b38aef502567ee6134cd8c9e2",
+    "preservation-results.json": "914399d5442668a20ff75f7ea1bc6576462a23fbaa3834c156b32a265c3d650e",
+    "reference-bauhaus.webp": "ea6f3aee51e93487f972e40ed6d54048ab03806a1c44a0cf7f4e9e5f0da4e492",
+    "reference-pop.webp": "ff2f85dd956063869b58477e6be09a6f0d23cc16aee3116456fe644a123d32f1",
+    "source-sha256.json": "da3d11f61ff47c7ce0fe90e8d866e186b334a4f61c7cf1f649e7317b60cc7417",
+    "visual-inspection.json": "cea69cf85461f0630815e2c6e94aa1ff4a7feef2d1adfe06f32bfbbfe8710915"
+  }
+}

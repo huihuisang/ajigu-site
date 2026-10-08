@@ -1,0 +1,140 @@
+{
+  "domain": "dailyapod.ajigu.com",
+  "media": [
+    "dailyapod.webp",
+    "ajigu.webp",
+    "dailyapod-3.webp",
+    "dailyapod-4.webp",
+    "dailyapod-2.webp"
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "locale": "en",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/us/app/dailyapod-astronomy-picture/id1573247808",
+          "label": "Download on the App Store",
+          "external": false
+        },
+        {
+          "href": "#gallery",
+          "label": "See it in action \u2193",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/cn/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9B%BE%E5%83%8F/id1573247808",
+          "label": "App Store \u4e0b\u8f7d",
+          "external": false
+        },
+        {
+          "href": "#gallery",
+          "label": "\u770b\u770b\u6548\u679c \u2193",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/tw/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9C%96%E5%83%8F/id1573247808",
+          "label": "App Store \u4e0b\u8f09",
+          "external": false
+        },
+        {
+          "href": "#gallery",
+          "label": "\u770b\u770b\u6548\u679c \u2193",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/ja/",
+      "locale": "ja",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/jp/app/dailyapod-%E4%BB%8A%E6%97%A5%E3%81%AE%E5%AE%87%E5%AE%99/id1573247808",
+          "label": "App Store \u3067\u5165\u624b",
+          "external": false
+        },
+        {
+          "href": "#gallery",
+          "label": "\u753b\u9762\u3092\u898b\u308b \u2193",
+          "external": false
+        }
+      ]
+    },
+    {
+      "route": "/ko/",
+      "locale": "ko",
+      "actions": [
+        {
+          "href": "https://apps.apple.com/kr/app/dailyapod-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%9A%B0%EC%A3%BC/id1573247808",
+          "label": "App Store\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc",
+          "external": false
+        },
+        {
+          "href": "#gallery",
+          "label": "\ud654\uba74 \ubcf4\uae30 \u2193",
+          "external": false
+        }
+      ]
+    }
+  ],
+  "compatibility": {
+    "006457a8747962bd1d5a650d6b9a5365.txt": "6a87e643fe97d21bc41409193907568cb2856c231e6beb791e251b3f81dd11e0",
+    "404.html": "85a347df64d398f7c566a6352b7a9ad2d101b5051e8727ae4ff95714e9a9052b",
+    "CNAME": "1169c0097ae0ad4fd5ff40b78d5cad3f236ddd76d73aebed0394ac5a817451ac",
+    "assets/ajigu-logo.png": "832774fad6e0a33c77fd7f693d19abc8ba0680ec6f8c31060e36873e2c1221e2",
+    "assets/app-icon.png": "c5dea1f1d56dd3a23beaad966939cc113ff3914ff1ebbc7aca8310b84c7dea55",
+    "assets/img/shot1.jpg": "14c0c8a5096631f97d33fbe8171d38dff98aaafdbbff143b24310f6661317113",
+    "assets/img/shot2.jpg": "98227dacbe7e725e31bd10a397b9deaf1d4fbdb6ecd8abd0cfd88f66a7c2767c",
+    "assets/img/shot3.jpg": "1eea00f554b3c5b67c2b7193c7e60a54f6e42c3a78aacaec8481141c8bd574dd",
+    "assets/img/shot4.jpg": "35def9a8d2550f36b7efed1f47cd603118ad5d51d2d956a1d364eacc9d0c112e",
+    "guides/apod-widget-iphone/index.html": "78e66922abf4e0bb3be6f8b25321a3fd7a84021f145d6e9516a3aa33adc15608",
+    "guides/apod-widget-iphone/ja/index.html": "9d2e47492a2e7627650e1cb0aa3e8d4a16988b8aa084b445008abc2a1dd126d6",
+    "guides/apod-widget-iphone/ko/index.html": "6158ace0a5fa8288ccca2f6413fb6d2bc7229646ca0450a978f73f9cd98bbf3d",
+    "guides/apod-widget-iphone/zh-hans/index.html": "ec5e8dc6d73cace5bd9e1268ac1478def48d0ca26b5ce4517641b5ecc2b159d9",
+    "guides/apod-widget-iphone/zh-hant/index.html": "42d78c8897bd78588d591be6326f8707faa714bfe6f6b42f4de842482e6ef7f6",
+    "guides/find-apod-by-date/index.html": "ac23f5094c017af308b67664198e8436eb820568d30fcda456e588d89bb007a6",
+    "guides/find-apod-by-date/ja/index.html": "8383c79e4b72e499ca2c8fd8d592fc94f5daae8f065ff77eeb3f42a33174f032",
+    "guides/find-apod-by-date/ko/index.html": "039f92830a8235ecb71d304450043bc0366f58db0560da02907ce47b77f63b33",
+    "guides/find-apod-by-date/zh-hans/index.html": "2ccfcbd8d88b346e8ffcc18f4a99c2194802cd4b20b39d09a1cdc21cda5b5010",
+    "guides/find-apod-by-date/zh-hant/index.html": "60ce5418c109385695c86e92cc55b97cda55c8dfbff700aa8847d3dfeacb6586",
+    "guides/index.html": "ed99309c7a2af86246473217b1a974b54f64e38ff20856eed62bf851ded12e31",
+    "guides/ja/index.html": "a4e4e03d263e490fd19505ef4978d096280b3100ab879f8aea7e17d71d4e5863",
+    "guides/ko/index.html": "e2d1cd09a5a4e4979d207bd02c7c8cb919bd649ba6db21aee1497c28a30991be",
+    "guides/nasa-picture-on-my-birthday/index.html": "cda78a75a6dc133a986511195f813e068e63f7df10160e3a11681c2d9e69c909",
+    "guides/nasa-picture-on-my-birthday/ja/index.html": "85ff37145b465521171d02e880b9d01f84f3761b2cd7797675dbef3e5bdc1fa8",
+    "guides/nasa-picture-on-my-birthday/ko/index.html": "3d26651f6506423a346569aca641f269cb3c825adcae9ecd248d76b20d015f0f",
+    "guides/nasa-picture-on-my-birthday/zh-hans/index.html": "d0540c70964358776f3a9045d9acf6a9bc3c3446e4488dca1d1606634c42f9be",
+    "guides/nasa-picture-on-my-birthday/zh-hant/index.html": "1ac39b3328816f21e037ba997c030656143b992f844efb20ae3934dd16a310f1",
+    "guides/what-is-apod/index.html": "5e0870729743170f6596e2f557255a7167585fc8838b9bbdd05c880a01a5ca4d",
+    "guides/what-is-apod/ja/index.html": "6da8c52a37150460b1697b76eb21ca6eb8077c4b6f8af4589a4107f10f3f9ab4",
+    "guides/what-is-apod/ko/index.html": "f205c288166698823448d6f3c3e878edf50f333dc62ff6faf75ec0752a6bb241",
+    "guides/what-is-apod/zh-hans/index.html": "77894d3dc26493cf2034e83814faff1f50e3124e484aa74712708eb8bb96a686",
+    "guides/what-is-apod/zh-hant/index.html": "61e99ef361d862e4e063ab983b62359fc4c8421bd4fb4f01d0a25cedba4b67a4",
+    "guides/zh-hans/index.html": "62da2209733ec1b3ff8b392d1bfa77598e5b24146f23838179d674213e43267e",
+    "guides/zh-hant/index.html": "2c0fc6f225a0bb355ab262689658f7802dc733b9ae386d89d90ca00c7fb1d2d9",
+    "lang-kit.css": "7ce2f24fa71c85b2ba507b00d170e491659f84d6385d2cb540bcb1eda537127d",
+    "lang-kit.js": "0b7b9870c6d5678fe4ef727a4ff1a3fcc68d201e0405a83d4634e199e9e37637",
+    "llms.txt": "5f30bb037eaaf53f4d4b0745131f87449da3bbc3a7784d70853725b3333c42ba",
+    "reveal.js": "d39bdd6eaffb046f0a102031c097c3d0107ea4de7f04989406bb1a13972d94dd",
+    "robots.txt": "a97065c870f98e0474cdec349f10b5f305455a7998e7265251ab04e1be94ee4b",
+    "sitemap.xml": "2a393b2684009ae6eb639f6cd516f6af96f5fb140db8c2e0f3e6c4baf0f0ac88",
+    "styles.css": "16824b0fc289e13dbdafdc2c5e1271ad60cca5707969a3e37123c17e5e9178d6"
+  },
+  "legacyStudio": {
+    "studio/style.css": "626b5c4ff0b19f0c339816a6b785231182e55bdb0f19dd2dddbb9efa101415fa",
+    "studio/runtime.mjs": "3e7332abe713aab284ccb0450d4bdad9045f67c7ef20ce2491dff9dede00e28e",
+    "studio/copy.mjs": "bca4bc63d46cd1c5cd22692d5e87ae17b79263e97b1de155f291989cb8697663"
+  }
+}

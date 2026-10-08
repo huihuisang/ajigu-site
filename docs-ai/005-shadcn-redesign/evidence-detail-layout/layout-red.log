@@ -1,0 +1,19 @@
+$ node tests/detail-layout.mjs
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: ajigu/nameplate/about/@1440/showcase gap: 56 versus 64
+    at near (file:///Volumes/Samsung%20SSD%20990%20PRO%202T/SSD/Documents/GitHub/%E7%BD%91%E7%AB%99/ajigu-site/tests/detail-layout.mjs:35:10)
+    at inspect (file:///Volumes/Samsung%20SSD%20990%20PRO%202T/SSD/Documents/GitHub/%E7%BD%91%E7%AB%99/ajigu-site/tests/detail-layout.mjs:65:16)
+    at async file:///Volumes/Samsung%20SSD%20990%20PRO%202T/SSD/Documents/GitHub/%E7%BD%91%E7%AB%99/ajigu-site/tests/detail-layout.mjs:86:42 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v26.13.0
+[ELIFECYCLE] Command failed with exit code 1.

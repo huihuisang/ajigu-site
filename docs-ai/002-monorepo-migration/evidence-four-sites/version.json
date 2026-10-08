@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-31",
+  "revision": "local uncommitted workspace",
+  "status": "verified locally; not published",
+  "files": {
+    "docs-ai/002-monorepo-migration/004-four-sites-plan.md": "693dfc19c25e3289503832e5ef478e0bd3e4262db5e8c1c3e5b4312a486e50f1",
+    "docs-ai/002-monorepo-migration/005-four-sites-action.md": "e0d2e2a5032763523c239cc56dc2cdb15bf9feb02e37e348a76bacc78cd89ab8",
+    "docs-ai/002-monorepo-migration/006-four-sites-review.md": "d0843901dc3ebf4828942c92efdeb4dc3291446bb9bfddf7e3e4e1ed74394317",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/browser-audit.json": "191118e1313a70bdb329d52f0e91dd821c8645cb4f9a7787cfc8d3a02107b4b2",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/browser-results.json": "846387dc205537f731cdb0d7ed2ac6530387e9961bb52ac3920853e0b7f1ab7f",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/build-sha256.json": "416b9666f821e6b0016a9340387662a4e8e13b63108c99be08e4209ff97b8fe4",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/clean-build.json": "c47d8d62bcc20e7afdaa0802e1d1ecde2c60dd33884f89bef1274a3f386d86c5",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/clean-build.log": "43464f3782ac575fb58312c0192a5e4ae6a2cb0c3c67d966da8b47a3c33061da",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/dailyapod-1440.webp": "e3f588e221abd889951878ac0db47b59bd8c61e1b82f1cc7977c291b7865a4a1",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/dailyapod-390.webp": "3f9367453856855413102ec59619d1ea8607d1f472732271ae63a67abd36cd9f",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/delivery-match.json": "0e0805253f00851df85b29fd8819d1c9b21337e1334d9e6a6860807b35c6e56d",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/dev-smoke.json": "15ade548ea04bfeece2f37c8551270baecdf087c30d7144a2bb1d4ce148e9565",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/final-review.json": "32d756bca2c01427af64a9a979458987a1b78371f1359040333d010dfa38f67a",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/gosleep-1440.webp": "d066ed9df3693f90a6a1c753e6cdc8ac3d017647a2ea8736647a71bb8e6ddaca",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/gosleep-390.webp": "8253a47802c18ffcfab0b8ef06200acf00ba849cf1dda8c370227b38c5eaba4c",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/moodsk-1440.webp": "ddb41b33c1195f94ace54679af439921bfbf0ca65bd79246dacc6cab1195671a",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/moodsk-390.webp": "c7b4f668eb16540c1546daf156e181d70ce7bfdf87dcf04ec0c82cf9d91c2a15",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/nameplate-export.json": "ad6495d41d010858e0c57ef3a00f4b9d0fed8d322f5a6d2a1b9cb2a2e4a1fbc8",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/preservation.json": "b272f42aab0f48461a67ff6f06215ae8737b126cd30d8b3a23d222c19f961fce",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/source-sha256.json": "d34bfd55e6b14c0f86177a38c4c716a5a3c0298fbf736296c7cc70e0a4b9120f",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/tutu-1440.webp": "b7f83eba0faf531dd351e955476ed9277698ba0e97df5c1d429d53ff367945e2",
+    "docs-ai/002-monorepo-migration/evidence-four-sites/tutu-390.webp": "808428c694d4d8a6908d9cd7c00d3cfeca5cf16953e0477312188457aabb0adf"
+  }
+}

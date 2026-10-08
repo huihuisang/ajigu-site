@@ -1,0 +1,49 @@
+$ node scripts/workspace.mjs check
+$ astro check
+12:39:43 [types] Generated 37ms
+12:39:43 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/ajigu...
+Result (7 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+12:39:45 [types] Generated 25ms
+12:39:45 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/moodsk...
+Result (4 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+12:39:47 [types] Generated 25ms
+12:39:47 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/tutu...
+Result (3 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+12:39:48 [types] Generated 19ms
+12:39:48 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/gosleep...
+Result (3 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+12:39:50 [types] Generated 24ms
+12:39:50 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/dailyapod...
+Result (3 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+12:39:52 [types] Generated 21ms
+12:39:52 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/typenote...
+Result (8 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

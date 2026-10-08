@@ -1,0 +1,62 @@
+{
+  "ajigu": {
+    "repository": "huihuisang/ajigu-site",
+    "cname": "ajigu.com",
+    "buildType": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "previousSourceRevision": "b170cc9413e85f249c883d0a57cc135d510fe3a8"
+  },
+  "typenote": {
+    "repository": "huihuisang/typenote-landing",
+    "cname": "typenote.ajigu.com",
+    "buildType": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "previousSourceRevision": "868a0f478a3b8b042be4acdd8f2abd3ea85c4b08"
+  },
+  "moodsk": {
+    "repository": "Ajigu-Studio/moodsk-website",
+    "cname": "moodsk.ajigu.com",
+    "buildType": "legacy",
+    "source": {
+      "branch": "master",
+      "path": "/"
+    },
+    "previousSourceRevision": "4d7e1d039d8ff7c57b1a3baa8fee3d52ec5e1ed0"
+  },
+  "gosleep": {
+    "repository": "huihuisang/snorz-site",
+    "cname": "gosleep.ajigu.com",
+    "buildType": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "previousSourceRevision": "23d2b019562f5f2b957ac52e898c12f4302f5626"
+  },
+  "dailyapod": {
+    "repository": "huihuisang/dailyapod-site",
+    "cname": "dailyapod.ajigu.com",
+    "buildType": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "previousSourceRevision": "cb8f13bea95564a142ce06dadad82a18e5c6de5e"
+  },
+  "tutu": {
+    "repository": "huihuisang/tutu-site",
+    "cname": "tutu.ajigu.com",
+    "buildType": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "previousSourceRevision": "f44af69763409674d3530d4a3bb844c4e2caa78d"
+  }
+}

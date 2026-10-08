@@ -1,0 +1,81 @@
+---
+import SiteLayout from "./SiteLayout.astro";
+import { SiteHeader } from "../components/SiteHeader";
+import { SiteFooter } from "../components/SiteFooter";
+import { ProductHero } from "../components/ProductHero";
+import { ProductSections } from "../components/ProductSections";
+import { LinkButton } from "@ajigu/ui/components/link-button";
+import { getCopy } from "../copy";
+import type { ProductPage, ProductIdentity } from "../models";
+
+interface Props {
+  page: ProductPage;
+  product: ProductIdentity;
+}
+const { page, product } = Astro.props;
+const copy = getCopy(page.locale);
+const demoTitles: Record<string, string> = copy.demos;
+const footerLinks = page.footerLinks.some((link) => link.href === "https://ajigu.com/")
+  ? page.footerLinks
+  : [...page.footerLinks, { href: "https://ajigu.com/", label: "ajigu" }];
+---
+
+<SiteLayout metadata={page.metadata} locale={page.locale} product={product.id}>
+  <a class="studio-skip" href={`#${page.mainId}`}>
+    {copy.skip}
+  </a>
+  <SiteHeader
+    client:load
+    appId={product.id}
+    name={product.name}
+    icon={product.icon}
+    route={page.route}
+    copy={copy}
+    languages={page.languages}
+    language={page.locale}
+  />
+  <main class="detail-flow" id={page.mainId}>
+    <ProductHero
+      id={product.id}
+      customArt={product.id === "moodsk"}
+      name={product.name}
+      claim={page.claim || (page.heading !== product.name ? page.heading : undefined)}
+      intro={page.intro}
+      note={page.note}
+    >
+      <Fragment slot="actions">
+        {page.actions.map((link, index) => (
+          <LinkButton
+            href={link.href}
+            label={link.label}
+            external={link.external}
+            variant={index === 0 ? "default" : index === 1 ? "outline" : "link"}
+          />
+        ))}
+      </Fragment>
+
+      {product.id === "moodsk" && (
+        <div slot="art" id="showcase">
+          <slot name="demo" />
+        </div>
+      )}
+    </ProductHero>
+    {product.id !== "moodsk" && (
+      <section class="studio-demo studio-shell" id="showcase">
+        <div class="demo-content" id={product.id === "dailyapod" ? "gallery" : undefined}>
+          <h2>{page.showcaseTitle || demoTitles[product.id] || copy.tryTitle}</h2>
+          <slot name="demo" />
+        </div>
+      </section>
+    )}
+    <ProductSections sections={page.sections} client:load />
+  </main>
+  <SiteFooter
+    signatureLabel={copy.signatureLabel}
+    client:load
+    name={product.name}
+    links={footerLinks}
+    copyright={page.footerText}
+  />
+  <slot name="scripts" />
+</SiteLayout>

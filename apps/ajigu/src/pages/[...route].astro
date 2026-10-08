@@ -1,0 +1,26 @@
+---
+import homes from "../content/home.json";
+import nameplates from "../content/nameplate.json";
+import HomePage from "../components/HomePage.astro";
+import NameplatePage from "../components/NameplatePage.astro";
+
+export function getStaticPaths() {
+  return [
+    ...homes.map((home) => ({
+      params: { route: home.route.slice(1, -1) || undefined },
+      props: { home },
+    })),
+    ...nameplates.map((nameplate) => ({
+      params: { route: nameplate.route.slice(1, -1) },
+      props: { nameplate },
+    })),
+  ];
+}
+interface Props {
+  home?: (typeof homes)[number];
+  nameplate?: (typeof nameplates)[number];
+}
+const { home, nameplate } = Astro.props;
+---
+
+{home ? <HomePage page={home} /> : nameplate && <NameplatePage page={nameplate} />}

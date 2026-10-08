@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "site": "studio",
+      "file": "index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 0
+    },
+    {
+      "site": "studio",
+      "file": "zh-hans/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 0
+    },
+    {
+      "site": "studio",
+      "file": "zh-hant/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 0
+    },
+    {
+      "site": "studio",
+      "file": "ja/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 0
+    },
+    {
+      "site": "studio",
+      "file": "ko/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 0
+    },
+    {
+      "site": "gosleep",
+      "file": "index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "zh-hans/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "zh-hant/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "ja/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "en-gb/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "de/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "ko/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "gosleep",
+      "file": "fr/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 3,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "dailyapod",
+      "file": "index.html",
+      "canonical": "preserved",
+      "essentialLinks": 6,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "dailyapod",
+      "file": "zh-hans/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 6,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "dailyapod",
+      "file": "zh-hant/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 6,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "dailyapod",
+      "file": "ja/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 6,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "dailyapod",
+      "file": "ko/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 6,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "moodsk",
+      "file": "index.html",
+      "canonical": "preserved",
+      "essentialLinks": 4,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "moodsk",
+      "file": "zh-hans/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 4,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "moodsk",
+      "file": "ja/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 4,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "moodsk",
+      "file": "ko/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 4,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "tutu",
+      "file": "index.html",
+      "canonical": "preserved",
+      "essentialLinks": 1,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "tutu",
+      "file": "zh-hans/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 1,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "tutu",
+      "file": "zh-hant/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 1,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "tutu",
+      "file": "ja/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 1,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "tutu",
+      "file": "ko/index.html",
+      "canonical": "preserved",
+      "essentialLinks": 1,
+      "faqQuestionsRetained": 4
+    },
+    {
+      "site": "typenote",
+      "file": "index.html",
+      "canonical": "preserved",
+      "essentialLinks": 2,
+      "faqQuestionsRetained": 0
+    }
+  ],
+  "missing": []
+}

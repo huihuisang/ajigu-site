@@ -1,0 +1,432 @@
+{
+  "en": {
+    "nav": {
+      "play": "Play",
+      "features": "Features",
+      "guide": "Guide",
+      "faq": "FAQ",
+      "privacy": "Privacy",
+      "download": "Download",
+      "by": "by ajigu",
+      "sound": "Sounds"
+    },
+    "hero": {
+      "badge": "Free for macOS",
+      "title": "Your keyboard still types.<br>It just sounds different now.",
+      "sub": "TypeNote lives in your menu bar and changes what your keyboard sounds like. Piano, ocean waves, or something you've never tried — 128 sounds, one for every mood.",
+      "cta1": "Download Free",
+      "cta2": "See how it works"
+    },
+    "feat": {
+      "heading": "128 sounds.<br>One for every mood.",
+      "focal_h3": "Bring your own melody.",
+      "focal_p": "Paste in a numbered melody, import a MusicXML file, or drop in a MIDI — and your keystrokes follow the notes in sequence. A quiet way to hear a song you've been thinking about.",
+      "formats_h3": "Three formats, zero friction",
+      "formats_p": "Jianpu numbered notation, MusicXML from MuseScore or Sibelius, and standard MIDI files. Or type notation directly in the built-in editor — no import needed.",
+      "latency_h3": "Latency",
+      "latency_p": "256-frame buffer. Key to sound in under 8 milliseconds.",
+      "instruments_h3": "Sounds",
+      "instruments_p": "Full General MIDI — piano, strings, brass, woodwind, synth. Import SoundFont (.sf2) files to add more.",
+      "menubar_h3": "Lives in your menu bar",
+      "menubar_p": "No windows, no modes to enter or exit. Open it to change the sound, close it, keep working."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "What permissions does TypeNote need?",
+      "a1": "Input Monitoring is required so TypeNote can hear keystrokes in other apps. Accessibility permission is optional — enable it only if you want Smart Mute, which silences TypeNote when a text field is active. Both can be granted from System Settings without reinstalling.",
+      "q2": "What sheet music formats are supported?",
+      "a2": "Jianpu (.txt) for numbered notation, MusicXML (.xml, .musicxml) exported from MuseScore, Sibelius, or Finale, and MIDI (.mid, .midi) files. You can also write Jianpu notation directly in the built-in score editor — no file needed.",
+      "q3": "Will TypeNote interrupt my regular typing?",
+      "a3": "No — keystrokes are always passed through to apps normally. TypeNote plays a note alongside each keystroke without consuming it. With Smart Mute enabled, TypeNote plays only when a text field has focus (code editor, notes, chat), and stays silent everywhere else so global shortcuts and games are never triggered.",
+      "q4": "How do I actually play a song?",
+      "a4": "Click the TypeNote icon in your menu bar, select a score from the library, and grant Input Monitoring permission. Then press any key — each keystroke plays the next note in sequence. Eight demo scores are included.",
+      "q5": "Is TypeNote free?",
+      "a5": "Yes — completely free. No account, no subscription, no ads, no in-app purchases. Zero third-party dependencies. The full source code is on GitHub."
+    },
+    "jianpu": {
+      "title": "Write notation in seconds.",
+      "sub": "The built-in editor uses Jianpu — a numbered system where 1–7 map to Do through Si. No staff lines. No music theory required.",
+      "rule_notes": "1–7",
+      "rule_notes_p": "Scale degrees Do Re Mi Fa Sol La Si",
+      "rule_rest": "0",
+      "rule_rest_p": "Rest — silence for one beat",
+      "rule_up": "1'",
+      "rule_up_p": "Apostrophe = up one octave",
+      "rule_down": "1,",
+      "rule_down_p": "Comma = down one octave",
+      "rule_extend": "1-",
+      "rule_extend_p": "Dash = extend note by one beat",
+      "rule_half": "1_",
+      "rule_half_p": "Underscore = half the duration",
+      "rule_sharp": "#1 / b1",
+      "rule_sharp_p": "Sharp or flat",
+      "example_label": "Try it — Twinkle Twinkle:",
+      "example": "1 1 5 5 6 6 5 - 4 4 3 3 2 2 1 -"
+    },
+    "privacy": {
+      "title": "Private by design.",
+      "sub": "TypeNote never collects your data. Everything stays on your Mac.",
+      "p1_h": "No data collected",
+      "p1_p": "TypeNote captures no personal data, telemetry, or usage statistics. Not now, not ever.",
+      "p2_h": "No tracking or analytics",
+      "p2_p": "TypeNote collects no analytics, telemetry, or personal data. The only outbound request is a periodic update check via Sparkle — no account, no tracking.",
+      "p3_h": "All processing on-device",
+      "p3_p": "Audio synthesis, score parsing, and key detection all happen entirely on your Mac using native macOS APIs. Nothing leaves your device."
+    },
+    "shots": {
+      "heading": "See it in action."
+    },
+    "cta": {
+      "kicker": "Free Download",
+      "title": "One keyboard.<br>Infinite sounds.",
+      "sub": "Free for macOS 14 Sonoma and later. No account. No subscription. Just a different sound.",
+      "btn1": "Download for macOS",
+      "btn2": "View on GitHub",
+      "footnote": "Requires macOS 14 Sonoma or later · Zero third-party dependencies"
+    }
+  },
+  "zh": {
+    "nav": {
+      "play": "演奏",
+      "features": "功能",
+      "guide": "格式",
+      "faq": "问答",
+      "privacy": "隐私",
+      "download": "下载",
+      "sound": "音效指南",
+      "by": "by 啊叽咕"
+    },
+    "hero": {
+      "badge": "macOS 免费",
+      "title": "键盘还是那个键盘，<br>只是声音换了。",
+      "sub": "TypeNote 挂在菜单栏里，不打扰你，只是把键盘的声音换掉了。钢琴、海浪，或者你一直没试过的什么——128 种音色，随时换个心情。",
+      "cta1": "免费下载",
+      "cta2": "了解更多"
+    },
+    "feat": {
+      "heading": "128 种音色，<br>随时换个心情。",
+      "focal_h3": "带上你的旋律。",
+      "focal_p": "把数字简谱粘进来，导入 MusicXML，或者拖入一个 MIDI 文件——键盘就会跟着音符一个一个走。一种安静的方式，听你心里惦记的那首歌。",
+      "formats_h3": "三种格式，零门槛",
+      "formats_p": "支持简谱（.txt）、来自 MuseScore 或 Sibelius 的 MusicXML，以及标准 MIDI 文件。也可在内置编辑器中直接输入简谱，无需导入。",
+      "latency_h3": "延迟",
+      "latency_p": "256 帧音频缓冲，按键到出声不超过 8 毫秒。",
+      "instruments_h3": "音色",
+      "instruments_p": "完整 GM 音色库——钢琴、弦乐、铜管、木管、合成器。支持导入 SoundFont（.sf2）文件，扩展更多音色。",
+      "menubar_h3": "常驻菜单栏",
+      "menubar_p": "没有窗口，没有需要记住的快捷键。想换声音了，打开改一下，关掉，继续干活。"
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": "TypeNote 需要哪些权限？",
+      "a1": "基本使用仅需「输入监控」权限，以便 TypeNote 监听其他应用中的按键。「辅助功能」权限是可选的——仅在需要智能静音时开启，该功能会在文本框聚焦时自动静音。两项权限均可在系统设置中授予，无需重新安装。",
+      "q2": "支持哪些乐谱格式？",
+      "a2": "支持简谱（.txt）、来自 MuseScore、Sibelius 或 Finale 导出的 MusicXML（.xml、.musicxml），以及 MIDI 文件（.mid、.midi）。也可直接在内置编辑器中输入简谱，无需文件导入。",
+      "q3": "TypeNote 会打断正常打字吗？",
+      "a3": "不会——按键始终正常传递给应用程序，TypeNote 只是在旁边同步演奏一个音符，不会拦截或消耗任何按键。启用智能静音后，TypeNote 仅在文本框聚焦时（代码编辑器、备忘录、聊天等）演奏，在其他地方保持静音，全局快捷键和游戏中不会被误触发。",
+      "q4": "怎么播放一首歌？",
+      "a4": "点击菜单栏中的 TypeNote 图标，从曲库中选择一首乐谱，然后授予「输入监控」权限。之后按下任意键，TypeNote 便按顺序演奏乐谱中的下一个音符。内置 8 首演示曲目。",
+      "q5": "TypeNote 是免费的吗？",
+      "a5": "是的，完全免费。无需账号、无需订阅、无广告、无内购。零第三方依赖。完整源代码托管在 GitHub，可随时查阅或自行构建。"
+    },
+    "jianpu": {
+      "title": "几秒写出一首曲。",
+      "sub": "内置编辑器使用简谱——1 到 7 对应哆来咪发嗦啦西，不需要五线谱，不需要乐理基础。",
+      "rule_notes": "1–7",
+      "rule_notes_p": "音符：哆 来 咪 发 嗦 啦 西",
+      "rule_rest": "0",
+      "rule_rest_p": "休止符，沉默一拍",
+      "rule_up": "1'",
+      "rule_up_p": "撇号 = 升高八度",
+      "rule_down": "1,",
+      "rule_down_p": "逗号 = 降低八度",
+      "rule_extend": "1-",
+      "rule_extend_p": "减号 = 延长一拍",
+      "rule_half": "1_",
+      "rule_half_p": "下划线 = 时值减半",
+      "rule_sharp": "#1 / b1",
+      "rule_sharp_p": "升号 / 降号",
+      "example_label": "试一试——小星星：",
+      "example": "1 1 5 5 6 6 5 - 4 4 3 3 2 2 1 -"
+    },
+    "privacy": {
+      "title": "隐私，从设计层面保障。",
+      "sub": "TypeNote 从不采集你的数据。一切都留在你的 Mac 上。",
+      "p1_h": "零数据采集",
+      "p1_p": "TypeNote 不收集任何个人数据、遥测信息或使用统计。现在不会，永远不会。",
+      "p2_h": "零追踪，零分析",
+      "p2_p": "TypeNote 不收集任何分析数据、遥测或个人信息。唯一的外联请求是通过 Sparkle 定期检查更新——无账号，无追踪。",
+      "p3_h": "设备本地处理",
+      "p3_p": "音频合成、乐谱解析、按键检测全部在设备上完成，使用原生 macOS API，数据不离机。"
+    },
+    "shots": {
+      "heading": "一睹为快。"
+    },
+    "cta": {
+      "kicker": "免费下载",
+      "title": "一块键盘，<br>无限音色。",
+      "sub": "macOS 14 Sonoma 及更高版本，完全免费。无账号，无订阅，只是换了个声音。",
+      "btn1": "下载 macOS 版",
+      "btn2": "在 GitHub 查看",
+      "footnote": "需要 macOS 14 Sonoma 或更高版本 · 零第三方依赖"
+    }
+  },
+  "ja": {
+    "nav": {
+      "play": "演奏",
+      "features": "機能",
+      "guide": "記法",
+      "faq": "FAQ",
+      "privacy": "規約",
+      "download": "DL",
+      "sound": "サウンドガイド",
+      "by": "by ajigu"
+    },
+    "hero": {
+      "badge": "macOS 無料",
+      "title": "キーボードはそのまま。<br>音だけが変わる。",
+      "sub": "TypeNote はメニューバーに常駐して、キーボードの音を静かに変えます。ピアノ、波の音、試したことのない何か——128種のサウンドで、気分に合った音を。",
+      "cta1": "無料ダウンロード",
+      "cta2": "使い方を見る"
+    },
+    "feat": {
+      "heading": "128種のサウンド。<br>気分で選ぶ。",
+      "focal_h3": "自分のメロディを持ち込む。",
+      "focal_p": "数字譜を貼り付けて、MusicXML をインポートして、あるいは MIDI をドロップする——そうすると、キーを叩くたびに音符が順番に鳴っていく。ずっと頭の中にあった曲を、静かに鳴らす方法として。",
+      "formats_h3": "3つのフォーマット、ゼロ手間",
+      "formats_p": "MuseScore・Sibelius の MusicXML、MIDI ファイルをインポート可能。内蔵エディタで数字楽譜を直接入力することもできます。",
+      "latency_h3": "レイテンシ",
+      "latency_p": "256 フレームのオーディオバッファ。キー押下から発音まで 8ms 未満。",
+      "instruments_h3": "サウンド",
+      "instruments_p": "完全な GM サウンドフォント — ピアノ、ストリングス、ブラス、木管、シンセ。SoundFont（.sf2）ファイルをインポートして音色を追加できます。",
+      "menubar_h3": "メニューバーに常駐",
+      "menubar_p": "ウィンドウなし、覚えるべきモードもなし。音を変えたいときだけ開いて、閉じて、続ける。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": "TypeNote にはどんな権限が必要ですか？",
+      "a1": "基本的な使用には「入力監視」権限が必要です。TypeNote が他のアプリのキーストロークを検出するためです。「アクセシビリティ」はオプション — スマートミュート機能（テキストフィールドにフォーカスがある間は自動的に消音）を使う場合のみ有効にしてください。どちらもシステム設定から付与できます。",
+      "q2": "対応している楽譜フォーマットは？",
+      "a2": "数字楽譜（.txt）、MuseScore・Sibelius・Finale からエクスポートした MusicXML（.xml、.musicxml）、MIDI ファイル（.mid、.midi）に対応。内蔵スコアエディタで直接数字楽譜を入力することもできます。",
+      "q3": "TypeNote は通常のタイピングを邪魔しますか？",
+      "a3": "いいえ — キーストロークは常にアプリに正常に渡されます。TypeNote はキーを消費せず、音符をそっと添えるだけです。スマートミュートを有効にすると、テキストフィールドにフォーカスがある時（コードエディタ、メモ、チャットなど）のみ演奏し、それ以外では無音を保つため、グローバルショートカットやゲームが誤作動することもありません。",
+      "q4": "曲の演奏方法を教えてください。",
+      "a4": "メニューバーの TypeNote アイコンをクリックし、ライブラリからスコアを選択して「入力監視」権限を付与します。任意のキーを押すと、スコアの次の音符が順番に再生されます。デモ曲が 8 曲収録されています。",
+      "q5": "TypeNote は無料ですか？",
+      "a5": "はい、完全無料です。アカウント不要、サブスクリプション不要、広告なし、アプリ内課金なし。サードパーティ依存ゼロ。ソースコード全体は GitHub で公開されています。"
+    },
+    "jianpu": {
+      "title": "数秒で曲が書ける。",
+      "sub": "内蔵エディタは数字楽譜を使用。1〜7 がドレミファソラシに対応。五線譜も楽典の知識も不要です。",
+      "rule_notes": "1–7",
+      "rule_notes_p": "音符：ド レ ミ ファ ソ ラ シ",
+      "rule_rest": "0",
+      "rule_rest_p": "休符（1拍の無音）",
+      "rule_up": "1'",
+      "rule_up_p": "アポストロフィ = 1オクターブ上",
+      "rule_down": "1,",
+      "rule_down_p": "コンマ = 1オクターブ下",
+      "rule_extend": "1-",
+      "rule_extend_p": "ダッシュ = 1拍延ばす",
+      "rule_half": "1_",
+      "rule_half_p": "アンダースコア = 音価を半分に",
+      "rule_sharp": "#1 / b1",
+      "rule_sharp_p": "シャープ / フラット",
+      "example_label": "試してみよう — きらきら星：",
+      "example": "1 1 5 5 6 6 5 - 4 4 3 3 2 2 1 -"
+    },
+    "privacy": {
+      "title": "プライバシーは、設計の核心に。",
+      "sub": "TypeNote はあなたのデータを一切収集しません。すべてあなたの Mac の中で完結します。",
+      "p1_h": "データ収集ゼロ",
+      "p1_p": "個人データ、テレメトリ、使用統計は一切収集しません。今も、これからも。",
+      "p2_h": "追跡・分析ゼロ",
+      "p2_p": "TypeNote は分析データ、テレメトリ、個人情報を一切収集しません。唯一の外部通信は Sparkle によるアップデート確認のみ — アカウント不要、追跡なし。",
+      "p3_h": "すべてデバイス内で処理",
+      "p3_p": "音声合成、楽譜解析、キー検出はすべてデバイス上で処理されます。ネイティブ macOS API のみ使用。データは外に出ません。"
+    },
+    "shots": {
+      "heading": "実際の動作を見てみよう。"
+    },
+    "cta": {
+      "kicker": "無料ダウンロード",
+      "title": "1つのキーボード。<br>無限の音。",
+      "sub": "macOS 14 Sonoma 以降、完全無料。アカウント不要、サブスクなし。ただ、音が変わる。",
+      "btn1": "macOS 版をダウンロード",
+      "btn2": "GitHub で見る",
+      "footnote": "macOS 14 Sonoma 以降が必要 · サードパーティ依存なし"
+    }
+  },
+  "zht": {
+    "nav": {
+      "play": "演奏",
+      "features": "功能",
+      "guide": "記法",
+      "faq": "問答",
+      "privacy": "隱私",
+      "download": "下載",
+      "sound": "音效指南",
+      "by": "by 啊嘰咕"
+    },
+    "hero": {
+      "badge": "macOS 免費",
+      "title": "鍵盤還是那個鍵盤，<br>只是聲音換了。",
+      "sub": "TypeNote 掛在選單列裡，不打擾你，只是把鍵盤的聲音換掉了。鋼琴、海浪，或者你一直沒試過的什麼——128 種音色，隨時換個心情。",
+      "cta1": "免費下載",
+      "cta2": "瞭解更多"
+    },
+    "feat": {
+      "heading": "128 種音色，<br>隨時換個心情。",
+      "focal_h3": "帶上你的旋律。",
+      "focal_p": "把數字簡譜貼進來，匯入 MusicXML，或者拖入一個 MIDI 檔案——鍵盤就會跟著音符一個一個走。一種安靜的方式，聽你心裡惦記的那首歌。",
+      "formats_h3": "三種格式，零門檻",
+      "formats_p": "支援簡譜（.txt）、來自 MuseScore 或 Sibelius 的 MusicXML，以及標準 MIDI 檔案。也可在內建編輯器中直接輸入簡譜，無需匯入。",
+      "latency_h3": "延遲",
+      "latency_p": "256 幀音訊緩衝，按鍵到發聲不超過 8 毫秒。",
+      "instruments_h3": "音色",
+      "instruments_p": "完整 GM 音色庫——鋼琴、弦樂、銅管、木管、合成器。支援匯入 SoundFont（.sf2）檔案，擴展更多音色。",
+      "menubar_h3": "常駐選單列",
+      "menubar_p": "沒有視窗，沒有需要記住的快捷鍵。想換聲音了，打開改一下，關掉，繼續幹活。"
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": "TypeNote 需要哪些權限？",
+      "a1": "基本使用僅需「輸入監控」權限，以便 TypeNote 監聽其他應用中的按鍵。「輔助使用」權限是可選的——僅在需要智慧靜音時開啟，該功能會在文字框聚焦時自動靜音。兩項權限均可在系統設定中授予，無需重新安裝。",
+      "q2": "支援哪些樂譜格式？",
+      "a2": "支援簡譜（.txt）、來自 MuseScore、Sibelius 或 Finale 匯出的 MusicXML（.xml、.musicxml），以及 MIDI 檔案（.mid、.midi）。也可直接在內建編輯器中輸入簡譜，無需檔案匯入。",
+      "q3": "TypeNote 會打斷正常打字嗎？",
+      "a3": "不會——按鍵始終正常傳遞給應用程式，TypeNote 只是在旁邊同步演奏一個音符，不會攔截或消耗任何按鍵。啟用智慧靜音後，TypeNote 僅在文字框聚焦時（程式碼編輯器、備忘錄、聊天等）演奏，在其他地方保持靜音，全域快捷鍵和遊戲中不會被誤觸發。",
+      "q4": "怎麼播放一首歌？",
+      "a4": "點擊選單列中的 TypeNote 圖示，從曲庫中選擇一首樂譜，然後授予「輸入監控」權限。之後按下任意鍵，TypeNote 便按順序演奏樂譜中的下一個音符。內建 8 首演示曲目。",
+      "q5": "TypeNote 是免費的嗎？",
+      "a5": "是的，完全免費。無需帳號、無需訂閱、無廣告、無內購。零第三方依賴。完整原始碼託管在 GitHub，可隨時查閱或自行建置。"
+    },
+    "jianpu": {
+      "title": "幾秒寫出一首曲。",
+      "sub": "內建編輯器使用簡譜——1 到 7 對應哆來咪發嗦啦西，不需要五線譜，不需要樂理基礎。",
+      "rule_notes": "1–7",
+      "rule_notes_p": "音符：哆 來 咪 發 嗦 啦 西",
+      "rule_rest": "0",
+      "rule_rest_p": "休止符，沉默一拍",
+      "rule_up": "1'",
+      "rule_up_p": "撇號 = 升高八度",
+      "rule_down": "1,",
+      "rule_down_p": "逗號 = 降低八度",
+      "rule_extend": "1-",
+      "rule_extend_p": "減號 = 延長一拍",
+      "rule_half": "1_",
+      "rule_half_p": "下劃線 = 時值減半",
+      "rule_sharp": "#1 / b1",
+      "rule_sharp_p": "升記號 / 降記號",
+      "example_label": "試一試——小星星：",
+      "example": "1 1 5 5 6 6 5 - 4 4 3 3 2 2 1 -"
+    },
+    "privacy": {
+      "title": "隱私，從設計層面保障。",
+      "sub": "TypeNote 從不採集你的資料。一切都留在你的 Mac 上。",
+      "p1_h": "零資料採集",
+      "p1_p": "TypeNote 不收集任何個人資料、遙測資訊或使用統計。現在不會，永遠不會。",
+      "p2_h": "零追蹤，零分析",
+      "p2_p": "TypeNote 不收集任何分析資料、遙測或個人資訊。唯一的外聯請求是透過 Sparkle 定期檢查更新——無帳號，無追蹤。",
+      "p3_h": "裝置本機處理",
+      "p3_p": "音訊合成、樂譜解析、按鍵偵測全部在裝置上完成，使用原生 macOS API，資料不離機。"
+    },
+    "shots": {
+      "heading": "先睹為快。"
+    },
+    "cta": {
+      "kicker": "免費下載",
+      "title": "一塊鍵盤，<br>無限音色。",
+      "sub": "macOS 14 Sonoma 及更高版本，完全免費。無帳號，無訂閱，只是換了個聲音。",
+      "btn1": "下載 macOS 版",
+      "btn2": "在 GitHub 查看",
+      "footnote": "需要 macOS 14 Sonoma 或更高版本 · 零第三方依賴"
+    }
+  },
+  "ko": {
+    "nav": {
+      "play": "연주",
+      "features": "기능",
+      "guide": "기보법",
+      "faq": "FAQ",
+      "privacy": "개인정보",
+      "download": "다운로드",
+      "sound": "사운드 가이드",
+      "by": "by ajigu"
+    },
+    "hero": {
+      "badge": "macOS 무료",
+      "title": "키보드는 그대로,<br>소리만 달라집니다.",
+      "sub": "TypeNote는 메뉴 막대에 상주하며 키보드 소리를 조용히 바꿔줍니다. 피아노, 파도 소리, 아직 시도해 보지 않은 무언가까지——128가지 사운드로 기분에 맞는 소리를.",
+      "cta1": "무료 다운로드",
+      "cta2": "사용 방법 보기"
+    },
+    "feat": {
+      "heading": "128가지 사운드.<br>기분에 따라 고르세요.",
+      "focal_h3": "직접 만든 멜로디를 연주하세요.",
+      "focal_p": "숫자 악보를 붙여넣거나, MusicXML을 가져오거나, MIDI 파일을 끌어다 놓으면——키를 누를 때마다 음표가 순서대로 울립니다. 머릿속에 맴돌던 곡을 조용히 들어보는 방법.",
+      "formats_h3": "세 가지 포맷, 번거로움 제로",
+      "formats_p": "숫자악보(.txt), MuseScore·Sibelius의 MusicXML, 표준 MIDI 파일을 지원합니다. 내장 편집기에서 직접 입력할 수도 있습니다.",
+      "latency_h3": "지연 시간",
+      "latency_p": "256프레임 오디오 버퍼. 키 입력부터 소리까지 8밀리초 미만.",
+      "instruments_h3": "사운드",
+      "instruments_p": "완전한 GM 사운드——피아노, 현악, 브라스, 목관, 신디사이저. SoundFont(.sf2) 파일을 가져와 사운드를 추가할 수 있습니다.",
+      "menubar_h3": "메뉴 막대에 상주",
+      "menubar_p": "창도, 외울 단축키도 없습니다. 소리를 바꿀 때만 열고, 닫고, 계속 작업하세요."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": "TypeNote에는 어떤 권한이 필요한가요?",
+      "a1": "기본 사용에는 다른 앱의 키 입력을 감지하기 위한 '입력 모니터링' 권한이 필요합니다. '손쉬운 사용' 권한은 선택 사항으로——스마트 음소거(텍스트 필드에 포커스가 있을 때 자동 음소거)를 사용할 때만 활성화하면 됩니다. 두 권한 모두 시스템 설정에서 부여할 수 있으며 재설치가 필요하지 않습니다.",
+      "q2": "어떤 악보 포맷을 지원하나요?",
+      "a2": "숫자악보(.txt), MuseScore·Sibelius·Finale에서 내보낸 MusicXML(.xml, .musicxml), MIDI 파일(.mid, .midi)을 지원합니다. 내장 편집기에서 직접 입력할 수도 있습니다.",
+      "q3": "TypeNote가 일반 타이핑을 방해하나요?",
+      "a3": "아니요——키 입력은 항상 앱에 정상적으로 전달되며, TypeNote는 키를 소비하지 않고 옆에서 음표만 연주합니다. 스마트 음소거를 켜면 텍스트 필드에 포커스가 있을 때(코드 편집기, 메모, 채팅 등)만 연주하고 다른 곳에서는 조용히 유지되므로 전역 단축키나 게임이 오작동하지 않습니다.",
+      "q4": "곡을 연주하려면 어떻게 하나요?",
+      "a4": "메뉴 막대의 TypeNote 아이콘을 클릭하고 라이브러리에서 악보를 선택한 뒤 '입력 모니터링' 권한을 부여하세요. 그런 다음 아무 키나 누르면 악보의 다음 음표가 순서대로 재생됩니다. 데모 곡 8곡이 포함되어 있습니다.",
+      "q5": "TypeNote는 무료인가요?",
+      "a5": "네, 완전히 무료입니다. 계정도, 구독도, 광고도, 인앱 구매도 없습니다. 서드파티 의존성 제로. 전체 소스 코드가 GitHub에 공개되어 있습니다."
+    },
+    "jianpu": {
+      "title": "몇 초 만에 악보를 씁니다.",
+      "sub": "내장 편집기는 숫자악보를 사용합니다——1부터 7까지 도레미파솔라시에 대응합니다. 오선지도, 음악 이론도 필요 없습니다.",
+      "rule_notes": "1–7",
+      "rule_notes_p": "음표: 도 레 미 파 솔 라 시",
+      "rule_rest": "0",
+      "rule_rest_p": "쉼표——한 박자의 침묵",
+      "rule_up": "1'",
+      "rule_up_p": "어포스트로피 = 한 옥타브 위",
+      "rule_down": "1,",
+      "rule_down_p": "쉼표 = 한 옥타브 아래",
+      "rule_extend": "1-",
+      "rule_extend_p": "대시 = 한 박자 연장",
+      "rule_half": "1_",
+      "rule_half_p": "언더스코어 = 길이 절반",
+      "rule_sharp": "#1 / b1",
+      "rule_sharp_p": "샤프 / 플랫",
+      "example_label": "직접 해보세요 — 반짝반짝 작은 별:",
+      "example": "1 1 5 5 6 6 5 - 4 4 3 3 2 2 1 -"
+    },
+    "privacy": {
+      "title": "프라이버시, 설계에서 시작합니다.",
+      "sub": "TypeNote는 데이터를 수집하지 않습니다. 모든 것은 당신의 Mac 안에 머뭅니다.",
+      "p1_h": "데이터 수집 제로",
+      "p1_p": "개인 데이터, 텔레메트리, 사용 통계를 수집하지 않습니다. 지금도, 앞으로도.",
+      "p2_h": "추적·분석 제로",
+      "p2_p": "TypeNote는 분석 데이터, 텔레메트리, 개인 정보를 수집하지 않습니다. 유일한 외부 통신은 Sparkle을 통한 주기적 업데이트 확인뿐——계정 없음, 추적 없음.",
+      "p3_h": "모든 처리는 온디바이스에서",
+      "p3_p": "오디오 합성, 악보 파싱, 키 감지는 모두 네이티브 macOS API로 기기에서 처리됩니다. 데이터는 기기를 떠나지 않습니다."
+    },
+    "shots": {
+      "heading": "직접 보세요."
+    },
+    "cta": {
+      "kicker": "무료 다운로드",
+      "title": "하나의 키보드.<br>무한한 사운드.",
+      "sub": "macOS 14 Sonoma 이상, 완전 무료. 계정 없음, 구독 없음. 소리가 달라질 뿐입니다.",
+      "btn1": "macOS용 다운로드",
+      "btn2": "GitHub에서 보기",
+      "footnote": "macOS 14 Sonoma 이상 필요 · 서드파티 의존성 없음"
+    }
+  }
+}

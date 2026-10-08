@@ -1,0 +1,47 @@
+{
+  "typenote": {
+    "template": "apple-macbookpro14",
+    "screenBackground": "#202020",
+    "screens": [
+      "design/mockups/screens/typenote-library.webp"
+    ]
+  },
+  "moodsk": {
+    "template": "apple-macbookpro14",
+    "screenBackground": "#f7f2e9",
+    "screens": [
+      "apps/ajigu/public/gallery/moodsk-current.webp"
+    ]
+  },
+  "gosleep": {
+    "template": "apple-iphone-15-pro-black-titanium",
+    "screenBackground": "#faf7f0",
+    "screens": [
+      "apps/ajigu/public/gallery/gosleep-home.webp",
+      "apps/ajigu/public/gallery/gosleep-report.webp",
+      "apps/ajigu/public/gallery/gosleep-globe.webp"
+    ]
+  },
+  "dailyapod": {
+    "template": "apple-iphone-15-pro-black-titanium",
+    "screenBackground": "#030407",
+    "screens": [
+      "design/mockups/screens/dailyapod-sky.webp",
+      "design/mockups/screens/dailyapod-solar.webp"
+    ]
+  },
+  "tutu": {
+    "template": "apple-ipadpro11-spacegrey",
+    "screenBackground": "#141414",
+    "screens": [
+      "design/mockups/screens/tutu-ipad.webp"
+    ]
+  },
+  "nameplate": {
+    "template": "apple-macbookpro14",
+    "screenBackground": "#f4f1e7",
+    "screens": [
+      "design/mockups/screens/nameplate-editor.webp"
+    ]
+  }
+}

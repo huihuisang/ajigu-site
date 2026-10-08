@@ -1,0 +1,1084 @@
+[
+  {
+    "route": "/",
+    "locale": "en",
+    "products": [
+      {
+        "id": "typenote",
+        "name": "TypeNote",
+        "url": "https://typenote.ajigu.com/?lang=en",
+        "art": "typenote.png",
+        "icon": "typenote-icon.png",
+        "platform": "macOS",
+        "description": "Musical keyboard sounds for your Mac."
+      },
+      {
+        "id": "moodsk",
+        "name": "Moodsk",
+        "url": "https://moodsk.ajigu.com/",
+        "art": "moodsk.jpg",
+        "icon": "moodsk-icon.jpg",
+        "platform": "macOS",
+        "description": "Make your desktop feel like you."
+      },
+      {
+        "id": "gosleep",
+        "name": "Go Sleep",
+        "url": "https://gosleep.ajigu.com/",
+        "art": "gosleep.png",
+        "icon": "gosleep-icon.png",
+        "platform": "iPhone",
+        "description": "A little more insight into your nights."
+      },
+      {
+        "id": "dailyapod",
+        "name": "DailyApod",
+        "url": "https://dailyapod.ajigu.com/",
+        "art": "dailyapod.jpg",
+        "icon": "dailyapod-icon.png",
+        "platform": "iPhone",
+        "description": "A small discovery, every day."
+      },
+      {
+        "id": "tutu",
+        "name": "TUTU",
+        "url": "https://tutu.ajigu.com/",
+        "art": "tutu-before.png",
+        "icon": "tutu-icon.png",
+        "platform": "iPhone · iPad",
+        "description": "Give your photos a cleaner frame."
+      },
+      {
+        "id": "nameplate",
+        "name": "Nameplate Studio",
+        "url": "/nameplate/about/",
+        "art": "",
+        "icon": "nameplate-icon.webp",
+        "platform": "Web",
+        "description": "A thoughtful place for every name."
+      }
+    ],
+    "about": "An independent studio making simple, useful apps for Mac, iPhone and the web. Carefully made for everyday life, with a little room for play.",
+    "metadata": {
+      "title": "ajigu — Private Apps for iPhone and Mac",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "Independent iPhone and Mac apps by ajigu: TypeNote, Go Sleep, DailyApod, Moodsk, and TUTU. Create printable desk nameplates with our free browser tool."
+        },
+        {
+          "property": "og:title",
+          "content": "ajigu — Private Apps for iPhone and Mac"
+        },
+        {
+          "property": "og:description",
+          "content": "Independent iPhone and Mac apps by ajigu: TypeNote, Go Sleep, DailyApod, Moodsk, and TUTU. Create printable desk nameplates with our free browser tool."
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "ajigu — Private Apps for iPhone and Mac"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Independent iPhone and Mac apps by ajigu: TypeNote, Go Sleep, DailyApod, Moodsk, and TUTU. Create printable desk nameplates with our free browser tool."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "ajigu",
+              "alternateName": "啊叽咕",
+              "url": "https://ajigu.com/",
+              "logo": "https://ajigu.com/assets/logo.png",
+              "sameAs": ["https://github.com/huihuisang"],
+              "slogan": "Small, private, delightful apps."
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "ajigu",
+              "url": "https://ajigu.com/"
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/ko/"
+      }
+    ],
+    "contactLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/huihuisang",
+        "external": false
+      },
+      {
+        "label": "Support and feedback",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ],
+    "guideLinks": [
+      {
+        "label": "Keyboard sounds guide",
+        "href": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+        "external": false
+      },
+      {
+        "label": "Sleep sounds guide",
+        "href": "https://gosleep.ajigu.com/guides/night-sounds/",
+        "external": false
+      },
+      {
+        "label": "NASA APOD guide",
+        "href": "https://dailyapod.ajigu.com/guides/what-is-apod/",
+        "external": false
+      }
+    ],
+    "headline": "Small apps. Thoughtfully made."
+  },
+  {
+    "route": "/zh-hans/",
+    "locale": "zh-Hans",
+    "products": [
+      {
+        "id": "typenote",
+        "name": "TypeNote",
+        "url": "https://typenote.ajigu.com/?lang=zh",
+        "art": "typenote.png",
+        "icon": "typenote-icon.png",
+        "platform": "macOS",
+        "description": "让每一次敲键，都有一点旋律。"
+      },
+      {
+        "id": "moodsk",
+        "name": "Moodsk",
+        "url": "https://moodsk.ajigu.com/zh-hans/",
+        "art": "moodsk.jpg",
+        "icon": "moodsk-icon.jpg",
+        "platform": "macOS",
+        "description": "让桌面，成为你的样子。"
+      },
+      {
+        "id": "gosleep",
+        "name": "Go Sleep",
+        "url": "https://gosleep.ajigu.com/zh-hans/",
+        "art": "gosleep.png",
+        "icon": "gosleep-icon.png",
+        "platform": "iPhone",
+        "description": "听见夜晚，更了解自己的睡眠。"
+      },
+      {
+        "id": "dailyapod",
+        "name": "DailyApod",
+        "url": "https://dailyapod.ajigu.com/zh-hans/",
+        "art": "dailyapod.jpg",
+        "icon": "dailyapod-icon.png",
+        "platform": "iPhone",
+        "description": "每天，发现一点宇宙。"
+      },
+      {
+        "id": "tutu",
+        "name": "TUTU",
+        "url": "https://tutu.ajigu.com/zh-hans/",
+        "art": "tutu-before.png",
+        "icon": "tutu-icon.png",
+        "platform": "iPhone · iPad",
+        "description": "轻轻一点，让照片更干净。"
+      },
+      {
+        "id": "nameplate",
+        "name": "Nameplate Studio",
+        "url": "/nameplate/about/zh-hans/",
+        "art": "",
+        "icon": "nameplate-icon.webp",
+        "platform": "Web",
+        "description": "一张桌牌，认真介绍你。"
+      }
+    ],
+    "about": "啊叽咕是一个独立应用工作室，为 Mac、iPhone 和网页制作简洁、实用的小工具。认真打磨日常细节，也给好用留一点玩心。",
+    "metadata": {
+      "title": "啊叽咕 ajigu — 注重隐私的 iPhone 与 Mac 应用",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "探索啊叽咕的 iPhone 和 Mac 应用：TypeNote 键盘音乐、睡好睡眠声音记录、DailyApod 天文图、Moodsk 图标编辑与 TUTU 照片消除，还有免费的在线桌牌制作工具。"
+        },
+        {
+          "property": "og:title",
+          "content": "啊叽咕 ajigu — 注重隐私的 iPhone 与 Mac 应用"
+        },
+        {
+          "property": "og:description",
+          "content": "探索啊叽咕的 iPhone 和 Mac 应用：TypeNote 键盘音乐、睡好睡眠声音记录、DailyApod 天文图、Moodsk 图标编辑与 TUTU 照片消除，还有免费的在线桌牌制作工具。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_CN"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "啊叽咕 ajigu — 注重隐私的 iPhone 与 Mac 应用"
+        },
+        {
+          "name": "twitter:description",
+          "content": "探索啊叽咕的 iPhone 和 Mac 应用：TypeNote 键盘音乐、睡好睡眠声音记录、DailyApod 天文图、Moodsk 图标编辑与 TUTU 照片消除，还有免费的在线桌牌制作工具。"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/ko/"
+      }
+    ],
+    "contactLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/huihuisang",
+        "external": false
+      },
+      {
+        "label": "支持与反馈",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ],
+    "guideLinks": [
+      {
+        "label": "键盘音效指南",
+        "href": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+        "external": false
+      },
+      {
+        "label": "睡眠声音指南",
+        "href": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+        "external": false
+      },
+      {
+        "label": "NASA 每日天文图指南",
+        "href": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+        "external": false
+      }
+    ],
+    "headline": "为日常，做一点好用的东西。"
+  },
+  {
+    "route": "/zh-hant/",
+    "locale": "zh-Hant",
+    "products": [
+      {
+        "id": "typenote",
+        "name": "TypeNote",
+        "url": "https://typenote.ajigu.com/?lang=zht",
+        "art": "typenote.png",
+        "icon": "typenote-icon.png",
+        "platform": "macOS",
+        "description": "讓每一次敲鍵，都有一點旋律。"
+      },
+      {
+        "id": "moodsk",
+        "name": "Moodsk",
+        "url": "https://moodsk.ajigu.com/zh-hans/",
+        "art": "moodsk.jpg",
+        "icon": "moodsk-icon.jpg",
+        "platform": "macOS",
+        "description": "讓桌面，成為你的樣子。"
+      },
+      {
+        "id": "gosleep",
+        "name": "Go Sleep",
+        "url": "https://gosleep.ajigu.com/zh-hant/",
+        "art": "gosleep.png",
+        "icon": "gosleep-icon.png",
+        "platform": "iPhone",
+        "description": "聽見夜晚，更了解自己的睡眠。"
+      },
+      {
+        "id": "dailyapod",
+        "name": "DailyApod",
+        "url": "https://dailyapod.ajigu.com/zh-hant/",
+        "art": "dailyapod.jpg",
+        "icon": "dailyapod-icon.png",
+        "platform": "iPhone",
+        "description": "每天，發現一點宇宙。"
+      },
+      {
+        "id": "tutu",
+        "name": "TUTU",
+        "url": "https://tutu.ajigu.com/zh-hant/",
+        "art": "tutu-before.png",
+        "icon": "tutu-icon.png",
+        "platform": "iPhone · iPad",
+        "description": "輕輕一點，讓照片更乾淨。"
+      },
+      {
+        "id": "nameplate",
+        "name": "Nameplate Studio",
+        "url": "/nameplate/about/zh-hans/",
+        "art": "",
+        "icon": "nameplate-icon.webp",
+        "platform": "Web",
+        "description": "一張桌牌，認真介紹你。"
+      }
+    ],
+    "about": "啊嘰咕是一個獨立應用工作室，為 Mac、iPhone 和網頁製作簡潔、實用的小工具。認真打磨日常細節，也給好用留一點玩心。",
+    "metadata": {
+      "title": "啊嘰咕 ajigu — 注重隱私的 iPhone 與 Mac App",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "探索啊嘰咕的 iPhone 與 Mac App：TypeNote 鍵盤音樂、睡好睡眠聲音記錄、DailyApod 天文圖、Moodsk 圖示編輯與 TUTU 照片消除，還有免費的線上桌牌製作工具。"
+        },
+        {
+          "property": "og:title",
+          "content": "啊嘰咕 ajigu — 注重隱私的 iPhone 與 Mac App"
+        },
+        {
+          "property": "og:description",
+          "content": "探索啊嘰咕的 iPhone 與 Mac App：TypeNote 鍵盤音樂、睡好睡眠聲音記錄、DailyApod 天文圖、Moodsk 圖示編輯與 TUTU 照片消除，還有免費的線上桌牌製作工具。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_TW"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "啊嘰咕 ajigu — 注重隱私的 iPhone 與 Mac App"
+        },
+        {
+          "name": "twitter:description",
+          "content": "探索啊嘰咕的 iPhone 與 Mac App：TypeNote 鍵盤音樂、睡好睡眠聲音記錄、DailyApod 天文圖、Moodsk 圖示編輯與 TUTU 照片消除，還有免費的線上桌牌製作工具。"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/ko/"
+      }
+    ],
+    "contactLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/huihuisang",
+        "external": false
+      },
+      {
+        "label": "支援與回饋",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ],
+    "guideLinks": [
+      {
+        "label": "鍵盤音效指南（簡體中文）",
+        "href": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+        "external": false
+      },
+      {
+        "label": "睡眠聲音指南（簡體中文）",
+        "href": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+        "external": false
+      },
+      {
+        "label": "NASA 每日天文圖指南（簡體中文）",
+        "href": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+        "external": false
+      }
+    ],
+    "headline": "為日常，做一點好用的東西。"
+  },
+  {
+    "route": "/ja/",
+    "locale": "ja",
+    "products": [
+      {
+        "id": "typenote",
+        "name": "TypeNote",
+        "url": "https://typenote.ajigu.com/?lang=ja",
+        "art": "typenote.png",
+        "icon": "typenote-icon.png",
+        "platform": "macOS",
+        "description": "Mac のキーボードに、音楽を。"
+      },
+      {
+        "id": "moodsk",
+        "name": "Moodsk",
+        "url": "https://moodsk.ajigu.com/ja/",
+        "art": "moodsk.jpg",
+        "icon": "moodsk-icon.jpg",
+        "platform": "macOS",
+        "description": "デスクトップを、自分らしく。"
+      },
+      {
+        "id": "gosleep",
+        "name": "Go Sleep",
+        "url": "https://gosleep.ajigu.com/ja/",
+        "art": "gosleep.png",
+        "icon": "gosleep-icon.png",
+        "platform": "iPhone",
+        "description": "夜の音から、眠りを知る。"
+      },
+      {
+        "id": "dailyapod",
+        "name": "DailyApod",
+        "url": "https://dailyapod.ajigu.com/ja/",
+        "art": "dailyapod.jpg",
+        "icon": "dailyapod-icon.png",
+        "platform": "iPhone",
+        "description": "毎日、宇宙を少し発見。"
+      },
+      {
+        "id": "tutu",
+        "name": "TUTU",
+        "url": "https://tutu.ajigu.com/ja/",
+        "art": "tutu-before.png",
+        "icon": "tutu-icon.png",
+        "platform": "iPhone · iPad",
+        "description": "写真を、もっとすっきり。"
+      },
+      {
+        "id": "nameplate",
+        "name": "Nameplate Studio",
+        "url": "/nameplate/about/",
+        "art": "",
+        "icon": "nameplate-icon.webp",
+        "platform": "Web",
+        "description": "名前を、ていねいに紹介。"
+      }
+    ],
+    "about": "Mac、iPhone、Web のために、シンプルで役立つアプリをつくる独立スタジオです。毎日の小さな使いやすさに、少しの遊び心を。",
+    "metadata": {
+      "title": "ajigu — iPhone と Mac のプライバシーを大切にするアプリ",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "TypeNote のキーボード音楽、ぐっすりの睡眠音記録、DailyApod の天文写真、Moodsk の Mac アイコン編集、TUTU の写真消去。無料のネームプレート作成ツールも使えます。"
+        },
+        {
+          "property": "og:title",
+          "content": "ajigu — iPhone と Mac のプライバシーを大切にするアプリ"
+        },
+        {
+          "property": "og:description",
+          "content": "TypeNote のキーボード音楽、ぐっすりの睡眠音記録、DailyApod の天文写真、Moodsk の Mac アイコン編集、TUTU の写真消去。無料のネームプレート作成ツールも使えます。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/ja/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja_JP"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "ajigu — iPhone と Mac のプライバシーを大切にするアプリ"
+        },
+        {
+          "name": "twitter:description",
+          "content": "TypeNote のキーボード音楽、ぐっすりの睡眠音記録、DailyApod の天文写真、Moodsk の Mac アイコン編集、TUTU の写真消去。無料のネームプレート作成ツールも使えます。"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/ko/"
+      }
+    ],
+    "contactLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/huihuisang",
+        "external": false
+      },
+      {
+        "label": "サポートとフィードバック",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ],
+    "guideLinks": [
+      {
+        "label": "キーボードサウンドガイド",
+        "href": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+        "external": false
+      },
+      {
+        "label": "睡眠中の音のガイド",
+        "href": "https://gosleep.ajigu.com/guides/night-sounds/ja/",
+        "external": false
+      },
+      {
+        "label": "NASA APOD ガイド",
+        "href": "https://dailyapod.ajigu.com/guides/what-is-apod/ja/",
+        "external": false
+      }
+    ],
+    "headline": "毎日に、小さな使いやすさを。"
+  },
+  {
+    "route": "/ko/",
+    "locale": "ko",
+    "products": [
+      {
+        "id": "typenote",
+        "name": "TypeNote",
+        "url": "https://typenote.ajigu.com/?lang=ko",
+        "art": "typenote.png",
+        "icon": "typenote-icon.png",
+        "platform": "macOS",
+        "description": "Mac 키보드에 작은 멜로디를."
+      },
+      {
+        "id": "moodsk",
+        "name": "Moodsk",
+        "url": "https://moodsk.ajigu.com/ko/",
+        "art": "moodsk.jpg",
+        "icon": "moodsk-icon.jpg",
+        "platform": "macOS",
+        "description": "나만의 데스크탑을 만들어 보세요."
+      },
+      {
+        "id": "gosleep",
+        "name": "Go Sleep",
+        "url": "https://gosleep.ajigu.com/ko/",
+        "art": "gosleep.png",
+        "icon": "gosleep-icon.png",
+        "platform": "iPhone",
+        "description": "밤의 소리로 알아보는 수면."
+      },
+      {
+        "id": "dailyapod",
+        "name": "DailyApod",
+        "url": "https://dailyapod.ajigu.com/",
+        "art": "dailyapod.jpg",
+        "icon": "dailyapod-icon.png",
+        "platform": "iPhone",
+        "description": "매일 만나는 작은 우주."
+      },
+      {
+        "id": "tutu",
+        "name": "TUTU",
+        "url": "https://tutu.ajigu.com/ko/",
+        "art": "tutu-before.png",
+        "icon": "tutu-icon.png",
+        "platform": "iPhone · iPad",
+        "description": "사진을 더 깔끔하게."
+      },
+      {
+        "id": "nameplate",
+        "name": "Nameplate Studio",
+        "url": "/nameplate/about/",
+        "art": "",
+        "icon": "nameplate-icon.webp",
+        "platform": "Web",
+        "description": "이름을 정성스럽게 소개하세요."
+      }
+    ],
+    "about": "Mac, iPhone, 웹을 위한 간결하고 유용한 앱을 만드는 독립 스튜디오입니다. 일상의 작은 디테일에 정성과 즐거움을 담습니다.",
+    "metadata": {
+      "title": "ajigu — iPhone과 Mac을 위한 프라이버시 앱",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f8f5f1"
+        },
+        {
+          "name": "description",
+          "content": "TypeNote 키보드 음악, Go Sleep 수면 소리 기록, DailyApod 천문 사진, Moodsk Mac 아이콘 편집, TUTU 사진 지우기를 만나보세요. 무료 이름표 제작 도구도 제공합니다."
+        },
+        {
+          "property": "og:title",
+          "content": "ajigu — iPhone과 Mac을 위한 프라이버시 앱"
+        },
+        {
+          "property": "og:description",
+          "content": "TypeNote 키보드 음악, Go Sleep 수면 소리 기록, DailyApod 천문 사진, Moodsk Mac 아이콘 편집, TUTU 사진 지우기를 만나보세요. 무료 이름표 제작 도구도 제공합니다."
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/ko/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko_KR"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "ajigu — iPhone과 Mac을 위한 프라이버시 앱"
+        },
+        {
+          "name": "twitter:description",
+          "content": "TypeNote 키보드 음악, Go Sleep 수면 소리 기록, DailyApod 천문 사진, Moodsk Mac 아이콘 편집, TUTU 사진 지우기를 만나보세요. 무료 이름표 제작 도구도 제공합니다."
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://ajigu.com/assets/logo.png"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/ko/"
+      }
+    ],
+    "contactLinks": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/huihuisang",
+        "external": false
+      },
+      {
+        "label": "지원 및 피드백",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ],
+    "guideLinks": [
+      {
+        "label": "키보드 소리 가이드 (영어)",
+        "href": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+        "external": false
+      },
+      {
+        "label": "수면 소리 가이드 (영어)",
+        "href": "https://gosleep.ajigu.com/guides/night-sounds/",
+        "external": false
+      },
+      {
+        "label": "NASA APOD 가이드 (영어)",
+        "href": "https://dailyapod.ajigu.com/guides/what-is-apod/",
+        "external": false
+      }
+    ],
+    "headline": "일상을 위한 작은 도구들."
+  }
+]

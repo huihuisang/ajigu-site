@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const root = new URL("../", import.meta.url);
-const routes = ["", "zh-hans/", "zh-hant/", "ja/", "ko/", "nameplate/", "nameplate/zh-hans/"];
+const routes = ["", "zh-hans/", "zh-hant/", "ja/", "ko/", "nameplate/", "nameplate/zh-hans/", "nameplate/about/", "nameplate/about/zh-hans/"];
 
 test("static display images use WebP and reserve their layout space", async () => {
   for (const route of [...routes, "404.html"]) {
@@ -21,11 +21,11 @@ test("static display images use WebP and reserve their layout space", async () =
 test("first-row product icons load eagerly and later icons load lazily", async () => {
   for (const route of routes.slice(0, 5)) {
     const html = await readFile(new URL(`${route}index.html`, root), "utf8");
-    const icons = [...html.matchAll(/<img\b[^>]+class="app-icon"[^>]*>/g)].map(([tag]) => tag);
+    const icons = [...html.matchAll(/<img\b[^>]+class="exhibit-icon"[^>]*>/g)].map(([tag]) => tag);
     assert.equal(icons.length, 6);
     for (const [index, icon] of icons.entries()) {
       assert.match(icon, /\bdecoding="async"/);
-      if (index < 3) assert.doesNotMatch(icon, /\bloading="lazy"/);
+      if (index < 2) assert.doesNotMatch(icon, /\bloading="lazy"/);
       else assert.match(icon, /\bloading="lazy"/);
     }
     assert.doesNotMatch(html.match(/<img\b[^>]+class="brand-logo"[^>]*>/)[0], /\bloading="lazy"/);
@@ -61,5 +61,14 @@ test("compressed assets keep original dimensions and reduce bytes", async () => 
     assert.equal(output.length, image.outputBytes);
     assert.ok(output.length < source.length, image.output);
     if (image.source.includes("/templates/")) assert.ok(output.length < source.length * 0.2, image.output);
+  }
+});
+
+test("shared preview dimensions and byte counts match the delivered WebP files", async () => {
+  const manifest = JSON.parse(await readFile(new URL("studio/media.json", root), "utf8"));
+  for (const [name, image] of Object.entries(manifest)) {
+    const bytes = await readFile(new URL(`studio/media/${name}`, root));
+    assert.deepEqual(dimensions(bytes), [image.width, image.height], name);
+    assert.equal(bytes.length, image.bytes, name);
   }
 });

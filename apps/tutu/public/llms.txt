@@ -1,0 +1,20 @@
+# ajigu — TUTU
+
+> TUTU is an iPhone AI photo eraser by ajigu. Tap any object in a photo—people, wires, trash cans—and on-device AI removes it and rebuilds the scene, privately. Nothing leaves the device.
+
+## App
+
+- [TUTU](https://tutu.ajigu.com/): iPhone AI photo eraser. Tap-to-erase with automatic object outlines, brush/line/box tools for manual areas, auto-remove, tunable detection sensitivity, full-quality export to the photo library. Detection and inpainting run entirely on device—no account, no uploads, no tracking. Free beta via TestFlight; Premium (monthly, annual, lifetime) unlocks all features at launch.
+- TestFlight beta: https://testflight.apple.com/join/72GRwKdU
+
+## Languages
+
+- English: https://tutu.ajigu.com/
+- 简体中文: https://tutu.ajigu.com/zh-hans/
+- 繁體中文: https://tutu.ajigu.com/zh-hant/
+- 日本語: https://tutu.ajigu.com/ja/
+- 한국어: https://tutu.ajigu.com/ko/
+
+## Policy
+
+AI crawlers are welcome. Content may be quoted with attribution to tutu.ajigu.com.

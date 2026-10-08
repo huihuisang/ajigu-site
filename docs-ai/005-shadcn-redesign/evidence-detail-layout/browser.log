@@ -1,0 +1,42 @@
+$ node tests/browser.mjs
+{
+  "buildChecks": [
+    {
+      "site": "ajigu",
+      "pages": 9,
+      "canonical": "passed",
+      "compatibilityFiles": 124
+    },
+    {
+      "site": "moodsk",
+      "pages": 16,
+      "canonical": "passed",
+      "compatibilityFiles": 164
+    },
+    {
+      "site": "tutu",
+      "pages": 5,
+      "canonical": "passed",
+      "compatibilityFiles": 58
+    },
+    {
+      "site": "gosleep",
+      "pages": 27,
+      "canonical": "passed",
+      "compatibilityFiles": 80
+    },
+    {
+      "site": "dailyapod",
+      "pages": 30,
+      "canonical": "passed",
+      "compatibilityFiles": 89
+    },
+    {
+      "site": "typenote",
+      "pages": 4,
+      "canonical": "passed",
+      "compatibilityFiles": 69
+    }
+  ]
+}
+228 page/viewport checks, React interactions, language boundaries, editor export and static contracts passed.

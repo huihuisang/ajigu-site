@@ -1,0 +1,92 @@
+{
+  "moodsk.webp": {
+    "width": 1920,
+    "height": 1396,
+    "bytes": 198708
+  },
+  "gosleep-icon.webp": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 105772
+  },
+  "typenote.webp": {
+    "width": 2560,
+    "height": 1600,
+    "bytes": 136184
+  },
+  "typenote-icon.webp": {
+    "width": 256,
+    "height": 247,
+    "bytes": 70434
+  },
+  "dailyapod-3.webp": {
+    "width": 332,
+    "height": 720,
+    "bytes": 30744
+  },
+  "dailyapod-2.webp": {
+    "width": 332,
+    "height": 720,
+    "bytes": 45578
+  },
+  "dailyapod-4.webp": {
+    "width": 332,
+    "height": 720,
+    "bytes": 45544
+  },
+  "moodsk-icon.webp": {
+    "width": 400,
+    "height": 400,
+    "bytes": 145172
+  },
+  "tutu-icon.webp": {
+    "width": 512,
+    "height": 512,
+    "bytes": 192392
+  },
+  "dailyapod-icon.webp": {
+    "width": 256,
+    "height": 256,
+    "bytes": 15418
+  },
+  "gosleep.webp": {
+    "width": 512,
+    "height": 512,
+    "bytes": 21376
+  },
+  "nameplate-icon.webp": {
+    "width": 96,
+    "height": 96,
+    "bytes": 15022
+  },
+  "dailyapod.webp": {
+    "width": 332,
+    "height": 720,
+    "bytes": 37138
+  },
+  "tutu-after.webp": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 159214
+  },
+  "ajigu.webp": {
+    "width": 128,
+    "height": 128,
+    "bytes": 10168
+  },
+  "tutu-before.webp": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 157370
+  },
+  "typenote-en.webp": {
+    "width": 2560,
+    "height": 1600,
+    "bytes": 142632
+  },
+  "typenote-ja.webp": {
+    "width": 2560,
+    "height": 1600,
+    "bytes": 133964
+  }
+}

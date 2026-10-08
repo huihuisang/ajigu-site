@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "site": "moodsk",
+      "status": "passed",
+      "width": 390,
+      "language": "zh-Hans",
+      "interaction": "passed"
+    },
+    {
+      "site": "gosleep",
+      "status": "passed",
+      "width": 390,
+      "language": "zh-Hans",
+      "interaction": "passed"
+    },
+    {
+      "site": "dailyapod",
+      "status": "passed",
+      "width": 390,
+      "language": "zh-Hans",
+      "interaction": "passed"
+    },
+    {
+      "site": "tutu",
+      "status": "passed",
+      "width": 390,
+      "language": "zh-Hans",
+      "interaction": "passed"
+    }
+  ],
+  "errors": []
+}

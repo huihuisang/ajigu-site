@@ -1,0 +1,13 @@
+# ajigu
+
+> ajigu is an indie studio making small, private, delightful apps. On-device processing, no accounts, no tracking.
+
+## Apps
+
+- [Go Sleep](https://gosleep.ajigu.com/): iPhone sleep sound tracker. Organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports, Snore Load trends, and shareable Sound Matches. Privacy-first: on-device analysis, no speech transcription, silence never stored. Free with Pro upgrade.
+- [TypeNote](https://typenote.ajigu.com/): Free macOS menu bar app that turns your keyboard into a musical instrument. 128 instrument sounds, play melodies by typing (Jianpu/MusicXML/MIDI), under 8ms latency, open source.
+- [DailyApod](https://dailyapod.ajigu.com/): iPhone app for NASA Astronomy Picture of the Day (APOD). Browse the archive since 1995, search, favourites with iCloud sync, home screen widgets, on-device caption translation. Free with Pro upgrade.
+
+## Policy
+
+AI crawlers are welcome. Content may be quoted with attribution to the respective site.

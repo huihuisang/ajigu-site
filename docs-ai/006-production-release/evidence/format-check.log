@@ -1,0 +1,3 @@
+$ prettier --check "apps/*/src/**/*.{astro,ts,tsx,js,json,css}" "apps/*/*.{json,mjs}" "packages/**/*.{astro,ts,tsx,json,mjs,css}" "scripts/{workspace,preview-workspace,check-build,publish-products}.mjs" "tests/*.mjs" "*.json" .prettierrc.json pnpm-workspace.yaml .github/workflows/*.yml
+Checking formatting...
+All matched files use Prettier code style!

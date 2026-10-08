@@ -1,0 +1,2009 @@
+{
+ "url": "zh-hans/index.html",
+ "at": "2026-10-31T01:01:27.915Z",
+ "allow": [
+  "icon-cards",
+  "palette-cream"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.51,
+    0.75,
+    0.77
+   ],
+   "motion": {
+    "elements": 54,
+    "css": 54,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2674,
+     "screens": 3,
+     "words": 76,
+     "img": 14,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "typenote.webp",
+      "ajigu.webp",
+      "typenote.webp",
+      "moodsk.webp",
+      "gosleep.webp",
+      "dailyapod.webp",
+      "tutu-before.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "认真做有趣的 小工具。",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 87.8,
+     "vw": 6.1,
+     "font": "-apple-system",
+     "weight": 800,
+     "tracking": -0.055,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.43,
+     "top": 237,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "认真做有趣的 小工具。",
+     "words": 2,
+     "lines": 2,
+     "size": 87.8,
+     "font": "-apple-system"
+    },
+    "headings": [
+     {
+      "text": "ajigu",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "-apple-system",
+      "weight": 850,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 23,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "认真做有趣的 小工具。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 87.8,
+      "vw": 6.1,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.055,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 237,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "小问题，也值得认真对待。",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 778,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "作品",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 1055,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "TypeNote",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 1250,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Moodsk",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.07,
+      "top": 1253,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Go Sleep",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 1611,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DailyApod",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.09,
+      "top": 1611,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "陈小鸥",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "-apple-system",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.09,
+      "top": 1944,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "TUTU",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 29,
+      "vw": 2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 1983,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 2,
+      "size": 29,
+      "vw": 2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 1983,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ajigu",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.065,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2353,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "-apple-system",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "PingFang SC",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      29,
+      30,
+      43,
+      46,
+      48,
+      88
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "-apple-system",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 72,
+     "max": {
+      "size": 87.8,
+      "vw": 6.1,
+      "font": "-apple-system",
+      "text": "认真做有趣的小工具。"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f7f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.24,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.24,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#171717",
+       "share": 0.36
+      },
+      {
+       "color": "#54544e",
+       "share": 0.34
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.26
+      },
+      {
+       "color": "#000000",
+       "share": 0.03
+      },
+      {
+       "color": "#2347d9",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 0,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "跳到正文",
+      "看看我们的作品 ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 2,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 50,
+     "squareMedia": 3,
+     "roundedMedia": 3,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 1143
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.99
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 94,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2674,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "section.studio-hero.studio-shell",
+      "tag": "section",
+      "top": 94,
+      "height": 640,
+      "words": 10,
+      "media": 1,
+      "middle": 246,
+      "heading": {
+       "text": "认真做有趣的",
+       "size": 88,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 71,
+      "textLeft": 80,
+      "textRight": 94,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#studio.studio-beliefs",
+      "tag": "section",
+      "top": 734,
+      "height": 255,
+      "words": 7,
+      "media": 0,
+      "middle": 146,
+      "heading": {
+       "text": "小问题，也值得认真对待。",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 158,
+      "textLeft": 80,
+      "textRight": 158,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#apps.studio-work.studio-shell",
+      "tag": "section",
+      "top": 989,
+      "height": 1311,
+      "words": 30,
+      "media": 5,
+      "middle": 73,
+      "heading": {
+       "text": "作品",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 0,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.studio-close",
+      "tag": "section",
+      "top": 2301,
+      "height": 258,
+      "words": 11,
+      "media": 0,
+      "middle": 524,
+      "heading": {
+       "text": "ajigu",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "认真做有趣的 小工具。",
+      "size": 88,
+      "top": 237,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 6
+     },
+     {
+      "x": 112,
+      "n": 3
+     },
+     {
+      "x": 761,
+      "n": 3
+     },
+     {
+      "x": 142,
+      "n": 1
+     },
+     {
+      "x": 581,
+      "n": 1
+     },
+     {
+      "x": 1021,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.57,
+    0.84,
+    0.76,
+    0.89
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 48,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3122,
+     "screens": 3,
+     "words": 70,
+     "img": 14,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "typenote.webp",
+      "ajigu.webp",
+      "typenote.webp",
+      "moodsk.webp",
+      "gosleep.webp",
+      "dailyapod.webp",
+      "tutu-before.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "认真做有趣的 小工具。",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 66.8,
+     "vw": 8.7,
+     "font": "-apple-system",
+     "weight": 800,
+     "tracking": -0.055,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "认真做有趣的 小工具。",
+     "words": 2,
+     "lines": 2,
+     "size": 66.8,
+     "font": "-apple-system"
+    },
+    "headings": [
+     {
+      "text": "认真做有趣的 小工具。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 66.8,
+      "vw": 8.7,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.055,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 113,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "小问题，也值得认真对待。",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 934,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "作品",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1277,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ajigu",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.065,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2761,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "-apple-system",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "PingFang SC",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      24,
+      25,
+      30,
+      48,
+      67
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "-apple-system",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 86,
+     "max": {
+      "size": 66.8,
+      "vw": 8.7,
+      "font": "-apple-system",
+      "text": "认真做有趣的小工具。"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f7f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.24,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 890,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#54544e",
+       "share": 0.37
+      },
+      {
+       "color": "#171717",
+       "share": 0.35
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#000000",
+       "share": 0.04
+      },
+      {
+       "color": "#2347d9",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 0,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "跳到正文",
+      "看看我们的作品 ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 50,
+     "squareMedia": 3,
+     "roundedMedia": 3,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 1389
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.7
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3122,
+    "margins": {
+     "left": 20,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section.studio-hero.studio-shell",
+      "tag": "section",
+      "top": 78,
+      "height": 812,
+      "words": 10,
+      "media": 1,
+      "middle": 10,
+      "heading": {
+       "text": "认真做有趣的",
+       "size": 67,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 85,
+      "textLeft": 20,
+      "textRight": 109,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#studio.studio-beliefs",
+      "tag": "section",
+      "top": 890,
+      "height": 321,
+      "words": 7,
+      "media": 0,
+      "middle": 39,
+      "heading": {
+       "text": "小问题，也值得认真对待。",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 35,
+      "textLeft": 20,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#apps.studio-work.studio-shell",
+      "tag": "section",
+      "top": 1211,
+      "height": 1498,
+      "words": 24,
+      "media": 5,
+      "middle": 49,
+      "heading": {
+       "text": "作品",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 99,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.studio-close",
+      "tag": "section",
+      "top": 2709,
+      "height": 298,
+      "words": 11,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "ajigu",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "认真做有趣的 小工具。",
+      "size": 67,
+      "top": 113,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 7
+     },
+     {
+      "x": 100,
+      "n": 3
+     },
+     {
+      "x": 473,
+      "n": 3
+     },
+     {
+      "x": 271,
+      "n": 1
+     },
+     {
+      "x": 521,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.67,
+    0.76,
+    0.86,
+    0.86,
+    0.89,
+    0.91
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 48,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4366,
+     "screens": 5.2,
+     "words": 68,
+     "img": 14,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "typenote.webp",
+      "typenote.webp",
+      "moodsk.webp",
+      "gosleep.webp",
+      "dailyapod.webp",
+      "tutu-before.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "认真做有趣的 小工具。",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 38,
+     "vw": 9.7,
+     "font": "-apple-system",
+     "weight": 800,
+     "tracking": -0.05,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 113,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "认真做有趣的 小工具。",
+     "words": 2,
+     "lines": 2,
+     "size": 38,
+     "font": "-apple-system"
+    },
+    "headings": [
+     {
+      "text": "ajigu",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 850,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 22,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "认真做有趣的 小工具。",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 38,
+      "vw": 9.7,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 113,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "小问题，也值得认真对待。",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 787,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "从日常出发",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 849,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "把细节做好",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 941,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "给实用一点玩心",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 1032,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "作品",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1169,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "TypeNote",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 1306,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Moodsk",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 1719,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Go Sleep",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 2131,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DailyApod",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 2544,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "TUTU",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 2987,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 3430,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "陈小鸥",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "-apple-system",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.19,
+      "top": 3587,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "ajigu",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.065,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3881,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "-apple-system",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "PingFang SC",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      23,
+      24,
+      29,
+      38
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "-apple-system",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.6
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 38,
+      "vw": 9.7,
+      "font": "-apple-system",
+      "text": "认真做有趣的小工具。"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f7f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.24,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 755,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#ffd23f",
+       "top": 1280,
+       "hsl": {
+        "h": 46,
+        "s": 1,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#d92d27",
+       "top": 1693,
+       "hsl": {
+        "h": 2,
+        "s": 0.7,
+        "l": 0.5
+       }
+      },
+      {
+       "color": "#2347d9",
+       "top": 2105,
+       "hsl": {
+        "h": 228,
+        "s": 0.72,
+        "l": 0.49
+       }
+      },
+      {
+       "color": "#171717",
+       "top": 2518,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#54544e",
+       "share": 0.37
+      },
+      {
+       "color": "#171717",
+       "share": 0.35
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#000000",
+       "share": 0.04
+      },
+      {
+       "color": "#2347d9",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 4,
+     "radius": 0,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "跳到正文",
+      "看看我们的作品 ↗",
+      "TypeNote ↔ Moodsk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 50,
+     "squareMedia": 3,
+     "roundedMedia": 3,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 1280
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.64
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4366,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.studio-hero.studio-shell",
+      "tag": "section",
+      "top": 78,
+      "height": 677,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "认真做有趣的",
+       "size": 38,
+       "tag": "h1"
+      },
+      "left": 15,
+      "right": 15,
+      "textLeft": 20,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#studio.studio-beliefs",
+      "tag": "section",
+      "top": 755,
+      "height": 375,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "小问题，也值得认真对待。",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#apps.studio-work.studio-shell",
+      "tag": "section",
+      "top": 1129,
+      "height": 2718,
+      "words": 24,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "作品",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 35,
+      "textLeft": 20,
+      "textRight": 88,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.studio-close",
+      "tag": "section",
+      "top": 3847,
+      "height": 295,
+      "words": 11,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "ajigu",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 4142,
+      "height": 225,
+      "words": 7,
+      "media": 0,
+      "middle": 107,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "认真做有趣的 小工具。",
+      "size": 38,
+      "top": 113,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 6
+     },
+     {
+      "x": 106,
+      "n": 6
+     },
+     {
+      "x": 74,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 15,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (15, 16, 17, 18, 19, 22, 29, 30, 43, 46, 48, 88).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"认真做有趣的 小工具。\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-final/desktop-fold.jpg",
+   "pages": [
+    "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-final/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-final/tablet-fold.jpg",
+   "pages": [
+    "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-final/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-final/mobile-fold.jpg",
+   "pages": [
+    "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-final/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

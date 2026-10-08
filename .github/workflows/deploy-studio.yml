@@ -1,0 +1,47 @@
+name: Deploy studio website
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs-ai/**"
+      - "memory/**"
+      - "design-qa.md"
+      - "README.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-production
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    uses: ./.github/workflows/build-websites.yml
+    permissions:
+      contents: read
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v8.0.2
+        with:
+          name: ajigu-com
+          path: site
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: site
+          include-hidden-files: true
+      - name: Deploy verified main site
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

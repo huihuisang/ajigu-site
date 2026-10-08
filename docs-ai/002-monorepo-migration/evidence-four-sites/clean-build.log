@@ -1,0 +1,258 @@
+Scope: all 9 workspace projects
+✓ Lockfile passes supply-chain policies (verified 9m ago)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +374
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are copied from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Volumes/Samsung SSD 990 PRO 2T/.pnpm-store/v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 374, reused 374, downloaded 0, added 339
+Progress: resolved 374, reused 374, downloaded 0, added 374, done
+
+devDependencies:
++ @playwright/test 1.64.1
++ @types/node 24.19.2
++ @types/react 19.3.0
++ @types/react-dom 19.3.0
++ prettier 3.9.10
++ prettier-plugin-astro 1.1.2
++ typescript 6.0.3
++ yaml 2.9.1
+
+Done in 1.7s using pnpm v11.25.0
+No peer dependency issues found
+$ node scripts/workspace.mjs check
+$ astro check
+11:20:26 [types] Generated 68ms
+11:20:26 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/apps/ajigu...
+Result (6 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+11:20:28 [types] Generated 57ms
+11:20:28 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/apps/moodsk...
+Result (2 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+11:20:30 [types] Generated 55ms
+11:20:30 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/apps/tutu...
+Result (3 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+11:20:32 [types] Generated 57ms
+11:20:32 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/apps/gosleep...
+Result (3 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+11:20:34 [types] Generated 58ms
+11:20:34 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/apps/dailyapod...
+Result (3 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ astro check
+11:20:36 [types] Generated 55ms
+11:20:36 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/apps/typenote...
+Result (8 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ node scripts/workspace.mjs build
+$ astro build
+11:20:39 [types] Generated 13ms
+11:20:39 [build] output: "static"
+11:20:39 [build] mode: "static"
+11:20:39 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/node_modules/.cache/studio-build/ajigu/
+11:20:39 [build] Collecting build info...
+11:20:39 [build] ✓ Completed in 23ms.
+11:20:39 [build] Building static entrypoints...
+11:20:39 [vite] ✓ built in 216ms
+11:20:39 [vite] ✓ built in 55ms
+11:20:39 [build] Rearranging server assets...
+
+ generating static routes 
+11:20:39   ├─ /index.html (+8ms) 
+11:20:39   ├─ /zh-hans/index.html (+4ms) 
+11:20:39   ├─ /zh-hant/index.html (+1ms) 
+11:20:39   ├─ /ja/index.html (+1ms) 
+11:20:39   ├─ /ko/index.html (+1ms) 
+11:20:39   ├─ /nameplate/about/index.html (+4ms) 
+11:20:39   ├─ /nameplate/about/zh-hans/index.html (+1ms) 
+11:20:39 ✓ Completed in 36ms.
+
+11:20:39 [build] ✓ Completed in 319ms.
+11:20:39 [build] 7 page(s) built in 344ms
+11:20:39 [build] Complete!
+Collected ajigu: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-output/ajigu
+$ astro build
+11:20:40 [types] Generated 13ms
+11:20:40 [build] output: "static"
+11:20:40 [build] mode: "static"
+11:20:40 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/node_modules/.cache/studio-build/moodsk/
+11:20:40 [build] Collecting build info...
+11:20:40 [build] ✓ Completed in 23ms.
+11:20:40 [build] Building static entrypoints...
+11:20:40 [vite] ✓ built in 84ms
+11:20:40 [vite] ✓ built in 49ms
+11:20:40 [build] Rearranging server assets...
+
+ generating static routes 
+11:20:40   ├─ /index.html (+10ms) 
+11:20:40   ├─ /zh-hans/index.html (+1ms) 
+11:20:40   ├─ /ja/index.html (+1ms) 
+11:20:40   ├─ /ko/index.html (+1ms) 
+11:20:40 ✓ Completed in 25ms.
+
+11:20:40 [build] ✓ Completed in 173ms.
+11:20:40 [build] 4 page(s) built in 197ms
+11:20:40 [build] Complete!
+Collected moodsk: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-output/moodsk
+$ astro build
+11:20:40 [types] Generated 13ms
+11:20:40 [build] output: "static"
+11:20:40 [build] mode: "static"
+11:20:40 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/node_modules/.cache/studio-build/tutu/
+11:20:40 [build] Collecting build info...
+11:20:40 [build] ✓ Completed in 23ms.
+11:20:40 [build] Building static entrypoints...
+11:20:40 [vite] ✓ built in 81ms
+11:20:40 [vite] ✓ built in 38ms
+11:20:40 [build] Rearranging server assets...
+
+ generating static routes 
+11:20:40   ├─ /index.html (+10ms) 
+11:20:40   ├─ /zh-hans/index.html (+2ms) 
+11:20:40   ├─ /zh-hant/index.html (+2ms) 
+11:20:40   ├─ /ja/index.html (+1ms) 
+11:20:40   ├─ /ko/index.html (+1ms) 
+11:20:40 ✓ Completed in 28ms.
+
+11:20:40 [build] ✓ Completed in 162ms.
+11:20:40 [build] 5 page(s) built in 187ms
+11:20:40 [build] Complete!
+Collected tutu: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-output/tutu
+$ astro build
+11:20:41 [types] Generated 14ms
+11:20:41 [build] output: "static"
+11:20:41 [build] mode: "static"
+11:20:41 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/node_modules/.cache/studio-build/gosleep/
+11:20:41 [build] Collecting build info...
+11:20:41 [build] ✓ Completed in 24ms.
+11:20:41 [build] Building static entrypoints...
+11:20:41 [vite] ✓ built in 98ms
+11:20:41 [vite] ✓ built in 52ms
+11:20:41 [build] Rearranging server assets...
+
+ generating static routes 
+11:20:41   ├─ /index.html (+14ms) 
+11:20:41   ├─ /en-gb/index.html (+2ms) 
+11:20:41   ├─ /zh-hans/index.html (+1ms) 
+11:20:41   ├─ /zh-hant/index.html (+1ms) 
+11:20:41   ├─ /ja/index.html (+1ms) 
+11:20:41   ├─ /ko/index.html (+1ms) 
+11:20:41   ├─ /de/index.html (+1ms) 
+11:20:41   ├─ /fr/index.html (+1ms) 
+11:20:41 ✓ Completed in 34ms.
+
+11:20:41 [build] ✓ Completed in 200ms.
+11:20:41 [build] 8 page(s) built in 226ms
+11:20:41 [build] Complete!
+Collected gosleep: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-output/gosleep
+$ astro build
+11:20:42 [types] Generated 13ms
+11:20:42 [build] output: "static"
+11:20:42 [build] mode: "static"
+11:20:42 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/node_modules/.cache/studio-build/dailyapod/
+11:20:42 [build] Collecting build info...
+11:20:42 [build] ✓ Completed in 23ms.
+11:20:42 [build] Building static entrypoints...
+11:20:42 [vite] ✓ built in 82ms
+11:20:42 [vite] ✓ built in 47ms
+11:20:42 [build] Rearranging server assets...
+
+ generating static routes 
+11:20:42   ├─ /index.html (+15ms) 
+11:20:42   ├─ /zh-hans/index.html (+2ms) 
+11:20:42   ├─ /zh-hant/index.html (+1ms) 
+11:20:42   ├─ /ja/index.html (+1ms) 
+11:20:42   ├─ /ko/index.html (+1ms) 
+11:20:42 ✓ Completed in 31ms.
+
+11:20:42 [build] ✓ Completed in 175ms.
+11:20:42 [build] 5 page(s) built in 200ms
+11:20:42 [build] Complete!
+Collected dailyapod: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-output/dailyapod
+$ astro build
+11:20:42 [types] Generated 13ms
+11:20:42 [build] output: "static"
+11:20:42 [build] mode: "static"
+11:20:42 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source/node_modules/.cache/studio-build/typenote/
+11:20:42 [build] Collecting build info...
+11:20:42 [build] ✓ Completed in 23ms.
+11:20:42 [build] Building static entrypoints...
+11:20:43 [vite] ✓ built in 148ms
+11:20:43 [vite] ✓ built in 95ms
+11:20:43 [build] Rearranging server assets...
+
+ generating static routes 
+11:20:43   ├─ /index.html (+12ms) 
+11:20:43 ✓ Completed in 22ms.
+
+11:20:43 [build] ✓ Completed in 280ms.
+11:20:43 [build] 1 page(s) built in 304ms
+11:20:43 [build] Complete!
+Collected typenote: /Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-output/typenote
+{
+  "buildChecks": [
+    {
+      "site": "ajigu",
+      "pages": 9,
+      "canonical": "passed",
+      "compatibilityFiles": 81
+    },
+    {
+      "site": "moodsk",
+      "pages": 16,
+      "canonical": "passed",
+      "compatibilityFiles": 136
+    },
+    {
+      "site": "tutu",
+      "pages": 5,
+      "canonical": "passed",
+      "compatibilityFiles": 30
+    },
+    {
+      "site": "gosleep",
+      "pages": 27,
+      "canonical": "passed",
+      "compatibilityFiles": 52
+    },
+    {
+      "site": "dailyapod",
+      "pages": 30,
+      "canonical": "passed",
+      "compatibilityFiles": 61
+    },
+    {
+      "site": "typenote",
+      "pages": 4,
+      "canonical": "passed",
+      "compatibilityFiles": 41
+    }
+  ]
+}

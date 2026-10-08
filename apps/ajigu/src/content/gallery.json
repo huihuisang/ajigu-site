@@ -1,0 +1,32 @@
+{
+  "typenote": {
+    "file": "typenote-mockup.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "moodsk": {
+    "file": "moodsk-mockup.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "gosleep": {
+    "file": "gosleep-mockup.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "dailyapod": {
+    "file": "dailyapod-mockup.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "tutu": {
+    "file": "tutu-mockup.webp",
+    "width": 1600,
+    "height": 1200
+  },
+  "nameplate": {
+    "file": "nameplate-mockup.webp",
+    "width": 1600,
+    "height": 1200
+  }
+}

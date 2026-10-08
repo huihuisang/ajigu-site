@@ -3,10 +3,11 @@ import { readFile, access } from "node:fs/promises";
 import { spawnSync } from "node:child_process";
 import test from "node:test";
 import vm from "node:vm";
+import { fileURLToPath } from "node:url";
 
 const root = new URL("../", import.meta.url);
 const domain = "https://ajigu.com";
-const routes = ["/", "/zh-hans/", "/zh-hant/", "/ja/", "/ko/", "/nameplate/", "/nameplate/zh-hans/"];
+const routes = ["/", "/zh-hans/", "/zh-hant/", "/ja/", "/ko/", "/nameplate/", "/nameplate/zh-hans/", "/nameplate/about/", "/nameplate/about/zh-hans/"];
 const pages = new Map(await Promise.all(routes.map(async (route) => [route, await readFile(new URL(`${route.slice(1)}index.html`, root), "utf8")])));
 
 // Inspect the site's static tag attributes without running page scripts.
@@ -32,7 +33,7 @@ test("every sitemap URL has matching canonical and share metadata", async () => 
 });
 
 test("hreflang clusters are reciprocal, self-referencing, and canonical", () => {
-  for (const cluster of [routes.slice(0, 5), routes.slice(5)]) {
+  for (const cluster of [routes.slice(0, 5), routes.slice(5, 7), routes.slice(7)]) {
     const expected = tags(pages.get(cluster[0]), "link").filter((tag) => tag.hreflang);
     assert.ok(expected.some((tag) => tag.hreflang === "x-default"));
     assert.equal(new Set(expected.map((tag) => tag.hreflang)).size, expected.length);
@@ -71,7 +72,7 @@ test("Nameplate source language, metadata, schema, and sample agree", async () =
   }
   const ids = (html) => [...html.matchAll(/\bid="([^"]+)"/g)].map(([, id]) => id);
   assert.deepEqual(ids(pages.get("/nameplate/")), ids(pages.get("/nameplate/zh-hans/")));
-  const result = spawnSync(process.execPath, [new URL("scripts/build-nameplate.mjs", root).pathname, "--check"], { encoding: "utf8" });
+  const result = spawnSync(process.execPath, [fileURLToPath(new URL("scripts/build-nameplate.mjs", root)), "--check"], { encoding: "utf8" });
   assert.equal(result.status, 0, result.stderr);
 });
 

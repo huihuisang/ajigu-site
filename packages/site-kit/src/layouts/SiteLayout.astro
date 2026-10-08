@@ -1,0 +1,50 @@
+---
+import "@ajigu/ui/styles/global.css";
+import type { Metadata } from "../models";
+interface Props {
+  metadata: Metadata;
+  locale: string;
+  product?: string;
+  gallery?: boolean;
+}
+const { metadata, locale, product, gallery = false } = Astro.props;
+---
+
+<!doctype html>
+<html lang={locale} data-locale={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{metadata.title}</title>
+    {metadata.meta.map((tag) => (
+      <meta {...tag} />
+    ))}
+    {metadata.links.map((tag) => (
+      <link {...tag} />
+    ))}
+    {metadata.structuredData.map((value) => (
+      <script
+        is:inline
+        type="application/ld+json"
+        set:html={JSON.stringify(value).replaceAll("<", "\\u003c")}
+      />
+    ))}
+  </head>
+  <body>
+    <div
+      class:list={[
+        "studio-design",
+        product ? `product-page product-${product}` : "studio-home",
+        gallery && "studio-gallery",
+      ]}
+      data-product={product || "studio"}
+      data-studio-version="2"
+    >
+      <slot />
+    </div>
+  </body>
+</html>
+<script>
+  import { enhancePage } from "../scripts/enhance";
+  enhancePage();
+</script>

@@ -1,0 +1,9 @@
+---
+import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
+import metadata from "../content/metadata.json";
+import TypeNotePage from "../components/TypeNotePage";
+---
+
+<SiteLayout metadata={metadata} locale="en" product="typenote">
+  <TypeNotePage client:load />
+</SiteLayout>

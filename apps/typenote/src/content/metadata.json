@@ -1,0 +1,74 @@
+{
+  "title": "TypeNote — Turn Your Mac Keyboard Into an Instrument",
+  "meta": [
+    {
+      "name": "description",
+      "content": "TypeNote is a free macOS menu bar app that turns your keyboard into a musical instrument. Every keystroke plays a note — 128 sounds, your own melodies, under 8ms latency."
+    },
+    {
+      "property": "og:title",
+      "content": "TypeNote — Turn Your Mac Keyboard Into an Instrument"
+    },
+    {
+      "property": "og:description",
+      "content": "TypeNote is a free macOS menu bar app that turns your keyboard into a musical instrument. 128 sounds, custom melodies, under 8ms latency."
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:url",
+      "content": "https://typenote.ajigu.com/"
+    },
+    {
+      "property": "og:image",
+      "content": "https://typenote.ajigu.com/assets/app-icon.png"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary"
+    },
+    {
+      "name": "twitter:title",
+      "content": "TypeNote — Turn Your Mac Keyboard Into an Instrument"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Free macOS app: your keyboard becomes an instrument. 128 sounds, under 8ms latency."
+    }
+  ],
+  "links": [
+    {
+      "rel": "canonical",
+      "href": "https://typenote.ajigu.com/"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "href": "/assets/favicon.png"
+    }
+  ],
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "TypeNote",
+      "alternateName": ["TypeNote mac app", "keyboard sound app"],
+      "operatingSystem": "macOS 14+",
+      "applicationCategory": "MultimediaApplication",
+      "description": "TypeNote turns your Mac keyboard into a musical instrument. 128 sounds, custom melodies, under 8ms latency.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://typenote.ajigu.com/",
+      "author": {
+        "@type": "Organization",
+        "name": "ajigu",
+        "url": "https://ajigu.com/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+    /usr/bin/touch -c /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/Build/Products/Debug/TypeNote.app
+
+RegisterWithLaunchServices /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/Build/Products/Debug/TypeNote.app (in target 'TypeNote' from project 'TypeNote')
+    cd /Volumes/Samsung\ SSD\ 990\ PRO\ 2T/SSD/Documents/GitHub/App/MusicKeyBoard
+    builtin-lsregisterurl --record-path /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/Build/Intermediates.noindex/XCBuildData/registered-launchservices.txt -- /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/Build/Products/Debug/TypeNote.app
+
+PruneExplicitPrecompiledModules /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-native/SDKExplicitPrecompiledModules
+
+
+Result bundle written to path:
+	/Users/ajigu/.local/share/task-artifacts/work/7661ca3d43744920a816fedea07ebab6/typenote-build.xcresult
+
+** BUILD SUCCEEDED **
+

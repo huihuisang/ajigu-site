@@ -1,0 +1,98 @@
+.moodsk-onboarding {
+  background: var(--muted);
+  color: var(--foreground);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.moodsk-onboarding .showcase-fallback {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.moodsk-onboarding .showcase-interface {
+  display: none;
+}
+.moodsk-onboarding.is-ready .showcase-fallback {
+  display: none;
+}
+.moodsk-onboarding.is-ready .showcase-interface {
+  display: block;
+}
+.moodsk-onboarding .showcase-main {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  align-items: center;
+  padding: 24px 32px 0;
+  min-height: 500px;
+}
+.moodsk-onboarding .copy {
+  position: relative;
+  z-index: 2;
+}
+.moodsk-onboarding #eyebrow {
+  font-size: 12px;
+  color: var(--muted-foreground);
+  margin-bottom: 16px;
+}
+.moodsk-onboarding #title {
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.3;
+  letter-spacing: -0.035em;
+  margin: 0 0 16px;
+}
+.moodsk-onboarding #title span {
+  display: block;
+}
+.moodsk-onboarding #detail {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted-foreground);
+  max-width: 36ch;
+}
+.moodsk-onboarding .onboarding-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+  border-top: 1px solid var(--border);
+}
+.playback-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cursor-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 24px 24px;
+}
+@media (max-width: 900px) {
+  .moodsk-onboarding .showcase-main {
+    grid-template-columns: 1fr;
+    padding: 24px 24px 0;
+    min-height: 0;
+  }
+  .moodsk-onboarding .copy {
+    min-height: 160px;
+  }
+  .moodsk-onboarding #title span {
+    display: inline;
+  }
+  .moodsk-onboarding #title span + span::before {
+    content: " ";
+  }
+  .moodsk-onboarding #detail {
+    max-width: 60ch;
+  }
+  .moodsk-onboarding .onboarding-controls {
+    justify-content: center;
+    padding-inline: 12px;
+  }
+  .playback-controls {
+    gap: 6px;
+  }
+}

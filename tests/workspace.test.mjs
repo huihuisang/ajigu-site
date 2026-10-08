@@ -1,0 +1,73 @@
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import test from "node:test";
+import { parse } from "yaml";
+import { sites } from "../packages/site-kit/config/paths.mjs";
+
+const root = new URL("../", import.meta.url);
+const read = async (name) => JSON.parse(await readFile(new URL(name, root), "utf8"));
+
+test("all six applications consume the same local component and page packages", async () => {
+  assert.equal(Object.keys(sites).length, 6);
+  for (const name of Object.keys(sites)) {
+    const app = await read(`apps/${name}/package.json`);
+    assert.equal(app.dependencies["@ajigu/ui"], "workspace:*");
+    assert.equal(app.dependencies["@ajigu/site-kit"], "workspace:*");
+    assert.ok(app.dependencies.astro && app.dependencies.react);
+  }
+});
+test("studio language clusters retain reciprocal metadata and six product entries", async () => {
+  const pages = await read("apps/ajigu/src/content/home.json");
+  assert.equal(pages.length, 5);
+  const alternates = (page) => page.metadata.links.filter((link) => link.hreflang);
+  for (const page of pages) {
+    assert.deepEqual(
+      page.products.map((product) => product.id),
+      ["typenote", "moodsk", "gosleep", "dailyapod", "tutu", "nameplate"],
+    );
+    assert.deepEqual(alternates(page), alternates(pages[0]));
+    assert.ok(alternates(page).some((link) => link.href === "https://ajigu.com" + page.route));
+  }
+  for (const page of await read("apps/ajigu/src/content/nameplate.json")) {
+    assert.ok(["/nameplate/", "/nameplate/zh-hans/"].includes(page.editor));
+    assert.ok(page.route.includes("/nameplate/about/"));
+  }
+});
+test("every TypeNote language has all visible keys, including guide navigation", async () => {
+  const messages = await read("apps/typenote/src/content/translations.json");
+  assert.deepEqual(Object.keys(messages).sort(), ["en", "ja", "ko", "zh", "zht"]);
+  const keys = (value, prefix = "") =>
+    Object.entries(value)
+      .flatMap(([key, item]) =>
+        typeof item === "object" ? keys(item, `${prefix}${key}.`) : [`${prefix}${key}`],
+      )
+      .sort();
+  for (const value of Object.values(messages)) {
+    assert.deepEqual(keys(value), keys(messages.en));
+    assert.ok(value.nav.sound);
+    for (const index of [1, 2, 3, 4]) assert.ok(value.faq[`q${index}`] && value.faq[`a${index}`]);
+  }
+});
+test("copied guide metadata names its existing public URL rather than a malformed host", async () => {
+  for (const suffix of ["", "zh-hans/", "ja/"]) {
+    const route = `/guides/keyboard-sounds/${suffix}`;
+    const html = await readFile(new URL(`apps/typenote/public${route}index.html`, root), "utf8");
+    const canonical = html.match(/rel="canonical" href="([^"]+)"/)[1];
+    assert.equal(canonical, "https://typenote.ajigu.com" + route);
+    assert.doesNotMatch(html, /https:\/\/typenote\.ajigu\.com(?:index|zh-hans|ja)/);
+  }
+});
+test("the reusable release-candidate workflow has no publication capability", async () => {
+  const source = await readFile(new URL(".github/workflows/build-websites.yml", root), "utf8");
+  const workflow = parse(source);
+  assert.deepEqual(Object.keys(workflow.on).sort(), ["workflow_call", "workflow_dispatch"]);
+  assert.deepEqual(workflow.permissions, { contents: "read" });
+  assert.doesNotMatch(source, /secrets\.|configure-pages|deploy-pages|git push|pages:\s*write/);
+  const uploads = workflow.jobs.verify.steps.filter((step) =>
+    step.uses?.startsWith("actions/upload-artifact"),
+  );
+  assert.ok(uploads.some((step) => step.with.name === "ajigu-com"));
+  assert.ok(uploads.some((step) => step.with.name === "typenote-ajigu-com"));
+  for (const name of ["moodsk", "gosleep", "dailyapod", "tutu"])
+    assert.ok(uploads.some((step) => step.with.name === `${name}-ajigu-com`));
+});

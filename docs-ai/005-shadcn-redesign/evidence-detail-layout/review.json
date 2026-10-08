@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": {
+    ".github/workflows/build-websites.yml": "4c4fe4d6e21eefff381ed7657fe92141312b3593648ba1162ccfacc655856418",
+    "apps/ajigu/src/components/NameplatePage.astro": "7810fc7b17ca561ec655dd1e1baaffb27afeb987ccb1c37194e88ffd78b0d449",
+    "apps/typenote/src/components/TypeNotePage.tsx": "65bf49cbe0f13817f0f8391921d627f0e549a38310de2ac459c9bac54d3c89c4",
+    "apps/typenote/src/components/TypeNoteSections.tsx": "26984e1059a699b92a855c43d37b7115be35b20c907e3336ff79383683b49020",
+    "docs-ai/005-shadcn-redesign/006-detail-layout-plan.md": "b82104b29c895c9cb595d4cfaef058549f0373acec048c53e2b4af1edcf46fa0",
+    "package.json": "d7de414fa51770f2828a19455eeffd66ba581d1b9dc1e71eefe1431b96fe772e",
+    "packages/site-kit/src/layouts/ProductLanding.astro": "27932ea7dcdb58a56b1d9077bd15f64548a810310ecf3a44d84cb7af1bb407d8",
+    "packages/ui/src/styles/site.css": "a451778e8f377c42c9dd74c7711f145282b471380e88d037f9fff62086d20164",
+    "tests/detail-layout.mjs": "a66201f88d6b11d73da77d26841704465e906f512dda823c2b939ba9d44c161a"
+  },
+  "digest": "d67b49a00493a12443679e0a018c7a13de73ef9c3133e46b5d6943d08be62f49",
+  "checks": "18 language and compatibility tests; layout script syntax; source review",
+  "findingsResolved": [
+    "Preserve main-content anchor; use shared detail-flow class in all three page entries.",
+    "Include region-specific English in no-script coverage."
+  ],
+  "limits": "No browser or build by independent reviewer."
+}

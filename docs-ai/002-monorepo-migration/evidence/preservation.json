@@ -1,0 +1,37 @@
+{
+  "existingStudioFiles": 121,
+  "existingStudioChanges": [
+    "README.md",
+    ".gitignore",
+    "studio/README.md",
+    "memory/studio-redesign.md"
+  ],
+  "originalTypeNoteFiles": 47,
+  "originalTypeNoteChanges": [],
+  "guides": [
+    {
+      "file": "guides/keyboard-sounds/index.html",
+      "bodySHA256": "a113086c05fbacc34baaa8677154c4e179b76a1d6b292cc3cfb48032c3d649f1",
+      "body": "unchanged",
+      "canonicalBefore": "https://typenote.ajigu.comindex.html",
+      "canonicalAfter": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+      "favicon": "existing product PNG thumbnail declared"
+    },
+    {
+      "file": "guides/keyboard-sounds/zh-hans/index.html",
+      "bodySHA256": "4af48de63d90aaf8a3fb897cab6f13747dee8ae8d05d3f3421e60538923bb2e6",
+      "body": "unchanged",
+      "canonicalBefore": "https://typenote.ajigu.comzh-hans/index.html",
+      "canonicalAfter": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+      "favicon": "existing product PNG thumbnail declared"
+    },
+    {
+      "file": "guides/keyboard-sounds/ja/index.html",
+      "bodySHA256": "33fe0689bd32100433b43b6ed8672f3e3bab571fa3f08710de61440a6d66f761",
+      "body": "unchanged",
+      "canonicalBefore": "https://typenote.ajigu.comja/index.html",
+      "canonicalAfter": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+      "favicon": "existing product PNG thumbnail declared"
+    }
+  ]
+}

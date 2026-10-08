@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/zh-hans/",
+      "status": 200
+    },
+    {
+      "route": "/nameplate/about/",
+      "status": 200
+    },
+    {
+      "route": "/nameplate/",
+      "status": 200
+    },
+    {
+      "route": "/nameplate/zh-hans/",
+      "status": 200
+    }
+  ]
+}

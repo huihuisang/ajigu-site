@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "revision": "local uncommitted workspace",
+  "status": "verified locally; not published",
+  "files": {
+    "docs-ai/002-monorepo-migration/000-plan.md": "fa5715c8d48931b4244514453f159e05d83230cbccc0ef3139fb944a6bf65d3f",
+    "docs-ai/002-monorepo-migration/001-action.md": "6002f8f42402836e3487a8949c70a2decf817569ab02ea7ee579a2cb70513ecb",
+    "docs-ai/002-monorepo-migration/002-review.md": "dfe05bf47999ea643dca8a762bcd122d1fec21205b2e0810c856eed287e26838",
+    "docs-ai/002-monorepo-migration/003-deployment.md": "63917d6af33b6a69e056d1e96021e7b3ef45eac06e5c999b332b5f27818ee514",
+    "docs-ai/002-monorepo-migration/evidence/browser-results.json": "0b77c4b5063c61cfc86235c1c5b554b47d2052545625e91912aeec423bc1a169",
+    "docs-ai/002-monorepo-migration/evidence/build-sha256.json": "af27af1552e4b8950d782c70dae259f2fd64ef3c96b8221c3fb240b9af61af60",
+    "docs-ai/002-monorepo-migration/evidence/clean-build.json": "848f162b6d81185312fdf4b4f80e6d147a3e9f00840deeaec9ee1bc69d1a9fa4",
+    "docs-ai/002-monorepo-migration/evidence/clean-build.log": "0f9e0cf14a7970402684c81d991c0d80a664a17ccbce329e6f0adc5d1da4e7bd",
+    "docs-ai/002-monorepo-migration/evidence/dev-smoke.json": "6d560ee5b8bbde23a0aa0c3394fdc59bfb1e871740aedafa2c7eed7e885faa5c",
+    "docs-ai/002-monorepo-migration/evidence/home-desktop-fold.webp": "9b7f72a97e2f734ad57d34160658e86a3ab39a2721dec753cbf02515476ddefd",
+    "docs-ai/002-monorepo-migration/evidence/home-desktop.webp": "28a6f96b1728b6990c1419ee9b38213cc9885d3f2b462d591fd5f417b489f45e",
+    "docs-ai/002-monorepo-migration/evidence/home-mobile.webp": "57dd25963901b370648838a8d90f9d3b159756c61b51662bafdebb05f13b2c87",
+    "docs-ai/002-monorepo-migration/evidence/nameplate-desktop-fold.webp": "8c91a80b274c1004241080f92d3c8c3e392afc096622b1b50d96512f0a51099b",
+    "docs-ai/002-monorepo-migration/evidence/nameplate-desktop.webp": "99aaade5807cf2afb1bfde196778900507a28148ec34b90adcd7f4568390cdc6",
+    "docs-ai/002-monorepo-migration/evidence/nameplate-export.json": "cad0c4dc2626a48734f18b776049ca6fcefa030cc4b5f50701ac9253fe6c7349",
+    "docs-ai/002-monorepo-migration/evidence/preservation.json": "beb1833113bb629dcc4b36f13a03756d4eebffb987826e251079d6caf7b8ace0",
+    "docs-ai/002-monorepo-migration/evidence/review-sha256.json": "434dc76cb9fd38037b04601eb8ead05eac53aade7ef939a857e508b45c60505f",
+    "docs-ai/002-monorepo-migration/evidence/source-sha256.json": "fe727473da27cb3ea27f2f87ab186b3d33dd2d1041c8fa58aa9ab847ddc9f33d",
+    "docs-ai/002-monorepo-migration/evidence/typenote-desktop-fold.webp": "ac48987fbb32712ddb409786429a4b458cab0ef4758eef563b4c20554e2127bd",
+    "docs-ai/002-monorepo-migration/evidence/typenote-desktop.webp": "bbd613a85c339c47246d3f051cb7bee91f3a3cb21326d86df8454ab14ccd4d07",
+    "docs-ai/002-monorepo-migration/evidence/typenote-mobile.webp": "a1fefa53e2c2def15fe70fbabbbe6db38c082bb61733d4b36fb6ff9209c7e475"
+  }
+}

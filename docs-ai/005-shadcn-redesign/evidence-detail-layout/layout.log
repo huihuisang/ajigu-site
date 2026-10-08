@@ -1,0 +1,2 @@
+$ node tests/detail-layout.mjs
+174 localized layouts, 144 expanded chapters and 14 no-script layouts passed.

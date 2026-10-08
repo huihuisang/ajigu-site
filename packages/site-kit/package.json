@@ -1,0 +1,24 @@
+{
+  "name": "@ajigu/site-kit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./astro-config": "./config/astro.mjs",
+    "./components/*": "./src/components/*.tsx",
+    "./copy": "./src/copy.ts",
+    "./models": "./src/models.ts",
+    "./layouts/*": "./src/layouts/*",
+    "./scripts/*": "./src/scripts/*.ts"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "@ajigu/ui": "workspace:*",
+    "@astrojs/react": "7.1.2",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.4.4"
+  }
+}

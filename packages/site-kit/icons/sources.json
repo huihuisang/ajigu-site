@@ -1,0 +1,170 @@
+[
+  {
+    "product": "moodsk",
+    "role": "window",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/Moodsk/screenshots/connected-editor/public/screenshots/1.2/en-GB/folder-icons.png",
+    "sourceSHA256": "35f93e21b18973a37a5a36a1c3533c1ad92281b3501da2ea89248c4a63d03fb5",
+    "file": "apps/ajigu/public/gallery/moodsk-current.webp",
+    "sha256": "e7c64d5836edab9d7587f1aa6dd9a95492288dce3df20183fb3ca88263a76af9",
+    "width": 1600,
+    "height": 1103,
+    "proof": "screenshots/releases/1.2/sources.json pins native Debug1.2(541) After Hours Museum capture."
+  },
+  {
+    "product": "gosleep",
+    "role": "phone",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/Go Sleep/Design/AppStoreScreenshots/public/screenshots/en/home.png",
+    "sourceSHA256": "bd789226656c8931aeab7d456137f6f37df41f79211999b945448472c45d3769",
+    "file": "apps/ajigu/public/gallery/gosleep-home.webp",
+    "sha256": "65208920c8ba48b905405d17205043d3406142c9c1e529c9cc310c6fbec2f121",
+    "width": 692,
+    "height": 1500,
+    "proof": "docs-ai/005-go-sleep-restore/001-action.md; Go Sleep restored screenshots dated2026-10-30. Globe uses labelled sample data."
+  },
+  {
+    "product": "gosleep",
+    "role": "phone",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/Go Sleep/Design/AppStoreScreenshots/public/screenshots/en/report.png",
+    "sourceSHA256": "7a8537b0f050546329ff9ef2674e0f868dcb8a2c21126302ee5e75dc72ce5fc3",
+    "file": "apps/ajigu/public/gallery/gosleep-report.webp",
+    "sha256": "b3e5683f25dbfe246fa1ad793d818ce2105efc514435fa9685f80359c104bf31",
+    "width": 692,
+    "height": 1500,
+    "proof": "docs-ai/005-go-sleep-restore/001-action.md; Go Sleep restored screenshots dated2026-10-30. Globe uses labelled sample data."
+  },
+  {
+    "product": "gosleep",
+    "role": "phone",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/Go Sleep/Design/AppStoreScreenshots/public/screenshots/en/globe.png",
+    "sourceSHA256": "f66c552e064eb1f51c080e0be4b03b77023209c8c9a50a9a87f3a834afbb1748",
+    "file": "apps/ajigu/public/gallery/gosleep-globe.webp",
+    "sha256": "117d85771fd4ac0f97e55021b21e7ab17d98e8570bf70b0af62bdf12521cba05",
+    "width": 690,
+    "height": 1500,
+    "proof": "docs-ai/005-go-sleep-restore/001-action.md; Go Sleep restored screenshots dated2026-10-30. Globe uses labelled sample data."
+  },
+  {
+    "product": "tutu",
+    "role": "window",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/TUTU/docs-ai/003-unobstructed-editor/evidence/duo-open.png",
+    "sourceSHA256": "eee4a74c1f500227e7f1637f22946112844362e3f3916e148be018ed2534834c",
+    "file": "apps/ajigu/public/gallery/tutu-current.webp",
+    "sha256": "0a24eef166595ec411f5335f87c1608cef9d3888fb4db7f535990b7568f0aca5",
+    "width": 1600,
+    "height": 1126,
+    "proof": "Current bottom-tool layout, real sim-use verification2026-10-29."
+  },
+  {
+    "product": "dailyapod",
+    "role": "object",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/DailyApod/Shared/Assets.xcassets/AppIcon.appiconset/ios-marketing-1024x1024.png",
+    "sourceSHA256": "4c0753cbe814dde35d4d039a24dbee4e527234a5223749bbdfc0872b2189cba1",
+    "file": "apps/ajigu/public/gallery/dailyapod-current.webp",
+    "sha256": "5224798d93523c6d7a8afe5741739cabe605d92ed8087e80fadbee884a5a2561",
+    "width": 1024,
+    "height": 1024,
+    "proof": "Default current iOS AppIcon Contents.json; not a fabricated UI capture."
+  },
+  {
+    "product": "nameplate",
+    "role": "object",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/docs-ai/003-gallery-home/evidence/nameplate-3d-final.jpg",
+    "sourceSHA256": "797ed53e1717320893b5aa50fde74487e41af232b6dba5fc1c0be6d942455cdd",
+    "file": "apps/ajigu/public/gallery/nameplate-current.webp",
+    "sha256": "1c48ccbad4243ff5ed867f347c9e953c4265f4df78c8528ee9286cef17cd0c44",
+    "width": 525,
+    "height": 275,
+    "proof": "Fresh local current editor3D preview, Navy&Gold, browser capture in this task."
+  },
+  {
+    "product": "shared",
+    "role": "frame",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/DailyApod/Tools/AppStoreScreenshots/public/device-frame.png",
+    "sourceSHA256": "29c06ca126df205b0afb72192a573a62e6233f1b68a4f2a4603979c2ad4f04cf",
+    "file": "apps/ajigu/public/gallery/phone-frame.webp",
+    "sha256": "7ec837dff5bae1ec12df7a5a397837c8e4e37e31372e3c91916a460e18ae487e",
+    "width": 1022,
+    "height": 2082,
+    "proof": "Existing device frame reused from local screenshot tooling; no generated UI."
+  },
+  {
+    "product": "moodsk",
+    "role": "icon",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/docs-ai/003-gallery-home/evidence/moodsk-icon.png",
+    "sourceSHA256": "a09813257f61c66690dd32f36fc09ebd7c3c0af6a3e27a29085359891cd70ee7",
+    "file": "packages/site-kit/icons/moodsk.webp",
+    "sha256": "1498d5e6f410888c49da0727e293a2dc8185b25733b0851f700f0788c0164011",
+    "width": 204,
+    "height": 204,
+    "proof": "Current1.2(541) native AppIcon.icns exported with sips.",
+    "crop": [26, 26, 230, 230]
+  },
+  {
+    "product": "gosleep",
+    "role": "icon",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/Go Sleep/SnoreTracker/Assets.xcassets/Brand/AppIcon.appiconset/AppIcon.png",
+    "sourceSHA256": "14f184589dc07c81334c6a66eb34a7e860610c18966cd1a6c6d8f0ed5d198882",
+    "file": "packages/site-kit/icons/gosleep.webp",
+    "sha256": "38828f7dff9ac1b94edf740d1b0bc6fb06ad02e80047e086be80b3276d3cc68b",
+    "width": 512,
+    "height": 512,
+    "proof": "Current Xcode AppIcon default source, restored Go Sleep."
+  },
+  {
+    "product": "dailyapod",
+    "role": "icon",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/DailyApod/Shared/Assets.xcassets/AppIcon.appiconset/ios-marketing-1024x1024.png",
+    "sourceSHA256": "4c0753cbe814dde35d4d039a24dbee4e527234a5223749bbdfc0872b2189cba1",
+    "file": "packages/site-kit/icons/dailyapod.webp",
+    "sha256": "7a3f6f67e8b8735044378be05ef11492444c684eb16a4fb3ab716e9a972265a2",
+    "width": 512,
+    "height": 512,
+    "proof": "Current default iOS AppIcon."
+  },
+  {
+    "product": "tutu",
+    "role": "icon",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/TUTU/build/DerivedData/Build/Products/Debug-iphonesimulator/TUTU.app/AppIcon76x76@2x~ipad.png",
+    "sourceSHA256": "4de33bc6fb9a874b93644cbb37dd1e51af0b72ad33a91139b1ee07d031c46c73",
+    "file": "packages/site-kit/icons/tutu.webp",
+    "sha256": "72d92e70b005036b4417a3c5d5a17b08f655b6988ea210f33301b851eadba8d8",
+    "width": 152,
+    "height": 152,
+    "proof": "Actual compiled current AppIcon, version1.0(1),152px; only used at<=48CSSpx."
+  },
+  {
+    "product": "nameplate",
+    "role": "icon",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/assets/nameplate-icon.webp",
+    "sourceSHA256": "9b09ae91032edf679f9ebf952cff8c89dde61787de8183b94d2eb7713f9aa4ef",
+    "file": "packages/site-kit/icons/nameplate.webp",
+    "sha256": "8d1243a65898b48fd2a0b9d64ca34fb4d13d5b83cecbae32d8b6477aaa2b80d2",
+    "width": 96,
+    "height": 96,
+    "proof": "Existing current web app artwork, matches original editor."
+  },
+  {
+    "product": "typenote",
+    "role": "icon",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/docs-ai/003-gallery-home/evidence/typenote-native-icon.png",
+    "sourceSHA256": "f5bdbeab620375c26e787697289bc70a3f15cc9946266a906322ac8c2e26b515",
+    "file": "packages/site-kit/icons/typenote.webp",
+    "sha256": "0213b34482b6ee8551e89e84f7cbbc18a8a7a9c6ad99305bde0c8ff9773119d2",
+    "width": 256,
+    "height": 256,
+    "crop": [100, 100, 924, 924],
+    "proof": "Fresh Apple actool compile of current TypeNote/Assets.xcassets and TypeNote/AppIcon.icon; exit0; native full render, not screenshot-generator old icon."
+  },
+  {
+    "product": "typenote",
+    "role": "object",
+    "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/docs-ai/003-gallery-home/evidence/typenote-native-icon.png",
+    "sourceSHA256": "f5bdbeab620375c26e787697289bc70a3f15cc9946266a906322ac8c2e26b515",
+    "file": "apps/ajigu/public/gallery/typenote-current.webp",
+    "sha256": "68db5faf789d337785d02e02b325b04b5a3f01b17bdcb7abbfdfaf45183ec4e0",
+    "width": 824,
+    "height": 824,
+    "crop": [100, 100, 924, 924],
+    "proof": "Current native Apple actool full render from this task; old undated menu screenshot excluded."
+  }
+]

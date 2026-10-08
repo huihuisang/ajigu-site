@@ -1,0 +1,55 @@
+---
+import pages from "../content/home.json";
+import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
+import { SiteHeader } from "@ajigu/site-kit/components/SiteHeader";
+import { GalleryCard } from "@ajigu/site-kit/components/GalleryCard";
+import { SiteFooter } from "@ajigu/site-kit/components/SiteFooter";
+import { getCopy, formatShortText } from "@ajigu/site-kit/copy";
+
+import gallery from "../content/gallery.json";
+import "../styles/gallery.css";
+
+interface Props {
+  page: (typeof pages)[number];
+}
+const { page } = Astro.props;
+const copy = getCopy(page.locale);
+---
+
+<SiteLayout metadata={page.metadata} locale={page.locale} gallery>
+  <a class="studio-skip" href="#main">
+    {copy.skip}
+  </a>
+  <SiteHeader
+    client:load
+    name="ajigu"
+    icon="/assets/logo.webp"
+    route={page.route}
+    home
+    minimal
+    copy={copy}
+    languages={page.languages}
+    language={page.locale}
+  />
+  <main id="main" class="gallery-main studio-shell">
+    <section class="gallery-intro" id="studio" data-enter>
+      <h1>{formatShortText(page.headline)}</h1>
+      <p>{page.about}</p>
+    </section>
+    <section id="apps" class="work-gallery" aria-label={copy.work}>
+      {page.products.map((product) => (
+        <GalleryCard
+          id={product.id}
+          name={product.name}
+          href={product.url}
+          platform={product.platform}
+          description={product.description}
+          file={gallery[product.id as keyof typeof gallery].file}
+        />
+      ))}
+    </section>
+  </main>
+  <div id="contact">
+    <SiteFooter signatureLabel={copy.signatureLabel} client:load links={page.contactLinks} />
+  </div>
+</SiteLayout>

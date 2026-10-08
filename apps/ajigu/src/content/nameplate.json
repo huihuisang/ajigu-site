@@ -1,0 +1,352 @@
+[
+  {
+    "route": "/nameplate/about/",
+    "locale": "en",
+    "editor": "/nameplate/",
+    "metadata": {
+      "title": "Nameplate Studio — Printable Desk Nameplates",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Create folded desk nameplates in your browser. Edit names, choose a template, preview in 3D and export printable PNG cards. Batch import CSV or Excel files."
+        },
+        {
+          "name": "theme-color",
+          "content": "#f7f7f2"
+        },
+        {
+          "property": "og:title",
+          "content": "Nameplate Studio — Printable Desk Nameplates"
+        },
+        {
+          "property": "og:description",
+          "content": "Create folded desk nameplates in your browser. Edit names, choose a template, preview in 3D and export printable PNG cards. Batch import CSV or Excel files."
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/nameplate/about/"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/nameplate/assets/og.png"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/nameplate/about/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/nameplate/about/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/nameplate/about/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/nameplate/about/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Nameplate Studio — Printable Desk Nameplates",
+          "url": "https://ajigu.com/nameplate/about/",
+          "inLanguage": "en",
+          "about": {
+            "@type": "WebApplication",
+            "name": "Nameplate Studio",
+            "url": "https://ajigu.com/nameplate/",
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Web"
+          }
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/nameplate/about/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/nameplate/about/zh-hans/"
+      }
+    ],
+    "claim": "A little place for your name.",
+    "intro": "Create folded desk nameplates in your browser. Edit names, choose a template, preview in 3D and export printable PNG cards. Batch import CSV or Excel files.",
+    "featureTitle": "A little place for your name.",
+    "features": [
+      {
+        "title": "Your name. Your style.",
+        "body": "Start with a template, then adjust the text, fonts and colours."
+      },
+      {
+        "title": "One desk or a whole room",
+        "body": "Create one card or import a CSV or Excel list for a group."
+      },
+      {
+        "title": "Print, fold and take your seat",
+        "body": "Export a PNG, then follow the printing and folding guide in the editor."
+      }
+    ],
+    "templateTitle": "Make it your own.",
+    "templates": [
+      {
+        "src": "/nameplate/assets/templates/navy-gold.webp",
+        "alt": "Navy & Gold",
+        "width": "1774",
+        "height": "887",
+        "loading": "lazy",
+        "decoding": "async",
+        "label": "Navy & Gold"
+      },
+      {
+        "src": "/nameplate/assets/templates/coral.webp",
+        "alt": "Coral Pop",
+        "width": "1774",
+        "height": "887",
+        "loading": "lazy",
+        "decoding": "async",
+        "label": "Coral Pop"
+      },
+      {
+        "src": "/nameplate/assets/templates/forest.webp",
+        "alt": "Forest",
+        "width": "1774",
+        "height": "887",
+        "loading": "lazy",
+        "decoding": "async",
+        "label": "Forest"
+      }
+    ],
+    "howTitle": "From a name to a desk card",
+    "steps": [
+      {
+        "title": "Pick a template. Add a name.",
+        "body": "Start with a template, then adjust the text, fonts and colours."
+      },
+      {
+        "title": "Preview, then export",
+        "body": "Create one card or import a CSV or Excel list for a group."
+      },
+      {
+        "title": "Print and fold",
+        "body": "Export a PNG, then follow the printing and folding guide in the editor."
+      }
+    ],
+    "faqTitle": "Questions, answered.",
+    "questions": [
+      {
+        "question": "Do I need to upload a guest list?",
+        "answer": "No. Editing, previews and exports happen in your browser."
+      },
+      {
+        "question": "Which files work for batch creation?",
+        "answer": "Import CSV or Excel files. Download the sample list in the editor to see the expected format."
+      }
+    ],
+    "footerLinks": [
+      {
+        "label": "Support and feedback",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ]
+  },
+  {
+    "route": "/nameplate/about/zh-hans/",
+    "locale": "zh-Hans",
+    "editor": "/nameplate/zh-hans/",
+    "metadata": {
+      "title": "铭牌工作室 — 在浏览器里制作桌牌",
+      "meta": [
+        {
+          "name": "description",
+          "content": "输入名字，自定义样式，预览折叠效果，导出适合打印的桌牌。支持 CSV 和 Excel 批量制作，文件留在浏览器里。"
+        },
+        {
+          "name": "theme-color",
+          "content": "#f7f7f2"
+        },
+        {
+          "property": "og:title",
+          "content": "铭牌工作室 — 在浏览器里制作桌牌"
+        },
+        {
+          "property": "og:description",
+          "content": "输入名字，自定义样式，预览折叠效果，导出适合打印的桌牌。支持 CSV 和 Excel 批量制作，文件留在浏览器里。"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/nameplate/about/zh-hans/"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/nameplate/assets/og.png"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/nameplate/about/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/nameplate/about/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/nameplate/about/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/nameplate/about/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "铭牌工作室 — 在浏览器里制作桌牌",
+          "url": "https://ajigu.com/nameplate/about/zh-hans/",
+          "inLanguage": "zh-Hans",
+          "about": {
+            "@type": "WebApplication",
+            "name": "Nameplate Studio",
+            "url": "https://ajigu.com/nameplate/zh-hans/",
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Web"
+          }
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/nameplate/about/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/nameplate/about/zh-hans/"
+      }
+    ],
+    "claim": "一张桌牌，认真介绍你。",
+    "intro": "输入名字，自定义样式，预览折叠效果，导出适合打印的桌牌。支持 CSV 和 Excel 批量制作，文件留在浏览器里。",
+    "featureTitle": "一张桌牌，认真介绍你。",
+    "features": [
+      {
+        "title": "名字、样式，都由你决定",
+        "body": "从现有模板开始，调整文字、字体和颜色。"
+      },
+      {
+        "title": "一张到一整场，都能做",
+        "body": "从一张桌牌开始，也支持 CSV 和 Excel 名单批量制作。"
+      },
+      {
+        "title": "打印、折叠，摆上桌",
+        "body": "导出 PNG 文件，根据编辑器中的打印和折叠说明完成制作。"
+      }
+    ],
+    "templateTitle": "选一种喜欢的样子。",
+    "templates": [
+      {
+        "src": "/nameplate/assets/templates/navy-gold.webp",
+        "alt": "深蓝与金色",
+        "width": "1774",
+        "height": "887",
+        "loading": "lazy",
+        "decoding": "async",
+        "label": "深蓝与金色"
+      },
+      {
+        "src": "/nameplate/assets/templates/coral.webp",
+        "alt": "珊瑚波普",
+        "width": "1774",
+        "height": "887",
+        "loading": "lazy",
+        "decoding": "async",
+        "label": "珊瑚波普"
+      },
+      {
+        "src": "/nameplate/assets/templates/forest.webp",
+        "alt": "森林",
+        "width": "1774",
+        "height": "887",
+        "loading": "lazy",
+        "decoding": "async",
+        "label": "森林"
+      }
+    ],
+    "howTitle": "制作一张桌牌，只需几步",
+    "steps": [
+      {
+        "title": "选择模板，填入名字",
+        "body": "从现有模板开始，调整文字、字体和颜色。"
+      },
+      {
+        "title": "预览，然后导出",
+        "body": "从一张桌牌开始，也支持 CSV 和 Excel 名单批量制作。"
+      },
+      {
+        "title": "打印并折叠",
+        "body": "导出 PNG 文件，根据编辑器中的打印和折叠说明完成制作。"
+      }
+    ],
+    "faqTitle": "常见问题",
+    "questions": [
+      {
+        "question": "需要上传名单吗？",
+        "answer": "不需要。编辑、预览和导出都在浏览器内完成。"
+      },
+      {
+        "question": "批量制作支持什么文件？",
+        "answer": "支持 CSV 和 Excel。可在编辑器内下载名单示例，填写后导入。"
+      }
+    ],
+    "footerLinks": [
+      {
+        "label": "支持与反馈",
+        "href": "https://github.com/huihuisang/ajigu-site/issues",
+        "external": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+name: Build website release candidates
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-release-candidates
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      ASTRO_TELEMETRY_DISABLED: "1"
+      STUDIO_OUTPUT_DIR: ${{ runner.temp }}/ajigu-websites
+      TASK_ARTIFACT_DIR: ${{ runner.temp }}/ajigu-checks
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: pnpm/action-setup@v6.1.0
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: "24"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm peers check
+      - run: pnpm format:check
+      - run: pnpm check
+      - run: pnpm test
+      - run: pnpm build
+      - run: node scripts/check-build.mjs
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:browser
+      - run: pnpm test:layout
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: ajigu-com
+          path: ${{ runner.temp }}/ajigu-websites/ajigu
+          include-hidden-files: true
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: typenote-ajigu-com
+          path: ${{ runner.temp }}/ajigu-websites/typenote
+          include-hidden-files: true
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: moodsk-ajigu-com
+          path: ${{ runner.temp }}/ajigu-websites/moodsk
+          include-hidden-files: true
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: gosleep-ajigu-com
+          path: ${{ runner.temp }}/ajigu-websites/gosleep
+          include-hidden-files: true
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: dailyapod-ajigu-com
+          path: ${{ runner.temp }}/ajigu-websites/dailyapod
+          include-hidden-files: true
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: tutu-ajigu-com
+          path: ${{ runner.temp }}/ajigu-websites/tutu
+          include-hidden-files: true
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: browser-evidence
+          path: |
+            ${{ runner.temp }}/ajigu-checks/browser
+            ${{ runner.temp }}/ajigu-checks/layout

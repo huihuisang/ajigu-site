@@ -1,0 +1,67 @@
+{
+  "moodsk": {
+    "originalFiles": 171,
+    "changedOriginalFiles": [],
+    "importedPublicFiles": 119,
+    "metadataRepairs": []
+  },
+  "gosleep": {
+    "originalFiles": 67,
+    "changedOriginalFiles": [],
+    "importedPublicFiles": 35,
+    "metadataRepairs": [
+      {
+        "file": "guides/night-sounds/index.html",
+        "originalSHA256": "88cbcadf0ba1af3aecd4ed1c402cd1d09ac7dab020d7c14dbb5d2004f378963e",
+        "canonicalBefore": "https://gosleep.ajigu.comindex.html",
+        "canonicalAfter": "https://gosleep.ajigu.com/guides/night-sounds/",
+        "body": "unchanged"
+      },
+      {
+        "file": "guides/night-sounds/zh-hans/index.html",
+        "originalSHA256": "b17a4747481ae988c48027ed95253ed5537bdfbb98fa92dbaba6099d0490e2bc",
+        "canonicalBefore": "https://gosleep.ajigu.comzh-hans/index.html",
+        "canonicalAfter": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+        "body": "unchanged"
+      },
+      {
+        "file": "guides/night-sounds/ja/index.html",
+        "originalSHA256": "b68356b474134c74b93bbf22b79837a8ff9b691d47f165fc71873712a55a3d89",
+        "canonicalBefore": "https://gosleep.ajigu.comja/index.html",
+        "canonicalAfter": "https://gosleep.ajigu.com/guides/night-sounds/ja/",
+        "body": "unchanged"
+      }
+    ]
+  },
+  "dailyapod": {
+    "originalFiles": 82,
+    "changedOriginalFiles": [],
+    "importedPublicFiles": 41,
+    "metadataRepairs": []
+  },
+  "tutu": {
+    "originalFiles": 38,
+    "changedOriginalFiles": [],
+    "importedPublicFiles": 12,
+    "metadataRepairs": []
+  },
+  "existingMainChanges": [
+    "pnpm-lock.yaml",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "studio/README.md",
+    "memory/monorepo.md",
+    "tests/workspace.test.mjs",
+    "tests/browser.mjs",
+    "docs-ai/002-monorepo-migration/004-four-sites-plan.md",
+    "scripts/workspace.mjs",
+    "scripts/preview-workspace.mjs",
+    "scripts/check-build.mjs",
+    "packages/site-kit/config/paths.mjs",
+    "packages/site-kit/src/models.ts",
+    "packages/site-kit/src/components/SiteFooter.tsx",
+    "packages/site-kit/src/components/Lines.tsx",
+    "packages/site-kit/src/components/ProductHero.tsx",
+    ".github/workflows/build-websites.yml"
+  ]
+}

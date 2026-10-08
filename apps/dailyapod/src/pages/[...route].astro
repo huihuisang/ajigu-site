@@ -1,0 +1,21 @@
+---
+import pages from "../content/pages.json";
+import product from "../content/product.json";
+import ProductLanding from "@ajigu/site-kit/layouts/ProductLanding.astro";
+import GalleryPreview from "../components/GalleryPreview";
+
+export function getStaticPaths() {
+  return pages.map((page) => ({
+    params: { route: page.route.slice(1, -1) || undefined },
+    props: { page },
+  }));
+}
+interface Props {
+  page: (typeof pages)[number];
+}
+const { page } = Astro.props;
+---
+
+<ProductLanding page={page} product={product}>
+  <GalleryPreview slot="demo" locale={page.locale} client:load />
+</ProductLanding>

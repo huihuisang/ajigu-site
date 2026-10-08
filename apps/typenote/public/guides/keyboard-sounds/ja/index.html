@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="macOS でキーを叩くたびに音符を鳴らす。キーボードサウンドアプリとレイテンシの話、8ms 未満で128音色を奏でる TypeNote の紹介。無料・オープンソース。">
+  <title>Mac キーボードに打鍵音を付ける方法（そしてそれが心地いい理由）</title>
+  <link rel="canonical" href="https://typenote.ajigu.com/guides/keyboard-sounds/ja/">
+  <meta property="og:title" content="Mac キーボードに打鍵音を付ける方法（そしてそれが心地いい理由）">
+  <meta property="og:description" content="macOS でキーを叩くたびに音符を鳴らす。キーボードサウンドアプリとレイテンシの話、8ms 未満で128音色を奏でる TypeNote の紹介。無料・オープンソース。">
+  <meta property="og:type" content="article">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Mac キーボードに打鍵音を付ける方法（そしてそれが心地いい理由）", "description": "macOS でキーを叩くたびに音符を鳴らす。キーボードサウンドアプリとレイテンシの話、8ms 未満で128音色を奏でる TypeNote の紹介。無料・オープンソース。", "inLanguage": "ja", "author": {"@type": "Organization", "name": "ajigu", "url": "https://ajigu.com/"}, "mainEntityOfPage": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/"}</script>
+  <style>
+    :root { --bg:#faf7f2; --ink:#1a1510; --muted:#786e64; --card:#ffffff; --line:#e8dfd2; --accent:#d4720a; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans JP","Noto Sans CJK JP",sans-serif; line-height:1.75; -webkit-font-smoothing:antialiased; }
+    .shell { max-width:720px; margin:0 auto; padding:32px 24px 80px; }
+    .top { display:flex; justify-content:space-between; align-items:center; margin-bottom:40px; font-size:.9rem; }
+    .top a { color:var(--muted); text-decoration:none; }
+    .top a:hover { color:var(--ink); }
+    .brand { font-weight:700; font-size:1.05rem; }
+    h1 { font-size:clamp(1.8rem,4vw,2.5rem); line-height:1.2; letter-spacing:-.02em; margin:0 0 12px; }
+    .lede { color:var(--muted); font-size:1.1rem; margin:0 0 36px; }
+    h2 { font-size:1.3rem; margin:40px 0 12px; letter-spacing:-.01em; }
+    p { margin:0 0 16px; }
+    ol, ul { padding-left:22px; margin:0 0 16px; }
+    li { margin-bottom:8px; }
+    .cta-box { margin-top:48px; padding:28px; background:var(--card); border:1px solid var(--line); border-radius:16px; text-align:center; }
+    .cta-box p { color:var(--muted); margin-bottom:16px; }
+    .btn { display:inline-block; background:var(--accent); color:#fff; padding:12px 26px; border-radius:999px; text-decoration:none; font-weight:700; }
+    footer { text-align:center; color:var(--muted); font-size:.85rem; margin-top:56px; }
+    footer a { color:inherit; }
+  </style>
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+<body>
+  <div class="shell">
+    <div class="top">
+      <a class="brand" href="https://typenote.ajigu.com">← TypeNote</a>
+      <a href="https://ajigu.com/">by ajigu</a>
+    </div>
+    <h1>Mac キーボードに打鍵音を付ける方法</h1>
+    <p class="lede">タイピングは、あなたが一日中すでに作っているリズムです。音程を与えると、地味な入力が不思議に満たされる——しかもセットアップは2分。</p>
+<h2>打鍵音が効く理由</h2>
+<p>メカニカルキーボードのカチッという音が気持ちいいのは、1回1回の入力を確認してくれるから。音程のある音はさらに先まで行きます。書き手は集中に、開発者はフローに。机がピアノになるのを楽しむ人も。</p>
+<h2>一番簡単な方法：TypeNote</h2>
+<ol>
+<li>TypeNote（無料・オープンソース）をダウンロードして Applications へ。</li>
+<li>開くと macOS のメニューバーに常駐します。</li>
+<li>128の General MIDI 音色から選択。ピアノ、プラック、波の音など。</li>
+<li>あとはタイピングするだけ。どのアプリでも、8ms 未満のレイテンシで1キー1音鳴ります。</li>
+</ol>
+<h2>単音だけじゃない</h2>
+<p>TypeNote はメロディも読み込めます。数譜（1–7）、MusicXML、MIDI で曲を書くと、キーボードがその順番に演奏。スマートミュートで通話やメディア再生中は自動で静かになります。</p>
+<h2>クイック回答</h2>
+<p><strong>タイピングが遅くなる？</strong>なりません。ローカル生成で8ms 未満。気にならないレベルです。</p>
+<p><strong>無料？</strong>はい。TypeNote は無料・オープンソース、macOS 14 以降対応。</p>
+    <div class="cta-box">
+      <p>無料、オープンソース、メニューバーに常駐。あなたのキーボードは楽器です。</p>
+      <a class="btn" href="https://typenote.ajigu.com#download">Download TypeNote</a>
+    </div>
+    <footer>© 2026 ajigu · <a href="https://ajigu.com/">ajigu.com</a></footer>
+  </div>
+</body>
+</html>

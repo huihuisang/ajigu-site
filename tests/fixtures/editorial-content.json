@@ -1,0 +1,154 @@
+[
+  {
+    "product": "moodsk",
+    "route": "/",
+    "phrases": [
+      "On-device only",
+      "Light & dark",
+      "Four languages",
+      "Rendering and icon application happen locally. Files and designs are not uploaded.",
+      "Follows the system appearance with frosted materials and motion.",
+      "简体中文, English, 日本語 and 한국어 out of the box.",
+      "macOS 14+ · Apple Silicon supported",
+      "Apple, Mac User Guide"
+    ]
+  },
+  {
+    "product": "moodsk",
+    "route": "/zh-hans/",
+    "phrases": [
+      "本地处理",
+      "深浅色自适应",
+      "多语言界面",
+      "图像渲染与图标应用全部在本机完成，不会上传文件或设计。",
+      "跟随系统外观，毛玻璃质感与动效浑然一体。",
+      "简体中文、English、日本語、한국어 开箱即用。",
+      "macOS 14+ · 支持 Apple Silicon",
+      "Apple, Mac 使用手册"
+    ]
+  },
+  {
+    "product": "moodsk",
+    "route": "/ja/",
+    "phrases": [
+      "オンデバイス処理",
+      "ライト / ダーク対応",
+      "4 つの言語",
+      "レンダリングとアイコンの適用はローカルで行い、ファイルやデザインをアップロードしません。",
+      "システムの外観に合わせて、すりガラス素材とモーションで切り替わります。",
+      "簡体字中国語・English・日本語・한국어に最初から対応。",
+      "macOS 14+ · Apple Silicon 対応",
+      "Apple, Macユーザガイド"
+    ]
+  },
+  {
+    "product": "moodsk",
+    "route": "/ko/",
+    "phrases": [
+      "온디바이스 전용",
+      "라이트 / 다크 대응",
+      "네 가지 언어",
+      "렌더링과 아이콘 적용은 로컬에서 처리됩니다. 파일과 디자인은 업로드하지 않습니다.",
+      "시스템 외관에 따라 흐린 유리 질감과 모션으로 함께 바뀝니다.",
+      "简体中文·English·日本語·한국어를 기본 지원합니다.",
+      "macOS 14+ · Apple Silicon 지원",
+      "Apple, Mac 사용 설명서"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/",
+    "phrases": [
+      "On-device analysis",
+      "No advertising trackers",
+      "Explicit public sharing",
+      "Delete your data in-app",
+      "Mystery Sound",
+      "Night report"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/en-gb/",
+    "phrases": [
+      "On-device analysis",
+      "No advertising trackers",
+      "Explicit public sharing",
+      "Delete your data in-app",
+      "Mystery Sound",
+      "Night report"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/zh-hans/",
+    "phrases": [
+      "设备上分析",
+      "无广告跟踪器",
+      "明确公开共享",
+      "删除您的数据应用内",
+      "神秘声音",
+      "夜间报告"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/zh-hant/",
+    "phrases": [
+      "設備上分析",
+      "沒有廣告追蹤器",
+      "明確的公開分享",
+      "刪除應用程式內的資料",
+      "神秘聲音",
+      "夜間報告"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/ja/",
+    "phrases": [
+      "オンデバイス分析",
+      "広告トラッカーなし",
+      "明示的なパブリック共有",
+      "アプリ内のデータを削除する",
+      "ミステリーサウンド",
+      "夜のレポート"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/ko/",
+    "phrases": [
+      "기기 내 분석",
+      "광고 추적기 없음",
+      "명시적 공개 공유",
+      "인앱 데이터 삭제",
+      "미스터리 사운드",
+      "야간 보고"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/de/",
+    "phrases": [
+      "Analyse auf dem Gerät",
+      "Keine Werbe-Tracker",
+      "Explizites öffentliches Teilen",
+      "Löschen Sie Ihre Daten in der App",
+      "Mystery Sound",
+      "Nachtbericht"
+    ]
+  },
+  {
+    "product": "gosleep",
+    "route": "/fr/",
+    "phrases": [
+      "Analyse sur l'appareil",
+      "Aucun tracker publicitaire",
+      "Partage public explicite",
+      "Supprimez vos données dans l'application",
+      "Son mystère",
+      "Rapport de nuit"
+    ]
+  }
+]

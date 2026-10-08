@@ -1,0 +1,1697 @@
+[
+  {
+    "route": "/",
+    "locale": "en",
+    "metadata": {
+      "title": "DailyApod — NASA Astronomy Picture of the Day App for iPhone",
+      "meta": [
+        {
+          "name": "color-scheme",
+          "content": "light dark"
+        },
+        {
+          "name": "description",
+          "content": "DailyApod brings NASA's Astronomy Picture of the Day to your iPhone—browse cosmic wonders, search the archive, collect favourites, and glaze your home screen with widgets."
+        },
+        {
+          "property": "og:title",
+          "content": "DailyApod — The universe, one picture a day"
+        },
+        {
+          "property": "og:description",
+          "content": "NASA's Astronomy Picture of the Day, beautifully on your iPhone. Browse, search, collect, and widget-ify the cosmos."
+        },
+        {
+          "property": "og:image",
+          "content": "https://dailyapod.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://dailyapod.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://dailyapod.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://dailyapod.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://dailyapod.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://dailyapod.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "DailyApod",
+          "alternateName": ["DailyApod - Astronomy Picture", "NASA APOD app", "APOD viewer"],
+          "operatingSystem": "iOS, iPadOS, macOS, visionOS",
+          "applicationCategory": "MultimediaApplication",
+          "description": "NASA's Astronomy Picture of the Day, beautifully on your iPhone. Browse, search, collect, and widget-ify the cosmos.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://dailyapod.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://dailyapod.ajigu.com/assets/app-icon.png",
+          "inLanguage": "en"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is DailyApod free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes—downloading and browsing the daily picture is free. DailyApod Pro (a one-time purchase or subscription) unlocks extras like unlimited caption translations. Check the App Store listing for current pricing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where do the pictures come from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NASA's Astronomy Picture of the Day (APOD), published daily since 1995. Each image links back to its original source and credits its authors."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which devices are supported?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "iPhone and iPad with iOS 16 or later, and it runs on Mac and Apple Vision Pro too. Home screen widgets require iOS 16+."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What about my privacy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DailyApod collects no personal data. Favourites sync via your own iCloud account, and translation happens on device."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "DailyApod",
+    "claim": "The universe, one picture a day.",
+    "intro": "Every day since 1995, NASA publishes one breathtaking image of the cosmos. DailyApod brings that archive—over 10,000 pictures and counting—to your pocket, beautifully.",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/us/app/dailyapod-astronomy-picture/id1573247808",
+        "label": "Download on the App Store",
+        "external": false
+      },
+      {
+        "href": "#gallery",
+        "label": "See it in action ↓",
+        "external": false
+      }
+    ],
+    "note": "Free download · iPhone, iPad, Mac & Vision Pro · No data collected",
+    "sections": [
+      {
+        "id": "features",
+        "title": "Explore over a decade of the sky.",
+        "body": "<p>DailyApod is a calm, carefully crafted window into NASA&#x27;s archive.</p>",
+        "items": [
+          {
+            "title": "Today & every day",
+            "body": "<p>Open today&#x27;s APOD, or choose a date to read the entry published on that day.</p>"
+          },
+          {
+            "title": "Search the cosmos",
+            "body": "<p>Find pictures by title or keyword—nebulae, galaxies, eclipses, auroras—and jump straight to your favourites.</p>"
+          },
+          {
+            "title": "Home screen widgets",
+            "body": "<p>Glance at today&#x27;s picture from your home screen with widgets in every size. The universe, always in view.</p>"
+          },
+          {
+            "title": "Favourites & iCloud sync",
+            "body": "<p>Collect the pictures you love. Favourites sync across your devices with iCloud, privately.</p>"
+          },
+          {
+            "title": "Translate any caption",
+            "body": "<p>Captions arrive in English from NASA. Translate them into your language with a tap, on device. </p>"
+          },
+          {
+            "title": "Popular pictures",
+            "body": "<p>Browse the most-loved images across the archive and catch up on the classics you missed.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "Questions, answered.",
+        "questions": [
+          {
+            "question": "Is DailyApod free?",
+            "answer": "<p>Yes—downloading and browsing the daily picture is free. DailyApod Pro (a one-time purchase or subscription) unlocks extras like unlimited caption translations. Check the App Store listing for current pricing.</p>"
+          },
+          {
+            "question": "Where do the pictures come from?",
+            "answer": "<p>NASA&#x27;s Astronomy Picture of the Day (APOD), published daily since 1995. Each image links back to its original source and credits its authors.</p>"
+          },
+          {
+            "question": "Which devices are supported?",
+            "answer": "<p>iPhone and iPad with iOS 16 or later, and it runs on Mac and Apple Vision Pro too. Home screen widgets require iOS 16+.</p>"
+          },
+          {
+            "question": "What about my privacy?",
+            "answer": "<p>DailyApod collects no personal data. Favourites sync via your own iCloud account, and translation happens on device.</p>"
+          }
+        ]
+      },
+      {
+        "id": "guides",
+        "title": "Find your next small discovery.",
+        "body": "<p>A few practical ways to explore the archive and make it part of your day.</p><p><a href=\"/guides/\">Browse all guides ↗</a></p>",
+        "items": [
+          {
+            "title": "What is NASA’s Astronomy Picture of the Day (APOD)?",
+            "body": "<p>01</p><p>Learn what NASA APOD publishes, how its archive works, and how to explore astronomy pictures and explanations on iPhone.</p>"
+          },
+          {
+            "title": "How to find the NASA picture on your birthday",
+            "body": "<p>02</p><p>Find the APOD published on your birthday, understand dates before 1995, and see how NASA’s Hubble birthday tool differs.</p>"
+          },
+          {
+            "title": "How to add an APOD widget on iPhone",
+            "body": "<p>03</p><p>Add a DailyApod Home Screen widget, choose a size and content type, and troubleshoot a missing or outdated astronomy picture.</p>"
+          },
+          {
+            "title": "How to find APOD by date",
+            "body": "<p>04</p><p>Look up a historical NASA APOD by year, month, and day, and understand missing entries, time zones, and publication dates.</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "What is NASA’s Astronomy Picture of the Day (APOD)?",
+            "href": "/guides/what-is-apod/"
+          },
+          {
+            "label": "Read guide",
+            "href": "/guides/what-is-apod/"
+          },
+          {
+            "label": "How to find the NASA picture on your birthday",
+            "href": "/guides/nasa-picture-on-my-birthday/"
+          },
+          {
+            "label": "Read guide",
+            "href": "/guides/nasa-picture-on-my-birthday/"
+          },
+          {
+            "label": "How to add an APOD widget on iPhone",
+            "href": "/guides/apod-widget-iphone/"
+          },
+          {
+            "label": "Read guide",
+            "href": "/guides/apod-widget-iphone/"
+          },
+          {
+            "label": "How to find APOD by date",
+            "href": "/guides/find-apod-by-date/"
+          },
+          {
+            "label": "Read guide",
+            "href": "/guides/find-apod-by-date/"
+          },
+          {
+            "label": "Browse all guides",
+            "href": "/guides/"
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "title": "Look up, every day.",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "Get DailyApod on the App Store",
+            "href": "https://apps.apple.com/us/app/dailyapod-astronomy-picture/id1573247808"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "/guides/",
+        "label": "Guides",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/",
+        "label": "More ajigu apps",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "showcaseTitle": "Dark skies, bright pixels."
+  },
+  {
+    "route": "/zh-hans/",
+    "locale": "zh-Hans",
+    "metadata": {
+      "title": "DailyApod — NASA 每日天文图 iPhone app，每天一张宇宙照片",
+      "meta": [
+        {
+          "name": "color-scheme",
+          "content": "light dark"
+        },
+        {
+          "name": "description",
+          "content": "DailyApod 把 NASA 每日天文图装进你的 iPhone——浏览宇宙奇观、搜索档案、收藏最爱，还有桌面小组件。"
+        },
+        {
+          "property": "og:title",
+          "content": "DailyApod — 每天，一张宇宙的照片"
+        },
+        {
+          "property": "og:description",
+          "content": "NASA 每日天文图，优雅地呈现在你的 iPhone 上。浏览、搜索、收藏，把宇宙装进小组件。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://dailyapod.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://dailyapod.ajigu.com/zh-hans/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_CN"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://dailyapod.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://dailyapod.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://dailyapod.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://dailyapod.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://dailyapod.ajigu.com/zh-hans/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "DailyApod",
+          "alternateName": ["每日天文图 app", "APOD app", "NASA 天文图片"],
+          "operatingSystem": "iOS, iPadOS, macOS, visionOS",
+          "applicationCategory": "MultimediaApplication",
+          "description": "NASA 每日天文图（APOD），优雅地呈现在你的 iPhone 上。浏览、搜索、收藏，把宇宙装进小组件。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://dailyapod.ajigu.com/zh-hans/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://dailyapod.ajigu.com/assets/app-icon.png",
+          "inLanguage": "zh-Hans"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "DailyApod 是免费的吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "是——下载和浏览每日图片免费。DailyApod Pro（买断或订阅）解锁无限次说明文字翻译等额外功能。具体价格请以 App Store 页面为准。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "图片来自哪里？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NASA 的每日天文图（APOD），自 1995 年起每天发布。每张图片都链接回原始出处并注明作者。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "支持哪些设备？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "支持 iOS 16 及以上的 iPhone 和 iPad，也可在 Mac 和 Apple Vision Pro 上运行。桌面小组件需要 iOS 16+。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "隐私方面呢？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DailyApod 不收集任何个人数据。收藏通过你自己的 iCloud 账号同步，翻译在设备上完成。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "DailyApod",
+    "claim": "宇宙， 每天一张照片。",
+    "intro": "自 1995 年起，NASA 每天发布一张令人惊叹的宇宙影像。DailyApod 把这座超过一万张照片的档案库，优雅地装进你的口袋。",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/cn/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9B%BE%E5%83%8F/id1573247808",
+        "label": "App Store 下载",
+        "external": false
+      },
+      {
+        "href": "#gallery",
+        "label": "看看效果 ↓",
+        "external": false
+      }
+    ],
+    "note": "免费下载 · 支持 iPhone、iPad、Mac 和 Vision Pro · 不收集任何数据",
+    "sections": [
+      {
+        "id": "features",
+        "title": "探索十多年的星空档案。",
+        "body": "<p>DailyApod 是一扇通往 NASA 档案库的、安静而精致的窗口。</p>",
+        "items": [
+          {
+            "title": "今天，以及每一天",
+            "body": "<p>打开当天的 APOD，或选择日期，阅读那一天发布的作品。</p>"
+          },
+          {
+            "title": "搜索宇宙",
+            "body": "<p>按标题或关键词搜索——星云、星系、日食、极光——直达你的心头好。</p>"
+          },
+          {
+            "title": "桌面小组件",
+            "body": "<p>各种尺寸的小组件，让你在主屏幕一眼看到今日图片。宇宙，常在眼前。</p>"
+          },
+          {
+            "title": "收藏与 iCloud 同步",
+            "body": "<p>收集你爱的图片。收藏通过你自己的 iCloud 私密同步到所有设备。</p>"
+          },
+          {
+            "title": "说明文字翻译",
+            "body": "<p>NASA 的说明文字是英文的。轻轻一点，在设备上翻译成你的语言。</p>"
+          },
+          {
+            "title": "热门图片",
+            "body": "<p>浏览档案库中最受喜爱的影像，补上那些错过的经典。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "你可能想问。",
+        "questions": [
+          {
+            "question": "DailyApod 是免费的吗？",
+            "answer": "<p>是——下载和浏览每日图片免费。DailyApod Pro（买断或订阅）解锁无限次说明文字翻译等额外功能。具体价格请以 App Store 页面为准。</p>"
+          },
+          {
+            "question": "图片来自哪里？",
+            "answer": "<p>NASA 的每日天文图（APOD），自 1995 年起每天发布。每张图片都链接回原始出处并注明作者。</p>"
+          },
+          {
+            "question": "支持哪些设备？",
+            "answer": "<p>支持 iOS 16 及以上的 iPhone 和 iPad，也可在 Mac 和 Apple Vision Pro 上运行。桌面小组件需要 iOS 16+。</p>"
+          },
+          {
+            "question": "隐私方面呢？",
+            "answer": "<p>DailyApod 不收集任何个人数据。收藏通过你自己的 iCloud 账号同步，翻译在设备上完成。</p>"
+          }
+        ]
+      },
+      {
+        "id": "guides",
+        "title": "从一个小发现开始。",
+        "body": "<p>查日期、看档案、添加小组件，让天文图成为日常的一部分。</p><p><a href=\"/guides/zh-hans/\">浏览全部指南 ↗</a></p>",
+        "items": [
+          {
+            "title": "什么是 NASA 每日天文图 APOD？",
+            "body": "<p>01</p><p>了解 NASA 每日天文图的内容、历史档案和日期含义，以及如何在 iPhone 上浏览图片与解说。</p>"
+          },
+          {
+            "title": "如何查找生日当天的 NASA 天文图片",
+            "body": "<p>02</p><p>查询生日当天发布的 APOD，了解 1995 年以前的日期限制，以及它与 Hubble 生日工具的区别。</p>"
+          },
+          {
+            "title": "如何在 iPhone 上添加 APOD 小组件",
+            "body": "<p>03</p><p>添加 DailyApod 主屏幕小组件、选择尺寸与内容类型，并排查找不到组件、图片过旧或空白的问题。</p>"
+          },
+          {
+            "title": "如何按日期查找 APOD 历史天文图",
+            "body": "<p>04</p><p>用年月日查询 NASA APOD 历史作品，了解无结果、时区差异和发布日期与拍摄日期的区别。</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "什么是 NASA 每日天文图 APOD？",
+            "href": "/guides/what-is-apod/zh-hans/"
+          },
+          {
+            "label": "阅读指南",
+            "href": "/guides/what-is-apod/zh-hans/"
+          },
+          {
+            "label": "如何查找生日当天的 NASA 天文图片",
+            "href": "/guides/nasa-picture-on-my-birthday/zh-hans/"
+          },
+          {
+            "label": "阅读指南",
+            "href": "/guides/nasa-picture-on-my-birthday/zh-hans/"
+          },
+          {
+            "label": "如何在 iPhone 上添加 APOD 小组件",
+            "href": "/guides/apod-widget-iphone/zh-hans/"
+          },
+          {
+            "label": "阅读指南",
+            "href": "/guides/apod-widget-iphone/zh-hans/"
+          },
+          {
+            "label": "如何按日期查找 APOD 历史天文图",
+            "href": "/guides/find-apod-by-date/zh-hans/"
+          },
+          {
+            "label": "阅读指南",
+            "href": "/guides/find-apod-by-date/zh-hans/"
+          },
+          {
+            "label": "浏览全部指南",
+            "href": "/guides/zh-hans/"
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "title": "每一天，都抬头看看。",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "去 App Store 下载 DailyApod",
+            "href": "https://apps.apple.com/cn/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9B%BE%E5%83%8F/id1573247808"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/zh-hans/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "/guides/zh-hans/",
+        "label": "指南",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/zh-hans/",
+        "label": "更多啊叽咕的 app",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "showcaseTitle": "暗夜星空，明亮像素。"
+  },
+  {
+    "route": "/zh-hant/",
+    "locale": "zh-Hant",
+    "metadata": {
+      "title": "DailyApod — NASA 每日天文圖 iPhone app，每天一張宇宙照片",
+      "meta": [
+        {
+          "name": "color-scheme",
+          "content": "light dark"
+        },
+        {
+          "name": "description",
+          "content": "DailyApod 把 NASA 每日天文圖裝進你的 iPhone——瀏覽宇宙奇觀、搜尋檔案、收藏最愛，還有桌面小工具。"
+        },
+        {
+          "property": "og:title",
+          "content": "DailyApod — 每天，一張宇宙的照片"
+        },
+        {
+          "property": "og:description",
+          "content": "NASA 每日天文圖，優雅地呈現在你的 iPhone 上。瀏覽、搜尋、收藏，把宇宙裝進小工具。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://dailyapod.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://dailyapod.ajigu.com/zh-hant/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_TW"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://dailyapod.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://dailyapod.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://dailyapod.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://dailyapod.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://dailyapod.ajigu.com/zh-hant/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "DailyApod",
+          "alternateName": ["每日天文圖 app", "APOD app", "NASA 天文圖片"],
+          "operatingSystem": "iOS, iPadOS, macOS, visionOS",
+          "applicationCategory": "MultimediaApplication",
+          "description": "NASA 每日天文圖（APOD），優雅地呈現在你的 iPhone 上。瀏覽、搜尋、收藏，把宇宙裝進小工具。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://dailyapod.ajigu.com/zh-hant/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://dailyapod.ajigu.com/assets/app-icon.png",
+          "inLanguage": "zh-Hant"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "DailyApod 是免費的嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "是——下載和瀏覽每日圖片免費。DailyApod Pro（買斷或訂閱）解鎖無限次說明文字翻譯等額外功能。具體價格請以 App Store 頁面為準。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "圖片來自哪裡？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NASA 的每日天文圖（APOD），自 1995 年起每天發布。每張圖片都連結回原始出處並註明作者。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "支援哪些裝置？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "支援 iOS 16 及以上的 iPhone 和 iPad，也可在 Mac 和 Apple Vision Pro 上執行。桌面小工具需要 iOS 16+。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "隱私方面呢？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DailyApod 不收集任何個人資料。收藏透過你自己的 iCloud 帳號同步，翻譯在裝置上完成。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "DailyApod",
+    "claim": "宇宙， 每天一張照片。",
+    "intro": "自 1995 年起，NASA 每天發布一張令人驚嘆的宇宙影像。DailyApod 把這座超過一萬張照片的檔案庫，優雅地裝進你的口袋。",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/tw/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9C%96%E5%83%8F/id1573247808",
+        "label": "App Store 下載",
+        "external": false
+      },
+      {
+        "href": "#gallery",
+        "label": "看看效果 ↓",
+        "external": false
+      }
+    ],
+    "note": "免費下載 · 支援 iPhone、iPad、Mac 和 Vision Pro · 不收集任何資料",
+    "sections": [
+      {
+        "id": "features",
+        "title": "探索十多年的星空檔案。",
+        "body": "<p>DailyApod 是一扇通往 NASA 檔案庫的、安靜而精緻的視窗。</p>",
+        "items": [
+          {
+            "title": "今天，以及每一天",
+            "body": "<p>打開當天的 APOD，或選擇日期，閱讀那一天發布的作品。</p>"
+          },
+          {
+            "title": "搜尋宇宙",
+            "body": "<p>按標題或關鍵字搜尋——星雲、星系、日食、極光——直達你的心頭好。</p>"
+          },
+          {
+            "title": "桌面小工具",
+            "body": "<p>各種尺寸的小工具，讓你在主畫面一眼看到今日圖片。宇宙，常在眼前。</p>"
+          },
+          {
+            "title": "收藏與 iCloud 同步",
+            "body": "<p>收集你愛的圖片。收藏透過你自己的 iCloud 私密同步到所有裝置。</p>"
+          },
+          {
+            "title": "說明文字翻譯",
+            "body": "<p>NASA 的說明文字是英文的。輕輕一點，在裝置上翻譯成你的語言。</p>"
+          },
+          {
+            "title": "熱門圖片",
+            "body": "<p>瀏覽檔案庫中最受喜愛的影像，補上那些錯過的經典。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "你可能想問。",
+        "questions": [
+          {
+            "question": "DailyApod 是免費的嗎？",
+            "answer": "<p>是——下載和瀏覽每日圖片免費。DailyApod Pro（買斷或訂閱）解鎖無限次說明文字翻譯等額外功能。具體價格請以 App Store 頁面為準。</p>"
+          },
+          {
+            "question": "圖片來自哪裡？",
+            "answer": "<p>NASA 的每日天文圖（APOD），自 1995 年起每天發布。每張圖片都連結回原始出處並註明作者。</p>"
+          },
+          {
+            "question": "支援哪些裝置？",
+            "answer": "<p>支援 iOS 16 及以上的 iPhone 和 iPad，也可在 Mac 和 Apple Vision Pro 上執行。桌面小工具需要 iOS 16+。</p>"
+          },
+          {
+            "question": "隱私方面呢？",
+            "answer": "<p>DailyApod 不收集任何個人資料。收藏透過你自己的 iCloud 帳號同步，翻譯在裝置上完成。</p>"
+          }
+        ]
+      },
+      {
+        "id": "guides",
+        "title": "從一個小發現開始。",
+        "body": "<p>查日期、看檔案、加入小工具，讓天文圖成為日常的一部分。</p><p><a href=\"/guides/zh-hant/\">瀏覽全部指南 ↗</a></p>",
+        "items": [
+          {
+            "title": "什麼是 NASA 每日天文圖 APOD？",
+            "body": "<p>01</p><p>了解 NASA 每日天文圖的內容、歷史檔案和日期含義，以及如何在 iPhone 上瀏覽圖片與解說。</p>"
+          },
+          {
+            "title": "如何查找生日當天的 NASA 天文圖片",
+            "body": "<p>02</p><p>查詢生日當天發布的 APOD，了解 1995 年以前的日期限制，以及它與 Hubble 生日工具的區別。</p>"
+          },
+          {
+            "title": "如何在 iPhone 上加入 APOD 小工具",
+            "body": "<p>03</p><p>加入 DailyApod 主畫面小工具、選擇尺寸與內容類型，並排查找不到小工具、圖片過舊或空白的問題。</p>"
+          },
+          {
+            "title": "如何按日期查找 APOD 歷史天文圖",
+            "body": "<p>04</p><p>用年月日查詢 NASA APOD 歷史作品，了解無結果、時區差異和發布日期與拍攝日期的區別。</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "什麼是 NASA 每日天文圖 APOD？",
+            "href": "/guides/what-is-apod/zh-hant/"
+          },
+          {
+            "label": "閱讀指南",
+            "href": "/guides/what-is-apod/zh-hant/"
+          },
+          {
+            "label": "如何查找生日當天的 NASA 天文圖片",
+            "href": "/guides/nasa-picture-on-my-birthday/zh-hant/"
+          },
+          {
+            "label": "閱讀指南",
+            "href": "/guides/nasa-picture-on-my-birthday/zh-hant/"
+          },
+          {
+            "label": "如何在 iPhone 上加入 APOD 小工具",
+            "href": "/guides/apod-widget-iphone/zh-hant/"
+          },
+          {
+            "label": "閱讀指南",
+            "href": "/guides/apod-widget-iphone/zh-hant/"
+          },
+          {
+            "label": "如何按日期查找 APOD 歷史天文圖",
+            "href": "/guides/find-apod-by-date/zh-hant/"
+          },
+          {
+            "label": "閱讀指南",
+            "href": "/guides/find-apod-by-date/zh-hant/"
+          },
+          {
+            "label": "瀏覽全部指南",
+            "href": "/guides/zh-hant/"
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "title": "每一天，都抬頭看看。",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "去 App Store 下載 DailyApod",
+            "href": "https://apps.apple.com/tw/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9C%96%E5%83%8F/id1573247808"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/zh-hant/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "/guides/zh-hant/",
+        "label": "指南",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/zh-hant/",
+        "label": "更多啊嘰咕的 app",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "showcaseTitle": "暗夜星空，明亮像素。"
+  },
+  {
+    "route": "/ja/",
+    "locale": "ja",
+    "metadata": {
+      "title": "DailyApod — NASA の毎日の天文写真を楽しむ iPhone アプリ",
+      "meta": [
+        {
+          "name": "color-scheme",
+          "content": "light dark"
+        },
+        {
+          "name": "description",
+          "content": "DailyApod は NASA の每日天文写真を iPhone にもたらします。宇宙の驚異を閲覧、検索、お気に入り収集、ホーム画面ウィジェット。"
+        },
+        {
+          "property": "og:title",
+          "content": "DailyApod — 宇宙を、1日1枚。"
+        },
+        {
+          "property": "og:description",
+          "content": "NASA の每日天文写真を、美しく iPhone へ。閲覧、検索、収集、ウィジェットで宇宙を身近に。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://dailyapod.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://dailyapod.ajigu.com/ja/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja_JP"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://dailyapod.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://dailyapod.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://dailyapod.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://dailyapod.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://dailyapod.ajigu.com/ja/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "DailyApod",
+          "alternateName": ["天文写真アプリ", "APOD アプリ", "NASA 写真"],
+          "operatingSystem": "iOS, iPadOS, macOS, visionOS",
+          "applicationCategory": "MultimediaApplication",
+          "description": "NASA の毎日の天文写真（APOD）を、美しく iPhone へ。閲覧、検索、お気に入り、ウィジェット対応。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://dailyapod.ajigu.com/ja/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://dailyapod.ajigu.com/assets/app-icon.png",
+          "inLanguage": "ja"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "DailyApod は無料ですか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "はい——ダウンロードと毎日の写真の閲覧は無料です。DailyApod Pro（買い切りまたはサブスクリプション）で無制限のキャプション翻訳などの機能が追加されます。価格は App Store のページでご確認ください。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "写真はどこから？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "1995年から毎日発行されている NASA の毎日の天文写真（APOD）です。各画像は元のソースにリンクし、作者をクレジットします。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "対応端末は？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "iOS 16 以降の iPhone と iPad、さらに Mac と Apple Vision Pro でも動作します。ウィジェットには iOS 16+ が必要です。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "プライバシーは？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DailyApod は個人データを収集しません。お気に入りはあなた自身の iCloud アカウントで同期し、翻訳はデバイス上で行われます。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "DailyApod",
+    "claim": "宇宙を、 1日1枚。",
+    "intro": "1995年から毎日、NASA は息をのむような宇宙の映像を1枚ずつ発表しています。DailyApod はその1万枚を超えるアーカイブを、美しくポケットにお届けします。",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/jp/app/dailyapod-%E4%BB%8A%E6%97%A5%E3%81%AE%E5%AE%87%E5%AE%99/id1573247808",
+        "label": "App Store で入手",
+        "external": false
+      },
+      {
+        "href": "#gallery",
+        "label": "画面を見る ↓",
+        "external": false
+      }
+    ],
+    "note": "無料ダウンロード · iPhone、iPad、Mac、Vision Pro 対応 · データ収集なし",
+    "sections": [
+      {
+        "id": "features",
+        "title": "10年以上の星空アーカイブを探索。",
+        "body": "<p>DailyApod は、NASA のアーカイブへの静かで丁寧に作り込まれた窓です。</p>",
+        "items": [
+          {
+            "title": "今日と、すべての日々",
+            "body": "<p>今日のAPODを開くか、日付を選んでその日に公開された記事を読めます。</p>"
+          },
+          {
+            "title": "宇宙を検索",
+            "body": "<p>タイトルやキーワードで検索——星雲、銀河、日食、オーロラ——お気に入りへすぐジャンプ。</p>"
+          },
+          {
+            "title": "ホーム画面ウィジェット",
+            "body": "<p>あらゆるサイズのウィジェットで、今日の写真をホーム画面からひと目で。宇宙を、いつも視界に。</p>"
+          },
+          {
+            "title": "お気に入りと iCloud 同期",
+            "body": "<p>好きな写真を集める。お気に入りはあなたの iCloud でプライベートに同期します。</p>"
+          },
+          {
+            "title": "キャプションを翻訳",
+            "body": "<p>NASA のキャプションは英語。ワンタップで、デバイス上であなたの言語に翻訳できます。</p>"
+          },
+          {
+            "title": "人気の写真",
+            "body": "<p>アーカイブで最も愛された映像を眺めて、見逃した名作をキャッチアップ。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "質問への答え。",
+        "questions": [
+          {
+            "question": "DailyApod は無料ですか？",
+            "answer": "<p>はい——ダウンロードと毎日の写真の閲覧は無料です。DailyApod Pro（買い切りまたはサブスクリプション）で無制限のキャプション翻訳などの機能が追加されます。価格は App Store のページでご確認ください。</p>"
+          },
+          {
+            "question": "写真はどこから？",
+            "answer": "<p>1995年から毎日発行されている NASA の毎日の天文写真（APOD）です。各画像は元のソースにリンクし、作者をクレジットします。</p>"
+          },
+          {
+            "question": "対応端末は？",
+            "answer": "<p>iOS 16 以降の iPhone と iPad、さらに Mac と Apple Vision Pro でも動作します。ウィジェットには iOS 16+ が必要です。</p>"
+          },
+          {
+            "question": "プライバシーは？",
+            "answer": "<p>DailyApod は個人データを収集しません。お気に入りはあなた自身の iCloud アカウントで同期し、翻訳はデバイス上で行われます。</p>"
+          }
+        ]
+      },
+      {
+        "id": "guides",
+        "title": "小さな発見を、今日から。",
+        "body": "<p>日付で探す、アーカイブを読む、ウィジェットを置く。宇宙を楽しむための実用ガイドです。</p><p><a href=\"/guides/ja/\">すべてのガイド ↗</a></p>",
+        "items": [
+          {
+            "title": "NASAのAstronomy Picture of the Day（APOD）とは？",
+            "body": "<p>01</p><p>NASA APODの内容、アーカイブ、公開日の意味と、iPhoneで天文画像や解説を読む方法を紹介します。</p>"
+          },
+          {
+            "title": "誕生日に公開されたNASAの画像を探す方法",
+            "body": "<p>02</p><p>誕生日のAPODを探し、1995年より前の日付の制限と、Hubbleの誕生日ツールとの違いを確認しましょう。</p>"
+          },
+          {
+            "title": "iPhoneにAPODウィジェットを追加する方法",
+            "body": "<p>03</p><p>DailyApodをホーム画面に追加し、サイズや表示内容を選ぶ方法と、表示されない場合の対処を紹介します。</p>"
+          },
+          {
+            "title": "日付を指定して過去のAPODを探す方法",
+            "body": "<p>04</p><p>年・月・日でNASA APODを探し、見つからない記事、時差、公開日と撮影日の違いを確認しましょう。</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "NASAのAstronomy Picture of the Day（APOD）とは？",
+            "href": "/guides/what-is-apod/ja/"
+          },
+          {
+            "label": "ガイドを読む",
+            "href": "/guides/what-is-apod/ja/"
+          },
+          {
+            "label": "誕生日に公開されたNASAの画像を探す方法",
+            "href": "/guides/nasa-picture-on-my-birthday/ja/"
+          },
+          {
+            "label": "ガイドを読む",
+            "href": "/guides/nasa-picture-on-my-birthday/ja/"
+          },
+          {
+            "label": "iPhoneにAPODウィジェットを追加する方法",
+            "href": "/guides/apod-widget-iphone/ja/"
+          },
+          {
+            "label": "ガイドを読む",
+            "href": "/guides/apod-widget-iphone/ja/"
+          },
+          {
+            "label": "日付を指定して過去のAPODを探す方法",
+            "href": "/guides/find-apod-by-date/ja/"
+          },
+          {
+            "label": "ガイドを読む",
+            "href": "/guides/find-apod-by-date/ja/"
+          },
+          {
+            "label": "すべてのガイド",
+            "href": "/guides/ja/"
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "title": "毎日、空を見上げよう。",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "App Store で DailyApod を入手",
+            "href": "https://apps.apple.com/jp/app/dailyapod-%E4%BB%8A%E6%97%A5%E3%81%AE%E5%AE%87%E5%AE%99/id1573247808"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/ja/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "/guides/ja/",
+        "label": "ガイド",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/ja/",
+        "label": "ajigu の他のアプリ",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "showcaseTitle": "暗い空、明るいピクセル。"
+  },
+  {
+    "route": "/ko/",
+    "locale": "ko",
+    "metadata": {
+      "title": "DailyApod — NASA 천문 사진을 매일, iPhone 앱",
+      "meta": [
+        {
+          "name": "color-scheme",
+          "content": "light dark"
+        },
+        {
+          "name": "description",
+          "content": "NASA 천문 사진(APOD)을 iPhone에서 우아하게. 둘러보고, 검색하고, 즐겨찾기에 담고, 위젯으로 우주를 확인하세요."
+        },
+        {
+          "property": "og:title",
+          "content": "DailyApod — 우주, 하루에 한 장"
+        },
+        {
+          "property": "og:description",
+          "content": "NASA 천문 사진을 iPhone에서 우아하게. 둘러보고, 검색하고, 즐겨찾기에 담고, 위젯으로 우주를 확인하세요."
+        },
+        {
+          "property": "og:image",
+          "content": "https://dailyapod.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://dailyapod.ajigu.com/ko/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko_KR"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/app-icon.png"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://dailyapod.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://dailyapod.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://dailyapod.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://dailyapod.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://dailyapod.ajigu.com/"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://dailyapod.ajigu.com/ko/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "DailyApod",
+          "alternateName": ["천문 사진 앱", "APOD app", "NASA APOD"],
+          "operatingSystem": "iOS, iPadOS, macOS, visionOS",
+          "applicationCategory": "MultimediaApplication",
+          "description": "NASA 천문 사진(APOD)을 iPhone에서 우아하게. 둘러보고, 검색하고, 즐겨찾기에 담고, 위젯으로 우주를 확인하세요.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://dailyapod.ajigu.com/ko/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://dailyapod.ajigu.com/assets/app-icon.png",
+          "inLanguage": "ko"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "DailyApod은 무료인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "네——다운로드와 매일의 사진 감상은 무료입니다. DailyApod Pro로 무제한 설명 번역 등 추가 기능이 열립니다. 가격은 App Store를 확인하세요."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "사진은 어디서 오나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "1995년부터 매일 발행되는 NASA의 천문 사진(APOD)입니다. 모든 이미지는 원출처로 연결되며 저자를 표기합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "지원 기기는?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "iOS 16 이상의 iPhone과 iPad, 그리고 Mac과 Apple Vision Pro에서도 실행됩니다. 위젯은 iOS 16+가 필요합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "개인정보는요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DailyApod는 개인 데이터를 수집하지 않습니다. 즐겨찾기는 자신의 iCloud로 동기화되고 번역은 기기에서 이루어집니다."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "DailyApod",
+    "claim": "우주, 하루에 한 장의 사진.",
+    "intro": "1995년부터 NASA는 매일 숨막히는 우주 사진 한 장을 공개합니다. DailyApod는 1만 장이 넘는 이 아카이브를 우아하게 당신의 주머니에 담습니다.",
+    "actions": [
+      {
+        "href": "https://apps.apple.com/kr/app/dailyapod-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%9A%B0%EC%A3%BC/id1573247808",
+        "label": "App Store에서 다운로드",
+        "external": false
+      },
+      {
+        "href": "#gallery",
+        "label": "화면 보기 ↓",
+        "external": false
+      }
+    ],
+    "note": "무료 다운로드 · iPhone, iPad, Mac, Vision Pro 지원 · 데이터 수집 없음",
+    "sections": [
+      {
+        "id": "features",
+        "title": "10년이 넘는 밤하늘 아카이브를 탐험하세요.",
+        "body": "<p>DailyApod는 NASA 아카이브로 이어지는 조용하고 정성스러운 창입니다.</p>",
+        "items": [
+          {
+            "title": "오늘, 그리고 매일",
+            "body": "<p>오늘의 APOD를 열거나 날짜를 골라 그날 게시된 자료를 읽어보세요.</p>"
+          },
+          {
+            "title": "우주 검색",
+            "body": "<p>제목이나 키워드로 검색——성운, 은하, 일식, 오로라——원하는 장면으로 바로 이동합니다.</p>"
+          },
+          {
+            "title": "홈 화면 위젯",
+            "body": "<p>다양한 크기의 위젯으로 홈 화면에서 오늘의 사진을 한눈에. 우주가 늘 시야 안에 있습니다.</p>"
+          },
+          {
+            "title": "즐겨찾기와 iCloud 동기화",
+            "body": "<p>사랑하는 사진을 모아보세요. 즐겨찾기는 당신의 iCloud로 안전하게 동기화됩니다.</p>"
+          },
+          {
+            "title": "설명 번역",
+            "body": "<p>NASA의 설명은 영어로 제공됩니다. 한 번의 탭으로 기기에서 번역하세요.</p>"
+          },
+          {
+            "title": "인기 사진",
+            "body": "<p>아카이브에서 가장 사랑받은 이미지를 둘러보고 놓친 고전을 만나보세요.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "궁금한 점.",
+        "questions": [
+          {
+            "question": "DailyApod은 무료인가요?",
+            "answer": "<p>네——다운로드와 매일의 사진 감상은 무료입니다. DailyApod Pro로 무제한 설명 번역 등 추가 기능이 열립니다. 가격은 App Store를 확인하세요.</p>"
+          },
+          {
+            "question": "사진은 어디서 오나요?",
+            "answer": "<p>1995년부터 매일 발행되는 NASA의 천문 사진(APOD)입니다. 모든 이미지는 원출처로 연결되며 저자를 표기합니다.</p>"
+          },
+          {
+            "question": "지원 기기는?",
+            "answer": "<p>iOS 16 이상의 iPhone과 iPad, 그리고 Mac과 Apple Vision Pro에서도 실행됩니다. 위젯은 iOS 16+가 필요합니다.</p>"
+          },
+          {
+            "question": "개인정보는요?",
+            "answer": "<p>DailyApod는 개인 데이터를 수집하지 않습니다. 즐겨찾기는 자신의 iCloud로 동기화되고 번역은 기기에서 이루어집니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "guides",
+        "title": "작은 발견부터 시작하세요.",
+        "body": "<p>날짜 검색, 과거 자료 탐색, 위젯 추가로 천문 사진을 일상에서 즐겨보세요.</p><p><a href=\"/guides/ko/\">모든 가이드 보기 ↗</a></p>",
+        "items": [
+          {
+            "title": "NASA의 Astronomy Picture of the Day, APOD란?",
+            "body": "<p>01</p><p>NASA APOD의 콘텐츠와 자료실, 게시 날짜의 의미, iPhone에서 사진과 해설을 읽는 방법을 알아보세요.</p>"
+          },
+          {
+            "title": "생일에 게시된 NASA 천문 사진 찾는 방법",
+            "body": "<p>02</p><p>생일의 APOD를 찾고, 1995년 이전 날짜의 제한과 Hubble 생일 도구와의 차이를 알아보세요.</p>"
+          },
+          {
+            "title": "iPhone에 APOD 위젯 추가하는 방법",
+            "body": "<p>03</p><p>DailyApod 홈 화면 위젯을 추가하고 크기와 콘텐츠를 선택하는 방법, 위젯 누락과 오래된 이미지 해결 방법을 알아보세요.</p>"
+          },
+          {
+            "title": "날짜로 과거 APOD 찾는 방법",
+            "body": "<p>04</p><p>연도, 월, 일로 NASA APOD를 검색하고, 없는 결과와 시간대 차이, 게시일과 촬영일의 차이를 알아보세요.</p>"
+          }
+        ],
+        "links": [
+          {
+            "label": "NASA의 Astronomy Picture of the Day, APOD란?",
+            "href": "/guides/what-is-apod/ko/"
+          },
+          {
+            "label": "가이드 읽기",
+            "href": "/guides/what-is-apod/ko/"
+          },
+          {
+            "label": "생일에 게시된 NASA 천문 사진 찾는 방법",
+            "href": "/guides/nasa-picture-on-my-birthday/ko/"
+          },
+          {
+            "label": "가이드 읽기",
+            "href": "/guides/nasa-picture-on-my-birthday/ko/"
+          },
+          {
+            "label": "iPhone에 APOD 위젯 추가하는 방법",
+            "href": "/guides/apod-widget-iphone/ko/"
+          },
+          {
+            "label": "가이드 읽기",
+            "href": "/guides/apod-widget-iphone/ko/"
+          },
+          {
+            "label": "날짜로 과거 APOD 찾는 방법",
+            "href": "/guides/find-apod-by-date/ko/"
+          },
+          {
+            "label": "가이드 읽기",
+            "href": "/guides/find-apod-by-date/ko/"
+          },
+          {
+            "label": "모든 가이드 보기",
+            "href": "/guides/ko/"
+          }
+        ]
+      },
+      {
+        "id": "section-4",
+        "title": "매일, 하늘을 올려다보세요.",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "App Store에서 DailyApod 받기",
+            "href": "https://apps.apple.com/kr/app/dailyapod-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%9A%B0%EC%A3%BC/id1573247808"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/ko/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "/guides/ko/",
+        "label": "가이드",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/ko/",
+        "label": "ajigu의 다른 앱",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": "",
+    "showcaseTitle": "어두운 밤하늘, 밝은 픽셀."
+  }
+]

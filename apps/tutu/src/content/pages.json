@@ -1,0 +1,1482 @@
+[
+  {
+    "route": "/",
+    "locale": "en",
+    "metadata": {
+      "title": "TUTU — AI Photo Eraser for iPhone. Tap it. It's gone.",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f7f3ea"
+        },
+        {
+          "name": "description",
+          "content": "TUTU is the AI photo eraser for iPhone. Tap any object—people, wires, trash cans—and on-device AI removes it and rebuilds the scene, privately."
+        },
+        {
+          "property": "og:title",
+          "content": "TUTU — Tap it. It's gone."
+        },
+        {
+          "property": "og:description",
+          "content": "The AI photo eraser for iPhone. Remove people, objects, and blemishes with a tap—on-device AI rebuilds the scene so naturally it was never there."
+        },
+        {
+          "property": "og:image",
+          "content": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://tutu.ajigu.com/"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://tutu.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://tutu.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://tutu.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "TUTU",
+          "alternateName": ["TUTU photo eraser", "AI object remover", "photo eraser app"],
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "PhotographyApplication",
+          "description": "The AI photo eraser for iPhone. Remove people, objects, and blemishes with a tap—on-device AI rebuilds the scene so naturally it was never there.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://tutu.ajigu.com/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/"
+          },
+          "image": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is TUTU free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The TestFlight beta is free to join. At launch, TUTU will be free to download, with a Premium upgrade (monthly, annual, or lifetime) that unlocks all features."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does the erasing work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tap an object and TUTU finds its outline automatically, then an on-device image-inpainting model rebuilds the background where the object used to be. Everything runs locally on your iPhone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can it remove?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "People, pets, trash cans, power lines, signs, blemishes—anything you can tap or paint over. Areas with plenty of surrounding texture rebuild most naturally."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What about my privacy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Photos never leave your device. There is no account, no upload, and no tracking—erasing happens entirely on your iPhone."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "TUTU",
+    "claim": "Tap it. It's gone.",
+    "intro": "Passers-by, power lines, trash cans—tap anything in your photo and TUTU's on-device AI erases it, rebuilding the scene so naturally it was never there.",
+    "actions": [
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "Join the free beta on TestFlight",
+        "external": false
+      },
+      {
+        "href": "#how",
+        "label": "See how it works ↓",
+        "external": false
+      }
+    ],
+    "note": "Free beta · iPhone & iPad · iOS 17+ · Photos never leave your device",
+    "sections": [
+      {
+        "id": "features",
+        "title": "Erase like it never happened.",
+        "body": "<p>TUTU pairs smart object detection with an image-restoration model that runs entirely on your device.</p>",
+        "items": [
+          {
+            "title": "Tap to erase",
+            "body": "<p>Tap any object and TUTU finds its outline automatically—no careful tracing, no masks. One tap, and it&#x27;s history.</p>"
+          },
+          {
+            "title": "Brush, line & box",
+            "body": "<p>For anything you&#x27;d rather paint over—blemishes, cables, stains—precise brush, line, and rectangle tools are right there.</p>"
+          },
+          {
+            "title": "Auto remove",
+            "body": "<p>Lift your finger and TUTU cleans up the marked area automatically, filling it with what belongs there instead.</p>"
+          },
+          {
+            "title": "Private by design",
+            "body": "<p>Detection and inpainting run entirely on your iPhone. No account, no uploads, no tracking—your photos stay yours.</p>"
+          },
+          {
+            "title": "Tunable detection",
+            "body": "<p>Adjust the sensitivity to sweep up tiny clutter or grab whole objects—TUTU adapts to the scene you&#x27;re fixing.</p>"
+          },
+          {
+            "title": "Save & keep going",
+            "body": "<p>Export straight back to your photo library in full quality, and keep erasing until the frame feels right.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "how",
+        "title": "Three steps to a cleaner frame.",
+        "body": "",
+        "items": [
+          {
+            "title": "Pick a photo",
+            "body": "<p>Tap or drag any picture in from your library.</p>"
+          },
+          {
+            "title": "Mark what should go",
+            "body": "<p>Tap an object, or brush over an area—your call.</p>"
+          },
+          {
+            "title": "AI does the rest",
+            "body": "<p>The scene is rebuilt in place. Save it back to your album.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "Questions, answered.",
+        "questions": [
+          {
+            "question": "Is TUTU free?",
+            "answer": "<p>The TestFlight beta is free to join. At launch, TUTU will be free to download, with a Premium upgrade (monthly, annual, or lifetime) that unlocks all features.</p>"
+          },
+          {
+            "question": "How does the erasing work?",
+            "answer": "<p>Tap an object and TUTU finds its outline automatically, then an on-device image-inpainting model rebuilds the background where the object used to be. Everything runs locally on your iPhone.</p>"
+          },
+          {
+            "question": "What can it remove?",
+            "answer": "<p>People, pets, trash cans, power lines, signs, blemishes—anything you can tap or paint over. Areas with plenty of surrounding texture rebuild most naturally.</p>"
+          },
+          {
+            "question": "What about my privacy?",
+            "answer": "<p>Photos never leave your device. There is no account, no upload, and no tracking—erasing happens entirely on your iPhone.</p>"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "title": "Clear the picture, keep the moment.",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "Get TUTU on TestFlight",
+            "href": "https://testflight.apple.com/join/72GRwKdU"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight beta",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/",
+        "label": "More ajigu apps",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": ""
+  },
+  {
+    "route": "/zh-hans/",
+    "locale": "zh-Hans",
+    "metadata": {
+      "title": "TUTU — iPhone AI 照片消除，轻轻一点，它就消失了",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f7f3ea"
+        },
+        {
+          "name": "description",
+          "content": "TUTU 是 iPhone 上的 AI 照片消除工具。轻轻一点，路人、电线、杂物就从照片里消失，设备端 AI 自然重建背景，隐私不外泄。"
+        },
+        {
+          "property": "og:title",
+          "content": "TUTU — 轻轻一点，它就消失了。"
+        },
+        {
+          "property": "og:description",
+          "content": "iPhone 上的 AI 照片消除工具。一键点掉路人和杂物，设备端 AI 重建画面，就像从未存在过。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_CN"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://tutu.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://tutu.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "TUTU",
+          "alternateName": ["TUTU 照片消除", "AI 消除笔", "照片擦除 app"],
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "PhotographyApplication",
+          "description": "iPhone 上的 AI 照片消除工具。一键点掉路人和杂物，设备端 AI 重建画面，就像从未存在过。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://tutu.ajigu.com/zh-hans/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/zh-hans/"
+          },
+          "image": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "TUTU 是免费的吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TestFlight 测试版免费加入。正式上线后 TUTU 可免费下载，Premium（按月、按年或买断）解锁全部功能。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "消除是怎么实现的？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "点一下物体，TUTU 自动识别它的轮廓，再由设备端的图像修复模型重建原本被挡住的背景。全部在你的 iPhone 本地完成。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "能消除什么？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "路人、宠物、垃圾桶、电线、招牌、瑕疵——凡是你能点到或涂到的地方都可以。周围纹理越丰富，重建效果越自然。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "隐私方面呢？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "照片绝不离开你的设备。没有账号、没有上传、没有追踪——消除完全在 iPhone 本地完成。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "TUTU",
+    "claim": "轻轻一点， 它就消失了。",
+    "intro": "路人、电线、垃圾桶——点一下照片里的任何东西，TUTU 的设备端 AI 就会把它擦掉，再自然地重建画面，就像它从未存在过。",
+    "actions": [
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "通过 TestFlight 加入免费测试",
+        "external": false
+      },
+      {
+        "href": "#how",
+        "label": "看看怎么用 ↓",
+        "external": false
+      }
+    ],
+    "note": "免费测试版 · iPhone 和 iPad · iOS 17 或更高 · 照片绝不离开你的设备",
+    "sections": [
+      {
+        "id": "features",
+        "title": "消除得像从未发生过。",
+        "body": "<p>TUTU 把智能物体识别和完全在本地运行的图像修复模型装到了一起。</p>",
+        "items": [
+          {
+            "title": "点按消除",
+            "body": "<p>点一下任何物体，TUTU 自动找到它的轮廓——不用描边，不用抠图。一次点击，让它成为历史。</p>"
+          },
+          {
+            "title": "画笔、直线与方框",
+            "body": "<p>想精细涂掉瑕疵、线缆、污渍？画笔、直线和矩形工具随时待命。</p>"
+          },
+          {
+            "title": "自动消除",
+            "body": "<p>手指一抬，TUTU 自动清理标记的区域，并用原本该在那里的内容补上。</p>"
+          },
+          {
+            "title": "隐私优先",
+            "body": "<p>识别和修复完全在你的 iPhone 上运行。没有账号、没有上传、没有追踪——照片只属于你。</p>"
+          },
+          {
+            "title": "灵敏度可调",
+            "body": "<p>调节识别灵敏度，既能扫掉细碎杂物，也能整块拿下大物体——TUTU 适配你要修的每一张画面。</p>"
+          },
+          {
+            "title": "保存与继续",
+            "body": "<p>以原画质直接存回相册，不满意就继续消除，直到画面刚刚好。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "how",
+        "title": "三步，还你干净画面。",
+        "body": "",
+        "items": [
+          {
+            "title": "选一张照片",
+            "body": "<p>从相册点选或拖入任何图片。</p>"
+          },
+          {
+            "title": "标记要消除的",
+            "body": "<p>点一下物体，或涂过一片区域——由你决定。</p>"
+          },
+          {
+            "title": "AI 完成剩下的",
+            "body": "<p>画面就地重建，存回相册即可。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "你可能想问。",
+        "questions": [
+          {
+            "question": "TUTU 是免费的吗？",
+            "answer": "<p>TestFlight 测试版免费加入。正式上线后 TUTU 可免费下载，Premium（按月、按年或买断）解锁全部功能。</p>"
+          },
+          {
+            "question": "消除是怎么实现的？",
+            "answer": "<p>点一下物体，TUTU 自动识别它的轮廓，再由设备端的图像修复模型重建原本被挡住的背景。全部在你的 iPhone 本地完成。</p>"
+          },
+          {
+            "question": "能消除什么？",
+            "answer": "<p>路人、宠物、垃圾桶、电线、招牌、瑕疵——凡是你能点到或涂到的地方都可以。周围纹理越丰富，重建效果越自然。</p>"
+          },
+          {
+            "question": "隐私方面呢？",
+            "answer": "<p>照片绝不离开你的设备。没有账号、没有上传、没有追踪——消除完全在 iPhone 本地完成。</p>"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "title": "抹掉杂物，留下瞬间。",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "去 TestFlight 下载 TUTU",
+            "href": "https://testflight.apple.com/join/72GRwKdU"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/zh-hans/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight 测试版",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/zh-hans/",
+        "label": "更多啊叽咕的 app",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": ""
+  },
+  {
+    "route": "/zh-hant/",
+    "locale": "zh-Hant",
+    "metadata": {
+      "title": "TUTU — iPhone AI 照片消除，輕輕一點，它就消失了",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f7f3ea"
+        },
+        {
+          "name": "description",
+          "content": "TUTU 是 iPhone 上的 AI 照片消除工具。輕輕一點，路人、電線、雜物就從照片裡消失，裝置端 AI 自然重建背景，隱私不外洩。"
+        },
+        {
+          "property": "og:title",
+          "content": "TUTU — 輕輕一點，它就消失了。"
+        },
+        {
+          "property": "og:description",
+          "content": "iPhone 上的 AI 照片消除工具。一鍵點掉路人和雜物，裝置端 AI 重建畫面，就像從未存在過。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_TW"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://tutu.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://tutu.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "TUTU",
+          "alternateName": ["TUTU 照片消除", "AI 消除筆", "照片擦除 app"],
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "PhotographyApplication",
+          "description": "iPhone 上的 AI 照片消除工具。一鍵點掉路人和雜物，裝置端 AI 重建畫面，就像從未存在過。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://tutu.ajigu.com/zh-hant/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/zh-hant/"
+          },
+          "image": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "TUTU 是免費的嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TestFlight 測試版免費加入。正式上架後 TUTU 可免費下載，Premium（按月、按年或買斷）解鎖全部功能。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "消除是怎麼實現的？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "點一下物體，TUTU 自動辨識它的輪廓，再由裝置端的影像修復模型重建原本被擋住的背景。全部在你的 iPhone 本地完成。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "能消除什麼？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "路人、寵物、垃圾桶、電線、招牌、瑕疵——凡是你能點到或塗到的地方都可以。周圍紋理越豐富，重建效果越自然。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "隱私方面呢？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "照片絕不離開你的裝置。沒有帳號、沒有上傳、沒有追蹤——消除完全在 iPhone 本地完成。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "TUTU",
+    "claim": "輕輕一點， 它就消失了。",
+    "intro": "路人、電線、垃圾桶——點一下照片裡的任何東西，TUTU 的裝置端 AI 就會把它擦掉，再自然地重建畫面，就像它從未存在過。",
+    "actions": [
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "透過 TestFlight 加入免費測試",
+        "external": false
+      },
+      {
+        "href": "#how",
+        "label": "看看怎麼用 ↓",
+        "external": false
+      }
+    ],
+    "note": "免費測試版 · iPhone 和 iPad · iOS 17 或以上 · 照片絕不離開你的裝置",
+    "sections": [
+      {
+        "id": "features",
+        "title": "消除得像從未發生。",
+        "body": "<p>TUTU 把智慧物體辨識和完全在本地執行的影像修復模型裝到了一起。</p>",
+        "items": [
+          {
+            "title": "點按消除",
+            "body": "<p>點一下任何物體，TUTU 自動找到它的輪廓——不用描邊，不用去背。一次點擊，讓它成為歷史。</p>"
+          },
+          {
+            "title": "畫筆、直線與方框",
+            "body": "<p>想精細塗掉瑕疵、線纜、污漬？畫筆、直線和矩形工具隨時待命。</p>"
+          },
+          {
+            "title": "自動消除",
+            "body": "<p>手指一抬，TUTU 自動清理標記的區域，並用原本該在那裡的內容補上。</p>"
+          },
+          {
+            "title": "隱私優先",
+            "body": "<p>辨識和修復完全在你的 iPhone 上執行。沒有帳號、沒有上傳、沒有追蹤——照片只屬於你。</p>"
+          },
+          {
+            "title": "靈敏度可調",
+            "body": "<p>調整辨識靈敏度，既能掃掉細碎雜物，也能整塊拿下大物體——TUTU 配合你要修的每一張畫面。</p>"
+          },
+          {
+            "title": "儲存與繼續",
+            "body": "<p>以原畫質直接存回相簿，不滿意就繼續消除，直到畫面剛剛好。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "how",
+        "title": "三步，還你乾淨畫面。",
+        "body": "",
+        "items": [
+          {
+            "title": "選一張照片",
+            "body": "<p>從相簿點選或拖入任何圖片。</p>"
+          },
+          {
+            "title": "標記要消除的",
+            "body": "<p>點一下物體，或塗過一片區域——由你決定。</p>"
+          },
+          {
+            "title": "AI 完成剩下的",
+            "body": "<p>畫面就地重建，存回相簿即可。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "你可能想問。",
+        "questions": [
+          {
+            "question": "TUTU 是免費的嗎？",
+            "answer": "<p>TestFlight 測試版免費加入。正式上架後 TUTU 可免費下載，Premium（按月、按年或買斷）解鎖全部功能。</p>"
+          },
+          {
+            "question": "消除是怎麼實現的？",
+            "answer": "<p>點一下物體，TUTU 自動辨識它的輪廓，再由裝置端的影像修復模型重建原本被擋住的背景。全部在你的 iPhone 本地完成。</p>"
+          },
+          {
+            "question": "能消除什麼？",
+            "answer": "<p>路人、寵物、垃圾桶、電線、招牌、瑕疵——凡是你能點到或塗到的地方都可以。周圍紋理越豐富，重建效果越自然。</p>"
+          },
+          {
+            "question": "隱私方面呢？",
+            "answer": "<p>照片絕不離開你的裝置。沒有帳號、沒有上傳、沒有追蹤——消除完全在 iPhone 本地完成。</p>"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "title": "抹掉雜物，留下瞬間。",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "去 TestFlight 下載 TUTU",
+            "href": "https://testflight.apple.com/join/72GRwKdU"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/zh-hant/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight 測試版",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/zh-hant/",
+        "label": "更多啊嘰咕的 app",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": ""
+  },
+  {
+    "route": "/ja/",
+    "locale": "ja",
+    "metadata": {
+      "title": "TUTU — iPhone の AI 写真消しゴム。タップしたら、消えている。",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f7f3ea"
+        },
+        {
+          "name": "description",
+          "content": "TUTU は iPhone の AI 写真消しゴム。写りこんだ人や物をタップするだけで消して、オンデバイス AI が背景を自然に再構築。写真は端末から出ません。"
+        },
+        {
+          "property": "og:title",
+          "content": "TUTU — タップしたら、消えている。"
+        },
+        {
+          "property": "og:description",
+          "content": "iPhone の AI 写真消しゴム。人やいらない物をワンタップで消去。オンデバイス AI がまるで最初からなかったかのように自然に仕上げます。"
+        },
+        {
+          "property": "og:image",
+          "content": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja_JP"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://tutu.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://tutu.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "TUTU",
+          "alternateName": ["TUTU 写真消しゴム", "AI オブジェクト削除", "写真加工アプリ"],
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "PhotographyApplication",
+          "description": "iPhone の AI 写真消しゴム。人やいらない物をワンタップで消去。オンデバイス AI がまるで最初からなかったかのように自然に仕上げます。",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://tutu.ajigu.com/ja/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/ja/"
+          },
+          "image": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "TUTU は無料ですか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TestFlight ベータ版は無料で参加できます。正式リリース後は無料でダウンロードでき、プレミアム（月額・年額・買い切り）ですべての機能が使えます。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "消去の仕組みは？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "物をタップすると TUTU が輪郭を自動検出し、オンデバイスの画像修復モデルがその部分の背景を再構築します。処理はすべて iPhone 内で完結します。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "何を消せますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "人、ペット、ゴミ箱、電線、看板、キズなど、タップや塗りで指定できるものなら何でも。周囲に質感が多いほど自然に仕上がります。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "プライバシーは？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "写真が端末の外に出ることはありません。アカウント登録も、アップロードも、トラッキングもなし。消去はすべて iPhone の中で行われます。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "TUTU",
+    "claim": "タップしたら、 消えている。",
+    "intro": "通りすがりの人、電線、ゴミ箱——写真の中のいらないものをタップするだけ。TUTU のオンデバイス AI が消して、まるで最初からなかったかのように背景を自然に仕上げます。",
+    "actions": [
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight で無料ベータに参加",
+        "external": false
+      },
+      {
+        "href": "#how",
+        "label": "使い方を見る ↓",
+        "external": false
+      }
+    ],
+    "note": "無料ベータ · iPhone・iPad 対応 · iOS 17 以降 · 写真は端末から出ません",
+    "sections": [
+      {
+        "id": "features",
+        "title": "なかったことのように消える。",
+        "body": "<p>TUTU はスマートな物体検出と、端末内で完結する画像修復モデルを組み合わせています。</p>",
+        "items": [
+          {
+            "title": "タップして消す",
+            "body": "<p>物をタップすれば輪郭を自動検出。なぞることもマスク作りも不要。ワンタップで過去のものに。</p>"
+          },
+          {
+            "title": "ブラシ・直線・四角形",
+            "body": "<p>キズやケーブル、染みを丁寧に消したいときは、ブラシ・直線・四角形のツールがそばに。</p>"
+          },
+          {
+            "title": "自動消去",
+            "body": "<p>指を離せば、マークした部分を TUTU が自動で片付け、そこにあるべきものを敷き詰めます。</p>"
+          },
+          {
+            "title": "プライバシー第一",
+            "body": "<p>検出も修復もすべて iPhone の中だけ。アカウント登録も、アップロードも、トラッキングもなし。</p>"
+          },
+          {
+            "title": "検出感度を調整",
+            "body": "<p>感度を変えれば、細かいゴミから大きな物体まで。直したいシーンに合わせて TUTU が柔軟に対応します。</p>"
+          },
+          {
+            "title": "保存して、さらに編集",
+            "body": "<p>フル画質のままカメラロールに書き出し、納得いくまで消し続けられます。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "how",
+        "title": "3 ステップで、すっきりした一枚に。",
+        "body": "",
+        "items": [
+          {
+            "title": "写真を選ぶ",
+            "body": "<p>ライブラリから写真をタップまたはドラッグします。</p>"
+          },
+          {
+            "title": "消したい場所を指定",
+            "body": "<p>物をタップしても、エリアを塗っても、自由です。</p>"
+          },
+          {
+            "title": "あとは AI におまかせ",
+            "body": "<p>その場でシーンを再構築。アルバムに保存して完了。</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "よくあるご質問。",
+        "questions": [
+          {
+            "question": "TUTU は無料ですか？",
+            "answer": "<p>TestFlight ベータ版は無料で参加できます。正式リリース後は無料でダウンロードでき、プレミアム（月額・年額・買い切り）ですべての機能が使えます。</p>"
+          },
+          {
+            "question": "消去の仕組みは？",
+            "answer": "<p>物をタップすると TUTU が輪郭を自動検出し、オンデバイスの画像修復モデルがその部分の背景を再構築します。処理はすべて iPhone 内で完結します。</p>"
+          },
+          {
+            "question": "何を消せますか？",
+            "answer": "<p>人、ペット、ゴミ箱、電線、看板、キズなど、タップや塗りで指定できるものなら何でも。周囲に質感が多いほど自然に仕上がります。</p>"
+          },
+          {
+            "question": "プライバシーは？",
+            "answer": "<p>写真が端末の外に出ることはありません。アカウント登録も、アップロードも、トラッキングもなし。消去はすべて iPhone の中で行われます。</p>"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "title": "いらないものを消して、瞬間を残す。",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "TestFlight で TUTU を入手",
+            "href": "https://testflight.apple.com/join/72GRwKdU"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/ja/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight ベータ",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/ja/",
+        "label": "ajigu のアプリをもっと",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": ""
+  },
+  {
+    "route": "/ko/",
+    "locale": "ko",
+    "metadata": {
+      "title": "TUTU — iPhone AI 사진 지우개. 탭하면, 사라집니다.",
+      "meta": [
+        {
+          "name": "theme-color",
+          "content": "#f7f3ea"
+        },
+        {
+          "name": "description",
+          "content": "TUTU는 iPhone용 AI 사진 지우개. 사진 속 지우고 싶은 것을 한 번 탭하면, 온디바이스 AI가 지운 뒤 배경을 자연스럽게 되살립니다. 사진은 기기 밖으로 나가지 않습니다."
+        },
+        {
+          "property": "og:title",
+          "content": "TUTU — 탭하면, 사라집니다."
+        },
+        {
+          "property": "og:description",
+          "content": "iPhone용 AI 사진 지우개. 사람과 물건을 한 번 탭으로 지우고, 온디바이스 AI가 처음부터 없었던 것처럼 자연스럽게 채워 넣습니다."
+        },
+        {
+          "property": "og:image",
+          "content": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:url",
+          "content": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko_KR"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/assets/favicon.png"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://tutu.ajigu.com/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://tutu.ajigu.com/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://tutu.ajigu.com/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://tutu.ajigu.com/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://tutu.ajigu.com/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://tutu.ajigu.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "TUTU",
+          "alternateName": ["TUTU 사진 지우개", "AI 사진 지우기", "사진 편집 앱"],
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "PhotographyApplication",
+          "description": "iPhone용 AI 사진 지우개. 사람과 물건을 한 번 탭으로 지우고, 온디바이스 AI가 처음부터 없었던 것처럼 자연스럽게 채워 넣습니다.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://tutu.ajigu.com/ko/",
+          "author": {
+            "@type": "Organization",
+            "name": "ajigu",
+            "url": "https://ajigu.com/ko/"
+          },
+          "image": "https://tutu.ajigu.com/assets/app-icon.png"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "TUTU는 무료인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TestFlight 베타는 무료로 참여할 수 있습니다. 정식 출시 후에도 무료로 다운로드할 수 있으며, 프리미엄(월간·연간·평생)으로 모든 기능이 잠금 해제됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "지우기는 어떻게 작동하나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "물체를 탭하면 TUTU가 윤곽을 자동으로 찾아내고, 온디바이스 이미지 인페인팅 모델이 그 자리의 배경을 다시 채워 넣습니다. 모든 과정이 iPhone 안에서 이루어집니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "무엇을 지울 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "사람, 반려동물, 쓰레기통, 전선, 간판, 잡티 등 탭하거나 칠해서 지정할 수 있는 것이라면 무엇이든. 주변 질감이 풍부할수록 자연스럽게 채워집니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "개인정보는 안전한가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "사진은 절대 기기를 떠나지 않습니다. 계정도, 업로드도, 추적도 없습니다. 지우기는 전부 iPhone에서 처리됩니다."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "href": "/",
+        "code": "en",
+        "label": "English"
+      },
+      {
+        "href": "/zh-hans/",
+        "code": "zh-Hans",
+        "label": "简体中文"
+      },
+      {
+        "href": "/zh-hant/",
+        "code": "zh-Hant",
+        "label": "繁體中文"
+      },
+      {
+        "href": "/ja/",
+        "code": "ja",
+        "label": "日本語"
+      },
+      {
+        "href": "/ko/",
+        "code": "ko",
+        "label": "한국어"
+      }
+    ],
+    "heading": "TUTU",
+    "claim": "탭하면, 사라집니다.",
+    "intro": "지나가는 사람, 전선, 쓰레기통—사진 속 지우고 싶은 것을 한 번 탭하세요. TUTU의 온디바이스 AI가 지운 뒤, 처음부터 없었던 것처럼 배경을 자연스럽게 되살립니다.",
+    "actions": [
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight에서 무료 베타 참여",
+        "external": false
+      },
+      {
+        "href": "#how",
+        "label": "사용 방법 보기 ↓",
+        "external": false
+      }
+    ],
+    "note": "무료 베타 · iPhone 및 iPad · iOS 17 이상 · 사진은 기기를 떠나지 않습니다",
+    "sections": [
+      {
+        "id": "features",
+        "title": "없었던 일처럼 지웁니다.",
+        "body": "<p>TUTU는 스마트한 물체 인식과 기기 안에서만 실행되는 이미지 복원 모델을 하나로 묶었습니다.</p>",
+        "items": [
+          {
+            "title": "탭해서 지우기",
+            "body": "<p>물체를 한 번 탭하면 TUTU가 윤곽을 자동으로 찾아냅니다. 정교한 외곽선 그리기도, 마스크도 필요 없어요.</p>"
+          },
+          {
+            "title": "브러시·선·사각형",
+            "body": "<p>잡티, 케이블, 얼룩을 섬세하게 지우고 싶을 때는 브러시, 직선, 사각형 도구가 곁에 있습니다.</p>"
+          },
+          {
+            "title": "자동 지우기",
+            "body": "<p>손가락만 떼면 TUTU가 표시한 영역을 알아서 정리하고, 원래 있어야 할 것으로 채워 넣습니다.</p>"
+          },
+          {
+            "title": "설계부터 프라이버시",
+            "body": "<p>인식과 복원은 전부 iPhone에서만 실행됩니다. 계정도, 업로드도, 추적도 없이 사진은 온전히 당신의 것.</p>"
+          },
+          {
+            "title": "감도 조절",
+            "body": "<p>감도를 조절하면 잘게 흩어진 잡동사니부터 큰 물체까지. 수정하려는 장면에 맞춰 TUTU가 적응합니다.</p>"
+          },
+          {
+            "title": "저장하고 계속",
+            "body": "<p>원본 화질 그대로 사진 앱으로 내보내고, 마음에 들 때까지 계속 지울 수 있습니다.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "how",
+        "title": "3단계면 깔끔한 한 장.",
+        "body": "",
+        "items": [
+          {
+            "title": "사진 고르기",
+            "body": "<p>라이브러리에서 사진을 탭하거나 드래그해 넣으세요.</p>"
+          },
+          {
+            "title": "지울 곳 표시",
+            "body": "<p>물체를 탭해도, 영역을 칠해도 — 당신이 정합니다.</p>"
+          },
+          {
+            "title": "나머지는 AI가",
+            "body": "<p>장면이 그 자리에서 다시 채워집니다. 앨범으로 저장하면 끝.</p>"
+          }
+        ],
+        "links": []
+      },
+      {
+        "id": "faq",
+        "title": "궁금한 점, 답했습니다.",
+        "questions": [
+          {
+            "question": "TUTU는 무료인가요?",
+            "answer": "<p>TestFlight 베타는 무료로 참여할 수 있습니다. 정식 출시 후에도 무료로 다운로드할 수 있으며, 프리미엄(월간·연간·평생)으로 모든 기능이 잠금 해제됩니다.</p>"
+          },
+          {
+            "question": "지우기는 어떻게 작동하나요?",
+            "answer": "<p>물체를 탭하면 TUTU가 윤곽을 자동으로 찾아내고, 온디바이스 이미지 인페인팅 모델이 그 자리의 배경을 다시 채워 넣습니다. 모든 과정이 iPhone 안에서 이루어집니다.</p>"
+          },
+          {
+            "question": "무엇을 지울 수 있나요?",
+            "answer": "<p>사람, 반려동물, 쓰레기통, 전선, 간판, 잡티 등 탭하거나 칠해서 지정할 수 있는 것이라면 무엇이든. 주변 질감이 풍부할수록 자연스럽게 채워집니다.</p>"
+          },
+          {
+            "question": "개인정보는 안전한가요?",
+            "answer": "<p>사진은 절대 기기를 떠나지 않습니다. 계정도, 업로드도, 추적도 없습니다. 지우기는 전부 iPhone에서 처리됩니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "section-3",
+        "title": "지울 건 지우고, 순간은 남기세요.",
+        "body": "",
+        "items": [],
+        "links": [
+          {
+            "label": "TestFlight에서 TUTU 받기",
+            "href": "https://testflight.apple.com/join/72GRwKdU"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://ajigu.com/ko/",
+        "label": "ajigu.com",
+        "external": false
+      },
+      {
+        "href": "https://testflight.apple.com/join/72GRwKdU",
+        "label": "TestFlight 베타",
+        "external": false
+      },
+      {
+        "href": "https://ajigu.com/ko/",
+        "label": "ajigu의 앱 더 보기",
+        "external": false
+      }
+    ],
+    "mainId": "main",
+    "showcaseHTML": ""
+  }
+]

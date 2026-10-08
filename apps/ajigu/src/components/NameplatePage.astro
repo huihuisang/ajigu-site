@@ -1,0 +1,68 @@
+---
+import pages from "../content/nameplate.json";
+import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
+import { SiteHeader } from "@ajigu/site-kit/components/SiteHeader";
+import { SiteFooter } from "@ajigu/site-kit/components/SiteFooter";
+import { ProductHero } from "@ajigu/site-kit/components/ProductHero";
+import { Faq } from "@ajigu/site-kit/components/Faq";
+import { EditorialSection } from "@ajigu/site-kit/components/EditorialSection";
+import { LinkButton } from "@ajigu/ui/components/link-button";
+import { getCopy, formatShortText } from "@ajigu/site-kit/copy";
+import NamePreview from "./NamePreview";
+interface Props {
+  page: (typeof pages)[number];
+}
+const { page } = Astro.props;
+const copy = getCopy(page.locale);
+---
+
+<SiteLayout metadata={page.metadata} locale={page.locale} product="nameplate">
+  <a class="studio-skip" href="#main">
+    {copy.skip}
+  </a>
+  <SiteHeader
+    client:load
+    appId="nameplate"
+    name="Nameplate Studio"
+    icon="/assets/nameplate-icon.webp"
+    route={page.route}
+    copy={copy}
+    languages={page.languages}
+    language={page.locale}
+  />
+  <main class="detail-flow" id="main">
+    <ProductHero id="nameplate" name="Nameplate Studio" claim={page.claim} intro={page.intro}>
+      <Fragment slot="actions">
+        <LinkButton href={page.editor} label={copy.openEditor} arrow />
+      </Fragment>
+    </ProductHero>
+    <section class="studio-demo studio-shell" id="showcase">
+      <h2>{copy.demos.nameplate}</h2>
+      <NamePreview locale={page.locale} editor={page.editor} client:load />
+    </section>
+    <EditorialSection
+      section={{ id: "features", title: page.featureTitle, items: page.features }}
+    />
+    <section class="content-section studio-shell" id="templates">
+      <h2>{formatShortText(page.templateTitle)}</h2>
+      <div class="template-gallery">
+        {page.templates.map((item) => (
+          <figure>
+            <img
+              src={item.src}
+              alt={item.alt}
+              width={Number(item.width)}
+              height={Number(item.height)}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>{item.label}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+    <EditorialSection section={{ id: "how", title: page.howTitle, items: page.steps }} />
+    <Faq client:load title={page.faqTitle} questions={page.questions} />
+  </main>
+  <SiteFooter signatureLabel={copy.signatureLabel} client:load links={page.footerLinks} />
+</SiteLayout>

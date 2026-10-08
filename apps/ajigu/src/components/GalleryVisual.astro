@@ -1,0 +1,20 @@
+---
+import media from "../content/gallery.json";
+interface Props {
+  id: keyof typeof media;
+}
+const { id } = Astro.props;
+const item = media[id];
+---
+
+<div class="gallery-stage" aria-hidden="true">
+  <img
+    class="gallery-mockup"
+    src={`/gallery/${item.file}`}
+    alt=""
+    width={item.width}
+    height={item.height}
+    loading="eager"
+    decoding="async"
+  />
+</div>

@@ -1,0 +1,26 @@
+{
+  "ajigu": {
+    "files": 95,
+    "browserTestedOutput": "identical"
+  },
+  "moodsk": {
+    "files": 142,
+    "browserTestedOutput": "identical"
+  },
+  "tutu": {
+    "files": 39,
+    "browserTestedOutput": "identical"
+  },
+  "gosleep": {
+    "files": 64,
+    "browserTestedOutput": "identical"
+  },
+  "dailyapod": {
+    "files": 70,
+    "browserTestedOutput": "identical"
+  },
+  "typenote": {
+    "files": 48,
+    "browserTestedOutput": "identical"
+  }
+}

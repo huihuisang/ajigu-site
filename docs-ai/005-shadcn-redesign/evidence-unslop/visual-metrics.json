@@ -1,0 +1,16 @@
+{
+  "viewport": 1440,
+  "scrollWidth": 1440,
+  "cards": 6,
+  "cardHeight": 224,
+  "descriptionFontPx": 13,
+  "metadataFontPx": 12,
+  "titleTracking": "normal",
+  "mediaBackground": "rgb(239, 239, 239)",
+  "metadataOverflowPx": -1,
+  "explicitHomeEntrances": 1,
+  "signatureLabel": "和啊叽咕打个招呼",
+  "visualRounds": 3,
+  "beforeAfterState": "1440x1000, zh-Hans, default light; Moodsk starts at scene 1",
+  "motionRecording": "/Users/ajigu/.local/share/task-artifacts/work/82910386aa384803a37a7d74b4e6c9fe/design/motion-normal-and-slow.webm"
+}

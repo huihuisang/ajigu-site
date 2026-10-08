@@ -1,0 +1,2149 @@
+{
+ "url": "http://127.0.0.1:8770/nameplate/about/",
+ "at": "2026-10-31T01:38:06.313Z",
+ "allow": [
+  "palette-cream"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.45,
+    0.57,
+    0.59,
+    0.75
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 16,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3461,
+     "screens": 3.8,
+     "words": 222,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "navy-gold.webp",
+      "coral.webp",
+      "forest.webp",
+      "og.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nameplate Studio",
+     "words": 2,
+     "chars": 16,
+     "lines": 2,
+     "size": 96,
+     "vw": 6.7,
+     "font": "-apple-system",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 1.03,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.42,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nameplate Studio",
+     "words": 2,
+     "lines": 2,
+     "size": 96,
+     "font": "-apple-system"
+    },
+    "headings": [
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "-apple-system",
+      "weight": 850,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 23,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 2,
+      "size": 96,
+      "vw": 6.7,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Alex Chen",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "-apple-system",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.14,
+      "top": 332,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "A little place for your name.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "-apple-system",
+      "weight": 750,
+      "tracking": -0.035,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 378,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "A little room to play.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 746,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Alex Chen",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "-apple-system",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.14,
+      "top": 950,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "A little place for your name.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 1305,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your name. Your style.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1405,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "One desk or a whole room",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1405,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Print, fold and take your seat",
+      "words": 6,
+      "chars": 30,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1533,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Make it your own.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1731,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From a name to a desk card",
+      "words": 7,
+      "chars": 26,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 2180,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pick a template. Add a name.",
+      "words": 6,
+      "chars": 28,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2267,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Preview, then export",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2267,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Print and fold",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2370,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3072,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "-apple-system",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "PingFang SC",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      21,
+      28,
+      30,
+      36,
+      43,
+      46,
+      96
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "-apple-system",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 96,
+      "vw": 6.7,
+      "font": "-apple-system",
+      "text": "Nameplate Studio"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f7f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.24,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 825,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#171717",
+       "share": 0.79
+      },
+      {
+       "color": "#54544e",
+       "share": 0.15
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#2347d9",
+      "hsl": {
+       "h": 228,
+       "s": 0.72,
+       "l": 0.49
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Open the full editor ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": false,
+     "height": 94,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3461,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "section#hero.product-hero.studio-shell",
+      "tag": "section",
+      "top": 94,
+      "height": 606,
+      "words": 42,
+      "media": 0,
+      "middle": 276,
+      "heading": {
+       "text": "Nameplate Studio",
+       "size": 96,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 282,
+      "textLeft": 80,
+      "textRight": 282,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#showcase.studio-demo.studio-shell",
+      "tag": "section",
+      "top": 700,
+      "height": 545,
+      "words": 22,
+      "media": 0,
+      "middle": 315,
+      "heading": {
+       "text": "A little room to play.",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 353,
+      "textLeft": 80,
+      "textRight": 353,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 1245,
+      "height": 426,
+      "words": 59,
+      "media": 0,
+      "middle": 135,
+      "heading": {
+       "text": "A little place for your name.",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 266,
+      "textLeft": 80,
+      "textRight": 266,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#templates.content-section.studio-shell",
+      "tag": "section",
+      "top": 1671,
+      "height": 449,
+      "words": 10,
+      "media": 3,
+      "middle": 24,
+      "heading": {
+       "text": "Make it your own.",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 443,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 2120,
+      "height": 892,
+      "words": 56,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "From a name to a desk card",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 240,
+      "textLeft": 80,
+      "textRight": 266,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 3012,
+      "height": 333,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered.",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 664,
+      "textLeft": 80,
+      "textRight": 664,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nameplate Studio",
+      "size": 96,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 16
+     },
+     {
+      "x": 745,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.27,
+    "voidBox": {
+     "x": 480,
+     "y": 540,
+     "w": 960,
+     "h": 360
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.64,
+    0.55,
+    0.73,
+    0.83
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 16,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3418,
+     "screens": 3.3,
+     "words": 220,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "navy-gold.webp",
+      "coral.webp",
+      "forest.webp",
+      "og.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nameplate Studio",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 69.1,
+     "vw": 9,
+     "font": "-apple-system",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 1.03,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 114,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nameplate Studio",
+     "words": 2,
+     "lines": 1,
+     "size": 69.1,
+     "font": "-apple-system"
+    },
+    "headings": [
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 114,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A little room to play.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 923,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A little place for your name.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1632,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Make it your own.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2026,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From a name to a desk card",
+      "words": 7,
+      "chars": 26,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2324,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3068,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "-apple-system",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "PingFang SC",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      21,
+      24,
+      25,
+      30,
+      69
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "-apple-system",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 69.1,
+      "vw": 9,
+      "font": "-apple-system",
+      "text": "Nameplate Studio"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f7f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.24,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffd23f",
+       "top": 427,
+       "hsl": {
+        "h": 46,
+        "s": 1,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 983,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#171717",
+       "share": 0.79
+      },
+      {
+       "color": "#54544e",
+       "share": 0.15
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#2347d9",
+      "hsl": {
+       "h": 228,
+       "s": 0.72,
+       "l": 0.49
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Open the full editor ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 1,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3418,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section#hero.product-hero.studio-shell",
+      "tag": "section",
+      "top": 78,
+      "height": 817,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nameplate Studio",
+       "size": 69,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 26,
+      "textLeft": 20,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#showcase.studio-demo.studio-shell",
+      "tag": "section",
+      "top": 895,
+      "height": 696,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A little room to play.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 46,
+      "textLeft": 20,
+      "textRight": 328,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 1592,
+      "height": 395,
+      "words": 59,
+      "media": 0,
+      "middle": 28,
+      "heading": {
+       "text": "A little place for your name.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 33,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#templates.content-section.studio-shell",
+      "tag": "section",
+      "top": 1986,
+      "height": 297,
+      "words": 10,
+      "media": 3,
+      "middle": 24,
+      "heading": {
+       "text": "Make it your own.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 199,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 2284,
+      "height": 745,
+      "words": 56,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "From a name to a desk card",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 3028,
+      "height": 273,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 52,
+      "textLeft": 20,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nameplate Studio",
+      "size": 69,
+      "top": 114,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 16
+     },
+     {
+      "x": 398,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.64,
+    0.81,
+    0.67,
+    0.66,
+    0.76
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 16,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3949,
+     "screens": 4.7,
+     "words": 218,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "navy-gold.webp",
+      "coral.webp",
+      "forest.webp",
+      "og.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nameplate Studio",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 42.9,
+     "vw": 11,
+     "font": "-apple-system",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 1.03,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 114,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nameplate Studio",
+     "words": 2,
+     "lines": 1,
+     "size": 42.9,
+     "font": "-apple-system"
+    },
+    "headings": [
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 850,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 22,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Nameplate Studio",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 42.9,
+      "vw": 11,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 114,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A little place for your name.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "-apple-system",
+      "weight": 750,
+      "tracking": -0.035,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 178,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Alex Chen",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "-apple-system",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.29,
+      "top": 585,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "A little room to play.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 869,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Alex Chen",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "-apple-system",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.29,
+      "top": 1267,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "A little place for your name.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1518,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your name. Your style.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1597,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "One desk or a whole room",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1737,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Print, fold and take your seat",
+      "words": 6,
+      "chars": 30,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1876,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Make it your own.",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2056,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From a name to a desk card",
+      "words": 7,
+      "chars": 26,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2892,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pick a template. Add a name.",
+      "words": 6,
+      "chars": 28,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2959,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Preview, then export",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3073,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Print and fold",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3187,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "-apple-system",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3566,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "-apple-system",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "PingFang SC",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      21,
+      23,
+      24,
+      29,
+      43
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "-apple-system",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.1
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 42.9,
+      "vw": 11,
+      "font": "-apple-system",
+      "text": "Nameplate Studio"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f7f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.24,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.24,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#ffd23f",
+       "top": 453,
+       "hsl": {
+        "h": 46,
+        "s": 1,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 928,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#171717",
+       "share": 0.79
+      },
+      {
+       "color": "#54544e",
+       "share": 0.15
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#2347d9",
+      "hsl": {
+       "h": 228,
+       "s": 0.72,
+       "l": 0.49
+      },
+      "fg": "#171717"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 0,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Open the full editor ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 1,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3949,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section#hero.product-hero.studio-shell",
+      "tag": "section",
+      "top": 78,
+      "height": 763,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nameplate Studio",
+       "size": 43,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 37,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#showcase.studio-demo.studio-shell",
+      "tag": "section",
+      "top": 841,
+      "height": 637,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A little room to play.",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 1478,
+      "height": 539,
+      "words": 59,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A little place for your name.",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 32,
+      "textLeft": 20,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#templates.content-section.studio-shell",
+      "tag": "section",
+      "top": 2016,
+      "height": 836,
+      "words": 10,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Make it your own.",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 2852,
+      "height": 674,
+      "words": 56,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "From a name to a desk card",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.content-section.studio-shell",
+      "tag": "section",
+      "top": 3526,
+      "height": 307,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered.",
+       "size": 29,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 34,
+      "textLeft": 20,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nameplate Studio",
+      "size": 43,
+      "top": 114,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (15, 16, 17, 18, 21, 28, 30, 36, 43, 46, 96).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-nameplate-acceptance/desktop-fold.jpg",
+   "pages": [
+    "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-nameplate-acceptance/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-nameplate-acceptance/tablet-fold.jpg",
+   "pages": [
+    "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-nameplate-acceptance/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-nameplate-acceptance/mobile-fold.jpg",
+   "pages": [
+    "/Users/ajigu/.local/share/task-artifacts/work/386ba7f322b84cfe9fcdbc2cce28f42d/inspect-nameplate-acceptance/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

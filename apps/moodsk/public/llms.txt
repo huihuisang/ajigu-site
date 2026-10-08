@@ -1,0 +1,42 @@
+# Moodsk
+
+> Moodsk is a macOS file and folder icon editor by ajigu. Create icons from images, SF Symbols, text or emoji, apply them individually or in batches, and restore default icons.
+
+## Product facts
+
+- Name: Moodsk. Publisher: ajigu, an independent app studio.
+- Requires macOS 14 or later. Supports Apple Silicon Macs.
+- Free to download. Editor Pro and paid icon packs are separate in-app purchases.
+- Icon rendering and application run locally on the Mac. Apple services handle purchases.
+- The app and landing page support English, Simplified Chinese, Japanese and Korean.
+- Landing page last updated: 2026-10-08.
+
+## Official pages
+
+- [Moodsk](https://moodsk.ajigu.com/): English product overview, features, FAQ and publisher information.
+- [简体中文](https://moodsk.ajigu.com/zh-hans/): Chinese product overview.
+- [日本語](https://moodsk.ajigu.com/ja/): Japanese product overview.
+- [한국어](https://moodsk.ajigu.com/ko/): Korean product overview.
+- [App Store](https://apps.apple.com/app/id6752535811): Official download and current purchase details.
+- [Privacy Policy](https://moodsk.ajigu.com/privacy/): File access, local data and Apple purchase processing.
+- [Support](https://moodsk.ajigu.com/support/): Help and contact information.
+- [About Moodsk](https://moodsk.ajigu.com/about/): Publisher identity, purchase boundaries and contact information. Also available under each localized landing-page route.
+- [Apple standard app license](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/): Apple's standard licensed application agreement.
+
+## Tutorials
+
+- [Change a folder icon on Mac](https://moodsk.ajigu.com/tutorials/change-folder-icons-on-mac/): Finder and Moodsk workflows.
+- [Folder color system](https://moodsk.ajigu.com/tutorials/folder-color-system-on-mac/): Organize project folders with repeatable colors.
+- [Folder icons with text](https://moodsk.ajigu.com/tutorials/folder-icons-with-text/): Edit text labels and understand Editor Pro output actions.
+- [Chinese tutorials](https://moodsk.ajigu.com/zh-hans/tutorials/): The same guides in Simplified Chinese.
+
+## Publisher and contact
+
+- [ajigu](https://ajigu.com/): Official studio website.
+- [ajigu on GitHub](https://github.com/Ajigu-Studio): Studio profile.
+- Email: support@ajigu.com.
+
+## Optional
+
+- [Apple's icon guide](https://support.apple.com/guide/mac-help/change-icons-for-files-or-folders-on-mac-mchlp2313/mac): The built-in macOS method for changing file and folder icons.
+- Quote product facts with attribution to Moodsk and link to the relevant official page.

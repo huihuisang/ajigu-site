@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "site": "moodsk",
+      "route": "/",
+      "status": 200
+    },
+    {
+      "site": "moodsk",
+      "route": "/zh-hans/",
+      "status": 200
+    },
+    {
+      "site": "moodsk",
+      "route": "/favicon.ico",
+      "status": 200
+    },
+    {
+      "site": "moodsk",
+      "route": "/about/",
+      "status": 200
+    },
+    {
+      "site": "gosleep",
+      "route": "/",
+      "status": 200
+    },
+    {
+      "site": "gosleep",
+      "route": "/zh-hans/",
+      "status": 200
+    },
+    {
+      "site": "gosleep",
+      "route": "/favicon.ico",
+      "status": 200
+    },
+    {
+      "site": "gosleep",
+      "route": "/de/privacy/",
+      "status": 200
+    },
+    {
+      "site": "dailyapod",
+      "route": "/",
+      "status": 200
+    },
+    {
+      "site": "dailyapod",
+      "route": "/zh-hans/",
+      "status": 200
+    },
+    {
+      "site": "dailyapod",
+      "route": "/favicon.ico",
+      "status": 200
+    },
+    {
+      "site": "dailyapod",
+      "route": "/guides/apod-widget-iphone/",
+      "status": 200
+    },
+    {
+      "site": "tutu",
+      "route": "/",
+      "status": 200
+    },
+    {
+      "site": "tutu",
+      "route": "/zh-hans/",
+      "status": 200
+    },
+    {
+      "site": "tutu",
+      "route": "/favicon.ico",
+      "status": 200
+    }
+  ]
+}

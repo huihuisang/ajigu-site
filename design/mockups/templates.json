@@ -1,0 +1,103 @@
+{
+  "apple-iphone-15-pro-black-titanium": {
+    "file": "design/mockups/templates/apple-iphone-15-pro-black-titanium-portrait.webp",
+    "source": "https://github.com/oursky/mockuphone.com/blob/7e570f420ad91d895df926214c206d0833fb53a5/public/images/mockup_templates/apple-iphone-15-pro-black-titanium-portrait.png",
+    "sourceSHA256": "a2f7e06da4669e3a18742b514bac362fd0ecd78d45f5c636236c3efae8152039",
+    "sha256": "9bf663e1a25be866fc0ca9f745b834067fa5a962cae202839bdfd36a731193bb",
+    "size": [
+      1419,
+      2796
+    ],
+    "screen": [
+      [
+        120,
+        120
+      ],
+      [
+        1299,
+        120
+      ],
+      [
+        1299,
+        2676
+      ],
+      [
+        120,
+        2676
+      ]
+    ],
+    "credits": "Apple Design Resources via MockUPhone",
+    "license": "CC-BY-3.0 generated artwork; Apache-2.0 source repository",
+    "attributionURL": "https://mockuphone.com/attribution/",
+    "fileSHA256": "9bf663e1a25be866fc0ca9f745b834067fa5a962cae202839bdfd36a731193bb",
+    "mask": "design/mockups/templates/apple-iphone-15-pro-black-titanium-portrait-mask.webp",
+    "maskSHA256": "06ac55a3d4a427b2a8429df6e6d50077ab403fdf75ec8ec2444d584dc0c96490"
+  },
+  "apple-macbookpro14": {
+    "file": "design/mockups/templates/apple-macbookpro14-front.webp",
+    "source": "https://github.com/oursky/mockuphone.com/blob/7e570f420ad91d895df926214c206d0833fb53a5/public/images/mockup_templates/apple-macbookpro14-front.png",
+    "sourceSHA256": "747db1dceeb7b7ffd3b9921bd07f1986083c361567fcd20e9cce6b2e007ae536",
+    "sha256": "91de538774294674fbf500957ca74f830aea9ea7b1f0dc9dee28a59775cbb444",
+    "size": [
+      3944,
+      2564
+    ],
+    "screen": [
+      [
+        459,
+        299
+      ],
+      [
+        3483,
+        299
+      ],
+      [
+        3483,
+        2263
+      ],
+      [
+        459,
+        2263
+      ]
+    ],
+    "credits": "Apple Design Resources via MockUPhone",
+    "license": "CC-BY-3.0 generated artwork; Apache-2.0 source repository",
+    "attributionURL": "https://mockuphone.com/attribution/",
+    "fileSHA256": "91de538774294674fbf500957ca74f830aea9ea7b1f0dc9dee28a59775cbb444",
+    "mask": "design/mockups/templates/apple-macbookpro14-front-mask.webp",
+    "maskSHA256": "654e726062ba47e0ddbadab888f253a49edf06fa6d7068d309cbdc19d5516af9"
+  },
+  "apple-ipadpro11-spacegrey": {
+    "file": "design/mockups/templates/apple-ipadpro11-spacegrey-portrait.webp",
+    "source": "https://github.com/oursky/mockuphone.com/blob/7e570f420ad91d895df926214c206d0833fb53a5/public/images/mockup_templates/apple-ipadpro11-spacegrey-portrait.png",
+    "size": [
+      1890,
+      2610
+    ],
+    "screen": [
+      [
+        110,
+        110
+      ],
+      [
+        1778,
+        110
+      ],
+      [
+        1778,
+        2498
+      ],
+      [
+        110,
+        2498
+      ]
+    ],
+    "credits": "Apple Design Resources via MockUPhone",
+    "license": "CC-BY-3.0 generated artwork; Apache-2.0 source repository",
+    "attributionURL": "https://mockuphone.com/attribution/",
+    "fileSHA256": "03b9509a7fe179471dc1445d76bc9a8155f5ac0976417926afa91c68b7311409",
+    "sourceSHA256": "c8921dd736ab9e1d27dc7e653dddc35df5086d15fd79a5147e641f35c5d721f6",
+    "mask": "design/mockups/templates/apple-ipadpro11-spacegrey-portrait-mask.webp",
+    "maskSHA256": "c9d1c99205e8ac4bab1ae9cefa31ed044d1c980cfcd77a898ef159a022a6950c"
+  }
+}

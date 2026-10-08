@@ -1,0 +1,6 @@
+{
+  "id": "dailyapod",
+  "name": "DailyApod",
+  "icon": "/assets/app-icon.png",
+  "art": "dailyapod.webp"
+}

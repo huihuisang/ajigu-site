@@ -1,0 +1,10 @@
+{
+  "install": "frozen-lockfile offline",
+  "peers": "passed",
+  "typecheck": "passed",
+  "build": "six websites passed",
+  "contracts": "passed",
+  "externalProductCheckouts": "not provided",
+  "legacyRootLandingHTML": "not provided",
+  "source": "/Users/ajigu/.local/share/task-artifacts/work/270456046b144b269bcaf90811364be0/clean-source"
+}

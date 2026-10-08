@@ -1,0 +1,10 @@
+{
+  "id": "tutu",
+  "name": "TUTU",
+  "icon": "/assets/app-icon.png",
+  "art": "tutu-before.webp",
+  "comparison": {
+    "aspect": "800 / 531",
+    "offset": -101.5960686211129
+  }
+}

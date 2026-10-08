@@ -1,0 +1,145 @@
+$ node scripts/workspace.mjs build
+$ astro build
+12:39:55 [types] Generated 14ms
+12:39:55 [build] output: "static"
+12:39:55 [build] mode: "static"
+12:39:55 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/ajigu/
+12:39:55 [build] Collecting build info...
+12:39:55 [build] ✓ Completed in 25ms.
+12:39:55 [build] Building static entrypoints...
+12:39:56 [vite] ✓ built in 254ms
+12:39:56 [vite] ✓ built in 118ms
+12:39:56 [build] Rearranging server assets...
+
+ generating static routes 
+12:39:56   ├─ /index.html (+16ms) 
+12:39:56   ├─ /zh-hans/index.html (+2ms) 
+12:39:56   ├─ /zh-hant/index.html (+1ms) 
+12:39:56   ├─ /ja/index.html (+1ms) 
+12:39:56   ├─ /ko/index.html (+1ms) 
+12:39:56   ├─ /nameplate/about/index.html (+2ms) 
+12:39:56   ├─ /nameplate/about/zh-hans/index.html (+1ms) 
+12:39:56 ✓ Completed in 40ms.
+
+12:39:56 [build] ✓ Completed in 427ms.
+12:39:56 [build] 7 page(s) built in 467ms
+12:39:56 [build] Complete!
+Collected ajigu: /Users/ajigu/.local/share/task-artifacts/work/b48c9deb68cd4d3289e03756ada94759/dist/ajigu
+$ astro build
+12:39:56 [types] Generated 16ms
+12:39:56 [build] output: "static"
+12:39:56 [build] mode: "static"
+12:39:56 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/moodsk/
+12:39:56 [build] Collecting build info...
+12:39:56 [build] ✓ Completed in 23ms.
+12:39:56 [build] Building static entrypoints...
+12:39:57 [vite] ✓ built in 200ms
+12:39:57 [vite] ✓ built in 123ms
+12:39:57 [build] Rearranging server assets...
+
+ generating static routes 
+12:39:57   ├─ /index.html (+15ms) 
+12:39:57   ├─ /zh-hans/index.html (+3ms) 
+12:39:57   ├─ /ja/index.html (+2ms) 
+12:39:57   ├─ /ko/index.html (+2ms) 
+12:39:57 ✓ Completed in 36ms.
+
+12:39:57 [build] ✓ Completed in 372ms.
+12:39:57 [build] 4 page(s) built in 407ms
+12:39:57 [build] Complete!
+Collected moodsk: /Users/ajigu/.local/share/task-artifacts/work/b48c9deb68cd4d3289e03756ada94759/dist/moodsk
+$ astro build
+12:39:57 [types] Generated 15ms
+12:39:57 [build] output: "static"
+12:39:57 [build] mode: "static"
+12:39:57 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/tutu/
+12:39:57 [build] Collecting build info...
+12:39:57 [build] ✓ Completed in 26ms.
+12:39:57 [build] Building static entrypoints...
+12:39:58 [vite] ✓ built in 181ms
+12:39:58 [vite] ✓ built in 105ms
+12:39:58 [build] Rearranging server assets...
+
+ generating static routes 
+12:39:58   ├─ /index.html (+17ms) 
+12:39:58   ├─ /zh-hans/index.html (+2ms) 
+12:39:58   ├─ /zh-hant/index.html (+2ms) 
+12:39:58   ├─ /ja/index.html (+2ms) 
+12:39:58   ├─ /ko/index.html (+2ms) 
+12:39:58 ✓ Completed in 39ms.
+
+12:39:58 [build] ✓ Completed in 340ms.
+12:39:58 [build] 5 page(s) built in 371ms
+12:39:58 [build] Complete!
+Collected tutu: /Users/ajigu/.local/share/task-artifacts/work/b48c9deb68cd4d3289e03756ada94759/dist/tutu
+$ astro build
+12:39:58 [types] Generated 14ms
+12:39:58 [build] output: "static"
+12:39:58 [build] mode: "static"
+12:39:58 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/gosleep/
+12:39:58 [build] Collecting build info...
+12:39:58 [build] ✓ Completed in 20ms.
+12:39:58 [build] Building static entrypoints...
+12:39:58 [vite] ✓ built in 201ms
+12:39:59 [vite] ✓ built in 113ms
+12:39:59 [build] Rearranging server assets...
+
+ generating static routes 
+12:39:59   ├─ /index.html (+14ms) 
+12:39:59   ├─ /en-gb/index.html (+2ms) 
+12:39:59   ├─ /zh-hans/index.html (+2ms) 
+12:39:59   ├─ /zh-hant/index.html (+1ms) 
+12:39:59   ├─ /ja/index.html (+1ms) 
+12:39:59   ├─ /ko/index.html (+2ms) 
+12:39:59   ├─ /de/index.html (+2ms) 
+12:39:59   ├─ /fr/index.html (+1ms) 
+12:39:59 ✓ Completed in 39ms.
+
+12:39:59 [build] ✓ Completed in 367ms.
+12:39:59 [build] 8 page(s) built in 396ms
+12:39:59 [build] Complete!
+Collected gosleep: /Users/ajigu/.local/share/task-artifacts/work/b48c9deb68cd4d3289e03756ada94759/dist/gosleep
+$ astro build
+12:39:59 [types] Generated 19ms
+12:39:59 [build] output: "static"
+12:39:59 [build] mode: "static"
+12:39:59 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/dailyapod/
+12:39:59 [build] Collecting build info...
+12:39:59 [build] ✓ Completed in 25ms.
+12:39:59 [build] Building static entrypoints...
+12:39:59 [vite] ✓ built in 179ms
+12:40:00 [vite] ✓ built in 131ms
+12:40:00 [build] Rearranging server assets...
+
+ generating static routes 
+12:40:00   ├─ /index.html (+14ms) 
+12:40:00   ├─ /zh-hans/index.html (+2ms) 
+12:40:00   ├─ /zh-hant/index.html (+2ms) 
+12:40:00   ├─ /ja/index.html (+2ms) 
+12:40:00   ├─ /ko/index.html (+2ms) 
+12:40:00 ✓ Completed in 36ms.
+
+12:40:00 [build] ✓ Completed in 362ms.
+12:40:00 [build] 5 page(s) built in 396ms
+12:40:00 [build] Complete!
+Collected dailyapod: /Users/ajigu/.local/share/task-artifacts/work/b48c9deb68cd4d3289e03756ada94759/dist/dailyapod
+$ astro build
+12:40:00 [types] Generated 14ms
+12:40:00 [build] output: "static"
+12:40:00 [build] mode: "static"
+12:40:00 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/typenote/
+12:40:00 [build] Collecting build info...
+12:40:00 [build] ✓ Completed in 25ms.
+12:40:00 [build] Building static entrypoints...
+12:40:00 [vite] ✓ built in 185ms
+12:40:00 [vite] ✓ built in 116ms
+12:40:00 [build] Rearranging server assets...
+
+ generating static routes 
+12:40:00   ├─ /index.html (+15ms) 
+12:40:01 ✓ Completed in 25ms.
+
+12:40:01 [build] ✓ Completed in 340ms.
+12:40:01 [build] 1 page(s) built in 370ms
+12:40:01 [build] Complete!
+Collected typenote: /Users/ajigu/.local/share/task-artifacts/work/b48c9deb68cd4d3289e03756ada94759/dist/typenote
