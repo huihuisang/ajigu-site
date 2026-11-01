@@ -1,0 +1,129 @@
+{
+  "revision": "0beb4a7f9d277d059a3be0f1613a05964c0c2609",
+  "workflowRun": 41373863572,
+  "artifact": "ajigu-com",
+  "checks": [
+    {
+      "route": "/site-release.json",
+      "status": 200,
+      "marker": {
+        "sourceRepository": "huihuisang/ajigu-site",
+        "sourceRevision": "0beb4a7f9d277d059a3be0f1613a05964c0c2609",
+        "site": "ajigu",
+        "domain": "ajigu.com",
+        "mode": "site"
+      }
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "e2ef0709667aabec8dfeddc527c1ee90c7a44084eb00edae767c951789549d24"
+    },
+    {
+      "route": "/loglift/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "8bddc8772c74de3b9665b0ade4ec6205a46f91f32eadd7b6c23bfc3c5ed11cc9"
+    },
+    {
+      "route": "/zh-hans/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "cbb817e3cb79573a101e90de0b1382d2685f42cea893e49ce4588922b0aa326f"
+    },
+    {
+      "route": "/loglift/zh-hans/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "776f7509311dbd2199afe9c0c5b704b7d0884867c696557ebbd3ba0fe64aada8"
+    },
+    {
+      "route": "/zh-hant/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "ef83e471b983997e94aaefb5adbbc5c3e56c0f25957e2bce2c6d099dba1ad7f4"
+    },
+    {
+      "route": "/loglift/zh-hant/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "91df949d8b0747ac8455aa2d1e4c260131564a7d4869caec1b9ec2c1609647cc"
+    },
+    {
+      "route": "/ja/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "ff2a5b8a76acf7842ee7a611c10bcdbd7bc42771308feb959674bcab4a0b24a5"
+    },
+    {
+      "route": "/loglift/ja/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "26ff3d69932a7011dbdb409af45eedb23db08663bc65a9b97dc9f4570c0a61da"
+    },
+    {
+      "route": "/ko/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "07d5aad069d755c1dd981edd46a719b1c7b78a4b7807c9ec5feab6a335be9f87"
+    },
+    {
+      "route": "/loglift/ko/",
+      "status": 200,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "b364927063a710ec95a8ce246da78c721037a20e420a423b3c12f902d5ff3ff0"
+    },
+    {
+      "route": "/gallery/loglift-mockup.webp",
+      "status": 200,
+      "bytes": 49976,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "9e46800d03dac9006af2c74bb4b9110ac3affaafe8ae2dbd3a43476fc8ac8d15"
+    },
+    {
+      "route": "/studio/icons/loglift.webp",
+      "status": 200,
+      "bytes": 54070,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "7fb821ad3474a23769b53ac9e603f641609d43a974d8610db91c57ce0312e722"
+    },
+    {
+      "route": "/studio/screens/loglift-home.webp",
+      "status": 200,
+      "bytes": 416140,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "5f6bed60bf82c8741afa3125d9b86bd7a2110277d132f8c398e816c15e24f2c7"
+    },
+    {
+      "route": "/studio/media/loglift/core-workflow-poster.webp",
+      "status": 200,
+      "bytes": 92218,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "f45b718f8ea8936df4d110379a9838a34f5c6a7d1c302a146daa8875db45434d"
+    },
+    {
+      "route": "/studio/media/loglift/core-workflow.mp4",
+      "status": 200,
+      "bytes": 2281147,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "36892bc433abd24212c3361d826dc5e1a088e91834fb0570997387e4012bacd4"
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "bytes": 6207,
+      "matchesVerifiedCIArtifact": true,
+      "sha256": "ca5d2f0272168bd0d5bbd3d0ca0050208370bb58057d9d35c2caeee21489a794",
+      "canonicalUrls": 96
+    },
+    {
+      "route": "/studio/media/loglift/core-workflow.mp4",
+      "range": "bytes=0-15",
+      "status": 206,
+      "bytes": 16,
+      "contentRange": "bytes 0-15/2281147"
+    }
+  ],
+  "result": "passed"
+}

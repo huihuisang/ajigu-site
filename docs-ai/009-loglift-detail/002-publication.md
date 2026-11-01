@@ -1,6 +1,6 @@
 # LogLift 发布与线上验收
 
-状态：用户已明确授权发布，执行中。
+状态：发布与线上验收已完成；最终结果见 [004-core-showcase-action.md](004-core-showcase-action.md)。
 
 用户在本地预览后新增了核心功能展示要求，旧候选 `0ef9f04b` 未推送，旧候选的后续验证已停止。发布范围补充视频展示、技能整改与预览 Range 支持，按 [003-core-showcase-plan.md](003-core-showcase-plan.md) 继续；最终发布必须使用包含这些修正的新候选。
 

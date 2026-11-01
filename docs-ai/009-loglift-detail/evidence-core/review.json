@@ -1,0 +1,41 @@
+{
+  "revision": "0beb4a7f9d277d059a3be0f1613a05964c0c2609",
+  "scope": "Core showcase, product skill, authorized media, preview HTTP ranges, scoped release boundaries",
+  "result": "passed",
+  "independent": true,
+  "method": "Exact jj commit review; HTTP standard check; byte and AST comparisons; no independent build or browser execution",
+  "reviewedFiles": {
+    ".agents/skills/ajigu-add-product/SKILL.md": "65a7cb4c721a3b5843a474ae61db7616ad201d943413395f54d11a9b2adfc6ad",
+    ".agents/skills/ajigu-add-product/references/gallery-assets.md": "286ae72d94359e2dc90ccd5fe12924479079f9056cb4140d00ccf5e29719dbd3",
+    ".agents/skills/ajigu-add-product/references/integration.md": "de13abc60a5f6fdc980047b41c1da8f88c660fef6821bdf0264fca9170ee6a83",
+    "apps/ajigu/src/products/loglift/Page.astro": "7b093a1a7993e67b712bdafde9a72ecaae023470918440a45774ea603c4f3e0c",
+    "apps/ajigu/src/products/loglift/content/pages.json": "e3be18465093b6ef4cf9b9accff854a13ab61392b55e4f8aafacee522878c4bb",
+    "packages/site-kit/media.json": "9cda674e40c4ac56d884bf93972e6afe91ffc7dc1c0b56507d942d346517a229",
+    "packages/site-kit/media/loglift/core-workflow.mp4": "36892bc433abd24212c3361d826dc5e1a088e91834fb0570997387e4012bacd4",
+    "packages/site-kit/media/loglift/core-workflow-poster.webp": "f45b718f8ea8936df4d110379a9838a34f5c6a7d1c302a146daa8875db45434d",
+    "design/mockups/videos.json": "b440a96dbd6b9c2b7f905518aca79996c2be02c25d31815267b808399b539ee0",
+    "scripts/preview-workspace.mjs": "e4c149855e35e6c2fbfe3bdf08f13fa3574eafb285b17de168a15b1c135cc340",
+    "tests/loglift.test.mjs": "9db62bb1d5d10cc7ad662449f3ed538a734c4ee950458d2130e21aac0741dee0",
+    "tests/preview-media.test.mjs": "fe0bfc17db8105671f8776edaa74056fa4cd6f99c3f8769e90fbac7cbadbec53",
+    "tests/browser.mjs": "ca426425cae5d4d3458f5653339185bb7e4b5442a86cdcfbbf4eb5b405126dde",
+    "docs-ai/009-loglift-detail/002-publication.md": "4868a83cf31f2653f2394fd2fe037350ab9aeea59e1bab4f385c99d9d4c725a4",
+    "docs-ai/009-loglift-detail/003-core-showcase-plan.md": "628a110d4915e5957b21d7690c7ee632920a93e8d2ca504fb6c4ddb23d561188",
+    "docs-ai/009-loglift-detail/evidence-core/core-desktop.jpg": "6a40ac244174d6659d63a070d43b8cd5f765104ab640a4d9390b3c50a5ba9aeb",
+    "docs-ai/009-loglift-detail/evidence-core/video-controls.json": "88ab120e225f5dddfa3e908ddd9ecd16eb31b485d918aa8f8053d019f2d034a5",
+    "memory/loglift.md": "ec1b01a3c435de302c476deb84973231d3809f125c02c33318c743bfa6358797",
+    "memory/product-onboarding.md": "dac643ac6c93ad28fbc83a2514e7f0bdbf28dc77ea04126113ebe4e2bab15eb6"
+  },
+  "baselineSHA256": "e5f262e60223fc112ea67686d678694b1aee32698dcf5a562f65c5303f4d9034",
+  "resolved": [
+    {
+      "priority": "P2",
+      "issue": "Overview-only restriction must allow home screens that are actual core workspaces",
+      "resolution": "Skill requires visible task action and result, independent of screen name"
+    },
+    {
+      "priority": "P2",
+      "issue": "HEAD and unsupported range units must ignore Range",
+      "resolution": "Only GET byte ranges are parsed; actual HTTP tests cover full HEAD and unknown units"
+    }
+  ]
+}

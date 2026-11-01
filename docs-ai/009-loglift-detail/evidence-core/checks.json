@@ -1,0 +1,30 @@
+{
+  "revision": "0beb4a7f9d277d059a3be0f1613a05964c0c2609",
+  "checks": [
+    {
+      "check": "format",
+      "exitCode": 0,
+      "log": "release-format.log"
+    },
+    {
+      "check": "verify",
+      "exitCode": 0,
+      "log": "release-verify.log"
+    },
+    {
+      "check": "browser",
+      "exitCode": 0,
+      "log": "release-browser.log"
+    },
+    {
+      "check": "layout",
+      "exitCode": 0,
+      "log": "release-layout.log"
+    },
+    {
+      "check": "redirects",
+      "exitCode": 0,
+      "log": "release-redirects.log"
+    }
+  ]
+}

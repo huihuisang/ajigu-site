@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "candidate": "0ef9f04bbc6f9537d7bb52f4fd4e85080d354df1",
+  "parent": "c033916d769cb952956a5bca58123c6ebc488ee8",
+  "reviewer": "independent read-only review agent",
+  "baselineSHA256": "3f2a7fe4daa2ef26a544d07815ef3107c42f527f36fe3320c875d17197c18500",
+  "files": {
+    ".agents/skills/ajigu-add-product/SKILL.md": "d9cdb296e70527f4835283e969129368bb10a6440aac170db15cf0bbf8fe933b",
+    ".agents/skills/ajigu-add-product/agents/openai.yaml": "f15a944a4993d92aa2593a51244cd9a280f45940b17403840642a107b9b94e1c",
+    ".agents/skills/ajigu-add-product/references/gallery-assets.md": "342ed9a59eb54da1dc0a33292bec2aea30df5819d01717d3f0885021a1a189c4",
+    ".agents/skills/ajigu-add-product/references/integration.md": "5452161e3bc6d0a03924932d0a217d1c20918c6300e2b2d4bda38eb6daee0b0d",
+    "apps/ajigu/public/gallery/loglift-mockup.webp": "9e46800d03dac9006af2c74bb4b9110ac3affaafe8ae2dbd3a43476fc8ac8d15",
+    "apps/ajigu/src/content/home.json": "6d2e3914d31c3198c83b2a9e9d9cbc97967c70230b674170dd38aa0a9bb8ac80",
+    "apps/ajigu/src/pages/[...route].astro": "2fff337faad155bbf72ea660646d25892d6c648c38cdf2457b1eaccb32994b49",
+    "apps/ajigu/src/products/loglift/Page.astro": "2a056cd7904482c50ab579674b1907c29de071fc15484374c825b30ed224e8c9",
+    "apps/ajigu/src/products/loglift/content/pages.json": "1d4ce5a0a88d91989a5569a136ae08a20fd51bb92ff1c89e8984908f508d30a9",
+    "apps/ajigu/src/products/loglift/content/product.json": "441841c41f80b8b3b08cd0c65c44e2d972312e18a71b87ad591a80023844308c",
+    "design/mockups/README.md": "c861b5244530c7c547c80db261f07dad79206f92b1bfb83a526fbd79d3a64f65",
+    "design/mockups/outputs.json": "a37d730cde0661f875d776344b5821ebf90aa03c8bf9e781caddf8889dac16d2",
+    "design/mockups/products.json": "408c267be2763eb3965ce2787ba4ab6afb15e6efc5b61ee0d0fd9bc700fd4b3e",
+    "design/mockups/screens.json": "78869da1d359e59948208d7088e5d11097711e2a54fa681021bb24390178d21f",
+    "design/mockups/screens/loglift-home.webp": "5f6bed60bf82c8741afa3125d9b86bd7a2110277d132f8c398e816c15e24f2c7",
+    "docs-ai/009-loglift-detail/002-publication.md": "adcfd5717ebdc8f5b33a94b7d0211e498ad6c3a339afa0fea3f29a4e3c450988",
+    "llms.txt": "afb7778f1189642e6b94694f7f29c55e68295d52bafb31a25429db696492d668",
+    "scripts/check-build.mjs": "799494e74fc48a755fcf27fbff52475123bf4f337f75e93d5155506bbeef7f6c",
+    "scripts/seo.test.mjs": "edb1bebc7a35d02c97c00cf72192282315a0e96e371c885084098d9ebead7385",
+    "sitemap.xml": "502ff39eb4e9fd72af7aff7610d7a4348f1a9ebd1f2b671e22f13ca4a2523fb8",
+    "tests/browser.mjs": "80cba065bf4a65975ef8ecaccaf278ec99df2a5194914de0a3810b893c85c265",
+    "tests/detail-layout.mjs": "9d54fae421b49c14d2f13bc82e85349e8d57c63d9e1f241b3139e65efd487a35",
+    "tests/loglift.test.mjs": "dc1c3fccae8155e82b4c15a9feb5d8747d99735e5e35a9485292cdac54e67de6",
+    "tests/workspace.test.mjs": "af3d45fad324fe31cad7c0f0c466bbe61bcc60783033b41d1b39f2a15b0bc3ce"
+  },
+  "findings": [],
+  "scopeChecks": [
+    "Non-LogLift manifest and homepage entries match the parent.",
+    "Unrelated DailyApod and Moodsk runtime, images, copy and test changes are excluded.",
+    "LogLift routes, card navigation, language switching, screenshot and Preview target checks remain.",
+    "No legacy-host or public staging expansion.",
+    "No matches in common credential-pattern scan.",
+    "Historical local-trial evidence is distinguished from the exact publication candidate."
+  ]
+}

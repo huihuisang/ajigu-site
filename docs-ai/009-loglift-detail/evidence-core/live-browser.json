@@ -1,0 +1,19 @@
+{
+  "url": "https://ajigu.com/loglift/zh-hans/#showcase",
+  "played": true,
+  "paused": true,
+  "seekForward": true,
+  "state": {
+    "autoplay": false,
+    "controls": true,
+    "duration": 24.5,
+    "muted": true,
+    "paused": true,
+    "seekable": [
+      0,
+      24.5
+    ],
+    "src": "https://ajigu.com/studio/media/loglift/core-workflow.mp4",
+    "time": 9.8
+  }
+}

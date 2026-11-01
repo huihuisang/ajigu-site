@@ -1,0 +1,29 @@
+{
+  "columns": "350px",
+  "scrollWidth": 390,
+  "steps": [
+    {
+      "id": "import",
+      "text": "导入素材选好相机与录制模式，添加一个或多个视频片段。"
+    },
+    {
+      "id": "compare",
+      "text": "对比效果拖动滑杆查看原片与 Rec.709 的差异，也可以同步播放预览。"
+    },
+    {
+      "id": "export",
+      "text": "在本地导出选择输出文件夹，在 Mac 上导出新的 HEVC Main10 文件。"
+    }
+  ],
+  "video": {
+    "bottom": 274.4375,
+    "height": 196.875,
+    "left": 20,
+    "right": 370,
+    "top": 77.5625,
+    "width": 350,
+    "x": 20,
+    "y": 77.5625
+  },
+  "width": 390
+}

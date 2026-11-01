@@ -1,0 +1,2 @@
+$ node tests/redirects.mjs
+171 old-domain redirects, no-script paths and query/hash cases passed.

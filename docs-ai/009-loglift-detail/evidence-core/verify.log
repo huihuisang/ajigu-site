@@ -1,0 +1,185 @@
+$ pnpm check && pnpm test && pnpm build && node scripts/check-build.mjs
+$ node scripts/workspace.mjs check
+$ astro check
+09:34:16 [types] Generated 95ms
+09:34:16 [check] Getting diagnostics for Astro files in /Users/ajigu/.local/share/task-artifacts/work/c92ea328b7cd45fda5ef1fae737ccd19/candidate-source/apps/ajigu...
+Result (24 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ node --test scripts/*.test.mjs tests/*.test.mjs
+✔ new text uses a Latin default in English and Heiti in Chinese (4.679458ms)
+✔ the classic number layer uses the locale default font (0.469125ms)
+✔ built-in font labels follow the locale and custom names stay unchanged (0.564958ms)
+✔ language changes update automatic fonts but keep manual choices (1.233083ms)
+✔ static display images use WebP and reserve their layout space (48.261334ms)
+✔ first-row product icons load eagerly and later icons load lazily (1.104459ms)
+✔ compressed assets keep original dimensions and reduce bytes (14.515333ms)
+✔ shared preview dimensions and byte counts match the delivered WebP files (3.991958ms)
+✔ desktop workspace height is bounded by the viewport and a fixed cap (0.655ms)
+✔ preview scaling does not change the exported canvas dimensions (3.04ms)
+✔ layout changes retain the complete SEO guides in both languages (1.651416ms)
+✔ the toolbar owns title, language, reset, and export controls (7.383959ms)
+✔ every sitemap URL has matching canonical and share metadata (35.072875ms)
+✔ hreflang clusters are reciprocal, self-referencing, and canonical (0.496042ms)
+✔ local assets, navigation, and sample downloads exist (33.485125ms)
+✔ Nameplate source language, metadata, schema, and sample agree (170.371ms)
+✔ Nameplate initial locale is route-defined, not browser-defined (2.282209ms)
+✔ legacy language URLs use the supported route and retain the hash (3.879625ms)
+✔ language switches preserve editor state and do not navigate on disk (1.5905ms)
+✔ every studio locale exhibits the same six real products and keeps its language (9.231583ms)
+✔ new Nameplate introductions point to the original localized editors (4.2395ms)
+✔ generated marketing pages are current and a check does not rewrite them (210.40475ms)
+✔ shared controls have complete supported-language labels (0.532084ms)
+✔ thumbnail dimensions are reserved before images load (0.912375ms)
+✔ published catalog contains all source-project templates (0.640042ms)
+✔ new backgrounds use the full panel instead of the legacy lower-half crop (2.401667ms)
+✔ new template text scales with card dimensions (0.667333ms)
+✔ all template panel files are available and have the expected dimensions (18.007917ms)
+✔ production Pages permissions are limited to the deployment job after verification (11.763791ms)
+✔ gallery assets retain source provenance and verified output bytes (25.935625ms)
+✔ a supported URL language wins over a saved preference (0.7175ms)
+✔ invalid language input cannot select a catalog prototype or hide content (0.140666ms)
+✔ Chinese HTML language tags remain standard while query codes stay compatible (0.085583ms)
+✔ a denied storage API does not block language resolution (0.111291ms)
+✔ a language switch preserves the pathname, other parameters and hash (0.149ms)
+✔ edge redirects use six ordered rules with an exact five-host scope (0.940166ms)
+✔ legacy navigation retains encoded and repeated query values and fragments (0.451916ms)
+✔ shared resource paths stay at the main root while similar product paths do not (0.209459ms)
+✔ LogLift cards lead to reciprocal localized details without a legacy host (5.069792ms)
+✔ LogLift details retain the preview release and structured product content (0.652708ms)
+✔ LogLift gallery composition uses the authentic app home (1.062084ms)
+✔ LogLift details demonstrate the core workflow with real media and static steps (7.129541ms)
+✔ static HTML keeps content and rewrites metadata and resource URLs (4.059583ms)
+✔ CSS URI transformation leaves data SVG and filter fragments intact (0.214542ms)
+✔ Go Sleep legacy language navigation retains page, prefix, query and fragment (2.086458ms)
+✔ redirect documents have static fallback and a fixed origin (0.13775ms)
+✔ preview media supports complete, partial, suffix and HEAD requests (46.733792ms)
+✔ moodsk retains its original domains, language routes, downloads and public files (32.705833ms)
+✔ tutu retains its original domains, language routes, downloads and public files (4.049334ms)
+✔ gosleep retains its original domains, language routes, downloads and public files (11.691708ms)
+✔ dailyapod retains its original domains, language routes, downloads and public files (4.734708ms)
+✔ the Go Sleep demo and footer retain their sample and wellness boundaries (0.858709ms)
+✔ TUTU keeps the verified comparison alignment and original local photos (0.31925ms)
+✔ DailyApod retains the older second screenshot URL (0.657625ms)
+✔ editorial migration retains localized privacy, compatibility and attribution statements (8.033ms)
+✔ repository retirement gates reject wrong identities and incomplete validation (158.024917ms)
+✔ product paths preserve locale placement, query and fragments (0.681834ms)
+✔ first-party URL migration leaves shared, external and relative resources intact (0.55125ms)
+✔ structured metadata and trusted HTML use the same route mapping (2.543958ms)
+✔ one application owns all five product modules and shared components (10.301291ms)
+✔ studio language clusters retain reciprocal metadata and seven product entries (0.958334ms)
+✔ every TypeNote language has all visible keys, including guide navigation (0.7765ms)
+✔ copied guide metadata names its existing public URL rather than a malformed host (1.201916ms)
+✔ the reusable release-candidate workflow has no publication capability (4.96725ms)
+ℹ tests 64
+ℹ suites 0
+ℹ pass 64
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 519.212875
+$ node scripts/workspace.mjs build
+$ astro build
+09:34:21 [types] Generated 18ms
+09:34:21 [build] output: "static"
+09:34:21 [build] mode: "static"
+09:34:21 [build] directory: /Users/ajigu/.local/share/task-artifacts/work/c92ea328b7cd45fda5ef1fae737ccd19/candidate-source/node_modules/.cache/studio-build/ajigu/
+09:34:21 [build] Collecting build info...
+09:34:21 [build] ✓ Completed in 31ms.
+09:34:21 [build] Building static entrypoints...
+09:34:22 [vite] ✓ built in 510ms
+09:34:22 [vite] ✓ built in 190ms
+09:34:22 [build] Rearranging server assets...
+
+ generating static routes 
+09:34:22   ├─ /index.html (+15ms) 
+09:34:22   ├─ /zh-hans/index.html (+2ms) 
+09:34:22   ├─ /zh-hant/index.html (+1ms) 
+09:34:22   ├─ /ja/index.html (+1ms) 
+09:34:22   ├─ /ko/index.html (+1ms) 
+09:34:22   ├─ /nameplate/about/index.html (+5ms) 
+09:34:22   ├─ /nameplate/about/zh-hans/index.html (+2ms) 
+09:34:22   ├─ /typenote/index.html (+2ms) 
+09:34:22   ├─ /moodsk/index.html (+3ms) 
+09:34:22   ├─ /moodsk/zh-hans/index.html (+2ms) 
+09:34:22   ├─ /moodsk/ja/index.html (+2ms) 
+09:34:22   ├─ /moodsk/ko/index.html (+2ms) 
+09:34:22   ├─ /gosleep/index.html (+1ms) 
+09:34:22   ├─ /gosleep/en-gb/index.html (+2ms) 
+09:34:22   ├─ /gosleep/zh-hans/index.html (+2ms) 
+09:34:22   ├─ /gosleep/zh-hant/index.html (+1ms) 
+09:34:22   ├─ /gosleep/ja/index.html (+1ms) 
+09:34:22   ├─ /gosleep/ko/index.html (+1ms) 
+09:34:22   ├─ /gosleep/de/index.html (+3ms) 
+09:34:22   ├─ /gosleep/fr/index.html (+2ms) 
+09:34:22   ├─ /dailyapod/index.html (+2ms) 
+09:34:22   ├─ /dailyapod/zh-hans/index.html (+1ms) 
+09:34:22   ├─ /dailyapod/zh-hant/index.html (+43ms) 
+09:34:22   ├─ /dailyapod/ja/index.html (+2ms) 
+09:34:22   ├─ /dailyapod/ko/index.html (+1ms) 
+09:34:22   ├─ /tutu/index.html (+2ms) 
+09:34:22   ├─ /tutu/zh-hans/index.html (+1ms) 
+09:34:22   ├─ /tutu/zh-hant/index.html (+1ms) 
+09:34:22   ├─ /tutu/ja/index.html (+1ms) 
+09:34:22   ├─ /tutu/ko/index.html (+1ms) 
+09:34:22   ├─ /loglift/index.html (+1ms) 
+09:34:22   ├─ /loglift/zh-hans/index.html (+1ms) 
+09:34:22   ├─ /loglift/zh-hant/index.html (+1ms) 
+09:34:22   ├─ /loglift/ja/index.html (+1ms) 
+09:34:22   ├─ /loglift/ko/index.html (+1ms) 
+09:34:22 ✓ Completed in 140ms.
+
+09:34:22 [build] ✓ Completed in 858ms.
+09:34:22 [build] 35 page(s) built in 890ms
+09:34:22 [build] Complete!
+Collected ajigu: /Users/ajigu/.local/share/task-artifacts/work/c92ea328b7cd45fda5ef1fae737ccd19/release-dist/ajigu
+{
+  "buildChecks": [
+    {
+      "site": "ajigu",
+      "domain": "ajigu.com",
+      "pages": 96,
+      "products": [
+        {
+          "site": "typenote",
+          "canonicalBase": "https://ajigu.com/typenote/",
+          "pages": 4,
+          "redirectDomain": "typenote.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "moodsk",
+          "canonicalBase": "https://ajigu.com/moodsk/",
+          "pages": 16,
+          "redirectDomain": "moodsk.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "gosleep",
+          "canonicalBase": "https://ajigu.com/gosleep/",
+          "pages": 27,
+          "redirectDomain": "gosleep.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "dailyapod",
+          "canonicalBase": "https://ajigu.com/dailyapod/",
+          "pages": 30,
+          "redirectDomain": "dailyapod.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "tutu",
+          "canonicalBase": "https://ajigu.com/tutu/",
+          "pages": 5,
+          "redirectDomain": "tutu.ajigu.com",
+          "resources": "passed"
+        }
+      ],
+      "canonical": "passed"
+    }
+  ]
+}
