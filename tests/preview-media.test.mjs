@@ -40,9 +40,14 @@ test("preview media supports complete, partial, suffix and HEAD requests", async
     assert.deepEqual(Buffer.from(await response.arrayBuffer()), asset.subarray(start, end + 1));
   }
   const head = await fetch(url, { method: "HEAD", headers: { Range: "bytes=0-9" } });
-  assert.equal(head.status, 206);
-  assert.equal(head.headers.get("content-length"), "10");
+  assert.equal(head.status, 200);
+  assert.equal(head.headers.get("content-length"), String(asset.length));
+  assert.equal(head.headers.get("content-range"), null);
   assert.equal((await head.arrayBuffer()).byteLength, 0);
+  const unsupported = await fetch(url, { headers: { Range: "frames=0-9" } });
+  assert.equal(unsupported.status, 200);
+  assert.equal(unsupported.headers.get("content-range"), null);
+  assert.deepEqual(Buffer.from(await unsupported.arrayBuffer()), asset);
   for (const range of ["bytes=99-", "bytes=20-10", "bytes=-0", "bytes=bad", "bytes=0-1,4-5"]) {
     const response = await fetch(url, { headers: { Range: range } });
     assert.equal(response.status, 416, range);

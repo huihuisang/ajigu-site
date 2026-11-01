@@ -71,7 +71,7 @@ export async function startPreview({
             let start = 0;
             let end = size - 1;
             response.setHeader("accept-ranges", "bytes");
-            if (request.headers.range) {
+            if (request.method === "GET" && request.headers.range?.startsWith("bytes=")) {
               const match = /^bytes=(\d*)-(\d*)$/.exec(request.headers.range);
               let valid = !!match && !!(match[1] || match[2]) && size > 0;
               if (valid) {
