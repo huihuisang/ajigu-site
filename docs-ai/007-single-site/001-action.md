@@ -1,7 +1,7 @@
 # 单站合并实施结果
 
-实施状态：本地实现已完成，线上切换待执行。
-验证状态：本地通过；远端 CI 与线上验收待执行。
+实施状态：已完成，主站与五个旧域名已发布。
+验证状态：本地、远端 CI 与线上验收均通过。
 审核状态：最终源码独立审核通过，见 evidence/review-studio.json 与 review-products.json。
 
 ## 改动
@@ -14,12 +14,12 @@
 
 | 编号 | 本地结果 | 证据与线上状态 |
 | --- | --- | --- |
-| AC-S1 | 通过：单次 Astro 构建产出 30 个营销页面，静态文档合并后共 91 个规范 URL | build.log、contracts.log；线上待验证 |
-| AC-S2 | 通过：资源、原静态正文、语言路径及编辑器回归正常 | contracts.log、browser-results.json；线上待验证 |
-| AC-S3 | 通过：91 个规范 URL 与元数据合同通过 | contracts.log、URLs/output 单测；线上待验证 |
-| AC-S4 | 通过：171 项旧域名、禁脚本、参数、未知路径与语言切换检查 | redirects-results.json；线上待验证 |
+| AC-S1 | 通过：单次 Astro 构建产出 30 个营销页面，静态文档合并后共 91 个规范 URL | build.log、contracts.log；线上通过：live-results.json |
+| AC-S2 | 通过：资源、原静态正文、语言路径及编辑器回归正常 | contracts.log、browser-results.json；线上通过：live-results.json |
+| AC-S3 | 通过：91 个规范 URL 与元数据合同通过 | contracts.log、URLs/output 单测；线上通过：live-results.json |
+| AC-S4 | 通过：171 项旧域名、禁脚本、参数、未知路径与语言切换检查 | redirects-results.json；线上通过：live-results.json |
 | AC-S5 | 通过：228 项页面/视口检查，174 组本地化布局，144 次章节展开，14 组禁脚本布局；动画、导出、存储与触屏交互通过 | browser/layout/design-results.json；IAB 本地截图 |
-| AC-S6 | 本地通过：格式、类型、57 项单测、构建与两份独立审核 | format/check/unit/build.log、审核摘要；CI/线上待执行 |
+| AC-S6 | 本地通过：格式、类型、57 项单测、构建与两份独立审核 | format/check/unit/build.log、审核摘要；CI/线上通过：ci-result.json、production-builds.json 与 live-results.json |
 
 本地浏览器实际确认 TypeNote 的 ?lang=zh 仍使用简体中文；Moodsk 六章节存在，390px 视口无横向溢出，FAQ 左边距 20px。持久截图为 local-home、local-typenote、local-moodsk、local-moodsk-mobile.jpg。
 
@@ -30,3 +30,17 @@
 审核基线由两份审核文件的逐文件 SHA256 确定：23 文件路由/发布范围摘要 9357c1f802252f785da5cc80bf16438561b0a1fe33f54fe55eb61ea448403d3d；254 文件兼容范围摘要 c4720b26eae642c4ca222510598ee35a3590718db4538a6773750b115362c8ea。规格版本为 000-plan.md 的审核摘要；证据版本由最终源码清单与发布提交绑定。
 
 本任务不承诺搜索排名变化，不新增平台或付费服务。旧预览产物和共享缓存保留；只清理本次登记目录中的可再生产物。用户 SEO 报告与 memory/seo.md 不纳入本次提交，按既有摘要保护。
+
+## 线上发布
+
+生产源码提交：45af53d69045e635b2ba38fe3020be802f7fc330。主站 CI [41283283464](https://github.com/huihuisang/ajigu-site/actions/runs/41283283464) 的全部验收和 Pages 部署成功，先确认主站发布标记及五个新入口可访问，再发布旧域名产物。
+
+五个旧域名的产物提交、上一版本和 Pages 设置记录在 evidence/publication-results.json。原分支与 DNS 未变，专用产物分支均快进更新。五次 Pages build 的最终 commit/status 全部匹配，见 production-builds.json。
+
+DailyApod 的自动 Pages 构建失败并滞留于无构建步骤的运行状态；取消本任务的旧运行后，已排队的 41284005041 成功完成构建与部署。未改源码或发布内容。期间 force-cancel 请求返回 409，因为普通取消已完成，没有额外取消其他任务。证据为 publication-retry.json 与 dailyapod-retry-result.json；[GitHub 官方取消接口说明](https://docs.github.com/en/rest/actions/workflow-runs#force-cancel-a-workflow-run)于 2026-11-01 核对。
+
+实际 HTTP 验收通过 6 个版本标记、91 个主站规范页面、82 个旧页面即时跳转、12 个新旧公共资源/验证文件和 6 份样式。所有标记指向同一源码提交。原生浏览器实际验证五个域名跳转、TypeNote 中文/重复参数/空值/编码参数/锚点、Go Sleep 支持深链、Moodsk 六章节及 390px FAQ 对齐。证据为 live-results.json、live-browser-results.json、live-*.jpg。DailyApod 浏览器先保留了切换前缓存，使用新 query 后确认实际跳转；无 query 的旧规范 URL 已单独通过 HTTP 验收。
+
+动画录制的持久副本为 evidence/motion-normal-and-slow.webm；对应 design-results.json。录制保留原测试默认/慢速观察，自动化 visibility event 检查不等同于真实后台系统调度。任务输出目录只包含可再生产物，验收文件均已持久归档。用户原有两个 SEO 文件保持摘要一致，未提交。
+
+回退时使用 publication-results.json 中的 previousBranch 和上一发布证据，以新提交/受控部署恢复，避免重写产物分支历史。主站上一生产源码为 fe121d25d2392fc3f3e88937cdcbebbf0e67de17，原独立站源码历史仍保留。

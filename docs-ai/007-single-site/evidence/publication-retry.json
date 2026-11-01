@@ -1,0 +1,14 @@
+{
+  "site": "dailyapod",
+  "revision": "b9ff343e01abc9a6be424473c57598d554b96c9f",
+  "cancelRequestedForRun": 41284002366,
+  "replacementAlreadyQueuedRun": 41284005041,
+  "reason": "Automatic Pages build reported an error; its workflow stayed in progress with no build steps. Cancel only this task-owned run so the already requested replacement can start.",
+  "sourceChanges": false,
+  "finalStatus": "success",
+  "cancelledRunStatus": "cancelled",
+  "forceCancelResponse": 409,
+  "forceCancelEffect": "No effect; ordinary cancellation had already completed.",
+  "replacementRunConclusion": "success",
+  "officialReference": "https://docs.github.com/en/rest/actions/workflow-runs#force-cancel-a-workflow-run"
+}

@@ -14,3 +14,5 @@
 
 - On 2026-11-01 the user superseded the multi-site architecture: use one Astro app at ajigu.com, with /typenote/, /moodsk/, /gosleep/, /dailyapod/ and /tutu/. Product modules live in apps/ajigu/src/products; frozen assets live in apps/ajigu/public/<product>. Authoritative decision: docs-ai/007-single-site.
 - Legacy product domains serve generated HTML redirects on existing Pages branches. Query/hash are preserved with JavaScript; no-script uses immediate meta refresh. This is HTTP 200 HTML, not server-side 301. Keep legacy binary resources, DNS and source branches. New publication entry point: scripts/publish-redirects.mjs after successful main deployment.
+
+- Single-site consolidation is live from 45af53d69045e635b2ba38fe3020be802f7fc330, successful CI 41283283464. The five old domains now redirect; live verification passed 91 canonical pages and 82 legacy HTML redirects. Publication receipts and the DailyApod Pages retry are in docs-ai/007-single-site. This supersedes the earlier independent-domain deployment model.

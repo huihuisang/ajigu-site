@@ -1,0 +1,92 @@
+[
+  {
+    "site": "typenote",
+    "repository": "huihuisang/typenote-landing",
+    "branch": "ajigu-site-production",
+    "commit": "123a863fb3d17002f961342099c6d5b4a74d7d03",
+    "sourceRevision": "45af53d69045e635b2ba38fe3020be802f7fc330",
+    "runId": "41283283464",
+    "domain": "typenote.ajigu.com",
+    "previousBranch": "a90ee1ca46ae1649d44cb9102e83bd085131b21c",
+    "previousPages": {
+      "build_type": "legacy",
+      "source": {
+        "branch": "ajigu-site-production",
+        "path": "/"
+      },
+      "cname": "typenote.ajigu.com"
+    }
+  },
+  {
+    "site": "moodsk",
+    "repository": "Ajigu-Studio/moodsk-website",
+    "branch": "ajigu-site-production",
+    "commit": "d73c191ff3a74daf62da03d5dba33bc3008acb5e",
+    "sourceRevision": "45af53d69045e635b2ba38fe3020be802f7fc330",
+    "runId": "41283283464",
+    "domain": "moodsk.ajigu.com",
+    "previousBranch": "4f997f8d9b6245f43aa8389904018c9d0766cfa1",
+    "previousPages": {
+      "build_type": "legacy",
+      "source": {
+        "branch": "ajigu-site-production",
+        "path": "/"
+      },
+      "cname": "moodsk.ajigu.com"
+    }
+  },
+  {
+    "site": "gosleep",
+    "repository": "huihuisang/snorz-site",
+    "branch": "ajigu-site-production",
+    "commit": "8e51b0f7986921f05983e7aef23b91ecaea91842",
+    "sourceRevision": "45af53d69045e635b2ba38fe3020be802f7fc330",
+    "runId": "41283283464",
+    "domain": "gosleep.ajigu.com",
+    "previousBranch": "93002bf698105a37d818cc585b0097de15f8e9da",
+    "previousPages": {
+      "build_type": "legacy",
+      "source": {
+        "branch": "ajigu-site-production",
+        "path": "/"
+      },
+      "cname": "gosleep.ajigu.com"
+    }
+  },
+  {
+    "site": "dailyapod",
+    "repository": "huihuisang/dailyapod-site",
+    "branch": "ajigu-site-production",
+    "commit": "b9ff343e01abc9a6be424473c57598d554b96c9f",
+    "sourceRevision": "45af53d69045e635b2ba38fe3020be802f7fc330",
+    "runId": "41283283464",
+    "domain": "dailyapod.ajigu.com",
+    "previousBranch": "be7da81dd430dec6371b0bb6acfb31bf1cbe8ffd",
+    "previousPages": {
+      "build_type": "legacy",
+      "source": {
+        "branch": "ajigu-site-production",
+        "path": "/"
+      },
+      "cname": "dailyapod.ajigu.com"
+    }
+  },
+  {
+    "site": "tutu",
+    "repository": "huihuisang/tutu-site",
+    "branch": "ajigu-site-production",
+    "commit": "b7185adfde893bc48fbe273eebf50fb600dcc760",
+    "sourceRevision": "45af53d69045e635b2ba38fe3020be802f7fc330",
+    "runId": "41283283464",
+    "domain": "tutu.ajigu.com",
+    "previousBranch": "b8420994f4aee6c6612d1fd5bec1f2d3bc73c84b",
+    "previousPages": {
+      "build_type": "legacy",
+      "source": {
+        "branch": "ajigu-site-production",
+        "path": "/"
+      },
+      "cname": "tutu.ajigu.com"
+    }
+  }
+]

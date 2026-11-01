@@ -88,3 +88,8 @@ All six desktop product renders and the TypeNote mobile render were inspected in
 ## Production publication — 2026-11-01
 
 All six original domains now serve source fe121d25d2392fc3f3e88937cdcbebbf0e67de17. The successful production CI is 41274821205. Six live release markers, 91 sitemap page URLs, six stylesheets and the Bing verification file passed HTTP checks. The in-app browser verified the live gallery, Nameplate detail and Moodsk desktop/mobile views, including six chapters and matching 20px mobile content/FAQ edges. Persistent evidence and rollback state are in docs-ai/006-production-release. Earlier evidence manifests retain their historical source scope.
+
+
+## Single-site consolidation — 2026-11-01
+
+The production source is now 45af53d69045e635b2ba38fe3020be802f7fc330, from successful CI 41283283464. A single Astro app serves the studio and all product modules. The five original product domains serve HTML redirects while retaining binary assets. White gallery components, Moodsk onboarding and the shared alignment rules remain unchanged. Local regression passed 57 unit tests, 228 page/viewport checks, 174 localized layouts, 144 chapter expansions, 14 no-script layouts, 171 redirect cases and the 11-width motion/design checks. CI passed its full browser/layout/redirect matrix. Live verification passed 91 canonical page URLs and 82 legacy redirects. Production mobile Moodsk retains a 20px FAQ edge with no horizontal overflow. Durable screenshots, the motion recording, independent source reviews and deployment receipts are in docs-ai/007-single-site/evidence.

@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "site": "typenote",
+      "url": "https://ajigu.com/typenote/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb#features",
+      "language": "zh-Hans"
+    },
+    {
+      "site": "moodsk",
+      "url": "https://ajigu.com/moodsk/zh-hans/#faq",
+      "chapters": 6,
+      "mobileWidth": 390,
+      "faqLeft": 20,
+      "overflow": false
+    },
+    {
+      "site": "gosleep",
+      "language": "zh-Hans",
+      "title": "睡好 支持",
+      "url": "https://ajigu.com/gosleep/zh-hans/support/"
+    },
+    {
+      "site": "tutu",
+      "language": "zh-Hans",
+      "title": "TUTU — iPhone AI 照片消除，轻轻一点，它就消失了",
+      "url": "https://ajigu.com/tutu/zh-hans/"
+    },
+    {
+      "site": "dailyapod",
+      "language": "zh-Hans",
+      "title": "DailyApod — NASA 每日天文图 iPhone app，每天一张宇宙照片",
+      "url": "https://ajigu.com/dailyapod/zh-hans/?migration=45af53d6",
+      "cacheNote": "Fresh query bypassed the browser copy retained from before publication; raw canonical legacy URL also passed HTTP verification."
+    }
+  ],
+  "verifiedAt": "2026-11-01T07:21:48.344Z"
+}
