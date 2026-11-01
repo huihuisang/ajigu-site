@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "reviewedAt": "2026-11-01T14:47:32.913561+00:00",
+  "scope": "Edge redirects, backup and restore gates, repository retirement guard, retired publication paths, and related tests and CI.",
+  "excludedUserWork": [
+    "Unrelated DailyApod and LogLift changes were not edited or reverted and are outside the functional review."
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "status": "resolved",
+      "detail": "DNS counts and comparisons preserve duplicate record names. Public evidence binds private full snapshots."
+    },
+    {
+      "id": "R2",
+      "status": "resolved",
+      "detail": "Receipts require fresh paths inside task outputs, outside backups, and distinct from input evidence."
+    },
+    {
+      "id": "R3",
+      "status": "resolved",
+      "detail": "Preflight and each deletion recheck repository metadata, releases, issue and PR history, wiki inventory and source refs."
+    }
+  ],
+  "unresolvedFindings": [],
+  "baseline": {
+    "existingFiles": 26,
+    "removedFiles": 2,
+    "algorithm": "SHA256 over UTF-8 compact JSON of the sorted relative path map. Values are file SHA256 or null for removals.",
+    "bundleSHA256": "12c616f66d210cd86c37727135c283b4e6cae48b80a8840c9bfbded1129c6c5f",
+    "files": {
+      ".github/workflows/build-websites.yml": "9f0d227f04dbeac9a78d513b706ff305a7f498e57db99382a2347581974ffed2",
+      ".github/workflows/deploy-studio.yml": "8c254181b1f7d4756729521f75212401a1a093b01a250e9c033fc1ea8eaf60bb",
+      "README.md": "ae1536c85252e87ae510454bec22ade91532c05310b258ac9390c6218f3b0cf0",
+      "docs-ai/008-legacy-domain-retirement/000-plan.md": "6154ab3a62df7400a122ce03e5d137b798d8acad20c7412b6e66c4b19722e2da",
+      "docs-ai/008-legacy-domain-retirement/evidence/backup-manifest.json": "5874baccf263592a3979e966abc30551e28d60789819a34840195926eeeae013",
+      "docs-ai/008-legacy-domain-retirement/evidence/backup-restoration.json": "af00ba1b4c4207104ffd94f2b8702478edc6c8108eeb974618971c87d2724d77",
+      "docs-ai/008-legacy-domain-retirement/evidence/browser-before-deletion.json": "b23e331bc59625da15c9c680f50e48236f6255efc60f99cfef5272d46afb7747",
+      "docs-ai/008-legacy-domain-retirement/evidence/cloudflare-before.json": "9780ee3d39e714dc8cf9a6fa2c3384e211dc3ee46da3307498c12a7f83432c30",
+      "docs-ai/008-legacy-domain-retirement/evidence/dns-cutover.json": "454649515903a3460be03c8ce4298b2d825503792e2d6a708efa3627d3b1ac74",
+      "docs-ai/008-legacy-domain-retirement/evidence/edge-before-deletion.json": "be0e562ba8c1fe65ce0824928a0236fdee92832f428d87bbd37d8d666aef6064",
+      "docs-ai/008-legacy-domain-retirement/evidence/proposed-rules.json": "78bf00ad6d8942ef4edbbe4af8bd834795197833cca6078b0ebe2ee7664847dc",
+      "package.json": "029999dcfa649391f4683d21728dc4f9f05acca6d179814ae084fad0477f5eb6",
+      "packages/site-kit/config/publication.json": null,
+      "packages/site-kit/config/urls.mjs": "0482510ab7d7936a6be3181679050c11bc036b005c23c7defad3c0d5b23d887e",
+      "scripts/backup-legacy-repositories.py": "d5c2fbe977d53ce099d9ca2eaaad730a6dd6c6a54aaf3e112fa25c5a78f71b38",
+      "scripts/check-edge-redirects.mjs": "41dc7dea5a208f84301de66ccfcb0e6d3e84bad787bf043a5d77670215d9002f",
+      "scripts/legacy-redirect-rules.mjs": "83191347ead7c7ebe1af36393773d738c24c8bd97a9881cf0733cc76b32b1335",
+      "scripts/publish-redirects.mjs": null,
+      "scripts/retire-legacy-repositories.py": "0f15de6cca0997dd31cca878fa356c7f34d2eeab498683eb1b6207873e77326e",
+      "scripts/site-output.mjs": "ffb7542dbc5704ad9f81052537f7b5eeb5a22b0f762270d32661263e7b26e113",
+      "scripts/verify-legacy-backups.py": "00b64ddde2262f0abd94fce1b93e2363491f43aa6d72c098933bd8c99e645c43",
+      "scripts/workspace.mjs": "824032a18a492ba7949408791f5469d4ccd1fc61deacdf20c61ec214a52ec5c3",
+      "tests/deployment.test.mjs": "d043312533d2fa05d67db6c9c5e13dcedc149612c39ff650a3221b3999075c3c",
+      "tests/legacy-redirect-rules.test.mjs": "60e85021a8819d5dfc29ed8ee85e83294382110f3edf552e925aa000ef6abf05",
+      "tests/redirects.mjs": "1a29890c616db92c3453da5f70c98b4129b8be67de55f28d4ea5fd71caaea6af",
+      "tests/retirement.test.mjs": "6b758a10142eb2211051560e76e5b0ef5356e95fc15bde69cf5f30668d1a36bb",
+      "tests/retirement_test.py": "ca1a16ea9174f0ab24d96d0c5eb59479faade960b89eb9d897a4df893a5bfdc3",
+      "tests/workspace.test.mjs": "5ccaee8233992e96ca7215eeda92518aad2fffc828981ee9bd89529e428015d7"
+    }
+  },
+  "independentValidation": {
+    "nodeTests": 10,
+    "pythonGuardTests": 10,
+    "pythonOptimizeEnabled": true,
+    "command": "task-artifacts run 6839fda9efb340b1857684c559579ecc -- env PYTHONOPTIMIZE=1 node --test tests/retirement.test.mjs tests/legacy-redirect-rules.test.mjs tests/workspace.test.mjs tests/deployment.test.mjs",
+    "result": "passed",
+    "privateDNS": {
+      "snapshots": {
+        "before": {
+          "sha256": "d9b1ab06ce34bb8ab694d65edb1980324dbb81f64a29f367b04e565e4514c8af",
+          "rows": 23,
+          "source": "Private persistent snapshot referenced by dns-cutover.json"
+        },
+        "after": {
+          "sha256": "7335ee3710e5ec839978dfa3770fad9aeba7ff5ad4511fc959b3b28b1d09141e",
+          "rows": 23,
+          "source": "Private persistent snapshot referenced by dns-cutover.json"
+        }
+      },
+      "totalRowsBefore": 23,
+      "totalRowsAfter": 23,
+      "nonTargetRows": 18,
+      "nonTargetMultisetsEqual": true,
+      "approvedChangedHosts": [
+        "dailyapod.ajigu.com",
+        "gosleep.ajigu.com",
+        "moodsk.ajigu.com",
+        "tutu.ajigu.com",
+        "typenote.ajigu.com"
+      ],
+      "nonTargetMultisetSHA256": "0347fd2d974e77be6adc14a8328b4ac8c440d0e7816b6070902fb25009dbfc85",
+      "multisetHashAlgorithm": "SHA256 of UTF-8 compact JSON for sorted (compact row JSON, multiplicity) pairs. No DNS rows are published."
+    },
+    "backupBundleHashes": [
+      {
+        "repository": "huihuisang/typenote-landing",
+        "id": 1201352821,
+        "bundleSHA256": "3e06ed0acdc30c9dded97f5bbaf4bfcb1d9e4bd3756e92c2d3b5ac13c0f35bf2"
+      },
+      {
+        "repository": "Ajigu-Studio/moodsk-website",
+        "id": 1370096346,
+        "bundleSHA256": "78500ae9e930df9bfb690148611438555e0ba954ebc4e85fa6833a6763deb658"
+      },
+      {
+        "repository": "huihuisang/snorz-site",
+        "id": 1333696286,
+        "bundleSHA256": "08a22a4b0e59b10ce5a973301bacea3d7237708693718a72d8eb38a86d803c50"
+      },
+      {
+        "repository": "huihuisang/dailyapod-site",
+        "id": 1340149861,
+        "bundleSHA256": "2f7d082839eb954e9c078ee83cff4164f4a0842160aedc281680de3db52718df"
+      },
+      {
+        "repository": "huihuisang/tutu-site",
+        "id": 1381405252,
+        "bundleSHA256": "2404ab02fc96bf88847a5ff5d6c99bd1663f930f0e867054e4d5305654ce487f"
+      }
+    ],
+    "existingEvidenceChecks": {
+      "edgeResults": 184,
+      "edgeEvidenceSchema": "passed",
+      "browserHosts": 5,
+      "browserURLQueryFragmentLanguage": "passed"
+    }
+  },
+  "executionBoundaries": [
+    "No repository deletion, OAuth authorization, live configuration write, backup or restore was executed by this reviewer.",
+    "The primary agent executed the 184 live checks, five browser checks and successful deletion dry run. This reviewer checked their evidence without repeating those operations.",
+    "Actual deletion still requires delete_repo permission and apply execution. API 404 and live checks after deletion are required before reporting retirement complete."
+  ],
+  "temporaryValidationTask": {
+    "id": "6839fda9efb340b1857684c559579ecc",
+    "retainedUntilVerifiedPublication": true
+  }
+}

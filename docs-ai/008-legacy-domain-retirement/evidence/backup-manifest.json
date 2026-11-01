@@ -1,0 +1,57 @@
+{
+  "createdAt": "2026-11-01T14:10:45.197538+00:00",
+  "repositories": [
+    {
+      "repository": "huihuisang/typenote-landing",
+      "id": 1201352821,
+      "directory": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--typenote-landing",
+      "bundleSHA256": "3e06ed0acdc30c9dded97f5bbaf4bfcb1d9e4bd3756e92c2d3b5ac13c0f35bf2",
+      "refCount": 3,
+      "issuesAndPullRequests": 1,
+      "files": 17
+    },
+    {
+      "repository": "Ajigu-Studio/moodsk-website",
+      "id": 1370096346,
+      "directory": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/Ajigu-Studio--moodsk-website",
+      "bundleSHA256": "78500ae9e930df9bfb690148611438555e0ba954ebc4e85fa6833a6763deb658",
+      "refCount": 2,
+      "issuesAndPullRequests": 0,
+      "files": 10
+    },
+    {
+      "repository": "huihuisang/snorz-site",
+      "id": 1333696286,
+      "directory": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--snorz-site",
+      "bundleSHA256": "08a22a4b0e59b10ce5a973301bacea3d7237708693718a72d8eb38a86d803c50",
+      "refCount": 2,
+      "issuesAndPullRequests": 4,
+      "files": 38
+    },
+    {
+      "repository": "huihuisang/dailyapod-site",
+      "id": 1340149861,
+      "directory": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--dailyapod-site",
+      "bundleSHA256": "2f7d082839eb954e9c078ee83cff4164f4a0842160aedc281680de3db52718df",
+      "refCount": 2,
+      "issuesAndPullRequests": 0,
+      "files": 10
+    },
+    {
+      "repository": "huihuisang/tutu-site",
+      "id": 1381405252,
+      "directory": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--tutu-site",
+      "bundleSHA256": "2404ab02fc96bf88847a5ff5d6c99bd1663f930f0e867054e4d5305654ce487f",
+      "refCount": 2,
+      "issuesAndPullRequests": 0,
+      "files": 10
+    }
+  ],
+  "limits": [
+    "No release assets, LFS pointers, submodules or Discussions were present; wiki inventory is recorded per repository.",
+    "Git objects, source refs and issue/PR JSON are retained. Original GitHub identities, URLs, stars, issue numbers and settings cannot be restored exactly.",
+    "Actions logs/caches, credentials and platform secrets are not included."
+  ],
+  "exportComplete": true,
+  "restorationVerified": true
+}

@@ -1,0 +1,15 @@
+				196 text You have used  7 out of 10  available Redirect Rules.
+							221 button www to apex
+							225 checkbox (settable, integer) 1
+							236 button Legacy apps: shared resources
+							240 checkbox (settable, integer) 1
+							251 button Legacy app: typenote
+							255 checkbox (settable, integer) 1
+							266 button Legacy app: moodsk
+							270 checkbox (settable, integer) 1
+							281 button Legacy app: gosleep
+							285 checkbox (settable, integer) 1
+							296 button Legacy app: dailyapod
+							300 checkbox (settable, integer) 1
+							311 button Legacy app: tutu
+							315 checkbox (settable, integer) 1

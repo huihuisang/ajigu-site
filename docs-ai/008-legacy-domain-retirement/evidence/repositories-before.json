@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1201352821,
+    "full_name": "huihuisang/typenote-landing",
+    "default_branch": "main",
+    "private": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "open_issues_count": 0,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "has_wiki": true,
+    "has_discussions": false,
+    "archived": false,
+    "size": 45498
+  },
+  {
+    "id": 1370096346,
+    "full_name": "Ajigu-Studio/moodsk-website",
+    "default_branch": "master",
+    "private": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "open_issues_count": 0,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "has_wiki": true,
+    "has_discussions": false,
+    "archived": false,
+    "size": 12490
+  },
+  {
+    "id": 1333696286,
+    "full_name": "huihuisang/snorz-site",
+    "default_branch": "main",
+    "private": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "open_issues_count": 0,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "has_wiki": true,
+    "has_discussions": false,
+    "archived": false,
+    "size": 6441
+  },
+  {
+    "id": 1340149861,
+    "full_name": "huihuisang/dailyapod-site",
+    "default_branch": "main",
+    "private": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "open_issues_count": 0,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "has_wiki": true,
+    "has_discussions": false,
+    "archived": false,
+    "size": 7470
+  },
+  {
+    "id": 1381405252,
+    "full_name": "huihuisang/tutu-site",
+    "default_branch": "main",
+    "private": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "open_issues_count": 0,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "has_wiki": false,
+    "has_discussions": false,
+    "archived": false,
+    "size": 5598
+  }
+]

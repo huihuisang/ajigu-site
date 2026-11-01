@@ -2,40 +2,6 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { parse } from "yaml";
-import { publication, publicationTarget, assertRelease } from "../scripts/publish-redirects.mjs";
-
-const revision = "a".repeat(40);
-const marker = (site) => ({
-  sourceRepository: publication.sourceRepository,
-  sourceRevision: revision,
-  site,
-  domain: publicationTarget(site).domain,
-  mode: "redirect",
-  targetBase: "https://ajigu.com" + publicationTarget(site).base + "/",
-});
-test("publication targets are fixed and exclude the source repository", () => {
-  assert.equal(Object.keys(publication.products).length, 5);
-  assert.throws(() => publicationTarget("ajigu"));
-  assert.throws(() => publicationTarget("unknown"));
-  assert.equal(publicationTarget("moodsk").repository, "Ajigu-Studio/moodsk-website");
-  for (const site of Object.keys(publication.products))
-    assert.notEqual(publicationTarget(site).repository, publication.sourceRepository);
-});
-test("product publication rejects incorrect domains, revisions and source identity", () => {
-  const good = marker("typenote");
-  assertRelease("typenote", good.domain, good, revision);
-  assert.throws(() => assertRelease("typenote", "ajigu.com", good, revision));
-  for (const change of [
-    { sourceRevision: "b".repeat(40) },
-    { sourceRepository: "other/repo" },
-    { site: "moodsk" },
-    { domain: "moodsk.ajigu.com" },
-    { mode: "site" },
-    { targetBase: "https://example.com/" },
-  ])
-    assert.throws(() => assertRelease("typenote", good.domain, { ...good, ...change }, revision));
-  assert.throws(() => assertRelease("typenote", good.domain, good, "main"));
-});
 test("production Pages permissions are limited to the deployment job after verification", async () => {
   const source = await readFile(
     new URL("../.github/workflows/deploy-studio.yml", import.meta.url),

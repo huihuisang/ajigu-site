@@ -38,7 +38,8 @@ pages share this origin. `pnpm build` runs Astro once and collects the website i
 
 The same command also generates five static compatibility outputs under
 `dist/redirects/<product>`. They contain instant HTML redirects and retained public
-assets, not independent Astro applications. Agent tasks use their registered
+assets for offline compatibility regression checks. These are not production
+redirect services. Agent tasks use their registered
 output directory. `STUDIO_OUTPUT_DIR` can select another root; preview and build
 checks use the same setting.
 
@@ -74,24 +75,24 @@ The main site publishes from the verified `ajigu-com` CI artifact through
 `.github/workflows/deploy-studio.yml`. Its deployment job has Pages and OIDC
 permissions; the reusable candidate workflow remains read-only.
 
-Old product domains keep their existing Pages repositories as compatibility
-endpoints. The guarded redirect publisher downloads fixed redirect artifacts from
-a successful main CI run and updates only `ajigu-site-production` branches. It
-validates the source revision, domains, mode and canonical target. Original source
-branches stay intact. Without `--apply` it only checks and prints the plan.
+The five legacy product domains use Cloudflare Single Redirects. Six ordered
+rules preserve shared resource paths, product paths and query strings, and return
+server-side HTTP 301 responses. The five DNS records are proxied CNAMEs to
+ajigu.com. The existing www rule and all other DNS records stay unchanged.
+
+The reviewed rule source is `scripts/legacy-redirect-rules.mjs`. No cross-repository
+publisher is used. CI only publishes the main website artifact; local HTML
+compatibility outputs remain available for offline migration regression checks.
+
+Repository backups, restore checks, edge checks and the guarded retirement flow
+are documented in `docs-ai/008-legacy-domain-retirement`. Persistent backups remain
+outside task cleanup and include Git bundles and issue/PR JSON. Original GitHub
+identities, URLs, stars and issue numbers cannot be restored exactly. Platform
+credentials, Actions logs/caches and account-level Projects are not included.
 
 ```sh
-task-artifacts run TASK_ID -- node scripts/publish-redirects.mjs --revision SOURCE_SHA --run RUN_ID
-task-artifacts run TASK_ID -- node scripts/publish-redirects.mjs --revision SOURCE_SHA --run RUN_ID --apply
+task-artifacts run TASK_ID -- node scripts/check-edge-redirects.mjs EVIDENCE_JSON
 ```
-
-These are HTTP 200 HTML pages with instant meta refresh and a location.replace
-fallback that retains query parameters and fragments. They are not server-side
-301 responses. No-script navigation has a static destination and readable link;
-dynamic query preservation requires JavaScript. Old binary/resource URLs stay
-available. The publisher requests Pages builds and the release operator verifies
-actual build SHAs and live behavior. No DNS or cross-repository token change is
-required. See `docs-ai/007-single-site/000-plan.md` and its result record.
 
 ## Languages
 

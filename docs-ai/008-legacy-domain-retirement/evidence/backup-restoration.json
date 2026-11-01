@@ -1,0 +1,76 @@
+{
+  "verifiedAt": "2026-11-01T14:14:17.678963+00:00",
+  "complete": true,
+  "repositories": [
+    {
+      "repository": "huihuisang/typenote-landing",
+      "id": 1201352821,
+      "restored": true,
+      "fsck": "passed",
+      "refCount": 3,
+      "commitCount": 31,
+      "releaseAssets": 0,
+      "lfsPointers": 0,
+      "submodules": 0,
+      "wiki": "not-created",
+      "discussions": false,
+      "bundleSHA256": "3e06ed0acdc30c9dded97f5bbaf4bfcb1d9e4bd3756e92c2d3b5ac13c0f35bf2"
+    },
+    {
+      "repository": "Ajigu-Studio/moodsk-website",
+      "id": 1370096346,
+      "restored": true,
+      "fsck": "passed",
+      "refCount": 2,
+      "commitCount": 18,
+      "releaseAssets": 0,
+      "lfsPointers": 0,
+      "submodules": 0,
+      "wiki": "not-created",
+      "discussions": false,
+      "bundleSHA256": "78500ae9e930df9bfb690148611438555e0ba954ebc4e85fa6833a6763deb658"
+    },
+    {
+      "repository": "huihuisang/snorz-site",
+      "id": 1333696286,
+      "restored": true,
+      "fsck": "passed",
+      "refCount": 2,
+      "commitCount": 32,
+      "releaseAssets": 0,
+      "lfsPointers": 0,
+      "submodules": 0,
+      "wiki": "not-created",
+      "discussions": false,
+      "bundleSHA256": "08a22a4b0e59b10ce5a973301bacea3d7237708693718a72d8eb38a86d803c50"
+    },
+    {
+      "repository": "huihuisang/dailyapod-site",
+      "id": 1340149861,
+      "restored": true,
+      "fsck": "passed",
+      "refCount": 2,
+      "commitCount": 21,
+      "releaseAssets": 0,
+      "lfsPointers": 0,
+      "submodules": 0,
+      "wiki": "not-created",
+      "discussions": false,
+      "bundleSHA256": "2f7d082839eb954e9c078ee83cff4164f4a0842160aedc281680de3db52718df"
+    },
+    {
+      "repository": "huihuisang/tutu-site",
+      "id": 1381405252,
+      "restored": true,
+      "fsck": "passed",
+      "refCount": 2,
+      "commitCount": 3,
+      "releaseAssets": 0,
+      "lfsPointers": 0,
+      "submodules": 0,
+      "wiki": "disabled",
+      "discussions": false,
+      "bundleSHA256": "2404ab02fc96bf88847a5ff5d6c99bd1663f930f0e867054e4d5305654ce487f"
+    }
+  ]
+}

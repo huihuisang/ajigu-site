@@ -1,0 +1,154 @@
+{
+  "changedAt": "2026-11-01T14:27:07.651396+00:00",
+  "hostCount": 5,
+  "unchangedOtherRecords": 18,
+  "before": {
+    "dailyapod.ajigu.com": [
+      "",
+      "",
+      "dailyapod.ajigu.com",
+      "CNAME",
+      "huihuisang.github.io",
+      "DNS only",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "gosleep.ajigu.com": [
+      "",
+      "",
+      "gosleep.ajigu.com",
+      "CNAME",
+      "huihuisang.github.io",
+      "DNS only",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "moodsk.ajigu.com": [
+      "",
+      "",
+      "moodsk.ajigu.com",
+      "CNAME",
+      "ajigu-studio.github.io",
+      "DNS only",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "tutu.ajigu.com": [
+      "",
+      "",
+      "tutu.ajigu.com",
+      "CNAME",
+      "huihuisang.github.io",
+      "DNS only",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "typenote.ajigu.com": [
+      "",
+      "",
+      "typenote.ajigu.com",
+      "CNAME",
+      "huihuisang.github.io",
+      "DNS only",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ]
+  },
+  "after": {
+    "dailyapod.ajigu.com": [
+      "",
+      "",
+      "dailyapod.ajigu.com",
+      "CNAME",
+      "ajigu.com",
+      "Proxied",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "gosleep.ajigu.com": [
+      "",
+      "",
+      "gosleep.ajigu.com",
+      "CNAME",
+      "ajigu.com",
+      "Proxied",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "moodsk.ajigu.com": [
+      "",
+      "",
+      "moodsk.ajigu.com",
+      "CNAME",
+      "ajigu.com",
+      "Proxied",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "tutu.ajigu.com": [
+      "",
+      "",
+      "tutu.ajigu.com",
+      "CNAME",
+      "ajigu.com",
+      "Proxied",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ],
+    "typenote.ajigu.com": [
+      "",
+      "",
+      "typenote.ajigu.com",
+      "CNAME",
+      "ajigu.com",
+      "Proxied",
+      "Auto",
+      "\u2014",
+      "\u2014",
+      "\u2014",
+      "Edit"
+    ]
+  },
+  "otherRecordsSHA256": "ec23c2659cc4f015fbdd4c2dde2d2abbc37d11f55ec69fe3f94982223234d06b",
+  "totalRecordCount": 23,
+  "comparison": "Full record rows, including repeated names with different types or values. No hostname deduplication.",
+  "fullSnapshots": {
+    "before": {
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/cloudflare-dns-before.json",
+      "sha256": "d9b1ab06ce34bb8ab694d65edb1980324dbb81f64a29f367b04e565e4514c8af",
+      "rows": 23
+    },
+    "after": {
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/cloudflare-dns-after.json",
+      "sha256": "7335ee3710e5ec839978dfa3770fad9aeba7ff5ad4511fc959b3b28b1d09141e",
+      "rows": 23
+    }
+  }
+}

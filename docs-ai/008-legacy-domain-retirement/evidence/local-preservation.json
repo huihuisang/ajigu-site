@@ -1,0 +1,20 @@
+{
+  "GOOGLE-API-REPORT-ajigu.com.md": "1bab49315f367605bdca8acfb9441d3e03484c10de950c14fff25d3d5ecb1674",
+  "apps/ajigu/public/gallery/dailyapod-mockup.webp": "1c09fa46e9defac3840863d1f564699ecc396207ebaa0a36f108bf6bc9917ac2",
+  "apps/ajigu/src/products/dailyapod/components/GalleryPreview.tsx": "fc6dda36a30cf68f700684362d7ccd999f68adb9e48962cdfc18881ad6b837f8",
+  "design/mockups/README.md": "e983303e6364adc09c687aaad3e39912f8fd94e7aa9bc1cef36d4a25f9233b74",
+  "design/mockups/outputs.json": "22c8a6672189bcb0d45a366423162adf2d36ca71009762b416c3329b7ea322a8",
+  "design/mockups/products.json": "671653fd4f9eb70aae8648e4274787608ae1ab3e1768540ef66aed9e042d37bb",
+  "design/mockups/screens/dailyapod-discover.webp": "269a721d82f3e2c71064d160cbfa15f26db238a30357023d7c5f7744bb868dff",
+  "design/mockups/screens/dailyapod-favorites.webp": "e7e421acf32705f87e50b4f45742fed4abd2ea74126d9dcbee2d1ce932aec802",
+  "design/mockups/screens/dailyapod-home.webp": "89f875012e95e78f2e1c05481bc1d7a0bb64834a5500d29f0343c74d605b9b24",
+  "design/mockups/screens/dailyapod-search.webp": "71ca4930beca6f5cadb9eb8bdedb07d92d2663b432020cff912a5b57c46ed071",
+  "design/mockups/screens.json": "805d4c9ff6979bec5c2e4ab3cf20017dd5a503342b9986fd31c554d2628df37d",
+  "docs-ai/004-device-mockups/evidence/apod-home-browser-results.json": "2dae24b50e2883d6e1e1e02391e6ddfed6ab1d9af649169987cddb2790c536d6",
+  "docs-ai/004-device-mockups/evidence/apod-home-desktop.jpg": "4724dfe52253253cf8ca6728ae2ce20cdec7ec4bae82bf84e8e2e57f3a537558",
+  "docs-ai/004-device-mockups/evidence/apod-home-mobile.jpg": "63facda3910366ee8935655c27a6a024e8f2d3ec54753bcf184c6c042682866a",
+  "memory/product-screenshots.md": "2c06af6f235002b1f11edd34be6c5ffa15d4af4023b4457e3ea749862612dd73",
+  "memory/seo.md": "ad2ab97846abfc39d6cd62d870923f3a4ef9840875781cccde9cbb7d0a964746",
+  "packages/site-kit/src/copy.json": "8293ed9b9e6a5d53c237a444976e5a3fba085fb1652170abc20e8c3003d55791",
+  "tests/browser.mjs": "ae0fb904bcc642f7e6f2a05b22108a8548b996709cc520a8c831e3616afd6f50"
+}

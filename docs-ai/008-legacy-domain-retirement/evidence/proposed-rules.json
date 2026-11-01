@@ -1,0 +1,92 @@
+[
+  {
+    "description": "Legacy apps: shared resources",
+    "expression": "(http.host in {\"typenote.ajigu.com\" \"moodsk.ajigu.com\" \"gosleep.ajigu.com\" \"dailyapod.ajigu.com\" \"tutu.ajigu.com\"} and (http.request.uri.path eq \"/studio\" or starts_with(http.request.uri.path, \"/studio/\") or http.request.uri.path eq \"/licenses\" or starts_with(http.request.uri.path, \"/licenses/\")))",
+    "action": "redirect",
+    "action_parameters": {
+      "from_value": {
+        "target_url": {
+          "expression": "concat(\"https://ajigu.com\", http.request.uri.path)"
+        },
+        "status_code": 301,
+        "preserve_query_string": true
+      }
+    },
+    "enabled": true
+  },
+  {
+    "description": "Legacy app: typenote",
+    "expression": "(http.host eq \"typenote.ajigu.com\")",
+    "action": "redirect",
+    "action_parameters": {
+      "from_value": {
+        "target_url": {
+          "expression": "concat(\"https://ajigu.com/typenote\", http.request.uri.path)"
+        },
+        "status_code": 301,
+        "preserve_query_string": true
+      }
+    },
+    "enabled": true
+  },
+  {
+    "description": "Legacy app: moodsk",
+    "expression": "(http.host eq \"moodsk.ajigu.com\")",
+    "action": "redirect",
+    "action_parameters": {
+      "from_value": {
+        "target_url": {
+          "expression": "concat(\"https://ajigu.com/moodsk\", http.request.uri.path)"
+        },
+        "status_code": 301,
+        "preserve_query_string": true
+      }
+    },
+    "enabled": true
+  },
+  {
+    "description": "Legacy app: gosleep",
+    "expression": "(http.host eq \"gosleep.ajigu.com\")",
+    "action": "redirect",
+    "action_parameters": {
+      "from_value": {
+        "target_url": {
+          "expression": "concat(\"https://ajigu.com/gosleep\", http.request.uri.path)"
+        },
+        "status_code": 301,
+        "preserve_query_string": true
+      }
+    },
+    "enabled": true
+  },
+  {
+    "description": "Legacy app: dailyapod",
+    "expression": "(http.host eq \"dailyapod.ajigu.com\")",
+    "action": "redirect",
+    "action_parameters": {
+      "from_value": {
+        "target_url": {
+          "expression": "concat(\"https://ajigu.com/dailyapod\", http.request.uri.path)"
+        },
+        "status_code": 301,
+        "preserve_query_string": true
+      }
+    },
+    "enabled": true
+  },
+  {
+    "description": "Legacy app: tutu",
+    "expression": "(http.host eq \"tutu.ajigu.com\")",
+    "action": "redirect",
+    "action_parameters": {
+      "from_value": {
+        "target_url": {
+          "expression": "concat(\"https://ajigu.com/tutu\", http.request.uri.path)"
+        },
+        "status_code": 301,
+        "preserve_query_string": true
+      }
+    },
+    "enabled": true
+  }
+]

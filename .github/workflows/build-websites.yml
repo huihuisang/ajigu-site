@@ -45,31 +45,6 @@ jobs:
           path: ${{ runner.temp }}/ajigu-websites/ajigu
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: typenote-redirects
-          path: ${{ runner.temp }}/ajigu-websites/redirects/typenote
-          include-hidden-files: true
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: moodsk-redirects
-          path: ${{ runner.temp }}/ajigu-websites/redirects/moodsk
-          include-hidden-files: true
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: gosleep-redirects
-          path: ${{ runner.temp }}/ajigu-websites/redirects/gosleep
-          include-hidden-files: true
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: dailyapod-redirects
-          path: ${{ runner.temp }}/ajigu-websites/redirects/dailyapod
-          include-hidden-files: true
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: tutu-redirects
-          path: ${{ runner.temp }}/ajigu-websites/redirects/tutu
-          include-hidden-files: true
-      - uses: actions/upload-artifact@v7.0.2
         if: always()
         with:
           name: browser-evidence

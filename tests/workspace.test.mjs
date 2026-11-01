@@ -83,7 +83,5 @@ test("the reusable release-candidate workflow has no publication capability", as
     step.uses?.startsWith("actions/upload-artifact"),
   );
   assert.ok(uploads.some((step) => step.with.name === "ajigu-com"));
-  assert.ok(uploads.some((step) => step.with.name === "typenote-redirects"));
-  for (const name of ["moodsk", "gosleep", "dailyapod", "tutu"])
-    assert.ok(uploads.some((step) => step.with.name === `${name}-redirects`));
+  assert.deepEqual(uploads.map((step) => step.with.name).sort(), ["ajigu-com", "browser-evidence"]);
 });
