@@ -7,13 +7,13 @@
       "locale": "en",
       "actions": [
         {
-          "href": "https://testflight.apple.com/join/72GRwKdU",
-          "label": "Join the free beta on TestFlight",
+          "href": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+          "label": "Download on the App Store",
           "external": false
         },
         {
           "href": "#how",
-          "label": "See how it works \u2193",
+          "label": "See how it works ↓",
           "external": false
         }
       ]
@@ -23,13 +23,13 @@
       "locale": "zh-Hans",
       "actions": [
         {
-          "href": "https://testflight.apple.com/join/72GRwKdU",
-          "label": "\u901a\u8fc7 TestFlight \u52a0\u5165\u514d\u8d39\u6d4b\u8bd5",
+          "href": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+          "label": "在 App Store 下载",
           "external": false
         },
         {
           "href": "#how",
-          "label": "\u770b\u770b\u600e\u4e48\u7528 \u2193",
+          "label": "看看怎么用 ↓",
           "external": false
         }
       ]
@@ -39,13 +39,13 @@
       "locale": "zh-Hant",
       "actions": [
         {
-          "href": "https://testflight.apple.com/join/72GRwKdU",
-          "label": "\u900f\u904e TestFlight \u52a0\u5165\u514d\u8cbb\u6e2c\u8a66",
+          "href": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+          "label": "在 App Store 下載",
           "external": false
         },
         {
           "href": "#how",
-          "label": "\u770b\u770b\u600e\u9ebc\u7528 \u2193",
+          "label": "看看怎麼用 ↓",
           "external": false
         }
       ]
@@ -55,13 +55,13 @@
       "locale": "ja",
       "actions": [
         {
-          "href": "https://testflight.apple.com/join/72GRwKdU",
-          "label": "TestFlight \u3067\u7121\u6599\u30d9\u30fc\u30bf\u306b\u53c2\u52a0",
+          "href": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+          "label": "App Store からダウンロード",
           "external": false
         },
         {
           "href": "#how",
-          "label": "\u4f7f\u3044\u65b9\u3092\u898b\u308b \u2193",
+          "label": "使い方を見る ↓",
           "external": false
         }
       ]
@@ -71,27 +71,27 @@
       "locale": "ko",
       "actions": [
         {
-          "href": "https://testflight.apple.com/join/72GRwKdU",
-          "label": "TestFlight\uc5d0\uc11c \ubb34\ub8cc \ubca0\ud0c0 \ucc38\uc5ec",
+          "href": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+          "label": "App Store에서 다운로드",
           "external": false
         },
         {
           "href": "#how",
-          "label": "\uc0ac\uc6a9 \ubc29\ubc95 \ubcf4\uae30 \u2193",
+          "label": "사용 방법 보기 ↓",
           "external": false
         }
       ]
     }
   ],
   "compatibility": {
-    "404.html": "cb96d37dd99a77e49653716b5c833ec5ade49c9dbefdc5f8d36a3e18b11f50fd",
+    "404.html": "6bbe3f05cc917ac75fac616a66347d52560a7252cf20b45a67f8aa51f3519557",
     "CNAME": "e06d0403ea092e39a0ea30819cf597b3cd960ad2194e2b408822ba7235c0e86f",
-    "assets/ajigu-logo.png": "832774fad6e0a33c77fd7f693d19abc8ba0680ec6f8c31060e36873e2c1221e2",
+    "assets/ajigu-logo.png": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27",
     "assets/app-icon.png": "e75a796fe65cec61905000eebc24a7efa337654d7a21f38c236be82284d4c4c7",
     "assets/favicon.png": "8b51db5ad17b6514d7ea18ec3e28189e17613982e02f0b517dfcf82c3dc371ff",
     "lang-kit.css": "7ce2f24fa71c85b2ba507b00d170e491659f84d6385d2cb540bcb1eda537127d",
     "lang-kit.js": "675f25f3743e183ba4260149310babbed1da8f9c11b25880130b78dad6067afb",
-    "llms.txt": "180a768253e98dab41178c57de8efea2e45cb9d243f92d353fe3ac5f6858df07",
+    "llms.txt": "eba1f2b325b450e628eada92f9710021b64e782a42a762e93e86679ea39bfc4b",
     "reveal.js": "d39bdd6eaffb046f0a102031c097c3d0107ea4de7f04989406bb1a13972d94dd",
     "robots.txt": "7164306fa51a7c37585dea7fcd2f20dc1b30a056f1a9547a83aa07231b3c827b",
     "sitemap.xml": "d68b5c815791e52d9f64b9c7a7fdee7ac61e2e4aa21c11d44b98cb169ea0fdb3",

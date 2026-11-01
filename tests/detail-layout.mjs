@@ -4,6 +4,7 @@ import path from "node:path";
 import { chromium } from "@playwright/test";
 import { startPreview } from "../scripts/preview-workspace.mjs";
 import { sites } from "../packages/site-kit/config/paths.mjs";
+import { inspectMoodskChapters } from "./moodsk-layout.mjs";
 
 const output = process.env.TASK_ARTIFACT_DIR;
 if (!output) throw new Error("Run layout checks through task-artifacts.");
@@ -91,8 +92,8 @@ async function inspect(page, entry, width) {
   });
   assert.ok(metrics.modules.length >= 4, `${entry.site}${entry.route}: missing modules`);
   assert.equal(metrics.overflow, false, `${entry.site}${entry.route}@${width}: overflow`);
-  const left = width <= 640 ? 20 : Math.max(32, (width - 1040) / 2);
-  const gap = width <= 640 ? 48 : 64;
+  const left = Math.max(width <= 760 ? 16 : 24, (width - 1080) / 2);
+  const gap = width <= 760 ? 72 : Math.min(136, Math.max(88, width * 0.09));
   for (const [index, module] of metrics.modules.entries()) {
     const label = `${entry.site}${entry.route}@${width}/${module.id}`;
     near(module.left, left, `${label} left`);
@@ -100,7 +101,11 @@ async function inspect(page, entry, width) {
     if (index) near(module.top - metrics.modules[index - 1].bottom, gap, `${label} gap`);
     for (const spacing of module.contentGaps) near(spacing, 24, `${label} content gap`);
     for (const heading of module.headings) {
-      near(heading.left, left, `${label} heading left`);
+      if (module.id === "download") {
+        near((heading.left + heading.right) / 2, width / 2, `${label} heading center`);
+      } else {
+        near(heading.left, left, `${label} heading left`);
+      }
       if (heading.nextTop !== undefined)
         near(heading.nextTop - heading.bottom, 24, `${label} heading gap`);
     }
@@ -124,6 +129,7 @@ try {
       );
       await page.locator('#faq [data-slot="accordion-trigger"]').first().waitFor();
       matrix.push({ ...entry, width, ...(await inspect(page, entry, width)) });
+      if (entry.site === "moodsk") await inspectMoodskChapters(page, `${entry.route}@${width}`);
       if (width !== 1440 && width !== 320) continue;
       const triggers = page.locator('.product-details [data-slot="accordion-trigger"]');
       for (let i = 0; i < (await triggers.count()); i++) {
@@ -140,8 +146,9 @@ try {
               outerRight: outer.right,
             };
           });
-        near(bounds.left, bounds.outerLeft, "expanded content left");
-        near(bounds.right, bounds.outerRight, "expanded content right");
+        const inset = width <= 640 ? 17 : 25;
+        near(bounds.left, bounds.outerLeft + inset, "expanded content left");
+        near(bounds.right, bounds.outerRight - inset, "expanded content right");
         await inspect(page, entry, width);
         expanded.push({ ...entry, width, chapter: i, ...bounds });
         await triggers.nth(i).click();

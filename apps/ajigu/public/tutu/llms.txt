@@ -4,8 +4,8 @@
 
 ## App
 
-- [TUTU](https://tutu.ajigu.com/): iPhone AI photo eraser. Tap-to-erase with automatic object outlines, brush/line/box tools for manual areas, auto-remove, tunable detection sensitivity, full-quality export to the photo library. Detection and inpainting run entirely on device—no account, no uploads, no tracking. Free beta via TestFlight; Premium (monthly, annual, lifetime) unlocks all features at launch.
-- TestFlight beta: https://testflight.apple.com/join/72GRwKdU
+- [TUTU](https://tutu.ajigu.com/): iPhone AI photo eraser. Tap-to-erase with automatic object outlines, brush/line/box tools for manual areas, auto-remove, tunable detection sensitivity, full-quality export to the photo library. Detection and inpainting run entirely on device—no account, no uploads, no tracking. Free download and editing trial. Saving edited photos requires TUTU Premium (monthly, annual, or lifetime).
+- App Store: https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4
 
 ## Languages
 

@@ -1,0 +1,103 @@
+{
+  "elements": [
+    {
+      "class": "hero-title-has-break",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 101.390625,
+      "lineHeight": "46.8px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "39px",
+      "tracking": "-1.872px",
+      "weight": "620",
+      "width": 342
+    },
+    {
+      "class": "hero-description",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 84.5,
+      "lineHeight": "25.5px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "15px",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 330
+    },
+    {
+      "class": "lumno-settings-button lumno-settings-button-primary hero-actions-button",
+      "corner": "superellipse(1)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 42,
+      "lineHeight": "18.2px",
+      "padding": "7px 14px",
+      "radius": "999px",
+      "size": "13px",
+      "tracking": "normal",
+      "weight": "650",
+      "width": 173
+    },
+    {
+      "class": "lumno-settings-button lumno-settings-button-secondary hero-actions-button hero-community-button",
+      "corner": "superellipse(1)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 42,
+      "lineHeight": "18.2px",
+      "padding": "7px 14px",
+      "radius": "999px",
+      "size": "13px",
+      "tracking": "normal",
+      "weight": "650",
+      "width": 122.8203125
+    },
+    {
+      "class": "home-h2",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 40.3125,
+      "lineHeight": "40.32px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "32px",
+      "tracking": "-0.32px",
+      "weight": "620",
+      "width": 358
+    },
+    {
+      "class": "bento-cell bento-cell--wide home-lit",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 365.749755859375,
+      "lineHeight": "24px",
+      "padding": "5px 5px 23px",
+      "radius": "24px",
+      "size": "16px",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 358
+    },
+    {
+      "class": "bento-cell home-lit",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "height": 390.5,
+      "lineHeight": "24px",
+      "padding": "5px 5px 23px",
+      "radius": "24px",
+      "size": "16px",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 358
+    }
+  ],
+  "overflow": false,
+  "scrollY": 0,
+  "shortViewport": false,
+  "url": "https://lumno.kubai.design/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

@@ -29,17 +29,17 @@
       "actions": [
         {
           "href": "https://apps.apple.com/cn/app/moodsk-%E6%96%87%E4%BB%B6%E5%A4%B9%E5%9B%BE%E6%A0%87%E5%88%B6%E4%BD%9C/id6752535811?mt=12",
-          "label": "App Store \u4e0b\u8f7d",
+          "label": "App Store 下载",
           "external": false
         },
         {
           "href": "#features",
-          "label": "\u770b\u770b\u5b83\u80fd\u505a\u4ec0\u4e48",
+          "label": "看看它能做什么",
           "external": false
         },
         {
           "href": "/zh-hans/tutorials/",
-          "label": "\u9605\u8bfb\u6559\u7a0b",
+          "label": "阅读教程",
           "external": false
         }
       ]
@@ -50,17 +50,17 @@
       "actions": [
         {
           "href": "https://apps.apple.com/jp/app/moodsk-%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E4%BD%9C%E6%88%90/id6752535811?mt=12",
-          "label": "App Store \u3067\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9",
+          "label": "App Store でダウンロード",
           "external": false
         },
         {
           "href": "#features",
-          "label": "\u3067\u304d\u308b\u3053\u3068\u3092\u898b\u308b",
+          "label": "できることを見る",
           "external": false
         },
         {
           "href": "/tutorials/",
-          "label": "\u4f7f\u3044\u65b9\u3092\u8aad\u3080\uff08\u82f1\u8a9e\uff09",
+          "label": "使い方を読む（英語）",
           "external": false
         }
       ]
@@ -71,17 +71,17 @@
       "actions": [
         {
           "href": "https://apps.apple.com/kr/app/moodsk-%ED%8F%B4%EB%8D%94-%EC%95%84%EC%9D%B4%EC%BD%98-%EB%A7%8C%EB%93%A4%EA%B8%B0/id6752535811?mt=12",
-          "label": "App Store\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc",
+          "label": "App Store에서 다운로드",
           "external": false
         },
         {
           "href": "#features",
-          "label": "\ubb34\uc5c7\uc744 \ud560 \uc218 \uc788\ub294\uc9c0 \ubcf4\uae30",
+          "label": "무엇을 할 수 있는지 보기",
           "external": false
         },
         {
           "href": "/tutorials/",
-          "label": "\uc0ac\uc6a9 \uac00\uc774\ub4dc \uc77d\uae30 (\uc601\uc5b4)",
+          "label": "사용 가이드 읽기 (영어)",
           "external": false
         }
       ]
@@ -91,7 +91,7 @@
     "404.html": "4131c796893ecfa83ad5fddfab1255d4dc7be355c0074d018b476f0c7d06f6b2",
     "CNAME": "577482d8c18dd5fa7867c0bea3fd17b4846f148a7ca8761593b4ec2f9cde34f0",
     "about/index.html": "0481a6a5d59a3cc259de39a2ce5ba32e3e57f4da65d8c038d2fa469dec0274b5",
-    "assets/ajigu-logo.png": "832774fad6e0a33c77fd7f693d19abc8ba0680ec6f8c31060e36873e2c1221e2",
+    "assets/ajigu-logo.png": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27",
     "assets/appicon.jpg": "f53f13d8181b32a8baf00bab3e565eb42bdcf3cbcf8fe8cdfe1dec8138682226",
     "assets/apple-touch-icon.png": "699f2495978cc7a2f0fa4e5a293702ac165b3e42270e11019fdc1e7708777e9f",
     "assets/favicon.png": "13f8a1fe3a06e8174b6780379020a247a18e80e7b1e7aa4e61494d6a328d364a",

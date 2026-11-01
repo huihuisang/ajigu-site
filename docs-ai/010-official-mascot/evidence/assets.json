@@ -1,0 +1,109 @@
+{
+  "referenceMatchesUserUpload": true,
+  "files": [
+    {
+      "file": "assets/logo.png",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "bytes": 76265,
+      "sha256": "2a7e04e133c0579a9f06610f03b223a142de2c3c8ed71cf87e8a06c50b2a38d4"
+    },
+    {
+      "file": "assets/logo.webp",
+      "width": 256,
+      "height": 256,
+      "transparent": true,
+      "bytes": 51050,
+      "sha256": "157a9ef2c7c04086eee9d553b121ceb147b9769c386dcdecca70a45330e738ab"
+    },
+    {
+      "file": "assets/favicon.png",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "bytes": 7744,
+      "sha256": "fdc56b711292bf38b0bba20ab82175604c5084f21dc65c0d3c6e758b7344d860"
+    },
+    {
+      "file": "assets/favicon.webp",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "bytes": 6190,
+      "sha256": "bf0e086e093ff1ca7be194626015d30024e9e24c32adacfff135901c5d8a0384"
+    },
+    {
+      "file": "nameplate/assets/ajigu-logo.png",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 23745,
+      "sha256": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27"
+    },
+    {
+      "file": "nameplate/assets/ajigu-logo.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 17600,
+      "sha256": "9a9b9e0b9f94d024b38c4972919d564eea6e971e4768136c5894722935eaa236"
+    },
+    {
+      "file": "packages/site-kit/media/ajigu.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 17600,
+      "sha256": "9a9b9e0b9f94d024b38c4972919d564eea6e971e4768136c5894722935eaa236"
+    },
+    {
+      "file": "studio/media/ajigu.webp",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 17600,
+      "sha256": "9a9b9e0b9f94d024b38c4972919d564eea6e971e4768136c5894722935eaa236"
+    },
+    {
+      "file": "apps/ajigu/public/typenote/assets/ajigu-logo.png",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 23745,
+      "sha256": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27"
+    },
+    {
+      "file": "apps/ajigu/public/moodsk/assets/ajigu-logo.png",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 23745,
+      "sha256": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27"
+    },
+    {
+      "file": "apps/ajigu/public/gosleep/assets/ajigu-logo.png",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 23745,
+      "sha256": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27"
+    },
+    {
+      "file": "apps/ajigu/public/dailyapod/assets/ajigu-logo.png",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 23745,
+      "sha256": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27"
+    },
+    {
+      "file": "apps/ajigu/public/tutu/assets/ajigu-logo.png",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "bytes": 23745,
+      "sha256": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27"
+    }
+  ]
+}

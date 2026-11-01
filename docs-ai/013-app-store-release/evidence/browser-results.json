@@ -1,0 +1,318 @@
+{
+  "matrix": [
+    {
+      "product": "gosleep",
+      "route": "/",
+      "locale": "en-US",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/",
+      "locale": "en-US",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/",
+      "locale": "en-US",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/en-gb/",
+      "locale": "en-GB",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/en-gb/",
+      "locale": "en-GB",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/en-gb/",
+      "locale": "en-GB",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/ja/",
+      "locale": "ja",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/ja/",
+      "locale": "ja",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/ja/",
+      "locale": "ja",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/ko/",
+      "locale": "ko",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/ko/",
+      "locale": "ko",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/ko/",
+      "locale": "ko",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/de/",
+      "locale": "de",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/de/",
+      "locale": "de",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/de/",
+      "locale": "de",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/fr/",
+      "locale": "fr",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/fr/",
+      "locale": "fr",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "gosleep",
+      "route": "/fr/",
+      "locale": "fr",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/",
+      "locale": "en",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/",
+      "locale": "en",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/",
+      "locale": "en",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/zh-hans/",
+      "locale": "zh-Hans",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/zh-hant/",
+      "locale": "zh-Hant",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/ja/",
+      "locale": "ja",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/ja/",
+      "locale": "ja",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/ja/",
+      "locale": "ja",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/ko/",
+      "locale": "ko",
+      "mode": 320,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/ko/",
+      "locale": "ko",
+      "mode": 1440,
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    },
+    {
+      "product": "tutu",
+      "route": "/ko/",
+      "locale": "ko",
+      "mode": "no-script",
+      "destination": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "storeNavigation": "intercepted; no purchase or external store page loaded"
+}

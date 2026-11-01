@@ -20,6 +20,7 @@ import { SoundPreview } from "./SoundPreview";
 import { Features, Notation, Privacy, DownloadSection } from "./TypeNoteSections";
 import { observeEntrances } from "@ajigu/site-kit/scripts/enhance";
 import { release, repository } from "../content/product";
+import { readLanguagePreference } from "@ajigu/site-kit/scripts/language";
 
 const languageItems = [
   { code: "en", label: "English", href: "/typenote/?lang=en" },
@@ -40,7 +41,13 @@ export default function TypeNotePage() {
       try {
         saved = readPreference(window.localStorage);
       } catch {}
-      setLanguage(resolveLanguage(location.search, saved));
+      setLanguage(
+        resolveLanguage(
+          location.search,
+          normalizeLanguage(readLanguagePreference()) || saved,
+          navigator.languages?.length ? navigator.languages : [navigator.language],
+        ),
+      );
     };
     resolve();
     window.addEventListener("popstate", resolve);

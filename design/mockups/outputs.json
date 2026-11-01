@@ -1,7 +1,8 @@
 {
   "typenote": {
     "file": "apps/ajigu/public/gallery/typenote-mockup.webp",
-    "sha256": "3fdc1558589f818878d759e67358de15b81a8084f96559ecf81455836c80fb80",
+    "sha256": "35194e474a44ea3566a7a0f6ad0e3f85fe2d19524db535838106c698582b27ae",
+    "background": "transparent",
     "template": "apple-macbookpro14",
     "screens": [
       {
@@ -12,7 +13,8 @@
   },
   "moodsk": {
     "file": "apps/ajigu/public/gallery/moodsk-mockup.webp",
-    "sha256": "e03e1b4e0e4a7a34e858727df01c338dc541ebc2d6821ef94d6270dae05e6fec",
+    "sha256": "fc5c275d4fe1c767c985e74a92a3881ee2ac1da1c532021e505ede8e41b95f5f",
+    "background": "transparent",
     "template": "apple-macbookpro14",
     "screens": [
       {
@@ -23,7 +25,8 @@
   },
   "gosleep": {
     "file": "apps/ajigu/public/gallery/gosleep-mockup.webp",
-    "sha256": "4fe6f138a0bbfd7026788c7efdca593ebd0717cef22a6a12854a587ce4fc2407",
+    "sha256": "19c112da0d1c4d8001e9cd26422244b735bf3a33fc99242eec4fd99b59abe08e",
+    "background": "transparent",
     "template": "apple-iphone-15-pro-black-titanium",
     "screens": [
       {
@@ -42,9 +45,14 @@
   },
   "dailyapod": {
     "file": "apps/ajigu/public/gallery/dailyapod-mockup.webp",
-    "sha256": "e59065b398958080ab1775ae597958b91306be633667ee54f0ce2f3e1f3501e9",
+    "sha256": "f1f72690f87b8ef6f2c2a7168719160761dc3e0cada3a84f90f672cf7b62595e",
+    "background": "transparent",
     "template": "apple-iphone-15-pro-black-titanium",
     "screens": [
+      {
+        "file": "design/mockups/screens/dailyapod-home.webp",
+        "sha256": "89f875012e95e78f2e1c05481bc1d7a0bb64834a5500d29f0343c74d605b9b24"
+      },
       {
         "file": "design/mockups/screens/dailyapod-sky.webp",
         "sha256": "6340d9be53d0acd522c487b65335e2c4ddb17b40375c825cb12be4455c67bb08"
@@ -57,7 +65,8 @@
   },
   "tutu": {
     "file": "apps/ajigu/public/gallery/tutu-mockup.webp",
-    "sha256": "d05c937086d4f943ef775edfa506308173d605f4bd4455b2e6e08041b7ee0bcf",
+    "sha256": "040ec824b0befa0601c51c1287250e99602b5f196d553716c06010f465aadba7",
+    "background": "transparent",
     "template": "apple-ipadpro11-spacegrey",
     "screens": [
       {
@@ -68,7 +77,8 @@
   },
   "nameplate": {
     "file": "apps/ajigu/public/gallery/nameplate-mockup.webp",
-    "sha256": "71b4ea941feab524d39ef6a7c27e288d8513f5ca80851dfe511cd2e0effa8a5e",
+    "sha256": "c216eda2a0da006138058809d922e8fceb3f3b41b7e47a5cf0edb417a3f77ce9",
+    "background": "transparent",
     "template": "apple-macbookpro14",
     "screens": [
       {
@@ -79,7 +89,8 @@
   },
   "loglift": {
     "file": "apps/ajigu/public/gallery/loglift-mockup.webp",
-    "sha256": "9e46800d03dac9006af2c74bb4b9110ac3affaafe8ae2dbd3a43476fc8ac8d15",
+    "sha256": "07cfbdc0391662df6129b91b9238d6b80865ff9400e8e8f5f3db5edf2858b692",
+    "background": "transparent",
     "template": "apple-macbookpro14",
     "screens": [
       {

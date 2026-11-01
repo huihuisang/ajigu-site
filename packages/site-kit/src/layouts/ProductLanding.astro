@@ -20,7 +20,12 @@ const footerLinks = page.footerLinks.some((link) => link.href === "https://ajigu
   : [...page.footerLinks, { href: "https://ajigu.com/", label: "ajigu" }];
 ---
 
-<SiteLayout metadata={page.metadata} locale={page.locale} product={product.id}>
+<SiteLayout
+  metadata={page.metadata}
+  locale={page.locale}
+  languages={page.languages}
+  product={product.id}
+>
   <a class="studio-skip" href={`#${page.mainId}`}>
     {copy.skip}
   </a>

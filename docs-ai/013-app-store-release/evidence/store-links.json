@@ -1,0 +1,12 @@
+[
+  {
+    "source": "https://apps.apple.com/app/id6799618137",
+    "status": 200,
+    "finalURL": "https://apps.apple.com/cn/iphone/today"
+  },
+  {
+    "source": "https://apps.apple.com/app/id6480340301",
+    "status": 200,
+    "finalURL": "https://apps.apple.com/cn/iphone/today"
+  }
+]

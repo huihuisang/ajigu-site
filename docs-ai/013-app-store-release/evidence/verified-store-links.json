@@ -1,0 +1,14 @@
+[
+  {
+    "source": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137",
+    "status": 200,
+    "finalURL": "https://apps.apple.com/cn/iphone/today",
+    "containsAppId": false
+  },
+  {
+    "source": "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301",
+    "status": 200,
+    "finalURL": "https://apps.apple.com/cn/iphone/today",
+    "containsAppId": false
+  }
+]

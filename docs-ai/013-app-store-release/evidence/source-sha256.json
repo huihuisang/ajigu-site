@@ -1,0 +1,14 @@
+{
+  "apps/ajigu/src/products/gosleep/content/pages.json": "e55fed918ae3b9e2584a24443774f246f14e26e06bd2044965dc386e86dda657",
+  "apps/ajigu/src/products/tutu/content/pages.json": "bd625942d3dc99a3c7aece1fab9ee7877c58056ea0c42db276c90e5b88662f55",
+  "apps/ajigu/src/products/gosleep/compatibility.json": "38550c0644bf0db6b4e5682fcea8169db4de81051fc0f5342fdeddc5aa4d4961",
+  "apps/ajigu/src/products/tutu/compatibility.json": "fca538ba1ed39852953ae8be8fc7536f7d7018f16b965679feeb511b36133f08",
+  "apps/ajigu/public/gosleep/llms.txt": "5ad491564d3b0f08199a9d2ddf883e311da3d4c67c660af6b1e1e6b1442acfef",
+  "apps/ajigu/public/tutu/llms.txt": "eba1f2b325b450e628eada92f9710021b64e782a42a762e93e86679ea39bfc4b",
+  "apps/ajigu/public/tutu/404.html": "6bbe3f05cc917ac75fac616a66347d52560a7252cf20b45a67f8aa51f3519557",
+  "tests/store-downloads.test.mjs": "0d72c9e8f2bcd12c8eb846dcf38f3f4d315958fe62f7644864114bbf4860125f",
+  "tests/store-downloads.mjs": "b6e03ef4ea6317eea8e1f55eae867e112393753acc01e99b36e74eeaf06cdc48",
+  "tests/product-migration.test.mjs": "a94693fb06e06b0e8e3697ebd92c87dc9b74d1257784686fc28e4b84e07192e1",
+  "package.json": "8e7e249f09803de21ab554990dd63b215b387f24468a9acf25c07335a2f80aa7",
+  ".github/workflows/build-websites.yml": "980516eb1ce8ef4c86a6bfc47aad98270ee38d2fa623616d51a437280981361e"
+}

@@ -1,0 +1,9 @@
+$ node scripts/workspace.mjs check
+$ astro check
+13:59:36 [types] Generated 51ms
+13:59:36 [check] Getting diagnostics for Astro files in /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/apps/ajigu...
+Result (24 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

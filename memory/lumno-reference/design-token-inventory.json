@@ -1,0 +1,1745 @@
+{
+  "purpose": "Reference inventory. Not an active ajigu-site theme.",
+  "checkedAt": "2026-11-02",
+  "repository": "kubai087/lumno-web",
+  "revision": "485310ba7dd762349273e8cae0c01b1d39473c20",
+  "sources": [
+    {
+      "path": "src/styles/globals.css",
+      "sha256": "2bf255ae05bdbd1f7f4b3ed7197433e54fe16edf171be969eb93789f4d79e878",
+      "declarations": [
+        {
+          "name": "--font-heading",
+          "value": "var(--font-sans)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 9
+        },
+        {
+          "name": "--font-sans",
+          "value": "\"Open Sans\", var(--font-cjk, \"PingFang SC\", \"Microsoft YaHei\"), \"Helvetica Neue\", sans-serif",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 10
+        },
+        {
+          "name": "--color-ring",
+          "value": "var(--ring)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 11
+        },
+        {
+          "name": "--color-input",
+          "value": "var(--input)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 12
+        },
+        {
+          "name": "--color-border",
+          "value": "var(--border)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 13
+        },
+        {
+          "name": "--color-destructive",
+          "value": "var(--destructive)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 14
+        },
+        {
+          "name": "--color-accent-foreground",
+          "value": "var(--accent-foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 15
+        },
+        {
+          "name": "--color-accent",
+          "value": "var(--accent)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 16
+        },
+        {
+          "name": "--color-muted-foreground",
+          "value": "var(--muted-foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 17
+        },
+        {
+          "name": "--color-muted",
+          "value": "var(--muted)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 18
+        },
+        {
+          "name": "--color-secondary-foreground",
+          "value": "var(--secondary-foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 19
+        },
+        {
+          "name": "--color-secondary",
+          "value": "var(--secondary)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 20
+        },
+        {
+          "name": "--color-primary-foreground",
+          "value": "var(--primary-foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 21
+        },
+        {
+          "name": "--color-primary",
+          "value": "var(--primary)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 22
+        },
+        {
+          "name": "--color-popover-foreground",
+          "value": "var(--popover-foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 23
+        },
+        {
+          "name": "--color-popover",
+          "value": "var(--popover)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 24
+        },
+        {
+          "name": "--color-card-foreground",
+          "value": "var(--card-foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 25
+        },
+        {
+          "name": "--color-card",
+          "value": "var(--card)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 26
+        },
+        {
+          "name": "--color-foreground",
+          "value": "var(--foreground)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 27
+        },
+        {
+          "name": "--color-background",
+          "value": "var(--background)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 28
+        },
+        {
+          "name": "--radius-sm",
+          "value": "calc(var(--radius) * 0.6)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 29
+        },
+        {
+          "name": "--radius-md",
+          "value": "calc(var(--radius) * 0.8)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 30
+        },
+        {
+          "name": "--radius-lg",
+          "value": "var(--radius)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 31
+        },
+        {
+          "name": "--radius-xl",
+          "value": "calc(var(--radius) * 1.4)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 32
+        },
+        {
+          "name": "--radius-2xl",
+          "value": "calc(var(--radius) * 1.8)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 33
+        },
+        {
+          "name": "--radius-3xl",
+          "value": "calc(var(--radius) * 2.2)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 34
+        },
+        {
+          "name": "--radius-4xl",
+          "value": "calc(var(--radius) * 2.6)",
+          "context": [
+            "@theme inline"
+          ],
+          "line": 35
+        },
+        {
+          "name": "--background",
+          "value": "#f8faf8",
+          "context": [
+            ":root"
+          ],
+          "line": 39
+        },
+        {
+          "name": "--foreground",
+          "value": "#1f2933",
+          "context": [
+            ":root"
+          ],
+          "line": 40
+        },
+        {
+          "name": "--card",
+          "value": "rgba(255, 255, 255, 0.9)",
+          "context": [
+            ":root"
+          ],
+          "line": 41
+        },
+        {
+          "name": "--card-foreground",
+          "value": "#1f2933",
+          "context": [
+            ":root"
+          ],
+          "line": 42
+        },
+        {
+          "name": "--popover",
+          "value": "#ffffff",
+          "context": [
+            ":root"
+          ],
+          "line": 43
+        },
+        {
+          "name": "--popover-foreground",
+          "value": "#1f2933",
+          "context": [
+            ":root"
+          ],
+          "line": 44
+        },
+        {
+          "name": "--primary",
+          "value": "#3f624d",
+          "context": [
+            ":root"
+          ],
+          "line": 45
+        },
+        {
+          "name": "--primary-foreground",
+          "value": "#ffffff",
+          "context": [
+            ":root"
+          ],
+          "line": 46
+        },
+        {
+          "name": "--secondary",
+          "value": "#edf3ef",
+          "context": [
+            ":root"
+          ],
+          "line": 47
+        },
+        {
+          "name": "--secondary-foreground",
+          "value": "#3f624d",
+          "context": [
+            ":root"
+          ],
+          "line": 48
+        },
+        {
+          "name": "--muted",
+          "value": "#f0f4f1",
+          "context": [
+            ":root"
+          ],
+          "line": 49
+        },
+        {
+          "name": "--muted-foreground",
+          "value": "#68737d",
+          "context": [
+            ":root"
+          ],
+          "line": 50
+        },
+        {
+          "name": "--accent",
+          "value": "#eaf2ec",
+          "context": [
+            ":root"
+          ],
+          "line": 51
+        },
+        {
+          "name": "--accent-foreground",
+          "value": "#355943",
+          "context": [
+            ":root"
+          ],
+          "line": 52
+        },
+        {
+          "name": "--destructive",
+          "value": "#a84b4b",
+          "context": [
+            ":root"
+          ],
+          "line": 53
+        },
+        {
+          "name": "--border",
+          "value": "rgba(79, 102, 83, 0.16)",
+          "context": [
+            ":root"
+          ],
+          "line": 54
+        },
+        {
+          "name": "--input",
+          "value": "rgba(79, 102, 83, 0.2)",
+          "context": [
+            ":root"
+          ],
+          "line": 55
+        },
+        {
+          "name": "--ring",
+          "value": "#3a8fc7",
+          "context": [
+            ":root"
+          ],
+          "line": 56
+        },
+        {
+          "name": "--radius",
+          "value": "0.875rem",
+          "context": [
+            ":root"
+          ],
+          "line": 57
+        }
+      ]
+    },
+    {
+      "path": "src/styles/site.css",
+      "sha256": "a50ed91b4fc0bc95dd2e46d15f6ce1690e909970ed83c072d1501aeb17e47f0a",
+      "declarations": [
+        {
+          "name": "--bg",
+          "value": "#ffffff",
+          "context": [
+            ":root"
+          ],
+          "line": 63
+        },
+        {
+          "name": "--surface",
+          "value": "#ffffff",
+          "context": [
+            ":root"
+          ],
+          "line": 64
+        },
+        {
+          "name": "--surface-soft",
+          "value": "#f4f6f8",
+          "context": [
+            ":root"
+          ],
+          "line": 65
+        },
+        {
+          "name": "--surface-blue",
+          "value": "#eef6fb",
+          "context": [
+            ":root"
+          ],
+          "line": 66
+        },
+        {
+          "name": "--text-main",
+          "value": "#15171a",
+          "context": [
+            ":root"
+          ],
+          "line": 67
+        },
+        {
+          "name": "--text-sub",
+          "value": "#626870",
+          "context": [
+            ":root"
+          ],
+          "line": 68
+        },
+        {
+          "name": "--text-soft",
+          "value": "#89919a",
+          "context": [
+            ":root"
+          ],
+          "line": 69
+        },
+        {
+          "name": "--line",
+          "value": "#e2e6e9",
+          "context": [
+            ":root"
+          ],
+          "line": 70
+        },
+        {
+          "name": "--line-strong",
+          "value": "#d4dade",
+          "context": [
+            ":root"
+          ],
+          "line": 71
+        },
+        {
+          "name": "--blue",
+          "value": "#4ba7dd",
+          "context": [
+            ":root"
+          ],
+          "line": 72
+        },
+        {
+          "name": "--blue-dark",
+          "value": "#1e729f",
+          "context": [
+            ":root"
+          ],
+          "line": 73
+        },
+        {
+          "name": "--green-soft",
+          "value": "#e9f2e8",
+          "context": [
+            ":root"
+          ],
+          "line": 74
+        },
+        {
+          "name": "--green-ink",
+          "value": "#4d6653",
+          "context": [
+            ":root"
+          ],
+          "line": 75
+        },
+        {
+          "name": "--shadow-soft",
+          "value": "rgba(45, 54, 62, 0.08)",
+          "context": [
+            ":root"
+          ],
+          "line": 76
+        },
+        {
+          "name": "--shadow-card",
+          "value": "rgba(45, 54, 62, 0.12)",
+          "context": [
+            ":root"
+          ],
+          "line": 77
+        },
+        {
+          "name": "--removed-body-scroll-bar-size",
+          "value": "0px !important",
+          "context": [
+            "html body[data-scroll-locked]"
+          ],
+          "line": 108
+        }
+      ]
+    },
+    {
+      "path": "src/styles/home.css",
+      "sha256": "3aa74be55093dabb51761b24bc4704ffdab567679781e479b53e80c7ce3af738",
+      "declarations": [
+        {
+          "name": "--home-section-width",
+          "value": "1360px",
+          "context": [
+            ":root"
+          ],
+          "line": 11
+        },
+        {
+          "name": "--home-gutter",
+          "value": "24px",
+          "context": [
+            ":root"
+          ],
+          "line": 12
+        },
+        {
+          "name": "--home-column",
+          "value": "min(calc(100% - var(--home-gutter) * 2), var(--home-section-width))",
+          "context": [
+            ":root"
+          ],
+          "line": 13
+        },
+        {
+          "name": "--top-nav-safe-shift",
+          "value": "calc(max(10px, env(safe-area-inset-top, 0px)) - 10px)",
+          "context": [
+            ":root"
+          ],
+          "line": 20
+        },
+        {
+          "name": "--home-space-1",
+          "value": "4px",
+          "context": [
+            ":root"
+          ],
+          "line": 37
+        },
+        {
+          "name": "--home-space-2",
+          "value": "8px",
+          "context": [
+            ":root"
+          ],
+          "line": 38
+        },
+        {
+          "name": "--home-space-3",
+          "value": "12px",
+          "context": [
+            ":root"
+          ],
+          "line": 39
+        },
+        {
+          "name": "--home-space-4",
+          "value": "16px",
+          "context": [
+            ":root"
+          ],
+          "line": 40
+        },
+        {
+          "name": "--home-space-5",
+          "value": "20px",
+          "context": [
+            ":root"
+          ],
+          "line": 41
+        },
+        {
+          "name": "--home-space-6",
+          "value": "24px",
+          "context": [
+            ":root"
+          ],
+          "line": 42
+        },
+        {
+          "name": "--home-space-8",
+          "value": "32px",
+          "context": [
+            ":root"
+          ],
+          "line": 43
+        },
+        {
+          "name": "--home-space-10",
+          "value": "40px",
+          "context": [
+            ":root"
+          ],
+          "line": 44
+        },
+        {
+          "name": "--home-space-12",
+          "value": "48px",
+          "context": [
+            ":root"
+          ],
+          "line": 45
+        },
+        {
+          "name": "--home-space-16",
+          "value": "64px",
+          "context": [
+            ":root"
+          ],
+          "line": 46
+        },
+        {
+          "name": "--home-section-space",
+          "value": "clamp(88px, 10vw, 136px)",
+          "context": [
+            ":root"
+          ],
+          "line": 47
+        },
+        {
+          "name": "--home-part-space",
+          "value": "clamp(112px, 12vw, 168px)",
+          "context": [
+            ":root"
+          ],
+          "line": 48
+        },
+        {
+          "name": "--home-head-gap",
+          "value": "clamp(40px, 5vw, 64px)",
+          "context": [
+            ":root"
+          ],
+          "line": 49
+        },
+        {
+          "name": "--home-split-gap",
+          "value": "clamp(40px, 6vw, 96px)",
+          "context": [
+            ":root"
+          ],
+          "line": 50
+        },
+        {
+          "name": "--home-part-head-gap",
+          "value": "var(--home-space-6)",
+          "context": [
+            ":root"
+          ],
+          "line": 51
+        },
+        {
+          "name": "--home-grid-gap",
+          "value": "var(--home-space-4)",
+          "context": [
+            ":root"
+          ],
+          "line": 52
+        },
+        {
+          "name": "--home-card-pad",
+          "value": "var(--home-space-8)",
+          "context": [
+            ":root"
+          ],
+          "line": 53
+        },
+        {
+          "name": "--home-art-gap",
+          "value": "var(--home-space-6)",
+          "context": [
+            ":root"
+          ],
+          "line": 54
+        },
+        {
+          "name": "--home-card-inset",
+          "value": "var(--home-space-2)",
+          "context": [
+            ":root"
+          ],
+          "line": 55
+        },
+        {
+          "name": "--home-eyebrow-gap",
+          "value": "var(--home-space-4)",
+          "context": [
+            ":root"
+          ],
+          "line": 56
+        },
+        {
+          "name": "--home-lead-gap",
+          "value": "var(--home-space-5)",
+          "context": [
+            ":root"
+          ],
+          "line": 57
+        },
+        {
+          "name": "--home-actions-gap",
+          "value": "28px",
+          "context": [
+            ":root"
+          ],
+          "line": 58
+        },
+        {
+          "name": "--home-control-gap",
+          "value": "var(--home-space-3)",
+          "context": [
+            ":root"
+          ],
+          "line": 59
+        },
+        {
+          "name": "--home-ink",
+          "value": "#2f2a22",
+          "context": [
+            ":root"
+          ],
+          "line": 61
+        },
+        {
+          "name": "--home-ink-soft",
+          "value": "#5a5247",
+          "context": [
+            ":root"
+          ],
+          "line": 62
+        },
+        {
+          "name": "--home-olive",
+          "value": "#6d7f63",
+          "context": [
+            ":root"
+          ],
+          "line": 63
+        },
+        {
+          "name": "--home-olive-soft",
+          "value": "#eef2ea",
+          "context": [
+            ":root"
+          ],
+          "line": 64
+        },
+        {
+          "name": "--home-card",
+          "value": "#ffffff",
+          "context": [
+            ":root"
+          ],
+          "line": 65
+        },
+        {
+          "name": "--home-card-border",
+          "value": "rgba(var(--home-edge), 0.08)",
+          "context": [
+            ":root"
+          ],
+          "line": 66
+        },
+        {
+          "name": "--home-radius-xl",
+          "value": "28px",
+          "context": [
+            ":root"
+          ],
+          "line": 81
+        },
+        {
+          "name": "--home-radius-inner",
+          "value": "calc(var(--home-radius-xl) - var(--home-card-inset))",
+          "context": [
+            ":root"
+          ],
+          "line": 82
+        },
+        {
+          "name": "--home-radius-lg",
+          "value": "16px",
+          "context": [
+            ":root"
+          ],
+          "line": 83
+        },
+        {
+          "name": "--home-radius-md",
+          "value": "12px",
+          "context": [
+            ":root"
+          ],
+          "line": 84
+        },
+        {
+          "name": "--home-radius-sm",
+          "value": "10px",
+          "context": [
+            ":root"
+          ],
+          "line": 85
+        },
+        {
+          "name": "--home-radius-xs",
+          "value": "6px",
+          "context": [
+            ":root"
+          ],
+          "line": 86
+        },
+        {
+          "name": "--home-radius-pill",
+          "value": "999px",
+          "context": [
+            ":root"
+          ],
+          "line": 87
+        },
+        {
+          "name": "--home-z-content",
+          "value": "2",
+          "context": [
+            ":root"
+          ],
+          "line": 97
+        },
+        {
+          "name": "--home-z-frame",
+          "value": "10",
+          "context": [
+            ":root"
+          ],
+          "line": 98
+        },
+        {
+          "name": "--home-z-intro",
+          "value": "40",
+          "context": [
+            ":root"
+          ],
+          "line": 99
+        },
+        {
+          "name": "--home-z-nav",
+          "value": "50",
+          "context": [
+            ":root"
+          ],
+          "line": 100
+        },
+        {
+          "name": "--home-edge",
+          "value": "32, 38, 46",
+          "context": [
+            ":root"
+          ],
+          "line": 110
+        },
+        {
+          "name": "--home-paper",
+          "value": "#f3f4f6",
+          "context": [
+            ":root"
+          ],
+          "line": 111
+        },
+        {
+          "name": "--home-hairline-control",
+          "value": "rgba(var(--home-edge), 0.1)",
+          "context": [
+            ":root"
+          ],
+          "line": 112
+        },
+        {
+          "name": "--home-hairline",
+          "value": "rgba(var(--home-edge), 0.1)",
+          "context": [
+            ":root"
+          ],
+          "line": 118
+        },
+        {
+          "name": "--home-ring",
+          "value": "linear-gradient(var(--home-hairline), var(--home-hairline))",
+          "context": [
+            ":root"
+          ],
+          "line": 119
+        },
+        {
+          "name": "--home-highlight",
+          "value": "inset 0 0 0 1px rgba(255, 255, 255, 0.7)",
+          "context": [
+            ":root"
+          ],
+          "line": 120
+        },
+        {
+          "name": "--home-media-ring",
+          "value": "inset 0 0 0 1px var(--home-hairline)",
+          "context": [
+            ":root"
+          ],
+          "line": 121
+        },
+        {
+          "name": "--home-shadow-chip",
+          "value": "0 1px 2px rgba(var(--home-edge), 0.05)",
+          "context": [
+            ":root"
+          ],
+          "line": 122
+        },
+        {
+          "name": "--home-ui-scale",
+          "value": "1",
+          "context": [
+            ":root"
+          ],
+          "line": 133
+        },
+        {
+          "name": "--home-ui-panel-max",
+          "value": "440px",
+          "context": [
+            ":root"
+          ],
+          "line": 134
+        },
+        {
+          "name": "--home-part-size",
+          "value": "clamp(20px, 2vw, 26px)",
+          "context": [
+            ":root"
+          ],
+          "line": 144
+        },
+        {
+          "name": "--home-title-lg",
+          "value": "clamp(20px, 1.8vw, 24px)",
+          "context": [
+            ":root"
+          ],
+          "line": 145
+        },
+        {
+          "name": "--home-title-md",
+          "value": "20px",
+          "context": [
+            ":root"
+          ],
+          "line": 146
+        },
+        {
+          "name": "--home-title-sm",
+          "value": "17px",
+          "context": [
+            ":root"
+          ],
+          "line": 147
+        },
+        {
+          "name": "--home-body",
+          "value": "15px",
+          "context": [
+            ":root"
+          ],
+          "line": 148
+        },
+        {
+          "name": "--home-body-leading",
+          "value": "1.65",
+          "context": [
+            ":root"
+          ],
+          "line": 149
+        },
+        {
+          "name": "--home-title-gap",
+          "value": "var(--home-space-2)",
+          "context": [
+            ":root"
+          ],
+          "line": 150
+        },
+        {
+          "name": "--home-shadow-card",
+          "value": "0 1px 2px rgba(var(--home-edge), 0.04), 0 2px 8px -2px rgba(var(--home-edge), 0.04), 0 14px 32px -16px rgba(var(--home-edge), 0.14)",
+          "context": [
+            ":root"
+          ],
+          "line": 152
+        },
+        {
+          "name": "--home-shadow-card-hover",
+          "value": "0 1px 2px rgba(var(--home-edge), 0.05), 0 4px 12px -4px rgba(var(--home-edge), 0.06), 0 24px 48px -22px rgba(var(--home-edge), 0.22)",
+          "context": [
+            ":root"
+          ],
+          "line": 156
+        },
+        {
+          "name": "--home-shadow-lit",
+          "value": "0 1px 1px rgba(var(--home-edge), 0.06), 0 2px 5px -1px rgba(var(--home-edge), 0.05), 0 10px 18px -10px rgba(var(--home-edge), 0.12)",
+          "context": [
+            ":root"
+          ],
+          "line": 165
+        },
+        {
+          "name": "--home-shadow-lit-hover",
+          "value": "0 1px 2px rgba(var(--home-edge), 0.06), 0 3px 8px -2px rgba(var(--home-edge), 0.06), 0 16px 26px -14px rgba(var(--home-edge), 0.18)",
+          "context": [
+            ":root"
+          ],
+          "line": 169
+        },
+        {
+          "name": "--home-select-ink",
+          "value": "#1f5fbf",
+          "context": [
+            ":root"
+          ],
+          "line": 173
+        },
+        {
+          "name": "--home-heading-gradient",
+          "value": "linear-gradient(180deg, #2f2a22 0%, #5a5247 100%)",
+          "context": [
+            ":root"
+          ],
+          "line": 174
+        },
+        {
+          "name": "--cjk-word-break",
+          "value": "keep-all",
+          "context": [
+            "[data-script=\"cjk\"]"
+          ],
+          "line": 245
+        },
+        {
+          "name": "--cjk-word-break",
+          "value": "normal",
+          "context": [
+            "[data-script=\"cjk\"]:lang(ja)"
+          ],
+          "line": 249
+        },
+        {
+          "name": "--cjk-word-break",
+          "value": "auto-phrase",
+          "context": [
+            "@supports (word-break: auto-phrase)",
+            "[data-script=\"cjk\"]:lang(ja)"
+          ],
+          "line": 254
+        },
+        {
+          "name": "--home-gutter",
+          "value": "16px",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 408
+        },
+        {
+          "name": "--home-section-space",
+          "value": "72px",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 409
+        },
+        {
+          "name": "--home-part-space",
+          "value": "88px",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 410
+        },
+        {
+          "name": "--home-head-gap",
+          "value": "32px",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 411
+        },
+        {
+          "name": "--home-grid-gap",
+          "value": "var(--home-space-3)",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 412
+        },
+        {
+          "name": "--home-actions-gap",
+          "value": "var(--home-space-6)",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 413
+        },
+        {
+          "name": "--home-control-gap",
+          "value": "10px",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 414
+        },
+        {
+          "name": "--home-ui-scale",
+          "value": "0.75",
+          "context": [
+            "@media (max-width: 760px)",
+            ":root"
+          ],
+          "line": 416
+        },
+        {
+          "name": "--home-radius-xl",
+          "value": "24px",
+          "context": [
+            "@media (max-width: 620px)",
+            ":root"
+          ],
+          "line": 422
+        },
+        {
+          "name": "--home-card-inset",
+          "value": "6px",
+          "context": [
+            "@media (max-width: 620px)",
+            ":root"
+          ],
+          "line": 423
+        },
+        {
+          "name": "--home-card-pad",
+          "value": "var(--home-space-6)",
+          "context": [
+            "@media (max-width: 620px)",
+            ":root"
+          ],
+          "line": 424
+        }
+      ]
+    },
+    {
+      "path": "src/styles/locale-fonts.css",
+      "sha256": "f6f4b9e9b98245f4aaab320c92292f9379505df58881f65a3017afb25eab2e85",
+      "declarations": [
+        {
+          "name": "--font-cjk",
+          "value": "\"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\"",
+          "context": [
+            ":root"
+          ],
+          "line": 7
+        },
+        {
+          "name": "--font-cjk",
+          "value": "\"PingFang TC\", \"Microsoft JhengHei\"",
+          "context": [
+            ":root:lang(zh-TW)"
+          ],
+          "line": 11
+        },
+        {
+          "name": "--font-cjk",
+          "value": "\"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Yu Gothic UI\", \"Meiryo\"",
+          "context": [
+            ":root:lang(ja)"
+          ],
+          "line": 15
+        },
+        {
+          "name": "--font-cjk",
+          "value": "\"Apple SD Gothic Neo\", \"Malgun Gothic\", \"Noto Sans KR\"",
+          "context": [
+            ":root:lang(ko)"
+          ],
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "src/components/extension-settings/settings-kit.css",
+      "sha256": "0a823305766052ef50507d9368ae8ab0b49dc83fea5e614b3495aa2309c0f6e0",
+      "declarations": [
+        {
+          "name": "--lumno-panel-bg",
+          "value": "#fff",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 2
+        },
+        {
+          "name": "--lumno-panel-border",
+          "value": "rgba(0, 0, 0, 0.12)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 3
+        },
+        {
+          "name": "--lumno-panel-text",
+          "value": "#111827",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 4
+        },
+        {
+          "name": "--lumno-panel-subtext",
+          "value": "#6b7280",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 5
+        },
+        {
+          "name": "--lumno-divider",
+          "value": "rgba(15, 23, 42, 0.12)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 6
+        },
+        {
+          "name": "--lumno-focus",
+          "value": "rgba(59, 130, 246, 0.65)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 7
+        },
+        {
+          "name": "--lumno-focus-bg",
+          "value": "rgba(59, 130, 246, 0.08)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 8
+        },
+        {
+          "name": "--lumno-control-bg",
+          "value": "rgba(15, 23, 42, 0.04)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 9
+        },
+        {
+          "name": "--lumno-control-hover-bg",
+          "value": "rgba(0, 0, 0, 0.05)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 10
+        },
+        {
+          "name": "--lumno-control-open-bg",
+          "value": "rgba(0, 0, 0, 0.08)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 11
+        },
+        {
+          "name": "--lumno-menu-bg",
+          "value": "#fff",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 12
+        },
+        {
+          "name": "--lumno-tab-bg",
+          "value": "rgba(15, 23, 42, 0.04)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 13
+        },
+        {
+          "name": "--lumno-tab-active-bg",
+          "value": "#fff",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 14
+        },
+        {
+          "name": "--lumno-tab-active-text",
+          "value": "#0f172a",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 15
+        },
+        {
+          "name": "--lumno-tab-inactive-text",
+          "value": "#8b94a4",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 16
+        },
+        {
+          "name": "--lumno-selected-bg",
+          "value": "#111827",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 17
+        },
+        {
+          "name": "--lumno-selected-text",
+          "value": "#f9fafb",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 18
+        },
+        {
+          "name": "--lumno-control-border",
+          "value": "rgba(15, 23, 42, 0.08)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 19
+        },
+        {
+          "name": "--lumno-icon-bg",
+          "value": "rgba(15, 23, 42, 0.05)",
+          "context": [
+            ".lumno-settings-kit"
+          ],
+          "line": 20
+        },
+        {
+          "name": "--lumno-panel-bg",
+          "value": "rgb(25, 25, 25)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 29
+        },
+        {
+          "name": "--lumno-panel-border",
+          "value": "rgba(255, 255, 255, 0.1)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 30
+        },
+        {
+          "name": "--lumno-panel-text",
+          "value": "#e5e7eb",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 31
+        },
+        {
+          "name": "--lumno-panel-subtext",
+          "value": "#9ca3af",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 32
+        },
+        {
+          "name": "--lumno-divider",
+          "value": "rgba(255, 255, 255, 0.1)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 33
+        },
+        {
+          "name": "--lumno-focus",
+          "value": "rgba(148, 163, 184, 0.72)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 34
+        },
+        {
+          "name": "--lumno-focus-bg",
+          "value": "rgba(255, 255, 255, 0.08)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 35
+        },
+        {
+          "name": "--lumno-control-bg",
+          "value": "#2f2f2f",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 36
+        },
+        {
+          "name": "--lumno-control-hover-bg",
+          "value": "#363636",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 37
+        },
+        {
+          "name": "--lumno-control-open-bg",
+          "value": "#3b3b3b",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 38
+        },
+        {
+          "name": "--lumno-menu-bg",
+          "value": "#252525",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 39
+        },
+        {
+          "name": "--lumno-tab-bg",
+          "value": "#2f2f2f",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 40
+        },
+        {
+          "name": "--lumno-tab-active-bg",
+          "value": "#475569",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 41
+        },
+        {
+          "name": "--lumno-tab-active-text",
+          "value": "#f8fafc",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 42
+        },
+        {
+          "name": "--lumno-tab-inactive-text",
+          "value": "#9ca3af",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 43
+        },
+        {
+          "name": "--lumno-selected-bg",
+          "value": "#e5e7eb",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 44
+        },
+        {
+          "name": "--lumno-selected-text",
+          "value": "#111827",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 45
+        },
+        {
+          "name": "--lumno-control-border",
+          "value": "rgba(255, 255, 255, 0.12)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 46
+        },
+        {
+          "name": "--lumno-icon-bg",
+          "value": "rgba(255, 255, 255, 0.08)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"]"
+          ],
+          "line": 47
+        },
+        {
+          "name": "--lumno-settings-tabs-radius",
+          "value": "12px",
+          "context": [
+            ".lumno-settings-tabs"
+          ],
+          "line": 69
+        },
+        {
+          "name": "--lumno-settings-tabs-border-width",
+          "value": "1px",
+          "context": [
+            ".lumno-settings-tabs"
+          ],
+          "line": 70
+        },
+        {
+          "name": "--lumno-settings-tabs-padding",
+          "value": "4px",
+          "context": [
+            ".lumno-settings-tabs"
+          ],
+          "line": 71
+        },
+        {
+          "name": "--lumno-settings-tab-radius",
+          "value": "max( 0px, calc( var(--lumno-settings-tabs-radius) - var(--lumno-settings-tabs-border-width) - var(--lumno-settings-tabs-padding) ) )",
+          "context": [
+            ".lumno-settings-tabs"
+          ],
+          "line": 72
+        },
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            ".lumno-settings-button"
+          ],
+          "line": 296
+        },
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            ".lumno-settings-icon-button"
+          ],
+          "line": 393
+        },
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            ".lumno-settings-switch-track"
+          ],
+          "line": 418
+        },
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            ".lumno-settings-switch-knob"
+          ],
+          "line": 431
+        },
+        {
+          "name": "--lumno-settings-segmented-radius",
+          "value": "10px",
+          "context": [
+            ".lumno-settings-segmented"
+          ],
+          "line": 456
+        },
+        {
+          "name": "--lumno-settings-segmented-border-width",
+          "value": "1px",
+          "context": [
+            ".lumno-settings-segmented"
+          ],
+          "line": 457
+        },
+        {
+          "name": "--lumno-settings-segmented-padding",
+          "value": "2px",
+          "context": [
+            ".lumno-settings-segmented"
+          ],
+          "line": 458
+        },
+        {
+          "name": "--lumno-settings-segment-radius",
+          "value": "max( 0px, calc( var(--lumno-settings-segmented-radius) - var(--lumno-settings-segmented-border-width) - var(--lumno-settings-segmented-padding) ) )",
+          "context": [
+            ".lumno-settings-segmented"
+          ],
+          "line": 459
+        },
+        {
+          "name": "--lumno-settings-menu-radius",
+          "value": "17px",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 571
+        },
+        {
+          "name": "--lumno-settings-menu-border-width",
+          "value": "1px",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 572
+        },
+        {
+          "name": "--lumno-settings-menu-border-color",
+          "value": "rgba(0, 0, 0, 0.14)",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 573
+        },
+        {
+          "name": "--lumno-settings-menu-padding",
+          "value": "6px",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 574
+        },
+        {
+          "name": "--lumno-settings-option-radius",
+          "value": "max( 0px, calc( var(--lumno-settings-menu-radius) - var(--lumno-settings-menu-border-width) - var(--lumno-settings-menu-padding) ) )",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 575
+        },
+        {
+          "name": "--lumno-settings-menu-closed-transform",
+          "value": "translateY(-6px) scale(0.96, 0.86)",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 583
+        },
+        {
+          "name": "--lumno-settings-menu-open-transform",
+          "value": "translateY(0) scale(1, 1)",
+          "context": [
+            ".lumno-settings-select-menu"
+          ],
+          "line": 584
+        },
+        {
+          "name": "--lumno-settings-menu-border-color",
+          "value": "rgba(255, 255, 255, 0.16)",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"] .lumno-settings-select-menu"
+          ],
+          "line": 612
+        },
+        {
+          "name": "--lumno-settings-menu-closed-transform",
+          "value": "translateY(6px) scale(0.96, 0.86)",
+          "context": [
+            ".lumno-settings-select-menu[data-placement=\"above\"]"
+          ],
+          "line": 616
+        },
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            ".lumno-settings-theme-preview > i"
+          ],
+          "line": 780
+        },
+        {
+          "name": "--lumno-key-shadow",
+          "value": "#000",
+          "context": [
+            ".lumno-settings-keycap"
+          ],
+          "line": 795
+        },
+        {
+          "name": "--lumno-key-shadow",
+          "value": "#fff",
+          "context": [
+            ".lumno-settings-kit[data-theme=\"dark\"] .lumno-settings-keycap"
+          ],
+          "line": 816
+        },
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            ".lumno-settings-badge"
+          ],
+          "line": 828
+        }
+      ]
+    },
+    {
+      "path": "public/continuous-corners.css",
+      "sha256": "af568852ecc6581cb95ca022e85cb8f445b442381583722ede81a9b26a5fa69f",
+      "declarations": [
+        {
+          "name": "--lumno-corner-shape",
+          "value": "round",
+          "context": [
+            "@supports (corner-shape: superellipse(1.25))",
+            ".rounded-full"
+          ],
+          "line": 53
+        }
+      ]
+    }
+  ]
+}

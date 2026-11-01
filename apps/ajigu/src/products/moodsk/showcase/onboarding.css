@@ -16,16 +16,23 @@
   display: none;
 }
 .moodsk-onboarding.is-ready .showcase-interface {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .moodsk-onboarding .showcase-main {
   display: grid;
   grid-template-columns: 38% 62%;
+  grid-template-rows: minmax(0, 1fr);
   align-items: center;
-  padding: 24px 32px 0;
-  min-height: 500px;
+  height: 560px;
+  padding: 24px 32px;
+}
+.moodsk-onboarding #stage {
+  height: 100%;
+  min-height: 0;
 }
 .moodsk-onboarding .copy {
+  min-width: 0;
   position: relative;
   z-index: 2;
 }
@@ -51,6 +58,8 @@
 }
 .moodsk-onboarding .onboarding-controls {
   display: flex;
+  flex-shrink: 0;
+  margin-top: auto;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -63,21 +72,28 @@
   align-items: center;
   gap: 8px;
 }
-.cursor-controls {
+.moodsk-onboarding .next-label {
+  display: grid;
+}
+.moodsk-onboarding .next-label > span {
+  grid-area: 1 / 1;
+}
+.moodsk-onboarding .next-label > [aria-hidden="true"] {
+  visibility: hidden;
+}
+.moodsk-onboarding .cursor-controls {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  padding: 0 24px 24px;
+  gap: 8px;
+  margin-top: 20px;
 }
 @media (max-width: 900px) {
   .moodsk-onboarding .showcase-main {
     grid-template-columns: 1fr;
-    padding: 24px 24px 0;
-    min-height: 0;
-  }
-  .moodsk-onboarding .copy {
-    min-height: 160px;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 16px;
+    align-items: stretch;
+    height: 600px;
+    padding: 24px;
   }
   .moodsk-onboarding #title span {
     display: inline;

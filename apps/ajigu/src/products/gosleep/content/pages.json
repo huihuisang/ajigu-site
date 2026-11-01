@@ -122,7 +122,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -212,6 +213,11 @@
     "intro": "Go Sleep listens while you rest and organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports, useful trends, and a playful place to hear memorable Sound Matches.",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Download on the App Store",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "See how it works ↓",
         "external": false
@@ -298,9 +304,27 @@
             "answer": "<p>No. Snore Load and nightly trends are wellness information, not a medical diagnosis.</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "Download Go Sleep",
+        "body": "<p>Free to download for iPhone with iOS 17 or later. Optional in-app purchases.</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "Download on the App Store",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Download on the App Store",
+        "external": false
+      },
       {
         "href": "/support/",
         "label": "Support",
@@ -444,7 +468,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -534,6 +559,11 @@
     "intro": "Go Sleep listens while you rest and organises likely snoring, possible sleep talking, and cough-like sounds into clear night reports, useful trends, and a playful place to hear memorable Sound Matches.",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Download on the App Store",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "See how it works ↓",
         "external": false
@@ -620,9 +650,27 @@
             "answer": "<p>No. Snore Load and nightly trends are wellness information, not a medical diagnosis.</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "Download Go Sleep",
+        "body": "<p>Free to download for iPhone with iOS 17 or later. Optional in-app purchases.</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "Download on the App Store",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Download on the App Store",
+        "external": false
+      },
       {
         "href": "/en-gb/support/",
         "label": "Support",
@@ -766,7 +814,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -856,6 +905,11 @@
     "intro": "睡好会在您休息时安静聆听，把疑似鼾声、可能的梦话和类咳嗽声整理成清晰的夜间报告、实用趋势，还有令人印象深刻的 Sound Match。",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "在 App Store 下载",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "了解其工作原理 ↓",
         "external": false
@@ -937,9 +991,27 @@
             "answer": "<p>不是。Snore Load 与夜间趋势属于健康参考信息，不构成医疗诊断。</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "下载 Go Sleep",
+        "body": "<p>支持 iOS 17 或更高版本的 iPhone。可免费下载，包含应用内购买。</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "在 App Store 下载",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "在 App Store 下载",
+        "external": false
+      },
       {
         "href": "/zh-hans/support/",
         "label": "支持",
@@ -1083,7 +1155,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -1173,6 +1246,11 @@
     "intro": "睡好會在您休息時安靜聆聽，把疑似鼾聲、可能的夢話和類咳嗽聲整理成清晰的夜間報告、實用趨勢，還有令人印象深刻的 Sound Match。",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "在 App Store 下載",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "看看它是如何運作的 ↓",
         "external": false
@@ -1254,9 +1332,27 @@
             "answer": "<p>不是。Snore Load 與夜間趨勢屬於健康參考資訊，不構成醫療診斷。</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "下載 Go Sleep",
+        "body": "<p>支援 iOS 17 或以上版本的 iPhone。可免費下載，包含 App 內購買。</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "在 App Store 下載",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "在 App Store 下載",
+        "external": false
+      },
       {
         "href": "/zh-hant/support/",
         "label": "支持",
@@ -1400,7 +1496,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -1490,6 +1587,11 @@
     "intro": "ぐっすりは眠っている間に静かに見守り、いびき・寝言の可能性・咳のような音を、分かりやすい夜のレポートと傾向に整理します。楽しい Sound Match も。",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "App Store からダウンロード",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "仕組みを確認してください ↓",
         "external": false
@@ -1576,9 +1678,27 @@
             "answer": "<p>いいえ。Snore Load や夜の傾向はウェルネス情報であり、医療診断ではありません。</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "Go Sleep をダウンロード",
+        "body": "<p>iOS 17 以降の iPhone に対応。無料でダウンロードでき、アプリ内課金があります。</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "App Store からダウンロード",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "App Store からダウンロード",
+        "external": false
+      },
       {
         "href": "/ja/support/",
         "label": "サポート",
@@ -1722,7 +1842,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -1812,6 +1933,11 @@
     "intro": "잘자는 주무시는 동안 조용히 듣고, 코골이 가능성·수면 중 발화 가능성·기침 유사 소리를 명확한 밤 리포트와 유용한 추세로 정리합니다. 재미있는 Sound Match도.",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "App Store에서 다운로드",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "작동 방식 보기 ↓",
         "external": false
@@ -1893,9 +2019,27 @@
             "answer": "<p>아니요. Snore Load와 밤 추세는 웰니스 정보이며 의료 진단이 아닙니다.</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "Go Sleep 다운로드",
+        "body": "<p>iOS 17 이상이 설치된 iPhone을 지원합니다. 무료로 다운로드할 수 있으며 앱 내 구입이 있습니다.</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "App Store에서 다운로드",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "App Store에서 다운로드",
+        "external": false
+      },
       {
         "href": "/ko/support/",
         "label": "지원",
@@ -2039,7 +2183,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -2129,6 +2274,11 @@
     "intro": "Go Sleep hört im Schlaf still zu und ordnet wahrscheinliches Schnarchen, mögliches Schlafgespräch und hustenähnliche Geräusche in klare Nachtberichte, nützliche Trends und ein verspieltes Zuhause für denkwürdige Sound Matches.",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Im App Store laden",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "Sehen Sie, wie es funktioniert ↓",
         "external": false
@@ -2215,9 +2365,27 @@
             "answer": "<p>Nein. Snore Load und nächtliche Trends sind Wellness-Informationen, keine medizinische Diagnose.</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "Go Sleep herunterladen",
+        "body": "<p>Kostenloser Download für das iPhone mit iOS 17 oder neuer. Optionale In-App-Käufe.</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "Im App Store laden",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Im App Store laden",
+        "external": false
+      },
       {
         "href": "/de/support/",
         "label": "Unterstützung",
@@ -2361,7 +2529,8 @@
             "name": "ajigu",
             "url": "https://ajigu.com/"
           },
-          "image": "https://gosleep.ajigu.com/assets/app-icon.png"
+          "image": "https://gosleep.ajigu.com/assets/app-icon.png",
+          "downloadUrl": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
         },
         {
           "@context": "https://schema.org",
@@ -2451,6 +2620,11 @@
     "intro": "Go Sleep vous écoute dormir et organise ronflements probables, discours nocturnes possibles et sons semblables à la toux en rapports clairs, tendances utiles et un espace ludique pour des Sound Match mémorables.",
     "actions": [
       {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Télécharger sur l’App Store",
+        "external": false
+      },
+      {
         "href": "#features",
         "label": "Découvrez comment cela fonctionne ↓",
         "external": false
@@ -2537,9 +2711,27 @@
             "answer": "<p>Non. Le Snore Load et les tendances nocturnes sont des informations bien-être, pas un diagnostic médical.</p>"
           }
         ]
+      },
+      {
+        "id": "download",
+        "title": "Télécharger Go Sleep",
+        "body": "<p>Téléchargement gratuit pour iPhone avec iOS 17 ou version ultérieure. Achats intégrés facultatifs.</p>",
+        "items": [],
+        "links": [
+          {
+            "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+            "label": "Télécharger sur l’App Store",
+            "external": false
+          }
+        ]
       }
     ],
     "footerLinks": [
+      {
+        "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "label": "Télécharger sur l’App Store",
+        "external": false
+      },
       {
         "href": "/fr/support/",
         "label": "Assistance",

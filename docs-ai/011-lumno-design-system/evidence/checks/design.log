@@ -1,0 +1,2 @@
+$ node tests/design.mjs
+11 responsive widths, anchor navigation, six scenes, keyboard, offscreen pause, reduced motion and recording passed.

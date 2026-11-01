@@ -26,6 +26,7 @@
     "template": "apple-iphone-15-pro-black-titanium",
     "screenBackground": "#030407",
     "screens": [
+      "design/mockups/screens/dailyapod-home.webp",
       "design/mockups/screens/dailyapod-sky.webp",
       "design/mockups/screens/dailyapod-solar.webp"
     ]

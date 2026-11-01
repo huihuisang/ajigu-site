@@ -16,7 +16,12 @@ const { page } = Astro.props;
 const copy = getCopy(page.locale);
 ---
 
-<SiteLayout metadata={page.metadata} locale={page.locale} product="nameplate">
+<SiteLayout
+  metadata={page.metadata}
+  locale={page.locale}
+  languages={page.languages}
+  product="nameplate"
+>
   <a class="studio-skip" href="#main">
     {copy.skip}
   </a>

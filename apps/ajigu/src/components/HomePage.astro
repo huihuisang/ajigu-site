@@ -4,10 +4,12 @@ import pages from "../content/home.json";
 import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
 import { SiteHeader } from "@ajigu/site-kit/components/SiteHeader";
 import { GalleryCard } from "@ajigu/site-kit/components/GalleryCard";
+import { DisplayTitle } from "@ajigu/site-kit/components/DisplayTitle";
 import { SiteFooter } from "@ajigu/site-kit/components/SiteFooter";
-import { getCopy, formatShortText } from "@ajigu/site-kit/copy";
+import { getCopy } from "@ajigu/site-kit/copy";
 
 import gallery from "../content/gallery.json";
+import productFacts from "../content/product-facts.json";
 import "../styles/gallery.css";
 
 interface Props {
@@ -15,9 +17,14 @@ interface Props {
 }
 const page = migrateContent(Astro.props.page);
 const copy = getCopy(page.locale);
+const products = page.products.toSorted((left, right) => {
+  const leftDate = productFacts[left.id as keyof typeof productFacts].releaseDate ?? "";
+  const rightDate = productFacts[right.id as keyof typeof productFacts].releaseDate ?? "";
+  return rightDate.localeCompare(leftDate);
+});
 ---
 
-<SiteLayout metadata={page.metadata} locale={page.locale} gallery>
+<SiteLayout metadata={page.metadata} locale={page.locale} languages={page.languages} gallery>
   <a class="studio-skip" href="#main">
     {copy.skip}
   </a>
@@ -34,11 +41,13 @@ const copy = getCopy(page.locale);
   />
   <main id="main" class="gallery-main studio-shell">
     <section class="gallery-intro" id="studio" data-enter>
-      <h1>{formatShortText(page.headline)}</h1>
+      <h1>
+        <DisplayTitle text={page.headline} />
+      </h1>
       <p>{page.about}</p>
     </section>
     <section id="apps" class="work-gallery" aria-label={copy.work}>
-      {page.products.map((product) => (
+      {products.map((product) => (
         <GalleryCard
           id={product.id}
           name={product.name}
@@ -46,6 +55,8 @@ const copy = getCopy(page.locale);
           platform={product.platform}
           description={product.description}
           file={gallery[product.id as keyof typeof gallery].file}
+          facts={productFacts[product.id as keyof typeof productFacts]}
+          copy={copy.gallery}
         />
       ))}
     </section>

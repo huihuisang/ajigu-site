@@ -1,0 +1,708 @@
+{
+  "cases": 32,
+  "failures": [],
+  "checks": [
+    {
+      "route": "/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/zh-hans/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/zh-hans/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/zh-hant/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/zh-hant/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/ja/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/ja/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/ko/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/ko/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/typenote/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/typenote/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/typenote/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/typenote/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/moodsk/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/moodsk/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/moodsk/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/moodsk/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/gosleep/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/gosleep/assets/app-icon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/gosleep/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/gosleep/assets/app-icon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/dailyapod/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/dailyapod/assets/app-icon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/dailyapod/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/dailyapod/assets/app-icon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/tutu/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/tutu/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/tutu/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/tutu/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/loglift/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/studio/icons/loglift.webp",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/loglift/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/studio/icons/loglift.webp",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/about/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/about/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/about/zh-hans/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/about/zh-hans/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/assets/logo.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/studio/media/ajigu.webp"
+        }
+      ],
+      "favicon": "/assets/favicon.png",
+      "header": [
+        {
+          "height": 36,
+          "loaded": true,
+          "src": "/assets/logo.webp",
+          "width": 36
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8771/nameplate/assets/ajigu-logo.webp"
+        }
+      ],
+      "favicon": "http://127.0.0.1:8771/nameplate/assets/favicon-32.png",
+      "header": [],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8771/nameplate/assets/ajigu-logo.webp"
+        }
+      ],
+      "favicon": "http://127.0.0.1:8771/nameplate/assets/favicon-32.png",
+      "header": [],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/zh-hans/",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8771/nameplate/assets/ajigu-logo.webp"
+        }
+      ],
+      "favicon": "http://127.0.0.1:8771/nameplate/assets/favicon-32.png",
+      "header": [],
+      "overflow": false
+    },
+    {
+      "route": "/nameplate/zh-hans/",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8771/nameplate/assets/ajigu-logo.webp"
+        }
+      ],
+      "favicon": "http://127.0.0.1:8771/nameplate/assets/favicon-32.png",
+      "header": [],
+      "overflow": false
+    },
+    {
+      "route": "/tutu/404.html",
+      "width": 320,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/tutu/assets/ajigu-logo.png"
+        }
+      ],
+      "favicon": "/tutu/assets/favicon.png",
+      "header": [],
+      "overflow": false
+    },
+    {
+      "route": "/tutu/404.html",
+      "width": 1440,
+      "brandImages": [
+        {
+          "loaded": true,
+          "src": "/tutu/assets/ajigu-logo.png"
+        }
+      ],
+      "favicon": "/tutu/assets/favicon.png",
+      "header": [],
+      "overflow": false
+    }
+  ]
+}

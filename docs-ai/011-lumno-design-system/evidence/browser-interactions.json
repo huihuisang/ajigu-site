@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:8772/loglift/zh-hans/#faq",
+  "language": "zh-Hans",
+  "faqExpanded": "true",
+  "console": [],
+  "flows": [
+    "Chinese homepage to matching LogLift detail",
+    "English language menu to Chinese detail",
+    "FAQ keyboard collapse and expansion"
+  ]
+}

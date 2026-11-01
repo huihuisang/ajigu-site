@@ -26,6 +26,23 @@ Native app icon provenance remains in `packages/site-kit/icons/sources.json`;
 that manifest is excluded from public output. Gallery captions and product
 navigation use the shared `AppIcon` component for size, corners and shadow.
 
+## Design system
+
+The current visual specification is `docs-ai/011-lumno-design-system/000-plan.md`.
+It replaces the older Gallery White dimensions and surface rules. Product copy,
+asset provenance, routes and interaction contracts remain authoritative.
+
+`packages/ui/src/styles/tokens.css` owns the spacing scale, semantic layout,
+surfaces, typography, radii, elevation and motion values. `global.css` maps these
+roles to the existing shadcn API. Shared marketing layout lives in `site.css`;
+the product gallery composes these roles in `apps/ajigu/src/styles/gallery.css`.
+Use existing semantic tokens before adding a component-specific value.
+
+Open Sans, EB Garamond and Cormorant Garamond ship as local WOFF2 assets. Their
+OFL notices are in `packages/ui/licenses` and the build includes them under
+`/licenses/`. CJK text uses locale-specific system fonts. Product artwork and
+native demo surfaces retain their own identity.
+
 Node 22.23.4 or later is required; CI uses Node 24. The package manager version is
 pinned in `package.json`. Install with `pnpm install --frozen-lockfile`.
 
@@ -56,6 +73,7 @@ Dependency, compiler and generated-type caches are excluded from version control
 task-artifacts run TASK_ID -- pnpm verify
 task-artifacts run TASK_ID -- pnpm test:browser
 task-artifacts run TASK_ID -- pnpm test:layout
+task-artifacts run TASK_ID -- pnpm test:visual
 task-artifacts run TASK_ID -- pnpm test:redirects
 ```
 
@@ -67,6 +85,9 @@ Layout checks cover every localized product detail page, including LogLift, at s
 They measure module and heading alignment, shared spacing, expanded chapters and
 no-script fallbacks. The release-candidate workflow runs them after browser checks.
 Use `pnpm format:check` to check the new workspace code style.
+Visual-system checks cover five homepage languages at eight widths. They verify
+rendered font families, original headline text, grid geometry, nested media,
+navigation bounds, local font requests and TypeNote key feedback.
 
 ## Source and publication boundaries
 

@@ -101,6 +101,24 @@
     "product": "nameplate",
     "proof": "Fresh in-app browser screenshot of current /nameplate/, Navy & Gold in 2D mode, top1440x936 viewport."
   },
+  "design/mockups/screens/dailyapod-home.webp": {
+    "sha256": "89f875012e95e78f2e1c05481bc1d7a0bb64834a5500d29f0343c74d605b9b24",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "dailyapod",
+    "proof": {
+      "capture": "2026-11-01: normal native APOD home, real live content Colors of the Moon. sim-use capture on iPhone 17 Pro; onboarding and subscription offer dismissed. Light and Dark appearances inspected; Light selected for readable text. No screenshot fixtures or native source edits. Status bar time set to 9:41.",
+      "app": {
+        "version": "2.6.8",
+        "build": "287",
+        "bundleID": "com.linsyorozua.DailyApod"
+      },
+      "build": "DailyApod Screenshots scheme, Debug, normal simulator signing; xcodebuild succeeded.",
+      "simulator": "CB6900CF-6E87-477A-B3F5-739FCFC109F6"
+    }
+  },
   "apps/ajigu/public/gallery/loglift-artwork.webp": {
     "sha256": "4348054086679e569e692df9c6ead218da85cb52c3b2db8f85a7a9ff31115354",
     "size": [
@@ -109,6 +127,57 @@
     ],
     "product": "loglift",
     "proof": "Original LogLift app icon from the public source checkout, used as artwork rather than a UI screenshot. No camera color-accuracy claim."
+  },
+  "design/mockups/screens/dailyapod-discover.webp": {
+    "sha256": "269a721d82f3e2c71064d160cbfa15f26db238a30357023d7c5f7744bb868dff",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "dailyapod",
+    "proof": {
+      "capture": "2026-11-01: sim-use capture of the normal native app. Discoveries landing with live Explore the Universe, Popular Discoveries, and Recent Discoveries shelves. Light appearance; status bar time set to 9:41. No native source edits.",
+      "app": {
+        "version": "2.6.8",
+        "build": "287",
+        "bundleID": "com.linsyorozua.DailyApod"
+      },
+      "simulator": "CB6900CF-6E87-477A-B3F5-739FCFC109F6"
+    }
+  },
+  "design/mockups/screens/dailyapod-search.webp": {
+    "sha256": "71ca4930beca6f5cadb9eb8bdedb07d92d2663b432020cff912a5b57c46ed071",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "dailyapod",
+    "proof": {
+      "capture": "2026-11-01: sim-use capture of the normal native app. APOD search for Nebula, with live matching result images, titles, and dates. Light appearance; status bar time set to 9:41. No native source edits.",
+      "app": {
+        "version": "2.6.8",
+        "build": "287",
+        "bundleID": "com.linsyorozua.DailyApod"
+      },
+      "simulator": "CB6900CF-6E87-477A-B3F5-739FCFC109F6"
+    }
+  },
+  "design/mockups/screens/dailyapod-favorites.webp": {
+    "sha256": "e7e421acf32705f87e50b4f45742fed4abd2ea74126d9dcbee2d1ce932aec802",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "dailyapod",
+    "proof": {
+      "capture": "2026-11-01: sim-use capture of the normal native app. Favorites list with three real APOD records saved through native favorite buttons on this capture simulator. No purchase or fixture data. Light appearance; status bar time set to 9:41. No native source edits.",
+      "app": {
+        "version": "2.6.8",
+        "build": "287",
+        "bundleID": "com.linsyorozua.DailyApod"
+      },
+      "simulator": "CB6900CF-6E87-477A-B3F5-739FCFC109F6"
+    }
   },
   "design/mockups/screens/loglift-home.webp": {
     "sha256": "5f6bed60bf82c8741afa3125d9b86bd7a2110277d132f8c398e816c15e24f2c7",

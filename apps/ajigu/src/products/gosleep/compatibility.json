@@ -7,8 +7,13 @@
       "locale": "en-US",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "Download on the App Store",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "See how it works \u2193",
+          "label": "See how it works ↓",
           "external": false
         },
         {
@@ -23,8 +28,13 @@
       "locale": "en-GB",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "Download on the App Store",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "See how it works \u2193",
+          "label": "See how it works ↓",
           "external": false
         },
         {
@@ -39,13 +49,18 @@
       "locale": "zh-Hans",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "在 App Store 下载",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "\u4e86\u89e3\u5176\u5de5\u4f5c\u539f\u7406 \u2193",
+          "label": "了解其工作原理 ↓",
           "external": false
         },
         {
           "href": "/zh-hans/support/",
-          "label": "\u83b7\u53d6\u652f\u6301",
+          "label": "获取支持",
           "external": false
         }
       ]
@@ -55,13 +70,18 @@
       "locale": "zh-Hant",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "在 App Store 下載",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "\u770b\u770b\u5b83\u662f\u5982\u4f55\u904b\u4f5c\u7684 \u2193",
+          "label": "看看它是如何運作的 ↓",
           "external": false
         },
         {
           "href": "/zh-hant/support/",
-          "label": "\u53d6\u5f97\u652f\u6301",
+          "label": "取得支持",
           "external": false
         }
       ]
@@ -71,13 +91,18 @@
       "locale": "ja",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "App Store からダウンロード",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "\u4ed5\u7d44\u307f\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044 \u2193",
+          "label": "仕組みを確認してください ↓",
           "external": false
         },
         {
           "href": "/ja/support/",
-          "label": "\u30b5\u30dd\u30fc\u30c8\u3092\u53d7\u3051\u308b",
+          "label": "サポートを受ける",
           "external": false
         }
       ]
@@ -87,13 +112,18 @@
       "locale": "ko",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "App Store에서 다운로드",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "\uc791\ub3d9 \ubc29\uc2dd \ubcf4\uae30 \u2193",
+          "label": "작동 방식 보기 ↓",
           "external": false
         },
         {
           "href": "/ko/support/",
-          "label": "\uc9c0\uc6d0 \ubc1b\uae30",
+          "label": "지원 받기",
           "external": false
         }
       ]
@@ -103,13 +133,18 @@
       "locale": "de",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "Im App Store laden",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "Sehen Sie, wie es funktioniert \u2193",
+          "label": "Sehen Sie, wie es funktioniert ↓",
           "external": false
         },
         {
           "href": "/de/support/",
-          "label": "Unterst\u00fctzung erhalten",
+          "label": "Unterstützung erhalten",
           "external": false
         }
       ]
@@ -119,8 +154,13 @@
       "locale": "fr",
       "actions": [
         {
+          "href": "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+          "label": "Télécharger sur l’App Store",
+          "external": false
+        },
+        {
           "href": "#features",
-          "label": "D\u00e9couvrez comment cela fonctionne \u2193",
+          "label": "Découvrez comment cela fonctionne ↓",
           "external": false
         },
         {
@@ -135,7 +175,7 @@
     "006457a8747962bd1d5a650d6b9a5365.txt": "6a87e643fe97d21bc41409193907568cb2856c231e6beb791e251b3f81dd11e0",
     "404.html": "baba8341f76b4d17810d4be6472ce9868d51e70f975fe4e0a5ccdbc914e6cd43",
     "CNAME": "5d24c9eae8aa159d33765719fd20b71de11705e425d34ff2034ce34196541b9d",
-    "assets/ajigu-logo.png": "832774fad6e0a33c77fd7f693d19abc8ba0680ec6f8c31060e36873e2c1221e2",
+    "assets/ajigu-logo.png": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27",
     "assets/app-icon.png": "454eda22539b43cac83247f6c720f11c88cdf141766c39e7a78c59e3e2024a71",
     "assets/brand-mascot.png": "454eda22539b43cac83247f6c720f11c88cdf141766c39e7a78c59e3e2024a71",
     "assets/mascot-bedtime.png": "460e78256bd5e925a70b4c9e137f2e018a3a1b7194f2501861e613b0de35585d",
@@ -157,7 +197,7 @@
     "lang-kit.css": "7ce2f24fa71c85b2ba507b00d170e491659f84d6385d2cb540bcb1eda537127d",
     "lang-kit.js": "356ee5abb42bc72e4cb3cbb3587dc6a862c3d66af2c5ba714d4a51e5868464f7",
     "language.js": "05516e2f3d252e64b089acb4421551c6bbb679496df71b21779c694ba22b03da",
-    "llms.txt": "5f30bb037eaaf53f4d4b0745131f87449da3bbc3a7784d70853725b3333c42ba",
+    "llms.txt": "5ad491564d3b0f08199a9d2ddf883e311da3d4c67c660af6b1e1e6b1442acfef",
     "privacy/index.html": "90570556ac831a3393f93203b14245d96f5533165004d07b58ff470cad70590f",
     "robots.txt": "53785a9008f762ed66f7026f0c9f176635c68b7f5715d5ebe90eb86d7e66ff4a",
     "sitemap.xml": "9f10e839de03da1575551f2b544fd71fa4112825a5bd6c6393d3ad4a2c77896a",

@@ -1,6 +1,7 @@
 import { formatShortText } from "../copy";
 import type { ReactNode } from "react";
 import { AppIcon } from "./AppIcon";
+import { DisplayTitle } from "./DisplayTitle";
 interface Props {
   id: string;
   name: string;
@@ -27,7 +28,11 @@ export function ProductHero({
       <div className="product-heading" data-enter>
         <AppIcon id={id} size={72} />
         <h1>{name}</h1>
-        {claim && <p className="product-claim">{formatShortText(claim)}</p>}
+        {claim && (
+          <p className="product-claim">
+            <DisplayTitle text={formatShortText(claim)} />
+          </p>
+        )}
         <p className="product-intro">{intro}</p>
         <div className="product-actions">{actions}</div>
         {note && <p className="product-note">{note}</p>}

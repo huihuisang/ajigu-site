@@ -1,0 +1,51 @@
+[
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "TypeNote",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  },
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "Moodsk",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  },
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "LogLift",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  },
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "Go Sleep",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  },
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "DailyApod",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  },
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "TUTU",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  },
+  {
+    "height": 316,
+    "iconToTitle": 40,
+    "name": "Nameplate Studio",
+    "summaryToTitle": 40,
+    "titleToDescription": 27.5
+  }
+]

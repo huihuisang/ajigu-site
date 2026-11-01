@@ -1,0 +1,113 @@
+[
+  {
+    "check": "peers",
+    "command": [
+      "pnpm",
+      "peers",
+      "check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.19,
+    "log": "peers.log"
+  },
+  {
+    "check": "format",
+    "command": [
+      "pnpm",
+      "format:check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.78,
+    "log": "format.log"
+  },
+  {
+    "check": "types",
+    "command": [
+      "pnpm",
+      "check"
+    ],
+    "exitCode": 0,
+    "seconds": 3.98,
+    "log": "types.log"
+  },
+  {
+    "check": "unit",
+    "command": [
+      "pnpm",
+      "test"
+    ],
+    "exitCode": 0,
+    "seconds": 0.66,
+    "log": "unit.log"
+  },
+  {
+    "check": "build",
+    "command": [
+      "pnpm",
+      "build"
+    ],
+    "exitCode": 0,
+    "seconds": 1.98,
+    "log": "build.log"
+  },
+  {
+    "check": "build-contract",
+    "command": [
+      "node",
+      "scripts/check-build.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.32,
+    "log": "build-contract.log"
+  },
+  {
+    "check": "visual",
+    "command": [
+      "pnpm",
+      "test:visual"
+    ],
+    "exitCode": 0,
+    "seconds": 23.91,
+    "log": "visual.log"
+  },
+  {
+    "check": "layout",
+    "command": [
+      "pnpm",
+      "test:layout"
+    ],
+    "exitCode": 0,
+    "seconds": 145.1,
+    "log": "layout.log"
+  },
+  {
+    "check": "browser",
+    "command": [
+      "pnpm",
+      "test:browser"
+    ],
+    "exitCode": 0,
+    "seconds": 200.83,
+    "log": "browser.log"
+  },
+  {
+    "check": "design",
+    "command": [
+      "pnpm",
+      "test:design"
+    ],
+    "exitCode": 0,
+    "seconds": 17.21,
+    "log": "design.log"
+  },
+  {
+    "check": "redirects",
+    "command": [
+      "pnpm",
+      "test:redirects"
+    ],
+    "exitCode": 0,
+    "seconds": 109.57,
+    "log": "redirects.log"
+  }
+]

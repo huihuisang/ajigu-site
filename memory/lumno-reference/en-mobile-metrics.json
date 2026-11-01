@@ -1,0 +1,111 @@
+{
+  "elements": [
+    {
+      "class": "hero-title-serif",
+      "corner": "superellipse(1.25)",
+      "font": "\"EB Garamond\", \"Iowan Old Style\", \"Palatino Linotype\", Georgia, serif",
+      "lineHeight": "49.3272px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "48.36px",
+      "style": "normal",
+      "tracking": "-2.418px",
+      "weight": "620",
+      "width": 358
+    },
+    {
+      "class": "hero-title-line hero-title-serif-accent",
+      "corner": "superellipse(1.25)",
+      "font": "\"Cormorant Garamond\", \"EB Garamond\", \"Iowan Old Style\", Georgia, serif",
+      "lineHeight": "58.032px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "58.032px",
+      "style": "italic",
+      "tracking": "-1.16064px",
+      "weight": "600",
+      "width": 316.265625
+    },
+    {
+      "class": "hero-description",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "lineHeight": "25.5px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "15px",
+      "style": "normal",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 330
+    },
+    {
+      "class": "home-h2",
+      "corner": "superellipse(1.25)",
+      "font": "\"EB Garamond\", \"Iowan Old Style\", \"Palatino Linotype\", Georgia, serif",
+      "lineHeight": "41.04px",
+      "padding": "0px",
+      "radius": "0px",
+      "size": "38px",
+      "style": "normal",
+      "tracking": "-1.9px",
+      "weight": "600",
+      "width": 358
+    },
+    {
+      "class": "bento-cell bento-cell--wide home-lit",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "lineHeight": "24px",
+      "padding": "5px 5px 23px",
+      "radius": "24px",
+      "size": "16px",
+      "style": "normal",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 358
+    },
+    {
+      "class": "bento-cell home-lit",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "lineHeight": "24px",
+      "padding": "5px 5px 23px",
+      "radius": "24px",
+      "size": "16px",
+      "style": "normal",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 358
+    },
+    {
+      "class": "bento-cell home-lit",
+      "corner": "superellipse(1.25)",
+      "font": "\"Open Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+      "lineHeight": "24px",
+      "padding": "5px 5px 23px",
+      "radius": "24px",
+      "size": "16px",
+      "style": "normal",
+      "tracking": "normal",
+      "weight": "400",
+      "width": 358
+    }
+  ],
+  "overflow": false,
+  "tokens": {
+    "--home-card-pad": "24px",
+    "--home-grid-gap": "12px",
+    "--home-gutter": "16px",
+    "--home-head-gap": "32px",
+    "--home-radius-inner": "calc(24px - 6px)",
+    "--home-radius-xl": "24px",
+    "--home-section-space": "72px",
+    "--home-ui-scale": ".75"
+  },
+  "url": "https://lumno.kubai.design/en/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

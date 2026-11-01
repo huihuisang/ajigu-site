@@ -1,5 +1,7 @@
 # Gallery White Design QA
 
+Historical baseline. The current visual direction is recorded in `docs-ai/011-lumno-design-system/000-plan.md`; its implementation and validation are tracked in the same directory. The older dimensions and surface rules below do not define the new design.
+
 final result: passed
 
 ## Target, state and normalization

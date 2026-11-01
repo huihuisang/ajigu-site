@@ -1,0 +1,72 @@
+{
+  "moodsk": {
+    "releaseDate": "2026-10-05",
+    "pricing": "freemium",
+    "checkedAt": "2026-11-02",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=6752535811&country=us",
+      "https://apps.apple.com/us/app/moodsk-folder-icon-maker/id6752535811"
+    ],
+    "note": "Apple releaseDate (UTC calendar date). Free download; paid features are described in the App Store listing."
+  },
+  "gosleep": {
+    "releaseDate": "2026-10-28",
+    "pricing": "freemium",
+    "checkedAt": "2026-11-02",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=6799618137&country=us",
+      "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137"
+    ],
+    "note": "Apple releaseDate (UTC calendar date). Free download; paid features are described in the App Store listing."
+  },
+  "dailyapod": {
+    "releaseDate": "2021-07-07",
+    "pricing": "freemium",
+    "checkedAt": "2026-11-02",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=1573247808&country=us",
+      "https://apps.apple.com/us/app/dailyapod-astronomy-picture/id1573247808"
+    ],
+    "note": "Apple releaseDate (UTC calendar date). Free download; paid features are described in the App Store listing."
+  },
+  "tutu": {
+    "releaseDate": "2026-10-28",
+    "pricing": "paidExport",
+    "checkedAt": "2026-11-02",
+    "sources": [
+      "https://itunes.apple.com/lookup?id=6480340301&country=us",
+      "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301"
+    ],
+    "note": "Apple releaseDate (UTC calendar date). Free download; paid features are described in the App Store listing."
+  },
+  "typenote": {
+    "releaseDate": "2026-04-19",
+    "pricing": "free",
+    "checkedAt": "2026-11-02",
+    "sources": [
+      "https://github.com/huihuisang/TypeNote/releases/tag/v1.0",
+      "https://ajigu.com/typenote/"
+    ],
+    "note": "First public GitHub release; the product FAQ confirms free use."
+  },
+  "loglift": {
+    "releaseDate": "2026-10-31",
+    "pricing": "preview",
+    "checkedAt": "2026-11-02",
+    "sources": ["https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0"],
+    "note": "First public preview, not a stable release. The published preview can be downloaded without payment."
+  },
+  "nameplate": {
+    "releaseDate": "2026-09-04",
+    "pricing": "free",
+    "checkedAt": "2026-11-02",
+    "sources": [
+      "https://ajigu.com/nameplate/",
+      "https://github.com/huihuisang/nameplate-studio/actions/runs/33779283912",
+      "https://github.com/huihuisang/nameplate-studio/commit/10a694e530bb359747bdb245dd1a40138ecbc431",
+      "https://github.com/huihuisang/ajigu-site/commit/5d533789c2e593e8e6fdbb49b8691bc0f630d9d0"
+    ],
+    "note": "Estimated first public launch date in Asia/Shanghai. Initial source release: 2026-09-02. Earliest retained successful Pages deployment completed at 2026-09-04 00:33 local time (2026-09-03T16:33:11Z); the editor entered ajigu.com/nameplate later that morning. Earlier public availability is not excluded. The editor and PNG export are free.",
+    "releaseDateEstimated": true
+  }
+}

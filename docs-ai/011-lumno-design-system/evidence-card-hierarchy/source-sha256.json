@@ -1,0 +1,6 @@
+{
+  "packages/site-kit/src/components/GalleryCard.tsx": "60c879bdae91d59e136d6f1b9d2cfbf7fa106cd4530ebe020e95fa9b0d44d2ee",
+  "apps/ajigu/src/styles/gallery.css": "aa9eb09af3ea6398281f63b2d2b8aa3efeeaf6c62a643bd04c90001c9e5c890f",
+  "tests/browser.mjs": "ab3d698cf241f0985ab312eeb2d432abe47faec8d6b303771272b78fd1bd0e09",
+  "tests/visual-system.mjs": "80c8a99b36fbe3a3091da99b134b1f553b16d07482d94aa2a8babd1589976813"
+}

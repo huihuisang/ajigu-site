@@ -1,0 +1,5 @@
+Command: STUDIO_OUTPUT_DIR=<previous-transparent-build> node tests/visual-system.mjs
+Result: exit 1
+AssertionError: en@320: app icon size
+actual: 40
+expected: 64

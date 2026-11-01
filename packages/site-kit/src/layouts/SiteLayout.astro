@@ -1,19 +1,24 @@
 ---
 import "@ajigu/ui/styles/global.css";
 import type { Metadata } from "../models";
+import type { LanguageLink } from "../models";
+import { languageRedirectScript } from "../scripts/language";
 interface Props {
   metadata: Metadata;
   locale: string;
   product?: string;
   gallery?: boolean;
+  languages?: LanguageLink[];
 }
-const { metadata, locale, product, gallery = false } = Astro.props;
+const { metadata, locale, product, gallery = false, languages = [] } = Astro.props;
+const languageScript = languageRedirectScript(languages);
 ---
 
 <!doctype html>
 <html lang={locale} data-locale={locale}>
   <head>
     <meta charset="UTF-8" />
+    {languageScript && <script is:inline set:html={languageScript} />}
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{metadata.title}</title>
     {metadata.meta.map((tag) => (

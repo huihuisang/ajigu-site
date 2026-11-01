@@ -1,0 +1,45 @@
+{
+  "elements": [
+    {
+      "class": "hero-title-serif",
+      "font": "\"EB Garamond\", \"Iowan Old Style\", \"Palatino Linotype\", Georgia, serif",
+      "lineHeight": "57.4464px",
+      "size": "56.32px",
+      "style": "normal",
+      "tracking": "-2.816px",
+      "weight": "620"
+    },
+    {
+      "class": "hero-title-line hero-title-serif-accent",
+      "font": "\"Cormorant Garamond\", \"EB Garamond\", \"Iowan Old Style\", Georgia, serif",
+      "lineHeight": "67.584px",
+      "size": "67.584px",
+      "style": "italic",
+      "tracking": "-1.35168px",
+      "weight": "600"
+    },
+    {
+      "class": "home-h2",
+      "font": "\"EB Garamond\", \"Iowan Old Style\", \"Palatino Linotype\", Georgia, serif",
+      "lineHeight": "58.0608px",
+      "size": "53.76px",
+      "style": "normal",
+      "tracking": "-2.688px",
+      "weight": "600"
+    },
+    {
+      "class": "home-h2",
+      "font": "\"EB Garamond\", \"Iowan Old Style\", \"Palatino Linotype\", Georgia, serif",
+      "lineHeight": "58.0608px",
+      "size": "53.76px",
+      "style": "normal",
+      "tracking": "-2.688px",
+      "weight": "600"
+    }
+  ],
+  "url": "https://lumno.kubai.design/en/",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}

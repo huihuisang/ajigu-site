@@ -1,0 +1,225 @@
+{
+  "matrix": [
+    {
+      "browser": "zh-CN",
+      "route": "/",
+      "target": "/zh-hans/",
+      "language": "zh-Hans",
+      "url": "http://127.0.0.1:64452/zh-hans/",
+      "passed": true
+    },
+    {
+      "browser": "zh-TW",
+      "route": "/",
+      "target": "/zh-hant/",
+      "language": "zh-Hant",
+      "url": "http://127.0.0.1:64452/zh-hant/",
+      "passed": true
+    },
+    {
+      "browser": "zh-HK",
+      "route": "/",
+      "target": "/zh-hant/",
+      "language": "zh-Hant",
+      "url": "http://127.0.0.1:64452/zh-hant/",
+      "passed": true
+    },
+    {
+      "browser": "ja-JP",
+      "route": "/",
+      "target": "/ja/",
+      "language": "ja",
+      "url": "http://127.0.0.1:64452/ja/",
+      "passed": true
+    },
+    {
+      "browser": "ko-KR",
+      "route": "/",
+      "target": "/ko/",
+      "language": "ko",
+      "url": "http://127.0.0.1:64452/ko/",
+      "passed": true
+    },
+    {
+      "browser": "en-GB",
+      "route": "/",
+      "target": "/",
+      "language": "en",
+      "url": "http://127.0.0.1:64452/",
+      "passed": true
+    },
+    {
+      "browser": "fr-FR",
+      "route": "/",
+      "target": "/",
+      "language": "en",
+      "url": "http://127.0.0.1:64452/",
+      "passed": true
+    },
+    {
+      "browser": "fr-FR",
+      "preferred": [
+        "fr-FR",
+        "ja-JP"
+      ],
+      "route": "/",
+      "target": "/ja/",
+      "language": "ja",
+      "url": "http://127.0.0.1:64452/ja/",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "saved": "en",
+      "route": "/",
+      "target": "/",
+      "language": "en",
+      "url": "http://127.0.0.1:64452/",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "saved": "ko",
+      "route": "/?lang=en",
+      "target": "/?lang=en",
+      "language": "en",
+      "url": "http://127.0.0.1:64452/?lang=en",
+      "passed": true
+    },
+    {
+      "browser": "ja-JP",
+      "saved": "ko",
+      "route": "/zh-hant/",
+      "target": "/zh-hant/",
+      "language": "zh-Hant",
+      "url": "http://127.0.0.1:64452/zh-hant/",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "route": "/?ref=studio#apps",
+      "target": "/zh-hans/?ref=studio#apps",
+      "language": "zh-Hans",
+      "url": "http://127.0.0.1:64452/zh-hans/?ref=studio#apps",
+      "passed": true
+    },
+    {
+      "browser": "en-GB",
+      "route": "/gosleep/",
+      "target": "/gosleep/en-gb/",
+      "language": "en-GB",
+      "url": "http://127.0.0.1:64452/gosleep/en-gb/",
+      "passed": true
+    },
+    {
+      "browser": "fr-FR",
+      "route": "/gosleep/",
+      "target": "/gosleep/fr/",
+      "language": "fr",
+      "url": "http://127.0.0.1:64452/gosleep/fr/",
+      "passed": true
+    },
+    {
+      "browser": "ja-JP",
+      "route": "/moodsk/",
+      "target": "/moodsk/ja/",
+      "language": "ja",
+      "url": "http://127.0.0.1:64452/moodsk/ja/",
+      "passed": true
+    },
+    {
+      "browser": "zh-TW",
+      "route": "/dailyapod/",
+      "target": "/dailyapod/zh-hant/",
+      "language": "zh-Hant",
+      "url": "http://127.0.0.1:64452/dailyapod/zh-hant/",
+      "passed": true
+    },
+    {
+      "browser": "ko-KR",
+      "route": "/loglift/",
+      "target": "/loglift/ko/",
+      "language": "ko",
+      "url": "http://127.0.0.1:64452/loglift/ko/",
+      "passed": true
+    },
+    {
+      "browser": "ja-JP",
+      "route": "/tutu/",
+      "target": "/tutu/ja/",
+      "language": "ja",
+      "url": "http://127.0.0.1:64452/tutu/ja/",
+      "passed": true
+    },
+    {
+      "browser": "ja-JP",
+      "route": "/nameplate/about/",
+      "target": "/nameplate/about/",
+      "language": "en",
+      "url": "http://127.0.0.1:64452/nameplate/about/",
+      "passed": true
+    },
+    {
+      "browser": "zh-TW",
+      "route": "/nameplate/about/",
+      "target": "/nameplate/about/zh-hans/",
+      "language": "zh-Hans",
+      "url": "http://127.0.0.1:64452/nameplate/about/zh-hans/",
+      "passed": true
+    },
+    {
+      "browser": "zh-HK",
+      "route": "/typenote/",
+      "target": "/typenote/",
+      "language": "zh-Hant",
+      "url": "http://127.0.0.1:64452/typenote/",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "route": "/typenote/?lang=en",
+      "target": "/typenote/?lang=en",
+      "language": "en",
+      "url": "http://127.0.0.1:64452/typenote/?lang=en",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "saved": "ko",
+      "legacy": "ja",
+      "route": "/typenote/",
+      "target": "/typenote/",
+      "language": "ko",
+      "url": "http://127.0.0.1:64452/typenote/",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "legacy": "ja",
+      "route": "/typenote/",
+      "target": "/typenote/",
+      "language": "ja",
+      "url": "http://127.0.0.1:64452/typenote/",
+      "passed": true
+    },
+    {
+      "browser": "zh-CN",
+      "denied": true,
+      "route": "/",
+      "target": "/zh-hans/",
+      "language": "zh-Hans",
+      "url": "http://127.0.0.1:64452/zh-hans/",
+      "passed": true
+    },
+    {
+      "manualEnglish": "passed",
+      "denied": false
+    },
+    {
+      "manualEnglish": "passed",
+      "denied": true
+    }
+  ],
+  "noJavaScript": "passed",
+  "errors": []
+}

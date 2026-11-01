@@ -1,0 +1,34 @@
+[
+  {
+    "name": "unit",
+    "command": [
+      "pnpm",
+      "test"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "build",
+    "command": [
+      "pnpm",
+      "build"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "contract",
+    "command": [
+      "node",
+      "scripts/check-build.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "store",
+    "command": [
+      "node",
+      "tests/store-downloads.mjs"
+    ],
+    "exitCode": 0
+  }
+]

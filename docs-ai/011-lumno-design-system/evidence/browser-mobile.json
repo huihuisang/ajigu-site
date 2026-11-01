@@ -1,0 +1,13 @@
+{
+  "cardRadius": "24px",
+  "headline": "为日常，做一点好用的东西。",
+  "navPadding": "6px 8px 6px 12px",
+  "opacity": "1",
+  "overflow": false,
+  "title": "啊叽咕 ajigu — 注重隐私的 iPhone 与 Mac 应用",
+  "url": "http://127.0.0.1:8772/zh-hans/",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

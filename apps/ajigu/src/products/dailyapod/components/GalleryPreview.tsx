@@ -2,13 +2,17 @@ import { useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@ajigu/ui/components/toggle-group";
 import { getCopy } from "@ajigu/site-kit/copy";
 const pictures = [
-  "/studio/screens/dailyapod-sky.webp",
-  "/studio/screens/dailyapod-solar.webp",
-  "/studio/products/dailyapod-mockup.webp",
+  ...["home", "discover", "search", "favorites", "sky", "solar"].map((view) => ({
+    src: `/studio/screens/dailyapod-${view}.webp`,
+    width: 1206,
+    height: 2622,
+  })),
+  { src: "/studio/products/dailyapod-mockup.webp", width: 1600, height: 1200 },
 ];
 export default function GalleryPreview({ locale }: { locale: string }) {
   const copy = getCopy(locale);
   const [selected, setSelected] = useState("0");
+  const picture = pictures[Number(selected)];
   return (
     <div className="demo-surface gallery-demo" data-gallery-demo>
       <ToggleGroup
@@ -30,10 +34,10 @@ export default function GalleryPreview({ locale }: { locale: string }) {
       </ToggleGroup>
       <div className="gallery-preview" aria-live="polite">
         <img
-          src={pictures[Number(selected)]}
+          src={picture.src}
           alt={copy.views[Number(selected)]}
-          width={Number(selected) === 2 ? 1600 : 1206}
-          height={Number(selected) === 2 ? 1200 : 2622}
+          width={picture.width}
+          height={picture.height}
         />
       </div>
     </div>

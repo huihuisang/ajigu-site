@@ -1,0 +1,137 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "Estimated from deployment history",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/",
+    "width": 688,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "Estimated from deployment history",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "Estimated from deployment history",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/zh-hans/",
+    "width": 320,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "根据部署历史推测",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/zh-hans/",
+    "width": 688,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "根据部署历史推测",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/zh-hans/",
+    "width": 1440,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "根据部署历史推测",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/zh-hant/",
+    "width": 320,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "根據部署歷史推測",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/zh-hant/",
+    "width": 688,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "根據部署歷史推測",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/zh-hant/",
+    "width": 1440,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "根據部署歷史推測",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/ja/",
+    "width": 320,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "デプロイ履歴からの推定",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/ja/",
+    "width": 688,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "デプロイ履歴からの推定",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/ja/",
+    "width": 1440,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "デプロイ履歴からの推定",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/ko/",
+    "width": 320,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "배포 기록을 바탕으로 추정",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/ko/",
+    "width": 688,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "배포 기록을 바탕으로 추정",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  },
+  {
+    "route": "/ko/",
+    "width": 1440,
+    "clipped": false,
+    "date": "2026-09-04",
+    "estimate": "배포 기록을 바탕으로 추정",
+    "overflow": false,
+    "text": "≈ 2026-09-04"
+  }
+]

@@ -40,7 +40,7 @@ def main():
     products = json.loads((DESIGN / "products.json").read_text())
     outputs, gallery = {}, {}
     for product, item in products.items():
-        canvas = Image.new("RGB", SIZE, "#efefef")
+        canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
         count = len(item["screens"])
         cell_width = (SIZE[0] - 180) // count
         devices = []
@@ -59,7 +59,7 @@ def main():
         x = (SIZE[0] - sum(device.width for device in devices) - gap * (count - 1)) // 2
         for device in devices:
             y = (SIZE[1] - device.height) // 2
-            canvas.paste(device, (x, y), device)
+            canvas.alpha_composite(device, (x, y))
             x += device.width + gap
         filename = f"{product}-mockup.webp"
         target = OUTPUT / filename
@@ -68,6 +68,7 @@ def main():
         outputs[product] = {
             "file": str(target.relative_to(ROOT)),
             "sha256": digest(target),
+            "background": "transparent",
             "template": item.get("template"),
             "screens": [{"file": source, "sha256": digest(ROOT / source)} for source in item["screens"]],
         }

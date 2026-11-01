@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-01",
+  "browser": "ChatGPT in-app browser",
+  "checks": [
+    {
+      "width": 390,
+      "route": "/dailyapod/",
+      "labels": [
+        "APOD home",
+        "Sky view",
+        "Solar System",
+        "App overview"
+      ],
+      "lang": "en",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 390,
+      "route": "/dailyapod/zh-hans/",
+      "labels": [
+        "APOD 首页",
+        "星空视图",
+        "太阳系",
+        "应用概览"
+      ],
+      "lang": "zh-Hans",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 390,
+      "route": "/dailyapod/zh-hant/",
+      "labels": [
+        "APOD 首頁",
+        "星空視圖",
+        "太陽系",
+        "應用概覽"
+      ],
+      "lang": "zh-Hant",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 390,
+      "route": "/dailyapod/ja/",
+      "labels": [
+        "APOD ホーム",
+        "星空ビュー",
+        "太陽系",
+        "アプリの概要"
+      ],
+      "lang": "ja",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 390,
+      "route": "/dailyapod/ko/",
+      "labels": [
+        "APOD 홈",
+        "별자리 보기",
+        "태양계",
+        "앱 둘러보기"
+      ],
+      "lang": "ko",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 1280,
+      "route": "/dailyapod/",
+      "labels": [
+        "APOD home",
+        "Sky view",
+        "Solar System",
+        "App overview"
+      ],
+      "lang": "en",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 1280,
+      "route": "/dailyapod/zh-hans/",
+      "labels": [
+        "APOD 首页",
+        "星空视图",
+        "太阳系",
+        "应用概览"
+      ],
+      "lang": "zh-Hans",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 1280,
+      "route": "/dailyapod/zh-hant/",
+      "labels": [
+        "APOD 首頁",
+        "星空視圖",
+        "太陽系",
+        "應用概覽"
+      ],
+      "lang": "zh-Hant",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 1280,
+      "route": "/dailyapod/ja/",
+      "labels": [
+        "APOD ホーム",
+        "星空ビュー",
+        "太陽系",
+        "アプリの概要"
+      ],
+      "lang": "ja",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    },
+    {
+      "width": 1280,
+      "route": "/dailyapod/ko/",
+      "labels": [
+        "APOD 홈",
+        "별자리 보기",
+        "태양계",
+        "앱 둘러보기"
+      ],
+      "lang": "ko",
+      "loaded": true,
+      "overflow": false,
+      "selected": "true",
+      "src": "/studio/screens/dailyapod-home.webp",
+      "allFourViews": true
+    }
+  ],
+  "console": [],
+  "fullRegression": "Stopped at unrelated Moodsk autoplay timeout in tests/browser.mjs:290; see retained task browser.log."
+}

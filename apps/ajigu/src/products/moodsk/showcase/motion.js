@@ -3,7 +3,7 @@
  * React owns controls; this module owns only the stage and copy nodes.
  * @param {HTMLElement} root
  * @param {{scenes: string[][], messages: Record<string,string>}} copy
- * @param {(state: {current:number,playing:boolean,effect:number,color:number,active:boolean}) => void} onState
+ * @param {(state: {current:number,playing:boolean,effect:number,active:boolean}) => void} onState
  */
 export async function mountShowcase(root, copy, onState) {
   const [{ assets, picnicPlacements }, { GlassOrb }] = await Promise.all([
@@ -80,11 +80,8 @@ export async function mountShowcase(root, copy, onState) {
     [-200, -110],
     [0, 130],
   ];
-  const stars = Array.from({ length: 5 }, (_, i) => {
-    const image = new Image();
-    image.src = assets[`star-${i}`];
-    return image;
-  });
+  const star = new Image();
+  star.src = assets["star-0"];
   const fish = Array.from({ length: 3 }, (_, i) => {
     const sprite = new Image();
     sprite.src = assets[`fish-${i}`];
@@ -444,7 +441,6 @@ export async function mountShowcase(root, copy, onState) {
       samples: [],
       waves: [],
       mode: -1,
-      color: 0,
       pointer: null,
       lastSample: -100,
       lastWave: -2000,
@@ -502,10 +498,9 @@ export async function mountShowcase(root, copy, onState) {
           x: 120 + i * 12,
           y: 220 + Math.sin(i * 0.19) * 65,
           time: time - 1200 + i * 45,
-          color: demo.color,
         });
     } else if (time - demo.lastSample > 35) {
-      demo.samples.push({ ...point, time, color: demo.color });
+      demo.samples.push({ ...point, time });
       demo.lastSample = time;
     }
     if (!demo.pointer && time - demo.lastWave > 2400) {
@@ -518,13 +513,12 @@ export async function mountShowcase(root, copy, onState) {
         const age = (time - sample.time) / 1000,
           life = Math.max(0, 1 - age / 1.5),
           size = 22 + 8 * life;
-        const sprite = stars[sample.color];
         ctx.save();
         ctx.translate(sample.x + Math.sin(i) * age * 8, sample.y + age * 12);
         ctx.rotate(i * 0.8);
         ctx.globalAlpha = blend * Math.sqrt(life);
-        if (sprite.complete && sprite.naturalWidth)
-          ctx.drawImage(sprite, -size / 2, -size / 2, size, size);
+        if (star.complete && star.naturalWidth)
+          ctx.drawImage(star, -size / 2, -size / 2, size, size);
         ctx.restore();
       });
     if (mode === 0) {
@@ -576,7 +570,7 @@ export async function mountShowcase(root, copy, onState) {
         const scale = Math.max(0.15, 1 - i * 0.22);
         ctx.beginPath();
         ctx.arc(w.x, w.y, radius * scale, 0, Math.PI * 2);
-        ctx.strokeStyle = ["#e8b76a", "#efa68b", "#a9c59a", "#c1a0e8", "#92c9e8"][demo.color];
+        ctx.strokeStyle = "#e8b76a";
         ctx.globalAlpha = (1 - progress) ** 1.4 * scale;
         ctx.lineWidth = 1.5;
         ctx.stroke();
@@ -903,18 +897,17 @@ export async function mountShowcase(root, copy, onState) {
     });
   }
   function resizeStage() {
-    const scale = Math.min(1, stage.clientWidth / 680);
+    const scale = Math.min(
+      1,
+      stage.clientWidth / 680,
+      stage.clientHeight / (current === 5 ? 800 : 620),
+    );
     stage.style.setProperty("--stage-scale", scale);
-    stage.style.height = `${(current === 5 ? 800 : 620) * scale}px`;
-    const wide = window.innerWidth > 900;
-    const box = stage.getBoundingClientRect();
-    const top = $("#eyebrow").getBoundingClientRect().top;
-    const bottom = $("#detail").getBoundingClientRect().bottom;
-    // Optical offsets align the main artwork with the copy, excluding decorative captions.
+    // Optical offsets center the main artwork without its decorative captions.
     const visualCenters = [12, 0, 40, 0, 10, 0];
     stage.style.setProperty(
       "--scene-center-y",
-      `${(wide ? (top + bottom) / 2 - box.top : (current === 5 ? 350 : 310) * scale) - visualCenters[current] * scale}px`,
+      `${stage.clientHeight / 2 - (current === 5 ? 40 : visualCenters[current]) * scale}px`,
     );
   }
   function sync() {
@@ -957,7 +950,6 @@ export async function mountShowcase(root, copy, onState) {
       current,
       playing,
       effect: cursorDemo?.mode ?? 0,
-      color: cursorDemo?.color ?? 0,
       active: playing && !document.hidden && inView,
     });
   }
@@ -1027,12 +1019,6 @@ export async function mountShowcase(root, copy, onState) {
       cursorDemo.samples = [];
       cursorDemo.waves = [];
       sync();
-    },
-    color(value) {
-      if (!cursorDemo) return;
-      cursorDemo.color = value;
-      drawCursor(elapsed);
-      notify();
     },
     dispose() {
       lifecycle.abort();

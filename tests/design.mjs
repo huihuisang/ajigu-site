@@ -34,8 +34,8 @@ try {
       overflow: document.documentElement.scrollWidth > innerWidth,
     }));
     assert.equal(metric.overflow, false);
-    assert.ok(metric.width <= 1320);
-    assert.equal(metric.columns, Math.max(1, Math.floor((metric.width + 24) / 324)));
+    assert.ok(metric.width <= 1360);
+    assert.equal(metric.columns, width > 760 ? 2 : 1);
     widths.push({ viewport: width, ...metric });
   }
   await page.setViewportSize({ width: 1200, height: 900 });
@@ -77,9 +77,9 @@ try {
   }
   await page.locator(".moodsk-onboarding nav button").nth(3).click();
   await page.locator('[data-effect="1"]').click();
-  assert.equal(await page.locator('[data-effect="1"]').getAttribute("aria-checked"), "true");
-  await page.locator('[data-color="3"]').click();
-  assert.equal(await page.locator('[data-color="3"]').getAttribute("aria-checked"), "true");
+  assert.equal(await page.locator('[data-effect="1"]').getAttribute("data-state"), "on");
+  assert.equal(await page.locator("[data-color]").count(), 0);
+  assert.equal(await page.locator("[data-effect]").count(), 3);
   await stage.focus();
   await page.keyboard.press("ArrowLeft");
   assert.equal(
@@ -142,7 +142,7 @@ try {
   await staticPage.goto(preview.origins.moodsk + "/zh-hans/", { waitUntil: "networkidle" });
   await staticPage.locator(".moodsk-onboarding nav button").nth(3).click();
   await staticPage.locator('[data-effect="1"]').click();
-  assert.equal(await staticPage.locator('[data-effect="1"]').getAttribute("aria-checked"), "true");
+  assert.equal(await staticPage.locator('[data-effect="1"]').getAttribute("data-state"), "on");
   await staticPage.locator("#pause").click();
   assert.equal(await staticPage.locator(".moodsk-onboarding").getAttribute("data-active"), "false");
   assert.equal(

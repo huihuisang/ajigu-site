@@ -45,11 +45,7 @@ try {
       externalFonts.push(request.url());
   });
   const cases = [
-    ...logliftPages.map(({ route, locale }) => ({
-      site: "ajigu",
-      route,
-      language: locale,
-    })),
+    ...logliftPages.map(({ route, locale }) => ({ site: "ajigu", route, language: locale })),
     ...[
       ["/", "en"],
       ["/zh-hans/", "zh-Hans"],
@@ -107,14 +103,24 @@ try {
       assert.ok(metric.text > (galleryPage ? 50 : 250));
       assert.deepEqual(metric.missingAnchors, []);
       assert.doesNotMatch(await page.locator("main").innerText(), /<br\s*\/?>/i);
+      if (entry.route.startsWith("/loglift/")) {
+        assert.match(await page.locator(".product-claim").textContent(), /Rec\.709/);
+      }
       if (galleryPage) {
         assert.equal(await page.locator(".work-tile").count(), 7);
+        assert.deepEqual(
+          await page
+            .locator(".work-tile")
+            .evaluateAll((tiles) => tiles.map((tile) => tile.dataset.productId)),
+          ["loglift", "gosleep", "tutu", "moodsk", "nameplate", "typenote", "dailyapod"],
+          `${entry.route}: newest releases first`,
+        );
         const clipped = await page.locator(".gallery-card").evaluateAll((cards) =>
           cards.flatMap((card) => {
             const box = card.getBoundingClientRect();
             return [
               ...card.querySelectorAll(
-                '[data-slot="card-title"],[data-slot="card-description"],.gallery-platform',
+                '[data-slot="card-title"],[data-slot="card-description"],.gallery-platform,.gallery-release,.gallery-pricing',
               ),
             ]
               .filter((item) => {
@@ -137,7 +143,59 @@ try {
         const grid = await page
           .locator(".work-gallery")
           .evaluate((el) => getComputedStyle(el).gridTemplateColumns.split(" ").length);
-        assert.equal(grid, width === 1440 ? 4 : width === 768 ? 2 : 1);
+        assert.equal(grid, width > 760 ? 2 : 1);
+        assert.equal(await page.locator(".gallery-release time").count(), 7);
+        assert.equal(await page.locator(".gallery-pricing").count(), 7);
+        assert.equal(await page.locator(".gallery-summary .gallery-platform").count(), 7);
+        assert.equal(await page.locator(".gallery-summary .gallery-pricing").count(), 7);
+        assert.equal(
+          await page
+            .locator(".gallery-details .gallery-platform,.gallery-details .gallery-pricing")
+            .count(),
+          0,
+        );
+        const positions = await page.locator(".gallery-card").evaluateAll((cards) =>
+          cards.map((card) => {
+            const box = card.getBoundingClientRect();
+            const bounds = (selector) => card.querySelector(selector).getBoundingClientRect();
+            return {
+              row: Math.round(box.top),
+              bottom: box.bottom,
+              width: box.width,
+              descriptionGap:
+                bounds('[data-slot="card-description"]').top - bounds(".gallery-summary").bottom,
+              metadataGap: bounds(".gallery-meta").top - bounds('[data-slot="card-title"]').bottom,
+              footerBottom: bounds(".gallery-details").bottom,
+              title: card.querySelector('[data-slot="card-title"]').textContent,
+            };
+          }),
+        );
+        for (const [index, position] of positions.entries()) {
+          assert.ok(
+            Math.abs(position.descriptionGap - 16) < 1,
+            `${entry.route}@${width}: description spacing`,
+          );
+          assert.ok(
+            Math.abs(position.metadataGap - 8) < 1,
+            `${entry.route}@${width}: metadata spacing`,
+          );
+          assert.ok(
+            position.footerBottom <= position.bottom,
+            `${entry.route}@${width}: footer clipping`,
+          );
+          const row = positions.filter(({ row }) => row === position.row);
+          for (const sibling of row)
+            assert.ok(
+              Math.abs(sibling.bottom - position.bottom) < 1,
+              `${entry.route}@${width}: card row alignment`,
+            );
+          if (index === 0 && width > 760) {
+            assert.ok(
+              position.width > positions[1].width * 1.9,
+              `${entry.route}@${width}: lead card spans both columns`,
+            );
+          }
+        }
       }
       if (entry.site !== "moodsk" && !galleryPage) {
         const mockup = page.locator(".product-art img");
@@ -159,7 +217,7 @@ try {
       assert.ok(icons.length > 0);
       for (const icon of icons) {
         assert.equal(icon.width, icon.height);
-        assert.equal(icon.width, galleryPage ? 40 : 72);
+        assert.equal(icon.width, galleryPage ? 64 : 72);
         assert.equal(icon.radius, "22%");
         assert.notEqual(icon.shadow, "none");
         assert.equal(icon.loaded, true);
@@ -209,9 +267,7 @@ try {
   const products = ["moodsk", "gosleep", "dailyapod", "tutu"];
   for (const detail of logliftPages) {
     const homeRoute = detail.route.slice("/loglift".length);
-    await page.goto(preview.origins.ajigu + homeRoute, {
-      waitUntil: "networkidle",
-    });
+    await page.goto(preview.origins.ajigu + homeRoute, { waitUntil: "networkidle" });
     await page.locator('[data-product-id="loglift"]').click();
     await page.waitForURL(preview.origins.ajigu + detail.route);
     assert.equal(await page.locator("html").getAttribute("lang"), detail.locale);
@@ -249,14 +305,13 @@ try {
     await page.locator(".language-switcher").click();
     const next = logliftPages[(logliftPages.indexOf(detail) + 1) % logliftPages.length];
     await page.locator(`[data-language="${next.locale}"]`).click();
-    await page.waitForURL(preview.origins.ajigu + next.route);
+    const nextURL = new URL(next.route, preview.origins.ajigu);
+    if (/^en(?:-|$)/.test(next.locale)) nextURL.searchParams.set("lang", next.locale);
+    await page.waitForURL(nextURL.href);
     assert.equal(await page.locator("html").getAttribute("lang"), next.locale);
-    matrix.push({
-      site: "ajigu",
-      route: detail.route,
-      logliftNavigation: "passed",
-    });
+    matrix.push({ site: "ajigu", route: detail.route, logliftNavigation: "passed" });
   }
+  let homeAfterSelection = "/";
   for (const site of products) {
     const contract = JSON.parse(
       await readFile(
@@ -271,11 +326,7 @@ try {
       for (const width of [1440, 390]) {
         await page.setViewportSize({ width, height: 900 });
         assert.equal(
-          (
-            await page.goto(preview.origins[site] + route, {
-              waitUntil: "networkidle",
-            })
-          ).status(),
+          (await page.goto(preview.origins[site] + route, { waitUntil: "networkidle" })).status(),
           200,
         );
         assert.equal(await page.locator("h1").count(), 1, `${site}${route}: H1`);
@@ -283,20 +334,19 @@ try {
         matrix.push({ site, route, width, compatibility: "passed" });
       }
     }
-    await page.goto(preview.origins.ajigu + "/zh-hans/", {
-      waitUntil: "networkidle",
-    });
+    await page.goto(preview.origins.ajigu + "/zh-hans/", { waitUntil: "networkidle" });
     await page.locator(`[data-product-id="${site}"]`).click();
     await page.waitForURL(preview.origins[site] + "/zh-hans/");
     await page.locator('footer.site-footer a[href="https://ajigu.com/"]').first().click();
-    await page.waitForURL(preview.origins.ajigu + "/");
+    await page.waitForURL(preview.origins.ajigu + homeAfterSelection);
     await page.goto(preview.origins[site] + "/", { waitUntil: "networkidle" });
     await page.locator(".language-switcher").click();
     await page.locator('[data-language="zh-Hans"]').click();
     await page.waitForURL(preview.origins[site] + "/zh-hans/");
     assert.equal(await page.locator("html").getAttribute("lang"), "zh-Hans");
+    homeAfterSelection = "/zh-hans/";
   }
-  await page.goto(preview.origins.gosleep + "/", { waitUntil: "networkidle" });
+  await page.goto(preview.origins.gosleep + "/?lang=en-US", { waitUntil: "networkidle" });
   await page.locator('[data-event="1"]').click();
   assert.equal(await page.locator('[data-event="1"]').getAttribute("aria-checked"), "true");
   assert.match(await page.locator("[data-event-title]").textContent(), /talk/i);
@@ -304,21 +354,28 @@ try {
   await page.locator('[data-event="2"]').focus();
   await page.keyboard.press("Enter");
   assert.equal(await page.locator('[data-event="2"]').getAttribute("aria-checked"), "true");
-  await page.goto(preview.origins.dailyapod + "/", {
-    waitUntil: "networkidle",
-  });
-  await page.locator('[data-view="1"]').click();
+  await page.goto(preview.origins.dailyapod + "/?lang=en", { waitUntil: "networkidle" });
   assert.match(
     await page.locator(".gallery-preview img").getAttribute("src"),
-    /dailyapod-solar.webp$/,
+    /dailyapod-home.webp$/,
   );
-  await page.locator('[data-view="2"]').focus();
-  await page.keyboard.press("Enter");
-  assert.match(
-    await page.locator(".gallery-preview img").getAttribute("src"),
-    /dailyapod-mockup.webp$/,
-  );
-  await page.goto(preview.origins.tutu + "/", { waitUntil: "networkidle" });
+  assert.equal(await page.locator('[data-view="0"]').getAttribute("aria-checked"), "true");
+  const galleryViews = ["home", "discover", "search", "favorites", "sky", "solar", "mockup"];
+  assert.equal(await page.locator("[data-view]").count(), galleryViews.length);
+  for (const [index, view] of galleryViews.entries()) {
+    await page.locator(`[data-view="${index}"]`).focus();
+    await page.keyboard.press("Enter");
+    await page.waitForFunction((file) => {
+      const image = document.querySelector(".gallery-preview img");
+      return image.src.endsWith(file) && image.complete && image.naturalWidth > 0;
+    }, `dailyapod-${view}.webp`);
+    const dimensions = await page.locator(".gallery-preview img").evaluate((image) => ({
+      declared: [Number(image.getAttribute("width")), Number(image.getAttribute("height"))],
+      natural: [image.naturalWidth, image.naturalHeight],
+    }));
+    assert.deepEqual(dimensions.declared, dimensions.natural);
+  }
+  await page.goto(preview.origins.tutu + "/?lang=en", { waitUntil: "networkidle" });
   await page.locator("[data-compare] [role=slider]").focus();
   await page.keyboard.press("Home");
   assert.equal(
@@ -334,9 +391,7 @@ try {
     await page.locator("[data-compare] [role=slider]").getAttribute("aria-valuenow"),
     "84",
   );
-  await page.goto(preview.origins.moodsk + "/zh-hans/", {
-    waitUntil: "networkidle",
-  });
+  await page.goto(preview.origins.moodsk + "/zh-hans/", { waitUntil: "networkidle" });
   await page.locator(".desktop-showcase").scrollIntoViewIfNeeded();
   assert.equal(await page.locator(".desktop-showcase nav button").count(), 6);
   const chapters = page.locator(".desktop-showcase nav button");
@@ -359,9 +414,7 @@ try {
     assert.ok((await page.locator("#title").innerText()).length > 0);
   }
   await page.locator("#replay").click();
-  await page.goto(preview.origins.ajigu + "/zh-hans/", {
-    waitUntil: "networkidle",
-  });
+  await page.goto(preview.origins.ajigu + "/zh-hans/", { waitUntil: "networkidle" });
   assert.equal(await page.locator(".work-tile").count(), 7);
   assert.equal(await page.locator(".studio-hero,.studio-beliefs").count(), 0);
   await page.locator('[data-product-id="typenote"]').click();
@@ -400,10 +453,8 @@ try {
     2,
   );
   await page.locator("footer").getByRole("link", { name: "ajigu", exact: true }).click();
-  await page.waitForURL(preview.origins.ajigu + "/");
-  await page.goto(preview.origins.ajigu + "/nameplate/about/", {
-    waitUntil: "networkidle",
-  });
+  await page.waitForURL(preview.origins.ajigu + "/ja/");
+  await page.goto(preview.origins.ajigu + "/nameplate/about/", { waitUntil: "networkidle" });
   await page.locator("[data-name-input]").fill("<script>A & B</script>");
   assert.equal(await page.locator("[data-name-output]").textContent(), "<script>A & B</script>");
   assert.equal(await page.locator("[data-name-output] script").count(), 0);
@@ -412,9 +463,7 @@ try {
   for (const route of ["/nameplate/", "/nameplate/zh-hans/"]) {
     for (const width of [1440, 390]) {
       await page.setViewportSize({ width, height: 900 });
-      await page.goto(preview.origins.ajigu + route, {
-        waitUntil: "networkidle",
-      });
+      await page.goto(preview.origins.ajigu + route, { waitUntil: "networkidle" });
       assert.equal(await page.locator("#cardCanvas").getAttribute("width"), "2362");
       assert.ok(await page.locator("#downloadButton").isVisible());
       matrix.push({ site: "ajigu", route, width, editor: "passed" });
@@ -436,9 +485,7 @@ try {
   ]) {
     for (const width of [1440, 390]) {
       await page.setViewportSize({ width, height: 900 });
-      await page.goto(preview.origins.typenote + route, {
-        waitUntil: "networkidle",
-      });
+      await page.goto(preview.origins.typenote + route, { waitUntil: "networkidle" });
       assert.equal(await page.locator("h1").count(), 1);
       assert.equal(
         await page.locator('link[rel="canonical"]').getAttribute("href"),
@@ -455,13 +502,12 @@ try {
     ["?lang=__proto__", "constructor", "en"],
     ["", "zht", "zh-Hant"],
   ]) {
-    await page.goto(preview.origins.typenote + "/?lang=en", {
-      waitUntil: "networkidle",
-    });
-    await page.evaluate((saved) => localStorage.setItem("tn-lang", saved), saved);
-    await page.goto(preview.origins.typenote + "/" + search, {
-      waitUntil: "networkidle",
-    });
+    await page.goto(preview.origins.typenote + "/?lang=en", { waitUntil: "networkidle" });
+    await page.evaluate((saved) => {
+      localStorage.removeItem("ajigu-language");
+      localStorage.setItem("tn-lang", saved);
+    }, saved);
+    await page.goto(preview.origins.typenote + "/" + search, { waitUntil: "networkidle" });
     await page.waitForFunction((expected) => document.documentElement.lang === expected, expected);
   }
   await context.close();
@@ -475,9 +521,7 @@ try {
       },
     });
   });
-  await blockedPage.goto(preview.origins.typenote + "/?lang=zh", {
-    waitUntil: "networkidle",
-  });
+  await blockedPage.goto(preview.origins.typenote + "/?lang=zh", { waitUntil: "networkidle" });
   await blockedPage.waitForFunction(() => document.documentElement.lang === "zh-Hans");
   await blockedPage.locator(".language-switcher").click();
   await blockedPage.locator('[data-lang="ko"]').click();
@@ -486,9 +530,7 @@ try {
   for (const site of ["ajigu", ...Object.keys(legacySites)]) {
     const reduced = await browser.newContext({ reducedMotion: "reduce" });
     const target = await reduced.newPage();
-    await target.goto(preview.origins[site] + "/", {
-      waitUntil: "networkidle",
-    });
+    await target.goto(preview.origins[site] + "/", { waitUntil: "networkidle" });
     assert.ok(await target.locator("h1").isVisible());
     assert.equal(
       await target.evaluate(
@@ -512,9 +554,7 @@ try {
     viewport: { width: 390, height: 844 },
   });
   const touchPage = await touch.newPage();
-  await touchPage.goto(preview.origins.typenote + "/?lang=en", {
-    waitUntil: "networkidle",
-  });
+  await touchPage.goto(preview.origins.typenote + "/?lang=en", { waitUntil: "networkidle" });
   await touchPage.locator('[data-note="3"]').tap();
   assert.equal(await touchPage.locator("[data-note-output]").textContent(), "Note 3");
   await touch.close();

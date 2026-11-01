@@ -1,0 +1,7 @@
+{
+  "packages/site-kit/src/components/SiteHeader.tsx": "aa7b47d279abc65e0283392520adeb52a28e0790900b2c94d8876d05075826c1",
+  "packages/ui/src/styles/site.css": "0952aefa1d7032bff9ea303683af35dd8201da417f4b1bdec095b023b83d0215",
+  "tests/header.mjs": "c24980fd1b848bc2128da7ac2b74140307b78802419734df8a05ebf953f10e80",
+  "package.json": "42d9a426228f8394b6b7aa8f80695087488096abc6f3ea2983ce1c3fe3e2b4a6",
+  ".github/workflows/build-websites.yml": "a2e81b64ed4bb8405d7b604b71a6440afbe6b2f43d814331580c654250482339"
+}

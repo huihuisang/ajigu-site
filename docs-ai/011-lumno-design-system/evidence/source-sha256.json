@@ -1,0 +1,23 @@
+{
+  "packages/ui/src/styles/tokens.css": "02ead9f4784f388e78ff2ce68456a483f7347a8101ad082c73a78e2bdf3b66f1",
+  "packages/ui/src/styles/site.css": "f9020ca7d292304b73bfd1d06832c8fdb584714ca6f672f595fdfb79c9689374",
+  "packages/ui/src/styles/global.css": "d8242e5df8eafc24a2b6f5748465c6b6ee4ead27838be07cc7e416843d55ad7c",
+  "packages/site-kit/src/components/DisplayTitle.tsx": "3ac06a8bf84264e77d2fbe40a3fb880e6338ca9f59e5142ad2541e73ccee4773",
+  "packages/site-kit/src/components/GalleryCard.tsx": "321ad46a78d077336b8f5c5bc3fc6cd64dc3d4ced9d85115d94c89aac2479425",
+  "packages/site-kit/src/components/ProductHero.tsx": "9e937d831260871114c5bfae86b67d99c7ac3a6728afb0bee222112f65004f58",
+  "apps/ajigu/src/styles/gallery.css": "ceb00e535e8cd1237c88c053a7d26bf6f1b7e986313a4ce462031708d02d0b57",
+  "apps/ajigu/src/components/HomePage.astro": "0d78489b846b3b62b386ea038adab38607e84a052831a2df2b34b9f32bb7760a",
+  "package.json": "e3e44619a38da8573a2cb21d5d3ea0d67dfaa957871755335222e04a30d74d0e",
+  "pnpm-lock.yaml": "8f00fd27f38e31c2ed2f5f3b5f4cbe31681afddcf9b673b8f997ee4a7ced3d21",
+  "packages/ui/package.json": "71b4fa8e3f07a1c02d24f4c92d7e7529a7a27efd459b36ddfcbb341c88afe55e",
+  ".github/workflows/build-websites.yml": "9fe04c13a1b1208287999b37fa255d5cb036d7636ff504b932f12e2a904f94c2",
+  "tests/browser.mjs": "0ce814f628ad7c21e526a8d99b5c65c666ffb18e3618b83ca6f738ea95a8143b",
+  "tests/detail-layout.mjs": "282fe4fa9ec03a39cf3a7f0ef694ad76ffe5ee376aa1b5673f5d6fda5eb71195",
+  "tests/design.mjs": "cc723acbfece2827c9c5e9894b275c720516678f45d2420e01b0999074efcec6",
+  "tests/visual-system.mjs": "af2786194e88ad433c010a7a0ed77576297ffe195ac56ecd30fcbd934f5d41d5",
+  "README.md": "805a8791649bc2ffa1566edb8906711785a004f5311707829ba6822a36284f92",
+  "design-qa.md": "7b1fc2a7d3522aa77d19bd503707fada847fd3c52237579c325981cc02af79c3",
+  "packages/ui/licenses/OpenSans-OFL.txt": "9e7f12fafee50a9b4f7b3004c0fa58990805620d9debb0daf7f75de0d3ad5548",
+  "packages/ui/licenses/EBGaramond-OFL.txt": "f03c8eda63076cd52317dcd40aa04db8472d4cb592dfaafa385129dfdafc7f9c",
+  "packages/ui/licenses/CormorantGaramond-OFL.txt": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73"
+}

@@ -1,0 +1,55 @@
+$ node scripts/workspace.mjs build
+$ astro build
+12:41:49 [types] Generated 24ms
+12:41:49 [build] output: "static"
+12:41:49 [build] mode: "static"
+12:41:49 [build] directory: /Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/ajigu-site/node_modules/.cache/studio-build/ajigu/
+12:41:49 [build] Collecting build info...
+12:41:49 [build] ✓ Completed in 36ms.
+12:41:49 [build] Building static entrypoints...
+12:41:49 [vite] ✓ built in 349ms
+12:41:49 [vite] ✓ built in 204ms
+12:41:49 [build] Rearranging server assets...
+
+ generating static routes 
+12:41:49   ├─ /index.html (+13ms) 
+12:41:49   ├─ /zh-hans/index.html (+2ms) 
+12:41:49   ├─ /zh-hant/index.html (+2ms) 
+12:41:49   ├─ /ja/index.html (+1ms) 
+12:41:49   ├─ /ko/index.html (+2ms) 
+12:41:49   ├─ /nameplate/about/index.html (+2ms) 
+12:41:49   ├─ /nameplate/about/zh-hans/index.html (+1ms) 
+12:41:49   ├─ /typenote/index.html (+2ms) 
+12:41:49   ├─ /moodsk/index.html (+4ms) 
+12:41:49   ├─ /moodsk/zh-hans/index.html (+5ms) 
+12:41:49   ├─ /moodsk/ja/index.html (+3ms) 
+12:41:49   ├─ /moodsk/ko/index.html (+3ms) 
+12:41:49   ├─ /gosleep/index.html (+32ms) 
+12:41:49   ├─ /gosleep/en-gb/index.html (+2ms) 
+12:41:49   ├─ /gosleep/zh-hans/index.html (+1ms) 
+12:41:49   ├─ /gosleep/zh-hant/index.html (+1ms) 
+12:41:49   ├─ /gosleep/ja/index.html (+1ms) 
+12:41:49   ├─ /gosleep/ko/index.html (+1ms) 
+12:41:49   ├─ /gosleep/de/index.html (+1ms) 
+12:41:49   ├─ /gosleep/fr/index.html (+1ms) 
+12:41:49   ├─ /dailyapod/index.html (+1ms) 
+12:41:49   ├─ /dailyapod/zh-hans/index.html (+1ms) 
+12:41:49   ├─ /dailyapod/zh-hant/index.html (+1ms) 
+12:41:49   ├─ /dailyapod/ja/index.html (+1ms) 
+12:41:49   ├─ /dailyapod/ko/index.html (+1ms) 
+12:41:49   ├─ /tutu/index.html (+2ms) 
+12:41:49   ├─ /tutu/zh-hans/index.html (+1ms) 
+12:41:49   ├─ /tutu/zh-hant/index.html (+1ms) 
+12:41:49   ├─ /tutu/ja/index.html (+1ms) 
+12:41:49   ├─ /tutu/ko/index.html (+1ms) 
+12:41:49   ├─ /loglift/index.html (+1ms) 
+12:41:49   ├─ /loglift/zh-hans/index.html (+1ms) 
+12:41:49   ├─ /loglift/zh-hant/index.html (+1ms) 
+12:41:49   ├─ /loglift/ja/index.html (+1ms) 
+12:41:49   ├─ /loglift/ko/index.html (+1ms) 
+12:41:49 ✓ Completed in 116ms.
+
+12:41:49 [build] ✓ Completed in 686ms.
+12:41:49 [build] 35 page(s) built in 761ms
+12:41:49 [build] Complete!
+Collected ajigu: /Users/ajigu/.local/share/task-artifacts/work/67211a1c3b1b45808291a68094bf9515/dist/ajigu

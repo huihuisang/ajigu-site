@@ -1,0 +1,30 @@
+{
+  "brand": "ajigu",
+  "status": "User-designated official mascot",
+  "date": "2026-11-02",
+  "generation": "Built-in image generation",
+  "reference": "reference.png",
+  "files": [
+    {
+      "file": "reference.png",
+      "width": 921,
+      "height": 1041,
+      "bytes": 1680134,
+      "sha256": "1422744b09632149939597bc87a5e1f2d01af92c30c3d522027f2128377a4a3a"
+    },
+    {
+      "file": "mascot-three-view.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1922270,
+      "sha256": "ee6f4701797ee50e4d7fb039f21967188157180ed65ba8b5d417fa083748c33a"
+    },
+    {
+      "file": "mascot-promo-banner.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1534689,
+      "sha256": "e475873ba54e418081e66e2f8d989b3a3b96d4b18dd50774619cfef06dc80c49"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Studio Redesign
 
+- Visual update: the user authorized a Lumno-inspired redesign on 2026-11-02. Current visual authority is docs-ai/011-lumno-design-system/000-plan.md; see memory/lumno-redesign.md. Older Gallery White geometry and surface rules below are historical where they conflict. Product behavior, source assets and routing constraints still apply.
+
 - The user selected option 1, Gallery White. Current design authority: docs-ai/005-shadcn-redesign/000-plan.md; requirements: 001-layout-motion.md; implementation and evidence: 003-action.md. Older Bauhaus/Pop Art records describe superseded marketing layouts.
 - All six marketing sites live in apps/ and share packages/ui and packages/site-kit. Keep domains, routes, locale links, download targets, native Nameplate editors, guides and frozen public resources stable.
 - Use official shadcn Radix new-york components with shared neutral tokens. Page code composes layout and product behavior. Do not restore bespoke buttons, menus or FAQ controls.
@@ -10,6 +12,7 @@
 - TypeNote query localization requires JavaScript; no-JS English is an existing static-host boundary. Its controlled language menu must close explicitly before changing language because preventDefault bypasses Radix automatic selection close.
 - Reduced motion disables CSS animation/transition and Moodsk playback. Background visibility is tested through event simulation; real background-tab suspension was not observed in the local browser host. Keep audio off until explicit opt-in.
 - Moodsk advances from the welcome scene after its 12-second timeline through the existing artwork handoff. Continue through the remaining scenes and hold the final scene. The active engine is apps/ajigu/src/products/moodsk/showcase/motion.js; keep frozen public modules unchanged.
+- Keep Moodsk's main area at 560px on desktop and 600px at widths of 900px or less. The chapter index and playback controls form the final footer row. Fit each scene to the available stage width and height; do not enlarge the frame to the tallest artwork or reserve blank rows. The cursor effect selector sits below the description, inside the fixed main area. Cursor colour selection was removed from the app and must not appear in the preview. Reserve both next-button labels to prevent footer wrapping changes. Regression coverage is in tests/moodsk-layout.mjs and the shared detail-layout checks.
 - Mockup source/licensing remains in design/mockups and THIRD_PARTY_NOTICES.md. Re-export complete images with scripts/render-mockups.py when native screenshots change.
 
 - Light polish with unslop is recorded in docs-ai/005-shadcn-redesign/004-unslop-plan.md and 005-unslop-action.md; evidence-unslop is the current comparison baseline. Keep 224px-minimum content-growing cards, 13px descriptions, 12px metadata and #efefef media canvas. Use explicit entrance markers and explicit transition properties.

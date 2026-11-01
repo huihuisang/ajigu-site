@@ -30,7 +30,15 @@
       "Speech-like sounds are grouped separately for review.",
       "Keep a useful view of the sounds across your night."
     ],
-    "views": ["Sky view", "Solar System", "App overview"],
+    "views": [
+      "APOD home",
+      "Discover",
+      "Search",
+      "Favorites",
+      "Sky view",
+      "Solar System",
+      "App overview"
+    ],
     "compare": "Explore the recorded views",
     "original": "Original view",
     "result": "Result view",
@@ -54,7 +62,18 @@
       "tutu": "Compare the photo edit",
       "nameplate": "Preview your nameplate"
     },
-    "signatureLabel": "Say hello to ajigu"
+    "signatureLabel": "Say hello to ajigu",
+    "gallery": {
+      "firstRelease": "First release",
+      "releaseUnknown": "Date unconfirmed",
+      "pricing": {
+        "free": "Free",
+        "freemium": "Free · In-app purchases",
+        "preview": "Free preview",
+        "paidExport": "Free to try · Paid export"
+      },
+      "releaseEstimate": "Estimated from deployment history"
+    }
   },
   "zh-Hans": {
     "skip": "跳到正文",
@@ -87,7 +106,7 @@
       "把类似说话的声音单独整理，方便回顾。",
       "从一晚的声音记录里，找到值得留意的线索。"
     ],
-    "views": ["星空视图", "太阳系", "应用概览"],
+    "views": ["APOD 首页", "发现", "搜索", "收藏", "星空视图", "太阳系", "应用概览"],
     "compare": "查看真实操作画面",
     "original": "原始画面",
     "result": "操作结果",
@@ -111,7 +130,18 @@
       "tutu": "对比修图前后",
       "nameplate": "预览你的桌牌"
     },
-    "signatureLabel": "和啊叽咕打个招呼"
+    "signatureLabel": "和啊叽咕打个招呼",
+    "gallery": {
+      "firstRelease": "首次上线",
+      "releaseUnknown": "日期待确认",
+      "pricing": {
+        "free": "免费",
+        "freemium": "免费下载 · 含内购",
+        "preview": "免费预览版",
+        "paidExport": "免费试用 · 导出付费"
+      },
+      "releaseEstimate": "根据部署历史推测"
+    }
   },
   "zh-Hant": {
     "skip": "跳到正文",
@@ -144,7 +174,7 @@
       "把類似說話的聲音單獨整理，方便回顧。",
       "從一晚的聲音紀錄裡，找到值得留意的線索。"
     ],
-    "views": ["星空視圖", "太陽系", "應用概覽"],
+    "views": ["APOD 首頁", "探索", "搜尋", "收藏", "星空視圖", "太陽系", "應用概覽"],
     "compare": "查看真實操作畫面",
     "original": "原始畫面",
     "result": "操作結果",
@@ -168,7 +198,18 @@
       "tutu": "對比修圖前後",
       "nameplate": "預覽你的桌牌"
     },
-    "signatureLabel": "和啊嘰咕打個招呼"
+    "signatureLabel": "和啊嘰咕打個招呼",
+    "gallery": {
+      "firstRelease": "首次上線",
+      "releaseUnknown": "日期待確認",
+      "pricing": {
+        "free": "免費",
+        "freemium": "免費下載 · 含內購",
+        "preview": "免費預覽版",
+        "paidExport": "免費試用 · 匯出付費"
+      },
+      "releaseEstimate": "根據部署歷史推測"
+    }
   },
   "ja": {
     "skip": "本文へ移動",
@@ -201,7 +242,7 @@
       "話し声に似た音を分けて確認できます。",
       "一晩の音から、気になる傾向を見つけます。"
     ],
-    "views": ["星空ビュー", "太陽系", "アプリの概要"],
+    "views": ["APOD ホーム", "発見", "検索", "お気に入り", "星空ビュー", "太陽系", "アプリの概要"],
     "compare": "実際の操作画面を見る",
     "original": "元の画面",
     "result": "操作後の画面",
@@ -225,7 +266,18 @@
       "tutu": "写真の編集前後を比較",
       "nameplate": "ネームプレートをプレビュー"
     },
-    "signatureLabel": "ajigu にあいさつ"
+    "signatureLabel": "ajigu にあいさつ",
+    "gallery": {
+      "firstRelease": "初回リリース",
+      "releaseUnknown": "日付未確認",
+      "pricing": {
+        "free": "無料",
+        "freemium": "無料 · アプリ内課金あり",
+        "preview": "無料プレビュー版",
+        "paidExport": "無料で試用 · 保存は有料"
+      },
+      "releaseEstimate": "デプロイ履歴からの推定"
+    }
   },
   "ko": {
     "skip": "본문으로 이동",
@@ -258,7 +310,7 @@
       "말소리와 비슷한 소리를 따로 확인하세요.",
       "밤사이 소리의 흐름을 살펴보세요."
     ],
-    "views": ["별자리 보기", "태양계", "앱 둘러보기"],
+    "views": ["APOD 홈", "발견", "검색", "즐겨찾기", "별자리 보기", "태양계", "앱 둘러보기"],
     "compare": "실제 조작 화면 보기",
     "original": "원래 화면",
     "result": "조작 결과",
@@ -282,7 +334,18 @@
       "tutu": "사진 편집 전후 비교",
       "nameplate": "이름표 미리 보기"
     },
-    "signatureLabel": "ajigu에게 인사하기"
+    "signatureLabel": "ajigu에게 인사하기",
+    "gallery": {
+      "firstRelease": "최초 출시",
+      "releaseUnknown": "날짜 확인 중",
+      "pricing": {
+        "free": "무료",
+        "freemium": "무료 · 앱 내 구입",
+        "preview": "무료 프리뷰",
+        "paidExport": "무료 체험 · 저장은 유료"
+      },
+      "releaseEstimate": "배포 기록을 바탕으로 추정"
+    }
   },
   "de": {
     "skip": "Zum Inhalt",
@@ -315,7 +378,15 @@
       "Sprachähnliche Geräusche werden getrennt gruppiert.",
       "Geräusche über die Nacht hinweg besser überblicken."
     ],
-    "views": ["Sternenhimmel", "Sonnensystem", "App-Übersicht"],
+    "views": [
+      "APOD-Startseite",
+      "Entdecken",
+      "Suche",
+      "Favoriten",
+      "Sternenhimmel",
+      "Sonnensystem",
+      "App-Übersicht"
+    ],
     "compare": "Aufgezeichnete Ansichten ansehen",
     "original": "Originalansicht",
     "result": "Ergebnisansicht",
@@ -339,7 +410,18 @@
       "tutu": "Fotobearbeitung vergleichen",
       "nameplate": "Namensschild ansehen"
     },
-    "signatureLabel": "ajigu begrüßen"
+    "signatureLabel": "ajigu begrüßen",
+    "gallery": {
+      "firstRelease": "Erstveröffentlichung",
+      "releaseUnknown": "Datum unbestätigt",
+      "pricing": {
+        "free": "Kostenlos",
+        "freemium": "Kostenlos · In-App-Käufe",
+        "preview": "Kostenlose Vorschau",
+        "paidExport": "Kostenlos testen · Export kostenpflichtig"
+      },
+      "releaseEstimate": "Aus dem Bereitstellungsverlauf geschätzt"
+    }
   },
   "fr": {
     "skip": "Aller au contenu",
@@ -372,7 +454,15 @@
       "Les sons proches de la parole sont regroupés à part.",
       "Un aperçu utile des sons de la nuit."
     ],
-    "views": ["Vue du ciel", "Système solaire", "Aperçu de l’application"],
+    "views": [
+      "Accueil APOD",
+      "Découvrir",
+      "Recherche",
+      "Favoris",
+      "Vue du ciel",
+      "Système solaire",
+      "Aperçu de l’application"
+    ],
     "compare": "Voir les écrans enregistrés",
     "original": "Vue originale",
     "result": "Résultat",
@@ -396,6 +486,17 @@
       "tutu": "Comparer la retouche photo",
       "nameplate": "Aperçu de votre chevalet"
     },
-    "signatureLabel": "Dire bonjour à ajigu"
+    "signatureLabel": "Dire bonjour à ajigu",
+    "gallery": {
+      "firstRelease": "Première sortie",
+      "releaseUnknown": "Date à confirmer",
+      "pricing": {
+        "free": "Gratuit",
+        "freemium": "Gratuit · Achats intégrés",
+        "preview": "Aperçu gratuit",
+        "paidExport": "Essai gratuit · Export payant"
+      },
+      "releaseEstimate": "Estimation basée sur les déploiements"
+    }
   }
 }

@@ -2,19 +2,18 @@ export const languages = ["en", "zh", "zht", "ja", "ko"] as const;
 export type TypeLanguage = (typeof languages)[number];
 
 export function normalizeLanguage(value: string | null): TypeLanguage | null {
-  const normalized = value?.toLowerCase();
-  const alias: Record<string, TypeLanguage> = {
-    "zh-hans": "zh",
-    "zh-cn": "zh",
-    "zh-hant": "zht",
-    "zh-tw": "zht",
-  };
-  if (normalized && Object.hasOwn(alias, normalized)) return alias[normalized];
-  return languages.includes(normalized as TypeLanguage) ? (normalized as TypeLanguage) : null;
+  return matchLanguage(value ? [value] : [], languages) as TypeLanguage | null;
 }
-export function resolveLanguage(search: string, saved: string | null): TypeLanguage {
+export function resolveLanguage(
+  search: string,
+  saved: string | null,
+  preferred: readonly string[] = [],
+): TypeLanguage {
   return (
-    normalizeLanguage(new URLSearchParams(search).get("lang")) || normalizeLanguage(saved) || "en"
+    normalizeLanguage(new URLSearchParams(search).get("lang")) ||
+    (matchLanguage([saved || ""], languages) as TypeLanguage | null) ||
+    (matchLanguage(preferred, languages) as TypeLanguage | null) ||
+    "en"
   );
 }
 export function htmlLocale(language: TypeLanguage): string {
@@ -32,3 +31,4 @@ export function languageURL(url: string, language: TypeLanguage): string {
   next.searchParams.set("lang", language);
   return next.href;
 }
+import { matchLanguage } from "@ajigu/site-kit/scripts/language";

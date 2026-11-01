@@ -1,0 +1,58 @@
+[
+  {
+    "name": "types",
+    "command": [
+      "pnpm",
+      "check"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "unit",
+    "command": [
+      "pnpm",
+      "test"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "build",
+    "command": [
+      "pnpm",
+      "build"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "build-contract",
+    "command": [
+      "node",
+      "scripts/check-build.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "locale",
+    "command": [
+      "node",
+      "tests/locale-routing.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "header",
+    "command": [
+      "node",
+      "tests/header.mjs"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "browser",
+    "command": [
+      "node",
+      "tests/browser.mjs"
+    ],
+    "exitCode": 0
+  }
+]

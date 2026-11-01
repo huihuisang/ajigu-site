@@ -19,7 +19,7 @@
         },
         {
           "href": "#gallery",
-          "label": "See it in action \u2193",
+          "label": "See it in action ↓",
           "external": false
         }
       ]
@@ -30,12 +30,12 @@
       "actions": [
         {
           "href": "https://apps.apple.com/cn/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9B%BE%E5%83%8F/id1573247808",
-          "label": "App Store \u4e0b\u8f7d",
+          "label": "App Store 下载",
           "external": false
         },
         {
           "href": "#gallery",
-          "label": "\u770b\u770b\u6548\u679c \u2193",
+          "label": "看看效果 ↓",
           "external": false
         }
       ]
@@ -46,12 +46,12 @@
       "actions": [
         {
           "href": "https://apps.apple.com/tw/app/dailyapod-%E6%AF%8F%E6%97%A5%E5%A4%A9%E6%96%87%E5%9C%96%E5%83%8F/id1573247808",
-          "label": "App Store \u4e0b\u8f09",
+          "label": "App Store 下載",
           "external": false
         },
         {
           "href": "#gallery",
-          "label": "\u770b\u770b\u6548\u679c \u2193",
+          "label": "看看效果 ↓",
           "external": false
         }
       ]
@@ -62,12 +62,12 @@
       "actions": [
         {
           "href": "https://apps.apple.com/jp/app/dailyapod-%E4%BB%8A%E6%97%A5%E3%81%AE%E5%AE%87%E5%AE%99/id1573247808",
-          "label": "App Store \u3067\u5165\u624b",
+          "label": "App Store で入手",
           "external": false
         },
         {
           "href": "#gallery",
-          "label": "\u753b\u9762\u3092\u898b\u308b \u2193",
+          "label": "画面を見る ↓",
           "external": false
         }
       ]
@@ -78,12 +78,12 @@
       "actions": [
         {
           "href": "https://apps.apple.com/kr/app/dailyapod-%EC%98%A4%EB%8A%98%EC%9D%98-%EC%9A%B0%EC%A3%BC/id1573247808",
-          "label": "App Store\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc",
+          "label": "App Store에서 다운로드",
           "external": false
         },
         {
           "href": "#gallery",
-          "label": "\ud654\uba74 \ubcf4\uae30 \u2193",
+          "label": "화면 보기 ↓",
           "external": false
         }
       ]
@@ -93,7 +93,7 @@
     "006457a8747962bd1d5a650d6b9a5365.txt": "6a87e643fe97d21bc41409193907568cb2856c231e6beb791e251b3f81dd11e0",
     "404.html": "85a347df64d398f7c566a6352b7a9ad2d101b5051e8727ae4ff95714e9a9052b",
     "CNAME": "1169c0097ae0ad4fd5ff40b78d5cad3f236ddd76d73aebed0394ac5a817451ac",
-    "assets/ajigu-logo.png": "832774fad6e0a33c77fd7f693d19abc8ba0680ec6f8c31060e36873e2c1221e2",
+    "assets/ajigu-logo.png": "ce5eadb6f5a41f24c93400c052442943806ab9dde08297da16e7c6cbd8d1cc27",
     "assets/app-icon.png": "c5dea1f1d56dd3a23beaad966939cc113ff3914ff1ebbc7aca8310b84c7dea55",
     "assets/img/shot1.jpg": "14c0c8a5096631f97d33fbe8171d38dff98aaafdbbff143b24310f6661317113",
     "assets/img/shot2.jpg": "98227dacbe7e725e31bd10a397b9deaf1d4fbdb6ecd8abd0cfd88f66a7c2767c",

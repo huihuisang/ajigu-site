@@ -9,7 +9,7 @@ const json = async (file) => JSON.parse(await readFile(new URL(file, root), "utf
 const expected = { moodsk: [4, 8771], tutu: [5, 8772], gosleep: [8, 8773], dailyapod: [5, 8774] };
 
 for (const [name, [count, port]] of Object.entries(expected)) {
-  test(`${name} retains its original domains, language routes, downloads and public files`, async () => {
+  test(`${name} retains its domain, language routes, recorded actions and public files`, async () => {
     const contract = await json(`apps/ajigu/src/products/${name}/compatibility.json`);
     const pages = await json(`apps/ajigu/src/products/${name}/content/pages.json`);
     assert.equal(legacySites[name].domain, contract.domain);

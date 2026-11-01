@@ -10,7 +10,6 @@ interface State {
   current: number;
   playing: boolean;
   effect: number;
-  color: number;
   active: boolean;
 }
 export default function Onboarding({ locale }: { locale: string }) {
@@ -26,7 +25,6 @@ export default function Onboarding({ locale }: { locale: string }) {
     current: 0,
     playing: false,
     effect: 0,
-    color: 0,
     active: false,
   });
   const [ready, setReady] = useState(false);
@@ -77,6 +75,27 @@ export default function Onboarding({ locale }: { locale: string }) {
             <div id="eyebrow" />
             <h2 id="title" />
             <p id="detail" />
+            {state.current === 3 && (
+              <div className="cursor-controls">
+                <ToggleGroup
+                  type="single"
+                  variant="outline"
+                  value={String(state.effect)}
+                  onValueChange={(value) => {
+                    if (value) engine.current?.effect(Number(value));
+                  }}
+                  spacing={2}
+                  className="flex-wrap max-w-full"
+                  aria-label={text("Bubbles, koi and stardust preview")}
+                >
+                  {["Bubbles", "Koi", "Stardust"].map((name, index) => (
+                    <ToggleGroupItem key={name} value={String(index)} data-effect={index}>
+                      {text(name)}
+                    </ToggleGroupItem>
+                  ))}
+                </ToggleGroup>
+              </div>
+            )}
           </div>
           <div id="stage" aria-label={text("Desktop preview")} />
         </div>
@@ -139,54 +158,14 @@ export default function Onboarding({ locale }: { locale: string }) {
               disabled={!ready}
               onClick={() => engine.current?.next()}
             >
-              {text(state.current === 5 ? "Get Moodsk" : "Continue")}
+              <span className="next-label">
+                <span aria-hidden={state.current === 5}>{text("Continue")}</span>
+                <span aria-hidden={state.current !== 5}>{text("Get Moodsk")}</span>
+              </span>
               <ArrowRight data-icon="inline-end" />
             </Button>
           </div>
         </div>
-        {state.current === 3 && (
-          <div className="cursor-controls">
-            <ToggleGroup
-              type="single"
-              variant="outline"
-              value={String(state.effect)}
-              onValueChange={(value) => {
-                if (value) engine.current?.effect(Number(value));
-              }}
-              spacing={2}
-              className="flex-wrap max-w-full"
-              aria-label={text("Bubbles, koi and stardust preview")}
-            >
-              {["Bubbles", "Koi", "Stardust"].map((name, i) => (
-                <ToggleGroupItem key={name} value={String(i)} data-effect={i}>
-                  {text(name)}
-                </ToggleGroupItem>
-              ))}
-            </ToggleGroup>
-            <ToggleGroup
-              type="single"
-              variant="outline"
-              value={String(state.color)}
-              onValueChange={(value) => {
-                if (value) engine.current?.color(Number(value));
-              }}
-              spacing={2}
-              className="flex-wrap max-w-full"
-              aria-label={text("Cursor colours")}
-            >
-              {["Gold", "Peach", "Green", "Purple", "Blue"].map((name, i) => (
-                <ToggleGroupItem
-                  key={name}
-                  value={String(i)}
-                  data-color={i}
-                  aria-label={text(name)}
-                >
-                  {text(name)}
-                </ToggleGroupItem>
-              ))}
-            </ToggleGroup>
-          </div>
-        )}
       </div>
     </div>
   );

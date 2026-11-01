@@ -1,0 +1,5 @@
+Before the content update:
+Go Sleep: primary link was #features, not an App Store URL.
+TUTU: primary link used testflight.apple.com.
+TUTU FAQ: advertised the free TestFlight beta and future launch.
+node --test tests/store-downloads.test.mjs: 3 failed.

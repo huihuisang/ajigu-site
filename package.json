@@ -18,6 +18,10 @@
     "format:check": "prettier --check \"apps/*/src/**/*.{astro,ts,tsx,js,json,css}\" \"apps/*/*.{json,mjs}\" \"packages/**/*.{astro,ts,tsx,json,mjs,mts,css}\" \"scripts/{workspace,preview-workspace,check-build,site-output,legacy-redirect-rules,check-edge-redirects}.mjs\" \"tests/*.mjs\" \"*.json\" .prettierrc.json pnpm-workspace.yaml .github/workflows/*.yml",
     "test:design": "node tests/design.mjs",
     "test:layout": "node tests/detail-layout.mjs",
+    "test:visual": "node tests/visual-system.mjs",
+    "test:header": "node tests/header.mjs",
+    "test:locale": "node tests/locale-routing.mjs",
+    "test:store": "node tests/store-downloads.mjs",
     "test:redirects": "node tests/redirects.mjs"
   },
   "devDependencies": {

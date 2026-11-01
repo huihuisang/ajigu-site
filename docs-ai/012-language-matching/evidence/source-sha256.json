@@ -1,0 +1,16 @@
+{
+  "packages/site-kit/src/scripts/language.ts": "7d3663116136b830e2dc7f56178e8be1a58d13f56c0eac0202d26a5c1e2dd438",
+  "packages/site-kit/src/layouts/SiteLayout.astro": "630f90a7d6d8d8a83198d15597660eda18483575e2b93840eec5f5e8d45dcf08",
+  "packages/site-kit/src/layouts/ProductLanding.astro": "d52984d15ba4bb7dc65914c8d62916a643e0100b3edc96dc97986a7179d97eaf",
+  "packages/site-kit/src/components/SiteHeader.tsx": "c591fd0d1da125c6a4c38ba1ce5b7764a27689dcd811b4d73f6b751613fae5c2",
+  "apps/ajigu/src/components/HomePage.astro": "2fdd617c57e92510bf1e80c816c77258495e3225c8128d7961b831ba5d8fa53c",
+  "apps/ajigu/src/components/NameplatePage.astro": "d9698908203fb5e44fbc1447c55bf6e767e2e121dfdf24d82f53ac8746aee6c2",
+  "apps/ajigu/src/products/typenote/lib/language.ts": "8f4b26238ad9f6366bb36968ce861edeb83f3c0e2c74523e88a1790df70ea7cb",
+  "apps/ajigu/src/products/typenote/components/TypeNotePage.tsx": "42f170b957db9808245d0c840f4c741a928b2dbe800910f1a01586bc8e02300b",
+  "tests/header.mjs": "bb371feace6fae74c0acbfbd7371dcfe18371a4bffcc44e73a359ef5f4178aed",
+  "tests/browser.mjs": "f8c00e6e20b6819a65b45dc493c7fe99f84eabd6413f4b55a1a810a92f1e0297",
+  "tests/language-matching.test.mjs": "a80c6928f685ebe25e9c942f0c21496202ac1e79dd8cb5ab0ffc19e302047d8e",
+  "tests/locale-routing.mjs": "e7a3f0bc2445fecf3783e7a8d71a2921fd625387219714e3d234a107eada087a",
+  "package.json": "3b4f38a48b08fd6d1bae4432e0fcc2c799983cb26a2b8451fc3ef7fb9e37d955",
+  ".github/workflows/build-websites.yml": "9d9480e5afe207d6b27f163fa0674b8d401e3fa14cec667c053e1fd60c241be5"
+}

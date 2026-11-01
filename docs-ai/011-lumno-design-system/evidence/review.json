@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "type": "independent static review",
+  "baseline": "task-artifacts/7cdbeaf5f5ec417e914e6bf0aafc99e8/baseline",
+  "fixedFindings": [
+    "Preserve sentence separators and technical names.",
+    "Allow responsive navigation overrides.",
+    "Keep native playing states above the button theme."
+  ],
+  "remainingFindings": [],
+  "reviewedRuntime": {
+    "packages/ui/src/styles/tokens.css": "02ead9f4784f388e78ff2ce68456a483f7347a8101ad082c73a78e2bdf3b66f1",
+    "packages/ui/src/styles/site.css": "f9020ca7d292304b73bfd1d06832c8fdb584714ca6f672f595fdfb79c9689374",
+    "packages/ui/src/styles/global.css": "d8242e5df8eafc24a2b6f5748465c6b6ee4ead27838be07cc7e416843d55ad7c",
+    "packages/site-kit/src/components/DisplayTitle.tsx": "3ac06a8bf84264e77d2fbe40a3fb880e6338ca9f59e5142ad2541e73ccee4773",
+    "packages/site-kit/src/components/GalleryCard.tsx": "321ad46a78d077336b8f5c5bc3fc6cd64dc3d4ced9d85115d94c89aac2479425",
+    "packages/site-kit/src/components/ProductHero.tsx": "9e937d831260871114c5bfae86b67d99c7ac3a6728afb0bee222112f65004f58",
+    "apps/ajigu/src/styles/gallery.css": "ceb00e535e8cd1237c88c053a7d26bf6f1b7e986313a4ce462031708d02d0b57",
+    "apps/ajigu/src/components/HomePage.astro": "0d78489b846b3b62b386ea038adab38607e84a052831a2df2b34b9f32bb7760a"
+  },
+  "dynamicValidation": "Recorded separately in verification and browser evidence."
+}

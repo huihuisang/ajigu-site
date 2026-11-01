@@ -1,0 +1,135 @@
+[
+  {
+    "product": "typenote",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      90,
+      171,
+      1510,
+      1028
+    ],
+    "sourceScreensUnchanged": true
+  },
+  {
+    "product": "moodsk",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      90,
+      171,
+      1510,
+      1028
+    ],
+    "sourceScreensUnchanged": true
+  },
+  {
+    "product": "gosleep",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      87,
+      137,
+      1512,
+      1063
+    ],
+    "sourceScreensUnchanged": true
+  },
+  {
+    "product": "dailyapod",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      87,
+      137,
+      1512,
+      1063
+    ],
+    "sourceScreensUnchanged": true
+  },
+  {
+    "product": "tutu",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      449,
+      115,
+      1150,
+      1085
+    ],
+    "sourceScreensUnchanged": true
+  },
+  {
+    "product": "nameplate",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      90,
+      171,
+      1510,
+      1028
+    ],
+    "sourceScreensUnchanged": true
+  },
+  {
+    "product": "loglift",
+    "mode": "RGBA",
+    "size": [
+      1600,
+      1200
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "deviceBounds": [
+      90,
+      171,
+      1510,
+      1028
+    ],
+    "sourceScreensUnchanged": true
+  }
+]

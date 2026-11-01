@@ -1,0 +1,81 @@
+{
+  "widths": [
+    {
+      "viewport": 320,
+      "width": 288,
+      "columns": 1,
+      "overflow": false
+    },
+    {
+      "viewport": 360,
+      "width": 328,
+      "columns": 1,
+      "overflow": false
+    },
+    {
+      "viewport": 640,
+      "width": 608,
+      "columns": 1,
+      "overflow": false
+    },
+    {
+      "viewport": 687,
+      "width": 655,
+      "columns": 1,
+      "overflow": false
+    },
+    {
+      "viewport": 688,
+      "width": 656,
+      "columns": 1,
+      "overflow": false
+    },
+    {
+      "viewport": 1011,
+      "width": 963,
+      "columns": 2,
+      "overflow": false
+    },
+    {
+      "viewport": 1012,
+      "width": 964,
+      "columns": 2,
+      "overflow": false
+    },
+    {
+      "viewport": 1335,
+      "width": 1287,
+      "columns": 2,
+      "overflow": false
+    },
+    {
+      "viewport": 1336,
+      "width": 1288,
+      "columns": 2,
+      "overflow": false
+    },
+    {
+      "viewport": 1384,
+      "width": 1336,
+      "columns": 2,
+      "overflow": false
+    },
+    {
+      "viewport": 1920,
+      "width": 1360,
+      "columns": 2,
+      "overflow": false
+    }
+  ],
+  "allSixScenes": true,
+  "keyboard": true,
+  "repeatedHash": true,
+  "malformedHash": true,
+  "realGalleryAnchor": true,
+  "offscreenPause": true,
+  "visibilityEventSimulation": true,
+  "noJS320": true,
+  "reducedMotion": true,
+  "recording": "motion-normal-and-slow.webm",
+  "errors": []
+}

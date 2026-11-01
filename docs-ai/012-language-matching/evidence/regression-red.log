@@ -1,0 +1,4 @@
+Old English-default build, browser zh-CN:
+Expected root navigation to resolve to zh-Hans.
+page.waitForFunction: Timeout 5000ms exceeded.
+Exit code: 1

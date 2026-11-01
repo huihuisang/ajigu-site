@@ -1,0 +1,133 @@
+/* The shared marketing design system. Components consume semantic values. */
+:root {
+  color-scheme: light;
+  --font-body:
+    "Open Sans Variable", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-display: "EB Garamond", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-emphasis: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --page-width: 1360px;
+  --reading-width: 1080px;
+  --nav-width: 900px;
+  --page-gutter: var(--space-6);
+  --section-gap: clamp(88px, 9vw, 136px);
+  --section-content-gap: var(--space-6);
+  --heading-gap: var(--space-8);
+  --grid-gap: var(--space-4);
+  --card-padding: var(--space-8);
+  --card-inset: var(--space-2);
+  --control-gap: var(--space-3);
+  --radius-panel: 28px;
+  --radius-inner: calc(var(--radius-panel) - var(--card-inset));
+  --radius-control: 16px;
+  --radius-compact: 10px;
+  --radius-detail: 6px;
+  --radius-pill: 999px;
+  --surface-page: #ffffff;
+  --surface-paper: #f3f4f6;
+  --surface-paper-end: #eceef1;
+  --surface-control: #ffffff;
+  --ink: #15171a;
+  --ink-heading: #2f2a22;
+  --ink-secondary: #626870;
+  --ink-emphasis: #746958;
+  --edge-rgb: 32, 38, 46;
+  --hairline: rgba(var(--edge-rgb), 0.1);
+  --hairline-strong: rgba(var(--edge-rgb), 0.17);
+  --focus: #326aa3;
+  --shadow-control: 0 1px 2px rgba(var(--edge-rgb), 0.05), inset 0 1px 0 #ffffffbf;
+  --shadow-panel:
+    0 1px 2px rgba(var(--edge-rgb), 0.04), 0 2px 8px -2px rgba(var(--edge-rgb), 0.04),
+    0 14px 32px -16px rgba(var(--edge-rgb), 0.14);
+  --shadow-panel-hover:
+    0 1px 2px rgba(var(--edge-rgb), 0.05), 0 4px 12px -4px rgba(var(--edge-rgb), 0.06),
+    0 24px 48px -22px rgba(var(--edge-rgb), 0.2);
+  --shadow-nav: 0 4px 24px -8px rgba(var(--edge-rgb), 0.13), 0 1px 3px rgba(var(--edge-rgb), 0.03);
+  --fill-primary: linear-gradient(180deg, #404859, #273042);
+  --fill-primary-hover: linear-gradient(180deg, #4b5568, #303a4e);
+  --texture-paper: radial-gradient(
+      circle at 1px 1px,
+      rgba(var(--edge-rgb), 0.025) 0.5px,
+      transparent 0.8px
+    )
+    0 0 / 3px 3px;
+  --fill-paper:
+    var(--texture-paper), radial-gradient(ellipse at 50% 0%, #ffffffbf, transparent 65%),
+    linear-gradient(180deg, var(--surface-paper), var(--surface-paper-end));
+  --type-body: 15px;
+  --leading-body: 1.65;
+  --type-caption: 12px;
+  --type-card: clamp(22px, 2vw, 28px);
+  --type-section: clamp(38px, 4.2vw, 56px);
+  --type-hero: clamp(52px, 5.4vw, 76px);
+  --motion-fast: 160ms;
+  --motion-control: 240ms;
+  --motion-enter: 600ms;
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --layer-content: 1;
+  --layer-nav: 30;
+  --layer-skip: 100;
+  /* Bridge the marketing roles into the existing shadcn component API. */
+  --background: var(--surface-page);
+  --foreground: var(--ink);
+  --card: var(--surface-control);
+  --card-foreground: var(--ink);
+  --popover: var(--surface-control);
+  --popover-foreground: var(--ink);
+  --primary: #303a4e;
+  --primary-foreground: #ffffff;
+  --secondary: var(--surface-paper);
+  --secondary-foreground: var(--ink-heading);
+  --muted: var(--surface-paper);
+  --muted-foreground: var(--ink-secondary);
+  --accent: #e9edf2;
+  --accent-foreground: var(--ink-heading);
+  --destructive: #ac4141;
+  --border: var(--hairline);
+  --input: var(--hairline-strong);
+  --ring: var(--focus);
+  --radius: var(--radius-control);
+  --media-background: var(--surface-paper);
+}
+:root:lang(zh-Hant) {
+  --font-body: "Open Sans Variable", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+  --font-body: "Open Sans Variable", "Hiragino Sans", "Yu Gothic UI", Meiryo, sans-serif;
+}
+:root:lang(ko) {
+  --font-body: "Open Sans Variable", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+:root:is(:lang(zh), :lang(ja), :lang(ko)) {
+  --type-hero: clamp(34px, 4.4vw, 56px);
+  --type-section: clamp(28px, 3.2vw, 42px);
+}
+@media (max-width: 760px) {
+  :root {
+    --page-gutter: var(--space-4);
+    --section-gap: 72px;
+    --heading-gap: var(--space-6);
+    --grid-gap: var(--space-3);
+    --control-gap: 10px;
+    --type-hero: clamp(44px, 10vw, 60px);
+  }
+  :root:is(:lang(zh), :lang(ja), :lang(ko)) {
+    --type-hero: clamp(32px, 8.8vw, 44px);
+  }
+}
+@media (max-width: 620px) {
+  :root {
+    --card-padding: var(--space-6);
+    --card-inset: 6px;
+    --radius-panel: 24px;
+  }
+}

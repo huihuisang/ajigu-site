@@ -1,0 +1,5 @@
+Old build, scripts delayed:
+AssertionError: /@390: language button exists before scripts load
+actual: null
+expected: true
+Exit code: 1

@@ -1,35 +1,16 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "@fontsource-variable/open-sans/wght.css";
+@import "@fontsource/eb-garamond/600.css";
+@import "@fontsource/cormorant-garamond/600-italic.css";
+@import "./tokens.css";
 @import "./site.css";
 @source "../components";
 @source "../../../site-kit/src";
 @source "../../../../apps/*/src";
 
-:root {
-  color-scheme: light;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.48 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --radius: 0.625rem;
-  --media-background: #efefef;
-  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
-}
 @theme inline {
+  --font-sans: var(--font-body);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

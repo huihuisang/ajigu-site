@@ -2,6 +2,10 @@
 
 > ajigu is an indie studio making small, private, delightful apps. On-device processing, no accounts, no tracking.
 
+## Download
+
+- Go Sleep on the App Store: https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4
+
 ## Apps
 
 - [Go Sleep](https://gosleep.ajigu.com/): iPhone sleep sound tracker. Organizes likely snoring, possible sleep talking, and cough-like sounds into clear night reports, Snore Load trends, and shareable Sound Matches. Privacy-first: on-device analysis, no speech transcription, silence never stored. Free with Pro upgrade.

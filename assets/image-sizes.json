@@ -11,15 +11,15 @@
       "source": "assets/favicon.png",
       "output": "assets/favicon.webp",
       "encoding": "lossless",
-      "sourceBytes": 6446,
-      "outputBytes": 4054
+      "sourceBytes": 7744,
+      "outputBytes": 6190
     },
     {
       "source": "assets/logo.png",
       "output": "assets/logo.webp",
       "encoding": "lossless",
-      "sourceBytes": 17327,
-      "outputBytes": 11008
+      "sourceBytes": 76265,
+      "outputBytes": 51050
     },
     {
       "source": "assets/moodsk-icon.png",
@@ -60,8 +60,8 @@
       "source": "nameplate/assets/ajigu-logo.png",
       "output": "nameplate/assets/ajigu-logo.webp",
       "encoding": "lossless",
-      "sourceBytes": 17327,
-      "outputBytes": 11008
+      "sourceBytes": 23745,
+      "outputBytes": 17600
     },
     {
       "source": "nameplate/assets/favicon-32.png",

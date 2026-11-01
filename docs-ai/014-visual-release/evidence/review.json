@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "kind": "independent static review",
+  "reviewer": "existing redesign reviewer",
+  "fixedFindings": [
+    "Validate the shared TypeNote preference before falling back to the legacy preference.",
+    "Archive header, locale-routing and store-download evidence in CI."
+  ],
+  "remainingFindings": [],
+  "reviewedFiles": {
+    "packages/site-kit/src/components/SiteHeader.tsx": "c591fd0d1da125c6a4c38ba1ce5b7764a27689dcd811b4d73f6b751613fae5c2",
+    "packages/site-kit/src/layouts/SiteLayout.astro": "630f90a7d6d8d8a83198d15597660eda18483575e2b93840eec5f5e8d45dcf08",
+    "packages/site-kit/src/layouts/ProductLanding.astro": "d52984d15ba4bb7dc65914c8d62916a643e0100b3edc96dc97986a7179d97eaf",
+    "packages/site-kit/src/scripts/language.ts": "7d3663116136b830e2dc7f56178e8be1a58d13f56c0eac0202d26a5c1e2dd438",
+    "apps/ajigu/src/products/typenote/lib/language.ts": "8f4b26238ad9f6366bb36968ce861edeb83f3c0e2c74523e88a1790df70ea7cb",
+    "apps/ajigu/src/products/typenote/components/TypeNotePage.tsx": "0bf2319aa32074fd91ea9feceb0b4a6de0e7eafe3f80b0987564de8f7edc0a1b",
+    "apps/ajigu/src/products/gosleep/content/pages.json": "e55fed918ae3b9e2584a24443774f246f14e26e06bd2044965dc386e86dda657",
+    "apps/ajigu/src/products/tutu/content/pages.json": "bd625942d3dc99a3c7aece1fab9ee7877c58056ea0c42db276c90e5b88662f55",
+    "packages/ui/src/styles/site.css": "0952aefa1d7032bff9ea303683af35dd8201da417f4b1bdec095b023b83d0215",
+    ".github/workflows/build-websites.yml": "edba9ea73cdaf4750aadaa3820d9dec07dafe75e3f14048eabc8731d90f3e353",
+    ".github/workflows/deploy-studio.yml": "8c254181b1f7d4756729521f75212401a1a093b01a250e9c033fc1ea8eaf60bb"
+  },
+  "dynamicValidation": "Recorded separately in checks.json and CI."
+}
