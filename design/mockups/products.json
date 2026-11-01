@@ -43,5 +43,11 @@
     "screens": [
       "design/mockups/screens/nameplate-editor.webp"
     ]
+  },
+  "loglift": {
+    "artwork": true,
+    "screens": [
+      "apps/ajigu/public/gallery/loglift-artwork.webp"
+    ]
   }
 }

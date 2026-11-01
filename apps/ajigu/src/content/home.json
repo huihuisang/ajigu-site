@@ -22,6 +22,15 @@
         "description": "Make your desktop feel like you."
       },
       {
+        "id": "loglift",
+        "name": "LogLift",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "art": "loglift-artwork.webp",
+        "icon": "loglift.webp",
+        "platform": "macOS",
+        "description": "Convert DJI Log footage to Rec.709 on your Mac."
+      },
+      {
         "id": "gosleep",
         "name": "Go Sleep",
         "url": "https://gosleep.ajigu.com/",
@@ -256,6 +265,15 @@
         "description": "让桌面，成为你的样子。"
       },
       {
+        "id": "loglift",
+        "name": "LogLift",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "art": "loglift-artwork.webp",
+        "icon": "loglift.webp",
+        "platform": "macOS",
+        "description": "在 Mac 上批量将 DJI Log 视频转换为 Rec.709。"
+      },
+      {
         "id": "gosleep",
         "name": "Go Sleep",
         "url": "https://gosleep.ajigu.com/zh-hans/",
@@ -466,6 +484,15 @@
         "icon": "moodsk-icon.jpg",
         "platform": "macOS",
         "description": "讓桌面，成為你的樣子。"
+      },
+      {
+        "id": "loglift",
+        "name": "LogLift",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "art": "loglift-artwork.webp",
+        "icon": "loglift.webp",
+        "platform": "macOS",
+        "description": "在 Mac 上批次將 DJI Log 影片轉換為 Rec.709。"
       },
       {
         "id": "gosleep",
@@ -680,6 +707,15 @@
         "description": "デスクトップを、自分らしく。"
       },
       {
+        "id": "loglift",
+        "name": "LogLift",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "art": "loglift-artwork.webp",
+        "icon": "loglift.webp",
+        "platform": "macOS",
+        "description": "Mac で DJI Log 動画を Rec.709 に一括変換。"
+      },
+      {
         "id": "gosleep",
         "name": "Go Sleep",
         "url": "https://gosleep.ajigu.com/ja/",
@@ -890,6 +926,15 @@
         "icon": "moodsk-icon.jpg",
         "platform": "macOS",
         "description": "나만의 데스크탑을 만들어 보세요."
+      },
+      {
+        "id": "loglift",
+        "name": "LogLift",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "art": "loglift-artwork.webp",
+        "icon": "loglift.webp",
+        "platform": "macOS",
+        "description": "Mac에서 DJI Log 영상을 Rec.709로 일괄 변환하세요."
       },
       {
         "id": "gosleep",

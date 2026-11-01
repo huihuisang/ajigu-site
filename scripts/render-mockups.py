@@ -1,10 +1,10 @@
-"""Place real screenshots in downloaded device templates and export gallery images."""
+"""Export gallery images from native screenshots and original app artwork."""
 
 import hashlib
 import json
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageOps
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -45,7 +45,14 @@ def main():
         cell_width = (SIZE[0] - 180) // count
         devices = []
         for source in item["screens"]:
-            device = device_image(templates[item["template"]], source, item["screenBackground"])
+            if item.get("artwork"):
+                device = Image.open(ROOT / source).convert("RGBA")
+                device = ImageOps.contain(device, (970, 970), Image.Resampling.LANCZOS)
+                mask = Image.new("L", device.size)
+                ImageDraw.Draw(mask).rounded_rectangle((0, 0, device.width, device.height), radius=device.width * 0.22, fill=255)
+                device.putalpha(ImageChops.multiply(device.getchannel("A"), mask))
+            else:
+                device = device_image(templates[item["template"]], source, item["screenBackground"])
             device.thumbnail((cell_width - (22 if count > 1 else 0), 970), Image.Resampling.LANCZOS)
             devices.append(device)
         gap = 36
@@ -61,7 +68,7 @@ def main():
         outputs[product] = {
             "file": str(target.relative_to(ROOT)),
             "sha256": digest(target),
-            "template": item["template"],
+            "template": item.get("template"),
             "screens": [{"file": source, "sha256": digest(ROOT / source)} for source in item["screens"]],
         }
     (DESIGN / "outputs.json").write_text(json.dumps(outputs, indent=2) + "\n")

@@ -100,5 +100,14 @@
     ],
     "product": "nameplate",
     "proof": "Fresh in-app browser screenshot of current /nameplate/, Navy & Gold in 2D mode, top1440x936 viewport."
+  },
+  "apps/ajigu/public/gallery/loglift-artwork.webp": {
+    "sha256": "4348054086679e569e692df9c6ead218da85cb52c3b2db8f85a7a9ff31115354",
+    "size": [
+      1024,
+      1024
+    ],
+    "product": "loglift",
+    "proof": "Original LogLift app icon from the public source checkout, used as artwork rather than a UI screenshot. No camera color-accuracy claim."
   }
 }

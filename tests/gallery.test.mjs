@@ -10,7 +10,8 @@ test("gallery assets retain source provenance and verified output bytes", async 
   const sources = await readJSON("packages/site-kit/icons/sources.json");
   const gallery = await readJSON("apps/ajigu/src/content/gallery.json");
   const outputs = await readJSON("design/mockups/outputs.json");
-  const products = ["typenote", "moodsk", "gosleep", "dailyapod", "tutu", "nameplate"];
+  const screens = await readJSON("design/mockups/screens.json");
+  const products = ["typenote", "moodsk", "gosleep", "dailyapod", "tutu", "nameplate", "loglift"];
   assert.deepEqual(Object.keys(gallery).sort(), products.sort());
   for (const product of products) {
     assert.equal(
@@ -34,5 +35,11 @@ test("gallery assets retain source provenance and verified output bytes", async 
     const bytes = await readFile(new URL(source.file, root));
     assert.equal(createHash("sha256").update(bytes).digest("hex"), source.sha256, source.file);
     assert.equal(bytes.subarray(8, 12).toString(), "WEBP");
+  }
+  for (const [file, screen] of Object.entries(screens)) {
+    assert.ok(screen.proof, file);
+    const bytes = await readFile(new URL(file, root));
+    assert.equal(createHash("sha256").update(bytes).digest("hex"), screen.sha256, file);
+    assert.equal(bytes.subarray(8, 12).toString(), "WEBP", file);
   }
 });

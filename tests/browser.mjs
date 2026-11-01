@@ -98,7 +98,7 @@ try {
       assert.deepEqual(metric.missingAnchors, []);
       assert.doesNotMatch(await page.locator("main").innerText(), /<br\s*\/?>/i);
       if (entry.site === "ajigu" && !entry.route.includes("nameplate")) {
-        assert.equal(await page.locator(".work-tile").count(), 6);
+        assert.equal(await page.locator(".work-tile").count(), 7);
         const clipped = await page.locator(".gallery-card").evaluateAll((cards) =>
           cards.flatMap((card) => {
             const box = card.getBoundingClientRect();
@@ -116,12 +116,12 @@ try {
         );
         assert.deepEqual(clipped, [], `${entry.route}@${width}: clipped gallery copy`);
 
-        assert.equal(await page.locator(".gallery-stage img").count(), 6);
+        assert.equal(await page.locator(".gallery-stage img").count(), 7);
         assert.deepEqual(
           await page
             .locator(".gallery-mockup")
             .evaluateAll((items) => items.map((el) => getComputedStyle(el).transform)),
-          Array(6).fill("none"),
+          Array(7).fill("none"),
         );
 
         const grid = await page
@@ -296,7 +296,7 @@ try {
   }
   await page.locator("#replay").click();
   await page.goto(preview.origins.ajigu + "/zh-hans/", { waitUntil: "networkidle" });
-  assert.equal(await page.locator(".work-tile").count(), 6);
+  assert.equal(await page.locator(".work-tile").count(), 7);
   assert.equal(await page.locator(".studio-hero,.studio-beliefs").count(), 0);
   await page.locator('[data-product-id="typenote"]').click();
   await page.waitForURL(preview.origins.typenote + "/?lang=zh");

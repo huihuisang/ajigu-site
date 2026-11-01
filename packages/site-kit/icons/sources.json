@@ -166,5 +166,16 @@
     "height": 824,
     "crop": [100, 100, 924, 924],
     "proof": "Current native Apple actool full render from this task; old undated menu screenshot excluded."
+  },
+  {
+    "product": "loglift",
+    "role": "icon",
+    "source": "https://github.com/huihuisang/DJI-LogLift/blob/05b2ad43/LogBatch/Resources/Assets.xcassets/AppIcon.appiconset/icon_512x512%402x.png",
+    "sourceSHA256": "312eda002c3c60fe3dbb2712bad8281ad158b10003d76d52ebce578cfb196e27",
+    "file": "packages/site-kit/icons/loglift.webp",
+    "sha256": "7fb821ad3474a23769b53ac9e603f641609d43a974d8610db91c57ce0312e722",
+    "width": 256,
+    "height": 256,
+    "proof": "Current native LogLift app icon from the public source checkout. Original project artwork; no DJI product photos or LUT files copied."
   }
 ]

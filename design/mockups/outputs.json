@@ -76,5 +76,16 @@
         "sha256": "493852c0c8927bc3d86d0b2c051ea070f888d787c5c618efc27a19c7d04a4aee"
       }
     ]
+  },
+  "loglift": {
+    "file": "apps/ajigu/public/gallery/loglift-mockup.webp",
+    "sha256": "23dee840a6cc094e16494b280e174e54293b61d05ff11554ccb48dc4f6b278e4",
+    "template": null,
+    "screens": [
+      {
+        "file": "apps/ajigu/public/gallery/loglift-artwork.webp",
+        "sha256": "4348054086679e569e692df9c6ead218da85cb52c3b2db8f85a7a9ff31115354"
+      }
+    ]
   }
 }

@@ -22,15 +22,19 @@ test("one application owns all five product modules and shared components", asyn
     assert.ok(app.dependencies.astro && app.dependencies.react);
   }
 });
-test("studio language clusters retain reciprocal metadata and six product entries", async () => {
+test("studio language clusters retain reciprocal metadata and seven product entries", async () => {
   const pages = await read("apps/ajigu/src/content/home.json");
   assert.equal(pages.length, 5);
   const alternates = (page) => page.metadata.links.filter((link) => link.hreflang);
   for (const page of pages) {
     assert.deepEqual(
       page.products.map((product) => product.id),
-      ["typenote", "moodsk", "gosleep", "dailyapod", "tutu", "nameplate"],
+      ["typenote", "moodsk", "loglift", "gosleep", "dailyapod", "tutu", "nameplate"],
     );
+    const loglift = page.products.find((product) => product.id === "loglift");
+    assert.equal(loglift.url, "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0");
+    assert.equal(loglift.platform, "macOS");
+    assert.match(loglift.description, /Rec\.709/);
     assert.deepEqual(alternates(page), alternates(pages[0]));
     assert.ok(alternates(page).some((link) => link.href === "https://ajigu.com" + page.route));
   }

@@ -28,5 +28,10 @@
     "file": "nameplate-mockup.webp",
     "width": 1600,
     "height": 1200
+  },
+  "loglift": {
+    "file": "loglift-mockup.webp",
+    "width": 1600,
+    "height": 1200
   }
 }
