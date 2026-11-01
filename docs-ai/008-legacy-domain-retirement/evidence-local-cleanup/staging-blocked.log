@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/ajigu/.local/share/task-artifacts/work/0777ce502cd247028e256d69196db814/cleanup-local.py", line 110, in <module>
+    require(inventory(stage) == manifest['checkouts'][name]['entries'], 'Staged content changed')
+  File "/Users/ajigu/.local/share/task-artifacts/work/0777ce502cd247028e256d69196db814/cleanup-local.py", line 33, in require
+    raise RuntimeError(message)
+RuntimeError: Staged content changed

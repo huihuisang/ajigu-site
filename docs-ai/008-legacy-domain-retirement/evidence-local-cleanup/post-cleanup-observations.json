@@ -1,0 +1,26 @@
+{
+  "observedAt": "2026-11-01T16:03:20.928452+00:00",
+  "cleanupCompletedAt": "2026-11-01T15:58:44.498772+00:00",
+  "cleanupWindowProtectedCounts": {
+    "parentApp": 64,
+    "unrelatedWorkingFiles": 34,
+    "siblingRoots": 17
+  },
+  "parentAppStillMatches": true,
+  "siblingRootsStillMatch": true,
+  "laterUnrelatedEdits": [
+    {
+      "file": ".agents/skills/ajigu-add-product/references/integration.md",
+      "duringCleanupSHA256": "0676005cda2d5afc1a5a7f20ae48457f9d42d83058c9f03eaa56bb07bfa9ba7d",
+      "observedSHA256": "8e198229323dbbd5fd2422596878a1087e1aa697cee6649e4b7416aeb6af423a",
+      "modifiedAt": "2026-11-01T15:59:31.626519+00:00"
+    },
+    {
+      "file": "memory/product-onboarding.md",
+      "duringCleanupSHA256": "1dc6a676b2e01e32a4bc25baad49ce4e408add593584539d5d69aa39d4380810",
+      "observedSHA256": "1b363c34d8f398188c22ba392a15497fe68236aa9d9af3b48c04f4732d4acee2",
+      "modifiedAt": "2026-11-01T15:59:57.822211+00:00"
+    }
+  ],
+  "scopeNote": "The cleanup guard confirmed all protected files were unchanged during deletion. These unrelated files were edited later; this task did not write, restore, stage, or commit them."
+}

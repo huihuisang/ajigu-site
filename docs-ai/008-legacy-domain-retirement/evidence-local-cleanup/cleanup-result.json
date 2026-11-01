@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-11-01T15:58:41.028505+00:00",
+  "complete": true,
+  "backupManifestSHA256": "76eb095c957f6fa21d6cdb7f6c46ca74118602746c8bc965ae329529e500ff86",
+  "deleted": [
+    {
+      "product": "typenote",
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/MusicKeyBoard/typenote-landing",
+      "confirmedAbsent": true
+    },
+    {
+      "product": "moodsk",
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/moodsk-website",
+      "confirmedAbsent": true
+    },
+    {
+      "product": "gosleep",
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/SnorzSite",
+      "confirmedAbsent": true
+    },
+    {
+      "product": "dailyapod",
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/dailyapod-site",
+      "confirmedAbsent": true
+    },
+    {
+      "product": "tutu",
+      "path": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/tutu-site",
+      "confirmedAbsent": true
+    }
+  ],
+  "protectedStateSHA256": "73605a117571ad077655903d483d0a561023bf6dec73e2cc8beffb9724090c9c",
+  "completedAt": "2026-11-01T15:58:44.498772+00:00",
+  "protectedStateUnchanged": true,
+  "originalBackupsUnchanged": true,
+  "localArchivesUnchanged": true
+}

@@ -1,0 +1,68 @@
+{
+  "createdAt": "2026-11-01T15:52:31.259410+00:00",
+  "complete": true,
+  "manifestPath": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/local-checkouts/manifest.json",
+  "manifestSHA256": "76eb095c957f6fa21d6cdb7f6c46ca74118602746c8bc965ae329529e500ff86",
+  "metadataRestoreExceptions": [
+    "com.apple.provenance",
+    "com.apple.quarantine"
+  ],
+  "originalBackupFileCount": 94,
+  "checkouts": {
+    "typenote": {
+      "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/App/MusicKeyBoard/typenote-landing",
+      "archive": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/local-checkouts/typenote-landing.tar.gz",
+      "archiveSHA256": "20e1edd7baf006f2043206b1ff62feb17e6ff563918fc50c77b939e0efd76cd6",
+      "fileCount": 365,
+      "byteCount": 53275839,
+      "restorationVerified": true,
+      "gitFsck": "passed",
+      "refsVerified": true,
+      "workingStateVerified": true
+    },
+    "moodsk": {
+      "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/moodsk-website",
+      "archive": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/local-checkouts/moodsk-website.tar.gz",
+      "archiveSHA256": "de76e8445abbd44394aa860f7fb5dfd0be346e355778cd97413836036704269a",
+      "fileCount": 930,
+      "byteCount": 19054818,
+      "restorationVerified": true,
+      "gitFsck": "passed",
+      "refsVerified": true,
+      "workingStateVerified": true
+    },
+    "gosleep": {
+      "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/SnorzSite",
+      "archive": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/local-checkouts/SnorzSite.tar.gz",
+      "archiveSHA256": "2cddce6728053b95418a94b63e735c50f0f0b4e20a7e61e0c438ec5b03834085",
+      "fileCount": 821,
+      "byteCount": 4586836,
+      "restorationVerified": true,
+      "gitFsck": "passed",
+      "refsVerified": true,
+      "workingStateVerified": true
+    },
+    "dailyapod": {
+      "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/dailyapod-site",
+      "archive": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/local-checkouts/dailyapod-site.tar.gz",
+      "archiveSHA256": "6bf4a877d0931e7756e9b3cd24a6dd0c11d9fafad9fb3864363475944f86dc2c",
+      "fileCount": 579,
+      "byteCount": 5105468,
+      "restorationVerified": true,
+      "gitFsck": "passed",
+      "refsVerified": true,
+      "workingStateVerified": true
+    },
+    "tutu": {
+      "source": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/GitHub/网站/tutu-site",
+      "archive": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/local-checkouts/tutu-site.tar.gz",
+      "archiveSHA256": "ad4bb2c2ceb3d16ca26c1c3d52a607736da29739fca591383a0ec507889d4a23",
+      "fileCount": 183,
+      "byteCount": 2682684,
+      "restorationVerified": true,
+      "gitFsck": "passed",
+      "refsVerified": true,
+      "workingStateVerified": true
+    }
+  }
+}

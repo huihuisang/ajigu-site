@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-01T15:58:07.385306+00:00",
+  "status": "passed",
+  "scope": "Independent pre-deletion review of the five exact local website checkouts, full local preservation, migration completeness and the cleanup guard. Actual deletion is not claimed by this review.",
+  "manifestSHA256": "76eb095c957f6fa21d6cdb7f6c46ca74118602746c8bc965ae329529e500ff86",
+  "migrationReviewSHA256": "f9a7d3f6ef29d4e50d8ac662c3edb01e7d5ae2d307343975ed7f0f9ab299917a",
+  "guardSHA256": "4038b66774687c0064155fe68531bfd21caf7da8683f87982844984608db6282",
+  "preservationScriptSHA256": "9ae9141c0f512640d6ab04551cbf6c3a124fc6ad2d4a59e90d5ce6b4adf04bd6",
+  "preservationCopySHA256": "9ae9141c0f512640d6ab04551cbf6c3a124fc6ad2d4a59e90d5ce6b4adf04bd6",
+  "verified": {
+    "checkouts": 5,
+    "files": 2878,
+    "bytes": 84705645,
+    "sourceAndRestoredFileBytesModesPortableXattrs": "Independently recomputed and matched against all manifest entries.",
+    "archives": "All five SHA256 values matched.",
+    "git": "Independent git fsck --full, refs, and dirty status comparisons passed for all five restored checkouts.",
+    "originalPersistentBackupFiles": 94,
+    "explicitAclEntries": 0,
+    "migrationFileDigests": 536,
+    "protectedStateCounts": {
+      "parentApp": 64,
+      "unrelatedWorkingFiles": 29,
+      "siblingRoots": 17
+    }
+  },
+  "guardReview": [
+    "The exact five absolute paths and recorded root device/inode pairs are required; ajigu-site is excluded.",
+    "The complete backup manifest, full archive SHA256 values, source inventory, migration source/target digests and original persistent backup hashes are checked before any removal.",
+    "Source links and special files are rejected. Directory occupation must be absent, and unexpected lsof errors stop the operation.",
+    "Apply mode binds the independent review to the exact manifest, migration review, preservation helper and deletion guard SHA256 values.",
+    "Each original root is rechecked, renamed to a fixed unoccupied sibling staging path, rechecked for identity and complete inventory, then removed through symlink-resistant shutil.rmtree.",
+    "Parent app tracked files, unrelated dirty working files and other sibling directory identities are compared before each removal and afterward.",
+    "Partial receipts are retained after each successful removal; all retained backups are rechecked before a complete receipt.",
+    "After a verified same-volume staging rollback, source/staging comparisons ignore only the root directory com.apple.provenance attribute. All descendant attributes, root quarantine, file bytes and modes remain exact; six negative boundary checks passed, and the normalizer does not mutate its input."
+  ],
+  "metadataRestorationLimit": "macOS may regenerate com.apple.provenance and com.apple.quarantine on extraction. Full source xattr hashes remain in the private manifest and the tar archives retain metadata. The independent restored-tree comparison excludes only these two attributes. All file bytes, modes and other recorded xattrs matched; no explicit ACL entries were found in the source trees.",
+  "remainingAcceptance": "Run the reviewed apply guard and require its complete five-directory deletion receipt and final backup/protected-state checks. Do not treat this review as evidence that deletion has already occurred.",
+  "unresolvedFindings": [],
+  "stagingDeltaReview": {
+    "previousGuardSHA256": "d56049a9f9d49ec0ad2bffca57af0fc1cd3b58c5946897188e7ebb3435fd5837",
+    "currentGuardSHA256": "4038b66774687c0064155fe68531bfd21caf7da8683f87982844984608db6282",
+    "rollbackEvidenceSHA256": "3779ea1890e293c1ba73242935e10e4d93991247e8957a496d8f85eeaf94f32e",
+    "blockedRunLogSHA256": "d16443632998fff855072b83f004551fdecba3cd4290b1f425b9133996f65632",
+    "allFiveOriginalRootsPresent": true,
+    "allStagingPathsAbsent": true,
+    "sourceDifferences": [
+      {
+        "product": "typenote",
+        "entry": ".",
+        "changedFields": [
+          "xattrs"
+        ]
+      }
+    ],
+    "normalizerNegativeBoundaryChecks": 6,
+    "inputMutationCheck": "passed",
+    "allFiveArchivesUnchanged": true,
+    "all94OriginalBackupFilesUnchanged": true,
+    "exception": "Only entry . / xattrs / com.apple.provenance is excluded from source and staging equality. No other source metadata exception is introduced."
+  }
+}

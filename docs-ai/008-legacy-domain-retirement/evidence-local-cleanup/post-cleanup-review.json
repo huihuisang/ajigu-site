@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-01T16:03:48.228971+00:00",
+  "status": "passed",
+  "scope": "Independent post-cleanup verification of exact directory absence, immutable backups and the recorded operation-window protection. This review does not freeze unrelated concurrent work after cleanup.",
+  "receiptSHA256": "afc969417783a764fa4e7813133679a7525a2b5b0d088b4b114444064905f2df",
+  "manifestSHA256": "76eb095c957f6fa21d6cdb7f6c46ca74118602746c8bc965ae329529e500ff86",
+  "protectedStateSHA256": "73605a117571ad077655903d483d0a561023bf6dec73e2cc8beffb9724090c9c",
+  "appliedGuardSHA256": "4038b66774687c0064155fe68531bfd21caf7da8683f87982844984608db6282",
+  "operationWindow": {
+    "startedAt": "2026-11-01T15:58:41.028505+00:00",
+    "completedAt": "2026-11-01T15:58:44.498772+00:00",
+    "parentAppTrackedFiles": 64,
+    "unrelatedDirtyFiles": 34,
+    "otherSiblingDirectories": 17,
+    "protectedStateUnchanged": true,
+    "evidence": "The reviewed guard captures protected state before deletion, compares it before each deletion and afterward, and binds the exact private snapshot SHA256 in its complete receipt."
+  },
+  "currentVerification": {
+    "fiveOriginalRootsAbsent": true,
+    "fiveStagingRootsAbsent": true,
+    "fiveFullLocalArchivesUnchanged": true,
+    "originalBackupFilesUnchanged": 94,
+    "nativeParentTrackedFilesUnchanged": 64,
+    "siblingDirectoryIdentitiesUnchanged": 17,
+    "publicAndPrivateReceiptsMatch": true,
+    "retainedAjiguSiteExists": true
+  },
+  "laterConcurrentChanges": [
+    {
+      "path": ".agents/skills/ajigu-add-product/references/integration.md",
+      "cleanupWindowSHA256": "0676005cda2d5afc1a5a7f20ae48457f9d42d83058c9f03eaa56bb07bfa9ba7d",
+      "currentSHA256": "8e198229323dbbd5fd2422596878a1087e1aa697cee6649e4b7416aeb6af423a",
+      "currentModifiedAt": "2026-11-01T15:59:31.626519+00:00",
+      "modifiedAfterCleanup": true
+    },
+    {
+      "path": "memory/product-onboarding.md",
+      "cleanupWindowSHA256": "1dc6a676b2e01e32a4bc25baad49ce4e408add593584539d5d69aa39d4380810",
+      "currentSHA256": "1b363c34d8f398188c22ba392a15497fe68236aa9d9af3b48c04f4732d4acee2",
+      "currentModifiedAt": "2026-11-01T15:59:57.822211+00:00",
+      "modifiedAfterCleanup": true
+    }
+  ],
+  "concurrentWorkAssessment": "Both changed unrelated files have mtimes after the completed cleanup window. The reviewed cleanup guard does not write either file, and it verified all 34 unrelated dirty files during its operation. These later edits do not invalidate the cleanup result and must be preserved.",
+  "unresolvedFindings": []
+}
