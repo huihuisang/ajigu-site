@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-11-01T15:03:30.503146+00:00",
+  "reason": "Temporary delete_repo permission is awaiting user confirmation. The pending device flow was stopped without granting access.",
+  "currentOAuthScopes": "gist, read:org, repo, workflow",
+  "deleted": [],
+  "remaining": [
+    {
+      "repository": "huihuisang/typenote-landing",
+      "id": 1201352821,
+      "exists": true,
+      "admin": true
+    },
+    {
+      "repository": "Ajigu-Studio/moodsk-website",
+      "id": 1370096346,
+      "exists": true,
+      "admin": true
+    },
+    {
+      "repository": "huihuisang/snorz-site",
+      "id": 1333696286,
+      "exists": true,
+      "admin": true
+    },
+    {
+      "repository": "huihuisang/dailyapod-site",
+      "id": 1340149861,
+      "exists": true,
+      "admin": true
+    },
+    {
+      "repository": "huihuisang/tutu-site",
+      "id": 1381405252,
+      "exists": true,
+      "admin": true
+    }
+  ]
+}
