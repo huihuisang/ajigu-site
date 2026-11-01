@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-01T15:03:30.503146+00:00",
-  "reason": "Temporary delete_repo permission is awaiting user confirmation. The pending device flow was stopped without granting access.",
+  "checkedAt": "2026-11-01T15:20:28.223892+00:00",
+  "reason": "User approved temporary delete_repo access. GitHub requires a second factor, but 1Password CLI is not signed in and desktop authorization timed out. No new CLI scope was granted; the pending device flow was stopped.",
   "currentOAuthScopes": "gist, read:org, repo, workflow",
   "deleted": [],
   "remaining": [
@@ -34,5 +34,10 @@
       "exists": true,
       "admin": true
     }
-  ]
+  ],
+  "temporaryScopeApproval": "received",
+  "providerGrant": "pending-second-factor",
+  "credentialManager": "1Password CLI",
+  "credentialState": "not-signed-in",
+  "lastCredentialError": "authorization timeout"
 }

@@ -1,0 +1,1738 @@
+{
+  "verifiedAt": "2026-11-01T15:35:40.864181+00:00",
+  "apply": true,
+  "plans": [
+    {
+      "repository": "huihuisang/typenote-landing",
+      "id": 1201352821,
+      "backup": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--typenote-landing",
+      "bundleSHA256": "3e06ed0acdc30c9dded97f5bbaf4bfcb1d9e4bd3756e92c2d3b5ac13c0f35bf2"
+    },
+    {
+      "repository": "Ajigu-Studio/moodsk-website",
+      "id": 1370096346,
+      "backup": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/Ajigu-Studio--moodsk-website",
+      "bundleSHA256": "78500ae9e930df9bfb690148611438555e0ba954ebc4e85fa6833a6763deb658"
+    },
+    {
+      "repository": "huihuisang/snorz-site",
+      "id": 1333696286,
+      "backup": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--snorz-site",
+      "bundleSHA256": "08a22a4b0e59b10ce5a973301bacea3d7237708693718a72d8eb38a86d803c50"
+    },
+    {
+      "repository": "huihuisang/dailyapod-site",
+      "id": 1340149861,
+      "backup": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--dailyapod-site",
+      "bundleSHA256": "2f7d082839eb954e9c078ee83cff4164f4a0842160aedc281680de3db52718df"
+    },
+    {
+      "repository": "huihuisang/tutu-site",
+      "id": 1381405252,
+      "backup": "/Volumes/Samsung SSD 990 PRO 2T/SSD/Documents/Repository Backups/ajigu-site/2026-11-01-legacy-domains/huihuisang--tutu-site",
+      "bundleSHA256": "2404ab02fc96bf88847a5ff5d6c99bd1663f930f0e867054e4d5305654ce487f"
+    }
+  ],
+  "deleted": [
+    {
+      "repository": "huihuisang/typenote-landing",
+      "id": 1201352821,
+      "confirmedStatus": 404
+    },
+    {
+      "repository": "Ajigu-Studio/moodsk-website",
+      "id": 1370096346,
+      "confirmedStatus": 404
+    },
+    {
+      "repository": "huihuisang/snorz-site",
+      "id": 1333696286,
+      "confirmedStatus": 404
+    },
+    {
+      "repository": "huihuisang/dailyapod-site",
+      "id": 1340149861,
+      "confirmedStatus": 404
+    },
+    {
+      "repository": "huihuisang/tutu-site",
+      "id": 1381405252,
+      "confirmedStatus": 404
+    }
+  ],
+  "complete": true,
+  "edgeAfter": {
+    "verifiedAt": "2026-11-01T15:38:33.711Z",
+    "complete": true,
+    "release": {
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "f15e3aed7decca0f1b9a1cb938d339ec467ec523",
+      "site": "ajigu",
+      "domain": "ajigu.com",
+      "mode": "site"
+    },
+    "count": 184,
+    "results": [
+      {
+        "source": "http://dailyapod.ajigu.com/",
+        "target": "https://ajigu.com/dailyapod/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b05439686fece279e8cf1410192c0949522df2d7d0b49227cf51e2da29733d50"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/dailyapod/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b05439686fece279e8cf1410192c0949522df2d7d0b49227cf51e2da29733d50"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/",
+        "target": "https://ajigu.com/dailyapod/guides/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "1ec3d98898878689a9a1a07e00c04ee927a4fa3389c7950424d5d265cd4b7584"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/apod-widget-iphone/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5affd34711bae40a44e20fb25a31d97ef19ae794158dfa3ebb6b8b5594e41b39"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/apod-widget-iphone/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4b4f41130f2f009b04354648be21d8d9213d7dc93a883a528bad3c5bfa9cabed"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/apod-widget-iphone/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4bdd79cdf51c8bbdc1267a92840759aa0f0f9a43d0a36b15e0223748cf69be99"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "df560d2a9310f2f77233ec9dc84a170ca849b33cdb0ccace1519b2f67c31bad9"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c35e3c0523f0affe548b0269ae7794bdda9151ee3592f141975d964a4cd12eb3"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/find-apod-by-date/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "ba07ea50523764ce991093c0b9bca2a46df7239650e1a1eb12b58cb257f216ed"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/find-apod-by-date/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "83760103cc3a9df04f80b6df2b3117029e931690b76db9b8feeea21d175903a0"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/find-apod-by-date/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "0b75578bf81314a5064121681c46022b0c8e14a82106f286c32a2e9dcbd2344a"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3a2b67a4d43dcb1e2b828a3f7236eec8fae760a70d77c5bc91edea9089dcad93"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a929b8b0cb459d39252fcd78da7f7aa3bad7bdf70199581c582ec7bfc478bb81"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "090d575905f8a8ce55d96813bfed12c474c9bfa4ddfd827a08b7798c3681bfb9"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f473c9487e7ec269065ecc15da533e6cbd9e8c2ade942e4f986e8159b929b887"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "dac8c3128770cb8c791cef7eed081a184d56774a0393c5650fcb45fa72166a6e"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c97d0e58b722c77266270a7f2fe309b8eb157188de7dadd2c30aa3315bf41fea"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "23573860020238b5583cde81ba25a5df194028ce808ee1a1e1244622eb09cf20"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3fecbfa554e6d86e01102bcc9bfbb849c576897a4c1025c3f54283ad96ac7627"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "adbe482ad728f3264b2cb2587aec142c2daba29b46a4b71fa92fa50b042d90ab"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/what-is-apod/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "dc70a99829e1c7f5ba4531d73c07e0d062584a29ffac24ee9edd094cae40625b"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/what-is-apod/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "95a71d300dbc28f856740bdec9a0e454217527f3d5946d92b9c973a29b5b83a3"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/what-is-apod/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "efacb36c881a02e7211e4099f7287e018e2a20e5bf7ceb49ef2c96cea3942f71"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "06b9b06268244996f240e1a5db504cd7adae244e02c980a96b711dba424a3934"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/what-is-apod/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "35a0407f3a6e7b90087b3cc3fb7e72e79fba25a36dd0ffe2f634747c35a9056d"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8bf194214a4cfb3239d3889c55511a4de80e95882881efe8c048c47cb7970f4d"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/guides/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "015a6e7a193d3415546fdc404d31aa4b55710581111873e37e9c655faab5d79d"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/ja/",
+        "target": "https://ajigu.com/dailyapod/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "220bdfd5f222c9aed93043a8db8b4b3ec2352e7a41236da604b4ac5fca67d303"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/ko/",
+        "target": "https://ajigu.com/dailyapod/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4395f1e3f50cc4f0118757af77406e2679a1dd2beaed65d23eef07a0da64a649"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "d25d15ec97861c175f1fbaf741b26d2c942be862ba20fc29e67376c3df0af5d3"
+      },
+      {
+        "source": "http://dailyapod.ajigu.com/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "636823661f3d6a0f3ce6aed51e9e2518c2fc4285d8f2f2bce6ab6024ca26e788"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/",
+        "target": "https://ajigu.com/gosleep/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "cf3f1236e5693df6663b90875de87e019e473859ab84ac5e70fb39e055f4dc26"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/gosleep/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "cf3f1236e5693df6663b90875de87e019e473859ab84ac5e70fb39e055f4dc26"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/de/",
+        "target": "https://ajigu.com/gosleep/de/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "9e4049d0ae8f4a97e5debe6f95339c3c0170aff1347560a124a8ad7d189970b0"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/de/privacy/",
+        "target": "https://ajigu.com/gosleep/de/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "6dd503a33673fd530c49a011aa2b9eda86f0cf2777e31e7facef748b75a0b326"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/de/support/",
+        "target": "https://ajigu.com/gosleep/de/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "68a345e86ccead30858824e867462e10923f2d4c30603ad0912cb23923ce6e9d"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/en-gb/",
+        "target": "https://ajigu.com/gosleep/en-gb/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "95cc6036a966d2ab0827c95813865fdd042a3318b65907b91a68456a5525e92c"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/en-gb/privacy/",
+        "target": "https://ajigu.com/gosleep/en-gb/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a665a9c5fe625ba9cc5d092b8ea2c3f303cd307344eb8de106845c43415d268a"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/en-gb/support/",
+        "target": "https://ajigu.com/gosleep/en-gb/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c28b18bf514d7bed2539994a645e0ef46b0d4cd2ab0dde449be7dfc634cd3125"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/fr/",
+        "target": "https://ajigu.com/gosleep/fr/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5b4d17628e071c0279ab53a71ffdba3df606b140f18098ae3d16ee814a1bc5a6"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/fr/privacy/",
+        "target": "https://ajigu.com/gosleep/fr/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4681a817bfa8fee01a0d7099e73add53aee9bac1cbcf742143b9c4a150714346"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/fr/support/",
+        "target": "https://ajigu.com/gosleep/fr/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3eca0b96dbbdc49b699ac1ec4449f6d2cb635a2fa62c86cb00d6eab4ec10e947"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/guides/night-sounds/",
+        "target": "https://ajigu.com/gosleep/guides/night-sounds/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "509868361093b782163566bdd046240f3d4226d6e02356d04785985e86bc8965"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/guides/night-sounds/ja/",
+        "target": "https://ajigu.com/gosleep/guides/night-sounds/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "1d5ba2ed6b79a638fff960971a9145eec8b6aaf0754a663d248fca71c001a658"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+        "target": "https://ajigu.com/gosleep/guides/night-sounds/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "2191addb51ed7edbb822c38eedec1a969d588514033dff74cb77cec47b87a023"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/ja/",
+        "target": "https://ajigu.com/gosleep/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "cf27ef610f84094d26d9513fcb5e4a5ea723befcaa2123658b532df0d7bf6fb3"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/ja/privacy/",
+        "target": "https://ajigu.com/gosleep/ja/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "eca3d73ebd3fd3c70caadbfded1ed8ff089befadc79677562e0d9cfcac68d121"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/ja/support/",
+        "target": "https://ajigu.com/gosleep/ja/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c96c050a0a2cbc35d9c3e8604881fd75cf4f5405208fc8344b63f2c4b2651207"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/ko/",
+        "target": "https://ajigu.com/gosleep/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "d85fb8c676b15d54737d5044761ea5222d3a77ff247b2e85d18eee53c4ca88fb"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/ko/privacy/",
+        "target": "https://ajigu.com/gosleep/ko/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "02bc6e49205eacf8597c38ce19b3ed8cd0dddcdd4da426d79f7a0a9560061b0e"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/ko/support/",
+        "target": "https://ajigu.com/gosleep/ko/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8aca344fb62181ac6c9c72fe0b35f7ba854fe42f456ae89206d8201f8001d520"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/privacy/",
+        "target": "https://ajigu.com/gosleep/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5764ef6ddfe7e8ff72dae4bcd938a0a04f0ec78d78b6d355afc8878fb7e5d234"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/support/",
+        "target": "https://ajigu.com/gosleep/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "11ec4f621dd1e81b97009448ee6142d430d48f07eaeb67d57a3d26af63237c9b"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/gosleep/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8cceb30623b492123447a0787780f6d926ca3ea65864942a592e9c8ea09de42c"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/zh-hans/privacy/",
+        "target": "https://ajigu.com/gosleep/zh-hans/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "abe5b911225e6cca5dd264b51782fd6b2341b0d78c5fb36f5d61bc3814e29920"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/zh-hans/support/",
+        "target": "https://ajigu.com/gosleep/zh-hans/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3bb195976db846f5103e42efafdda8ba02826e44060f66b10a49597c9afaedf5"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/zh-hant/",
+        "target": "https://ajigu.com/gosleep/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b4034e399ab852713132ac957e84d8982f72ba5557e0ba6f36164254bd3532b2"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/zh-hant/privacy/",
+        "target": "https://ajigu.com/gosleep/zh-hant/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f9e2350f5a9684eadaf503b84cc3787696c5ff94ab164227381456872eed58f5"
+      },
+      {
+        "source": "http://gosleep.ajigu.com/zh-hant/support/",
+        "target": "https://ajigu.com/gosleep/zh-hant/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4a3da5b11ef1a716e45fbd5509a5ec65d8a590968ea3df381a4b7e1a462a8346"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/",
+        "target": "https://ajigu.com/moodsk/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b16182171e682951c708a6630cd1bd109c9946bdca362644dbdc8bbcd32a90c4"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/moodsk/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b16182171e682951c708a6630cd1bd109c9946bdca362644dbdc8bbcd32a90c4"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/about/",
+        "target": "https://ajigu.com/moodsk/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "390dd472ba12d35757073161b2d34bfa6b32d37baaa1596c0831553c7be53e33"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/ja/",
+        "target": "https://ajigu.com/moodsk/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5f30838dccd39892bd83c4ff5e049bdad97b012473591e38f306862709b6da0b"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/ja/about/",
+        "target": "https://ajigu.com/moodsk/ja/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "576a5a70bd33f8164d1c22ed2b497dcf5d15c054975c46c1c5305b7d597a2513"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/ko/",
+        "target": "https://ajigu.com/moodsk/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "aeb2f5cf069239728cfa91b594d2609edb91a211874bb4f6a6724f1133e57ee6"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/ko/about/",
+        "target": "https://ajigu.com/moodsk/ko/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8ab079369f4c3878e3f976212f5b003f27d2c6fa6ba174ac0ad50c2be5c62399"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/tutorials/",
+        "target": "https://ajigu.com/moodsk/tutorials/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a066e4ccf1f031e309622bea481648b20a3eaf2f5b190449eec978aa2066e6fe"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/tutorials/change-folder-icons-on-mac/",
+        "target": "https://ajigu.com/moodsk/tutorials/change-folder-icons-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a16c6e2d0144e47b928cf844403c5e96917f3b147acc95f86f9ef6152d664da9"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/tutorials/folder-color-system-on-mac/",
+        "target": "https://ajigu.com/moodsk/tutorials/folder-color-system-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "7a43887743c59ed20da06b990f2ed41ed27722db10ec60d3c8297f970dc82adf"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/tutorials/folder-icons-with-text/",
+        "target": "https://ajigu.com/moodsk/tutorials/folder-icons-with-text/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "7fc3413f0604b9078c1c66120f7cf456c1be442b4081f15c8035f90fd0f314b7"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/moodsk/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "27073aeeca908bbed1c96151e2c9f6f2d00b583e260e7c0811ee5c45fab0830b"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/zh-hans/about/",
+        "target": "https://ajigu.com/moodsk/zh-hans/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f573fa2919d764893d66229fc686ce60975588565de8d88b0e3568079462d70b"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/zh-hans/tutorials/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "671f6e813f97976503a7c415fe7e6be21ce598afc3bbedef7ad8ef6b85ac20aa"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/zh-hans/tutorials/change-folder-icons-on-mac/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/change-folder-icons-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8b974877f1b62116a3896cb442b598a792e583b250e6a6e826828e1173a994cf"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/zh-hans/tutorials/folder-color-system-on-mac/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-color-system-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f257f30deff74501c3ec7ecc397ad9025ab010ae73326f3ed59503b2165e1918"
+      },
+      {
+        "source": "http://moodsk.ajigu.com/zh-hans/tutorials/folder-icons-with-text/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-icons-with-text/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "bf0e30691c2ec2ffc9ee297a5178092079e428045eae4b03bc18cd4635b94f3e"
+      },
+      {
+        "source": "http://tutu.ajigu.com/",
+        "target": "https://ajigu.com/tutu/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "33cbea40dd63b8d9781109d8b4127ffe3c5ad915eb4c1cac9a1832c16580cd37"
+      },
+      {
+        "source": "http://tutu.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/tutu/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "33cbea40dd63b8d9781109d8b4127ffe3c5ad915eb4c1cac9a1832c16580cd37"
+      },
+      {
+        "source": "http://tutu.ajigu.com/ja/",
+        "target": "https://ajigu.com/tutu/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "e1362b6f651ea85fb76ea7c10b5082b84c639fdf2fe917ea8c5c59b0242dba99"
+      },
+      {
+        "source": "http://tutu.ajigu.com/ko/",
+        "target": "https://ajigu.com/tutu/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c122ed439e80271571eadd54456e4d5f1939c7978cc40058dd131e9c8319a6af"
+      },
+      {
+        "source": "http://tutu.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/tutu/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "492298fa9f6ac68521109160f3866732575e51fa2414241eb92def6b00e47f55"
+      },
+      {
+        "source": "http://tutu.ajigu.com/zh-hant/",
+        "target": "https://ajigu.com/tutu/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "375e37ef1105fedf253a934bcf85bfcc99bf72945c5ce2c0562d5a4ec820abbe"
+      },
+      {
+        "source": "http://typenote.ajigu.com/",
+        "target": "https://ajigu.com/typenote/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "94dd166f059e7221bde77e01873bb217dc310180ce25fc0371a56843dd243650"
+      },
+      {
+        "source": "http://typenote.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/typenote/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "94dd166f059e7221bde77e01873bb217dc310180ce25fc0371a56843dd243650"
+      },
+      {
+        "source": "http://typenote.ajigu.com/guides/keyboard-sounds/",
+        "target": "https://ajigu.com/typenote/guides/keyboard-sounds/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "05c51e2adcf2c05bb00a9c5cc908f54d35354c6db69e36e7c3dc418a40578188"
+      },
+      {
+        "source": "http://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+        "target": "https://ajigu.com/typenote/guides/keyboard-sounds/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "2d085d71cb1293e74e240485f6a3678805c0d574cc61da7c3fe2d21414dfc546"
+      },
+      {
+        "source": "http://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+        "target": "https://ajigu.com/typenote/guides/keyboard-sounds/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "52651823d2316223b7a47815e15af0491982a66b8268c38267fd470016202616"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/",
+        "target": "https://ajigu.com/dailyapod/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b05439686fece279e8cf1410192c0949522df2d7d0b49227cf51e2da29733d50"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/dailyapod/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b05439686fece279e8cf1410192c0949522df2d7d0b49227cf51e2da29733d50"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/assets/app-icon.png",
+        "target": "https://ajigu.com/dailyapod/assets/app-icon.png",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c5dea1f1d56dd3a23beaad966939cc113ff3914ff1ebbc7aca8310b84c7dea55"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/",
+        "target": "https://ajigu.com/dailyapod/guides/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "1ec3d98898878689a9a1a07e00c04ee927a4fa3389c7950424d5d265cd4b7584"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5affd34711bae40a44e20fb25a31d97ef19ae794158dfa3ebb6b8b5594e41b39"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4b4f41130f2f009b04354648be21d8d9213d7dc93a883a528bad3c5bfa9cabed"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4bdd79cdf51c8bbdc1267a92840759aa0f0f9a43d0a36b15e0223748cf69be99"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "df560d2a9310f2f77233ec9dc84a170ca849b33cdb0ccace1519b2f67c31bad9"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c35e3c0523f0affe548b0269ae7794bdda9151ee3592f141975d964a4cd12eb3"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/find-apod-by-date/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "ba07ea50523764ce991093c0b9bca2a46df7239650e1a1eb12b58cb257f216ed"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "83760103cc3a9df04f80b6df2b3117029e931690b76db9b8feeea21d175903a0"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "0b75578bf81314a5064121681c46022b0c8e14a82106f286c32a2e9dcbd2344a"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3a2b67a4d43dcb1e2b828a3f7236eec8fae760a70d77c5bc91edea9089dcad93"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a929b8b0cb459d39252fcd78da7f7aa3bad7bdf70199581c582ec7bfc478bb81"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "090d575905f8a8ce55d96813bfed12c474c9bfa4ddfd827a08b7798c3681bfb9"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f473c9487e7ec269065ecc15da533e6cbd9e8c2ade942e4f986e8159b929b887"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "dac8c3128770cb8c791cef7eed081a184d56774a0393c5650fcb45fa72166a6e"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c97d0e58b722c77266270a7f2fe309b8eb157188de7dadd2c30aa3315bf41fea"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "23573860020238b5583cde81ba25a5df194028ce808ee1a1e1244622eb09cf20"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3fecbfa554e6d86e01102bcc9bfbb849c576897a4c1025c3f54283ad96ac7627"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "adbe482ad728f3264b2cb2587aec142c2daba29b46a4b71fa92fa50b042d90ab"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/what-is-apod/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "dc70a99829e1c7f5ba4531d73c07e0d062584a29ffac24ee9edd094cae40625b"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/what-is-apod/ja/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "95a71d300dbc28f856740bdec9a0e454217527f3d5946d92b9c973a29b5b83a3"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/what-is-apod/ko/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "efacb36c881a02e7211e4099f7287e018e2a20e5bf7ceb49ef2c96cea3942f71"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "06b9b06268244996f240e1a5db504cd7adae244e02c980a96b711dba424a3934"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "35a0407f3a6e7b90087b3cc3fb7e72e79fba25a36dd0ffe2f634747c35a9056d"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/guides/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8bf194214a4cfb3239d3889c55511a4de80e95882881efe8c048c47cb7970f4d"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/guides/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/guides/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "015a6e7a193d3415546fdc404d31aa4b55710581111873e37e9c655faab5d79d"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/ja/",
+        "target": "https://ajigu.com/dailyapod/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "220bdfd5f222c9aed93043a8db8b4b3ec2352e7a41236da604b4ac5fca67d303"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/ko/",
+        "target": "https://ajigu.com/dailyapod/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4395f1e3f50cc4f0118757af77406e2679a1dd2beaed65d23eef07a0da64a649"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/studio/icons/dailyapod.webp",
+        "target": "https://ajigu.com/studio/icons/dailyapod.webp",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "7a3f6f67e8b8735044378be05ef11492444c684eb16a4fb3ab716e9a972265a2"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/dailyapod/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "d25d15ec97861c175f1fbaf741b26d2c942be862ba20fc29e67376c3df0af5d3"
+      },
+      {
+        "source": "https://dailyapod.ajigu.com/zh-hant/",
+        "target": "https://ajigu.com/dailyapod/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "636823661f3d6a0f3ce6aed51e9e2518c2fc4285d8f2f2bce6ab6024ca26e788"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/",
+        "target": "https://ajigu.com/gosleep/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "cf3f1236e5693df6663b90875de87e019e473859ab84ac5e70fb39e055f4dc26"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/gosleep/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "cf3f1236e5693df6663b90875de87e019e473859ab84ac5e70fb39e055f4dc26"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/assets/app-icon.png",
+        "target": "https://ajigu.com/gosleep/assets/app-icon.png",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "454eda22539b43cac83247f6c720f11c88cdf141766c39e7a78c59e3e2024a71"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/de/",
+        "target": "https://ajigu.com/gosleep/de/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "9e4049d0ae8f4a97e5debe6f95339c3c0170aff1347560a124a8ad7d189970b0"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/de/privacy/",
+        "target": "https://ajigu.com/gosleep/de/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "6dd503a33673fd530c49a011aa2b9eda86f0cf2777e31e7facef748b75a0b326"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/de/support/",
+        "target": "https://ajigu.com/gosleep/de/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "68a345e86ccead30858824e867462e10923f2d4c30603ad0912cb23923ce6e9d"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/en-gb/",
+        "target": "https://ajigu.com/gosleep/en-gb/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "95cc6036a966d2ab0827c95813865fdd042a3318b65907b91a68456a5525e92c"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/en-gb/privacy/",
+        "target": "https://ajigu.com/gosleep/en-gb/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a665a9c5fe625ba9cc5d092b8ea2c3f303cd307344eb8de106845c43415d268a"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/en-gb/support/",
+        "target": "https://ajigu.com/gosleep/en-gb/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c28b18bf514d7bed2539994a645e0ef46b0d4cd2ab0dde449be7dfc634cd3125"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/fr/",
+        "target": "https://ajigu.com/gosleep/fr/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5b4d17628e071c0279ab53a71ffdba3df606b140f18098ae3d16ee814a1bc5a6"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/fr/privacy/",
+        "target": "https://ajigu.com/gosleep/fr/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4681a817bfa8fee01a0d7099e73add53aee9bac1cbcf742143b9c4a150714346"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/fr/support/",
+        "target": "https://ajigu.com/gosleep/fr/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3eca0b96dbbdc49b699ac1ec4449f6d2cb635a2fa62c86cb00d6eab4ec10e947"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/guides/night-sounds/",
+        "target": "https://ajigu.com/gosleep/guides/night-sounds/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "509868361093b782163566bdd046240f3d4226d6e02356d04785985e86bc8965"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/guides/night-sounds/ja/",
+        "target": "https://ajigu.com/gosleep/guides/night-sounds/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "1d5ba2ed6b79a638fff960971a9145eec8b6aaf0754a663d248fca71c001a658"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+        "target": "https://ajigu.com/gosleep/guides/night-sounds/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "2191addb51ed7edbb822c38eedec1a969d588514033dff74cb77cec47b87a023"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/ja/",
+        "target": "https://ajigu.com/gosleep/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "cf27ef610f84094d26d9513fcb5e4a5ea723befcaa2123658b532df0d7bf6fb3"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/ja/privacy/",
+        "target": "https://ajigu.com/gosleep/ja/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "eca3d73ebd3fd3c70caadbfded1ed8ff089befadc79677562e0d9cfcac68d121"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/ja/support/",
+        "target": "https://ajigu.com/gosleep/ja/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c96c050a0a2cbc35d9c3e8604881fd75cf4f5405208fc8344b63f2c4b2651207"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/ko/",
+        "target": "https://ajigu.com/gosleep/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "d85fb8c676b15d54737d5044761ea5222d3a77ff247b2e85d18eee53c4ca88fb"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/ko/privacy/",
+        "target": "https://ajigu.com/gosleep/ko/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "02bc6e49205eacf8597c38ce19b3ed8cd0dddcdd4da426d79f7a0a9560061b0e"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/ko/support/",
+        "target": "https://ajigu.com/gosleep/ko/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8aca344fb62181ac6c9c72fe0b35f7ba854fe42f456ae89206d8201f8001d520"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/privacy/",
+        "target": "https://ajigu.com/gosleep/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5764ef6ddfe7e8ff72dae4bcd938a0a04f0ec78d78b6d355afc8878fb7e5d234"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/studio/icons/gosleep.webp",
+        "target": "https://ajigu.com/studio/icons/gosleep.webp",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "38828f7dff9ac1b94edf740d1b0bc6fb06ad02e80047e086be80b3276d3cc68b"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/support/",
+        "target": "https://ajigu.com/gosleep/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "11ec4f621dd1e81b97009448ee6142d430d48f07eaeb67d57a3d26af63237c9b"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/gosleep/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8cceb30623b492123447a0787780f6d926ca3ea65864942a592e9c8ea09de42c"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/zh-hans/privacy/",
+        "target": "https://ajigu.com/gosleep/zh-hans/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "abe5b911225e6cca5dd264b51782fd6b2341b0d78c5fb36f5d61bc3814e29920"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/zh-hans/support/",
+        "target": "https://ajigu.com/gosleep/zh-hans/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "3bb195976db846f5103e42efafdda8ba02826e44060f66b10a49597c9afaedf5"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/zh-hant/",
+        "target": "https://ajigu.com/gosleep/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b4034e399ab852713132ac957e84d8982f72ba5557e0ba6f36164254bd3532b2"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/zh-hant/privacy/",
+        "target": "https://ajigu.com/gosleep/zh-hant/privacy/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f9e2350f5a9684eadaf503b84cc3787696c5ff94ab164227381456872eed58f5"
+      },
+      {
+        "source": "https://gosleep.ajigu.com/zh-hant/support/",
+        "target": "https://ajigu.com/gosleep/zh-hant/support/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "4a3da5b11ef1a716e45fbd5509a5ec65d8a590968ea3df381a4b7e1a462a8346"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/",
+        "target": "https://ajigu.com/moodsk/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b16182171e682951c708a6630cd1bd109c9946bdca362644dbdc8bbcd32a90c4"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/moodsk/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "b16182171e682951c708a6630cd1bd109c9946bdca362644dbdc8bbcd32a90c4"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/about/",
+        "target": "https://ajigu.com/moodsk/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "390dd472ba12d35757073161b2d34bfa6b32d37baaa1596c0831553c7be53e33"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/assets/appicon.jpg",
+        "target": "https://ajigu.com/moodsk/assets/appicon.jpg",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f53f13d8181b32a8baf00bab3e565eb42bdcf3cbcf8fe8cdfe1dec8138682226"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/ja/",
+        "target": "https://ajigu.com/moodsk/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "5f30838dccd39892bd83c4ff5e049bdad97b012473591e38f306862709b6da0b"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/ja/about/",
+        "target": "https://ajigu.com/moodsk/ja/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "576a5a70bd33f8164d1c22ed2b497dcf5d15c054975c46c1c5305b7d597a2513"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/ko/",
+        "target": "https://ajigu.com/moodsk/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "aeb2f5cf069239728cfa91b594d2609edb91a211874bb4f6a6724f1133e57ee6"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/ko/about/",
+        "target": "https://ajigu.com/moodsk/ko/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8ab079369f4c3878e3f976212f5b003f27d2c6fa6ba174ac0ad50c2be5c62399"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/studio/icons/moodsk.webp",
+        "target": "https://ajigu.com/studio/icons/moodsk.webp",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "1498d5e6f410888c49da0727e293a2dc8185b25733b0851f700f0788c0164011"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/tutorials/",
+        "target": "https://ajigu.com/moodsk/tutorials/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a066e4ccf1f031e309622bea481648b20a3eaf2f5b190449eec978aa2066e6fe"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/tutorials/change-folder-icons-on-mac/",
+        "target": "https://ajigu.com/moodsk/tutorials/change-folder-icons-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "a16c6e2d0144e47b928cf844403c5e96917f3b147acc95f86f9ef6152d664da9"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/tutorials/folder-color-system-on-mac/",
+        "target": "https://ajigu.com/moodsk/tutorials/folder-color-system-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "7a43887743c59ed20da06b990f2ed41ed27722db10ec60d3c8297f970dc82adf"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/tutorials/folder-icons-with-text/",
+        "target": "https://ajigu.com/moodsk/tutorials/folder-icons-with-text/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "7fc3413f0604b9078c1c66120f7cf456c1be442b4081f15c8035f90fd0f314b7"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/moodsk/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "27073aeeca908bbed1c96151e2c9f6f2d00b583e260e7c0811ee5c45fab0830b"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/zh-hans/about/",
+        "target": "https://ajigu.com/moodsk/zh-hans/about/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f573fa2919d764893d66229fc686ce60975588565de8d88b0e3568079462d70b"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/zh-hans/tutorials/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "671f6e813f97976503a7c415fe7e6be21ce598afc3bbedef7ad8ef6b85ac20aa"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/zh-hans/tutorials/change-folder-icons-on-mac/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/change-folder-icons-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "8b974877f1b62116a3896cb442b598a792e583b250e6a6e826828e1173a994cf"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-color-system-on-mac/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-color-system-on-mac/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "f257f30deff74501c3ec7ecc397ad9025ab010ae73326f3ed59503b2165e1918"
+      },
+      {
+        "source": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-icons-with-text/",
+        "target": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-icons-with-text/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "bf0e30691c2ec2ffc9ee297a5178092079e428045eae4b03bc18cd4635b94f3e"
+      },
+      {
+        "source": "https://tutu.ajigu.com/",
+        "target": "https://ajigu.com/tutu/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "33cbea40dd63b8d9781109d8b4127ffe3c5ad915eb4c1cac9a1832c16580cd37"
+      },
+      {
+        "source": "https://tutu.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/tutu/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "33cbea40dd63b8d9781109d8b4127ffe3c5ad915eb4c1cac9a1832c16580cd37"
+      },
+      {
+        "source": "https://tutu.ajigu.com/assets/app-icon.png",
+        "target": "https://ajigu.com/tutu/assets/app-icon.png",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "e75a796fe65cec61905000eebc24a7efa337654d7a21f38c236be82284d4c4c7"
+      },
+      {
+        "source": "https://tutu.ajigu.com/ja/",
+        "target": "https://ajigu.com/tutu/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "e1362b6f651ea85fb76ea7c10b5082b84c639fdf2fe917ea8c5c59b0242dba99"
+      },
+      {
+        "source": "https://tutu.ajigu.com/ko/",
+        "target": "https://ajigu.com/tutu/ko/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "c122ed439e80271571eadd54456e4d5f1939c7978cc40058dd131e9c8319a6af"
+      },
+      {
+        "source": "https://tutu.ajigu.com/studio/icons/tutu.webp",
+        "target": "https://ajigu.com/studio/icons/tutu.webp",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "72d92e70b005036b4417a3c5d5a17b08f655b6988ea210f33301b851eadba8d8"
+      },
+      {
+        "source": "https://tutu.ajigu.com/zh-hans/",
+        "target": "https://ajigu.com/tutu/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "492298fa9f6ac68521109160f3866732575e51fa2414241eb92def6b00e47f55"
+      },
+      {
+        "source": "https://tutu.ajigu.com/zh-hant/",
+        "target": "https://ajigu.com/tutu/zh-hant/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "375e37ef1105fedf253a934bcf85bfcc99bf72945c5ce2c0562d5a4ec820abbe"
+      },
+      {
+        "source": "https://typenote.ajigu.com/",
+        "target": "https://ajigu.com/typenote/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "94dd166f059e7221bde77e01873bb217dc310180ce25fc0371a56843dd243650"
+      },
+      {
+        "source": "https://typenote.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "target": "https://ajigu.com/typenote/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb",
+        "kind": "query",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "94dd166f059e7221bde77e01873bb217dc310180ce25fc0371a56843dd243650"
+      },
+      {
+        "source": "https://typenote.ajigu.com/assets/app-icon.png",
+        "target": "https://ajigu.com/typenote/assets/app-icon.png",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "0cee7404ce9d7a59e8d9b985c9c34117a78f5364237b7546041d3dd5f4370057"
+      },
+      {
+        "source": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+        "target": "https://ajigu.com/typenote/guides/keyboard-sounds/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "05c51e2adcf2c05bb00a9c5cc908f54d35354c6db69e36e7c3dc418a40578188"
+      },
+      {
+        "source": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+        "target": "https://ajigu.com/typenote/guides/keyboard-sounds/ja/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "2d085d71cb1293e74e240485f6a3678805c0d574cc61da7c3fe2d21414dfc546"
+      },
+      {
+        "source": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+        "target": "https://ajigu.com/typenote/guides/keyboard-sounds/zh-hans/",
+        "kind": "page",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "52651823d2316223b7a47815e15af0491982a66b8268c38267fd470016202616"
+      },
+      {
+        "source": "https://typenote.ajigu.com/studio/icons/typenote.webp",
+        "target": "https://ajigu.com/studio/icons/typenote.webp",
+        "kind": "asset",
+        "status": 301,
+        "edge": "cloudflare",
+        "targetStatus": 200,
+        "sha256": "0213b34482b6ee8551e89e84f7cbbc18a8a7a9c6ad99305bde0c8ff9773119d2"
+      }
+    ]
+  },
+  "retainedRepository": {
+    "repository": "huihuisang/ajigu-site",
+    "id": 1339651478
+  }
+}

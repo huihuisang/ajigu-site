@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-11-01T15:41:44.892Z",
+  "complete": true,
+  "checks": [
+    {
+      "source": "https://typenote.ajigu.com/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb#features",
+      "expected": "https://ajigu.com/typenote/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb#features",
+      "heading": "TypeNote",
+      "language": "zh-Hans",
+      "title": "TypeNote — Turn Your Mac Keyboard Into an Instrument",
+      "url": "https://ajigu.com/typenote/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb#features"
+    },
+    {
+      "source": "https://moodsk.ajigu.com/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "expected": "https://ajigu.com/moodsk/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "heading": "Moodsk",
+      "language": "zh-Hans",
+      "title": "Moodsk — Mac 文件夹图标制作与更换工具",
+      "url": "https://ajigu.com/moodsk/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq"
+    },
+    {
+      "source": "https://gosleep.ajigu.com/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "expected": "https://ajigu.com/gosleep/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "heading": "Go Sleep",
+      "language": "zh-Hans",
+      "title": "睡好 — iPhone 睡眠声音记录 app：鼾声 · 梦话 · 咳嗽",
+      "url": "https://ajigu.com/gosleep/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq"
+    },
+    {
+      "source": "https://dailyapod.ajigu.com/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "expected": "https://ajigu.com/dailyapod/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "heading": "DailyApod",
+      "language": "zh-Hans",
+      "title": "DailyApod — NASA 每日天文图 iPhone app，每天一张宇宙照片",
+      "url": "https://ajigu.com/dailyapod/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq"
+    },
+    {
+      "source": "https://tutu.ajigu.com/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "expected": "https://ajigu.com/tutu/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "heading": "TUTU",
+      "language": "zh-Hans",
+      "title": "TUTU — iPhone AI 照片消除，轻轻一点，它就消失了",
+      "url": "https://ajigu.com/tutu/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq"
+    }
+  ]
+}

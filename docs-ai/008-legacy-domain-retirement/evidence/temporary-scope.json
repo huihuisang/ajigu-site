@@ -1,0 +1,9 @@
+{
+  "grantedAt": "2026-11-01T15:33:03.462594+00:00",
+  "login": "huihuisang",
+  "scopesDuringRetirement": "delete_repo, gist, read:org, repo, workflow",
+  "organizationRole": "admin",
+  "temporaryPermission": "delete_repo",
+  "userApproved": true,
+  "removalRequired": true
+}

@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-11-01T15:41:20.752655+00:00",
+  "login": "huihuisang",
+  "scopesAfterRetirement": "gist, read:org, repo, workflow",
+  "deleteRepoRemoved": true,
+  "temporaryCredentialRevocation": {
+    "requestStatus": 202,
+    "temporaryCredentialStatus": 401,
+    "initialReplacementCredentialStatus": 401,
+    "baselineReauthenticated": true,
+    "source": "https://docs.github.com/en/rest/credentials/revoke"
+  },
+  "currentCredentialStatus": 200,
+  "secretsPersisted": false
+}

@@ -1,7 +1,7 @@
 # 旧域名迁移与仓库退役结果
 
-实施状态：Cloudflare 迁移已完成；五个旧仓库尚未删除，等待最终删除凭据权限。
-验证状态：迁移、备份恢复、浏览器、单测、删除 dry-run、完整 CI 与主站部署通过；删除后验收尚未执行。
+实施状态：已完成。五个旧域名由 Cloudflare 独立提供跳转，五个旧仓库已删除，仅保留 ajigu-site 承载网站源码。
+验证状态：通过。迁移、备份恢复、浏览器、单测、删除预检、完整 CI 与主站部署通过；删除后 184 项现场检查和五个浏览器检查通过，临时凭据已撤销，CLI 原有权限已恢复。
 审核状态：规则、备份、删除 guard 与 CI 清理的最终源码独立审核通过；完整范围和摘要见 evidence/review.json。
 
 ## 结果与验收
@@ -11,8 +11,8 @@
 | AC-R1 | 通过：五个旧域名由 Cloudflare 返回真实 301，路径和查询参数正确 | evidence/edge-before-deletion.json，共 184 项 HTTP/HTTPS 检查 |
 | AC-R2 | 通过：82 个旧 sitemap 页面、代表资源、共享图标与五个真实浏览器的参数/锚点/中文正常；仅修改五条 DNS | browser-before-deletion.json、dns-cutover.json、cloudflare-rules.jpg |
 | AC-R3 | 通过：五个持久 Git bundle 在独立目录恢复，fsck、全部源 refs 与 PR commits 校验通过；无 LFS、子模块、发布附件、Wiki 或 Discussions 内容 | backup-restoration.json、backup-manifest.json |
-| AC-R4 | 部分通过：跨仓库 publisher 与五份 CI 产物上传已退役，旧仓库仍存在，删除及删除后网络检查尚未执行 | 本次脚本/配置改动，retirement-dry-run.json |
-| AC-R5 | 本地与现场迁移通过；删除后的必要验收未执行 | final-unit.log、final-retirement-optimized.log、独立审核与后续 CI/发布记录 |
+| AC-R4 | 通过：跨仓库 publisher 与五份 CI 产物上传已退役；五个固定 ID 仓库删除后均返回 404，ajigu-site ID 保持不变 | retirement-result.json、retirement-result.log |
+| AC-R5 | 通过：删除后全部 184 项 HTTP/HTTPS 检查及五个浏览器的路径、参数、锚点与中文检查正常；临时删除权限收回 | retirement-result.json 的 edgeAfter、browser-after-deletion.json、scope-restored.json、CI 与独立审核 |
 
 ## Cloudflare 配置
 
@@ -30,16 +30,20 @@ GitHub 原始身份、URL、星标和 issue 编号不能精确重建；Actions �
 
 默认 dry-run。固定核对五个名称与数字 ID，拒绝 ajigu-site 或额外目标。删除前校验持久备份摘要、恢复证书、源 refs、issue/评论/PR/release 等元数据是否变化、五个浏览器验收、精确 DNS 范围及现场 184 项边缘跳转。每次删除前再次核对身份、refs 与元数据。输出必须是任务临时目录内的新文件，禁止覆盖备份或输入证据。删除后逐仓库确认 404，并再次执行全部边缘检查。
 
-现有 gh CLI OAuth 授权没有 delete_repo。1Password 中另有可用的细粒度 GitHub 凭据，但访问组织旧仓库返回 403，不能作为本次五仓库统一删除凭据。不会在凭据不完整时先删部分仓库，也不会写入或公开密码、token。删除需要先补齐现有 CLI 的授权。
+用户授权使用 1Password CLI 登录并临时增加 delete_repo。1Password 桌面解锁后，TTY 下的 op signin 和一次性验证码读取成功；现有 CLI 获得所需权限，组织角色实际核对为 admin，随后执行已审核的删除 guard。密码、一次性验证码与 token 未写入项目证据。
 
 2026-11-01 已核对：[GitHub 删除仓库接口](https://docs.github.com/en/rest/repos/repos#delete-a-repository)要求管理员权限；经典 OAuth/PAT 需要 delete_repo，细粒度 PAT 需要 Administration(write)。本次将使用通过实际权限检查的凭据，不以账号角色代替 token 权限判断。
 
 旧 HTML 兼容输出继续作为离线回归测试夹具，不再上传或发布到旧仓库。生产跳转唯一来源为 Cloudflare 的已审核规则。
 
-## 发布与当前阻塞
+## 发布与最终结果
 
 实现提交 f15e3aed7decca0f1b9a1cb938d339ec467ec523 已推送主分支，[CI 41318404261](https://github.com/huihuisang/ajigu-site/actions/runs/41318404261) 全部检查及主站 Pages 部署成功。发布后再次执行的 184 项边缘检查见 edge-after-publication.json；主站版本标记应对应该实现提交。文档同步提交包含实现提交，无需重复部署相同运行时代码。
 
-在明确请求临时增加 CLI 权限后，尚未收到用户确认。待授权的设备流程已停止，没有授予新权限；现有 CLI scope 与五个仍存在的仓库身份见 deletion-pending.json。当前没有删除仓库。迁移已经独立于旧仓库运行，确认权限后只需重新核验备份/源数据、取得临时授权、执行已审查的删除 guard、检查删除后跳转，再移除临时 delete_repo 权限。
+2026-11-01 执行删除 guard 的 --apply 模式，全部五个目标的备份、身份、refs、元数据及现场跳转重新验证后才开始删除。retirement-result.json 记录五个数字 ID、逐仓库的 404 证明和保留仓库 ID 1339651478。删除后全量 184 项检查再次通过；五个真实浏览器也重新验证了完整查询参数、锚点与中文页面。历史阻塞检查点 deletion-pending.json 保留供追溯，不代表最终状态。
 
-本任务临时目录 d7e105b95e4c456aaf7bb4e9ea4c6264 保留，原因是删除及删除后验收尚未完成。持久仓库备份不在临时目录内，始终保留。其他页面任务的未提交源码和截图没有纳入本次提交，也没有还原或清理。
+权限收尾先执行 gh auth refresh --remove-scopes delete_repo，换发凭据恢复原有 gist、read:org、repo、workflow，但实测旧临时凭据仍有删除权限。随后通过 [GitHub 凭据撤销接口](https://docs.github.com/en/rest/credentials/revoke) 只提交该临时 token，响应 202；临时凭据与刚换发的凭据均实测返回 401。最后重新完成仅含原有四项权限的 CLI 登录，/user 返回 200、身份 huihuisang 且无 delete_repo。该撤销操作使同一授权下的换发凭据也失效，已恢复本机 CLI；未验证其他设备上同一 OAuth 授权的会话。完整无密钥证明见 scope-restored.json。
+
+独立审核覆盖最终运行时代码，基线摘要为 12c616f66d210cd86c37727135c283b4e6cae48b80a8840c9bfbded1129c6c5f；后续仅追加实际删除与权限收尾证据，没有改动审核基线内的代码。最终本地复核会同时核对源码摘要、审核基线、CI 版本、删除后现场证据、备份与权限状态。
+
+持久备份始终保留。任务临时目录 d7e105b95e4c456aaf7bb4e9ea4c6264 仅在最终验证、文档提交和远端同步确认后，按 task-artifacts 的发布及占用检查清理；清理收据位于该工具的全局状态目录。其他页面任务的未提交源码和截图没有纳入本次提交，也没有还原或清理。
