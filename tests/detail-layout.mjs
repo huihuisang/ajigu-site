@@ -20,6 +20,12 @@ const browser = await chromium.launch({
 const cases = [
   { site: "ajigu", route: "/nameplate/about/", language: "en" },
   { site: "ajigu", route: "/nameplate/about/zh-hans/", language: "zh-Hans" },
+  ...JSON.parse(
+    await readFile(
+      new URL("../apps/ajigu/src/products/loglift/content/pages.json", import.meta.url),
+      "utf8",
+    ),
+  ).map(({ route, locale }) => ({ site: "ajigu", route, language: locale })),
   ...Object.entries({ en: "en", zh: "zh-Hans", zht: "zh-Hant", ja: "ja", ko: "ko" }).map(
     ([code, language]) => ({ site: "typenote", route: `/?lang=${code}`, language }),
   ),

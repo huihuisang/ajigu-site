@@ -18,7 +18,12 @@ function tags(html, name) {
 test("every sitemap URL has matching canonical and share metadata", async () => {
   const sitemap = await readFile(new URL("sitemap.xml", root), "utf8");
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
-  assert.deepEqual(urls.sort(), routes.map((route) => domain + route).sort());
+  const loglift = JSON.parse(await readFile(new URL("apps/ajigu/src/products/loglift/content/pages.json", root), "utf8"));
+  assert.deepEqual(urls.sort(), [...routes.map((route) => domain + route), ...loglift.map((page) => domain + page.route)].sort());
+  for (const page of loglift) {
+    assert.equal(page.metadata.links.find((link) => link.rel === "canonical").href, domain + page.route);
+    assert.equal(page.metadata.meta.find((tag) => tag.property === "og:url").content, domain + page.route);
+  }
   for (const [route, html] of pages) {
     const canonical = tags(html, "link").filter((tag) => tag.rel === "canonical");
     assert.deepEqual(canonical.map((tag) => tag.href), [domain + route]);

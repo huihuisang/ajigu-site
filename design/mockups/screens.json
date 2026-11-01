@@ -109,5 +109,22 @@
     ],
     "product": "loglift",
     "proof": "Original LogLift app icon from the public source checkout, used as artwork rather than a UI screenshot. No camera color-accuracy claim."
+  },
+  "design/mockups/screens/loglift-home.webp": {
+    "sha256": "5f6bed60bf82c8741afa3125d9b86bd7a2110277d132f8c398e816c15e24f2c7",
+    "size": [
+      2560,
+      1800
+    ],
+    "product": "loglift",
+    "proof": {
+      "capture": "2026-11-02: macOS screencapture of the already-running installed app window. Camera selection home with all cameras, empty search, and native product thumbnails; Simplified Chinese, Dark appearance. No app source, settings, or user data changed. Lossless WebP conversion preserves the captured pixels.",
+      "app": {
+        "version": "0.1.0",
+        "build": "1"
+      },
+      "originalSHA256": "d690c034625ac768ed4ff8a39b4dfcfa2c29dc34a493d41ac0b55161f048863e",
+      "release": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0"
+    }
   }
 }

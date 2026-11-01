@@ -45,9 +45,10 @@
     ]
   },
   "loglift": {
-    "artwork": true,
+    "template": "apple-macbookpro14",
+    "screenBackground": "#292726",
     "screens": [
-      "apps/ajigu/public/gallery/loglift-artwork.webp"
+      "design/mockups/screens/loglift-home.webp"
     ]
   }
 }

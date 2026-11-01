@@ -32,7 +32,7 @@ test("studio language clusters retain reciprocal metadata and seven product entr
       ["typenote", "moodsk", "loglift", "gosleep", "dailyapod", "tutu", "nameplate"],
     );
     const loglift = page.products.find((product) => product.id === "loglift");
-    assert.equal(loglift.url, "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0");
+    assert.equal(loglift.url, `/loglift${page.route}`);
     assert.equal(loglift.platform, "macOS");
     assert.match(loglift.description, /Rec\.709/);
     assert.deepEqual(alternates(page), alternates(pages[0]));

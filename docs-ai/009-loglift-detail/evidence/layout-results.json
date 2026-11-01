@@ -1,0 +1,3810 @@
+{
+  "totalLayouts": 204,
+  "totalExpandedChapters": 164,
+  "totalNoScriptLayouts": 16,
+  "errors": [],
+  "matrix": [
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 1440,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 200,
+          "right": 1240,
+          "top": 88,
+          "bottom": 1092.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 200,
+          "right": 1240,
+          "top": 1156.984375,
+          "bottom": 1983.46875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 1156.984375,
+              "bottom": 1194.78125,
+              "nextTop": 1218.78125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 200,
+          "right": 1240,
+          "top": 2047.46875,
+          "bottom": 2341.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2047.46875,
+              "bottom": 2085.265625,
+              "nextTop": 2109.265625
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 200,
+          "right": 1240,
+          "top": 2405.265625,
+          "bottom": 2510.265625,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 200,
+          "right": 1240,
+          "top": 2574.265625,
+          "bottom": 2888.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2574.265625,
+              "bottom": 2612.0625,
+              "nextTop": 2636.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 200,
+          "right": 1240,
+          "top": 2952.25,
+          "bottom": 3109.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2952.25,
+              "bottom": 2990.046875,
+              "nextTop": 3014.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 200,
+        "right": 1240,
+        "top": 3173.046875,
+        "bottom": 3277.046875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 1024,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 992,
+          "top": 88,
+          "bottom": 1045.9375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 992,
+          "top": 1109.9375,
+          "bottom": 1872.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1109.9375,
+              "bottom": 1140.34375,
+              "nextTop": 1164.34375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 992,
+          "top": 1936.78125,
+          "bottom": 2223.1875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1936.78125,
+              "bottom": 1967.1875,
+              "nextTop": 1991.1875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 992,
+          "top": 2287.1875,
+          "bottom": 2392.1875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 992,
+          "top": 2456.1875,
+          "bottom": 2762.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2456.1875,
+              "bottom": 2486.59375,
+              "nextTop": 2510.59375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 992,
+          "top": 2826.78125,
+          "bottom": 2976.1875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2826.78125,
+              "bottom": 2857.1875,
+              "nextTop": 2881.1875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 992,
+        "top": 3040.1875,
+        "bottom": 3144.1875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 768,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 736,
+          "top": 88,
+          "bottom": 896.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 736,
+          "top": 960.984375,
+          "bottom": 1543.109375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 960.984375,
+              "bottom": 990.671875,
+              "nextTop": 1014.671875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 736,
+          "top": 1607.109375,
+          "bottom": 2117.796875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 1607.109375,
+              "bottom": 1636.796875,
+              "nextTop": 1660.796875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 736,
+          "top": 2181.796875,
+          "bottom": 2286.796875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 736,
+          "top": 2350.796875,
+          "bottom": 2656.671875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2350.796875,
+              "bottom": 2380.484375,
+              "nextTop": 2404.484375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 736,
+          "top": 2720.671875,
+          "bottom": 2869.359375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2720.671875,
+              "bottom": 2750.359375,
+              "nextTop": 2774.359375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 736,
+        "top": 2933.359375,
+        "bottom": 3037.359375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 640,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 620,
+          "top": 76,
+          "bottom": 837.484375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 620,
+          "top": 885.484375,
+          "bottom": 1394.484375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 885.484375,
+              "bottom": 915.171875,
+              "nextTop": 939.171875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 620,
+          "top": 1442.484375,
+          "bottom": 2007.171875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 1442.484375,
+              "bottom": 1472.171875,
+              "nextTop": 1496.171875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 620,
+          "top": 2055.171875,
+          "bottom": 2160.171875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 620,
+          "top": 2208.171875,
+          "bottom": 2514.046875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2208.171875,
+              "bottom": 2237.859375,
+              "nextTop": 2261.859375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 620,
+          "top": 2562.046875,
+          "bottom": 2737.734375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2562.046875,
+              "bottom": 2591.734375,
+              "nextTop": 2615.734375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 620,
+        "top": 2785.734375,
+        "bottom": 2902.53125
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 390,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 370,
+          "top": 76,
+          "bottom": 723.859375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 370,
+          "top": 771.859375,
+          "bottom": 1126.515625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 771.859375,
+              "bottom": 801.546875,
+              "nextTop": 825.546875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 370,
+          "top": 1174.515625,
+          "bottom": 1883.203125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1174.515625,
+              "bottom": 1204.203125,
+              "nextTop": 1228.203125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 370,
+          "top": 1931.203125,
+          "bottom": 2036.203125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 370,
+          "top": 2084.203125,
+          "bottom": 2415.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2084.203125,
+              "bottom": 2113.890625,
+              "nextTop": 2137.890625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 370,
+          "top": 2463.265625,
+          "bottom": 2665.953125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2463.265625,
+              "bottom": 2492.953125,
+              "nextTop": 2516.953125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 370,
+        "top": 2713.953125,
+        "bottom": 2830.75
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 320,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 300,
+          "top": 76,
+          "bottom": 759.28125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 300,
+          "top": 807.28125,
+          "bottom": 1134.15625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 807.28125,
+              "bottom": 836.96875,
+              "nextTop": 860.96875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 300,
+          "top": 1182.15625,
+          "bottom": 2055.53125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1182.15625,
+              "bottom": 1241.53125,
+              "nextTop": 1265.53125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 300,
+          "top": 2103.53125,
+          "bottom": 2208.53125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 300,
+          "top": 2256.53125,
+          "bottom": 2652.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2256.53125,
+              "bottom": 2286.21875,
+              "nextTop": 2310.21875
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 300,
+          "top": 2700.78125,
+          "bottom": 2903.46875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2700.78125,
+              "bottom": 2730.46875,
+              "nextTop": 2754.46875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 300,
+        "top": 2951.46875,
+        "bottom": 3068.265625
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 1440,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 200,
+          "right": 1240,
+          "top": 88,
+          "bottom": 1092.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 200,
+          "right": 1240,
+          "top": 1156.984375,
+          "bottom": 1983.46875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 1156.984375,
+              "bottom": 1194.78125,
+              "nextTop": 1218.78125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 200,
+          "right": 1240,
+          "top": 2047.46875,
+          "bottom": 2287.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2047.46875,
+              "bottom": 2085.265625,
+              "nextTop": 2109.265625
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 200,
+          "right": 1240,
+          "top": 2351.265625,
+          "bottom": 2456.265625,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 200,
+          "right": 1240,
+          "top": 2520.265625,
+          "bottom": 2834.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2520.265625,
+              "bottom": 2558.0625,
+              "nextTop": 2582.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 200,
+          "right": 1240,
+          "top": 2898.25,
+          "bottom": 3055.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2898.25,
+              "bottom": 2936.046875,
+              "nextTop": 2960.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 200,
+        "right": 1240,
+        "top": 3119.046875,
+        "bottom": 3223.046875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 1024,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 992,
+          "top": 88,
+          "bottom": 1045.9375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 992,
+          "top": 1109.9375,
+          "bottom": 1872.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1109.9375,
+              "bottom": 1140.34375,
+              "nextTop": 1164.34375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 992,
+          "top": 1936.78125,
+          "bottom": 2196.1875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1936.78125,
+              "bottom": 1967.1875,
+              "nextTop": 1991.1875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 992,
+          "top": 2260.1875,
+          "bottom": 2365.1875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 992,
+          "top": 2429.1875,
+          "bottom": 2735.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2429.1875,
+              "bottom": 2459.59375,
+              "nextTop": 2483.59375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 992,
+          "top": 2799.78125,
+          "bottom": 2949.1875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2799.78125,
+              "bottom": 2830.1875,
+              "nextTop": 2854.1875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 992,
+        "top": 3013.1875,
+        "bottom": 3117.1875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 768,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 736,
+          "top": 88,
+          "bottom": 896.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 736,
+          "top": 960.984375,
+          "bottom": 1543.109375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 960.984375,
+              "bottom": 990.671875,
+              "nextTop": 1014.671875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 736,
+          "top": 1607.109375,
+          "bottom": 2036.796875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 1607.109375,
+              "bottom": 1636.796875,
+              "nextTop": 1660.796875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 736,
+          "top": 2100.796875,
+          "bottom": 2205.796875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 736,
+          "top": 2269.796875,
+          "bottom": 2575.671875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2269.796875,
+              "bottom": 2299.484375,
+              "nextTop": 2323.484375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 736,
+          "top": 2639.671875,
+          "bottom": 2788.359375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2639.671875,
+              "bottom": 2669.359375,
+              "nextTop": 2693.359375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 736,
+        "top": 2852.359375,
+        "bottom": 2956.359375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 640,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 620,
+          "top": 76,
+          "bottom": 817.6875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 620,
+          "top": 865.6875,
+          "bottom": 1374.6875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 865.6875,
+              "bottom": 895.375,
+              "nextTop": 919.375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 620,
+          "top": 1422.6875,
+          "bottom": 1906.375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 1422.6875,
+              "bottom": 1452.375,
+              "nextTop": 1476.375
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 620,
+          "top": 1954.375,
+          "bottom": 2059.375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 620,
+          "top": 2107.375,
+          "bottom": 2413.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2107.375,
+              "bottom": 2137.0625,
+              "nextTop": 2161.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 620,
+          "top": 2461.25,
+          "bottom": 2609.9375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2461.25,
+              "bottom": 2490.9375,
+              "nextTop": 2514.9375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 620,
+        "top": 2657.9375,
+        "bottom": 2774.734375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 390,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 370,
+          "top": 76,
+          "bottom": 696.859375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 370,
+          "top": 744.859375,
+          "bottom": 1099.515625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 744.859375,
+              "bottom": 774.546875,
+              "nextTop": 798.546875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 370,
+          "top": 1147.515625,
+          "bottom": 1775.203125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1147.515625,
+              "bottom": 1177.203125,
+              "nextTop": 1201.203125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 370,
+          "top": 1823.203125,
+          "bottom": 1928.203125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 370,
+          "top": 1976.203125,
+          "bottom": 2307.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1976.203125,
+              "bottom": 2005.890625,
+              "nextTop": 2029.890625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 370,
+          "top": 2355.265625,
+          "bottom": 2530.953125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2355.265625,
+              "bottom": 2384.953125,
+              "nextTop": 2408.953125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 370,
+        "top": 2578.953125,
+        "bottom": 2695.75
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 320,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 300,
+          "top": 76,
+          "bottom": 712.484375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 300,
+          "top": 760.484375,
+          "bottom": 1065.921875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 760.484375,
+              "bottom": 790.171875,
+              "nextTop": 814.171875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 300,
+          "top": 1113.921875,
+          "bottom": 1825.296875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1113.921875,
+              "bottom": 1173.296875,
+              "nextTop": 1197.296875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 300,
+          "top": 1873.296875,
+          "bottom": 1978.296875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 300,
+          "top": 2026.296875,
+          "bottom": 2357.359375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2026.296875,
+              "bottom": 2055.984375,
+              "nextTop": 2079.984375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 300,
+          "top": 2405.359375,
+          "bottom": 2581.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2405.359375,
+              "bottom": 2435.046875,
+              "nextTop": 2459.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 300,
+        "top": 2629.046875,
+        "bottom": 2745.84375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 1440,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 200,
+          "right": 1240,
+          "top": 88,
+          "bottom": 1092.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 200,
+          "right": 1240,
+          "top": 1156.984375,
+          "bottom": 1983.46875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 1156.984375,
+              "bottom": 1194.78125,
+              "nextTop": 1218.78125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 200,
+          "right": 1240,
+          "top": 2047.46875,
+          "bottom": 2287.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2047.46875,
+              "bottom": 2085.265625,
+              "nextTop": 2109.265625
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 200,
+          "right": 1240,
+          "top": 2351.265625,
+          "bottom": 2456.265625,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 200,
+          "right": 1240,
+          "top": 2520.265625,
+          "bottom": 2834.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2520.265625,
+              "bottom": 2558.0625,
+              "nextTop": 2582.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 200,
+          "right": 1240,
+          "top": 2898.25,
+          "bottom": 3055.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2898.25,
+              "bottom": 2936.046875,
+              "nextTop": 2960.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 200,
+        "right": 1240,
+        "top": 3119.046875,
+        "bottom": 3223.046875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 1024,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 992,
+          "top": 88,
+          "bottom": 1045.9375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 992,
+          "top": 1109.9375,
+          "bottom": 1872.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1109.9375,
+              "bottom": 1140.34375,
+              "nextTop": 1164.34375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 992,
+          "top": 1936.78125,
+          "bottom": 2196.1875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1936.78125,
+              "bottom": 1967.1875,
+              "nextTop": 1991.1875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 992,
+          "top": 2260.1875,
+          "bottom": 2365.1875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 992,
+          "top": 2429.1875,
+          "bottom": 2735.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2429.1875,
+              "bottom": 2459.59375,
+              "nextTop": 2483.59375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 992,
+          "top": 2799.78125,
+          "bottom": 2949.1875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2799.78125,
+              "bottom": 2830.1875,
+              "nextTop": 2854.1875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 992,
+        "top": 3013.1875,
+        "bottom": 3117.1875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 768,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 736,
+          "top": 88,
+          "bottom": 896.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 736,
+          "top": 960.984375,
+          "bottom": 1543.109375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 960.984375,
+              "bottom": 990.671875,
+              "nextTop": 1014.671875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 736,
+          "top": 1607.109375,
+          "bottom": 2036.796875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 1607.109375,
+              "bottom": 1636.796875,
+              "nextTop": 1660.796875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 736,
+          "top": 2100.796875,
+          "bottom": 2205.796875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 736,
+          "top": 2269.796875,
+          "bottom": 2575.671875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2269.796875,
+              "bottom": 2299.484375,
+              "nextTop": 2323.484375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 736,
+          "top": 2639.671875,
+          "bottom": 2788.359375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2639.671875,
+              "bottom": 2669.359375,
+              "nextTop": 2693.359375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 736,
+        "top": 2852.359375,
+        "bottom": 2956.359375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 640,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 620,
+          "top": 76,
+          "bottom": 817.6875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 620,
+          "top": 865.6875,
+          "bottom": 1374.6875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 865.6875,
+              "bottom": 895.375,
+              "nextTop": 919.375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 620,
+          "top": 1422.6875,
+          "bottom": 1906.375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 1422.6875,
+              "bottom": 1452.375,
+              "nextTop": 1476.375
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 620,
+          "top": 1954.375,
+          "bottom": 2059.375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 620,
+          "top": 2107.375,
+          "bottom": 2413.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2107.375,
+              "bottom": 2137.0625,
+              "nextTop": 2161.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 620,
+          "top": 2461.25,
+          "bottom": 2609.9375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2461.25,
+              "bottom": 2490.9375,
+              "nextTop": 2514.9375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 620,
+        "top": 2657.9375,
+        "bottom": 2774.734375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 390,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 370,
+          "top": 76,
+          "bottom": 696.859375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 370,
+          "top": 744.859375,
+          "bottom": 1099.515625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 744.859375,
+              "bottom": 774.546875,
+              "nextTop": 798.546875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 370,
+          "top": 1147.515625,
+          "bottom": 1775.203125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1147.515625,
+              "bottom": 1177.203125,
+              "nextTop": 1201.203125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 370,
+          "top": 1823.203125,
+          "bottom": 1928.203125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 370,
+          "top": 1976.203125,
+          "bottom": 2307.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1976.203125,
+              "bottom": 2005.890625,
+              "nextTop": 2029.890625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 370,
+          "top": 2355.265625,
+          "bottom": 2530.953125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2355.265625,
+              "bottom": 2384.953125,
+              "nextTop": 2408.953125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 370,
+        "top": 2578.953125,
+        "bottom": 2695.75
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 320,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 300,
+          "top": 76,
+          "bottom": 712.484375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 300,
+          "top": 760.484375,
+          "bottom": 1065.921875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 760.484375,
+              "bottom": 790.171875,
+              "nextTop": 814.171875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 300,
+          "top": 1113.921875,
+          "bottom": 1825.296875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1113.921875,
+              "bottom": 1173.296875,
+              "nextTop": 1197.296875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 300,
+          "top": 1873.296875,
+          "bottom": 1978.296875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 300,
+          "top": 2026.296875,
+          "bottom": 2357.359375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2026.296875,
+              "bottom": 2055.984375,
+              "nextTop": 2079.984375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 300,
+          "top": 2405.359375,
+          "bottom": 2581.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2405.359375,
+              "bottom": 2435.046875,
+              "nextTop": 2459.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 300,
+        "top": 2629.046875,
+        "bottom": 2745.84375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 1440,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 200,
+          "right": 1240,
+          "top": 88,
+          "bottom": 1092.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 200,
+          "right": 1240,
+          "top": 1156.984375,
+          "bottom": 1983.46875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 1156.984375,
+              "bottom": 1194.78125,
+              "nextTop": 1218.78125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 200,
+          "right": 1240,
+          "top": 2047.46875,
+          "bottom": 2314.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2047.46875,
+              "bottom": 2085.265625,
+              "nextTop": 2109.265625
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 200,
+          "right": 1240,
+          "top": 2378.265625,
+          "bottom": 2483.265625,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 200,
+          "right": 1240,
+          "top": 2547.265625,
+          "bottom": 2861.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2547.265625,
+              "bottom": 2585.0625,
+              "nextTop": 2609.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 200,
+          "right": 1240,
+          "top": 2925.25,
+          "bottom": 3082.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2925.25,
+              "bottom": 2963.046875,
+              "nextTop": 2987.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 200,
+        "right": 1240,
+        "top": 3146.046875,
+        "bottom": 3250.046875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 1024,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 992,
+          "top": 88,
+          "bottom": 1045.9375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 992,
+          "top": 1109.9375,
+          "bottom": 1872.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1109.9375,
+              "bottom": 1140.34375,
+              "nextTop": 1164.34375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 992,
+          "top": 1936.78125,
+          "bottom": 2223.1875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1936.78125,
+              "bottom": 1967.1875,
+              "nextTop": 1991.1875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 992,
+          "top": 2287.1875,
+          "bottom": 2392.1875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 992,
+          "top": 2456.1875,
+          "bottom": 2762.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2456.1875,
+              "bottom": 2486.59375,
+              "nextTop": 2510.59375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 992,
+          "top": 2826.78125,
+          "bottom": 2976.1875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2826.78125,
+              "bottom": 2857.1875,
+              "nextTop": 2881.1875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 992,
+        "top": 3040.1875,
+        "bottom": 3144.1875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 768,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 736,
+          "top": 88,
+          "bottom": 896.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 736,
+          "top": 960.984375,
+          "bottom": 1543.109375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 960.984375,
+              "bottom": 990.671875,
+              "nextTop": 1014.671875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 736,
+          "top": 1607.109375,
+          "bottom": 2090.796875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 1607.109375,
+              "bottom": 1636.796875,
+              "nextTop": 1660.796875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 736,
+          "top": 2154.796875,
+          "bottom": 2259.796875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 736,
+          "top": 2323.796875,
+          "bottom": 2629.671875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2323.796875,
+              "bottom": 2353.484375,
+              "nextTop": 2377.484375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 736,
+          "top": 2693.671875,
+          "bottom": 2869.359375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2693.671875,
+              "bottom": 2723.359375,
+              "nextTop": 2747.359375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 736,
+        "top": 2933.359375,
+        "bottom": 3037.359375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 640,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 620,
+          "top": 76,
+          "bottom": 817.6875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 620,
+          "top": 865.6875,
+          "bottom": 1374.6875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 865.6875,
+              "bottom": 895.375,
+              "nextTop": 919.375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 620,
+          "top": 1422.6875,
+          "bottom": 1960.375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 1422.6875,
+              "bottom": 1452.375,
+              "nextTop": 1476.375
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 620,
+          "top": 2008.375,
+          "bottom": 2113.375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 620,
+          "top": 2161.375,
+          "bottom": 2467.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2161.375,
+              "bottom": 2191.0625,
+              "nextTop": 2215.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 620,
+          "top": 2515.25,
+          "bottom": 2690.9375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2515.25,
+              "bottom": 2544.9375,
+              "nextTop": 2568.9375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 620,
+        "top": 2738.9375,
+        "bottom": 2855.734375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 390,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 370,
+          "top": 76,
+          "bottom": 723.859375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 370,
+          "top": 771.859375,
+          "bottom": 1126.515625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 771.859375,
+              "bottom": 801.546875,
+              "nextTop": 825.546875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 370,
+          "top": 1174.515625,
+          "bottom": 1856.203125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1174.515625,
+              "bottom": 1204.203125,
+              "nextTop": 1228.203125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 370,
+          "top": 1904.203125,
+          "bottom": 2009.203125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 370,
+          "top": 2057.203125,
+          "bottom": 2388.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2057.203125,
+              "bottom": 2086.890625,
+              "nextTop": 2110.890625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 370,
+          "top": 2436.265625,
+          "bottom": 2638.953125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2436.265625,
+              "bottom": 2465.953125,
+              "nextTop": 2489.953125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 370,
+        "top": 2686.953125,
+        "bottom": 2803.75
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 320,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 300,
+          "top": 76,
+          "bottom": 788.28125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 300,
+          "top": 836.28125,
+          "bottom": 1163.15625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 836.28125,
+              "bottom": 865.96875,
+              "nextTop": 889.96875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 300,
+          "top": 1211.15625,
+          "bottom": 2003.53125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1211.15625,
+              "bottom": 1270.53125,
+              "nextTop": 1294.53125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 300,
+          "top": 2051.53125,
+          "bottom": 2156.53125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 300,
+          "top": 2204.53125,
+          "bottom": 2555.59375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2204.53125,
+              "bottom": 2234.21875,
+              "nextTop": 2258.21875
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 300,
+          "top": 2603.59375,
+          "bottom": 2806.28125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2603.59375,
+              "bottom": 2633.28125,
+              "nextTop": 2657.28125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 300,
+        "top": 2854.28125,
+        "bottom": 2971.078125
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 1440,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 200,
+          "right": 1240,
+          "top": 88,
+          "bottom": 1092.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 200,
+          "right": 1240,
+          "top": 1156.984375,
+          "bottom": 1983.46875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 1156.984375,
+              "bottom": 1194.78125,
+              "nextTop": 1218.78125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 200,
+          "right": 1240,
+          "top": 2047.46875,
+          "bottom": 2314.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2047.46875,
+              "bottom": 2085.265625,
+              "nextTop": 2109.265625
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 200,
+          "right": 1240,
+          "top": 2378.265625,
+          "bottom": 2483.265625,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 200,
+          "right": 1240,
+          "top": 2547.265625,
+          "bottom": 2861.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2547.265625,
+              "bottom": 2585.0625,
+              "nextTop": 2609.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 200,
+          "right": 1240,
+          "top": 2925.25,
+          "bottom": 3082.046875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2925.25,
+              "bottom": 2963.046875,
+              "nextTop": 2987.046875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 200,
+        "right": 1240,
+        "top": 3146.046875,
+        "bottom": 3250.046875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 1024,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 992,
+          "top": 88,
+          "bottom": 1045.9375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 992,
+          "top": 1109.9375,
+          "bottom": 1872.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1109.9375,
+              "bottom": 1140.34375,
+              "nextTop": 1164.34375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 992,
+          "top": 1936.78125,
+          "bottom": 2196.1875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 1936.78125,
+              "bottom": 1967.1875,
+              "nextTop": 1991.1875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 992,
+          "top": 2260.1875,
+          "bottom": 2365.1875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 992,
+          "top": 2429.1875,
+          "bottom": 2735.78125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2429.1875,
+              "bottom": 2459.59375,
+              "nextTop": 2483.59375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 992,
+          "top": 2799.78125,
+          "bottom": 2949.1875,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 992,
+              "top": 2799.78125,
+              "bottom": 2830.1875,
+              "nextTop": 2854.1875
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 992,
+        "top": 3013.1875,
+        "bottom": 3117.1875
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 768,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 32,
+          "right": 736,
+          "top": 88,
+          "bottom": 896.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 32,
+          "right": 736,
+          "top": 960.984375,
+          "bottom": 1543.109375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 960.984375,
+              "bottom": 990.671875,
+              "nextTop": 1014.671875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 32,
+          "right": 736,
+          "top": 1607.109375,
+          "bottom": 2063.796875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 1607.109375,
+              "bottom": 1636.796875,
+              "nextTop": 1660.796875
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 32,
+          "right": 736,
+          "top": 2127.796875,
+          "bottom": 2232.796875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 32,
+          "right": 736,
+          "top": 2296.796875,
+          "bottom": 2602.671875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2296.796875,
+              "bottom": 2326.484375,
+              "nextTop": 2350.484375
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 32,
+          "right": 736,
+          "top": 2666.671875,
+          "bottom": 2815.359375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 32,
+              "right": 736,
+              "top": 2666.671875,
+              "bottom": 2696.359375,
+              "nextTop": 2720.359375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 32,
+        "right": 736,
+        "top": 2879.359375,
+        "bottom": 2983.359375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 640,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 620,
+          "top": 76,
+          "bottom": 817.6875,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 620,
+          "top": 865.6875,
+          "bottom": 1374.6875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 865.6875,
+              "bottom": 895.375,
+              "nextTop": 919.375
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 620,
+          "top": 1422.6875,
+          "bottom": 1906.375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 1422.6875,
+              "bottom": 1452.375,
+              "nextTop": 1476.375
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 620,
+          "top": 1954.375,
+          "bottom": 2059.375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 620,
+          "top": 2107.375,
+          "bottom": 2413.25,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2107.375,
+              "bottom": 2137.0625,
+              "nextTop": 2161.0625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 620,
+          "top": 2461.25,
+          "bottom": 2609.9375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 620,
+              "top": 2461.25,
+              "bottom": 2490.9375,
+              "nextTop": 2514.9375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 620,
+        "top": 2657.9375,
+        "bottom": 2774.734375
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 390,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 370,
+          "top": 76,
+          "bottom": 723.859375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 370,
+          "top": 771.859375,
+          "bottom": 1126.515625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 771.859375,
+              "bottom": 801.546875,
+              "nextTop": 825.546875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 370,
+          "top": 1174.515625,
+          "bottom": 1829.203125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 1174.515625,
+              "bottom": 1204.203125,
+              "nextTop": 1228.203125
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 370,
+          "top": 1877.203125,
+          "bottom": 1982.203125,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 370,
+          "top": 2030.203125,
+          "bottom": 2361.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2030.203125,
+              "bottom": 2059.890625,
+              "nextTop": 2083.890625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 370,
+          "top": 2409.265625,
+          "bottom": 2584.953125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 2409.265625,
+              "bottom": 2438.953125,
+              "nextTop": 2462.953125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 370,
+        "top": 2632.953125,
+        "bottom": 2749.75
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 320,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 300,
+          "top": 76,
+          "bottom": 712.484375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 300,
+          "top": 760.484375,
+          "bottom": 1065.921875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 760.484375,
+              "bottom": 790.171875,
+              "nextTop": 814.171875
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 300,
+          "top": 1113.921875,
+          "bottom": 1795.609375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1113.921875,
+              "bottom": 1143.609375,
+              "nextTop": 1167.609375
+            }
+          ]
+        },
+        {
+          "id": "studio-shell product-details",
+          "left": 20,
+          "right": 300,
+          "top": 1843.609375,
+          "bottom": 1948.609375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 300,
+          "top": 1996.609375,
+          "bottom": 2347.671875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1996.609375,
+              "bottom": 2026.296875,
+              "nextTop": 2050.296875
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 300,
+          "top": 2395.671875,
+          "bottom": 2598.359375,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2395.671875,
+              "bottom": 2425.359375,
+              "nextTop": 2449.359375
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 300,
+        "top": 2646.359375,
+        "bottom": 2763.15625
+      },
+      "overflow": false
+    }
+  ],
+  "expanded": [
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 1440,
+      "chapter": 0,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 1440,
+      "chapter": 1,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 320,
+      "chapter": 0,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 320,
+      "chapter": 1,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 1440,
+      "chapter": 0,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 1440,
+      "chapter": 1,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 320,
+      "chapter": 0,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hans/",
+      "language": "zh-Hans",
+      "width": 320,
+      "chapter": 1,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 1440,
+      "chapter": 0,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 1440,
+      "chapter": 1,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 320,
+      "chapter": 0,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/zh-hant/",
+      "language": "zh-Hant",
+      "width": 320,
+      "chapter": 1,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 1440,
+      "chapter": 0,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 1440,
+      "chapter": 1,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 320,
+      "chapter": 0,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ja/",
+      "language": "ja",
+      "width": 320,
+      "chapter": 1,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 1440,
+      "chapter": 0,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 1440,
+      "chapter": 1,
+      "left": 200,
+      "right": 1240,
+      "outerLeft": 200,
+      "outerRight": 1240
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 320,
+      "chapter": 0,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/ko/",
+      "language": "ko",
+      "width": 320,
+      "chapter": 1,
+      "left": 20,
+      "right": 300,
+      "outerLeft": 20,
+      "outerRight": 300
+    }
+  ],
+  "fallback": [
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 1440,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 200,
+          "right": 1240,
+          "top": 88,
+          "bottom": 1092.984375,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 200,
+          "right": 1240,
+          "top": 1156.984375,
+          "bottom": 1983.46875,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 1156.984375,
+              "bottom": 1194.78125,
+              "nextTop": 1218.78125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 200,
+          "right": 1240,
+          "top": 2047.46875,
+          "bottom": 2341.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2047.46875,
+              "bottom": 2085.265625,
+              "nextTop": 2109.265625
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "left": 200,
+          "right": 1240,
+          "top": 2405.265625,
+          "bottom": 2672.0625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2405.265625,
+              "bottom": 2443.0625,
+              "nextTop": 2467.0625
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "left": 200,
+          "right": 1240,
+          "top": 2736.0625,
+          "bottom": 2905.859375,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2736.0625,
+              "bottom": 2773.859375,
+              "nextTop": 2797.859375
+            }
+          ]
+        },
+        {
+          "id": "faq",
+          "left": 200,
+          "right": 1240,
+          "top": 2969.859375,
+          "bottom": 3420.65625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 2969.859375,
+              "bottom": 3007.65625,
+              "nextTop": 3031.65625
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 200,
+          "right": 1240,
+          "top": 3484.65625,
+          "bottom": 3641.453125,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 200,
+              "right": 1240,
+              "top": 3484.65625,
+              "bottom": 3522.453125,
+              "nextTop": 3546.453125
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 200,
+        "right": 1240,
+        "top": 3705.453125,
+        "bottom": 3809.453125
+      },
+      "overflow": false
+    },
+    {
+      "site": "ajigu",
+      "route": "/loglift/",
+      "language": "en",
+      "width": 320,
+      "modules": [
+        {
+          "id": "hero",
+          "left": 20,
+          "right": 300,
+          "top": 146.984375,
+          "bottom": 830.265625,
+          "contentGaps": [],
+          "headings": []
+        },
+        {
+          "id": "showcase",
+          "left": 20,
+          "right": 300,
+          "top": 878.265625,
+          "bottom": 1205.140625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 878.265625,
+              "bottom": 907.953125,
+              "nextTop": 931.953125
+            }
+          ]
+        },
+        {
+          "id": "features",
+          "left": 20,
+          "right": 300,
+          "top": 1253.140625,
+          "bottom": 2126.515625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 1253.140625,
+              "bottom": 1312.515625,
+              "nextTop": 1336.515625
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "left": 20,
+          "right": 300,
+          "top": 2174.515625,
+          "bottom": 2939.890625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2174.515625,
+              "bottom": 2233.890625,
+              "nextTop": 2257.890625
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "left": 20,
+          "right": 300,
+          "top": 2987.890625,
+          "bottom": 3422.265625,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 2987.890625,
+              "bottom": 3047.265625,
+              "nextTop": 3071.265625
+            }
+          ]
+        },
+        {
+          "id": "faq",
+          "left": 20,
+          "right": 300,
+          "top": 3470.265625,
+          "bottom": 4311.953125,
+          "contentGaps": [
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 3470.265625,
+              "bottom": 3499.953125,
+              "nextTop": 3523.953125
+            }
+          ]
+        },
+        {
+          "id": "download",
+          "left": 20,
+          "right": 300,
+          "top": 4359.953125,
+          "bottom": 4562.640625,
+          "contentGaps": [
+            24,
+            24
+          ],
+          "headings": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": 4359.953125,
+              "bottom": 4389.640625,
+              "nextTop": 4413.640625
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": 20,
+        "right": 300,
+        "top": 4610.640625,
+        "bottom": 4727.4375
+      },
+      "overflow": false
+    }
+  ]
+}

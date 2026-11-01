@@ -1,0 +1,42 @@
+{
+  "browser": "ChatGPT in-app browser",
+  "entry": "http://127.0.0.1:54463/zh-hans/",
+  "cardTarget": "/loglift/zh-hans/",
+  "desktop": {
+    "frameworkOverlays": 0,
+    "h1": 1,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/studio/icons/loglift.webp",
+        "width": 256
+      },
+      {
+        "loaded": true,
+        "src": "/studio/products/loglift-mockup.webp",
+        "width": 1600
+      },
+      {
+        "loaded": true,
+        "src": "/studio/screens/loglift-home.webp",
+        "width": 2560
+      }
+    ],
+    "language": "zh-Hans",
+    "mainTextLength": 590,
+    "overflow": false,
+    "release": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+    "title": "LogLift — 在 Mac 本地将 DJI Log 转为 Rec.709",
+    "url": "http://127.0.0.1:54463/loglift/zh-hans/"
+  },
+  "languageSwitch": "/loglift/ja/",
+  "expandedWorkflow": "true",
+  "mobile": {
+    "frameworkOverlays": 0,
+    "heading": "LogLift",
+    "language": "zh-Hans",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "consoleLogs": []
+}

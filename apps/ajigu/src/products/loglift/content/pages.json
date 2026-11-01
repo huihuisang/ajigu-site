@@ -1,0 +1,1347 @@
+[
+  {
+    "route": "/loglift/",
+    "locale": "en",
+    "metadata": {
+      "title": "LogLift — Local DJI Log to Rec.709 for Mac",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. macOS 14+ preview."
+        },
+        {
+          "property": "og:title",
+          "content": "LogLift — Local DJI Log to Rec.709 for Mac"
+        },
+        {
+          "property": "og:description",
+          "content": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. macOS 14+ preview."
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/loglift/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/loglift.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/loglift/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/loglift/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/loglift/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "LogLift",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "macOS 14 or later",
+          "softwareVersion": "0.1.0 Preview",
+          "description": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. macOS 14+ preview.",
+          "inLanguage": ["en", "zh-Hans", "ja", "ko"],
+          "url": "https://ajigu.com/loglift/",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "image": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "en",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Are my videos uploaded?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Video processing runs locally on your Mac. You choose the source clips and export folder."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does every DJI camera or Log profile work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Only supported 3D technical Log-to-Rec.709 transforms can be selected for conversion. Choose the matching model and recording profile explicitly. HLG and PQ footage are not supported."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will my original files be replaced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Exports use new files and do not replace existing destination files. Keep your originals: the converted video is a lossy re-encode, and auxiliary camera metadata is not retained."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What version and languages are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The download is 0.1.0 Preview for macOS 14 or later, with Apple Silicon and Intel binaries. The app provides English, Simplified Chinese, Japanese, and Korean. The preview still needs clean-system and Intel hardware acceptance testing."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/loglift/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/loglift/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/loglift/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/loglift/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/loglift/ko/"
+      }
+    ],
+    "heading": "LogLift",
+    "claim": "From DJI Log to Rec.709. On your Mac.",
+    "intro": "Choose the matching camera and recording profile, compare the result, and export a batch. Video processing stays on your Mac.",
+    "actions": [
+      {
+        "label": "Download Preview",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "external": true
+      },
+      {
+        "label": "View source",
+        "href": "https://github.com/huihuisang/DJI-LogLift",
+        "external": true
+      }
+    ],
+    "note": "0.1.0 Preview · macOS 14 or later · Universal build. Independent project; not affiliated with or endorsed by DJI.",
+    "showcaseTitle": "Start with your camera",
+    "previewAlt": "LogLift home with camera categories, camera search, and a grid of DJI camera models",
+    "previewCaption": "The native LogLift home, captured from version 0.1.0 (1). The app is shown in Simplified Chinese.",
+    "mainId": "main",
+    "sections": [
+      {
+        "id": "features",
+        "title": "A clear path from Log to Rec.709",
+        "items": [
+          {
+            "title": "Match your recording profile",
+            "body": "<p>Choose your camera and the profile used to record the clip. LogLift applies supported 3D technical Log-to-Rec.709 LUTs; it does not guess the encoding from a filename.</p>"
+          },
+          {
+            "title": "Compare before exporting",
+            "body": "<p>View the original and converted video with synchronized playback. Check the selected transform on your own footage before committing to a batch.</p>"
+          },
+          {
+            "title": "Export a batch locally",
+            "body": "<p>Import multiple clips and export HEVC Main10 video on your Mac. Keep source resolution, timestamps, display transform, and supported compressed audio.</p>"
+          }
+        ]
+      },
+      {
+        "id": "workflow",
+        "title": "From camera selection to export",
+        "items": [
+          {
+            "title": "1. Choose a camera and profile",
+            "body": "<p>Start in the camera gallery. Select a supported model and the Log recording profile that matches your footage.</p>"
+          },
+          {
+            "title": "2. Import and compare",
+            "body": "<p>Add your clips and compare the original with the selected Rec.709 transform. Confirm the result before export.</p>"
+          },
+          {
+            "title": "3. Choose a folder and export",
+            "body": "<p>Select an export folder and start the batch. LogLift writes new files and reports completion; existing destination files are not replaced.</p>"
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Check your source before converting",
+        "body": "<p>The preview supports one video track and at most one audio track. HLG and PQ inputs are rejected. Creative LUTs, HDR transforms, and other unsupported transforms are not enabled for conversion. Export is a lossy re-encode: ten-bit output does not add precision to an eight-bit source. Auxiliary camera, gyro, and timecode metadata are not copied. Test a short clip before a long batch; camera-specific color accuracy and Intel execution are not established by this preview.</p>"
+      },
+      {
+        "id": "faq",
+        "title": "Questions before you start",
+        "questions": [
+          {
+            "question": "Are my videos uploaded?",
+            "answer": "<p>Video processing runs locally on your Mac. You choose the source clips and export folder.</p>"
+          },
+          {
+            "question": "Does every DJI camera or Log profile work?",
+            "answer": "<p>Only supported 3D technical Log-to-Rec.709 transforms can be selected for conversion. Choose the matching model and recording profile explicitly. HLG and PQ footage are not supported.</p>"
+          },
+          {
+            "question": "Will my original files be replaced?",
+            "answer": "<p>Exports use new files and do not replace existing destination files. Keep your originals: the converted video is a lossy re-encode, and auxiliary camera metadata is not retained.</p>"
+          },
+          {
+            "question": "What version and languages are available?",
+            "answer": "<p>The download is 0.1.0 Preview for macOS 14 or later, with Apple Silicon and Intel binaries. The app provides English, Simplified Chinese, Japanese, and Korean. The preview still needs clean-system and Intel hardware acceptance testing.</p>"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "Try LogLift Preview",
+        "body": "<p>Open the release page for the disk image, installation steps, checksums, and known preview limits.</p>",
+        "links": [
+          {
+            "label": "Download Preview",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "Release notes"
+      },
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
+        "label": "Source and license"
+      }
+    ]
+  },
+  {
+    "route": "/loglift/zh-hans/",
+    "locale": "zh-Hans",
+    "metadata": {
+      "title": "LogLift — 在 Mac 本地将 DJI Log 转为 Rec.709",
+      "meta": [
+        {
+          "name": "description",
+          "content": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本，当前为预览版。"
+        },
+        {
+          "property": "og:title",
+          "content": "LogLift — 在 Mac 本地将 DJI Log 转为 Rec.709"
+        },
+        {
+          "property": "og:description",
+          "content": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本，当前为预览版。"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_CN"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/loglift.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/loglift/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/loglift/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "LogLift",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "macOS 14 or later",
+          "softwareVersion": "0.1.0 Preview",
+          "description": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本，当前为预览版。",
+          "inLanguage": ["en", "zh-Hans", "ja", "ko"],
+          "url": "https://ajigu.com/loglift/zh-hans/",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "image": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "zh-Hans",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "视频会上传吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "视频处理在你的 Mac 本地完成。源片段与导出文件夹都由你选择。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "所有 DJI 相机与 Log 模式都能用吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "只有支持的三维技术 Log-to-Rec.709 变换可以用于转换。请明确选择与素材对应的机型和录制模式；不支持 HLG 与 PQ 素材。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "会覆盖原始文件吗？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "导出创建新文件，不覆盖已有目标文件。请保留原始素材：转换视频属于有损重新编码，也不会保留相机附加元数据。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "目前提供什么版本和语言？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "下载为 macOS 14 及以上版本使用的 0.1.0 预览版，包含 Apple Silicon 和 Intel 二进制文件。应用支持英语、简体中文、日语和韩语；全新系统与 Intel 实机验收仍待完成。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/loglift/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/loglift/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/loglift/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/loglift/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/loglift/ko/"
+      }
+    ],
+    "heading": "LogLift",
+    "claim": "DJI Log 转 Rec.709，在 Mac 本地完成。",
+    "intro": "选好对应的相机与录制模式，对比转换效果，再批量导出。视频处理始终在你的 Mac 上完成。",
+    "actions": [
+      {
+        "label": "下载预览版",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "external": true
+      },
+      {
+        "label": "查看源码",
+        "href": "https://github.com/huihuisang/DJI-LogLift",
+        "external": true
+      }
+    ],
+    "note": "0.1.0 预览版 · macOS 14 及以上 · 通用构建。独立项目，与 DJI 无隶属或背书关系。",
+    "showcaseTitle": "从你的相机开始",
+    "previewAlt": "LogLift 首页：相机分类、相机搜索与 DJI 机型选择画廊",
+    "previewCaption": "LogLift 原生首页，采集自 0.1.0（1）版本，界面语言为简体中文。",
+    "mainId": "main",
+    "sections": [
+      {
+        "id": "features",
+        "title": "从 Log 到 Rec.709，每一步都清楚",
+        "items": [
+          {
+            "title": "匹配录制模式",
+            "body": "<p>选择相机与拍摄时使用的录制模式，应用支持的三维技术 Log-to-Rec.709 LUT。不会仅凭文件名猜测素材的编码方式。</p>"
+          },
+          {
+            "title": "导出前先对比",
+            "body": "<p>原始视频与转换结果同步播放。先用自己的素材确认所选转换效果，再决定是否批量导出。</p>"
+          },
+          {
+            "title": "在本地批量导出",
+            "body": "<p>一次导入多个片段，在 Mac 上导出 HEVC Main10 视频。保留源分辨率、时间戳、显示变换与受支持的压缩音频。</p>"
+          }
+        ]
+      },
+      {
+        "id": "workflow",
+        "title": "从选择相机到完成导出",
+        "items": [
+          {
+            "title": "1. 选择相机与模式",
+            "body": "<p>从相机画廊中选择支持的机型，再选择与素材一致的 Log 录制模式。</p>"
+          },
+          {
+            "title": "2. 导入并对比",
+            "body": "<p>添加视频片段，同步查看原始画面与所选 Rec.709 转换结果，确认后再导出。</p>"
+          },
+          {
+            "title": "3. 选择文件夹并导出",
+            "body": "<p>选好导出位置并启动批处理。LogLift 创建新文件、报告完成状态，不覆盖已有目标文件。</p>"
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "转换前，先确认素材",
+        "body": "<p>当前预览版支持一个视频轨道及最多一个音频轨道，拒绝 HLG 与 PQ 输入。创意 LUT、HDR 及其他不支持的变换不会开放用于转换。导出属于有损重新编码，十位输出不会增加八位源素材的精度；相机附加信息、陀螺仪与时间码元数据不会复制。长批次前请先测试短片段；当前预览版尚未确立各机型的色彩准确度，也未完成 Intel 实机执行验收。</p>"
+      },
+      {
+        "id": "faq",
+        "title": "开始之前，你可能想知道",
+        "questions": [
+          {
+            "question": "视频会上传吗？",
+            "answer": "<p>视频处理在你的 Mac 本地完成。源片段与导出文件夹都由你选择。</p>"
+          },
+          {
+            "question": "所有 DJI 相机与 Log 模式都能用吗？",
+            "answer": "<p>只有支持的三维技术 Log-to-Rec.709 变换可以用于转换。请明确选择与素材对应的机型和录制模式；不支持 HLG 与 PQ 素材。</p>"
+          },
+          {
+            "question": "会覆盖原始文件吗？",
+            "answer": "<p>导出创建新文件，不覆盖已有目标文件。请保留原始素材：转换视频属于有损重新编码，也不会保留相机附加元数据。</p>"
+          },
+          {
+            "question": "目前提供什么版本和语言？",
+            "answer": "<p>下载为 macOS 14 及以上版本使用的 0.1.0 预览版，包含 Apple Silicon 和 Intel 二进制文件。应用支持英语、简体中文、日语和韩语；全新系统与 Intel 实机验收仍待完成。</p>"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "试用 LogLift 预览版",
+        "body": "<p>前往发布页获取磁盘映像、安装步骤、校验值与当前预览版的已知限制。</p>",
+        "links": [
+          {
+            "label": "下载预览版",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "发布说明"
+      },
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
+        "label": "源码与许可证"
+      }
+    ]
+  },
+  {
+    "route": "/loglift/zh-hant/",
+    "locale": "zh-Hant",
+    "metadata": {
+      "title": "LogLift — 在 Mac 本機將 DJI Log 轉為 Rec.709",
+      "meta": [
+        {
+          "name": "description",
+          "content": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本，目前為預覽版。"
+        },
+        {
+          "property": "og:title",
+          "content": "LogLift — 在 Mac 本機將 DJI Log 轉為 Rec.709"
+        },
+        {
+          "property": "og:description",
+          "content": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本，目前為預覽版。"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_TW"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/loglift.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/loglift/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/loglift/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "LogLift",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "macOS 14 or later",
+          "softwareVersion": "0.1.0 Preview",
+          "description": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本，目前為預覽版。",
+          "inLanguage": ["en", "zh-Hans", "ja", "ko"],
+          "url": "https://ajigu.com/loglift/zh-hant/",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "image": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "zh-Hant",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "影片會上傳嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "影片處理在你的 Mac 本機完成。來源片段與輸出資料夾都由你選擇。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "所有 DJI 相機與 Log 模式都能使用嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "只有支援的三維技術 Log-to-Rec.709 轉換可以使用。請明確選擇與素材對應的機型和錄製模式；不支援 HLG 與 PQ 素材。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "會覆寫原始檔案嗎？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "輸出建立新檔案，不覆寫既有目標檔案。請保留原始素材：轉換影片屬於有損重新編碼，也不會保留相機附加中繼資料。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "目前提供什麼版本和語言？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "下載為 macOS 14 以上版本使用的 0.1.0 預覽版，包含 Apple Silicon 和 Intel 執行檔。應用程式支援英語、簡體中文、日語和韓語；全新系統與 Intel 實機驗收仍待完成。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/loglift/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/loglift/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/loglift/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/loglift/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/loglift/ko/"
+      }
+    ],
+    "heading": "LogLift",
+    "claim": "DJI Log 轉 Rec.709，在 Mac 本機完成。",
+    "intro": "選好對應的相機與錄製模式，比較轉換效果，再批次輸出。影片處理始終在你的 Mac 上完成。",
+    "actions": [
+      {
+        "label": "下載預覽版",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "external": true
+      },
+      {
+        "label": "檢視原始碼",
+        "href": "https://github.com/huihuisang/DJI-LogLift",
+        "external": true
+      }
+    ],
+    "note": "0.1.0 預覽版 · macOS 14 以上 · 通用組建。獨立專案，與 DJI 無隸屬或背書關係。",
+    "showcaseTitle": "從你的相機開始",
+    "previewAlt": "LogLift 首頁：相機分類、相機搜尋與 DJI 機型選擇圖庫",
+    "previewCaption": "LogLift 原生首頁，擷取自 0.1.0（1）版本，介面語言為簡體中文。",
+    "mainId": "main",
+    "sections": [
+      {
+        "id": "features",
+        "title": "從 Log 到 Rec.709，每一步都清楚",
+        "items": [
+          {
+            "title": "對應錄製模式",
+            "body": "<p>選擇相機與拍攝時使用的錄製模式，套用支援的三維技術 Log-to-Rec.709 LUT。不會只憑檔名猜測素材的編碼方式。</p>"
+          },
+          {
+            "title": "輸出前先比較",
+            "body": "<p>原始影片與轉換結果同步播放。先用自己的素材確認所選轉換效果，再決定是否批次輸出。</p>"
+          },
+          {
+            "title": "在本機批次輸出",
+            "body": "<p>一次匯入多個片段，在 Mac 上輸出 HEVC Main10 影片。保留來源解析度、時間戳記、顯示轉換與支援的壓縮音訊。</p>"
+          }
+        ]
+      },
+      {
+        "id": "workflow",
+        "title": "從選擇相機到完成輸出",
+        "items": [
+          {
+            "title": "1. 選擇相機與模式",
+            "body": "<p>從相機圖庫選擇支援的機型，再選擇與素材一致的 Log 錄製模式。</p>"
+          },
+          {
+            "title": "2. 匯入並比較",
+            "body": "<p>加入影片片段，同步檢視原始畫面與所選 Rec.709 轉換結果，確認後再輸出。</p>"
+          },
+          {
+            "title": "3. 選擇資料夾並輸出",
+            "body": "<p>選好輸出位置並啟動批次處理。LogLift 建立新檔案、回報完成狀態，不覆寫既有目標檔案。</p>"
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "轉換前，先確認素材",
+        "body": "<p>目前預覽版支援一個影片軌道及最多一個音訊軌道，拒絕 HLG 與 PQ 輸入。創意 LUT、HDR 及其他不支援的轉換不會開放使用。輸出屬於有損重新編碼，十位元輸出不會增加八位元來源素材的精度；相機附加資訊、陀螺儀與時間碼中繼資料不會複製。長批次前請先測試短片段；目前預覽版尚未確立各機型的色彩準確度，也未完成 Intel 實機執行驗收。</p>"
+      },
+      {
+        "id": "faq",
+        "title": "開始之前，你可能想知道",
+        "questions": [
+          {
+            "question": "影片會上傳嗎？",
+            "answer": "<p>影片處理在你的 Mac 本機完成。來源片段與輸出資料夾都由你選擇。</p>"
+          },
+          {
+            "question": "所有 DJI 相機與 Log 模式都能使用嗎？",
+            "answer": "<p>只有支援的三維技術 Log-to-Rec.709 轉換可以使用。請明確選擇與素材對應的機型和錄製模式；不支援 HLG 與 PQ 素材。</p>"
+          },
+          {
+            "question": "會覆寫原始檔案嗎？",
+            "answer": "<p>輸出建立新檔案，不覆寫既有目標檔案。請保留原始素材：轉換影片屬於有損重新編碼，也不會保留相機附加中繼資料。</p>"
+          },
+          {
+            "question": "目前提供什麼版本和語言？",
+            "answer": "<p>下載為 macOS 14 以上版本使用的 0.1.0 預覽版，包含 Apple Silicon 和 Intel 執行檔。應用程式支援英語、簡體中文、日語和韓語；全新系統與 Intel 實機驗收仍待完成。</p>"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "試用 LogLift 預覽版",
+        "body": "<p>前往發佈頁取得磁碟映像、安裝步驟、校驗值與目前預覽版的已知限制。</p>",
+        "links": [
+          {
+            "label": "下載預覽版",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "發佈說明"
+      },
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
+        "label": "原始碼與授權條款"
+      }
+    ]
+  },
+  {
+    "route": "/loglift/ja/",
+    "locale": "ja",
+    "metadata": {
+      "title": "LogLift — MacでDJI LogをRec.709に変換",
+      "meta": [
+        {
+          "name": "description",
+          "content": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降向けプレビュー版。"
+        },
+        {
+          "property": "og:title",
+          "content": "LogLift — MacでDJI LogをRec.709に変換"
+        },
+        {
+          "property": "og:description",
+          "content": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降向けプレビュー版。"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja_JP"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/loglift.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/loglift/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/loglift/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "LogLift",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "macOS 14 or later",
+          "softwareVersion": "0.1.0 Preview",
+          "description": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降向けプレビュー版。",
+          "inLanguage": ["en", "zh-Hans", "ja", "ko"],
+          "url": "https://ajigu.com/loglift/ja/",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "image": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "ja",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "映像はアップロードされますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "映像処理はMac内で実行されます。元のクリップと書き出し先は自分で選択します。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "すべてのDJIカメラやLog形式に対応しますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "対応する3D技術Log-to-Rec.709変換のみ利用できます。素材に合うモデルと記録プロファイルを明示的に選択してください。HLGとPQ映像には対応していません。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "元のファイルは上書きされますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "新しいファイルに書き出し、既存の出力先は上書きしません。元の素材は保管してください。変換は非可逆で、カメラ固有の追加メタデータは保持しません。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "バージョンと言語は？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "macOS 14以降向けの0.1.0プレビュー版で、Apple SiliconとIntelのバイナリを含みます。アプリは英語、簡体字中国語、日本語、韓国語に対応します。クリーンなシステムとIntel実機での受け入れテストは未完了です。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/loglift/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/loglift/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/loglift/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/loglift/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/loglift/ko/"
+      }
+    ],
+    "heading": "LogLift",
+    "claim": "DJI LogからRec.709へ。Macの中で。",
+    "intro": "撮影に使ったカメラと記録プロファイルを選び、変換結果を比較して一括書き出し。映像処理はMac内で完結します。",
+    "actions": [
+      {
+        "label": "プレビュー版をダウンロード",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "external": true
+      },
+      {
+        "label": "ソースを見る",
+        "href": "https://github.com/huihuisang/DJI-LogLift",
+        "external": true
+      }
+    ],
+    "note": "0.1.0 プレビュー版 · macOS 14以降 · ユニバーサルビルド。DJIとは提携していない独立プロジェクトです。",
+    "showcaseTitle": "まずはカメラを選択",
+    "previewAlt": "カメラ分類、検索、DJIカメラの一覧があるLogLiftのホーム画面",
+    "previewCaption": "バージョン0.1.0（1）から撮影したLogLiftのホーム画面。アプリの表示言語は簡体字中国語です。",
+    "mainId": "main",
+    "sections": [
+      {
+        "id": "features",
+        "title": "LogからRec.709まで、迷わずに",
+        "items": [
+          {
+            "title": "記録プロファイルを合わせる",
+            "body": "<p>カメラと撮影時の記録プロファイルを選択し、対応する3D技術Log-to-Rec.709 LUTを適用します。ファイル名だけで映像の符号化方式を推測しません。</p>"
+          },
+          {
+            "title": "書き出す前に比較",
+            "body": "<p>元の映像と変換後の映像を同期再生します。自分の素材で変換結果を確認してから、一括書き出しに進めます。</p>"
+          },
+          {
+            "title": "Mac内で一括書き出し",
+            "body": "<p>複数のクリップを読み込み、HEVC Main10形式で書き出します。元の解像度、タイムスタンプ、表示変換、対応する圧縮音声を保持します。</p>"
+          }
+        ]
+      },
+      {
+        "id": "workflow",
+        "title": "カメラ選択から書き出しまで",
+        "items": [
+          {
+            "title": "1. カメラとプロファイルを選ぶ",
+            "body": "<p>カメラ一覧から対応モデルを選び、素材に合うLog記録プロファイルを選択します。</p>"
+          },
+          {
+            "title": "2. 読み込んで比較する",
+            "body": "<p>クリップを追加し、元の映像と選択したRec.709変換の結果を同期して確認します。</p>"
+          },
+          {
+            "title": "3. 保存先を選んで書き出す",
+            "body": "<p>保存先フォルダを選んで一括処理を開始します。新しいファイルを作成して完了を通知し、既存の出力ファイルは上書きしません。</p>"
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "変換前に素材を確認",
+        "body": "<p>現在のプレビュー版は映像1トラックと音声最大1トラックに対応し、HLGとPQ入力は受け付けません。クリエイティブLUT、HDRなど未対応の変換は利用できません。書き出しは非可逆の再エンコードです。10ビット出力で8ビット素材の精度は増えません。カメラ固有情報、ジャイロ、タイムコードのメタデータはコピーしません。長いバッチの前に短いクリップで試してください。各カメラの色精度とIntel実機での動作は、このプレビューでは検証されていません。</p>"
+      },
+      {
+        "id": "faq",
+        "title": "使い始める前に",
+        "questions": [
+          {
+            "question": "映像はアップロードされますか？",
+            "answer": "<p>映像処理はMac内で実行されます。元のクリップと書き出し先は自分で選択します。</p>"
+          },
+          {
+            "question": "すべてのDJIカメラやLog形式に対応しますか？",
+            "answer": "<p>対応する3D技術Log-to-Rec.709変換のみ利用できます。素材に合うモデルと記録プロファイルを明示的に選択してください。HLGとPQ映像には対応していません。</p>"
+          },
+          {
+            "question": "元のファイルは上書きされますか？",
+            "answer": "<p>新しいファイルに書き出し、既存の出力先は上書きしません。元の素材は保管してください。変換は非可逆で、カメラ固有の追加メタデータは保持しません。</p>"
+          },
+          {
+            "question": "バージョンと言語は？",
+            "answer": "<p>macOS 14以降向けの0.1.0プレビュー版で、Apple SiliconとIntelのバイナリを含みます。アプリは英語、簡体字中国語、日本語、韓国語に対応します。クリーンなシステムとIntel実機での受け入れテストは未完了です。</p>"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "LogLiftプレビュー版を試す",
+        "body": "<p>リリースページでディスクイメージ、インストール手順、チェックサム、プレビュー版の制限を確認できます。</p>",
+        "links": [
+          {
+            "label": "プレビュー版をダウンロード",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "リリースノート"
+      },
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
+        "label": "ソースとライセンス"
+      }
+    ]
+  },
+  {
+    "route": "/loglift/ko/",
+    "locale": "ko",
+    "metadata": {
+      "title": "LogLift — Mac에서 DJI Log를 Rec.709로 변환",
+      "meta": [
+        {
+          "name": "description",
+          "content": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상용 미리보기 버전입니다."
+        },
+        {
+          "property": "og:title",
+          "content": "LogLift — Mac에서 DJI Log를 Rec.709로 변환"
+        },
+        {
+          "property": "og:description",
+          "content": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상용 미리보기 버전입니다."
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko_KR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/loglift.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/loglift/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/loglift/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/loglift/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/loglift/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/loglift/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/loglift/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "LogLift",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "macOS 14 or later",
+          "softwareVersion": "0.1.0 Preview",
+          "description": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상용 미리보기 버전입니다.",
+          "inLanguage": ["en", "zh-Hans", "ja", "ko"],
+          "url": "https://ajigu.com/loglift/ko/",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "image": "https://ajigu.com/gallery/loglift-mockup.webp"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "inLanguage": "ko",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "영상이 업로드되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "영상 처리는 Mac에서 로컬로 이루어집니다. 원본 클립과 내보낼 폴더를 직접 선택합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "모든 DJI 카메라와 Log 프로파일을 지원하나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "지원되는 3D 기술 Log-to-Rec.709 변환만 사용할 수 있습니다. 영상에 맞는 모델과 녹화 프로파일을 명시적으로 선택하세요. HLG와 PQ 영상은 지원하지 않습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "원본 파일을 덮어쓰나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "새 파일로 내보내며 기존 대상 파일은 덮어쓰지 않습니다. 원본은 보관하세요. 변환은 손실 재인코딩이고 카메라 부가 메타데이터는 유지되지 않습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "어떤 버전과 언어가 제공되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "macOS 14 이상용 0.1.0 미리보기로 Apple Silicon과 Intel 바이너리가 포함됩니다. 앱은 영어, 중국어 간체, 일본어, 한국어를 지원합니다. 새 시스템과 Intel 실제 기기의 인수 테스트는 아직 완료되지 않았습니다."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/loglift/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/loglift/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/loglift/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/loglift/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/loglift/ko/"
+      }
+    ],
+    "heading": "LogLift",
+    "claim": "DJI Log에서 Rec.709로. Mac 안에서.",
+    "intro": "촬영에 사용한 카메라와 녹화 프로파일을 선택하고 결과를 비교한 뒤 일괄 내보내세요. 영상 처리는 Mac 안에서 이루어집니다.",
+    "actions": [
+      {
+        "label": "미리보기 다운로드",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "external": true
+      },
+      {
+        "label": "소스 보기",
+        "href": "https://github.com/huihuisang/DJI-LogLift",
+        "external": true
+      }
+    ],
+    "note": "0.1.0 미리보기 · macOS 14 이상 · 유니버설 빌드. DJI와 제휴하거나 보증받지 않은 독립 프로젝트입니다.",
+    "showcaseTitle": "카메라 선택부터 시작하세요",
+    "previewAlt": "카메라 분류와 검색, DJI 카메라 모델 목록이 있는 LogLift 기본 화면",
+    "previewCaption": "버전 0.1.0(1)에서 캡처한 LogLift의 기본 화면입니다. 앱 표시 언어는 중국어 간체입니다.",
+    "mainId": "main",
+    "sections": [
+      {
+        "id": "features",
+        "title": "Log에서 Rec.709까지 명확하게",
+        "items": [
+          {
+            "title": "녹화 프로파일 맞추기",
+            "body": "<p>카메라와 촬영 시 사용한 녹화 프로파일을 선택해 지원되는 3D 기술 Log-to-Rec.709 LUT를 적용합니다. 파일 이름만으로 인코딩을 추측하지 않습니다.</p>"
+          },
+          {
+            "title": "내보내기 전에 비교",
+            "body": "<p>원본 영상과 변환된 영상을 동기화해 재생합니다. 자신의 영상으로 결과를 확인한 뒤 일괄 내보내기를 시작하세요.</p>"
+          },
+          {
+            "title": "로컬에서 일괄 내보내기",
+            "body": "<p>여러 클립을 가져와 Mac에서 HEVC Main10 영상으로 내보냅니다. 원본 해상도, 타임스탬프, 표시 변환과 지원되는 압축 오디오를 유지합니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "workflow",
+        "title": "카메라 선택부터 내보내기까지",
+        "items": [
+          {
+            "title": "1. 카메라와 프로파일 선택",
+            "body": "<p>카메라 목록에서 지원되는 모델을 선택하고 영상과 일치하는 Log 녹화 프로파일을 고릅니다.</p>"
+          },
+          {
+            "title": "2. 가져와서 비교",
+            "body": "<p>클립을 추가하고 원본과 선택한 Rec.709 변환 결과를 동기화해 확인합니다.</p>"
+          },
+          {
+            "title": "3. 폴더 선택 후 내보내기",
+            "body": "<p>저장 폴더를 선택하고 일괄 처리를 시작합니다. 새 파일을 만들고 완료를 알리며 기존 대상 파일은 덮어쓰지 않습니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "변환 전에 원본을 확인하세요",
+        "body": "<p>현재 미리보기는 비디오 트랙 하나와 오디오 트랙 최대 하나를 지원하며 HLG와 PQ 입력은 거부합니다. 크리에이티브 LUT, HDR 등 지원되지 않는 변환은 사용할 수 없습니다. 내보내기는 손실 재인코딩이며, 10비트 출력이 8비트 원본의 정밀도를 높이지는 않습니다. 카메라 부가 정보, 자이로와 타임코드 메타데이터는 복사되지 않습니다. 긴 일괄 처리 전에 짧은 클립을 시험하세요. 카메라별 색 정확도와 Intel 실제 기기 실행은 이 미리보기에서 검증되지 않았습니다.</p>"
+      },
+      {
+        "id": "faq",
+        "title": "시작하기 전에",
+        "questions": [
+          {
+            "question": "영상이 업로드되나요?",
+            "answer": "<p>영상 처리는 Mac에서 로컬로 이루어집니다. 원본 클립과 내보낼 폴더를 직접 선택합니다.</p>"
+          },
+          {
+            "question": "모든 DJI 카메라와 Log 프로파일을 지원하나요?",
+            "answer": "<p>지원되는 3D 기술 Log-to-Rec.709 변환만 사용할 수 있습니다. 영상에 맞는 모델과 녹화 프로파일을 명시적으로 선택하세요. HLG와 PQ 영상은 지원하지 않습니다.</p>"
+          },
+          {
+            "question": "원본 파일을 덮어쓰나요?",
+            "answer": "<p>새 파일로 내보내며 기존 대상 파일은 덮어쓰지 않습니다. 원본은 보관하세요. 변환은 손실 재인코딩이고 카메라 부가 메타데이터는 유지되지 않습니다.</p>"
+          },
+          {
+            "question": "어떤 버전과 언어가 제공되나요?",
+            "answer": "<p>macOS 14 이상용 0.1.0 미리보기로 Apple Silicon과 Intel 바이너리가 포함됩니다. 앱은 영어, 중국어 간체, 일본어, 한국어를 지원합니다. 새 시스템과 Intel 실제 기기의 인수 테스트는 아직 완료되지 않았습니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "LogLift 미리보기 사용하기",
+        "body": "<p>릴리스 페이지에서 디스크 이미지, 설치 방법, 체크섬과 미리보기의 알려진 제한 사항을 확인하세요.</p>",
+        "links": [
+          {
+            "label": "미리보기 다운로드",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "external": true
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "릴리스 노트"
+      },
+      {
+        "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
+        "label": "소스 및 라이선스"
+      }
+    ]
+  }
+]

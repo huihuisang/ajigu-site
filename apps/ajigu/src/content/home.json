@@ -24,8 +24,8 @@
       {
         "id": "loglift",
         "name": "LogLift",
-        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
-        "art": "loglift-artwork.webp",
+        "url": "/loglift/",
+        "art": "loglift-home.webp",
         "icon": "loglift.webp",
         "platform": "macOS",
         "description": "Convert DJI Log footage to Rec.709 on your Mac."
@@ -267,8 +267,8 @@
       {
         "id": "loglift",
         "name": "LogLift",
-        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
-        "art": "loglift-artwork.webp",
+        "url": "/loglift/zh-hans/",
+        "art": "loglift-home.webp",
         "icon": "loglift.webp",
         "platform": "macOS",
         "description": "在 Mac 上批量将 DJI Log 视频转换为 Rec.709。"
@@ -488,8 +488,8 @@
       {
         "id": "loglift",
         "name": "LogLift",
-        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
-        "art": "loglift-artwork.webp",
+        "url": "/loglift/zh-hant/",
+        "art": "loglift-home.webp",
         "icon": "loglift.webp",
         "platform": "macOS",
         "description": "在 Mac 上批次將 DJI Log 影片轉換為 Rec.709。"
@@ -709,8 +709,8 @@
       {
         "id": "loglift",
         "name": "LogLift",
-        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
-        "art": "loglift-artwork.webp",
+        "url": "/loglift/ja/",
+        "art": "loglift-home.webp",
         "icon": "loglift.webp",
         "platform": "macOS",
         "description": "Mac で DJI Log 動画を Rec.709 に一括変換。"
@@ -930,8 +930,8 @@
       {
         "id": "loglift",
         "name": "LogLift",
-        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
-        "art": "loglift-artwork.webp",
+        "url": "/loglift/ko/",
+        "art": "loglift-home.webp",
         "icon": "loglift.webp",
         "platform": "macOS",
         "description": "Mac에서 DJI Log 영상을 Rec.709로 일괄 변환하세요."

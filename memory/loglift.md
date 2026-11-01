@@ -1,6 +1,9 @@
 # LogLift gallery entry
 
 - LogLift is a macOS app that converts supported DJI Log footage to Rec.709 locally.
-- All five studio homepage locales list LogLift after Moodsk. The card links to the published v0.1.0 Preview release: https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0.
-- The gallery uses the current native app icon as original artwork, not a fabricated interface screenshot. The source hash is recorded in `packages/site-kit/icons/sources.json`; gallery inputs and outputs follow the existing `design/mockups` pipeline.
-- No DJI LUTs, product photos, private project records, or source video are copied into the website. A future screenshot must show the current app and use suitable public media.
+- All five studio homepage locales list LogLift after Moodsk. Cards link to matching `/loglift/` detail routes. The detail download remains the published v0.1.0 Preview release: https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0.
+- The gallery and detail hero use the real native camera-selection home from installed version 0.1.0 (1), captured without changing the running app. The full Simplified Chinese, Dark window is contained in the shared MacBook Pro template. Source evidence is in `design/mockups/screens.json`; the detail shows the same capture without the frame and explains its language.
+- Product pages pass fully namespaced data directly to `ProductLanding.astro`. Keep LogLift out of `legacySites`: it has no historical domain, import contract, or redirect output. Shared screenshot staging already publishes `/studio/screens/loglift-home.webp`.
+- Describe the released preview, not newer source-only capabilities such as Finder import. macOS 14+, local processing, supported 3D technical transforms, synchronized preview and HEVC Main10 batch export are documented in the public release source. Keep preview and platform test limits explicit; do not imply verified camera color accuracy.
+- No LUT files, separate product photos, private project records, or source video are copied into the website. Native UI screenshots retain the app's camera gallery and product names. LogLift is independent of DJI; its license excludes third-party materials.
+- Local acceptance and independent source review are recorded in `docs-ai/009-loglift-detail/001-action.md`. The first full onboarding run passed 62 unit tests, 248 browser cases, 204 localized layouts, and 171 redirect cases. Website publication was not part of that task.

@@ -26,3 +26,9 @@ editing their sources. DailyApod shows the real SkyView and SolarSystemView;
 the older media fixtures with mismatched titles were excluded. Nameplate uses a
 fresh browser capture. TUTU uses its verified native iPad screenshot. Go Sleep and
 Moodsk reuse the previously verified native screenshots.
+
+LogLift uses a lossless capture of the installed 0.1.0 (1) app's camera-selection
+home, taken on 2026-11-02 in Simplified Chinese with Dark appearance. The app was
+already running; the capture did not change its source, settings, or user data.
+Its full native window is contained in the existing MacBook Pro template. The
+former icon artwork remains available as a historical input and stable public URL.

@@ -6,14 +6,19 @@ React, TypeScript, Tailwind CSS and shared shadcn/ui components.
 ## Workspace
 
 - `apps/ajigu/src/components`: studio and Nameplate pages.
-- `apps/ajigu/src/products`: TypeNote, Moodsk, Go Sleep, DailyApod and TUTU modules.
+- `apps/ajigu/src/products`: TypeNote, Moodsk, Go Sleep, DailyApod, TUTU and LogLift modules.
 - `apps/ajigu/public/<product>`: frozen product assets and static source documents.
 - `packages/ui`: shared tokens and shadcn/ui components.
 - `packages/site-kit`: navigation, layouts, content models and URL mapping.
 
-Product URLs are `/typenote/`, `/moodsk/`, `/gosleep/`, `/dailyapod/` and `/tutu/`.
+Product URLs are `/typenote/`, `/moodsk/`, `/gosleep/`, `/dailyapod/`, `/tutu/` and `/loglift/`.
 Existing locale and guide paths follow each product prefix. TypeNote keeps its
 `?lang=` language parameter. Nameplate URLs stay unchanged.
+
+LogLift uses complete namespaced paths and the shared product landing template.
+Its five localized detail pages link to the published 0.1.0 Preview. It has no
+legacy domain or redirect output. The reusable onboarding workflow is in
+`.agents/skills/ajigu-add-product/SKILL.md`.
 
 The studio homepage uses a responsive gallery of complete front-view device
 mockups. Inputs, template licenses and export instructions are in `design/mockups`.
@@ -58,7 +63,7 @@ Browser checks use Playwright with installed Chrome locally and installed
 Playwright Chromium in CI. They cover all six products and their language routes,
 static compatibility pages, responsive layouts, product demos, sound opt-in,
 storage failures and the original PNG export.
-Layout checks cover every localized product detail page at six viewport widths.
+Layout checks cover every localized product detail page, including LogLift, at six viewport widths.
 They measure module and heading alignment, shared spacing, expanded chapters and
 no-script fallbacks. The release-candidate workflow runs them after browser checks.
 Use `pnpm format:check` to check the new workspace code style.

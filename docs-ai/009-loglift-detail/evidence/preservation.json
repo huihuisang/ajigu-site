@@ -1,0 +1,9 @@
+{
+  "checkedFiles": 40,
+  "expectedChangedFiles": [
+    "apps/ajigu/public/gallery/loglift-mockup.webp"
+  ],
+  "otherFilesUnchanged": true,
+  "nonLogLiftGalleryEntriesUnchanged": true,
+  "otherHomepageContentUnchanged": true
+}

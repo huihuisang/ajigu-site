@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "reviewer": "independent read-only review agent",
+  "scope": "LogLift runtime, data, route, assets and test integration",
+  "findings": [],
+  "baselineSHA256": "dfd4f200d2d3795318f363b12fe0589b347509646fbcc02d1deaaea550688c4f",
+  "files": {
+    "apps/ajigu/src/products/loglift/Page.astro": "2a056cd7904482c50ab579674b1907c29de071fc15484374c825b30ed224e8c9",
+    "apps/ajigu/src/products/loglift/content/pages.json": "1d4ce5a0a88d91989a5569a136ae08a20fd51bb92ff1c89e8984908f508d30a9",
+    "apps/ajigu/src/products/loglift/content/product.json": "441841c41f80b8b3b08cd0c65c44e2d972312e18a71b87ad591a80023844308c",
+    "apps/ajigu/src/content/home.json": "6d2e3914d31c3198c83b2a9e9d9cbc97967c70230b674170dd38aa0a9bb8ac80",
+    "apps/ajigu/src/pages/[...route].astro": "2fff337faad155bbf72ea660646d25892d6c648c38cdf2457b1eaccb32994b49",
+    "apps/ajigu/public/gallery/loglift-mockup.webp": "9e46800d03dac9006af2c74bb4b9110ac3affaafe8ae2dbd3a43476fc8ac8d15",
+    "design/mockups/products.json": "d49721bffb9508d66122c0344a1932d6a24bd1db42a1447420496845548a4277",
+    "design/mockups/screens.json": "2f506b51d8847d7ecca33303ba0d7230b0f99266069a47f9eec959f78beb3a99",
+    "design/mockups/outputs.json": "6953a2b5c8f6411bee146655140ab664664f0ea8352449a609db88a73686d76d",
+    "design/mockups/screens/loglift-home.webp": "5f6bed60bf82c8741afa3125d9b86bd7a2110277d132f8c398e816c15e24f2c7",
+    "sitemap.xml": "502ff39eb4e9fd72af7aff7610d7a4348f1a9ebd1f2b671e22f13ca4a2523fb8",
+    "llms.txt": "afb7778f1189642e6b94694f7f29c55e68295d52bafb31a25429db696492d668",
+    "scripts/check-build.mjs": "799494e74fc48a755fcf27fbff52475123bf4f337f75e93d5155506bbeef7f6c",
+    "scripts/seo.test.mjs": "edb1bebc7a35d02c97c00cf72192282315a0e96e371c885084098d9ebead7385",
+    "tests/loglift.test.mjs": "dc1c3fccae8155e82b4c15a9feb5d8747d99735e5e35a9485292cdac54e67de6",
+    "tests/workspace.test.mjs": "af3d45fad324fe31cad7c0f0c466bbe61bcc60783033b41d1b39f2a15b0bc3ce",
+    "tests/browser.mjs": "9b63412c93d4270da526819ad9c5e85c66f6263978e4a6337ee4db305dbfc305",
+    "tests/detail-layout.mjs": "4c72f4019abcc98937bc01ef9f920098240a394b8e2afb497dec83ffd0094d22"
+  },
+  "checks": {
+    "targetedTests": 16,
+    "losslessScreenshotPixels": "matched",
+    "builtImageURLs": 4,
+    "privateIconManifestPublished": false
+  },
+  "limitations": [
+    "Build and browser acceptance executed by the primary agent."
+  ]
+}

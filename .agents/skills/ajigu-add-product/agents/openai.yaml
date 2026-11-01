@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add ajigu Product"
+  short_description: "Add localized product cards and shared detail pages"
+  default_prompt: "Use $ajigu-add-product to add a product to ajigu.com with verified media and the required page scope."

@@ -79,12 +79,12 @@
   },
   "loglift": {
     "file": "apps/ajigu/public/gallery/loglift-mockup.webp",
-    "sha256": "23dee840a6cc094e16494b280e174e54293b61d05ff11554ccb48dc4f6b278e4",
-    "template": null,
+    "sha256": "9e46800d03dac9006af2c74bb4b9110ac3affaafe8ae2dbd3a43476fc8ac8d15",
+    "template": "apple-macbookpro14",
     "screens": [
       {
-        "file": "apps/ajigu/public/gallery/loglift-artwork.webp",
-        "sha256": "4348054086679e569e692df9c6ead218da85cb52c3b2db8f85a7a9ff31115354"
+        "file": "design/mockups/screens/loglift-home.webp",
+        "sha256": "5f6bed60bf82c8741afa3125d9b86bd7a2110277d132f8c398e816c15e24f2c7"
       }
     ]
   }

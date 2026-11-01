@@ -8,10 +8,12 @@ import MoodskPage from "../products/moodsk/Page.astro";
 import GoSleepPage from "../products/gosleep/Page.astro";
 import DailyApodPage from "../products/dailyapod/Page.astro";
 import TutuPage from "../products/tutu/Page.astro";
+import LogLiftPage from "../products/loglift/Page.astro";
 import moodsk from "../products/moodsk/content/pages.json";
 import gosleep from "../products/gosleep/content/pages.json";
 import dailyapod from "../products/dailyapod/content/pages.json";
 import tutu from "../products/tutu/content/pages.json";
+import loglift from "../products/loglift/content/pages.json";
 import { productPath } from "@ajigu/site-kit/urls";
 
 export function getStaticPaths() {
@@ -41,9 +43,14 @@ export function getStaticPaths() {
       params: { route: productPath("tutu", page.route).slice(1, -1) },
       props: { tutuPage: page },
     })),
+    ...loglift.map((page) => ({
+      params: { route: page.route.slice(1, -1) },
+      props: { logliftPage: page },
+    })),
   ];
 }
-const { home, nameplate, product, moodskPage, gosleepPage, dailyapodPage, tutuPage } = Astro.props;
+const { home, nameplate, product, moodskPage, gosleepPage, dailyapodPage, tutuPage, logliftPage } =
+  Astro.props;
 ---
 
 {home && <HomePage page={home} />}
@@ -53,3 +60,4 @@ const { home, nameplate, product, moodskPage, gosleepPage, dailyapodPage, tutuPa
 {gosleepPage && <GoSleepPage page={gosleepPage} />}
 {dailyapodPage && <DailyApodPage page={dailyapodPage} />}
 {tutuPage && <TutuPage page={tutuPage} />}
+{logliftPage && <LogLiftPage page={logliftPage} />}

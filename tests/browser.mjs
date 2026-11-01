@@ -22,6 +22,12 @@ const matrix = [],
   errors = [],
   externalFonts = [];
 const locale = { en: "en", zh: "zh-Hans", zht: "zh-Hant", ja: "ja", ko: "ko" };
+const logliftPages = JSON.parse(
+  await readFile(
+    new URL("../apps/ajigu/src/products/loglift/content/pages.json", import.meta.url),
+    "utf8",
+  ),
+);
 try {
   const context = await browser.newContext({ locale: "en-US" });
   const page = await context.newPage();
@@ -39,6 +45,7 @@ try {
       externalFonts.push(request.url());
   });
   const cases = [
+    ...logliftPages.map(({ route, locale }) => ({ site: "ajigu", route, language: locale })),
     ...[
       ["/", "en"],
       ["/zh-hans/", "zh-Hans"],
@@ -71,6 +78,7 @@ try {
         waitUntil: "networkidle",
       });
       assert.equal(response.status(), 200);
+      const galleryPage = (await page.locator(".studio-gallery").count()) > 0;
       await page.waitForFunction(
         (language) => document.documentElement.lang === language,
         entry.language,
@@ -92,12 +100,10 @@ try {
         metric.scroll <= width,
         `${entry.site}${entry.route}@${width}: overflow ${metric.scroll}`,
       );
-      assert.ok(
-        metric.text > (entry.site === "ajigu" && !entry.route.includes("nameplate") ? 50 : 250),
-      );
+      assert.ok(metric.text > (galleryPage ? 50 : 250));
       assert.deepEqual(metric.missingAnchors, []);
       assert.doesNotMatch(await page.locator("main").innerText(), /<br\s*\/?>/i);
-      if (entry.site === "ajigu" && !entry.route.includes("nameplate")) {
+      if (galleryPage) {
         assert.equal(await page.locator(".work-tile").count(), 7);
         const clipped = await page.locator(".gallery-card").evaluateAll((cards) =>
           cards.flatMap((card) => {
@@ -129,10 +135,7 @@ try {
           .evaluate((el) => getComputedStyle(el).gridTemplateColumns.split(" ").length);
         assert.equal(grid, width === 1440 ? 4 : width === 768 ? 2 : 1);
       }
-      if (
-        entry.site !== "moodsk" &&
-        (entry.site !== "ajigu" || entry.route.includes("nameplate"))
-      ) {
+      if (entry.site !== "moodsk" && !galleryPage) {
         const mockup = page.locator(".product-art img");
         assert.equal(await mockup.count(), 1);
         assert.ok(await mockup.evaluate((img) => img.naturalWidth > 0));
@@ -152,10 +155,7 @@ try {
       assert.ok(icons.length > 0);
       for (const icon of icons) {
         assert.equal(icon.width, icon.height);
-        assert.equal(
-          icon.width,
-          entry.site === "ajigu" && !entry.route.includes("nameplate") ? 40 : 72,
-        );
+        assert.equal(icon.width, galleryPage ? 40 : 72);
         assert.equal(icon.radius, "22%");
         assert.notEqual(icon.shadow, "none");
         assert.equal(icon.loaded, true);
@@ -203,6 +203,27 @@ try {
     }
   }
   const products = ["moodsk", "gosleep", "dailyapod", "tutu"];
+  for (const detail of logliftPages) {
+    const homeRoute = detail.route.slice("/loglift".length);
+    await page.goto(preview.origins.ajigu + homeRoute, { waitUntil: "networkidle" });
+    await page.locator('[data-product-id="loglift"]').click();
+    await page.waitForURL(preview.origins.ajigu + detail.route);
+    assert.equal(await page.locator("html").getAttribute("lang"), detail.locale);
+    assert.equal(
+      await page.locator(".product-actions a").first().getAttribute("href"),
+      detail.actions[0].href,
+    );
+    assert.equal(
+      await page.locator(".loglift-preview img").getAttribute("src"),
+      "/studio/screens/loglift-home.webp",
+    );
+    await page.locator(".language-switcher").click();
+    const next = logliftPages[(logliftPages.indexOf(detail) + 1) % logliftPages.length];
+    await page.locator(`[data-language="${next.locale}"]`).click();
+    await page.waitForURL(preview.origins.ajigu + next.route);
+    assert.equal(await page.locator("html").getAttribute("lang"), next.locale);
+    matrix.push({ site: "ajigu", route: detail.route, logliftNavigation: "passed" });
+  }
   for (const site of products) {
     const contract = JSON.parse(
       await readFile(

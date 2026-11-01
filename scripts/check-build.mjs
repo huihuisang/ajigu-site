@@ -45,8 +45,19 @@ export async function checkBuild() {
     );
   const sitemap = await readFile(path.join(locations.site, "sitemap.xml"), "utf8");
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
-  assert.equal(urls.length, 91);
-  assert.equal(new Set(urls).size, 91);
+  const rootSitemap = await readFile(path.join(locations.root, "sitemap.xml"), "utf8");
+  const expectedURLs = [...rootSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
+  for (const [site] of Object.entries(legacySites)) {
+    const source = await readFile(
+      path.join(locations.root, "apps/ajigu/public", site, "sitemap.xml"),
+      "utf8",
+    );
+    expectedURLs.push(
+      ...[...source.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => migrateURL(url, site)),
+    );
+  }
+  assert.deepEqual([...urls].sort(), [...new Set(expectedURLs)].sort());
+  assert.equal(new Set(urls).size, urls.length);
   for (const url of urls) {
     assert.equal(new URL(url).origin, origin);
     const html = await readFile(urlFile(locations.site, new URL(url).pathname), "utf8"),

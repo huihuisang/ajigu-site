@@ -1,0 +1,11 @@
+# Product Onboarding
+
+- The reusable workflow is `.agents/skills/ajigu-add-product/SKILL.md`. It supports gallery-only external links and gallery entries with local detail pages. Its references map asset inputs, shared layouts, routing, staging, sitemap sources, and test coverage.
+- Keep this repository copy as the source. Local skill discovery can link to it; do not maintain a separate copy with different instructions.
+- New products must not enter `legacySites` just to use URL helpers. That map also activates historical public-file copying, compatibility contracts, preview aliases, sitemap merging, and redirects. Fully namespaced content can use the existing shared landing template without legacy migration.
+- Skill validation checks instructions and repository references. It does not prove that a future product addition works; each addition must extend and run the relevant website checks.
+- Local discovery uses a link at `~/.codex/skills/ajigu-add-product` to the repository source. A moved checkout requires updating that link.
+- Validation on 2026-11-01 passed the system skill validator and the strict, weak-model readability, and host-neutral checks with zero errors or warnings. Additional checks resolved both reference links and 23 repository paths, parsed interface metadata, and confirmed the discovery link. No product was added to test the workflow, and no independent behavioral comparison was run.
+- Task `5eccd36f079e460d84d35cf0d5d5fb87` retains the validation environment and check harness under the task-artifacts work directory. The skill has no runtime dependency on that environment. Outputs remain because this task has no published commit; do not publish merely to remove them.
+- On 2026-11-02, the skill completed its first gallery-to-detail integration with LogLift. Five localized cards lead to real detail pages, using a captured native home. Full local checks and independent source review passed; see `docs-ai/009-loglift-detail/001-action.md`. The evidence covers this workflow execution, not a controlled with/without-skill comparison.
+- The root sitemap is also used by older static-reference SEO tests. Extend their generated-page expectations without removing static checks. Browser tests must identify gallery markup explicitly, because the same root origin serves new product details.
