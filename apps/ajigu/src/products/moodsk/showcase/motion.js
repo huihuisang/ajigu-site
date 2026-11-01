@@ -942,11 +942,9 @@ export async function mountShowcase(root, copy, onState) {
         mount(target, startTime, shared);
         return;
       }
-    } else if (elapsed >= duration) {
-      if (current !== 0 && current !== 5) {
-        show(current + 1);
-        return;
-      }
+    } else if (elapsed >= duration && current < scenes.length - 1) {
+      show(current + 1);
+      return;
     }
     if ((current === 0 || current === 5) && !transition) drawAmbient(elapsed);
     if (glassOrb && !transition) glassOrb.draw(motionPreference.matches ? 0 : elapsed);

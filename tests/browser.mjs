@@ -275,6 +275,16 @@ try {
   await page.goto(preview.origins.moodsk + "/zh-hans/", { waitUntil: "networkidle" });
   await page.locator(".desktop-showcase").scrollIntoViewIfNeeded();
   assert.equal(await page.locator(".desktop-showcase nav button").count(), 6);
+  const chapters = page.locator(".desktop-showcase nav button");
+  assert.equal(await chapters.nth(0).getAttribute("aria-current"), "step");
+  await page.waitForFunction(
+    () =>
+      document.querySelectorAll(".desktop-showcase nav button")[1].getAttribute("aria-current") ===
+      "step",
+    null,
+    { timeout: 16000 },
+  );
+  assert.equal(await page.locator("#pause").getAttribute("aria-pressed"), "true");
   await page.locator("#pause").click();
   for (let index = 0; index < 6; index++) {
     await page.locator(".desktop-showcase nav button").nth(index).click();
