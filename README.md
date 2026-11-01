@@ -90,7 +90,10 @@ task-artifacts run TASK_ID -- node scripts/publish-products.mjs --revision SOURC
 Downloaded artifacts stay inside the registered task directory. Product source branches remain
 historical references; maintain website source here. No cross-repository token is
 stored in Actions. Product publication uses the operator's existing GitHub CLI
-identity and jj credentials. See `docs-ai/006-production-release/000-plan.md` and
+identity and jj credentials. After the first Pages source switch, request a Pages build
+with `gh api repos/OWNER/REPO/pages/builds --method POST` if no build was queued.
+Always check the published branch SHA and the live release marker before declaring
+success. See `docs-ai/006-production-release/000-plan.md` and
 its release record for target mapping, verification and rollback boundaries.
 
 ## Languages

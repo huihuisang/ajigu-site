@@ -1,0 +1,67 @@
+[
+  {
+    "site": "typenote",
+    "repository": "huihuisang/typenote-landing",
+    "publishedCommit": "a90ee1ca46ae1649d44cb9102e83bd085131b21c",
+    "status": "built",
+    "sourceBranchPreserved": true,
+    "originalSourceRevision": "868a0f478a3b8b042be4acdd8f2abd3ea85c4b08",
+    "pagesSource": {
+      "branch": "ajigu-site-production",
+      "path": "/"
+    },
+    "domain": "typenote.ajigu.com"
+  },
+  {
+    "site": "moodsk",
+    "repository": "Ajigu-Studio/moodsk-website",
+    "publishedCommit": "4f997f8d9b6245f43aa8389904018c9d0766cfa1",
+    "status": "built",
+    "sourceBranchPreserved": true,
+    "originalSourceRevision": "4d7e1d039d8ff7c57b1a3baa8fee3d52ec5e1ed0",
+    "pagesSource": {
+      "branch": "ajigu-site-production",
+      "path": "/"
+    },
+    "domain": "moodsk.ajigu.com"
+  },
+  {
+    "site": "gosleep",
+    "repository": "huihuisang/snorz-site",
+    "publishedCommit": "93002bf698105a37d818cc585b0097de15f8e9da",
+    "status": "built",
+    "sourceBranchPreserved": true,
+    "originalSourceRevision": "23d2b019562f5f2b957ac52e898c12f4302f5626",
+    "pagesSource": {
+      "branch": "ajigu-site-production",
+      "path": "/"
+    },
+    "domain": "gosleep.ajigu.com"
+  },
+  {
+    "site": "dailyapod",
+    "repository": "huihuisang/dailyapod-site",
+    "publishedCommit": "be7da81dd430dec6371b0bb6acfb31bf1cbe8ffd",
+    "status": "built",
+    "sourceBranchPreserved": true,
+    "originalSourceRevision": "cb8f13bea95564a142ce06dadad82a18e5c6de5e",
+    "pagesSource": {
+      "branch": "ajigu-site-production",
+      "path": "/"
+    },
+    "domain": "dailyapod.ajigu.com"
+  },
+  {
+    "site": "tutu",
+    "repository": "huihuisang/tutu-site",
+    "publishedCommit": "b8420994f4aee6c6612d1fd5bec1f2d3bc73c84b",
+    "status": "built",
+    "sourceBranchPreserved": true,
+    "originalSourceRevision": "f44af69763409674d3530d4a3bb844c4e2caa78d",
+    "pagesSource": {
+      "branch": "ajigu-site-production",
+      "path": "/"
+    },
+    "domain": "tutu.ajigu.com"
+  }
+]

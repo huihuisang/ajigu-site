@@ -83,3 +83,8 @@ The six-site build passed. A targeted browser check passed 24 English/Chinese de
 The current detail baseline is `docs-ai/005-shadcn-redesign/007-detail-layout-action.md`. All six products use an explicit detail-flow class, with 64px desktop / 48px mobile module gaps and 24px direct-content gaps. Modules, headings and footer content share the 1040px shell. The centered hero, wider navigation and deliberate padding inside controls/demos remain intentional.
 
 All six desktop product renders and the TypeNote mobile render were inspected in this round; images are in evidence-detail-layout. The new layout regression passed 174 locale/width combinations, 144 chapter expansions and 14 no-script cases. It checks actual bounds and gaps, including Astro contents and expanded sections. The full 228-case browser run and motion/anchor regression also passed. No actionable alignment findings remain in the checked states. The CI configuration now includes test:layout; no remote run or publication is claimed. Source review and retained recording limits are in the action record.
+
+
+## Production publication — 2026-11-01
+
+All six original domains now serve source fe121d25d2392fc3f3e88937cdcbebbf0e67de17. The successful production CI is 41274821205. Six live release markers, 91 sitemap page URLs, six stylesheets and the Bing verification file passed HTTP checks. The in-app browser verified the live gallery, Nameplate detail and Moodsk desktop/mobile views, including six chapters and matching 20px mobile content/FAQ edges. Persistent evidence and rollback state are in docs-ai/006-production-release. Earlier evidence manifests retain their historical source scope.

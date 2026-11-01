@@ -1,0 +1,629 @@
+{
+  "verifiedAt": "2026-11-01T05:04:19.837606+00:00",
+  "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+  "markers": [
+    {
+      "site": "ajigu",
+      "url": "https://ajigu.com/site-release.json",
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+      "domain": "ajigu.com"
+    },
+    {
+      "site": "typenote",
+      "url": "https://typenote.ajigu.com/site-release.json",
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+      "domain": "typenote.ajigu.com"
+    },
+    {
+      "site": "moodsk",
+      "url": "https://moodsk.ajigu.com/site-release.json",
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+      "domain": "moodsk.ajigu.com"
+    },
+    {
+      "site": "gosleep",
+      "url": "https://gosleep.ajigu.com/site-release.json",
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+      "domain": "gosleep.ajigu.com"
+    },
+    {
+      "site": "dailyapod",
+      "url": "https://dailyapod.ajigu.com/site-release.json",
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+      "domain": "dailyapod.ajigu.com"
+    },
+    {
+      "site": "tutu",
+      "url": "https://tutu.ajigu.com/site-release.json",
+      "sourceRepository": "huihuisang/ajigu-site",
+      "sourceRevision": "fe121d25d2392fc3f3e88937cdcbebbf0e67de17",
+      "domain": "tutu.ajigu.com"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://ajigu.com/",
+      "status": 200,
+      "bytes": 23605,
+      "sha256": "f9864e34a8a7b2ac29e911e85fa419487b8131c5b5278cb2d6cf8a6f0f60940c"
+    },
+    {
+      "url": "https://ajigu.com/zh-hans/",
+      "status": 200,
+      "bytes": 23467,
+      "sha256": "dbda5d1b78e358f91aadbae25b44d9711ba5e6ba5790f8923a4b8b2f7dd4bcb4"
+    },
+    {
+      "url": "https://ajigu.com/ja/",
+      "status": 200,
+      "bytes": 23823,
+      "sha256": "93204ab988dd8cf0a92dea5815c8d4097d7febe85e47f63357a1e13cfdee68f4"
+    },
+    {
+      "url": "https://ajigu.com/zh-hant/",
+      "status": 200,
+      "bytes": 23452,
+      "sha256": "93a65f430c801ec9b49315f553d9eb6bade413dbfc8c4a14f4bfd7eada34cefd"
+    },
+    {
+      "url": "https://ajigu.com/ko/",
+      "status": 200,
+      "bytes": 23592,
+      "sha256": "428ea06f48cf75baf5e40fced578e1d7ba3824a64d42d524930a66aa02dbbe20"
+    },
+    {
+      "url": "https://ajigu.com/nameplate/",
+      "status": 200,
+      "bytes": 20521,
+      "sha256": "c6f889c1e6fcf852c1d659aab8cea40b6c4acc28df939df362a742eced9fe523"
+    },
+    {
+      "url": "https://ajigu.com/nameplate/zh-hans/",
+      "status": 200,
+      "bytes": 20645,
+      "sha256": "f3673fa9453ba38c768cbc0b5b5207093d6854702e49bde57d42d4ab227b957d"
+    },
+    {
+      "url": "https://ajigu.com/nameplate/about/",
+      "status": 200,
+      "bytes": 26713,
+      "sha256": "a05ab1d3bb60efd046c0240f167b71299ea635e3c8e1b01d4d15409b43bdb5d4"
+    },
+    {
+      "url": "https://ajigu.com/nameplate/about/zh-hans/",
+      "status": 200,
+      "bytes": 26793,
+      "sha256": "2f22c0170410a33fa4fe958487d928dfd020f527329a0a482c6a26a5c24114ef"
+    },
+    {
+      "url": "https://typenote.ajigu.com/",
+      "status": 200,
+      "bytes": 33291,
+      "sha256": "2ee687a8176089b2ce01183c2c19aff64d0351d8664363087a8de0e9c5010357"
+    },
+    {
+      "url": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+      "status": 200,
+      "bytes": 4962,
+      "sha256": "4305f868b63df7c4e836b9656506d2d508be33071d2bc2ebd38f38acfaf03288"
+    },
+    {
+      "url": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+      "status": 200,
+      "bytes": 4935,
+      "sha256": "cf822467f5c19fa3a2e60cee2b74d0fc6beeb3830db3762969f4727530dbf5ed"
+    },
+    {
+      "url": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+      "status": 200,
+      "bytes": 5412,
+      "sha256": "9d6e867ec9e85ff5b93e2be7d2c28a2fa7cfe943805fd6a744ce0891f3ce4607"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/",
+      "status": 200,
+      "bytes": 67330,
+      "sha256": "199dc30498de561c7f7dd035891b81c1d3a717bce024c4ef1ea5b108acba6c7d"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/zh-hans/",
+      "status": 200,
+      "bytes": 67173,
+      "sha256": "2b3e60e2fe6b09480f7f671363f9415ee2c9b7ba7d5c8cdb9f03e0f1eace1424"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/ja/",
+      "status": 200,
+      "bytes": 72652,
+      "sha256": "a23c702ca21d1ded3212bdde77a31255bdfc4aa7198342644b7d4abe6297dfa8"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/ko/",
+      "status": 200,
+      "bytes": 71472,
+      "sha256": "5b67c6a3f3725ebfca0db7679b5f59c9cfce97300249bae35b13db6babfd200a"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/about/",
+      "status": 200,
+      "bytes": 6416,
+      "sha256": "0481a6a5d59a3cc259de39a2ce5ba32e3e57f4da65d8c038d2fa469dec0274b5"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/zh-hans/about/",
+      "status": 200,
+      "bytes": 6491,
+      "sha256": "41886e0eb101be4dc2b255e08f92d3d1d79010846abc3554d23b06775fb2e35f"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/ja/about/",
+      "status": 200,
+      "bytes": 6871,
+      "sha256": "02768ad7a9fdfbfacee676f028f9a42a1e3f8c0c73a44c914e92566582330a55"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/ko/about/",
+      "status": 200,
+      "bytes": 6681,
+      "sha256": "deb9c80fda9b33edfc8a884b7a7bec7fcd2e7a03947215965ad19a69f9502bdb"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/tutorials/",
+      "status": 200,
+      "bytes": 4462,
+      "sha256": "7a0589755ca44860b5714347a74ffb4fc99733a8a744c4c2c22e6a1791ae9c74"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/zh-hans/tutorials/",
+      "status": 200,
+      "bytes": 4546,
+      "sha256": "c26f2bce0be2f791841e161d68cd85b4359698ca3d0049270c76b9b9eae08e3f"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/tutorials/change-folder-icons-on-mac/",
+      "status": 200,
+      "bytes": 8524,
+      "sha256": "4ea8a01bae5668d2077846cbe9241342fb46f992b46eca18e62813d5498416a3"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "status": 200,
+      "bytes": 8306,
+      "sha256": "9f29ac1777686945f6f58585d2adad68e4fbcfcc9decff2775bdd50fdda77788"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/tutorials/folder-color-system-on-mac/",
+      "status": 200,
+      "bytes": 7138,
+      "sha256": "a117c256b89135e56f9a7125e3061ce0ce6e1a8a87f7d0084616ab3ff1dc86b4"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-color-system-on-mac/",
+      "status": 200,
+      "bytes": 7104,
+      "sha256": "09fa9d73c12251a0e211c4c3ccbb51309892b6af245379695aec3b4ad8a96221"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/tutorials/folder-icons-with-text/",
+      "status": 200,
+      "bytes": 7101,
+      "sha256": "5789e49a597452be5632e370956c7fd9c0f91850cdd02447e3a366625ad78e17"
+    },
+    {
+      "url": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-icons-with-text/",
+      "status": 200,
+      "bytes": 6964,
+      "sha256": "4ba6d607495532f9f81e01803ab3b59036e8b003df8a6aaca8081405c7096679"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/",
+      "status": 200,
+      "bytes": 40017,
+      "sha256": "d0bf304073d6342e3eb946e3e3994e5f3ea5faa9ffea7feeaa292e02191fba52"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/en-gb/",
+      "status": 200,
+      "bytes": 39928,
+      "sha256": "ecb36bd8aac0dc06559558bc50cb757bdb1b8f7dcee9a6f430bac7e8b8c36cca"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/zh-hans/",
+      "status": 200,
+      "bytes": 39548,
+      "sha256": "69b67b645ccb08329bc56e7666921543b2b3e62bec5358730dd5132bdf6f3ca5"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/zh-hant/",
+      "status": 200,
+      "bytes": 39586,
+      "sha256": "6fd5b4a1d9b374c24525c7b3f1a9c1371ffc143a4e336564a8a40fce9e5e702b"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/ja/",
+      "status": 200,
+      "bytes": 42286,
+      "sha256": "bf85b0e3ad0026a9545e9487d32051303d43814a24e639a275ac85ed28fbd0be"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/ko/",
+      "status": 200,
+      "bytes": 41289,
+      "sha256": "a9978132b7a3129d7d9ef7714ab3d61b81fa10585d15959b8817c506b7d4ed4b"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/de/",
+      "status": 200,
+      "bytes": 41191,
+      "sha256": "16b77ae4caed1db3a9a1c0bdceac6eac0da0aaac9149d891f17ad264feef8d14"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/fr/",
+      "status": 200,
+      "bytes": 41598,
+      "sha256": "05fae25a2bf5bdbfc69d92d23bcaab9dd289d7609daaa17693e8abd990ada05f"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/support/",
+      "status": 200,
+      "bytes": 11069,
+      "sha256": "a0abb4318ac3128f106f378668a6b0648319d52fd4961d92e1db95bb1b3ecbdd"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/en-gb/support/",
+      "status": 200,
+      "bytes": 11115,
+      "sha256": "ef070e535e40c600181bc55817302139279aa100c91c45e43a465afafc97ef80"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/zh-hans/support/",
+      "status": 200,
+      "bytes": 10743,
+      "sha256": "b737eecf97bd6d1a874f3ebee791d6b8d707e5add1820b824affb136bbfdb1ce"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/zh-hant/support/",
+      "status": 200,
+      "bytes": 10788,
+      "sha256": "b7b1d8e0f6c4e5ef9251a6aff7b9d038e328e685cab2639ec93b38f1763c6315"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/ja/support/",
+      "status": 200,
+      "bytes": 13439,
+      "sha256": "2dffc5005e1c65b39502df596f6b108c4ab09b54a04b375f17a64cd5f7fed2f0"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/ko/support/",
+      "status": 200,
+      "bytes": 12195,
+      "sha256": "1a8eae8fe3f083fc887d798b52dd921cd25dcc9491935731ba01e9a72e42e859"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/de/support/",
+      "status": 200,
+      "bytes": 12278,
+      "sha256": "f6545124905b8d65203e46c68ba2973f44a87a8bbfa69814bfbf64e67c98d4d5"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/fr/support/",
+      "status": 200,
+      "bytes": 12496,
+      "sha256": "747f8dead9db4661c3ae00862f46c3a93b7e37c234f13d72e272c48837558802"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/privacy/",
+      "status": 200,
+      "bytes": 16374,
+      "sha256": "90570556ac831a3393f93203b14245d96f5533165004d07b58ff470cad70590f"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/en-gb/privacy/",
+      "status": 200,
+      "bytes": 16420,
+      "sha256": "6d0c1454d28b4fbe6260d1043e0f71723226f19a2996d58bfbdc3ed9f3b08c58"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/zh-hans/privacy/",
+      "status": 200,
+      "bytes": 15611,
+      "sha256": "53bc09d0cdc305a2b6eff72e9015419eb5947bc9297de5f7b0e9efb9f546935f"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/zh-hant/privacy/",
+      "status": 200,
+      "bytes": 15702,
+      "sha256": "c72bdcb175625fb55b390c5a90ca7cb8783b702a1cb0698dea39ba1f57c4a191"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/ja/privacy/",
+      "status": 200,
+      "bytes": 20088,
+      "sha256": "f04e8678a7081dbe5217303095385f6f13a05e0532a565975da880ede18e0465"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/ko/privacy/",
+      "status": 200,
+      "bytes": 18074,
+      "sha256": "95240114f9925d9fec1bd6c4fa4477e5d31c6c13f7defd13b13d9a466c55e2e4"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/de/privacy/",
+      "status": 200,
+      "bytes": 18561,
+      "sha256": "d56e6d5caf81569dcec6c1a6640dc87af95eb265b9f34dfe4a28dd0358475d6e"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/fr/privacy/",
+      "status": 200,
+      "bytes": 19193,
+      "sha256": "8345bb2516d6ea18c9b0dc81527411d45771d96fa95efee7a8ed54595866a855"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/guides/night-sounds/",
+      "status": 200,
+      "bytes": 5308,
+      "sha256": "e7420eba1beeecfe85d85804297a868f55106cf9dbb33cabeed2dcbfe8e08209"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+      "status": 200,
+      "bytes": 5019,
+      "sha256": "8564ef7d11c0c181eb5b4cde5715b64115ffafe5fdef0c09beeae1601c33f687"
+    },
+    {
+      "url": "https://gosleep.ajigu.com/guides/night-sounds/ja/",
+      "status": 200,
+      "bytes": 5477,
+      "sha256": "4fc409f90adb3c6f5a8e9f0dfd79810b686dcb5fe54ac115d775c68d61f6b4dd"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/",
+      "status": 200,
+      "bytes": 47443,
+      "sha256": "d259608204b7b84e2e3b6202b571d5207d9ed51faf2ac1623cdd3ddb92df38d9"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/",
+      "status": 200,
+      "bytes": 7471,
+      "sha256": "ed99309c7a2af86246473217b1a974b54f64e38ff20856eed62bf851ded12e31"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/what-is-apod/",
+      "status": 200,
+      "bytes": 10378,
+      "sha256": "5e0870729743170f6596e2f557255a7167585fc8838b9bbdd05c880a01a5ca4d"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/",
+      "status": 200,
+      "bytes": 10678,
+      "sha256": "cda78a75a6dc133a986511195f813e068e63f7df10160e3a11681c2d9e69c909"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/",
+      "status": 200,
+      "bytes": 10551,
+      "sha256": "78e66922abf4e0bb3be6f8b25321a3fd7a84021f145d6e9516a3aa33adc15608"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/find-apod-by-date/",
+      "status": 200,
+      "bytes": 10511,
+      "sha256": "ac23f5094c017af308b67664198e8436eb820568d30fcda456e588d89bb007a6"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/zh-hans/",
+      "status": 200,
+      "bytes": 47598,
+      "sha256": "c5c2b1eff5d0f234506b236d1508eceb7ee424ceb4022357c74afc9f99db4ef4"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/zh-hans/",
+      "status": 200,
+      "bytes": 7661,
+      "sha256": "62da2209733ec1b3ff8b392d1bfa77598e5b24146f23838179d674213e43267e"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+      "status": 200,
+      "bytes": 10379,
+      "sha256": "77894d3dc26493cf2034e83814faff1f50e3124e484aa74712708eb8bb96a686"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "status": 200,
+      "bytes": 10635,
+      "sha256": "d0540c70964358776f3a9045d9acf6a9bc3c3446e4488dca1d1606634c42f9be"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hans/",
+      "status": 200,
+      "bytes": 10436,
+      "sha256": "ec5e8dc6d73cace5bd9e1268ac1478def48d0ca26b5ce4517641b5ecc2b159d9"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hans/",
+      "status": 200,
+      "bytes": 10485,
+      "sha256": "2ccfcbd8d88b346e8ffcc18f4a99c2194802cd4b20b39d09a1cdc21cda5b5010"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/zh-hant/",
+      "status": 200,
+      "bytes": 47602,
+      "sha256": "c83d8ba1d45172e097aa66a14488b46ed9d476803577887b59e1e0761ca2d646"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/zh-hant/",
+      "status": 200,
+      "bytes": 7667,
+      "sha256": "2c0fc6f225a0bb355ab262689658f7802dc733b9ae386d89d90ca00c7fb1d2d9"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hant/",
+      "status": 200,
+      "bytes": 10406,
+      "sha256": "61e99ef361d862e4e063ab983b62359fc4c8421bd4fb4f01d0a25cedba4b67a4"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "status": 200,
+      "bytes": 10650,
+      "sha256": "1ac39b3328816f21e037ba997c030656143b992f844efb20ae3934dd16a310f1"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hant/",
+      "status": 200,
+      "bytes": 10535,
+      "sha256": "42d78c8897bd78588d591be6326f8707faa714bfe6f6b42f4de842482e6ef7f6"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hant/",
+      "status": 200,
+      "bytes": 10500,
+      "sha256": "60ce5418c109385695c86e92cc55b97cda55c8dfbff700aa8847d3dfeacb6586"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/ja/",
+      "status": 200,
+      "bytes": 49527,
+      "sha256": "e44212c4a1c167120c26f0055f1e22cdabf39b207e4c1b2a98d02b48c11890da"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/ja/",
+      "status": 200,
+      "bytes": 8031,
+      "sha256": "a4e4e03d263e490fd19505ef4978d096280b3100ab879f8aea7e17d71d4e5863"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/what-is-apod/ja/",
+      "status": 200,
+      "bytes": 11091,
+      "sha256": "6da8c52a37150460b1697b76eb21ca6eb8077c4b6f8af4589a4107f10f3f9ab4"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ja/",
+      "status": 200,
+      "bytes": 11327,
+      "sha256": "85ff37145b465521171d02e880b9d01f84f3761b2cd7797675dbef3e5bdc1fa8"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ja/",
+      "status": 200,
+      "bytes": 11509,
+      "sha256": "9d2e47492a2e7627650e1cb0aa3e8d4a16988b8aa084b445008abc2a1dd126d6"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ja/",
+      "status": 200,
+      "bytes": 11176,
+      "sha256": "8383c79e4b72e499ca2c8fd8d592fc94f5daae8f065ff77eeb3f42a33174f032"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/ko/",
+      "status": 200,
+      "bytes": 48547,
+      "sha256": "0d729b7ce99611764c26147eea17544cf6acf35eb63b3cb78073c5fbebee88de"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/ko/",
+      "status": 200,
+      "bytes": 7791,
+      "sha256": "e2d1cd09a5a4e4979d207bd02c7c8cb919bd649ba6db21aee1497c28a30991be"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/what-is-apod/ko/",
+      "status": 200,
+      "bytes": 10928,
+      "sha256": "f205c288166698823448d6f3c3e878edf50f333dc62ff6faf75ec0752a6bb241"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ko/",
+      "status": 200,
+      "bytes": 11158,
+      "sha256": "3d26651f6506423a346569aca641f269cb3c825adcae9ecd248d76b20d015f0f"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ko/",
+      "status": 200,
+      "bytes": 11207,
+      "sha256": "6158ace0a5fa8288ccca2f6413fb6d2bc7229646ca0450a978f73f9cd98bbf3d"
+    },
+    {
+      "url": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ko/",
+      "status": 200,
+      "bytes": 11041,
+      "sha256": "039f92830a8235ecb71d304450043bc0366f58db0560da02907ce47b77f63b33"
+    },
+    {
+      "url": "https://tutu.ajigu.com/",
+      "status": 200,
+      "bytes": 35411,
+      "sha256": "1d4d3ddf68eca7b7d0b204dcf9b0a91273ce500efd64ee0a1aa8d1b62c63bca9"
+    },
+    {
+      "url": "https://tutu.ajigu.com/zh-hans/",
+      "status": 200,
+      "bytes": 35293,
+      "sha256": "17716f90613e9128cb775320c408b0ace7b11ddbf05404d0c010baff80f8c21a"
+    },
+    {
+      "url": "https://tutu.ajigu.com/zh-hant/",
+      "status": 200,
+      "bytes": 35286,
+      "sha256": "e0f0cbe01cc7feea85730d3425c4dff8adac711aaba27bd0a78e38cb1dad6ed9"
+    },
+    {
+      "url": "https://tutu.ajigu.com/ja/",
+      "status": 200,
+      "bytes": 37239,
+      "sha256": "35fefbaf67d27876544361883c13ee5205ec78d11aa4bf9bab3472077fa83039"
+    },
+    {
+      "url": "https://tutu.ajigu.com/ko/",
+      "status": 200,
+      "bytes": 37025,
+      "sha256": "18bff620594e6f86429a00bd81cdb383c09b2f4be4dbb763e9d9cf96d88d8e80"
+    }
+  ],
+  "styles": [
+    {
+      "site": "ajigu",
+      "url": "https://ajigu.com/_astro/_..DhjXuPKC.css",
+      "sha256": "3d5d9fe9f24bf7f6232ff7112ab6fad9f809d322b80eef33b70b977eee4e9844"
+    },
+    {
+      "site": "typenote",
+      "url": "https://typenote.ajigu.com/_astro/index.BmWiZVnt.css",
+      "sha256": "0f2701f834085c60a67ae8ea523fed7cabe2e55bfcb8fb42c9a902bd50a20d45"
+    },
+    {
+      "site": "moodsk",
+      "url": "https://moodsk.ajigu.com/_astro/_..DMYiy2N3.css",
+      "sha256": "e691557718e70de3ac07a0d3dbfa3a971c6b9b8a4119bcca911260dc68ce9e6c"
+    },
+    {
+      "site": "gosleep",
+      "url": "https://gosleep.ajigu.com/_astro/_..DqEwkCTn.css",
+      "sha256": "a7bdaaa9ebc75449ec114909a528fee51846eb6a85318236503348933d90988b"
+    },
+    {
+      "site": "dailyapod",
+      "url": "https://dailyapod.ajigu.com/_astro/_..BVwSW35W.css",
+      "sha256": "50343aea00da400a85c75c1b1ee40c10604a6b7c8121025ee689d9d541537d78"
+    },
+    {
+      "site": "tutu",
+      "url": "https://tutu.ajigu.com/_astro/_..Bdn2UiVU.css",
+      "sha256": "f0a0d9c04e3575bb5e73a1444b22508e19dc7b015be870f68b3caac0595a3b91"
+    }
+  ],
+  "bingVerificationSha256": "785efade67e9b0aa7d827c5c6cb7cdf7ddf054b9b12a8fea2d3599fd622c1065"
+}

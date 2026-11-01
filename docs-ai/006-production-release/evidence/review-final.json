@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "method": "Initial ten-file review plus independent two-file CI-context delta review.",
+  "files": {
+    ".github/workflows/build-websites.yml": "482a5ede27b2890282077d581cbb570129f5b1e49ee8270b9ac6811c92eecc9a",
+    ".github/workflows/deploy-studio.yml": "8c254181b1f7d4756729521f75212401a1a093b01a250e9c033fc1ea8eaf60bb",
+    "docs-ai/006-production-release/000-plan.md": "96c4a07f114128904081ff92209441e7c8146241e69f2099c53401d429de7957",
+    "package.json": "feb83a93a3168e4af1de0503cfb291abd0120f0b646fe4d09939f261b9ae5f71",
+    "packages/site-kit/config/publication.json": "d9d9cd8b75daf4e2f92ad1d08e9e5c6b3ab1bf8ff1cbf0e4c0928e8ee79c9fdc",
+    "scripts/check-build.mjs": "f762827ef72df8c08372a7b19799f103320837fcbce484c1952f3c809cd377ce",
+    "scripts/publish-products.mjs": "5f35c6ee9fcf31bed95bb7c3bdd4bbc452ab85c9f73a6ef1a95e673377b30b0e",
+    "scripts/workspace.mjs": "2033706e37b2820ad2ee75dfa37480fbc5f04649657ad5c1d7f6ec93f25f21d2",
+    "tests/deployment.test.mjs": "4df9adc0ce3a083ca772e5e720eeeda2be88d5d0f0e20dcad7a2d4df2ee39b2a",
+    "tests/workspace.test.mjs": "650bc34c7d30989074005a5d1f44cc3431e7d8263c3556fe4cba85cabcecab17"
+  },
+  "digest": "711d8329a7fa5e54e52ee5ca6772e13705cff51c8b75eecac227398b23251a88",
+  "deltaChecks": "5 workspace tests passed independently; actionlint v1.7.12 passed by main agent."
+}

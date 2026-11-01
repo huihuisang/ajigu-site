@@ -19,3 +19,5 @@
 
 - All three detail entry templates use .detail-flow. It owns 64px desktop / 48px mobile module gaps; section content uses 24px gaps. Keep the original main/main-content ids and avoid local module margins or repeated shell gutters inside accordions. Navigation remains wider; the hero stays centered.
 - pnpm test:layout measures all 29 localized details at six widths, expanded chapters and six-product no-script fallbacks. It is included in release-candidate CI. Current layout evidence and source baseline: docs-ai/005-shadcn-redesign/007-detail-layout-action.md and evidence-detail-layout; prior evidence manifests describe historical versions.
+
+- The Gallery White design and detail-flow layout are live on all six original domains from fe121d25 (2026-11-01). Production acceptance includes six matching markers, 91 URL checks and real desktop/mobile browser views; see docs-ai/006-production-release/001-action.md.

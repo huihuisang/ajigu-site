@@ -1,0 +1,47 @@
+[
+  {
+    "site": "typenote",
+    "repository": "huihuisang/typenote-landing",
+    "expectedCommit": "a90ee1ca46ae1649d44cb9102e83bd085131b21c",
+    "response": {
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1201352821/pages/builds/latest"
+    }
+  },
+  {
+    "site": "moodsk",
+    "repository": "Ajigu-Studio/moodsk-website",
+    "expectedCommit": "4f997f8d9b6245f43aa8389904018c9d0766cfa1",
+    "response": {
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1370096346/pages/builds/latest"
+    }
+  },
+  {
+    "site": "gosleep",
+    "repository": "huihuisang/snorz-site",
+    "expectedCommit": "93002bf698105a37d818cc585b0097de15f8e9da",
+    "response": {
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1333696286/pages/builds/latest"
+    }
+  },
+  {
+    "site": "dailyapod",
+    "repository": "huihuisang/dailyapod-site",
+    "expectedCommit": "be7da81dd430dec6371b0bb6acfb31bf1cbe8ffd",
+    "response": {
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1340149861/pages/builds/latest"
+    }
+  },
+  {
+    "site": "tutu",
+    "repository": "huihuisang/tutu-site",
+    "expectedCommit": "b8420994f4aee6c6612d1fd5bec1f2d3bc73c84b",
+    "response": {
+      "status": "queued",
+      "url": "https://api.github.com/repositories/1381405252/pages/builds/latest"
+    }
+  }
+]
