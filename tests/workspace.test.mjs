@@ -62,6 +62,9 @@ test("the reusable release-candidate workflow has no publication capability", as
   const workflow = parse(source);
   assert.deepEqual(Object.keys(workflow.on).sort(), ["workflow_call", "workflow_dispatch"]);
   assert.deepEqual(workflow.permissions, { contents: "read" });
+  for (const value of Object.values(workflow.jobs.verify.env))
+    assert.doesNotMatch(value, /runner\./);
+  assert.ok(workflow.jobs.verify.steps.some((step) => step.run?.includes('"$GITHUB_ENV"')));
   assert.doesNotMatch(source, /secrets\.|configure-pages|deploy-pages|git push|pages:\s*write/);
   const uploads = workflow.jobs.verify.steps.filter((step) =>
     step.uses?.startsWith("actions/upload-artifact"),

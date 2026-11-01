@@ -16,9 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ASTRO_TELEMETRY_DISABLED: "1"
-      STUDIO_OUTPUT_DIR: ${{ runner.temp }}/ajigu-websites
-      TASK_ARTIFACT_DIR: ${{ runner.temp }}/ajigu-checks
     steps:
+      - name: Set build directories
+        run: |
+          printf 'STUDIO_OUTPUT_DIR=%s/ajigu-websites\n' "$RUNNER_TEMP" >> "$GITHUB_ENV"
+          printf 'TASK_ARTIFACT_DIR=%s/ajigu-checks\n' "$RUNNER_TEMP" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/ajigu-checks"
       - uses: actions/checkout@v7.0.1
       - uses: pnpm/action-setup@v6.1.0
       - uses: actions/setup-node@v7.1.0
