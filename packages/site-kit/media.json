@@ -88,5 +88,18 @@
     "width": 2560,
     "height": 1600,
     "bytes": 133964
+  },
+  "loglift/core-workflow.mp4": {
+    "width": 1920,
+    "height": 1080,
+    "bytes": 2281147,
+    "sha256": "36892bc433abd24212c3361d826dc5e1a088e91834fb0570997387e4012bacd4",
+    "duration": 24.5
+  },
+  "loglift/core-workflow-poster.webp": {
+    "width": 1920,
+    "height": 1080,
+    "bytes": 92218,
+    "sha256": "f45b718f8ea8936df4d110379a9838a34f5c6a7d1c302a146daa8875db45434d"
   }
 }

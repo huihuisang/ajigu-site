@@ -87,8 +87,11 @@ Use `packages/site-kit/src/layouts/ProductLanding.astro`, `ProductHero`,
 `ProductSections`, and shared header/footer components. TypeNote and Nameplate
 have specific page composition; they are not the default scaffold for a new app.
 
-The default reading order is hero, demo, features, supplemental chapters, FAQ,
-download, and footer. `ProductSections` uses stable section IDs:
+The default reading order is hero, core-feature demonstration, features,
+supplemental chapters, FAQ, download, and footer. The template's `demo` slot is
+the core-feature section. Give it media from the main working screen or workflow,
+rather than decorative or overview-only repetition of the hero. `ProductSections`
+uses stable section IDs:
 
 - `features` is shown directly.
 - Other sections become a single-open accordion after hydration.
@@ -145,7 +148,9 @@ switch, and release target in the navigation checks.
 Verify image hashes, local asset availability, all homepage locales, and card
 destination behavior for either scope. For detail pages, also verify canonical and
 language metadata, navigation anchors, actions, no-script content, keyboard controls,
-and absence of horizontal overflow. Cover the current layout matrix, including
+and absence of horizontal overflow. Inspect the core-feature media and exercise
+its actual playback or interaction controls; a loaded home image does not prove
+the product workflow is demonstrated. Cover the current layout matrix, including
 320, 390, 640, 768, 1024, and 1440px, where shared layout behavior changes.
 
 Add focused regression tests for new stable behavior and failures. Use the existing

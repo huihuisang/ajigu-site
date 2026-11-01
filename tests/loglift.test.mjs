@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { createHash } from "node:crypto";
 import { legacySites } from "../packages/site-kit/config/urls.mjs";
 
 const root = new URL("../", import.meta.url);
@@ -82,4 +83,29 @@ test("LogLift gallery composition uses the authentic app home", async () => {
   assert.equal(screens[source].product, "loglift");
   assert.deepEqual(screens[source].size, [2560, 1800]);
   assert.equal(screens[source].proof.app.version, "0.1.0");
+});
+
+test("LogLift details demonstrate the core workflow with real media and static steps", async () => {
+  const pages = await json("apps/ajigu/src/products/loglift/content/pages.json");
+  const media = await json("packages/site-kit/media.json");
+  const provenance = await json("design/mockups/videos.json");
+  for (const page of pages) {
+    assert.equal(page.coreDemo.src, "/studio/media/loglift/core-workflow.mp4");
+    assert.equal(page.coreDemo.poster, "/studio/media/loglift/core-workflow-poster.webp");
+    assert.deepEqual(
+      page.coreDemo.steps.map((step) => step.id),
+      ["import", "compare", "export"],
+    );
+    assert.ok(page.coreDemo.steps.every((step) => step.title && step.body));
+    assert.ok(page.previewCaption && page.previewAlt && page.videoLinkLabel);
+  }
+  assert.equal(media["loglift/core-workflow.mp4"].width, 1920);
+  assert.equal(media["loglift/core-workflow.mp4"].height, 1080);
+  assert.equal(media["loglift/core-workflow.mp4"].duration, 24.5);
+  assert.equal(provenance.loglift.audioTracks, 0);
+  assert.equal(provenance.loglift.publication, "authorized");
+  assert.deepEqual(provenance.loglift.demonstrates, ["import", "compare", "playback", "export"]);
+  const bytes = await readFile(new URL("packages/site-kit/media/loglift/core-workflow.mp4", root));
+  assert.equal(bytes.subarray(4, 8).toString(), "ftyp");
+  assert.equal(createHash("sha256").update(bytes).digest("hex"), provenance.loglift.sourceSHA256);
 });

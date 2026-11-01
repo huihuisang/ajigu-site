@@ -176,9 +176,9 @@
       }
     ],
     "note": "0.1.0 Preview · macOS 14 or later · Universal build. Independent project; not affiliated with or endorsed by DJI.",
-    "showcaseTitle": "Start with your camera",
-    "previewAlt": "LogLift home with camera categories, camera search, and a grid of DJI camera models",
-    "previewCaption": "The native LogLift home, captured from version 0.1.0 (1). The app is shown in Simplified Chinese.",
+    "showcaseTitle": "Import, compare, then export",
+    "previewAlt": "LogLift demonstration of importing footage, comparing original and Rec.709, playback and completed export",
+    "previewCaption": "A 24.5-second recording of the real app: import footage, compare the original and Rec.709, preview playback, and export. The interface and video labels are in Simplified Chinese.",
     "mainId": "main",
     "sections": [
       {
@@ -266,7 +266,31 @@
         "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
         "label": "Source and license"
       }
-    ]
+    ],
+    "videoLinkLabel": "Open demonstration video",
+    "coreDemo": {
+      "src": "/studio/media/loglift/core-workflow.mp4",
+      "poster": "/studio/media/loglift/core-workflow-poster.webp",
+      "width": 1920,
+      "height": 1080,
+      "steps": [
+        {
+          "id": "import",
+          "title": "Import your clips",
+          "body": "Choose the camera profile, then add one or more video clips."
+        },
+        {
+          "id": "compare",
+          "title": "Compare the result",
+          "body": "Drag between the original and Rec.709 view, or play the synchronized preview."
+        },
+        {
+          "id": "export",
+          "title": "Export locally",
+          "body": "Choose the output folder and export new HEVC Main10 files on your Mac."
+        }
+      ]
+    }
   },
   {
     "route": "/loglift/zh-hans/",
@@ -445,9 +469,9 @@
       }
     ],
     "note": "0.1.0 预览版 · macOS 14 及以上 · 通用构建。独立项目，与 DJI 无隶属或背书关系。",
-    "showcaseTitle": "从你的相机开始",
-    "previewAlt": "LogLift 首页：相机分类、相机搜索与 DJI 机型选择画廊",
-    "previewCaption": "LogLift 原生首页，采集自 0.1.0（1）版本，界面语言为简体中文。",
+    "showcaseTitle": "导入、对比，再导出",
+    "previewAlt": "LogLift 核心功能演示：导入素材、原片与 Rec.709 对比、播放预览和完成导出",
+    "previewCaption": "24.5 秒真实应用演示：导入素材、拖动滑杆对比原片与 Rec.709、播放预览，再完成导出。视频界面与字幕为简体中文。",
     "mainId": "main",
     "sections": [
       {
@@ -535,7 +559,31 @@
         "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
         "label": "源码与许可证"
       }
-    ]
+    ],
+    "videoLinkLabel": "打开演示视频",
+    "coreDemo": {
+      "src": "/studio/media/loglift/core-workflow.mp4",
+      "poster": "/studio/media/loglift/core-workflow-poster.webp",
+      "width": 1920,
+      "height": 1080,
+      "steps": [
+        {
+          "id": "import",
+          "title": "导入素材",
+          "body": "选好相机与录制模式，添加一个或多个视频片段。"
+        },
+        {
+          "id": "compare",
+          "title": "对比效果",
+          "body": "拖动滑杆查看原片与 Rec.709 的差异，也可以同步播放预览。"
+        },
+        {
+          "id": "export",
+          "title": "在本地导出",
+          "body": "选择输出文件夹，在 Mac 上导出新的 HEVC Main10 文件。"
+        }
+      ]
+    }
   },
   {
     "route": "/loglift/zh-hant/",
@@ -714,9 +762,9 @@
       }
     ],
     "note": "0.1.0 預覽版 · macOS 14 以上 · 通用組建。獨立專案，與 DJI 無隸屬或背書關係。",
-    "showcaseTitle": "從你的相機開始",
-    "previewAlt": "LogLift 首頁：相機分類、相機搜尋與 DJI 機型選擇圖庫",
-    "previewCaption": "LogLift 原生首頁，擷取自 0.1.0（1）版本，介面語言為簡體中文。",
+    "showcaseTitle": "匯入、比較，再輸出",
+    "previewAlt": "LogLift 核心功能示範：匯入素材、原片與 Rec.709 比較、播放預覽和完成輸出",
+    "previewCaption": "24.5 秒真實應用程式示範：匯入素材、拖動滑桿比較原片與 Rec.709、播放預覽，再完成輸出。影片介面與字幕為簡體中文。",
     "mainId": "main",
     "sections": [
       {
@@ -804,7 +852,31 @@
         "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
         "label": "原始碼與授權條款"
       }
-    ]
+    ],
+    "videoLinkLabel": "開啟示範影片",
+    "coreDemo": {
+      "src": "/studio/media/loglift/core-workflow.mp4",
+      "poster": "/studio/media/loglift/core-workflow-poster.webp",
+      "width": 1920,
+      "height": 1080,
+      "steps": [
+        {
+          "id": "import",
+          "title": "匯入素材",
+          "body": "選好相機與錄製模式，加入一個或多個影片片段。"
+        },
+        {
+          "id": "compare",
+          "title": "比較效果",
+          "body": "拖動滑桿檢視原片與 Rec.709 的差異，也可以同步播放預覽。"
+        },
+        {
+          "id": "export",
+          "title": "在本機輸出",
+          "body": "選擇輸出資料夾，在 Mac 上輸出新的 HEVC Main10 檔案。"
+        }
+      ]
+    }
   },
   {
     "route": "/loglift/ja/",
@@ -983,9 +1055,9 @@
       }
     ],
     "note": "0.1.0 プレビュー版 · macOS 14以降 · ユニバーサルビルド。DJIとは提携していない独立プロジェクトです。",
-    "showcaseTitle": "まずはカメラを選択",
-    "previewAlt": "カメラ分類、検索、DJIカメラの一覧があるLogLiftのホーム画面",
-    "previewCaption": "バージョン0.1.0（1）から撮影したLogLiftのホーム画面。アプリの表示言語は簡体字中国語です。",
+    "showcaseTitle": "読み込み、比較、書き出し",
+    "previewAlt": "素材の読み込み、元映像とRec.709の比較、再生と書き出し完了を紹介するLogLiftデモ",
+    "previewCaption": "実際のアプリを収録した24.5秒のデモです。素材の読み込み、元映像とRec.709のスライド比較、プレビュー再生、書き出し完了を紹介します。映像内のUIと字幕は簡体字中国語です。",
     "mainId": "main",
     "sections": [
       {
@@ -1073,7 +1145,31 @@
         "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
         "label": "ソースとライセンス"
       }
-    ]
+    ],
+    "videoLinkLabel": "デモ動画を開く",
+    "coreDemo": {
+      "src": "/studio/media/loglift/core-workflow.mp4",
+      "poster": "/studio/media/loglift/core-workflow-poster.webp",
+      "width": 1920,
+      "height": 1080,
+      "steps": [
+        {
+          "id": "import",
+          "title": "クリップを読み込む",
+          "body": "カメラのプロファイルを選び、ひとつ以上のクリップを追加します。"
+        },
+        {
+          "id": "compare",
+          "title": "結果を比較する",
+          "body": "ハンドルをドラッグして元映像とRec.709を比較し、同期プレビューを再生します。"
+        },
+        {
+          "id": "export",
+          "title": "Mac内で書き出す",
+          "body": "保存先を選び、新しいHEVC Main10ファイルに書き出します。"
+        }
+      ]
+    }
   },
   {
     "route": "/loglift/ko/",
@@ -1252,9 +1348,9 @@
       }
     ],
     "note": "0.1.0 미리보기 · macOS 14 이상 · 유니버설 빌드. DJI와 제휴하거나 보증받지 않은 독립 프로젝트입니다.",
-    "showcaseTitle": "카메라 선택부터 시작하세요",
-    "previewAlt": "카메라 분류와 검색, DJI 카메라 모델 목록이 있는 LogLift 기본 화면",
-    "previewCaption": "버전 0.1.0(1)에서 캡처한 LogLift의 기본 화면입니다. 앱 표시 언어는 중국어 간체입니다.",
+    "showcaseTitle": "가져오기, 비교, 내보내기",
+    "previewAlt": "영상 가져오기, 원본과 Rec.709 비교, 재생과 내보내기 완료를 보여 주는 LogLift 데모",
+    "previewCaption": "실제 앱을 녹화한 24.5초 데모입니다. 영상 가져오기, 원본과 Rec.709 슬라이더 비교, 미리보기 재생과 내보내기 완료를 보여 줍니다. 영상의 UI와 자막은 중국어 간체입니다.",
     "mainId": "main",
     "sections": [
       {
@@ -1342,6 +1438,30 @@
         "href": "https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md",
         "label": "소스 및 라이선스"
       }
-    ]
+    ],
+    "videoLinkLabel": "데모 영상 열기",
+    "coreDemo": {
+      "src": "/studio/media/loglift/core-workflow.mp4",
+      "poster": "/studio/media/loglift/core-workflow-poster.webp",
+      "width": 1920,
+      "height": 1080,
+      "steps": [
+        {
+          "id": "import",
+          "title": "클립 가져오기",
+          "body": "카메라 프로파일을 선택하고 하나 이상의 클립을 추가합니다."
+        },
+        {
+          "id": "compare",
+          "title": "결과 비교하기",
+          "body": "핸들을 드래그해 원본과 Rec.709를 비교하거나 동기화된 미리보기를 재생합니다."
+        },
+        {
+          "id": "export",
+          "title": "로컬로 내보내기",
+          "body": "출력 폴더를 선택하고 Mac에서 새 HEVC Main10 파일로 내보냅니다."
+        }
+      ]
+    }
   }
 ]

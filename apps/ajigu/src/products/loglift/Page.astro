@@ -10,24 +10,47 @@ const { page } = Astro.props;
 ---
 
 <ProductLanding page={page} product={product}>
-  <figure slot="demo" class="loglift-preview">
-    <img
-      src="/studio/screens/loglift-home.webp"
-      alt={page.previewAlt}
-      width="2560"
-      height="1800"
-      loading="lazy"
-      decoding="async"
-    />
-    <figcaption>{page.previewCaption}</figcaption>
-  </figure>
+  <div slot="demo" class="loglift-core">
+    <figure class="loglift-preview">
+      <video
+        controls
+        muted
+        playsinline
+        preload="metadata"
+        tabindex="0"
+        aria-label={page.previewAlt}
+        poster={page.coreDemo.poster}
+        width={page.coreDemo.width}
+        height={page.coreDemo.height}
+      >
+        <source src={page.coreDemo.src} type="video/mp4" />
+        <a href={page.coreDemo.src}>{page.videoLinkLabel}</a>
+      </video>
+      <figcaption>
+        {page.previewCaption}
+        <a href={page.coreDemo.src}>{page.videoLinkLabel}</a>
+      </figcaption>
+    </figure>
+    <ol class="loglift-core-steps">
+      {page.coreDemo.steps.map((step) => (
+        <li data-core-step={step.id}>
+          <strong>{step.title}</strong>
+          <p>{step.body}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
 </ProductLanding>
 
 <style>
   .loglift-preview {
     margin: 0;
   }
-  .loglift-preview img {
+  .loglift-core {
+    display: grid;
+    gap: var(--section-content-gap);
+  }
+  .loglift-preview video {
     display: block;
     width: 100%;
     height: auto;
@@ -37,5 +60,25 @@ const { page } = Astro.props;
     margin-top: 12px;
     color: var(--muted-foreground);
     font-size: 13px;
+  }
+  .loglift-preview figcaption a {
+    margin-inline-start: 8px;
+  }
+  .loglift-core-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .loglift-core-steps p {
+    margin-top: 8px;
+    color: var(--muted-foreground);
+  }
+  @media (max-width: 640px) {
+    .loglift-core-steps {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

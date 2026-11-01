@@ -1,0 +1,22 @@
+{
+  "loglift": {
+    "source": "Existing user-created LogLift product demonstration, 2026-10-31 local delivery.",
+    "sourceSHA256": "36892bc433abd24212c3361d826dc5e1a088e91834fb0570997387e4012bacd4",
+    "file": "packages/site-kit/media/loglift/core-workflow.mp4",
+    "poster": "packages/site-kit/media/loglift/core-workflow-poster.webp",
+    "posterTimestamp": 10.3,
+    "width": 1920,
+    "height": 1080,
+    "duration": 24.5,
+    "audioTracks": 0,
+    "demonstrates": [
+      "import",
+      "compare",
+      "playback",
+      "export"
+    ],
+    "publication": "authorized",
+    "proof": "Actual native app recording and completed export, using footage previously selected by the user for a local promo. Original delivery remains unchanged. Prior brief specified local-only delivery; public use requires approval.",
+    "authorization": "2026-11-02: the user explicitly approved publishing this 24.5-second film to ajigu.com and the public huihuisang/ajigu-site repository."
+  }
+}

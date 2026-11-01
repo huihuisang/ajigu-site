@@ -60,7 +60,21 @@ Keep descriptions concise and consistent with the source product facts.
 
 Read the detail section of [Repository integration](references/integration.md).
 Compose the shared template and components. Keep product-specific behavior in
-the demo slot. Use static, authentic media if no useful browser demo exists.
+the demo slot.
+
+Every detail page must have a dedicated, visible core-feature section, separate
+from the hero. Identify the main user task, its key action, and its visible result
+before choosing media. Use authentic core-screen captures or an actual workflow
+video to explain that task. Read the core-feature section of
+[Gallery assets](references/gallery-assets.md) when selecting this media.
+
+An overview-only home image, app icon, empty state, or text-only feature list does
+not satisfy this section. A home screen can qualify when it is the actual core
+workspace and visibly demonstrates the main action and result. The gallery image
+and the detail demonstration serve different purposes.
+Keep a short localized explanation of the demonstrated action and result beside
+the media. If suitable core media is missing, obtain it or report the gap before
+calling the detail page complete; do not silently repeat the homepage.
 
 Separate new product routes from historical domain migration. Check routing,
 public asset staging, sitemap generation, and test coverage together. A new

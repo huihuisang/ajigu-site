@@ -14,6 +14,7 @@ const mime = {
   ".png": "image/png",
   ".jpg": "image/jpeg",
   ".webp": "image/webp",
+  ".mp4": "video/mp4",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
   ".csv": "text/csv",
@@ -65,10 +66,47 @@ export async function startPreview({
           if (file.endsWith(".html")) {
             let html = await readFile(file, "utf8");
             response.end(html.replace("</body>", navigation(mapping) + "</body>"));
-          } else
-            createReadStream(file)
-              .on("error", () => response.destroy())
-              .pipe(response);
+          } else {
+            const { size } = await stat(file);
+            let start = 0;
+            let end = size - 1;
+            response.setHeader("accept-ranges", "bytes");
+            if (request.headers.range) {
+              const match = /^bytes=(\d*)-(\d*)$/.exec(request.headers.range);
+              let valid = !!match && !!(match[1] || match[2]) && size > 0;
+              if (valid) {
+                const first = Number(match[1]);
+                const last = Number(match[2]);
+                valid = Number.isSafeInteger(first) && Number.isSafeInteger(last);
+                if (!match[1]) {
+                  valid &&= last > 0;
+                  start = Math.max(0, size - last);
+                } else {
+                  start = first;
+                  end = match[2] ? Math.min(last, size - 1) : size - 1;
+                }
+                valid &&= start < size && start <= end;
+              }
+              if (!valid) {
+                response.writeHead(416, { "content-range": `bytes */${size}` });
+                response.end();
+                return;
+              }
+              response.writeHead(206, {
+                "content-range": `bytes ${start}-${end}/${size}`,
+                "content-length": end - start + 1,
+              });
+            } else {
+              response.setHeader("content-length", size);
+            }
+            if (request.method === "HEAD" || size === 0) {
+              response.end();
+              return;
+            }
+            const stream = createReadStream(file, { start, end });
+            response.on("close", () => stream.destroy());
+            stream.on("error", () => response.destroy()).pipe(response);
+          }
         } catch {
           response.writeHead(404, { "content-type": "text/html; charset=utf-8" });
           response.end(await readFile(path.join(root, "404.html"), "utf8"));

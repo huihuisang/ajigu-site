@@ -75,6 +75,29 @@ The small app icon is a separate asset. Use `AppIcon` and a verified native icon
 gallery and 72px in the detail hero. Shared styles provide corners and shadow.
 Inspect the existing icon dimensions and encoding; preserve source transparency.
 
+## Core-feature media for details
+
+Select detail media from the product's main operation and result, independently
+of the gallery artwork. Show the real working state: imported content, meaningful
+controls, and the resulting output or comparison. A single core screen can cover
+the task; use several screens or a workflow video when motion or a sequence is
+needed to explain it. Do not impose a fixed number of screenshots.
+
+Reuse verified product demonstrations when their version, content, and publication
+scope fit the task. Preserve the originals. A prior local-only delivery does not
+authorize public use of personal footage; complete local review and obtain the
+needed permission before uploading or pushing that media.
+
+For video, provide a representative core-workspace poster, intrinsic dimensions,
+native playback controls, and localized surrounding text. Avoid autoplay and
+unrequested sound. Keep an accessible description and readable static workflow
+summary so the section remains useful without playback or JavaScript. Use
+captions for spoken information; describe a silent demonstration clearly.
+
+Check the actual media, not only its filename or existence. Verify that the
+demonstration covers the promised action and result, then test media loading,
+playback, pause, seeking, mobile fit, and the no-script fallback in a browser.
+
 ## Export and inspect
 
 Check Python and Pillow availability before running the renderer. Use the current
