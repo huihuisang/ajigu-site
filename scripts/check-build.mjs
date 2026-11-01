@@ -1,174 +1,180 @@
 import assert from "node:assert/strict";
-import { readFile, access, readdir } from "node:fs/promises";
+import { readFile, access } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
-import { sites, studioPaths } from "../packages/site-kit/config/paths.mjs";
+import { load } from "cheerio";
+import { studioPaths } from "../packages/site-kit/config/paths.mjs";
+import {
+  legacySites,
+  origin,
+  migrateURL,
+  productPath,
+  migrateContent,
+} from "../packages/site-kit/config/urls.mjs";
+import { files } from "./site-output.mjs";
+import { migrateText } from "../packages/site-kit/config/urls.mjs";
 
-const attributes = (tag) =>
-  Object.fromEntries(
-    [...tag.matchAll(/([\w-]+)="([^"]*)"/g)].map(([, key, value]) => [key, value]),
-  );
-const tags = (html, name) =>
-  [...html.matchAll(new RegExp(`<${name}\\b[^>]*>`, "g"))].map(([tag]) => attributes(tag));
 const digest = (bytes) => createHash("sha256").update(bytes).digest("hex");
-async function files(root, prefix = "") {
-  const entries = await readdir(path.join(root, prefix), { withFileTypes: true });
-  return (
-    await Promise.all(
-      entries.map(async (entry) =>
-        entry.isDirectory()
-          ? files(root, path.join(prefix, entry.name))
-          : [path.join(prefix, entry.name)],
-      ),
-    )
-  ).flat();
-}
+const json = async (file) => JSON.parse(await readFile(file, "utf8"));
+const urlFile = (directory, pathname) =>
+  path.join(directory, decodeURIComponent(pathname), pathname.endsWith("/") ? "index.html" : "");
 export async function checkBuild() {
-  const summary = [];
-  for (const name of Object.keys(sites)) {
-    const locations = studioPaths(name),
-      origin = `https://${sites[name].domain}`;
-    const migrated = !["ajigu", "typenote"].includes(name);
-    const contract = migrated
-      ? JSON.parse(
-          await readFile(path.join(locations.root, `apps/${name}/compatibility.json`), "utf8"),
-        )
-      : undefined;
+  const locations = studioPaths("ajigu"),
+    expected = process.env.STUDIO_REVISION || process.env.GITHUB_SHA;
+  assert.equal((await readFile(path.join(locations.site, "CNAME"), "utf8")).trim(), "ajigu.com");
+  await access(path.join(locations.site, ".nojekyll"));
+  const favicon = await readFile(path.join(locations.site, "favicon.ico"));
+  assert.equal(favicon.readUInt16LE(2), 1);
+  assert.equal(
+    digest(favicon.subarray(22)),
+    digest(await readFile(path.join(locations.root, "assets/favicon.png"))),
+  );
+  if (expected)
+    assert.deepEqual(await json(path.join(locations.site, "site-release.json")), {
+      sourceRepository: "huihuisang/ajigu-site",
+      sourceRevision: expected,
+      site: "ajigu",
+      domain: "ajigu.com",
+      mode: "site",
+    });
+  for (const filename of ["BingSiteAuth.xml", "006457a8747962bd1d5a650d6b9a5365.txt"])
     assert.equal(
-      (await readFile(path.join(locations.site, "CNAME"), "utf8")).trim(),
-      sites[name].domain,
+      digest(await readFile(path.join(locations.site, filename))),
+      digest(await readFile(path.join(locations.root, filename))),
     );
-    const expectedRevision = process.env.STUDIO_REVISION || process.env.GITHUB_SHA;
-    if (expectedRevision) {
-      const release = JSON.parse(
-        await readFile(path.join(locations.site, "site-release.json"), "utf8"),
+  const sitemap = await readFile(path.join(locations.site, "sitemap.xml"), "utf8");
+  const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
+  assert.equal(urls.length, 91);
+  assert.equal(new Set(urls).size, 91);
+  for (const url of urls) {
+    assert.equal(new URL(url).origin, origin);
+    const html = await readFile(urlFile(locations.site, new URL(url).pathname), "utf8"),
+      $ = load(html);
+    assert.deepEqual(
+      $("link[rel=canonical]")
+        .map((_, el) => $(el).attr("href"))
+        .get(),
+      [url],
+    );
+    assert.equal($("h1").length, 1, url);
+    for (const text of $("script[type='application/ld+json']")
+      .map((_, el) => $(el).html())
+      .get())
+      JSON.parse(text);
+    for (const el of $("a[href],img[src],script[src],link[href],source[src]").toArray()) {
+      const href = $(el).attr("src") || $(el).attr("href");
+      if (!href || /^(?:data:|#|mailto:|tel:|javascript:)/.test(href)) continue;
+      const target = new URL(href, url);
+      assert.ok(
+        !Object.values(legacySites).some((site) => site.domain === target.hostname),
+        `${url}: old-host dependency ${href}`,
       );
-      assert.deepEqual(release, {
-        sourceRepository: "huihuisang/ajigu-site",
-        sourceRevision: expectedRevision,
-        site: name,
-        domain: sites[name].domain,
-      });
+      if (target.origin === origin) await access(urlFile(locations.site, target.pathname));
     }
-    const sitemap = await readFile(path.join(locations.site, "sitemap.xml"), "utf8");
-    const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-    for (const url of urls) {
-      const pageURL = new URL(url);
-      assert.equal(pageURL.origin, origin);
-      const file = path.join(locations.site, pageURL.pathname, "index.html");
-      const html = await readFile(file, "utf8");
-      if (contract) {
-        const source = contract.routes.find((entry) => entry.route === pageURL.pathname);
-        if (source) {
-          assert.match(html, new RegExp(`<html[^>]+lang="${source.locale}"`));
-          const links = tags(html, "a").map((tag) => tag.href?.replaceAll("&amp;", "&"));
-          for (const action of source.actions)
-            assert.ok(
-              links.includes(action.href),
-              `${url}: missing original action ${action.href}`,
-            );
-          assert.doesNotMatch(
-            html,
-            /<script[^>]+src="[^\"]*(?:language\.js|lang-kit\.js|studio\/runtime\.mjs)/,
+  }
+  const summaries = [];
+  for (const [site, { domain, base }] of Object.entries(legacySites)) {
+    const source = path.join(locations.root, "apps/ajigu/public", site);
+    const contract = await json(
+      path.join(locations.root, `apps/ajigu/src/products/${site}/compatibility.json`),
+    );
+    const marketing =
+      site === "typenote"
+        ? [{ route: "/", locale: "en" }]
+        : await json(
+            path.join(locations.root, `apps/ajigu/src/products/${site}/content/pages.json`),
           );
-          assert.equal(
-            tags(html, "link").filter((link) => link.hreflang).length,
-            contract.routes.length + 1,
-          );
-          assert.ok(
-            tags(html, "a").filter((link) => link["data-slot"] === "button").length >=
-              source.actions.length,
-          );
-        }
+    for (const page of marketing) {
+      const route = productPath(site, page.route),
+        html = await readFile(urlFile(locations.site, route), "utf8"),
+        $ = load(html);
+      assert.equal($("html").attr("lang"), page.locale);
+      assert.equal($("main.detail-flow").length, 1);
+      assert.equal($(".product-art").length, 1);
+      if (page.actions) {
+        const links = $("a[href]")
+          .map((_, el) => $(el).attr("href"))
+          .get();
+        for (const action of page.actions)
+          assert.ok(links.includes(migrateURL(action.href, site)), `${route}: missing action`);
       }
-      const canonical = tags(html, "link").filter((tag) => tag.rel === "canonical");
-      assert.deepEqual(
-        canonical.map((tag) => tag.href),
-        [url],
-        `${name}${pageURL.pathname}: canonical`,
+      if (site !== "typenote") {
+        const metadata = migrateContent(page.metadata, site);
+        assert.deepEqual(
+          $("link[hreflang]")
+            .map((_, el) => $(el).attr("href"))
+            .get(),
+          metadata.links.filter((link) => link.hreflang).map((link) => link.href),
+        );
+      }
+    }
+    const legacyDirectory = path.join(locations.output, "redirects", site);
+    assert.equal((await readFile(path.join(legacyDirectory, "CNAME"), "utf8")).trim(), domain);
+    const marker = await json(path.join(legacyDirectory, "site-release.json"));
+    assert.equal(marker.mode, "redirect");
+    assert.equal(marker.domain, domain);
+    assert.equal(marker.targetBase, origin + base + "/");
+    if (expected) assert.equal(marker.sourceRevision, expected);
+    const oldSitemap = await readFile(path.join(source, "sitemap.xml"), "utf8");
+    const oldURLs = [...oldSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
+    for (const url of oldURLs) {
+      const route = new URL(url).pathname,
+        $ = load(await readFile(urlFile(legacyDirectory, route), "utf8"));
+      assert.equal($("link[rel=canonical]").attr("href"), migrateURL(url, site));
+      assert.match($("meta[http-equiv=refresh]").attr("content"), /^0;url=https:\/\/ajigu.com\//);
+      assert.equal($("astro-island").length, 0);
+    }
+    for (const file of await files(source)) {
+      await access(path.join(locations.site, site, file));
+      if (file.endsWith(".html")) {
+        const original = load(await readFile(path.join(source, file), "utf8"));
+        const transformed = load(await readFile(path.join(locations.site, site, file), "utf8"));
+        original("script,style").remove();
+        transformed("script,style").remove();
+        const normalize = (text) => text.replace(/\s+/g, "");
+        assert.equal(
+          normalize(transformed("body").text()),
+          normalize(migrateText(original("body").text(), site)),
+          `${site}: changed document content ${file}`,
+        );
+      }
+      if (file !== "CNAME" && !file.endsWith(".html"))
+        assert.equal(
+          digest(await readFile(path.join(source, file))),
+          digest(await readFile(path.join(legacyDirectory, file))),
+          `${site}: legacy resource ${file}`,
+        );
+      if (!/\.(?:html|css|js|mjs|json|xml|txt)$/.test(file))
+        assert.equal(
+          digest(await readFile(path.join(source, file))),
+          digest(await readFile(path.join(locations.site, site, file))),
+          `${site}: binary resource ${file}`,
+        );
+    }
+    for (const [file, sha] of Object.entries(contract.legacyStudio || {}))
+      assert.equal(
+        digest(await readFile(path.join(legacyDirectory, file))),
+        sha,
+        `${site}: shared legacy resource ${file}`,
       );
-      assert.equal((html.match(/<h1\b/g) || []).length, 1, `${url}: H1`);
-      if (name === "ajigu" && pageURL.pathname.includes("/nameplate/about/")) {
-        const actions = html.match(/<div class="product-actions">([\s\S]*?)<\/div>/)?.[1] || "";
-        assert.ok(
-          tags(actions, "a").some((tag) => tag["data-slot"] === "button"),
-          "Nameplate primary action must retain its button styles across Astro and React.",
-        );
-      }
-      for (const tag of [
-        ...tags(html, "link"),
-        ...tags(html, "script"),
-        ...tags(html, "img"),
-        ...tags(html, "a"),
-      ]) {
-        const href = tag.src || tag.href;
-        if (!href || /^(?:https?:|data:|#|mailto:|tel:)/.test(href)) continue;
-        const target = new URL(href, url).pathname;
-        await access(
-          path.join(
-            locations.site,
-            decodeURIComponent(target),
-            target.endsWith("/") ? "index.html" : "",
-          ),
-        );
-      }
-      for (const [, json] of html.matchAll(
-        /<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g,
-      ))
-        JSON.parse(json);
-      if (name === "typenote" && pageURL.pathname === "/")
-        assert.doesNotMatch(
-          html,
-          /<script[^>]+src="[^\"]*(?:i18n\.js|lang-kit\.js|studio\/runtime\.mjs)/,
-        );
-    }
-    // Public compatibility resources must reach the output without build-time changes.
-    const preserved = [];
-    for (const file of await files(locations.public)) {
-      const before = await readFile(path.join(locations.public, file)),
-        after = await readFile(path.join(locations.site, file));
-      assert.equal(digest(after), digest(before), `${name}: changed compatibility file ${file}`);
-      preserved.push(file);
-    }
-    if (contract) {
-      assert.equal(contract.domain, sites[name].domain);
-      for (const [file, sha] of Object.entries({
-        ...contract.compatibility,
-        ...contract.legacyStudio,
-      }))
-        assert.equal(
-          digest(await readFile(path.join(locations.site, file))),
-          sha,
-          `${name}: original public file changed ${file}`,
-        );
-      for (const source of contract.routes)
-        assert.ok(urls.includes(origin + source.route), `${name}: missing route ${source.route}`);
-    }
-    if (name === "ajigu") {
-      for (const file of [
-        "nameplate/index.html",
-        "nameplate/zh-hans/index.html",
-        "nameplate/app.js",
-      ]) {
-        assert.equal(
-          digest(await readFile(path.join(locations.root, file))),
-          digest(await readFile(path.join(locations.site, file))),
-          file,
-        );
-      }
-      const body = await readFile(path.join(locations.site, "nameplate/index.html"), "utf8");
-      assert.doesNotMatch(body, /_astro\/|astro-island|studio\/runtime/);
-    }
-    summary.push({
-      site: name,
-      pages: urls.length,
-      canonical: "passed",
-      compatibilityFiles: preserved.length,
+    summaries.push({
+      site,
+      canonicalBase: origin + base + "/",
+      pages: oldURLs.length,
+      redirectDomain: domain,
+      resources: "passed",
     });
   }
-  console.log(JSON.stringify({ buildChecks: summary }, null, 2));
-  return summary;
+  return [
+    {
+      site: "ajigu",
+      domain: "ajigu.com",
+      pages: urls.length,
+      products: summaries,
+      canonical: "passed",
+    },
+  ];
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url))
-  await checkBuild();
+  console.log(JSON.stringify({ buildChecks: await checkBuild() }, null, 2));

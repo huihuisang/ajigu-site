@@ -1,13 +1,9 @@
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+export { legacySites } from "./urls.mjs";
 
 export const sites = {
   ajigu: { name: "ajigu", domain: "ajigu.com", port: 8770 },
-  moodsk: { name: "moodsk", domain: "moodsk.ajigu.com", port: 8771 },
-  tutu: { name: "tutu", domain: "tutu.ajigu.com", port: 8772 },
-  gosleep: { name: "gosleep", domain: "gosleep.ajigu.com", port: 8773 },
-  dailyapod: { name: "dailyapod", domain: "dailyapod.ajigu.com", port: 8774 },
-  typenote: { name: "typenote", domain: "typenote.ajigu.com", port: 8775 },
 };
 
 export function studioPaths(site) {

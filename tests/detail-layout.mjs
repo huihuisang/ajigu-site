@@ -26,7 +26,10 @@ const cases = [
 ];
 for (const site of ["moodsk", "tutu", "gosleep", "dailyapod"]) {
   const pages = JSON.parse(
-    await readFile(new URL(`../apps/${site}/src/content/pages.json`, import.meta.url), "utf8"),
+    await readFile(
+      new URL(`../apps/ajigu/src/products/${site}/content/pages.json`, import.meta.url),
+      "utf8",
+    ),
   );
   cases.push(...pages.map(({ route, locale }) => ({ site, route, language: locale })));
 }

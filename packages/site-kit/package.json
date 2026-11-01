@@ -9,7 +9,8 @@
     "./copy": "./src/copy.ts",
     "./models": "./src/models.ts",
     "./layouts/*": "./src/layouts/*",
-    "./scripts/*": "./src/scripts/*.ts"
+    "./scripts/*": "./src/scripts/*.ts",
+    "./urls": "./config/urls.mjs"
   },
   "peerDependencies": {
     "react": "^19.0.0",

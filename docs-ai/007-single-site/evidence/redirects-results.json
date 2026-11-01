@@ -1,0 +1,1030 @@
+{
+  "results": [
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/",
+      "to": "https://ajigu.com/typenote/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+      "to": "https://ajigu.com/typenote/guides/keyboard-sounds/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+      "to": "https://ajigu.com/typenote/guides/keyboard-sounds/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+      "to": "https://ajigu.com/typenote/guides/keyboard-sounds/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "typenote",
+      "queryAndHash": true,
+      "to": "https://ajigu.com/typenote/?lang=zh&tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/",
+      "to": "https://ajigu.com/moodsk/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/moodsk/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ja/",
+      "to": "https://ajigu.com/moodsk/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ko/",
+      "to": "https://ajigu.com/moodsk/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/about/",
+      "to": "https://ajigu.com/moodsk/about/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/about/",
+      "to": "https://ajigu.com/moodsk/zh-hans/about/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ja/about/",
+      "to": "https://ajigu.com/moodsk/ja/about/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ko/about/",
+      "to": "https://ajigu.com/moodsk/ko/about/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/",
+      "to": "https://ajigu.com/moodsk/tutorials/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/change-folder-icons-on-mac/",
+      "to": "https://ajigu.com/moodsk/tutorials/change-folder-icons-on-mac/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/folder-color-system-on-mac/",
+      "to": "https://ajigu.com/moodsk/tutorials/folder-color-system-on-mac/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-color-system-on-mac/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-color-system-on-mac/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/folder-icons-with-text/",
+      "to": "https://ajigu.com/moodsk/tutorials/folder-icons-with-text/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-icons-with-text/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-icons-with-text/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "queryAndHash": true,
+      "to": "https://ajigu.com/moodsk/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/",
+      "to": "https://ajigu.com/gosleep/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/en-gb/",
+      "to": "https://ajigu.com/gosleep/en-gb/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/gosleep/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hant/",
+      "to": "https://ajigu.com/gosleep/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ja/",
+      "to": "https://ajigu.com/gosleep/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ko/",
+      "to": "https://ajigu.com/gosleep/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/de/",
+      "to": "https://ajigu.com/gosleep/de/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/fr/",
+      "to": "https://ajigu.com/gosleep/fr/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/support/",
+      "to": "https://ajigu.com/gosleep/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/en-gb/support/",
+      "to": "https://ajigu.com/gosleep/en-gb/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hans/support/",
+      "to": "https://ajigu.com/gosleep/zh-hans/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hant/support/",
+      "to": "https://ajigu.com/gosleep/zh-hant/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ja/support/",
+      "to": "https://ajigu.com/gosleep/ja/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ko/support/",
+      "to": "https://ajigu.com/gosleep/ko/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/de/support/",
+      "to": "https://ajigu.com/gosleep/de/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/fr/support/",
+      "to": "https://ajigu.com/gosleep/fr/support/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/privacy/",
+      "to": "https://ajigu.com/gosleep/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/en-gb/privacy/",
+      "to": "https://ajigu.com/gosleep/en-gb/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hans/privacy/",
+      "to": "https://ajigu.com/gosleep/zh-hans/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hant/privacy/",
+      "to": "https://ajigu.com/gosleep/zh-hant/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ja/privacy/",
+      "to": "https://ajigu.com/gosleep/ja/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ko/privacy/",
+      "to": "https://ajigu.com/gosleep/ko/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/de/privacy/",
+      "to": "https://ajigu.com/gosleep/de/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/fr/privacy/",
+      "to": "https://ajigu.com/gosleep/fr/privacy/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/guides/night-sounds/",
+      "to": "https://ajigu.com/gosleep/guides/night-sounds/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+      "to": "https://ajigu.com/gosleep/guides/night-sounds/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/guides/night-sounds/ja/",
+      "to": "https://ajigu.com/gosleep/guides/night-sounds/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "queryAndHash": true,
+      "to": "https://ajigu.com/gosleep/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/",
+      "to": "https://ajigu.com/dailyapod/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/",
+      "to": "https://ajigu.com/dailyapod/guides/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/ja/",
+      "to": "https://ajigu.com/dailyapod/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/ko/",
+      "to": "https://ajigu.com/dailyapod/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "dailyapod",
+      "queryAndHash": true,
+      "to": "https://ajigu.com/dailyapod/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/",
+      "to": "https://ajigu.com/tutu/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/tutu/zh-hans/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/zh-hant/",
+      "to": "https://ajigu.com/tutu/zh-hant/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/ja/",
+      "to": "https://ajigu.com/tutu/ja/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/ko/",
+      "to": "https://ajigu.com/tutu/ko/",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "tutu",
+      "queryAndHash": true,
+      "to": "https://ajigu.com/tutu/zh-hans/?tag=a&tag=b&empty=&ref=a%2Fb#faq",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "moodsk",
+      "unknownPath": true,
+      "to": "https://ajigu.com/moodsk/not-a-page/?ref=a%2Fb#unknown",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "gosleep",
+      "legacyLanguage": true,
+      "to": "http://127.0.0.1:64673/gosleep/ja/support/?lang=ja&tag=a&tag=b&empty=&ref=a%2Fb#contact",
+      "javaScriptEnabled": true
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/",
+      "to": "https://ajigu.com/typenote/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/guides/keyboard-sounds/",
+      "to": "https://ajigu.com/typenote/guides/keyboard-sounds/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/guides/keyboard-sounds/zh-hans/",
+      "to": "https://ajigu.com/typenote/guides/keyboard-sounds/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "typenote",
+      "from": "https://typenote.ajigu.com/guides/keyboard-sounds/ja/",
+      "to": "https://ajigu.com/typenote/guides/keyboard-sounds/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/",
+      "to": "https://ajigu.com/moodsk/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/moodsk/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ja/",
+      "to": "https://ajigu.com/moodsk/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ko/",
+      "to": "https://ajigu.com/moodsk/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/about/",
+      "to": "https://ajigu.com/moodsk/about/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/about/",
+      "to": "https://ajigu.com/moodsk/zh-hans/about/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ja/about/",
+      "to": "https://ajigu.com/moodsk/ja/about/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/ko/about/",
+      "to": "https://ajigu.com/moodsk/ko/about/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/",
+      "to": "https://ajigu.com/moodsk/tutorials/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/change-folder-icons-on-mac/",
+      "to": "https://ajigu.com/moodsk/tutorials/change-folder-icons-on-mac/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/folder-color-system-on-mac/",
+      "to": "https://ajigu.com/moodsk/tutorials/folder-color-system-on-mac/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-color-system-on-mac/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-color-system-on-mac/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/tutorials/folder-icons-with-text/",
+      "to": "https://ajigu.com/moodsk/tutorials/folder-icons-with-text/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "moodsk",
+      "from": "https://moodsk.ajigu.com/zh-hans/tutorials/folder-icons-with-text/",
+      "to": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-icons-with-text/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/",
+      "to": "https://ajigu.com/gosleep/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/en-gb/",
+      "to": "https://ajigu.com/gosleep/en-gb/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/gosleep/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hant/",
+      "to": "https://ajigu.com/gosleep/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ja/",
+      "to": "https://ajigu.com/gosleep/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ko/",
+      "to": "https://ajigu.com/gosleep/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/de/",
+      "to": "https://ajigu.com/gosleep/de/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/fr/",
+      "to": "https://ajigu.com/gosleep/fr/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/support/",
+      "to": "https://ajigu.com/gosleep/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/en-gb/support/",
+      "to": "https://ajigu.com/gosleep/en-gb/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hans/support/",
+      "to": "https://ajigu.com/gosleep/zh-hans/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hant/support/",
+      "to": "https://ajigu.com/gosleep/zh-hant/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ja/support/",
+      "to": "https://ajigu.com/gosleep/ja/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ko/support/",
+      "to": "https://ajigu.com/gosleep/ko/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/de/support/",
+      "to": "https://ajigu.com/gosleep/de/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/fr/support/",
+      "to": "https://ajigu.com/gosleep/fr/support/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/privacy/",
+      "to": "https://ajigu.com/gosleep/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/en-gb/privacy/",
+      "to": "https://ajigu.com/gosleep/en-gb/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hans/privacy/",
+      "to": "https://ajigu.com/gosleep/zh-hans/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/zh-hant/privacy/",
+      "to": "https://ajigu.com/gosleep/zh-hant/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ja/privacy/",
+      "to": "https://ajigu.com/gosleep/ja/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/ko/privacy/",
+      "to": "https://ajigu.com/gosleep/ko/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/de/privacy/",
+      "to": "https://ajigu.com/gosleep/de/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/fr/privacy/",
+      "to": "https://ajigu.com/gosleep/fr/privacy/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/guides/night-sounds/",
+      "to": "https://ajigu.com/gosleep/guides/night-sounds/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/guides/night-sounds/zh-hans/",
+      "to": "https://ajigu.com/gosleep/guides/night-sounds/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "gosleep",
+      "from": "https://gosleep.ajigu.com/guides/night-sounds/ja/",
+      "to": "https://ajigu.com/gosleep/guides/night-sounds/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/",
+      "to": "https://ajigu.com/dailyapod/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/",
+      "to": "https://ajigu.com/dailyapod/guides/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hans/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/zh-hant/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/ja/",
+      "to": "https://ajigu.com/dailyapod/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ja/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/ko/",
+      "to": "https://ajigu.com/dailyapod/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/what-is-apod/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/what-is-apod/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/nasa-picture-on-my-birthday/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/apod-widget-iphone/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "dailyapod",
+      "from": "https://dailyapod.ajigu.com/guides/find-apod-by-date/ko/",
+      "to": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ko/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/",
+      "to": "https://ajigu.com/tutu/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/zh-hans/",
+      "to": "https://ajigu.com/tutu/zh-hans/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/zh-hant/",
+      "to": "https://ajigu.com/tutu/zh-hant/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/ja/",
+      "to": "https://ajigu.com/tutu/ja/",
+      "javaScriptEnabled": false
+    },
+    {
+      "site": "tutu",
+      "from": "https://tutu.ajigu.com/ko/",
+      "to": "https://ajigu.com/tutu/ko/",
+      "javaScriptEnabled": false
+    }
+  ]
+}

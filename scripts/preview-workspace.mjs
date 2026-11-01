@@ -3,7 +3,7 @@ import { createReadStream } from "node:fs";
 import { readFile, stat } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { sites, studioPaths } from "../packages/site-kit/config/paths.mjs";
+import { sites, studioPaths, legacySites } from "../packages/site-kit/config/paths.mjs";
 
 const mime = {
   ".html": "text/html; charset=utf-8",
@@ -22,7 +22,12 @@ const mime = {
 const navigation = (mapping) =>
   `<script data-studio-preview>document.addEventListener("click",function(event){var link=event.target.closest&&event.target.closest("a[href]");if(!link||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;var url=new URL(link.href,location.href);var targets=${JSON.stringify(mapping)};if(targets[url.hostname])link.href=targets[url.hostname]+url.pathname+url.search+url.hash;},true);</script>`;
 
-export async function startPreview({ names = Object.keys(sites), ports = {}, quiet = false } = {}) {
+export async function startPreview({
+  names = Object.keys(sites),
+  ports = {},
+  quiet = false,
+  redirects = false,
+} = {}) {
   const origins = {},
     mapping = {},
     servers = [];
@@ -65,8 +70,8 @@ export async function startPreview({ names = Object.keys(sites), ports = {}, qui
               .on("error", () => response.destroy())
               .pipe(response);
         } catch {
-          response.writeHead(404);
-          response.end("Not found");
+          response.writeHead(404, { "content-type": "text/html; charset=utf-8" });
+          response.end(await readFile(path.join(root, "404.html"), "utf8"));
         }
       });
       await new Promise((resolve, reject) => {
@@ -76,10 +81,53 @@ export async function startPreview({ names = Object.keys(sites), ports = {}, qui
       servers.push(server);
       origins[name] = `http://127.0.0.1:${server.address().port}`;
       mapping[site.domain] = origins[name];
+      if (name === "ajigu")
+        for (const [product, legacy] of Object.entries(legacySites))
+          origins[product] = origins[name] + legacy.base;
       if (!quiet) console.log(`${site.domain}: ${origins[name]}/`);
+    }
+    const redirectOrigins = {};
+    if (redirects) {
+      for (const [product] of Object.entries(legacySites)) {
+        const directory = path.join(studioPaths("ajigu").output, "redirects", product);
+        const server = createServer(async (request, response) => {
+          let pathname;
+          try {
+            pathname = decodeURIComponent(new URL(request.url, "http://localhost").pathname);
+          } catch {
+            response.writeHead(400).end();
+            return;
+          }
+          const target = path.resolve(directory, `.${pathname}`);
+          if (!target.startsWith(directory + path.sep) && target !== directory) {
+            response.writeHead(403).end();
+            return;
+          }
+          let file;
+          try {
+            file = (await stat(target)).isDirectory() ? path.join(target, "index.html") : target;
+            await stat(file);
+          } catch {
+            file = path.join(directory, "404.html");
+            response.statusCode = 404;
+          }
+          response.setHeader(
+            "content-type",
+            mime[path.extname(file)] || "application/octet-stream",
+          );
+          response.end(await readFile(file));
+        });
+        await new Promise((resolve, reject) => {
+          server.once("error", reject);
+          server.listen(0, "127.0.0.1", resolve);
+        });
+        servers.push(server);
+        redirectOrigins[product] = `http://127.0.0.1:${server.address().port}`;
+      }
     }
     return {
       origins,
+      redirectOrigins,
       close: () =>
         Promise.all(servers.map((server) => new Promise((resolve) => server.close(resolve)))),
     };

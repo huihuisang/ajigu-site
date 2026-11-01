@@ -2,7 +2,8 @@ import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
-import { sites, studioPaths } from "../packages/site-kit/config/paths.mjs";
+import { sites, studioPaths, legacySites } from "../packages/site-kit/config/paths.mjs";
+import { transformPublic, writeRedirects } from "./site-output.mjs";
 
 export async function preparePublic(name) {
   const locations = studioPaths(name);
@@ -75,28 +76,47 @@ export async function preparePublic(name) {
   const catalog = JSON.parse(
     await readFile(path.join(locations.root, "packages/site-kit/media.json"), "utf8"),
   );
-  const compatibility = !["ajigu", "typenote"].includes(name)
-    ? JSON.parse(
-        await readFile(path.join(locations.root, `apps/${name}/compatibility.json`), "utf8"),
-      )
-    : undefined;
-  // Retain the old public module URLs from one frozen source; new pages do not load them.
-  for (const file of Object.keys(compatibility?.legacyStudio || {})) {
-    const destination = path.join(locations.public, file);
-    await mkdir(path.dirname(destination), { recursive: true });
-    await cp(path.join(locations.root, file), destination);
-  }
-  const names =
-    name === "ajigu"
-      ? Object.keys(catalog)
-      : name === "typenote"
-        ? ["ajigu.webp", "typenote.webp", "typenote-en.webp", "typenote-ja.webp"]
-        : compatibility.media;
-  for (const file of names) {
+  for (const file of Object.keys(catalog)) {
     const destination = path.join(locations.public, "studio/media", file);
     await mkdir(path.dirname(destination), { recursive: true });
     await cp(path.join(locations.root, "packages/site-kit/media", file), destination);
   }
+  for (const site of Object.keys(legacySites)) {
+    await cp(
+      path.join(locations.root, "apps/ajigu/public", site),
+      path.join(locations.public, site),
+      { recursive: true },
+    );
+    if (site === "typenote") continue;
+    const contract = JSON.parse(
+      await readFile(
+        path.join(locations.root, `apps/ajigu/src/products/${site}/compatibility.json`),
+        "utf8",
+      ),
+    );
+    for (const file of Object.keys(contract.legacyStudio)) {
+      const destination = path.join(locations.public, file);
+      await mkdir(path.dirname(destination), { recursive: true });
+      await cp(path.join(locations.root, file), destination);
+    }
+  }
+  // ICO can carry the existing PNG without changing its pixels.
+  const favicon = await readFile(path.join(locations.root, "assets/favicon.png"));
+  const width = favicon.readUInt32BE(16),
+    height = favicon.readUInt32BE(20);
+  if (width > 256 || height > 256)
+    throw new Error("Favicon dimensions exceed the ICO entry limit.");
+  const header = Buffer.alloc(22);
+  header.writeUInt16LE(1, 2);
+  header.writeUInt16LE(1, 4);
+  header[6] = width === 256 ? 0 : width;
+  header[7] = height === 256 ? 0 : height;
+  header.writeUInt16LE(1, 10);
+  header.writeUInt16LE(32, 12);
+  header.writeUInt32LE(favicon.length, 14);
+  header.writeUInt32LE(22, 18);
+  await writeFile(path.join(locations.public, "favicon.ico"), Buffer.concat([header, favicon]));
+  await transformPublic(locations.root, locations.public);
   if ((await readFile(path.join(locations.public, "CNAME"), "utf8")).trim() !== sites[name].domain)
     throw new Error(`Incorrect CNAME for ${name}`);
   return locations;
@@ -118,7 +138,7 @@ function run(command, args, cwd) {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const [action = "build", selection = "all"] = process.argv.slice(2);
+  const [action = "build", selection = "ajigu"] = process.argv.slice(2);
   const names = selection === "all" ? Object.keys(sites) : [selection];
   if (!["build", "dev", "check"].includes(action)) throw new Error(`Unknown command: ${action}`);
   if (action === "dev" && names.length !== 1)
@@ -148,9 +168,11 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
             sourceRevision: revision,
             site: name,
             domain: sites[name].domain,
+            mode: "site",
           }) + "\n",
         );
       }
+      await writeRedirects(locations.root, locations.output, revision || null);
       console.log(`Collected ${name}: ${locations.site}`);
     }
   }

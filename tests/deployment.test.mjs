@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { parse } from "yaml";
-import { publication, publicationTarget, assertRelease } from "../scripts/publish-products.mjs";
+import { publication, publicationTarget, assertRelease } from "../scripts/publish-redirects.mjs";
 
 const revision = "a".repeat(40);
 const marker = (site) => ({
@@ -10,6 +10,8 @@ const marker = (site) => ({
   sourceRevision: revision,
   site,
   domain: publicationTarget(site).domain,
+  mode: "redirect",
+  targetBase: "https://ajigu.com" + publicationTarget(site).base + "/",
 });
 test("publication targets are fixed and exclude the source repository", () => {
   assert.equal(Object.keys(publication.products).length, 5);
@@ -28,6 +30,8 @@ test("product publication rejects incorrect domains, revisions and source identi
     { sourceRepository: "other/repo" },
     { site: "moodsk" },
     { domain: "moodsk.ajigu.com" },
+    { mode: "site" },
+    { targetBase: "https://example.com/" },
   ])
     assert.throws(() => assertRelease("typenote", good.domain, { ...good, ...change }, revision));
   assert.throws(() => assertRelease("typenote", good.domain, good, "main"));

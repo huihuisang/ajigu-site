@@ -3,7 +3,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { chromium } from "@playwright/test";
 import { startPreview } from "../scripts/preview-workspace.mjs";
-import { sites } from "../packages/site-kit/config/paths.mjs";
+import { sites, legacySites } from "../packages/site-kit/config/paths.mjs";
 const output = process.env.TASK_ARTIFACT_DIR;
 if (!output) throw new Error("Run design checks through task-artifacts.");
 const evidence = path.join(output, "design");
@@ -160,7 +160,7 @@ try {
     viewport: { width: 320, height: 844 },
   });
   const fallback = await plain.newPage();
-  for (const site of Object.keys(sites)) {
+  for (const site of ["ajigu", ...Object.keys(legacySites)]) {
     await fallback.goto(preview.origins[site] + "/", { waitUntil: "networkidle" });
     const overflow = await fallback.evaluate(() => ({
       width: document.documentElement.scrollWidth,

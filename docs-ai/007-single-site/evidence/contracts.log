@@ -1,0 +1,47 @@
+{
+  "buildChecks": [
+    {
+      "site": "ajigu",
+      "domain": "ajigu.com",
+      "pages": 91,
+      "products": [
+        {
+          "site": "typenote",
+          "canonicalBase": "https://ajigu.com/typenote/",
+          "pages": 4,
+          "redirectDomain": "typenote.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "moodsk",
+          "canonicalBase": "https://ajigu.com/moodsk/",
+          "pages": 16,
+          "redirectDomain": "moodsk.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "gosleep",
+          "canonicalBase": "https://ajigu.com/gosleep/",
+          "pages": 27,
+          "redirectDomain": "gosleep.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "dailyapod",
+          "canonicalBase": "https://ajigu.com/dailyapod/",
+          "pages": 30,
+          "redirectDomain": "dailyapod.ajigu.com",
+          "resources": "passed"
+        },
+        {
+          "site": "tutu",
+          "canonicalBase": "https://ajigu.com/tutu/",
+          "pages": 5,
+          "redirectDomain": "tutu.ajigu.com",
+          "resources": "passed"
+        }
+      ],
+      "canonical": "passed"
+    }
+  ]
+}

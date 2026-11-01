@@ -1,0 +1,23 @@
+---
+import { migrateContent } from "@ajigu/site-kit/urls";
+import pages from "./content/pages.json";
+import product from "./content/product.json";
+import ProductLanding from "@ajigu/site-kit/layouts/ProductLanding.astro";
+import ComparisonPreview from "./components/ComparisonPreview";
+
+interface Props {
+  page: (typeof pages)[number];
+}
+const page = migrateContent(Astro.props.page, "tutu");
+const identity = migrateContent(product, "tutu");
+---
+
+<ProductLanding page={page} product={identity}>
+  <ComparisonPreview
+    slot="demo"
+    locale={page.locale}
+    aspect={product.comparison.aspect}
+    offset={product.comparison.offset}
+    client:load
+  />
+</ProductLanding>

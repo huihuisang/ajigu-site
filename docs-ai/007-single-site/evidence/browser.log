@@ -1,0 +1,2 @@
+$ node tests/browser.mjs
+228 page/viewport checks, React interactions, language boundaries, editor export and static contracts passed.

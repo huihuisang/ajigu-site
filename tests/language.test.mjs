@@ -5,7 +5,7 @@ import {
   htmlLocale,
   readPreference,
   languageURL,
-} from "../apps/typenote/src/lib/language.ts";
+} from "../apps/ajigu/src/products/typenote/lib/language.ts";
 
 test("a supported URL language wins over a saved preference", () => {
   for (const language of ["en", "zh", "zht", "ja", "ko"]) {

@@ -4,7 +4,7 @@ import path from "node:path";
 import { chromium } from "@playwright/test";
 import { startPreview } from "../scripts/preview-workspace.mjs";
 import { checkBuild } from "../scripts/check-build.mjs";
-import { sites } from "../packages/site-kit/config/paths.mjs";
+import { sites, legacySites } from "../packages/site-kit/config/paths.mjs";
 
 const output = process.env.TASK_ARTIFACT_DIR;
 if (!output) throw new Error("Run browser checks through task-artifacts.");
@@ -56,7 +56,10 @@ try {
   ];
   for (const site of ["moodsk", "gosleep", "dailyapod", "tutu"]) {
     const pages = JSON.parse(
-      await readFile(new URL(`../apps/${site}/src/content/pages.json`, import.meta.url), "utf8"),
+      await readFile(
+        new URL(`../apps/ajigu/src/products/${site}/content/pages.json`, import.meta.url),
+        "utf8",
+      ),
     );
     cases.push(...pages.map(({ route, locale }) => ({ site, route, language: locale })));
   }
@@ -202,7 +205,10 @@ try {
   const products = ["moodsk", "gosleep", "dailyapod", "tutu"];
   for (const site of products) {
     const contract = JSON.parse(
-      await readFile(new URL(`../apps/${site}/compatibility.json`, import.meta.url), "utf8"),
+      await readFile(
+        new URL(`../apps/ajigu/src/products/${site}/compatibility.json`, import.meta.url),
+        "utf8",
+      ),
     );
     for (const file of Object.keys(contract.compatibility).filter((file) =>
       file.endsWith("/index.html"),
@@ -354,7 +360,7 @@ try {
       assert.equal(await page.locator("h1").count(), 1);
       assert.equal(
         await page.locator('link[rel="canonical"]').getAttribute("href"),
-        "https://typenote.ajigu.com" + route,
+        "https://ajigu.com/typenote" + route,
       );
       assert.ok((await page.locator(".shell").innerText()).length > 500);
       assert.ok((await page.locator("h2").count()) >= 4);
@@ -389,7 +395,7 @@ try {
   await blockedPage.locator('[data-lang="ko"]').click();
   assert.equal(await blockedPage.locator("html").getAttribute("lang"), "ko");
   await blocked.close();
-  for (const site of Object.keys(sites)) {
+  for (const site of ["ajigu", ...Object.keys(legacySites)]) {
     const reduced = await browser.newContext({ reducedMotion: "reduce" });
     const target = await reduced.newPage();
     await target.goto(preview.origins[site] + "/", { waitUntil: "networkidle" });

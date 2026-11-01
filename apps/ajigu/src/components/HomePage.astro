@@ -1,4 +1,5 @@
 ---
+import { migrateContent } from "@ajigu/site-kit/urls";
 import pages from "../content/home.json";
 import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
 import { SiteHeader } from "@ajigu/site-kit/components/SiteHeader";
@@ -12,7 +13,7 @@ import "../styles/gallery.css";
 interface Props {
   page: (typeof pages)[number];
 }
-const { page } = Astro.props;
+const page = migrateContent(Astro.props.page);
 const copy = getCopy(page.locale);
 ---
 

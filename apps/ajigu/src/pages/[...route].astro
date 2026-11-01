@@ -3,6 +3,16 @@ import homes from "../content/home.json";
 import nameplates from "../content/nameplate.json";
 import HomePage from "../components/HomePage.astro";
 import NameplatePage from "../components/NameplatePage.astro";
+import TypeNotePage from "../products/typenote/Page.astro";
+import MoodskPage from "../products/moodsk/Page.astro";
+import GoSleepPage from "../products/gosleep/Page.astro";
+import DailyApodPage from "../products/dailyapod/Page.astro";
+import TutuPage from "../products/tutu/Page.astro";
+import moodsk from "../products/moodsk/content/pages.json";
+import gosleep from "../products/gosleep/content/pages.json";
+import dailyapod from "../products/dailyapod/content/pages.json";
+import tutu from "../products/tutu/content/pages.json";
+import { productPath } from "@ajigu/site-kit/urls";
 
 export function getStaticPaths() {
   return [
@@ -14,13 +24,32 @@ export function getStaticPaths() {
       params: { route: nameplate.route.slice(1, -1) },
       props: { nameplate },
     })),
+    { params: { route: "typenote" }, props: { product: "typenote" } },
+    ...moodsk.map((page) => ({
+      params: { route: productPath("moodsk", page.route).slice(1, -1) },
+      props: { moodskPage: page },
+    })),
+    ...gosleep.map((page) => ({
+      params: { route: productPath("gosleep", page.route).slice(1, -1) },
+      props: { gosleepPage: page },
+    })),
+    ...dailyapod.map((page) => ({
+      params: { route: productPath("dailyapod", page.route).slice(1, -1) },
+      props: { dailyapodPage: page },
+    })),
+    ...tutu.map((page) => ({
+      params: { route: productPath("tutu", page.route).slice(1, -1) },
+      props: { tutuPage: page },
+    })),
   ];
 }
-interface Props {
-  home?: (typeof homes)[number];
-  nameplate?: (typeof nameplates)[number];
-}
-const { home, nameplate } = Astro.props;
+const { home, nameplate, product, moodskPage, gosleepPage, dailyapodPage, tutuPage } = Astro.props;
 ---
 
-{home ? <HomePage page={home} /> : nameplate && <NameplatePage page={nameplate} />}
+{home && <HomePage page={home} />}
+{nameplate && <NameplatePage page={nameplate} />}
+{product === "typenote" && <TypeNotePage />}
+{moodskPage && <MoodskPage page={moodskPage} />}
+{gosleepPage && <GoSleepPage page={gosleepPage} />}
+{dailyapodPage && <DailyApodPage page={dailyapodPage} />}
+{tutuPage && <TutuPage page={tutuPage} />}

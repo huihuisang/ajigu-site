@@ -38,6 +38,7 @@ jobs:
       - run: pnpm exec playwright install --with-deps chromium
       - run: pnpm test:browser
       - run: pnpm test:layout
+      - run: pnpm test:redirects
       - uses: actions/upload-artifact@v7.0.2
         with:
           name: ajigu-com
@@ -45,28 +46,28 @@ jobs:
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
         with:
-          name: typenote-ajigu-com
-          path: ${{ runner.temp }}/ajigu-websites/typenote
+          name: typenote-redirects
+          path: ${{ runner.temp }}/ajigu-websites/redirects/typenote
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
         with:
-          name: moodsk-ajigu-com
-          path: ${{ runner.temp }}/ajigu-websites/moodsk
+          name: moodsk-redirects
+          path: ${{ runner.temp }}/ajigu-websites/redirects/moodsk
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
         with:
-          name: gosleep-ajigu-com
-          path: ${{ runner.temp }}/ajigu-websites/gosleep
+          name: gosleep-redirects
+          path: ${{ runner.temp }}/ajigu-websites/redirects/gosleep
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
         with:
-          name: dailyapod-ajigu-com
-          path: ${{ runner.temp }}/ajigu-websites/dailyapod
+          name: dailyapod-redirects
+          path: ${{ runner.temp }}/ajigu-websites/redirects/dailyapod
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
         with:
-          name: tutu-ajigu-com
-          path: ${{ runner.temp }}/ajigu-websites/tutu
+          name: tutu-redirects
+          path: ${{ runner.temp }}/ajigu-websites/redirects/tutu
           include-hidden-files: true
       - uses: actions/upload-artifact@v7.0.2
         if: always()
@@ -75,3 +76,4 @@ jobs:
           path: |
             ${{ runner.temp }}/ajigu-checks/browser
             ${{ runner.temp }}/ajigu-checks/layout
+            ${{ runner.temp }}/ajigu-checks/redirects

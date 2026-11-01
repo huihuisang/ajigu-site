@@ -1,19 +1,19 @@
-# ajigu Websites
+# ajigu Website
 
-This repository owns the studio and all five product website sources. It uses a
-pnpm workspace with Astro, React, TypeScript, Tailwind CSS and shadcn/ui. All six
-sites build as independent static websites with their existing domains and URLs.
+One Astro application serves the studio and all products at ajigu.com. It uses
+React, TypeScript, Tailwind CSS and shared shadcn/ui components.
 
 ## Workspace
 
-- `apps/ajigu`: studio homepages and Nameplate introductions.
-- `apps/typenote`: TypeNote React marketing page, translations and static guides.
-- `apps/moodsk`: Moodsk marketing pages, six-scene demo and static tutorials.
-- `apps/gosleep`: Go Sleep marketing pages, sample timeline and static support pages.
-- `apps/dailyapod`: DailyApod marketing pages, screenshot gallery and static guides.
-- `apps/tutu`: TUTU marketing pages and aligned photo comparison.
-- `packages/ui`: shared design tokens, styles and adapted shadcn/ui primitives.
-- `packages/site-kit`: metadata, navigation, product layout, FAQ and shared media.
+- `apps/ajigu/src/components`: studio and Nameplate pages.
+- `apps/ajigu/src/products`: TypeNote, Moodsk, Go Sleep, DailyApod and TUTU modules.
+- `apps/ajigu/public/<product>`: frozen product assets and static source documents.
+- `packages/ui`: shared tokens and shadcn/ui components.
+- `packages/site-kit`: navigation, layouts, content models and URL mapping.
+
+Product URLs are `/typenote/`, `/moodsk/`, `/gosleep/`, `/dailyapod/` and `/tutu/`.
+Existing locale and guide paths follow each product prefix. TypeNote keeps its
+`?lang=` language parameter. Nameplate URLs stay unchanged.
 
 The studio homepage uses a responsive gallery of complete front-view device
 mockups. Inputs, template licenses and export instructions are in `design/mockups`.
@@ -25,25 +25,22 @@ Node 22.23.4 or later is required; CI uses Node 24. The package manager version 
 pinned in `package.json`. Install with `pnpm install --frozen-lockfile`.
 
 ```sh
-pnpm dev ajigu
-pnpm dev typenote
+pnpm dev
 pnpm check
 pnpm test
 pnpm build
 pnpm preview
 ```
 
-The dev and preview servers bind to loopback. Default ports are 8770 for the
-studio, 8771 for Moodsk, 8772 for TUTU, 8773 for Go Sleep, 8774 for DailyApod,
-and 8775 for TypeNote. Preview maps navigation between all six local sites while
-preserving production metadata. Use `pnpm dev <site>` to select one development
-server, or `pnpm preview <site>` to preview one built site.
+The development and preview servers bind to loopback on port 8770. All product
+pages share this origin. `pnpm build` runs Astro once and collects the website in
+`dist/ajigu`; the other five applications are retired.
 
-`pnpm build` collects final websites in `dist/<site>` for all six apps. Each
-contains its own CNAME, sitemap and static assets. During agent tasks, run it
-through the registered task-artifacts task; it then collects into that task's
-`dist/` directory. `STUDIO_OUTPUT_DIR` can select another final output root.
-The preview and build checker use the same output settings.
+The same command also generates five static compatibility outputs under
+`dist/redirects/<product>`. They contain instant HTML redirects and retained public
+assets, not independent Astro applications. Agent tasks use their registered
+output directory. `STUDIO_OUTPUT_DIR` can select another root; preview and build
+checks use the same setting.
 
 Astro compiler staging uses the shared `node_modules/.cache/studio-build/`
 directory on the source volume; this avoids cross-device rename failures.
@@ -53,10 +50,11 @@ Dependency, compiler and generated-type caches are excluded from version control
 task-artifacts run TASK_ID -- pnpm verify
 task-artifacts run TASK_ID -- pnpm test:browser
 task-artifacts run TASK_ID -- pnpm test:layout
+task-artifacts run TASK_ID -- pnpm test:redirects
 ```
 
 Browser checks use Playwright with installed Chrome locally and installed
-Playwright Chromium in CI. They cover all six websites and their language routes,
+Playwright Chromium in CI. They cover all six products and their language routes,
 static compatibility pages, responsive layouts, product demos, sound opt-in,
 storage failures and the original PNG export.
 Layout checks cover every localized product detail page at six viewport widths.
@@ -76,25 +74,24 @@ The main site publishes from the verified `ajigu-com` CI artifact through
 `.github/workflows/deploy-studio.yml`. Its deployment job has Pages and OIDC
 permissions; the reusable candidate workflow remains read-only.
 
-The five product sites use fixed existing repositories and dedicated
-`ajigu-site-production` artifact branches. The guarded publisher downloads the five fixed artifact names directly from a
-successful `Deploy studio website` run for the current source main revision.
-It checks the target domains and release metadata;
-without `--apply` it only prints the publication plan.
+Old product domains keep their existing Pages repositories as compatibility
+endpoints. The guarded redirect publisher downloads fixed redirect artifacts from
+a successful main CI run and updates only `ajigu-site-production` branches. It
+validates the source revision, domains, mode and canonical target. Original source
+branches stay intact. Without `--apply` it only checks and prints the plan.
 
 ```sh
-task-artifacts run TASK_ID -- node scripts/publish-products.mjs --revision SOURCE_SHA --run RUN_ID
-task-artifacts run TASK_ID -- node scripts/publish-products.mjs --revision SOURCE_SHA --run RUN_ID --apply
+task-artifacts run TASK_ID -- node scripts/publish-redirects.mjs --revision SOURCE_SHA --run RUN_ID
+task-artifacts run TASK_ID -- node scripts/publish-redirects.mjs --revision SOURCE_SHA --run RUN_ID --apply
 ```
 
-Downloaded artifacts stay inside the registered task directory. Product source branches remain
-historical references; maintain website source here. No cross-repository token is
-stored in Actions. Product publication uses the operator's existing GitHub CLI
-identity and jj credentials. After the first Pages source switch, request a Pages build
-with `gh api repos/OWNER/REPO/pages/builds --method POST` if no build was queued.
-Always check the published branch SHA and the live release marker before declaring
-success. See `docs-ai/006-production-release/000-plan.md` and
-its release record for target mapping, verification and rollback boundaries.
+These are HTTP 200 HTML pages with instant meta refresh and a location.replace
+fallback that retains query parameters and fragments. They are not server-side
+301 responses. No-script navigation has a static destination and readable link;
+dynamic query preservation requires JavaScript. Old binary/resource URLs stay
+available. The publisher requests Pages builds and the release operator verifies
+actual build SHAs and live behavior. No DNS or cross-repository token change is
+required. See `docs-ai/007-single-site/000-plan.md` and its result record.
 
 ## Languages
 
@@ -145,17 +142,17 @@ Keep the logo and first product row eager. Later product icons use native lazy l
 
 Edit studio content in `apps/ajigu/src/content/`, shared copy in
 `packages/site-kit/src/copy.json`, and TypeNote content in
-`apps/typenote/src/content/`. Product interactions are React components;
+`apps/ajigu/src/products/typenote/content/`. Product interactions are React components;
 marketing layout and metadata are shared workspace modules.
 
-For the four route-based product sites, edit `apps/<site>/src/content/pages.json`
+For the four route-based product modules, edit `apps/ajigu/src/products/<product>/content/pages.json`
 and the app's React demo components. They use `ProductLanding.astro` from the shared
 site kit. Editorial section HTML is trusted source checked into the app; do not
 insert user input or fetched HTML. Moodsk retains its local six-scene renderer in
-`apps/moodsk/public/showcase/`.
+`apps/ajigu/public/moodsk/showcase/`.
 
-Legal, support, tutorial and guide pages remain in each app's `public/` directory.
-The import baseline in `compatibility.json` records original URLs and file hashes,
+Legal, support, tutorial and guide pages remain in `apps/ajigu/public/<product>`.
+The import baseline in each product module’s `compatibility.json` records original URLs and file hashes,
 including documented metadata repairs. Update it only for reviewed changes.
 The old product repositories remain intact as historical deployment targets;
-production publication uses the guarded artifact process above.
+only compatibility publication uses the guarded redirect process above.

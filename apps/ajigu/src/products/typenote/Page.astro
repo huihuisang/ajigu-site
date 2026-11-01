@@ -1,0 +1,10 @@
+---
+import { migrateContent } from "@ajigu/site-kit/urls";
+import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
+import metadata from "./content/metadata.json";
+import TypeNotePage from "./components/TypeNotePage";
+---
+
+<SiteLayout metadata={migrateContent(metadata, "typenote")} locale="en" product="typenote">
+  <TypeNotePage client:load />
+</SiteLayout>

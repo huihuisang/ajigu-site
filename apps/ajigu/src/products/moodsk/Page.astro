@@ -1,0 +1,17 @@
+---
+import { migrateContent } from "@ajigu/site-kit/urls";
+import pages from "./content/pages.json";
+import product from "./content/product.json";
+import Onboarding from "./components/Onboarding";
+import ProductLanding from "@ajigu/site-kit/layouts/ProductLanding.astro";
+
+interface Props {
+  page: (typeof pages)[number];
+}
+const page = migrateContent(Astro.props.page, "moodsk");
+const identity = migrateContent(product, "moodsk");
+---
+
+<ProductLanding page={page} product={identity}>
+  <Onboarding slot="demo" locale={page.locale} client:load />
+</ProductLanding>

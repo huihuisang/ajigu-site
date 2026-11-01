@@ -1,0 +1,17 @@
+---
+import { migrateContent } from "@ajigu/site-kit/urls";
+import pages from "./content/pages.json";
+import product from "./content/product.json";
+import ProductLanding from "@ajigu/site-kit/layouts/ProductLanding.astro";
+import GalleryPreview from "./components/GalleryPreview";
+
+interface Props {
+  page: (typeof pages)[number];
+}
+const page = migrateContent(Astro.props.page, "dailyapod");
+const identity = migrateContent(product, "dailyapod");
+---
+
+<ProductLanding page={page} product={identity}>
+  <GalleryPreview slot="demo" locale={page.locale} client:load />
+</ProductLanding>

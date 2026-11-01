@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "status": "通过",
+  "reviewedAt": "2026-11-01T07:01:56.762902+00:00",
+  "reviewScope": "单应用路由、五个产品入口、发布与预览边界；最终增量仅审查 favicon ICO 包装。",
+  "deltaFiles": [
+    "scripts/workspace.mjs"
+  ],
+  "findings": [],
+  "baseline": {
+    "fileCount": 23,
+    "algorithm": "SHA256 over UTF-8 compact JSON of the repository-relative path-to-SHA256 map, with sorted keys and comma/colon separators.",
+    "bundleSHA256": "9357c1f802252f785da5cc80bf16438561b0a1fe33f54fe55eb61ea448403d3d",
+    "files": {
+      ".github/workflows/build-websites.yml": "0286ff373de062ba1d550068df70369c9e4fae788d12d0e282d79bfca16df9d4",
+      ".github/workflows/deploy-studio.yml": "8c254181b1f7d4756729521f75212401a1a093b01a250e9c033fc1ea8eaf60bb",
+      "apps/ajigu/src/pages/[...route].astro": "f82a3e014e9d068443a4378252abddf4c9cb2d1a5441ca73219199d4def4955d",
+      "apps/ajigu/src/products/dailyapod/Page.astro": "f02d72d9a7b984ae076415c4072b3486ac46c9262988779842facf5cb14c2a97",
+      "apps/ajigu/src/products/gosleep/Page.astro": "7dc1886bc4da4e0741f5c636d0afd1819553036f559d0d344f61f6a92185db9c",
+      "apps/ajigu/src/products/moodsk/Page.astro": "3f27bdd1e77ff2e69c34b3618980dd1660d4c6c6bb57a5d0487b47a82f5cabd8",
+      "apps/ajigu/src/products/tutu/Page.astro": "9ec79d697cb223114a5d82fc1ea882b33eb050155766901ff8e4782abda8d31b",
+      "apps/ajigu/src/products/typenote/Page.astro": "1b64d3816ddf8d03ad0c9d3c97b1926e4f43c93147b3f535f1bf3071b870d429",
+      "apps/ajigu/src/products/typenote/components/TypeNotePage.tsx": "10ccfc369b38f07d2382ff878f2120b675124c3dafd53684631f7274fb8f920c",
+      "docs-ai/007-single-site/000-plan.md": "42d6450f58cc41c7a0aaf82badd150028fce844549a38b90fa6e2afb32eaffc5",
+      "package.json": "7d32706b93500a86eeb5ee493931f1f88f487b1bd17c3c935dc204e4bf6d199e",
+      "packages/site-kit/config/paths.mjs": "159988dec71ac160ae694a597405b8066fc9d7730afb280c4efba89b25d7f297",
+      "packages/site-kit/config/publication.json": "d9d9cd8b75daf4e2f92ad1d08e9e5c6b3ab1bf8ff1cbf0e4c0928e8ee79c9fdc",
+      "pnpm-lock.yaml": "fb7a88a27513036a1f56add1f54f8951512036d6bd322208fb6cf2b352e78ff7",
+      "pnpm-workspace.yaml": "581c8ef624e38052619b22c7d866a5bb74f4e6e2ffab55b95e9a773213b7ba0c",
+      "scripts/preview-workspace.mjs": "da7d06e1b495120b626664c3a17ad8b10c7fe15350062b6b2d86b337c2d56b02",
+      "scripts/publish-redirects.mjs": "2c5dac37d5387c151de64e88dddb011bb2e01efa066fff2055d4817fc5d4aa39",
+      "scripts/workspace.mjs": "824032a18a492ba7949408791f5469d4ccd1fc61deacdf20c61ec214a52ec5c3",
+      "tests/browser.mjs": "08a23a9c4e2856998b6e1c432fcc0cd0817a0f6a6b7445a3c3f349e6163432f9",
+      "tests/deployment.test.mjs": "6818b1c3ee97b42182dfbbe96699dca4fbcb8b6b6b6ecd41a3959d42b09f07f7",
+      "tests/design.mjs": "da310014a1f8bc8e1df77a2f7abe2b942a575f4b9fa4f71428c210da84839540",
+      "tests/detail-layout.mjs": "ffa8c056d9b60ce2a1404e46761b32ea6d15863aa6a00e9ca3f483ad6cd9dbe8",
+      "tests/workspace.test.mjs": "825b0fdeca8e3901a5e9e353cca34e487ceedc5a57e2c60054de85d2f940894a"
+    }
+  },
+  "favicon": {
+    "source": "assets/favicon.png",
+    "sourceSHA256": "3618e2d44ee41c224a1b53d5579a1047a831e2527ef592739eef01cfa2d97dbb",
+    "pngWidth": 64,
+    "pngHeight": 64,
+    "pngBitDepth": 8,
+    "pngColorType": 6,
+    "pngBytes": 6446,
+    "icoHeaderBytes": 22,
+    "payloadUnchanged": true,
+    "outputs": [
+      {
+        "path": "dist/ajigu/favicon.ico",
+        "sha256": "31c06421d295d455c9bb606d22fa1773c0bee7fd3492bca37a503c1305b2f7f1",
+        "bytes": 6468
+      },
+      {
+        "path": "/Users/ajigu/.local/share/task-artifacts/work/e821c78994044cd398d3184a6b2a2675/dist/ajigu/favicon.ico",
+        "sha256": "31c06421d295d455c9bb606d22fa1773c0bee7fd3492bca37a503c1305b2f7f1",
+        "bytes": 6468
+      }
+    ]
+  },
+  "validation": [
+    {
+      "command": "node --check scripts/workspace.mjs",
+      "result": "通过"
+    },
+    {
+      "check": "解析现有两份 ICO 的目录头，核对尺寸、planes、bit count、PNG 长度与 offset，并逐字节比较 PNG payload。",
+      "result": "通过"
+    },
+    {
+      "command": "node --test tests/workspace.test.mjs tests/deployment.test.mjs tests/language.test.mjs",
+      "result": "此前本轮独立执行 13 项通过；本次 ICO 增量未重复执行。"
+    }
+  ],
+  "boundaries": [
+    "未执行构建、浏览器或远端发布。",
+    "URL 与静态变换由另一独立审核者负责。",
+    "完整浏览器和 design exit 0 为主代理执行结果，不计入本审核者的独立执行范围。"
+  ],
+  "previousBaselineSHA256": "ee2ee9d9b821153b8f98e1d89414ab29e61e26f5fc4a573e807e41bacd60024b",
+  "onlyWorkspaceChangedFromPreviousBaseline": true
+}

@@ -14,16 +14,18 @@
     "test": "node --test scripts/*.test.mjs tests/*.test.mjs",
     "test:browser": "node tests/browser.mjs",
     "verify": "pnpm check && pnpm test && pnpm build && node scripts/check-build.mjs",
-    "format": "prettier --write \"apps/*/src/**/*.{astro,ts,tsx,js,json,css}\" \"apps/*/*.{json,mjs}\" \"packages/**/*.{astro,ts,tsx,json,mjs,css}\" \"scripts/{workspace,preview-workspace,check-build,publish-products}.mjs\" \"tests/*.mjs\" \"*.json\" .prettierrc.json pnpm-workspace.yaml .github/workflows/*.yml",
-    "format:check": "prettier --check \"apps/*/src/**/*.{astro,ts,tsx,js,json,css}\" \"apps/*/*.{json,mjs}\" \"packages/**/*.{astro,ts,tsx,json,mjs,css}\" \"scripts/{workspace,preview-workspace,check-build,publish-products}.mjs\" \"tests/*.mjs\" \"*.json\" .prettierrc.json pnpm-workspace.yaml .github/workflows/*.yml",
+    "format": "prettier --write \"apps/*/src/**/*.{astro,ts,tsx,js,json,css}\" \"apps/*/*.{json,mjs}\" \"packages/**/*.{astro,ts,tsx,json,mjs,mts,css}\" \"scripts/{workspace,preview-workspace,check-build,publish-redirects,site-output}.mjs\" \"tests/*.mjs\" \"*.json\" .prettierrc.json pnpm-workspace.yaml .github/workflows/*.yml",
+    "format:check": "prettier --check \"apps/*/src/**/*.{astro,ts,tsx,js,json,css}\" \"apps/*/*.{json,mjs}\" \"packages/**/*.{astro,ts,tsx,json,mjs,mts,css}\" \"scripts/{workspace,preview-workspace,check-build,publish-redirects,site-output}.mjs\" \"tests/*.mjs\" \"*.json\" .prettierrc.json pnpm-workspace.yaml .github/workflows/*.yml",
     "test:design": "node tests/design.mjs",
-    "test:layout": "node tests/detail-layout.mjs"
+    "test:layout": "node tests/detail-layout.mjs",
+    "test:redirects": "node tests/redirects.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1",
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "cheerio": "1.2.0",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.2",
     "typescript": "6.0.3",
