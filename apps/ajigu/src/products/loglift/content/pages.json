@@ -7,7 +7,7 @@
       "meta": [
         {
           "name": "description",
-          "content": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. macOS 14+ preview."
+          "content": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. Requires macOS 14 or later."
         },
         {
           "property": "og:title",
@@ -15,7 +15,7 @@
         },
         {
           "property": "og:description",
-          "content": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. macOS 14+ preview."
+          "content": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. Requires macOS 14 or later."
         },
         {
           "property": "og:url",
@@ -85,11 +85,11 @@
           "name": "LogLift",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "macOS 14 or later",
-          "softwareVersion": "0.1.0 Preview",
-          "description": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. macOS 14+ preview.",
+          "softwareVersion": "0.1.1",
+          "description": "Convert supported DJI Log footage to Rec.709 on your Mac. Choose a camera profile, compare synchronized previews, and batch export HEVC Main10. Requires macOS 14 or later.",
           "inLanguage": ["en", "zh-Hans", "ja", "ko"],
           "url": "https://ajigu.com/loglift/",
-          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
           "image": "https://ajigu.com/gallery/loglift-mockup.webp"
         },
         {
@@ -126,7 +126,7 @@
               "name": "What version and languages are available?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The download is 0.1.0 Preview for macOS 14 or later, with Apple Silicon and Intel binaries. The app provides English, Simplified Chinese, Japanese, and Korean. The preview still needs clean-system and Intel hardware acceptance testing."
+                "text": "The download is 0.1.1 for macOS 14 or later, with Apple Silicon and Intel binaries. The app provides English, Simplified Chinese, Japanese, and Korean. The app still needs clean-system and Intel hardware acceptance testing."
               }
             }
           ]
@@ -165,8 +165,8 @@
     "intro": "Choose the matching camera and recording profile, compare the result, and export a batch. Video processing stays on your Mac.",
     "actions": [
       {
-        "label": "Download Preview",
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "Download",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "external": true
       },
       {
@@ -175,7 +175,7 @@
         "external": true
       }
     ],
-    "note": "0.1.0 Preview · macOS 14 or later · Universal build. Independent project; not affiliated with or endorsed by DJI.",
+    "note": "0.1.1 · macOS 14 or later · Universal build. Independent project; not affiliated with or endorsed by DJI.",
     "showcaseTitle": "Import, compare, then export",
     "previewAlt": "LogLift demonstration of importing footage, comparing original and Rec.709, playback and completed export",
     "previewCaption": "A 24.5-second recording of the real app: import footage, compare the original and Rec.709, preview playback, and export. The interface and video labels are in Simplified Chinese.",
@@ -220,7 +220,7 @@
       {
         "id": "limits",
         "title": "Check your source before converting",
-        "body": "<p>The preview supports one video track and at most one audio track. HLG and PQ inputs are rejected. Creative LUTs, HDR transforms, and other unsupported transforms are not enabled for conversion. Export is a lossy re-encode: ten-bit output does not add precision to an eight-bit source. Auxiliary camera, gyro, and timecode metadata are not copied. Test a short clip before a long batch; camera-specific color accuracy and Intel execution are not established by this preview.</p>"
+        "body": "<p>The app supports one video track and at most one audio track. HLG and PQ inputs are rejected. Creative LUTs, HDR transforms, and other unsupported transforms are not enabled for conversion. Export is a lossy re-encode: ten-bit output does not add precision to an eight-bit source. Auxiliary camera, gyro, and timecode metadata are not copied. Test a short clip before a long batch; camera-specific color accuracy and Intel execution have not been verified.</p>"
       },
       {
         "id": "faq",
@@ -240,18 +240,18 @@
           },
           {
             "question": "What version and languages are available?",
-            "answer": "<p>The download is 0.1.0 Preview for macOS 14 or later, with Apple Silicon and Intel binaries. The app provides English, Simplified Chinese, Japanese, and Korean. The preview still needs clean-system and Intel hardware acceptance testing.</p>"
+            "answer": "<p>The download is 0.1.1 for macOS 14 or later, with Apple Silicon and Intel binaries. The app provides English, Simplified Chinese, Japanese, and Korean. The app still needs clean-system and Intel hardware acceptance testing.</p>"
           }
         ]
       },
       {
         "id": "download",
-        "title": "Try LogLift Preview",
-        "body": "<p>Open the release page for the disk image, installation steps, checksums, and known preview limits.</p>",
+        "title": "Download LogLift",
+        "body": "<p>Open the release page for the disk image, installation steps, checksums, and known limits.</p>",
         "links": [
           {
-            "label": "Download Preview",
-            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "label": "Download",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
             "external": true
           }
         ]
@@ -259,7 +259,7 @@
     ],
     "footerLinks": [
       {
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "label": "Release notes"
       },
       {
@@ -300,7 +300,7 @@
       "meta": [
         {
           "name": "description",
-          "content": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本，当前为预览版。"
+          "content": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本。"
         },
         {
           "property": "og:title",
@@ -308,7 +308,7 @@
         },
         {
           "property": "og:description",
-          "content": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本，当前为预览版。"
+          "content": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本。"
         },
         {
           "property": "og:url",
@@ -378,11 +378,11 @@
           "name": "LogLift",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "macOS 14 or later",
-          "softwareVersion": "0.1.0 Preview",
-          "description": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本，当前为预览版。",
+          "softwareVersion": "0.1.1",
+          "description": "在 Mac 上将支持的 DJI Log 素材转为 Rec.709。选择相机与录制模式，同步对比转换效果，批量导出 HEVC Main10。支持 macOS 14 及以上版本。",
           "inLanguage": ["en", "zh-Hans", "ja", "ko"],
           "url": "https://ajigu.com/loglift/zh-hans/",
-          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
           "image": "https://ajigu.com/gallery/loglift-mockup.webp"
         },
         {
@@ -419,7 +419,7 @@
               "name": "目前提供什么版本和语言？",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "下载为 macOS 14 及以上版本使用的 0.1.0 预览版，包含 Apple Silicon 和 Intel 二进制文件。应用支持英语、简体中文、日语和韩语；全新系统与 Intel 实机验收仍待完成。"
+                "text": "下载为 macOS 14 及以上版本使用的 0.1.1，包含 Apple Silicon 和 Intel 二进制文件。应用支持英语、简体中文、日语和韩语；全新系统与 Intel 实机验收仍待完成。"
               }
             }
           ]
@@ -458,8 +458,8 @@
     "intro": "选好对应的相机与录制模式，对比转换效果，再批量导出。视频处理始终在你的 Mac 上完成。",
     "actions": [
       {
-        "label": "下载预览版",
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "下载",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "external": true
       },
       {
@@ -468,7 +468,7 @@
         "external": true
       }
     ],
-    "note": "0.1.0 预览版 · macOS 14 及以上 · 通用构建。独立项目，与 DJI 无隶属或背书关系。",
+    "note": "0.1.1 · macOS 14 及以上 · 通用构建。独立项目，与 DJI 无隶属或背书关系。",
     "showcaseTitle": "导入、对比，再导出",
     "previewAlt": "LogLift 核心功能演示：导入素材、原片与 Rec.709 对比、播放预览和完成导出",
     "previewCaption": "24.5 秒真实应用演示：导入素材、拖动滑杆对比原片与 Rec.709、播放预览，再完成导出。视频界面与字幕为简体中文。",
@@ -513,7 +513,7 @@
       {
         "id": "limits",
         "title": "转换前，先确认素材",
-        "body": "<p>当前预览版支持一个视频轨道及最多一个音频轨道，拒绝 HLG 与 PQ 输入。创意 LUT、HDR 及其他不支持的变换不会开放用于转换。导出属于有损重新编码，十位输出不会增加八位源素材的精度；相机附加信息、陀螺仪与时间码元数据不会复制。长批次前请先测试短片段；当前预览版尚未确立各机型的色彩准确度，也未完成 Intel 实机执行验收。</p>"
+        "body": "<p>当前版本支持一个视频轨道及最多一个音频轨道，拒绝 HLG 与 PQ 输入。创意 LUT、HDR 及其他不支持的变换不会开放用于转换。导出属于有损重新编码，十位输出不会增加八位源素材的精度；相机附加信息、陀螺仪与时间码元数据不会复制。长批次前请先测试短片段；当前版本尚未确立各机型的色彩准确度，也未完成 Intel 实机执行验收。</p>"
       },
       {
         "id": "faq",
@@ -533,18 +533,18 @@
           },
           {
             "question": "目前提供什么版本和语言？",
-            "answer": "<p>下载为 macOS 14 及以上版本使用的 0.1.0 预览版，包含 Apple Silicon 和 Intel 二进制文件。应用支持英语、简体中文、日语和韩语；全新系统与 Intel 实机验收仍待完成。</p>"
+            "answer": "<p>下载为 macOS 14 及以上版本使用的 0.1.1，包含 Apple Silicon 和 Intel 二进制文件。应用支持英语、简体中文、日语和韩语；全新系统与 Intel 实机验收仍待完成。</p>"
           }
         ]
       },
       {
         "id": "download",
-        "title": "试用 LogLift 预览版",
-        "body": "<p>前往发布页获取磁盘映像、安装步骤、校验值与当前预览版的已知限制。</p>",
+        "title": "下载 LogLift",
+        "body": "<p>前往发布页获取磁盘映像、安装步骤、校验值与当前版本的已知限制。</p>",
         "links": [
           {
-            "label": "下载预览版",
-            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "label": "下载",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
             "external": true
           }
         ]
@@ -552,7 +552,7 @@
     ],
     "footerLinks": [
       {
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "label": "发布说明"
       },
       {
@@ -593,7 +593,7 @@
       "meta": [
         {
           "name": "description",
-          "content": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本，目前為預覽版。"
+          "content": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本。"
         },
         {
           "property": "og:title",
@@ -601,7 +601,7 @@
         },
         {
           "property": "og:description",
-          "content": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本，目前為預覽版。"
+          "content": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本。"
         },
         {
           "property": "og:url",
@@ -671,11 +671,11 @@
           "name": "LogLift",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "macOS 14 or later",
-          "softwareVersion": "0.1.0 Preview",
-          "description": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本，目前為預覽版。",
+          "softwareVersion": "0.1.1",
+          "description": "在 Mac 上將支援的 DJI Log 素材轉為 Rec.709。選擇相機與錄製模式，同步比較轉換效果，批次輸出 HEVC Main10。適用 macOS 14 以上版本。",
           "inLanguage": ["en", "zh-Hans", "ja", "ko"],
           "url": "https://ajigu.com/loglift/zh-hant/",
-          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
           "image": "https://ajigu.com/gallery/loglift-mockup.webp"
         },
         {
@@ -712,7 +712,7 @@
               "name": "目前提供什麼版本和語言？",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "下載為 macOS 14 以上版本使用的 0.1.0 預覽版，包含 Apple Silicon 和 Intel 執行檔。應用程式支援英語、簡體中文、日語和韓語；全新系統與 Intel 實機驗收仍待完成。"
+                "text": "下載為 macOS 14 以上版本使用的 0.1.1，包含 Apple Silicon 和 Intel 執行檔。應用程式支援英語、簡體中文、日語和韓語；全新系統與 Intel 實機驗收仍待完成。"
               }
             }
           ]
@@ -751,8 +751,8 @@
     "intro": "選好對應的相機與錄製模式，比較轉換效果，再批次輸出。影片處理始終在你的 Mac 上完成。",
     "actions": [
       {
-        "label": "下載預覽版",
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "下載",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "external": true
       },
       {
@@ -761,7 +761,7 @@
         "external": true
       }
     ],
-    "note": "0.1.0 預覽版 · macOS 14 以上 · 通用組建。獨立專案，與 DJI 無隸屬或背書關係。",
+    "note": "0.1.1 · macOS 14 以上 · 通用組建。獨立專案，與 DJI 無隸屬或背書關係。",
     "showcaseTitle": "匯入、比較，再輸出",
     "previewAlt": "LogLift 核心功能示範：匯入素材、原片與 Rec.709 比較、播放預覽和完成輸出",
     "previewCaption": "24.5 秒真實應用程式示範：匯入素材、拖動滑桿比較原片與 Rec.709、播放預覽，再完成輸出。影片介面與字幕為簡體中文。",
@@ -806,7 +806,7 @@
       {
         "id": "limits",
         "title": "轉換前，先確認素材",
-        "body": "<p>目前預覽版支援一個影片軌道及最多一個音訊軌道，拒絕 HLG 與 PQ 輸入。創意 LUT、HDR 及其他不支援的轉換不會開放使用。輸出屬於有損重新編碼，十位元輸出不會增加八位元來源素材的精度；相機附加資訊、陀螺儀與時間碼中繼資料不會複製。長批次前請先測試短片段；目前預覽版尚未確立各機型的色彩準確度，也未完成 Intel 實機執行驗收。</p>"
+        "body": "<p>目前版本支援一個影片軌道及最多一個音訊軌道，拒絕 HLG 與 PQ 輸入。創意 LUT、HDR 及其他不支援的轉換不會開放使用。輸出屬於有損重新編碼，十位元輸出不會增加八位元來源素材的精度；相機附加資訊、陀螺儀與時間碼中繼資料不會複製。長批次前請先測試短片段；目前版本尚未確立各機型的色彩準確度，也未完成 Intel 實機執行驗收。</p>"
       },
       {
         "id": "faq",
@@ -826,18 +826,18 @@
           },
           {
             "question": "目前提供什麼版本和語言？",
-            "answer": "<p>下載為 macOS 14 以上版本使用的 0.1.0 預覽版，包含 Apple Silicon 和 Intel 執行檔。應用程式支援英語、簡體中文、日語和韓語；全新系統與 Intel 實機驗收仍待完成。</p>"
+            "answer": "<p>下載為 macOS 14 以上版本使用的 0.1.1，包含 Apple Silicon 和 Intel 執行檔。應用程式支援英語、簡體中文、日語和韓語；全新系統與 Intel 實機驗收仍待完成。</p>"
           }
         ]
       },
       {
         "id": "download",
-        "title": "試用 LogLift 預覽版",
-        "body": "<p>前往發佈頁取得磁碟映像、安裝步驟、校驗值與目前預覽版的已知限制。</p>",
+        "title": "下載 LogLift",
+        "body": "<p>前往發佈頁取得磁碟映像、安裝步驟、校驗值與目前版本的已知限制。</p>",
         "links": [
           {
-            "label": "下載預覽版",
-            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "label": "下載",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
             "external": true
           }
         ]
@@ -845,7 +845,7 @@
     ],
     "footerLinks": [
       {
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "label": "發佈說明"
       },
       {
@@ -886,7 +886,7 @@
       "meta": [
         {
           "name": "description",
-          "content": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降向けプレビュー版。"
+          "content": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降に対応。"
         },
         {
           "property": "og:title",
@@ -894,7 +894,7 @@
         },
         {
           "property": "og:description",
-          "content": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降向けプレビュー版。"
+          "content": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降に対応。"
         },
         {
           "property": "og:url",
@@ -964,11 +964,11 @@
           "name": "LogLift",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "macOS 14 or later",
-          "softwareVersion": "0.1.0 Preview",
-          "description": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降向けプレビュー版。",
+          "softwareVersion": "0.1.1",
+          "description": "対応するDJI Log映像をMac内でRec.709に変換。カメラと記録プロファイルを選び、同期プレビューで比較してHEVC Main10で一括書き出し。macOS 14以降に対応。",
           "inLanguage": ["en", "zh-Hans", "ja", "ko"],
           "url": "https://ajigu.com/loglift/ja/",
-          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
           "image": "https://ajigu.com/gallery/loglift-mockup.webp"
         },
         {
@@ -1005,7 +1005,7 @@
               "name": "バージョンと言語は？",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "macOS 14以降向けの0.1.0プレビュー版で、Apple SiliconとIntelのバイナリを含みます。アプリは英語、簡体字中国語、日本語、韓国語に対応します。クリーンなシステムとIntel実機での受け入れテストは未完了です。"
+                "text": "macOS 14以降向けの0.1.1で、Apple SiliconとIntelのバイナリを含みます。アプリは英語、簡体字中国語、日本語、韓国語に対応します。クリーンなシステムとIntel実機での受け入れテストは未完了です。"
               }
             }
           ]
@@ -1044,8 +1044,8 @@
     "intro": "撮影に使ったカメラと記録プロファイルを選び、変換結果を比較して一括書き出し。映像処理はMac内で完結します。",
     "actions": [
       {
-        "label": "プレビュー版をダウンロード",
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "ダウンロード",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "external": true
       },
       {
@@ -1054,7 +1054,7 @@
         "external": true
       }
     ],
-    "note": "0.1.0 プレビュー版 · macOS 14以降 · ユニバーサルビルド。DJIとは提携していない独立プロジェクトです。",
+    "note": "0.1.1 · macOS 14以降 · ユニバーサルビルド。DJIとは提携していない独立プロジェクトです。",
     "showcaseTitle": "読み込み、比較、書き出し",
     "previewAlt": "素材の読み込み、元映像とRec.709の比較、再生と書き出し完了を紹介するLogLiftデモ",
     "previewCaption": "実際のアプリを収録した24.5秒のデモです。素材の読み込み、元映像とRec.709のスライド比較、プレビュー再生、書き出し完了を紹介します。映像内のUIと字幕は簡体字中国語です。",
@@ -1099,7 +1099,7 @@
       {
         "id": "limits",
         "title": "変換前に素材を確認",
-        "body": "<p>現在のプレビュー版は映像1トラックと音声最大1トラックに対応し、HLGとPQ入力は受け付けません。クリエイティブLUT、HDRなど未対応の変換は利用できません。書き出しは非可逆の再エンコードです。10ビット出力で8ビット素材の精度は増えません。カメラ固有情報、ジャイロ、タイムコードのメタデータはコピーしません。長いバッチの前に短いクリップで試してください。各カメラの色精度とIntel実機での動作は、このプレビューでは検証されていません。</p>"
+        "body": "<p>現在のバージョンは映像1トラックと音声最大1トラックに対応し、HLGとPQ入力は受け付けません。クリエイティブLUT、HDRなど未対応の変換は利用できません。書き出しは非可逆の再エンコードです。10ビット出力で8ビット素材の精度は増えません。カメラ固有情報、ジャイロ、タイムコードのメタデータはコピーしません。長いバッチの前に短いクリップで試してください。各カメラの色精度とIntel実機での動作は、現在のバージョンでは検証されていません。</p>"
       },
       {
         "id": "faq",
@@ -1119,18 +1119,18 @@
           },
           {
             "question": "バージョンと言語は？",
-            "answer": "<p>macOS 14以降向けの0.1.0プレビュー版で、Apple SiliconとIntelのバイナリを含みます。アプリは英語、簡体字中国語、日本語、韓国語に対応します。クリーンなシステムとIntel実機での受け入れテストは未完了です。</p>"
+            "answer": "<p>macOS 14以降向けの0.1.1で、Apple SiliconとIntelのバイナリを含みます。アプリは英語、簡体字中国語、日本語、韓国語に対応します。クリーンなシステムとIntel実機での受け入れテストは未完了です。</p>"
           }
         ]
       },
       {
         "id": "download",
-        "title": "LogLiftプレビュー版を試す",
-        "body": "<p>リリースページでディスクイメージ、インストール手順、チェックサム、プレビュー版の制限を確認できます。</p>",
+        "title": "LogLiftをダウンロード",
+        "body": "<p>リリースページでディスクイメージ、インストール手順、チェックサム、既知の制限を確認できます。</p>",
         "links": [
           {
-            "label": "プレビュー版をダウンロード",
-            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "label": "ダウンロード",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
             "external": true
           }
         ]
@@ -1138,7 +1138,7 @@
     ],
     "footerLinks": [
       {
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "label": "リリースノート"
       },
       {
@@ -1179,7 +1179,7 @@
       "meta": [
         {
           "name": "description",
-          "content": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상용 미리보기 버전입니다."
+          "content": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상을 지원합니다."
         },
         {
           "property": "og:title",
@@ -1187,7 +1187,7 @@
         },
         {
           "property": "og:description",
-          "content": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상용 미리보기 버전입니다."
+          "content": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상을 지원합니다."
         },
         {
           "property": "og:url",
@@ -1257,11 +1257,11 @@
           "name": "LogLift",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "macOS 14 or later",
-          "softwareVersion": "0.1.0 Preview",
-          "description": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상용 미리보기 버전입니다.",
+          "softwareVersion": "0.1.1",
+          "description": "지원되는 DJI Log 영상을 Mac에서 Rec.709로 변환하세요. 카메라와 녹화 프로파일을 선택하고 동기화된 미리보기로 비교한 뒤 HEVC Main10으로 일괄 내보냅니다. macOS 14 이상을 지원합니다.",
           "inLanguage": ["en", "zh-Hans", "ja", "ko"],
           "url": "https://ajigu.com/loglift/ko/",
-          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+          "downloadUrl": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
           "image": "https://ajigu.com/gallery/loglift-mockup.webp"
         },
         {
@@ -1298,7 +1298,7 @@
               "name": "어떤 버전과 언어가 제공되나요?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "macOS 14 이상용 0.1.0 미리보기로 Apple Silicon과 Intel 바이너리가 포함됩니다. 앱은 영어, 중국어 간체, 일본어, 한국어를 지원합니다. 새 시스템과 Intel 실제 기기의 인수 테스트는 아직 완료되지 않았습니다."
+                "text": "macOS 14 이상용 0.1.1 버전으로 Apple Silicon과 Intel 바이너리가 포함됩니다. 앱은 영어, 중국어 간체, 일본어, 한국어를 지원합니다. 새 시스템과 Intel 실제 기기의 인수 테스트는 아직 완료되지 않았습니다."
               }
             }
           ]
@@ -1337,8 +1337,8 @@
     "intro": "촬영에 사용한 카메라와 녹화 프로파일을 선택하고 결과를 비교한 뒤 일괄 내보내세요. 영상 처리는 Mac 안에서 이루어집니다.",
     "actions": [
       {
-        "label": "미리보기 다운로드",
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "label": "다운로드",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "external": true
       },
       {
@@ -1347,7 +1347,7 @@
         "external": true
       }
     ],
-    "note": "0.1.0 미리보기 · macOS 14 이상 · 유니버설 빌드. DJI와 제휴하거나 보증받지 않은 독립 프로젝트입니다.",
+    "note": "0.1.1 · macOS 14 이상 · 유니버설 빌드. DJI와 제휴하거나 보증받지 않은 독립 프로젝트입니다.",
     "showcaseTitle": "가져오기, 비교, 내보내기",
     "previewAlt": "영상 가져오기, 원본과 Rec.709 비교, 재생과 내보내기 완료를 보여 주는 LogLift 데모",
     "previewCaption": "실제 앱을 녹화한 24.5초 데모입니다. 영상 가져오기, 원본과 Rec.709 슬라이더 비교, 미리보기 재생과 내보내기 완료를 보여 줍니다. 영상의 UI와 자막은 중국어 간체입니다.",
@@ -1392,7 +1392,7 @@
       {
         "id": "limits",
         "title": "변환 전에 원본을 확인하세요",
-        "body": "<p>현재 미리보기는 비디오 트랙 하나와 오디오 트랙 최대 하나를 지원하며 HLG와 PQ 입력은 거부합니다. 크리에이티브 LUT, HDR 등 지원되지 않는 변환은 사용할 수 없습니다. 내보내기는 손실 재인코딩이며, 10비트 출력이 8비트 원본의 정밀도를 높이지는 않습니다. 카메라 부가 정보, 자이로와 타임코드 메타데이터는 복사되지 않습니다. 긴 일괄 처리 전에 짧은 클립을 시험하세요. 카메라별 색 정확도와 Intel 실제 기기 실행은 이 미리보기에서 검증되지 않았습니다.</p>"
+        "body": "<p>현재 버전은 비디오 트랙 하나와 오디오 트랙 최대 하나를 지원하며 HLG와 PQ 입력은 거부합니다. 크리에이티브 LUT, HDR 등 지원되지 않는 변환은 사용할 수 없습니다. 내보내기는 손실 재인코딩이며, 10비트 출력이 8비트 원본의 정밀도를 높이지는 않습니다. 카메라 부가 정보, 자이로와 타임코드 메타데이터는 복사되지 않습니다. 긴 일괄 처리 전에 짧은 클립을 시험하세요. 카메라별 색 정확도와 Intel 실제 기기 실행은 현재 버전에서 검증되지 않았습니다.</p>"
       },
       {
         "id": "faq",
@@ -1412,18 +1412,18 @@
           },
           {
             "question": "어떤 버전과 언어가 제공되나요?",
-            "answer": "<p>macOS 14 이상용 0.1.0 미리보기로 Apple Silicon과 Intel 바이너리가 포함됩니다. 앱은 영어, 중국어 간체, 일본어, 한국어를 지원합니다. 새 시스템과 Intel 실제 기기의 인수 테스트는 아직 완료되지 않았습니다.</p>"
+            "answer": "<p>macOS 14 이상용 0.1.1 버전으로 Apple Silicon과 Intel 바이너리가 포함됩니다. 앱은 영어, 중국어 간체, 일본어, 한국어를 지원합니다. 새 시스템과 Intel 실제 기기의 인수 테스트는 아직 완료되지 않았습니다.</p>"
           }
         ]
       },
       {
         "id": "download",
-        "title": "LogLift 미리보기 사용하기",
-        "body": "<p>릴리스 페이지에서 디스크 이미지, 설치 방법, 체크섬과 미리보기의 알려진 제한 사항을 확인하세요.</p>",
+        "title": "LogLift 다운로드",
+        "body": "<p>릴리스 페이지에서 디스크 이미지, 설치 방법, 체크섬과 알려진 제한 사항을 확인하세요.</p>",
         "links": [
           {
-            "label": "미리보기 다운로드",
-            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+            "label": "다운로드",
+            "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
             "external": true
           }
         ]
@@ -1431,7 +1431,7 @@
     ],
     "footerLinks": [
       {
-        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+        "href": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1",
         "label": "릴리스 노트"
       },
       {

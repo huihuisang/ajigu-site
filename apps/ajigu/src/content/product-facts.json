@@ -51,10 +51,13 @@
   },
   "loglift": {
     "releaseDate": "2026-10-31",
-    "pricing": "preview",
+    "pricing": "free",
     "checkedAt": "2026-11-02",
-    "sources": ["https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0"],
-    "note": "First public preview, not a stable release. The published preview can be downloaded without payment."
+    "sources": [
+      "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0",
+      "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1"
+    ],
+    "note": "First public GitHub release date. The current release can be downloaded without payment; project-owned materials use PolyForm Noncommercial."
   },
   "nameplate": {
     "releaseDate": "2026-09-04",

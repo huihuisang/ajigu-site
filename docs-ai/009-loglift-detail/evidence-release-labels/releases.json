@@ -1,0 +1,160 @@
+{
+  "checkedAt": "2026-11-02",
+  "repository": "huihuisang/DJI-LogLift",
+  "releases": [
+    {
+      "before": {
+        "assets": [
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/694138395",
+            "contentType": "application/x-apple-diskimage",
+            "createdAt": "2026-10-31T02:36:31Z",
+            "digest": "sha256:1e42e3669871d16f16db5b3948faa7c9f7801abf5b5258abb6c7ea38ff28e10c",
+            "downloadCount": 2,
+            "id": "RA_kwDOVdprMc4pX7Yb",
+            "label": "",
+            "name": "DJI-LogLift-0.1.0-universal.dmg",
+            "size": 43529286,
+            "state": "uploaded",
+            "updatedAt": "2026-10-31T02:36:39Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.0/DJI-LogLift-0.1.0-universal.dmg"
+          },
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/694138394",
+            "contentType": "application/octet-stream",
+            "createdAt": "2026-10-31T02:36:31Z",
+            "digest": "sha256:69caf993217a26a6a085ea8b93496dbfc83a8e437875b1394620f5dd5200672b",
+            "downloadCount": 1,
+            "id": "RA_kwDOVdprMc4pX7Ya",
+            "label": "",
+            "name": "SHA256SUMS",
+            "size": 98,
+            "state": "uploaded",
+            "updatedAt": "2026-10-31T02:36:31Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.0/SHA256SUMS"
+          }
+        ],
+        "body": "First preview release of LogLift for DJI, a macOS app for local DJI Log color conversion.\n\n- Requires macOS 14 or later.\n- Universal app for Apple Silicon and Intel Macs.\n- Includes 64 LUT files and 36 product image entries.\n- Supports English, Simplified Chinese, Japanese, and Korean.\n\nDownload `DJI-LogLift-0.1.0-universal.dmg`, open it, and drag **LogLift for DJI** to **Applications**. License texts and third-party notices are included in the disk image.\n\nThe app and disk image have Developer ID signatures and secure timestamps. The app uses Hardened Runtime and App Sandbox. Apple notarization accepted the final disk image; its ticket is stapled and validated. Gatekeeper accepted both the final disk image and the app mounted from it. Regression checks passed: 7 Python tests and 73 Swift tests.\n\nThis is a preview release. A clean Mac or VM test of quarantine-aware download, offline installation, and first launch is still pending. Intel execution has not been tested on an Intel Mac. These checks remain required before a production release.\n\nSource commit: `942c723018048c8a2ebde40ac98a762657a0d1c5`. Version: 0.1.0, build 1.\n\nSHA-256 of the final DMG:\n\n```text\n1e42e3669871d16f16db5b3948faa7c9f7801abf5b5258abb6c7ea38ff28e10c\n```\n\nOriginal project materials use PolyForm Noncommercial 1.0.0, subject to valid MIT permissions retained by the earlier public snapshot. See [LICENSING.md](https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md). DJI materials and trademarks are excluded from those grants; their redistribution permission remains unverified. LogLift is an independent project and is not affiliated with or endorsed by DJI.\n",
+        "isPrerelease": true,
+        "name": "DJI LogLift 0.1.0 Preview",
+        "tagName": "v0.1.0",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0"
+      },
+      "after": {
+        "assets": [
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/694138395",
+            "contentType": "application/x-apple-diskimage",
+            "createdAt": "2026-10-31T02:36:31Z",
+            "digest": "sha256:1e42e3669871d16f16db5b3948faa7c9f7801abf5b5258abb6c7ea38ff28e10c",
+            "downloadCount": 2,
+            "id": "RA_kwDOVdprMc4pX7Yb",
+            "label": "",
+            "name": "DJI-LogLift-0.1.0-universal.dmg",
+            "size": 43529286,
+            "state": "uploaded",
+            "updatedAt": "2026-10-31T02:36:39Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.0/DJI-LogLift-0.1.0-universal.dmg"
+          },
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/694138394",
+            "contentType": "application/octet-stream",
+            "createdAt": "2026-10-31T02:36:31Z",
+            "digest": "sha256:69caf993217a26a6a085ea8b93496dbfc83a8e437875b1394620f5dd5200672b",
+            "downloadCount": 1,
+            "id": "RA_kwDOVdprMc4pX7Ya",
+            "label": "",
+            "name": "SHA256SUMS",
+            "size": 98,
+            "state": "uploaded",
+            "updatedAt": "2026-10-31T02:36:31Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.0/SHA256SUMS"
+          }
+        ],
+        "body": "First release of LogLift for DJI, a macOS app for local DJI Log color conversion.\n\n- Requires macOS 14 or later.\n- Universal app for Apple Silicon and Intel Macs.\n- Includes 64 LUT files and 36 product image entries.\n- Supports English, Simplified Chinese, Japanese, and Korean.\n\nDownload `DJI-LogLift-0.1.0-universal.dmg`, open it, and drag **LogLift for DJI** to **Applications**. License texts and third-party notices are included in the disk image.\n\nThe app and disk image have Developer ID signatures and secure timestamps. The app uses Hardened Runtime and App Sandbox. Apple notarization accepted the final disk image; its ticket is stapled and validated. Gatekeeper accepted both the final disk image and the app mounted from it. Regression checks passed: 7 Python tests and 73 Swift tests.\n\nA clean Mac or VM test of quarantine-aware download, offline installation, and first launch is still pending. Intel execution has not been tested on an Intel Mac. These checks remain pending.\n\nSource commit: `942c723018048c8a2ebde40ac98a762657a0d1c5`. Version: 0.1.0, build 1.\n\nSHA-256 of the final DMG:\n\n```text\n1e42e3669871d16f16db5b3948faa7c9f7801abf5b5258abb6c7ea38ff28e10c\n```\n\nOriginal project materials use PolyForm Noncommercial 1.0.0, subject to valid MIT permissions retained by the earlier public snapshot. See [LICENSING.md](https://github.com/huihuisang/DJI-LogLift/blob/master/LICENSING.md). DJI materials and trademarks are excluded from those grants; their redistribution permission remains unverified. LogLift is an independent project and is not affiliated with or endorsed by DJI.\n",
+        "isPrerelease": false,
+        "name": "DJI LogLift 0.1.0",
+        "tagName": "v0.1.0",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0"
+      },
+      "assetMetadataUnchanged": true
+    },
+    {
+      "before": {
+        "assets": [
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/700384334",
+            "contentType": "application/x-apple-diskimage",
+            "createdAt": "2026-11-02T03:30:37Z",
+            "digest": "sha256:8610346679474ee154ebc455166855c0a340ecf84cad4e5c1a549bf3680d20fa",
+            "downloadCount": 1,
+            "id": "RA_kwDOVdprMc4pvwRO",
+            "label": "",
+            "name": "DJI-LogLift-0.1.1-universal.dmg",
+            "size": 52510576,
+            "state": "uploaded",
+            "updatedAt": "2026-11-02T03:30:39Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.1/DJI-LogLift-0.1.1-universal.dmg"
+          },
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/700384336",
+            "contentType": "application/octet-stream",
+            "createdAt": "2026-11-02T03:30:37Z",
+            "digest": "sha256:acc7202a91019248843f6b403aeaaee778e928e45d0b2fb4d32c955b0ed52f02",
+            "downloadCount": 1,
+            "id": "RA_kwDOVdprMc4pvwRQ",
+            "label": "",
+            "name": "SHA256SUMS",
+            "size": 98,
+            "state": "uploaded",
+            "updatedAt": "2026-11-02T03:30:37Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.1/SHA256SUMS"
+          }
+        ],
+        "body": "LogLift for DJI 0.1.1 preview. Requires macOS 14 or later. Universal app for Apple Silicon and Intel.\n\nOpen the DMG and drag LogLift for DJI to Applications. License texts and third-party notices are included.\n\nDeveloper ID signed, Apple notarization accepted, ticket stapled, and Gatekeeper verified on the final disk image and mounted app.\n\nClean Mac/VM quarantine-aware download, offline installation and first launch remain untested. This is a preview release.\n\nSource: `715fc46fb7800e5bbc1aaa6cc78a932495cfbe14`. Build: 3. SHA-256: `8610346679474ee154ebc455166855c0a340ecf84cad4e5c1a549bf3680d20fa`.\n\nProject-owned materials use PolyForm Noncommercial, subject to retained earlier MIT permissions. DJI materials are excluded; redistribution permission remains unverified. See LICENSING.md and THIRD_PARTY_NOTICES.md in the source.\n",
+        "isPrerelease": true,
+        "name": "DJI LogLift 0.1.1 Preview",
+        "tagName": "v0.1.1",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1"
+      },
+      "after": {
+        "assets": [
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/700384334",
+            "contentType": "application/x-apple-diskimage",
+            "createdAt": "2026-11-02T03:30:37Z",
+            "digest": "sha256:8610346679474ee154ebc455166855c0a340ecf84cad4e5c1a549bf3680d20fa",
+            "downloadCount": 1,
+            "id": "RA_kwDOVdprMc4pvwRO",
+            "label": "",
+            "name": "DJI-LogLift-0.1.1-universal.dmg",
+            "size": 52510576,
+            "state": "uploaded",
+            "updatedAt": "2026-11-02T03:30:39Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.1/DJI-LogLift-0.1.1-universal.dmg"
+          },
+          {
+            "apiUrl": "https://api.github.com/repos/huihuisang/DJI-LogLift/releases/assets/700384336",
+            "contentType": "application/octet-stream",
+            "createdAt": "2026-11-02T03:30:37Z",
+            "digest": "sha256:acc7202a91019248843f6b403aeaaee778e928e45d0b2fb4d32c955b0ed52f02",
+            "downloadCount": 1,
+            "id": "RA_kwDOVdprMc4pvwRQ",
+            "label": "",
+            "name": "SHA256SUMS",
+            "size": 98,
+            "state": "uploaded",
+            "updatedAt": "2026-11-02T03:30:37Z",
+            "url": "https://github.com/huihuisang/DJI-LogLift/releases/download/v0.1.1/SHA256SUMS"
+          }
+        ],
+        "body": "LogLift for DJI 0.1.1. Requires macOS 14 or later. Universal app for Apple Silicon and Intel.\n\nOpen the DMG and drag LogLift for DJI to Applications. License texts and third-party notices are included.\n\nDeveloper ID signed, Apple notarization accepted, ticket stapled, and Gatekeeper verified on the final disk image and mounted app.\n\nClean Mac/VM quarantine-aware download, offline installation and first launch remain untested.\n\nSource: `715fc46fb7800e5bbc1aaa6cc78a932495cfbe14`. Build: 3. SHA-256: `8610346679474ee154ebc455166855c0a340ecf84cad4e5c1a549bf3680d20fa`.\n\nProject-owned materials use PolyForm Noncommercial, subject to retained earlier MIT permissions. DJI materials are excluded; redistribution permission remains unverified. See LICENSING.md and THIRD_PARTY_NOTICES.md in the source.\n",
+        "isPrerelease": false,
+        "name": "DJI LogLift 0.1.1",
+        "tagName": "v0.1.1",
+        "url": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1"
+      },
+      "assetMetadataUnchanged": true
+    }
+  ]
+}

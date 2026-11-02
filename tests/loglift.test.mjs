@@ -6,7 +6,7 @@ import { legacySites } from "../packages/site-kit/config/urls.mjs";
 
 const root = new URL("../", import.meta.url);
 const json = async (file) => JSON.parse(await readFile(new URL(file, root), "utf8"));
-const release = "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0";
+const release = "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.1";
 
 test("LogLift cards lead to reciprocal localized details without a legacy host", async () => {
   const homes = await json("apps/ajigu/src/content/home.json");
@@ -41,11 +41,15 @@ test("LogLift cards lead to reciprocal localized details without a legacy host",
   }
 });
 
-test("LogLift details retain the preview release and structured product content", async () => {
+test("LogLift details use the current release without preview labels", async () => {
   const pages = await json("apps/ajigu/src/products/loglift/content/pages.json");
   for (const page of pages) {
     assert.equal(page.actions[0].href, release);
-    assert.match(page.note, /0\.1\.0/);
+    assert.match(page.note, /0\.1\.1/);
+    assert.doesNotMatch(
+      JSON.stringify(page),
+      /\bPreview\b|preview release|known preview|the preview|this preview|预览版|預覽版|プレビュー版|このプレビュー|미리보기 버전|미리보기 다운로드|미리보기 사용하기|현재 미리보기|이 미리보기|미리보기의/,
+    );
     assert.match(page.note, /macOS 14/);
     const ids = page.sections.map((section) => section.id);
     assert.equal(new Set(ids).size, ids.length);
@@ -61,7 +65,7 @@ test("LogLift details retain the preview release and structured product content"
       (entry) => entry["@type"] === "SoftwareApplication",
     );
     assert.equal(application.operatingSystem, "macOS 14 or later");
-    assert.equal(application.softwareVersion, "0.1.0 Preview");
+    assert.equal(application.softwareVersion, "0.1.1");
     assert.equal(application.downloadUrl, release);
     assert.equal(application.url, `https://ajigu.com${page.route}`);
     assert.equal(Object.hasOwn(application, "aggregateRating"), false);

@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-02",
+  "results": [
+    {
+      "locale": "en",
+      "home": "/",
+      "route": "/loglift/",
+      "pricing": "Free",
+      "downloadLabel": "Download",
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "home": "/zh-hans/",
+      "route": "/loglift/zh-hans/",
+      "pricing": "免费",
+      "downloadLabel": "下载",
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "home": "/zh-hant/",
+      "route": "/loglift/zh-hant/",
+      "pricing": "免費",
+      "downloadLabel": "下載",
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "home": "/ja/",
+      "route": "/loglift/ja/",
+      "pricing": "無料",
+      "downloadLabel": "ダウンロード",
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "home": "/ko/",
+      "route": "/loglift/ko/",
+      "pricing": "무료",
+      "downloadLabel": "다운로드",
+      "status": "passed"
+    }
+  ]
+}

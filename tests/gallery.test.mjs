@@ -78,7 +78,7 @@ test("gallery facts cover each product and all localized pricing labels", async 
   }
   assert.equal(facts.nameplate.releaseDate, "2026-09-04");
   assert.equal(facts.nameplate.releaseDateEstimated, true);
-  assert.equal(facts.loglift.pricing, "preview");
+  assert.equal(facts.loglift.pricing, "free");
   assert.equal(facts.tutu.pricing, "paidExport");
   for (const id of ["moodsk", "gosleep", "dailyapod"]) {
     assert.equal(facts[id].pricing, "freemium");

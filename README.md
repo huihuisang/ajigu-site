@@ -16,7 +16,7 @@ Existing locale and guide paths follow each product prefix. TypeNote keeps its
 `?lang=` language parameter. Nameplate URLs stay unchanged.
 
 LogLift uses complete namespaced paths and the shared product landing template.
-Its five localized detail pages link to the published 0.1.0 Preview. It has no
+Its five localized detail pages link to the published 0.1.1 release. It has no
 legacy domain or redirect output. The reusable onboarding workflow is in
 `.agents/skills/ajigu-add-product/SKILL.md`.
 
