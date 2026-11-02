@@ -1,0 +1,908 @@
+{
+  "checkedAt": "2026-11-02T06:18:38.930432+00:00",
+  "marker": {
+    "sourceRepository": "huihuisang/ajigu-site",
+    "sourceRevision": "7857e5f15be305696eb1444c48657a5388c0c006",
+    "site": "ajigu",
+    "domain": "ajigu.com",
+    "mode": "site"
+  },
+  "pages": [
+    {
+      "url": "https://ajigu.com/",
+      "status": 200,
+      "canonical": "https://ajigu.com/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/ja/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/zh-hant/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/ko/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/nameplate/",
+      "status": 200,
+      "canonical": "https://ajigu.com/nameplate/",
+      "css": [
+        "styles.css?v=8"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/nameplate/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/nameplate/zh-hans/",
+      "css": [
+        "../styles.css?v=8"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/nameplate/about/",
+      "status": 200,
+      "canonical": "https://ajigu.com/nameplate/about/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/nameplate/about/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/nameplate/about/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/loglift/",
+      "status": 200,
+      "canonical": "https://ajigu.com/loglift/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/loglift/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/loglift/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/loglift/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/loglift/zh-hant/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/loglift/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/loglift/ja/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/loglift/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/loglift/ko/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/typenote/",
+      "status": 200,
+      "canonical": "https://ajigu.com/typenote/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/typenote/guides/keyboard-sounds/",
+      "status": 200,
+      "canonical": "https://ajigu.com/typenote/guides/keyboard-sounds/",
+      "css": []
+    },
+    {
+      "url": "https://ajigu.com/typenote/guides/keyboard-sounds/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/typenote/guides/keyboard-sounds/zh-hans/",
+      "css": []
+    },
+    {
+      "url": "https://ajigu.com/typenote/guides/keyboard-sounds/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/typenote/guides/keyboard-sounds/ja/",
+      "css": []
+    },
+    {
+      "url": "https://ajigu.com/moodsk/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/ja/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/ko/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/about/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/about/",
+      "css": [
+        "/moodsk/styles.css?v=2"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/zh-hans/about/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/zh-hans/about/",
+      "css": [
+        "/moodsk/styles.css?v=2"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/ja/about/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/ja/about/",
+      "css": [
+        "/moodsk/styles.css?v=2"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/ko/about/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/ko/about/",
+      "css": [
+        "/moodsk/styles.css?v=2"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/tutorials/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/tutorials/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/zh-hans/tutorials/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/zh-hans/tutorials/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/tutorials/change-folder-icons-on-mac/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/tutorials/change-folder-icons-on-mac/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/zh-hans/tutorials/change-folder-icons-on-mac/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/tutorials/folder-color-system-on-mac/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/tutorials/folder-color-system-on-mac/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-color-system-on-mac/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-color-system-on-mac/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/tutorials/folder-icons-with-text/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/tutorials/folder-icons-with-text/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-icons-with-text/",
+      "status": 200,
+      "canonical": "https://ajigu.com/moodsk/zh-hans/tutorials/folder-icons-with-text/",
+      "css": [
+        "/moodsk/styles.css?v=2",
+        "/moodsk/tutorials.css?v=1"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/en-gb/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/en-gb/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/zh-hant/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/ja/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/ko/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/de/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/de/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/fr/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/fr/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/en-gb/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/en-gb/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/zh-hans/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/zh-hans/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/zh-hant/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/zh-hant/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/ja/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/ja/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/ko/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/ko/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/de/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/de/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/fr/support/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/fr/support/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/en-gb/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/en-gb/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/zh-hans/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/zh-hans/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/zh-hant/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/zh-hant/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/ja/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/ja/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/ko/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/ko/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/de/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/de/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/fr/privacy/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/fr/privacy/",
+      "css": [
+        "/gosleep/styles.css?v=4",
+        "/gosleep/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/gosleep/guides/night-sounds/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/guides/night-sounds/",
+      "css": []
+    },
+    {
+      "url": "https://ajigu.com/gosleep/guides/night-sounds/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/guides/night-sounds/zh-hans/",
+      "css": []
+    },
+    {
+      "url": "https://ajigu.com/gosleep/guides/night-sounds/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/gosleep/guides/night-sounds/ja/",
+      "css": []
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/what-is-apod/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/what-is-apod/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/find-apod-by-date/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/find-apod-by-date/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/zh-hans/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hans/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hans/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hans/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hans/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/zh-hant/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/zh-hant/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/what-is-apod/zh-hant/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/zh-hant/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/zh-hant/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/find-apod-by-date/zh-hant/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/ja/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/ja/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/what-is-apod/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/what-is-apod/ja/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ja/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ja/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ja/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/ko/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/ko/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/what-is-apod/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/what-is-apod/ko/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/nasa-picture-on-my-birthday/ko/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/apod-widget-iphone/ko/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/dailyapod/guides/find-apod-by-date/ko/",
+      "css": [
+        "/dailyapod/styles.css?v=9",
+        "/dailyapod/lang-kit.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/tutu/",
+      "status": 200,
+      "canonical": "https://ajigu.com/tutu/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/tutu/zh-hans/",
+      "status": 200,
+      "canonical": "https://ajigu.com/tutu/zh-hans/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/tutu/zh-hant/",
+      "status": 200,
+      "canonical": "https://ajigu.com/tutu/zh-hant/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/tutu/ja/",
+      "status": 200,
+      "canonical": "https://ajigu.com/tutu/ja/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    },
+    {
+      "url": "https://ajigu.com/tutu/ko/",
+      "status": 200,
+      "canonical": "https://ajigu.com/tutu/ko/",
+      "css": [
+        "/_astro/_..DohQeBAb.css"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://ajigu.com/assets/logo.webp",
+      "status": 200,
+      "sha256": "157a9ef2c7c04086eee9d553b121ceb147b9769c386dcdecca70a45330e738ab"
+    },
+    {
+      "url": "https://ajigu.com/assets/favicon.png",
+      "status": 200,
+      "sha256": "fdc56b711292bf38b0bba20ab82175604c5084f21dc65c0d3c6e758b7344d860"
+    },
+    {
+      "url": "https://ajigu.com/gallery/loglift-mockup.webp",
+      "status": 200,
+      "sha256": "07cfbdc0391662df6129b91b9238d6b80865ff9400e8e8f5f3db5edf2858b692"
+    },
+    {
+      "url": "https://ajigu.com/gallery/gosleep-mockup.webp",
+      "status": 200,
+      "sha256": "19c112da0d1c4d8001e9cd26422244b735bf3a33fc99242eec4fd99b59abe08e"
+    },
+    {
+      "url": "https://ajigu.com/gallery/tutu-mockup.webp",
+      "status": 200,
+      "sha256": "040ec824b0befa0601c51c1287250e99602b5f196d553716c06010f465aadba7"
+    },
+    {
+      "url": "https://ajigu.com/gallery/moodsk-mockup.webp",
+      "status": 200,
+      "sha256": "fc5c275d4fe1c767c985e74a92a3881ee2ac1da1c532021e505ede8e41b95f5f"
+    },
+    {
+      "url": "https://ajigu.com/gallery/nameplate-mockup.webp",
+      "status": 200,
+      "sha256": "c216eda2a0da006138058809d922e8fceb3f3b41b7e47a5cf0edb417a3f77ce9"
+    },
+    {
+      "url": "https://ajigu.com/gallery/typenote-mockup.webp",
+      "status": 200,
+      "sha256": "35194e474a44ea3566a7a0f6ad0e3f85fe2d19524db535838106c698582b27ae"
+    },
+    {
+      "url": "https://ajigu.com/gallery/dailyapod-mockup.webp",
+      "status": 200,
+      "sha256": "f1f72690f87b8ef6f2c2a7168719160761dc3e0cada3a84f90f672cf7b62595e"
+    }
+  ],
+  "styles": [
+    {
+      "url": "https://ajigu.com/_astro/_..DohQeBAb.css",
+      "status": 200,
+      "sha256": "2d1cadf81a58182db5515e5caac7a584b10aeb555a8d5ec31e0199c2875e954c"
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/lang-kit.css",
+      "status": 200,
+      "sha256": "7ce2f24fa71c85b2ba507b00d170e491659f84d6385d2cb540bcb1eda537127d"
+    },
+    {
+      "url": "https://ajigu.com/dailyapod/styles.css?v=9",
+      "status": 200,
+      "sha256": "16824b0fc289e13dbdafdc2c5e1271ad60cca5707969a3e37123c17e5e9178d6"
+    },
+    {
+      "url": "https://ajigu.com/gosleep/lang-kit.css",
+      "status": 200,
+      "sha256": "7ce2f24fa71c85b2ba507b00d170e491659f84d6385d2cb540bcb1eda537127d"
+    },
+    {
+      "url": "https://ajigu.com/gosleep/styles.css?v=4",
+      "status": 200,
+      "sha256": "7a8be211a8ffae6406e57dc05f27b50d4585f7dde4c283774bfa59134f3427ab"
+    },
+    {
+      "url": "https://ajigu.com/moodsk/styles.css?v=2",
+      "status": 200,
+      "sha256": "065c81f296b55ea5a2640e1d35264f9cf324336560086f3a159e2f1b767d55dc"
+    },
+    {
+      "url": "https://ajigu.com/moodsk/tutorials.css?v=1",
+      "status": 200,
+      "sha256": "bfb7498ed6b0fe54a75d4318ef60dd675e9b6cb9074df7a87bd8fcde923e751c"
+    },
+    {
+      "url": "https://ajigu.com/nameplate/styles.css?v=8",
+      "status": 200,
+      "sha256": "b55da3d2f099a233b04be7736ce13e7f85df2f472aee7f37a0fda3a7358a0d95"
+    }
+  ],
+  "appStorePages": 13,
+  "errors": []
+}

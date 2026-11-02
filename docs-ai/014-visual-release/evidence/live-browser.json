@@ -1,0 +1,34 @@
+{
+  "sourceRevision": "7857e5f15be305696eb1444c48657a5388c0c006",
+  "observations": [
+    {
+      "cards": 7,
+      "iconWidth": 64,
+      "language": "zh-Hans",
+      "navWidth": 900,
+      "page": "home",
+      "stageBackground": "rgba(0, 0, 0, 0)",
+      "title": "啊叽咕 ajigu — 注重隐私的 iPhone 与 Mac 应用"
+    },
+    {
+      "downloads": [
+        "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+        "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4",
+        "https://apps.apple.com/us/app/tutu-ai-object-remover/id6480340301?uo=4"
+      ],
+      "hasBeta": false,
+      "language": "zh-Hans",
+      "page": "tutu"
+    },
+    {
+      "downloads": [
+        "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4",
+        "https://apps.apple.com/us/app/go-sleep-snore-tracker/id6799618137?uo=4"
+      ],
+      "language": "zh-Hans",
+      "page": "gosleep"
+    }
+  ],
+  "transientIssue": "The original tab reported an SSL protocol error. A fresh tab verified both product pages successfully."
+}

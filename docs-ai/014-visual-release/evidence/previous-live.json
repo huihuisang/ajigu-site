@@ -1,0 +1,10 @@
+{
+  "url": "https://ajigu.com/site-release.json?release=7857e5f1-before",
+  "marker": {
+    "sourceRepository": "huihuisang/ajigu-site",
+    "sourceRevision": "0beb4a7f9d277d059a3be0f1613a05964c0c2609",
+    "site": "ajigu",
+    "domain": "ajigu.com",
+    "mode": "site"
+  }
+}

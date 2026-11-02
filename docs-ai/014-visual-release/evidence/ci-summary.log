@@ -1,0 +1,9 @@
+verify / verify	UNKNOWN STEP	2026-11-02T06:03:26.9983046Z ℹ tests 77
+verify / verify	UNKNOWN STEP	2026-11-02T06:03:26.9983823Z ℹ pass 77
+verify / verify	UNKNOWN STEP	2026-11-02T06:07:40.6166534Z 248 page/viewport checks, React interactions, language boundaries, editor export and static contracts passed.
+verify / verify	UNKNOWN STEP	2026-11-02T06:10:39.8946762Z 204 localized layouts, 154 expanded chapters and 16 no-script layouts passed.
+verify / verify	UNKNOWN STEP	2026-11-02T06:11:09.2227510Z 40 visual-system cases passed; local fonts, type, spacing, cards and navigation verified.
+verify / verify	UNKNOWN STEP	2026-11-02T06:12:20.2464285Z 78 header cases passed; pre-hydration geometry, text alignment, menus and no-JavaScript language links verified.
+verify / verify	UNKNOWN STEP	2026-11-02T06:12:44.5503394Z 28 locale scenarios passed; browser preferences, explicit routes, saved choices, denied storage and no-JavaScript navigation verified.
+verify / verify	UNKNOWN STEP	2026-11-02T06:13:16.6301420Z 39 store-download cases passed; localized hero, bottom CTA, footer, narrow screens and no-JavaScript navigation verified.
+verify / verify	UNKNOWN STEP	2026-11-02T06:15:08.0918114Z 171 old-domain redirects, no-script paths and query/hash cases passed.
