@@ -1,0 +1,77 @@
+.contact-main {
+  max-width: 760px;
+  padding-top: var(--space-16);
+}
+.contact-intro {
+  margin-bottom: var(--space-10);
+}
+.contact-intro h1 {
+  line-height: 1.2;
+}
+.contact-main p {
+  color: var(--ink-secondary);
+}
+.contact-intro p {
+  max-width: 52ch;
+  margin-top: var(--space-6);
+}
+.contact-email {
+  padding: var(--card-padding);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-panel);
+  background: var(--fill-paper);
+  box-shadow: var(--shadow-panel);
+}
+.contact-email h2 {
+  font-size: var(--type-section);
+}
+.contact-email p {
+  margin: var(--space-4) 0 var(--space-6);
+}
+.contact-channels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--grid-gap);
+  margin-top: var(--space-6);
+}
+.contact-channel {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-width: 0;
+  padding: var(--space-6);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-control);
+  text-decoration: none;
+}
+.contact-channel h2 {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.contact-channel p {
+  margin-top: var(--space-3);
+}
+.contact-channel svg {
+  flex: none;
+  width: 20px;
+  height: 20px;
+}
+.contact-channel:hover {
+  border-color: var(--hairline-strong);
+  background: var(--surface-paper);
+}
+.contact-note {
+  margin-top: var(--space-6);
+  font-size: var(--type-caption);
+}
+@media (max-width: 600px) {
+  .contact-main {
+    padding-top: var(--space-12);
+  }
+  .contact-channels {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

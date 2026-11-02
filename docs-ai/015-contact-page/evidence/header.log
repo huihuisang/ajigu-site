@@ -1,0 +1,2 @@
+$ node tests/header.mjs
+78 header cases passed; pre-hydration geometry, text alignment, menus and no-JavaScript language links verified.

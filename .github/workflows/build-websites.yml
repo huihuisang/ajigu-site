@@ -40,6 +40,7 @@ jobs:
       - run: pnpm test:layout
       - run: pnpm test:visual
       - run: pnpm test:header
+      - run: pnpm test:contact
       - run: pnpm test:locale
       - run: pnpm test:store
       - run: pnpm test:redirects
@@ -57,6 +58,7 @@ jobs:
             ${{ runner.temp }}/ajigu-checks/layout
             ${{ runner.temp }}/ajigu-checks/visual-system
             ${{ runner.temp }}/ajigu-checks/header
+            ${{ runner.temp }}/ajigu-checks/contact
             ${{ runner.temp }}/ajigu-checks/locale-routing
             ${{ runner.temp }}/ajigu-checks/store-downloads
             ${{ runner.temp }}/ajigu-checks/redirects

@@ -20,6 +20,7 @@
     "test:layout": "node tests/detail-layout.mjs",
     "test:visual": "node tests/visual-system.mjs",
     "test:header": "node tests/header.mjs",
+    "test:contact": "node tests/contact.mjs",
     "test:locale": "node tests/locale-routing.mjs",
     "test:store": "node tests/store-downloads.mjs",
     "test:redirects": "node tests/redirects.mjs"

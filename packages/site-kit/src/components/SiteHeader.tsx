@@ -23,6 +23,7 @@ interface Props {
   icon: string;
   route: string;
   home?: boolean;
+  contactPage?: boolean;
   copy: StudioCopy;
   languages: LanguageLink[];
   language: string;
@@ -30,13 +31,21 @@ interface Props {
   appId?: string;
   minimal?: boolean;
 }
-export function SiteHeader({ route, home, copy, languages, language, onLanguageChange }: Props) {
+export function SiteHeader({
+  route,
+  home,
+  contactPage,
+  copy,
+  languages,
+  language,
+  onLanguageChange,
+}: Props) {
   const [menuOpen, setMenuOpen] = useState(false);
   const current = languages.find((entry) => entry.code === language) || languages[0];
-  const links = home
+  const links: { href: string; label: string; current?: boolean }[] = home
     ? [
-        { href: "#apps", label: copy.work },
-        { href: "#contact", label: copy.contact },
+        { href: contactPage ? `${route}#apps` : "#apps", label: copy.work },
+        { href: `${route}contact/`, label: copy.contact, current: contactPage },
       ]
     : [
         { href: "#features", label: copy.features },
@@ -65,7 +74,9 @@ export function SiteHeader({ route, home, copy, languages, language, onLanguageC
             {links.map((link) => (
               <NavigationMenuItem key={link.href}>
                 <NavigationMenuLink asChild>
-                  <a href={link.href}>{link.label}</a>
+                  <a href={link.href} aria-current={link.current ? "page" : undefined}>
+                    {link.label}
+                  </a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
             ))}

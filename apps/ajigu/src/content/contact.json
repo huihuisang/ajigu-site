@@ -1,0 +1,57 @@
+{
+  "en": {
+    "heading": "Let's talk.",
+    "intro": "Have a question about an app, an idea to share, or a project in mind? Get in touch.",
+    "emailTitle": "Send an email",
+    "emailBody": "For app support, collaboration, or anything you would rather discuss in private.",
+    "feedbackTitle": "Support & feedback",
+    "feedbackBody": "Found a bug or have a feature request? Open an issue on GitHub. A GitHub account is required, and issues are public.",
+    "githubTitle": "Find me on GitHub",
+    "githubBody": "Explore my projects, source code, and recent work.",
+    "note": "For app support, include the app name, your device and OS version, and what happened. Please leave personal information out of public issues."
+  },
+  "zh-Hans": {
+    "heading": "聊聊你的想法。",
+    "intro": "使用中遇到问题、有建议想分享，或是想聊聊合作，都欢迎联系我。",
+    "emailTitle": "发封邮件",
+    "emailBody": "产品支持、合作交流，或不适合公开讨论的事情，都可以发邮件。",
+    "feedbackTitle": "支持与反馈",
+    "feedbackBody": "发现问题或有功能建议？可以在 GitHub 提交反馈。需要 GitHub 账号，提交的内容会公开显示。",
+    "githubTitle": "在 GitHub 找到我",
+    "githubBody": "看看我正在做的项目、开源代码和最近的更新。",
+    "note": "反馈产品问题时，请附上产品名称、设备与系统版本，以及具体遇到的情况。请勿在公开反馈中填写个人信息。"
+  },
+  "zh-Hant": {
+    "heading": "聊聊你的想法。",
+    "intro": "使用時遇到問題、有建議想分享，或是想聊聊合作，都歡迎聯絡我。",
+    "emailTitle": "寄封郵件",
+    "emailBody": "產品支援、合作交流，或不適合公開討論的事情，都可以寄郵件。",
+    "feedbackTitle": "支援與意見回饋",
+    "feedbackBody": "發現問題或有功能建議？可以在 GitHub 提交回饋。需要 GitHub 帳號，提交的內容會公開顯示。",
+    "githubTitle": "在 GitHub 找到我",
+    "githubBody": "看看我正在做的專案、開放原始碼和最近的更新。",
+    "note": "回報產品問題時，請附上產品名稱、裝置與系統版本，以及具體遇到的情況。請勿在公開回饋中填寫個人資訊。"
+  },
+  "ja": {
+    "heading": "気軽にご連絡ください。",
+    "intro": "アプリについての質問、ご提案、お仕事のご相談など、お待ちしています。",
+    "emailTitle": "メールで連絡",
+    "emailBody": "アプリのサポート、お仕事のご相談、公開したくない内容はこちらへ。",
+    "feedbackTitle": "サポート・フィードバック",
+    "feedbackBody": "不具合や機能のご要望は GitHub の Issue へ。GitHub アカウントが必要です。投稿内容は公開されます。",
+    "githubTitle": "GitHub を見る",
+    "githubBody": "プロジェクト、ソースコード、最近の更新をご覧いただけます。",
+    "note": "お問い合わせには、アプリ名、端末と OS のバージョン、問題の詳細を添えてください。公開の Issue に個人情報を記載しないでください。"
+  },
+  "ko": {
+    "heading": "편하게 연락해 주세요.",
+    "intro": "앱에 대한 질문, 나누고 싶은 아이디어, 협업 제안 모두 환영합니다.",
+    "emailTitle": "이메일 보내기",
+    "emailBody": "앱 지원, 협업 문의 또는 공개하기 어려운 내용은 이메일로 보내 주세요.",
+    "feedbackTitle": "지원 및 피드백",
+    "feedbackBody": "버그를 발견했거나 필요한 기능이 있나요? GitHub에 이슈를 남겨 주세요. GitHub 계정이 필요하며, 작성한 내용은 공개됩니다.",
+    "githubTitle": "GitHub에서 만나기",
+    "githubBody": "프로젝트, 소스 코드와 최근 업데이트를 살펴보세요.",
+    "note": "앱 지원을 요청할 때는 앱 이름, 기기와 OS 버전, 문제 상황을 알려 주세요. 공개 이슈에는 개인정보를 남기지 마세요."
+  }
+}

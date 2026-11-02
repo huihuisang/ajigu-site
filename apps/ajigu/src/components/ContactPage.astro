@@ -1,0 +1,87 @@
+---
+import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
+import { SiteHeader } from "@ajigu/site-kit/components/SiteHeader";
+import { SiteFooter } from "@ajigu/site-kit/components/SiteFooter";
+import { getCopy } from "@ajigu/site-kit/copy";
+import { LinkButton } from "@ajigu/ui/components/link-button";
+import { ArrowUpRight } from "@ajigu/ui/icons";
+import homes from "../content/home.json";
+import messages from "../content/contact.json";
+import "../styles/contact.css";
+
+interface Props {
+  page: (typeof homes)[number];
+}
+const { page } = Astro.props;
+const copy = getCopy(page.locale);
+const content = messages[page.locale as keyof typeof messages];
+const languages = page.languages.map((link) => ({ ...link, href: `${link.href}contact/` }));
+const title = `${copy.contact} — ajigu`;
+const replacements: Record<string, string> = {
+  description: content.intro,
+  "og:title": title,
+  "twitter:title": title,
+  "og:description": content.intro,
+  "twitter:description": content.intro,
+  "og:url": `https://ajigu.com${page.route}contact/`,
+};
+const metadata = {
+  ...page.metadata,
+  title,
+  meta: page.metadata.meta.map((tag) => {
+    const content = replacements[("property" in tag ? tag.property : tag.name) || ""];
+    return content ? { ...tag, content } : tag;
+  }),
+  links: page.metadata.links.map((link) =>
+    link.rel === "canonical" || link.rel === "alternate"
+      ? { ...link, href: `${link.href}contact/` }
+      : link,
+  ),
+};
+const channels = page.contactLinks.map((link) => ({
+  ...link,
+  title: link.label === "GitHub" ? content.githubTitle : content.feedbackTitle,
+  body: link.label === "GitHub" ? content.githubBody : content.feedbackBody,
+}));
+---
+
+<SiteLayout metadata={metadata} locale={page.locale} languages={languages}>
+  <a class="studio-skip" href="#main">
+    {copy.skip}
+  </a>
+  <SiteHeader
+    client:load
+    name="ajigu"
+    icon="/assets/logo.webp"
+    route={page.route}
+    home
+    contactPage
+    copy={copy}
+    languages={languages}
+    language={page.locale}
+  />
+  <main id="main" class="contact-main studio-shell">
+    <div class="contact-intro">
+      <h1>{content.heading}</h1>
+      <p>{content.intro}</p>
+    </div>
+    <section class="contact-email" aria-labelledby="email-heading">
+      <h2 id="email-heading">{content.emailTitle}</h2>
+      <p>{content.emailBody}</p>
+      <LinkButton href="mailto:support@ajigu.com" label="support@ajigu.com" />
+    </section>
+    <div class="contact-channels">
+      {channels.map((channel) => (
+        <a class="contact-channel" href={channel.href}>
+          <div>
+            <h2>{channel.title}</h2>
+            <p>{channel.body}</p>
+          </div>
+          <ArrowUpRight aria-hidden="true" />
+        </a>
+      ))}
+    </div>
+    <p class="contact-note">{content.note}</p>
+  </main>
+  <SiteFooter signatureLabel={copy.signatureLabel} client:load links={page.contactLinks} />
+</SiteLayout>

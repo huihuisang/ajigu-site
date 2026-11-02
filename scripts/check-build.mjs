@@ -47,6 +47,8 @@ export async function checkBuild() {
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
   const rootSitemap = await readFile(path.join(locations.root, "sitemap.xml"), "utf8");
   const expectedURLs = [...rootSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
+  const homes = await json(path.join(locations.root, "apps/ajigu/src/content/home.json"));
+  expectedURLs.push(...homes.map(({ route }) => `${origin}${route}contact/`));
   for (const [site] of Object.entries(legacySites)) {
     const source = await readFile(
       path.join(locations.root, "apps/ajigu/public", site, "sitemap.xml"),

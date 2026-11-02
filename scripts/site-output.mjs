@@ -139,6 +139,10 @@ export async function transformPublic(root, directory) {
   const robotRules = [];
   const rootSitemap = await readFile(path.join(directory, "sitemap.xml"), "utf8");
   allURLs.push(...[...rootSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, value]) => value));
+  const homes = JSON.parse(
+    await readFile(path.join(root, "apps/ajigu/src/content/home.json"), "utf8"),
+  );
+  allURLs.push(...homes.map(({ route }) => `${origin}${route}contact/`));
   for (const site of Object.keys(legacySites)) {
     const product = path.join(directory, site);
     const sitemap = await readFile(path.join(product, "sitemap.xml"), "utf8");

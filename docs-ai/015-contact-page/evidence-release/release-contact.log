@@ -1,0 +1,2 @@
+$ node tests/contact.mjs
+30 contact cases passed; navigation, channels, language switching and no-script links verified.

@@ -128,6 +128,11 @@ task-artifacts run TASK_ID -- node scripts/check-edge-redirects.mjs EVIDENCE_JSO
 - `/zh-hant/` — 繁體中文
 - `/ko/` — 한국어
 
+Each studio language has a `contact/` page under its homepage path. The page shows
+the existing support email, GitHub profile and public feedback link. Language
+switching keeps the contact page open. Run `pnpm test:contact` after building to
+check navigation, metadata and responsive layouts with and without JavaScript.
+
 ## Nameplate Studio
 
 - `/nameplate/` — English

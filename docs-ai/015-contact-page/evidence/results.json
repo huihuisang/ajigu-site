@@ -1,0 +1,185 @@
+{
+  "matrix": [
+    {
+      "locale": "en",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hans",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "zh-Hant",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    },
+    {
+      "locale": "ko",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}
