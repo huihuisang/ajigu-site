@@ -1,0 +1,62 @@
+[
+  {
+    "index": 0,
+    "menusBeforeFocus": 1,
+    "focusWasRestored": true,
+    "immediate": {
+      "note": "音符 5",
+      "focusedNote": null,
+      "focusedLanguage": false,
+      "menuCount": 1
+    },
+    "eventuallyUpdated": false
+  },
+  {
+    "index": 1,
+    "menusBeforeFocus": 1,
+    "focusWasRestored": false,
+    "immediate": {
+      "note": "音符 7",
+      "focusedNote": "7",
+      "focusedLanguage": false,
+      "menuCount": 0
+    },
+    "eventuallyUpdated": true
+  },
+  {
+    "index": 2,
+    "menusBeforeFocus": 0,
+    "focusWasRestored": false,
+    "immediate": {
+      "note": "音符 7",
+      "focusedNote": "7",
+      "focusedLanguage": false,
+      "menuCount": 0
+    },
+    "eventuallyUpdated": true
+  },
+  {
+    "index": 3,
+    "menusBeforeFocus": 1,
+    "focusWasRestored": true,
+    "immediate": {
+      "note": "音符 5",
+      "focusedNote": null,
+      "focusedLanguage": false,
+      "menuCount": 1
+    },
+    "eventuallyUpdated": false
+  },
+  {
+    "index": 4,
+    "menusBeforeFocus": 1,
+    "focusWasRestored": true,
+    "immediate": {
+      "note": "音符 5",
+      "focusedNote": null,
+      "focusedLanguage": false,
+      "menuCount": 1
+    },
+    "eventuallyUpdated": false
+  }
+]

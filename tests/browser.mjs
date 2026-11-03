@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { chromium } from "@playwright/test";
+import { chromium, expect } from "@playwright/test";
 import { startPreview } from "../scripts/preview-workspace.mjs";
 import { checkBuild } from "../scripts/check-build.mjs";
 import { sites, legacySites } from "../packages/site-kit/config/paths.mjs";
@@ -445,9 +445,11 @@ try {
   await page.locator(".language-switcher").click();
   await page.keyboard.press("Escape");
   assert.equal(await page.locator(".language-switcher").getAttribute("aria-expanded"), "false");
+  await expect(page.getByRole("menu", { includeHidden: true })).toHaveCount(0);
+  await expect(page.locator(".language-switcher")).toBeFocused();
   await page.locator('[data-note="7"]').focus();
   await page.keyboard.press("Enter");
-  assert.match(await page.locator("[data-note-output]").textContent(), /7$/);
+  await expect(page.locator("[data-note-output]")).toHaveText(/7$/);
   assert.equal(
     await page.locator(`a[href="https://github.com/huihuisang/TypeNote/releases/latest"]`).count(),
     2,
