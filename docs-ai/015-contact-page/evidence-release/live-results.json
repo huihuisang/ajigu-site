@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-11-03T19:39:01.730Z",
+  "marker": {
+    "sourceRepository": "huihuisang/ajigu-site",
+    "sourceRevision": "e9946705ed960ec7557b01c8a5939f65d0220260",
+    "site": "ajigu",
+    "domain": "ajigu.com",
+    "mode": "site"
+  },
+  "results": [
+    {
+      "route": "/contact/",
+      "locale": "en",
+      "status": 200,
+      "homepageNavigation": "passed",
+      "metadata": "passed",
+      "channels": "passed",
+      "languageRoutes": "passed",
+      "sitemap": "passed"
+    },
+    {
+      "route": "/zh-hans/contact/",
+      "locale": "zh-Hans",
+      "status": 200,
+      "homepageNavigation": "passed",
+      "metadata": "passed",
+      "channels": "passed",
+      "languageRoutes": "passed",
+      "sitemap": "passed"
+    },
+    {
+      "route": "/zh-hant/contact/",
+      "locale": "zh-Hant",
+      "status": 200,
+      "homepageNavigation": "passed",
+      "metadata": "passed",
+      "channels": "passed",
+      "languageRoutes": "passed",
+      "sitemap": "passed"
+    },
+    {
+      "route": "/ja/contact/",
+      "locale": "ja",
+      "status": 200,
+      "homepageNavigation": "passed",
+      "metadata": "passed",
+      "channels": "passed",
+      "languageRoutes": "passed",
+      "sitemap": "passed"
+    },
+    {
+      "route": "/ko/contact/",
+      "locale": "ko",
+      "status": 200,
+      "homepageNavigation": "passed",
+      "metadata": "passed",
+      "channels": "passed",
+      "languageRoutes": "passed",
+      "sitemap": "passed"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-03T19:39:48.938Z",
+  "contactNavigation": {
+    "from": "https://ajigu.com/zh-hans/",
+    "to": "https://ajigu.com/zh-hans/contact/",
+    "status": "passed"
+  },
+  "languageSwitch": {
+    "url": "https://ajigu.com/ja/contact/",
+    "state": "Browser tab: 1, Title: \"連絡先 — ajigu\", URL: \"https://ajigu.com/ja/contact/\".\n1 AXWebArea 連絡先 — ajigu, URL: ajigu.com/ja/contact/\n\t2 link Description: 本文へ移動, Value: ajigu.com/ja/contact/#main\n\t3 container\n\t\t4 link Description: ajigu, Value: ajigu.com/ja/\n\t\t5 container 作品\n\t\t\t6 content list\n\t\t\t\t7 link Description: 作品, Value: ajigu.com/ja/#apps\n\t\t\t\t8 link Description: 連絡先, Value: ajigu.com/ja/contact/\n\t\t9 pop up button (collapsed) Description: Language, ID: radix-_r5R_3_, Secondary Actions: Expand\n\t10 container main\n\t\t11 heading 気軽にご連絡ください。, Value: 1\n\t\t\t12 text 気軽にご連絡ください。\n\t\t13 text アプリについての質問、ご提案、お仕事のご相談など、お待ちしています。\n\t\t14 container メールで連絡\n\t\t\t15 heading メールで連絡, Value: 2, ID: email-heading\n\t\t\t\t16 text メールで連絡\n\t\t\t17 text アプリのサポート、お仕事のご相談、公開したくない内容はこちらへ。\n\t\t\t18 link Description: support@ajigu.com, Value: mailto:support@ajigu.com\n\t\t19 link Description: GitHub を見る プロジェクト、ソースコード、最近の更新をご覧いただけます。, Value: github.com/huihuisang\n\t\t20 link Description: サポート・フィードバック 不具合や機能のご要望は GitHub の Issue へ。GitHub アカウントが必要です。投稿内容は公開されます。, Value: github.com/huihuisang/ajigu-site/issues\n\t\t21 text お問い合わせには、アプリ名、端末と OS のバージョン、問題の詳細を添えてください。公開の Issue に個人情報を記載しないでください。\n\t22 container\n\t\t23 text © 2026 ajigu\n\t\t24 button ajigu にあいさつ\n\t\t25 link Description: GitHub, Value: github.com/huihuisang\n\t\t26 link Description: サポートとフィードバック, Value: github.com/huihuisang/ajigu-site/issues\n\nThe focused UI element is 1 AXWebArea 連絡先 — ajigu, URL: ajigu.com/ja/contact/",
+    "status": "passed"
+  },
+  "workNavigation": {
+    "url": "https://ajigu.com/ja/#apps",
+    "state": "Browser tab: 1, Title: \"ajigu — iPhone と Mac のプライバシーを大切にするアプリ\", URL: \"https://ajigu.com/ja/#apps\".\n1 AXWebArea ajigu — iPhone と Mac のプライバシーを大切にするアプリ, URL: ajigu.com/ja/#apps\n\t2 link Description: 本文へ移動, Value: ajigu.com/ja/#main\n\t3 container\n\t\t4 link Description: ajigu, Value: ajigu.com/ja/\n\t\t5 container 作品\n\t\t\t6 content list\n\t\t\t\t7 link Description: 作品, Value: ajigu.com/ja/#apps\n\t\t\t\t8 link Description: 連絡先, Value: ajigu.com/ja/contact/\n\t\t9 pop up button (collapsed) Description: Language, ID: radix-_r10R_3_, Secondary Actions: Expand\n\t10 container main\n\t\t11 container studio\n\t\t\t12 heading 毎日に、 小さな使いやすさを。, Value: 1\n\t\t\t\t13 text 毎日に、 小さな使いやすさを。\n\t\t\t14 text Mac、iPhone、Web のために、シンプルで役立つアプリをつくる独立スタジオです。毎日の小さな使いやすさに、少しの遊び心を。\n\t\t15 container Description: 作品, ID: apps\n\t\t\t16 link Description: LogLift, Value: ajigu.com/loglift/ja/\n\t\t\t17 link Description: Go Sleep, Value: ajigu.com/gosleep/ja/\n\t\t\t18 link Description: TUTU, Value: ajigu.com/tutu/ja/\n\t\t\t19 link Description: Moodsk, Value: ajigu.com/moodsk/ja/\n\t\t\t20 link Description: Nameplate Studio, Value: ajigu.com/nameplate/about/\n\t\t\t21 link Description: TypeNote, Value: ajigu.com/typenote/?lang=ja\n\t\t\t22 link Description: DailyApod, Value: ajigu.com/dailyapod/ja/\n\t23 container\n\t\t24 text © 2026 ajigu\n\t\t25 button ajigu にあいさつ\n\t\t26 link Description: GitHub, Value: github.com/huihuisang\n\t\t27 link Description: サポートとフィードバック, Value: github.com/huihuisang/ajigu-site/issues\n\nThe focused UI element is 1 AXWebArea ajigu — iPhone と Mac のプライバシーを大切にするアプリ, URL: ajigu.com/ja/#apps",
+    "status": "passed"
+  },
+  "browserErrors": []
+}
