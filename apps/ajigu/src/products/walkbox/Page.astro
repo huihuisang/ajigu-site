@@ -1,0 +1,75 @@
+---
+import ProductLanding from "@ajigu/site-kit/layouts/ProductLanding.astro";
+import pages from "./content/pages.json";
+import product from "./content/product.json";
+
+interface Props {
+  page: (typeof pages)[number];
+}
+const { page } = Astro.props;
+---
+
+<ProductLanding page={page} product={product}>
+  <p slot="demo" class="walkbox-caption">
+    {page.previewCaption}
+  </p>
+  <ol slot="demo" class="walkbox-steps">
+    {page.steps.map((step) => (
+      <li>
+        <figure>
+          <img
+            src={step.image}
+            alt={step.alt}
+            width="1206"
+            height="2622"
+            decoding="async"
+            loading="lazy"
+          />
+          <figcaption>
+            <strong>{step.title}</strong>
+            <p>{step.body}</p>
+          </figcaption>
+        </figure>
+      </li>
+    ))}
+  </ol>
+</ProductLanding>
+
+<style>
+  .walkbox-caption,
+  .walkbox-steps p {
+    color: var(--muted-foreground);
+  }
+
+  .walkbox-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  figure {
+    display: grid;
+    gap: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+  }
+
+  figcaption p {
+    margin: 8px 0 0;
+  }
+
+  @media (max-width: 640px) {
+    .walkbox-steps {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

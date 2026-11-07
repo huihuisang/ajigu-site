@@ -21,12 +21,20 @@ const browser = await chromium.launch({
 const cases = [
   { site: "ajigu", route: "/nameplate/about/", language: "en" },
   { site: "ajigu", route: "/nameplate/about/zh-hans/", language: "zh-Hans" },
-  ...JSON.parse(
-    await readFile(
-      new URL("../apps/ajigu/src/products/loglift/content/pages.json", import.meta.url),
-      "utf8",
-    ),
-  ).map(({ route, locale }) => ({ site: "ajigu", route, language: locale })),
+  ...(
+    await Promise.all(
+      ["loglift", "walkbox"].map(async (product) =>
+        JSON.parse(
+          await readFile(
+            new URL(`../apps/ajigu/src/products/${product}/content/pages.json`, import.meta.url),
+            "utf8",
+          ),
+        ),
+      ),
+    )
+  ).flatMap((pages) =>
+    pages.map(({ route, locale }) => ({ site: "ajigu", route, language: locale })),
+  ),
   ...Object.entries({ en: "en", zh: "zh-Hans", zht: "zh-Hant", ja: "ja", ko: "ko" }).map(
     ([code, language]) => ({ site: "typenote", route: `/?lang=${code}`, language }),
   ),
@@ -116,16 +124,17 @@ async function inspect(page, entry, width) {
   return metrics;
 }
 try {
-  const context = await browser.newContext({ reducedMotion: "reduce" });
+  const context = await browser.newContext({ locale: "en-US", reducedMotion: "reduce" });
   const page = await context.newPage();
   page.on("pageerror", (error) => errors.push(error.message));
   for (const entry of cases) {
     for (const width of [1440, 1024, 768, 640, 390, 320]) {
       await page.setViewportSize({ width, height: 960 });
       await page.goto(preview.origins[entry.site] + entry.route, { waitUntil: "networkidle" });
-      await page.waitForFunction(
-        (language) => document.documentElement.lang === language,
+      assert.equal(
+        await page.locator("html").getAttribute("lang"),
         entry.language,
+        `${entry.site}${entry.route} @ ${width}: ${page.url()}`,
       );
       await page.locator('#faq [data-slot="accordion-trigger"]').first().waitFor();
       matrix.push({ ...entry, width, ...(await inspect(page, entry, width)) });

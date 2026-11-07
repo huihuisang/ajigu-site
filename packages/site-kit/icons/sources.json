@@ -177,5 +177,16 @@
     "width": 256,
     "height": 256,
     "proof": "Current native LogLift app icon from the public source checkout. Original project artwork; no DJI product photos or LUT files copied."
+  },
+  {
+    "product": "walkbox",
+    "role": "icon",
+    "source": "WalkBox at 66374510, Sources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+    "sourceSHA256": "7e50eb197a83aa9253d416c6da87d529b0069feb76cc53a4ee9e19995950335f",
+    "file": "packages/site-kit/icons/walkbox.webp",
+    "sha256": "9236a07b00074eecd49a4a01fff94eb259e524d94847dc660a89c7b1567a15e3",
+    "width": 256,
+    "height": 256,
+    "proof": "Original icon from the WalkBox iOS project."
   }
 ]

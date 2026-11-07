@@ -28,6 +28,12 @@ const logliftPages = JSON.parse(
     "utf8",
   ),
 );
+const walkboxPages = JSON.parse(
+  await readFile(
+    new URL("../apps/ajigu/src/products/walkbox/content/pages.json", import.meta.url),
+    "utf8",
+  ),
+);
 try {
   const context = await browser.newContext({ locale: "en-US" });
   const page = await context.newPage();
@@ -45,7 +51,11 @@ try {
       externalFonts.push(request.url());
   });
   const cases = [
-    ...logliftPages.map(({ route, locale }) => ({ site: "ajigu", route, language: locale })),
+    ...[...logliftPages, ...walkboxPages].map(({ route, locale }) => ({
+      site: "ajigu",
+      route,
+      language: locale,
+    })),
     ...[
       ["/", "en"],
       ["/zh-hans/", "zh-Hans"],
@@ -107,12 +117,12 @@ try {
         assert.match(await page.locator(".product-claim").textContent(), /Rec\.709/);
       }
       if (galleryPage) {
-        assert.equal(await page.locator(".work-tile").count(), 7);
+        assert.equal(await page.locator(".work-tile").count(), 8);
         assert.deepEqual(
           await page
             .locator(".work-tile")
             .evaluateAll((tiles) => tiles.map((tile) => tile.dataset.productId)),
-          ["loglift", "gosleep", "tutu", "moodsk", "nameplate", "typenote", "dailyapod"],
+          ["loglift", "gosleep", "tutu", "moodsk", "nameplate", "typenote", "dailyapod", "walkbox"],
           `${entry.route}: newest releases first`,
         );
         const clipped = await page.locator(".gallery-card").evaluateAll((cards) =>
@@ -132,12 +142,12 @@ try {
         );
         assert.deepEqual(clipped, [], `${entry.route}@${width}: clipped gallery copy`);
 
-        assert.equal(await page.locator(".gallery-stage img").count(), 7);
+        assert.equal(await page.locator(".gallery-stage img").count(), 8);
         assert.deepEqual(
           await page
             .locator(".gallery-mockup")
             .evaluateAll((items) => items.map((el) => getComputedStyle(el).transform)),
-          Array(7).fill("none"),
+          Array(8).fill("none"),
         );
 
         const grid = await page
@@ -146,7 +156,7 @@ try {
         assert.equal(grid, width > 760 ? 2 : 1);
         assert.equal(await page.locator(".gallery-release time").count(), 7);
         assert.equal(await page.locator(".gallery-pricing").count(), 7);
-        assert.equal(await page.locator(".gallery-summary .gallery-platform").count(), 7);
+        assert.equal(await page.locator(".gallery-summary .gallery-platform").count(), 8);
         assert.equal(await page.locator(".gallery-summary .gallery-pricing").count(), 7);
         assert.equal(
           await page
@@ -311,6 +321,47 @@ try {
     assert.equal(await page.locator("html").getAttribute("lang"), next.locale);
     matrix.push({ site: "ajigu", route: detail.route, logliftNavigation: "passed" });
   }
+  for (const detail of walkboxPages) {
+    const homeRoute = detail.route.slice("/walkbox".length);
+    await page.goto(preview.origins.ajigu + homeRoute, { waitUntil: "networkidle" });
+    const card = page.locator('[data-product-id="walkbox"]');
+    await expect(card.locator(".gallery-release")).toHaveText(/\S/);
+    await expect(card.locator("time,.gallery-pricing")).toHaveCount(0);
+    await card.click();
+    await page.waitForURL(preview.origins.ajigu + detail.route);
+    await expect(page.locator("html")).toHaveAttribute("lang", detail.locale);
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      "https://ajigu.com" + detail.route,
+    );
+    const alternateURLs = await page
+      .locator('link[rel="alternate"][hreflang]')
+      .evaluateAll((links) => Object.fromEntries(links.map((link) => [link.hreflang, link.href])));
+    assert.deepEqual(alternateURLs, {
+      ...Object.fromEntries(
+        walkboxPages.map(({ locale, route }) => [locale, "https://ajigu.com" + route]),
+      ),
+      "x-default": "https://ajigu.com/walkbox/",
+    });
+    await page.locator('.product-actions a[href="#showcase"]').click();
+    await page.waitForURL("**/#showcase");
+    const shots = page.locator("#showcase img");
+    assert.equal(await shots.count(), detail.steps.length);
+    for (const [index, step] of detail.steps.entries()) {
+      const shot = shots.nth(index);
+      await shot.scrollIntoViewIfNeeded();
+      await expect(shot).toHaveAttribute("src", step.image);
+      await expect(shot).toHaveAttribute("alt", step.alt);
+      await expect.poll(() => shot.evaluate((image) => image.naturalWidth)).toBe(1206);
+    }
+    const next = walkboxPages[(walkboxPages.indexOf(detail) + 1) % walkboxPages.length];
+    await page.locator(".language-switcher").click();
+    await page.locator(`[data-language="${next.locale}"]`).click();
+    await page.waitForURL((url) => url.pathname === next.route);
+    await page.locator(`.product-actions a[href="${next.actions[1].href}"]`).click();
+    await page.waitForURL((url) => url.pathname === next.actions[1].href);
+    matrix.push({ site: "ajigu", route: detail.route, walkboxNavigation: "passed" });
+  }
   let homeAfterSelection = "/";
   for (const site of products) {
     const contract = JSON.parse(
@@ -415,7 +466,7 @@ try {
   }
   await page.locator("#replay").click();
   await page.goto(preview.origins.ajigu + "/zh-hans/", { waitUntil: "networkidle" });
-  assert.equal(await page.locator(".work-tile").count(), 7);
+  assert.equal(await page.locator(".work-tile").count(), 8);
   assert.equal(await page.locator(".studio-hero,.studio-beliefs").count(), 0);
   await page.locator('[data-product-id="typenote"]').click();
   await page.waitForURL(preview.origins.typenote + "/?lang=zh");

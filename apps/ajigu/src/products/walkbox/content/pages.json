@@ -1,0 +1,892 @@
+[
+  {
+    "route": "/walkbox/",
+    "locale": "en",
+    "metadata": {
+      "title": "走走看 — A surprise at the end of every walk",
+      "meta": [
+        {
+          "name": "description",
+          "content": "Pick a distance or time and the kind of place you feel like visiting. 走走看 picks a nearby destination and reveals it when you get there."
+        },
+        {
+          "property": "og:title",
+          "content": "走走看 — A surprise at the end of every walk"
+        },
+        {
+          "property": "og:description",
+          "content": "Pick a distance or time and the kind of place you feel like visiting. 走走看 picks a nearby destination and reveals it when you get there."
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/walkbox/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "en_US"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/walkbox-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/walkbox.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/walkbox/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/walkbox/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/walkbox/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/walkbox/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/walkbox/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/walkbox/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/walkbox/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/walkbox/ko/"
+      }
+    ],
+    "heading": "走走看",
+    "claim": "A surprise at the end of every walk.",
+    "intro": "Pick a distance or time and the kind of place you feel like visiting. 走走看 picks a nearby destination and reveals it when you get there.",
+    "actions": [
+      {
+        "href": "#showcase",
+        "label": "From setting out to arriving"
+      },
+      {
+        "href": "/contact/",
+        "label": "Support"
+      }
+    ],
+    "note": "iPhone · iOS 17 or later · App Store release pending",
+    "showcaseTitle": "From setting out to arriving",
+    "previewCaption": "iPhone simulator screenshots using a sample route. The app interface is in Simplified Chinese.",
+    "mainId": "main",
+    "steps": [
+      {
+        "image": "/studio/screens/walkbox-home.webp",
+        "alt": "Start screen with 500 meters selected",
+        "title": "Set out",
+        "body": "Choose a distance and the kind of place you might like to find."
+      },
+      {
+        "image": "/studio/screens/walkbox-route.webp",
+        "alt": "Navigation showing a left turn in 195 meters and 484 meters remaining",
+        "title": "Follow the directions",
+        "body": "See your next turn and remaining distance as you go."
+      },
+      {
+        "image": "/studio/screens/walkbox-arrival.webp",
+        "alt": "Arrival receipt showing a sample café with photo and note controls",
+        "title": "Open your walk receipt",
+        "body": "Discover the destination and add a photo or note to remember it."
+      }
+    ],
+    "sections": [
+      {
+        "id": "features",
+        "title": "More ways to explore",
+        "items": [
+          {
+            "title": "Walk with friends",
+            "body": "<p>Create a room and send an invitation to walk toward the same surprise destination.</p>"
+          },
+          {
+            "title": "Revisit your walks",
+            "body": "<p>Open past trips in Footprints and add photos or notes.</p>"
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "Frequently asked questions",
+        "questions": [
+          {
+            "question": "What can I see before I arrive?",
+            "answer": "<p>Follow directions and see the remaining distance. The destination name appears on your receipt when you arrive.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/contact/",
+        "label": "Support"
+      }
+    ]
+  },
+  {
+    "route": "/walkbox/zh-hans/",
+    "locale": "zh-Hans",
+    "metadata": {
+      "title": "走走看 — 散个步，到了再开盲盒",
+      "meta": [
+        {
+          "name": "description",
+          "content": "选个距离或时间，再选一种想去的地方。走走看会在附近挑一个目的地，沿途给你指路，到达后才揭晓。"
+        },
+        {
+          "property": "og:title",
+          "content": "走走看 — 散个步，到了再开盲盒"
+        },
+        {
+          "property": "og:description",
+          "content": "选个距离或时间，再选一种想去的地方。走走看会在附近挑一个目的地，沿途给你指路，到达后才揭晓。"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_CN"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/walkbox-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/walkbox.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/walkbox/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/walkbox/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/walkbox/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/walkbox/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/walkbox/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/walkbox/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/walkbox/ko/"
+      }
+    ],
+    "heading": "走走看",
+    "claim": "散个步，到了再开盲盒。",
+    "intro": "选个距离或时间，再选一种想去的地方。走走看会在附近挑一个目的地，沿途给你指路，到达后才揭晓。",
+    "actions": [
+      {
+        "href": "#showcase",
+        "label": "从出发到揭晓"
+      },
+      {
+        "href": "/zh-hans/contact/",
+        "label": "产品支持"
+      }
+    ],
+    "note": "iPhone · 需要 iOS 17 或更新版本 · 尚未上架",
+    "showcaseTitle": "从出发到揭晓",
+    "previewCaption": "画面截自 iPhone 模拟器，使用示例路线和地点。",
+    "mainId": "main",
+    "steps": [
+      {
+        "image": "/studio/screens/walkbox-home.webp",
+        "alt": "首页已选中 500 米，下方有开始散步按钮",
+        "title": "选好就出发",
+        "body": "选一个距离，再挑挑今天想遇见什么。"
+      },
+      {
+        "image": "/studio/screens/walkbox-route.webp",
+        "alt": "导航界面提示 195 米后左转，剩余 484 米",
+        "title": "跟着提示走",
+        "body": "沿途查看转向提示和剩余距离。"
+      },
+      {
+        "image": "/studio/screens/walkbox-arrival.webp",
+        "alt": "揭晓示例咖啡店的小票，含拍照和添加感想入口",
+        "title": "打开散步小票",
+        "body": "看看走到了哪里，拍张照或留句话。"
+      }
+    ],
+    "sections": [
+      {
+        "id": "features",
+        "title": "散步还能怎么玩？",
+        "items": [
+          {
+            "title": "约朋友一起走",
+            "body": "<p>创建房间并发出邀请，和朋友走向同一个惊喜终点。</p>"
+          },
+          {
+            "title": "把走过的地方留下",
+            "body": "<p>在足迹里回看散步记录，为小票添一张照片或一段感想。</p>"
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "常见问题",
+        "questions": [
+          {
+            "question": "到达前能看到什么？",
+            "answer": "<p>途中可以查看转向提示和剩余距离。到达后，小票上会显示地点名称。</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/zh-hans/contact/",
+        "label": "产品支持"
+      }
+    ]
+  },
+  {
+    "route": "/walkbox/zh-hant/",
+    "locale": "zh-Hant",
+    "metadata": {
+      "title": "走走看 — 散個步，到了再開盲盒",
+      "meta": [
+        {
+          "name": "description",
+          "content": "選個距離或時間，再挑一種想去的地方。走走看會在附近選一個目的地，沿途為你指路，抵達後才揭曉。"
+        },
+        {
+          "property": "og:title",
+          "content": "走走看 — 散個步，到了再開盲盒"
+        },
+        {
+          "property": "og:description",
+          "content": "選個距離或時間，再挑一種想去的地方。走走看會在附近選一個目的地，沿途為你指路，抵達後才揭曉。"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "zh_TW"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/walkbox-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/walkbox.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/walkbox/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/walkbox/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/walkbox/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/walkbox/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/walkbox/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/walkbox/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/walkbox/ko/"
+      }
+    ],
+    "heading": "走走看",
+    "claim": "散個步，到了再開盲盒。",
+    "intro": "選個距離或時間，再挑一種想去的地方。走走看會在附近選一個目的地，沿途為你指路，抵達後才揭曉。",
+    "actions": [
+      {
+        "href": "#showcase",
+        "label": "從出發到揭曉"
+      },
+      {
+        "href": "/zh-hant/contact/",
+        "label": "產品支援"
+      }
+    ],
+    "note": "iPhone · 需要 iOS 17 或更新版本 · 尚未上架",
+    "showcaseTitle": "從出發到揭曉",
+    "previewCaption": "畫面擷取自 iPhone 模擬器，使用範例路線與地點。App 介面為簡體中文。",
+    "mainId": "main",
+    "steps": [
+      {
+        "image": "/studio/screens/walkbox-home.webp",
+        "alt": "首頁已選取 500 公尺，下方有開始散步按鈕",
+        "title": "選好就出發",
+        "body": "選一個距離，再挑挑今天想遇見什麼。"
+      },
+      {
+        "image": "/studio/screens/walkbox-route.webp",
+        "alt": "導航畫面提示 195 公尺後左轉，剩餘 484 公尺",
+        "title": "跟著提示走",
+        "body": "沿途查看轉向提示和剩餘距離。"
+      },
+      {
+        "image": "/studio/screens/walkbox-arrival.webp",
+        "alt": "揭曉範例咖啡店的小票，附有拍照和新增感想的按鈕",
+        "title": "打開散步小票",
+        "body": "看看走到了哪裡，拍張照或留句話。"
+      }
+    ],
+    "sections": [
+      {
+        "id": "features",
+        "title": "散步還能怎麼玩？",
+        "items": [
+          {
+            "title": "約朋友一起走",
+            "body": "<p>建立房間並傳送邀請，和朋友走向同一個驚喜終點。</p>"
+          },
+          {
+            "title": "記下走過的地方",
+            "body": "<p>在足跡中重看散步紀錄，為小票加上照片或感想。</p>"
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "常見問題",
+        "questions": [
+          {
+            "question": "抵達前能看到什麼？",
+            "answer": "<p>途中可以查看轉向提示和剩餘距離。抵達後，小票上會顯示地點名稱。</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/zh-hant/contact/",
+        "label": "產品支援"
+      }
+    ]
+  },
+  {
+    "route": "/walkbox/ja/",
+    "locale": "ja",
+    "metadata": {
+      "title": "走走看 — 行き先は、着いてからのお楽しみ",
+      "meta": [
+        {
+          "name": "description",
+          "content": "散歩の距離や時間、行きたい場所の種類を選びます。走走看が近くの目的地まで案内し、到着したら場所の名前を明かします。"
+        },
+        {
+          "property": "og:title",
+          "content": "走走看 — 行き先は、着いてからのお楽しみ"
+        },
+        {
+          "property": "og:description",
+          "content": "散歩の距離や時間、行きたい場所の種類を選びます。走走看が近くの目的地まで案内し、到着したら場所の名前を明かします。"
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "ja_JP"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/walkbox-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/walkbox.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/walkbox/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/walkbox/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/walkbox/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/walkbox/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/walkbox/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/walkbox/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/walkbox/ko/"
+      }
+    ],
+    "heading": "走走看",
+    "claim": "行き先は、着いてからのお楽しみ。",
+    "intro": "散歩の距離や時間、行きたい場所の種類を選びます。走走看が近くの目的地まで案内し、到着したら場所の名前を明かします。",
+    "actions": [
+      {
+        "href": "#showcase",
+        "label": "出発から行き先がわかるまで"
+      },
+      {
+        "href": "/ja/contact/",
+        "label": "サポート"
+      }
+    ],
+    "note": "iPhone · iOS 17以降 · App Store未配信",
+    "showcaseTitle": "出発から行き先がわかるまで",
+    "previewCaption": "iPhoneシミュレータでサンプルの経路と場所を使って撮影しました。アプリの表示は簡体字中国語です。",
+    "mainId": "main",
+    "steps": [
+      {
+        "image": "/studio/screens/walkbox-home.webp",
+        "alt": "500メートルが選択された散歩の開始画面",
+        "title": "散歩に出かける",
+        "body": "歩く距離と、出会いたい場所の種類を選びます。"
+      },
+      {
+        "image": "/studio/screens/walkbox-route.webp",
+        "alt": "195メートル先で左折、残り484メートルと表示された案内画面",
+        "title": "案内に沿って進む",
+        "body": "次に曲がる場所と残りの距離を確認できます。"
+      },
+      {
+        "image": "/studio/screens/walkbox-arrival.webp",
+        "alt": "サンプルのカフェ名と写真・メモのボタンがある到着レシート",
+        "title": "散歩のレシートを開く",
+        "body": "着いた場所を確認して、写真や感想を残せます。"
+      }
+    ],
+    "sections": [
+      {
+        "id": "features",
+        "title": "散歩の楽しみ方",
+        "items": [
+          {
+            "title": "友だちと一緒に歩く",
+            "body": "<p>ルームを作って招待を送り、同じ目的地を目指します。</p>"
+          },
+          {
+            "title": "散歩を振り返る",
+            "body": "<p>足あとから散歩の記録を開き、写真や感想を追加できます。</p>"
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "よくある質問",
+        "questions": [
+          {
+            "question": "到着する前に何が見えますか？",
+            "answer": "<p>途中は曲がる方向と残りの距離がわかります。場所の名前は到着後にレシートに表示されます。</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/ja/contact/",
+        "label": "サポート"
+      }
+    ]
+  },
+  {
+    "route": "/walkbox/ko/",
+    "locale": "ko",
+    "metadata": {
+      "title": "走走看 — 목적지는 도착할 때까지 비밀",
+      "meta": [
+        {
+          "name": "description",
+          "content": "걷고 싶은 거리나 시간, 가 보고 싶은 장소의 유형을 고르세요. 走走看이 근처의 목적지를 골라 길을 안내하고, 도착하면 장소 이름을 알려 줍니다."
+        },
+        {
+          "property": "og:title",
+          "content": "走走看 — 목적지는 도착할 때까지 비밀"
+        },
+        {
+          "property": "og:description",
+          "content": "걷고 싶은 거리나 시간, 가 보고 싶은 장소의 유형을 고르세요. 走走看이 근처의 목적지를 골라 길을 안내하고, 도착하면 장소 이름을 알려 줍니다."
+        },
+        {
+          "property": "og:url",
+          "content": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        {
+          "property": "og:locale",
+          "content": "ko_KR"
+        },
+        {
+          "property": "og:image",
+          "content": "https://ajigu.com/gallery/walkbox-mockup.webp"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary_large_image"
+        }
+      ],
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/studio/icons/walkbox.webp"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "en",
+          "href": "https://ajigu.com/walkbox/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hans",
+          "href": "https://ajigu.com/walkbox/zh-hans/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "zh-Hant",
+          "href": "https://ajigu.com/walkbox/zh-hant/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ja",
+          "href": "https://ajigu.com/walkbox/ja/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "ko",
+          "href": "https://ajigu.com/walkbox/ko/"
+        },
+        {
+          "rel": "alternate",
+          "hreflang": "x-default",
+          "href": "https://ajigu.com/walkbox/"
+        }
+      ],
+      "structuredData": []
+    },
+    "languages": [
+      {
+        "code": "en",
+        "label": "English",
+        "href": "/walkbox/"
+      },
+      {
+        "code": "zh-Hans",
+        "label": "简体中文",
+        "href": "/walkbox/zh-hans/"
+      },
+      {
+        "code": "zh-Hant",
+        "label": "繁體中文",
+        "href": "/walkbox/zh-hant/"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "href": "/walkbox/ja/"
+      },
+      {
+        "code": "ko",
+        "label": "한국어",
+        "href": "/walkbox/ko/"
+      }
+    ],
+    "heading": "走走看",
+    "claim": "목적지는 도착할 때까지 비밀.",
+    "intro": "걷고 싶은 거리나 시간, 가 보고 싶은 장소의 유형을 고르세요. 走走看이 근처의 목적지를 골라 길을 안내하고, 도착하면 장소 이름을 알려 줍니다.",
+    "actions": [
+      {
+        "href": "#showcase",
+        "label": "출발부터 목적지 공개까지"
+      },
+      {
+        "href": "/ko/contact/",
+        "label": "지원"
+      }
+    ],
+    "note": "iPhone · iOS 17 이상 · App Store 출시 전",
+    "showcaseTitle": "출발부터 목적지 공개까지",
+    "previewCaption": "iPhone 시뮬레이터에서 예시 경로와 장소를 사용해 촬영했습니다. 앱 화면은 중국어 간체입니다.",
+    "mainId": "main",
+    "steps": [
+      {
+        "image": "/studio/screens/walkbox-home.webp",
+        "alt": "500미터를 선택한 산책 시작 화면",
+        "title": "산책 시작하기",
+        "body": "걷고 싶은 거리와 만나고 싶은 장소를 고릅니다."
+      },
+      {
+        "image": "/studio/screens/walkbox-route.webp",
+        "alt": "195미터 앞 좌회전과 남은 거리 484미터가 표시된 안내 화면",
+        "title": "길 안내 따라가기",
+        "body": "다음에 돌 방향과 남은 거리를 확인하며 걸을 수 있습니다."
+      },
+      {
+        "image": "/studio/screens/walkbox-arrival.webp",
+        "alt": "예시 카페 이름과 사진·메모 버튼이 있는 도착 영수증",
+        "title": "산책 영수증 열기",
+        "body": "어디에 도착했는지 확인하고 사진이나 메모를 남깁니다."
+      }
+    ],
+    "sections": [
+      {
+        "id": "features",
+        "title": "산책을 즐기는 방법",
+        "items": [
+          {
+            "title": "친구와 함께 걷기",
+            "body": "<p>방을 만들고 초대를 보내 친구와 같은 목적지를 향해 걸을 수 있습니다.</p>"
+          },
+          {
+            "title": "지난 산책 돌아보기",
+            "body": "<p>발자국에서 산책 기록을 열고 사진이나 메모를 덧붙일 수 있습니다.</p>"
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "자주 묻는 질문",
+        "questions": [
+          {
+            "question": "도착 전에는 무엇을 볼 수 있나요?",
+            "answer": "<p>걷는 동안 방향 안내와 남은 거리를 확인할 수 있습니다. 장소 이름은 도착 후 영수증에 표시됩니다.</p>"
+          }
+        ]
+      }
+    ],
+    "footerLinks": [
+      {
+        "href": "/ko/contact/",
+        "label": "지원"
+      }
+    ]
+  }
+]

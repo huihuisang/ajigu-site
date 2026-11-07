@@ -195,5 +195,56 @@
       "originalSHA256": "d690c034625ac768ed4ff8a39b4dfcfa2c29dc34a493d41ac0b55161f048863e",
       "release": "https://github.com/huihuisang/DJI-LogLift/releases/tag/v0.1.0"
     }
+  },
+  "design/mockups/screens/walkbox-home.webp": {
+    "sha256": "d67ec9e9f0d0f565da72ff88a6773590abc9dd58dc7b43ef7543bdd0aeb1aa64",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "walkbox",
+    "proof": {
+      "capture": "2026-11-12: sim-use capture on an iOS 27.2 simulator, using the native debug sample route and simulated location.",
+      "app": {
+        "version": "1.0",
+        "build": "1",
+        "bundleID": "com.ajigu.walkbox"
+      },
+      "originalSHA256": "bc199d097a0babdf189581afb0fe64d019045c55a08a7cd839b049f5f99fc41c"
+    }
+  },
+  "design/mockups/screens/walkbox-route.webp": {
+    "sha256": "5f3e4d3656b5be8adf597540dc685f9ec24c9b1f9c7bcbf518e8c9e2680a6a22",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "walkbox",
+    "proof": {
+      "capture": "2026-11-12: sim-use capture on an iOS 27.2 simulator, using the native debug sample route and simulated location.",
+      "app": {
+        "version": "1.0",
+        "build": "1",
+        "bundleID": "com.ajigu.walkbox"
+      },
+      "originalSHA256": "7430734a8159a8d388db07a0f277ffe4b92d5b35c0a86c5e11755f73173b6582"
+    }
+  },
+  "design/mockups/screens/walkbox-arrival.webp": {
+    "sha256": "e28f4cd4fbc9c4a67675b318268135ffc1e0c8d707cf34f2c4d7dde0761d3e82",
+    "size": [
+      1206,
+      2622
+    ],
+    "product": "walkbox",
+    "proof": {
+      "capture": "2026-11-12: sim-use capture on an iOS 27.2 simulator, using the native debug sample route and simulated location.",
+      "app": {
+        "version": "1.0",
+        "build": "1",
+        "bundleID": "com.ajigu.walkbox"
+      },
+      "originalSHA256": "2e087de82e53fbc6c99c737f101ef4f2f57f79d8ca0a418d5b17d75886a8a6f0"
+    }
   }
 }

@@ -20,7 +20,16 @@ test("gallery assets retain source provenance and verified output bytes", async 
   const gallery = await readJSON("apps/ajigu/src/content/gallery.json");
   const outputs = await readJSON("design/mockups/outputs.json");
   const screens = await readJSON("design/mockups/screens.json");
-  const products = ["typenote", "moodsk", "gosleep", "dailyapod", "tutu", "nameplate", "loglift"];
+  const products = [
+    "typenote",
+    "moodsk",
+    "gosleep",
+    "dailyapod",
+    "tutu",
+    "nameplate",
+    "loglift",
+    "walkbox",
+  ];
   assert.deepEqual(Object.keys(gallery).sort(), products.sort());
   for (const product of products) {
     assert.equal(
@@ -65,7 +74,13 @@ test("gallery facts cover each product and all localized pricing labels", async 
     assert.ok(labels.releaseEstimate);
     for (const { id } of page.products) {
       const fact = facts[id];
-      assert.ok(labels.pricing[fact.pricing], `${id}: ${page.locale}`);
+      if (fact.releasePending) {
+        assert.ok(labels.releasePending, `${id}: ${page.locale}`);
+        assert.equal(fact.releaseDate, null);
+        assert.equal(fact.pricing, null);
+      } else {
+        assert.ok(labels.pricing[fact.pricing], `${id}: ${page.locale}`);
+      }
       assert.ok(fact.sources.length > 0);
       for (const source of fact.sources) assert.equal(new URL(source).protocol, "https:");
       assert.match(fact.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
@@ -79,6 +94,7 @@ test("gallery facts cover each product and all localized pricing labels", async 
   assert.equal(facts.nameplate.releaseDate, "2026-09-04");
   assert.equal(facts.nameplate.releaseDateEstimated, true);
   assert.equal(facts.loglift.pricing, "free");
+  assert.equal(facts.walkbox.releasePending, true);
   assert.equal(facts.tutu.pricing, "paidExport");
   for (const id of ["moodsk", "gosleep", "dailyapod"]) {
     assert.equal(facts[id].pricing, "freemium");

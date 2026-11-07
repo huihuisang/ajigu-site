@@ -71,5 +71,15 @@
     ],
     "note": "Estimated first public launch date in Asia/Shanghai. Initial source release: 2026-09-02. Earliest retained successful Pages deployment completed at 2026-09-04 00:33 local time (2026-09-03T16:33:11Z); the editor entered ajigu.com/nameplate later that morning. Earlier public availability is not excluded. The editor and PNG export are free.",
     "releaseDateEstimated": true
+  },
+  "walkbox": {
+    "releaseDate": null,
+    "pricing": null,
+    "releasePending": true,
+    "checkedAt": "2026-11-12",
+    "sources": [
+      "https://appstoreconnect.apple.com/apps/6832618101/distribution"
+    ],
+    "note": "App Store Connect shows 1.0 in Prepare for Submission. Pricing and availability are unset."
   }
 }

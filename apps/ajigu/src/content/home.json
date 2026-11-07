@@ -65,6 +65,15 @@
         "icon": "nameplate-icon.webp",
         "platform": "Web",
         "description": "A thoughtful place for every name."
+      },
+      {
+        "id": "walkbox",
+        "name": "走走看",
+        "url": "/walkbox/",
+        "art": "walkbox-mockup.webp",
+        "icon": "walkbox.webp",
+        "platform": "iPhone",
+        "description": "Follow the route. Find out where it leads when you arrive."
       }
     ],
     "about": "An independent studio making simple, useful apps for Mac, iPhone and the web. Carefully made for everyday life, with a little room for play.",
@@ -308,6 +317,15 @@
         "icon": "nameplate-icon.webp",
         "platform": "Web",
         "description": "一张桌牌，认真介绍你。"
+      },
+      {
+        "id": "walkbox",
+        "name": "走走看",
+        "url": "/walkbox/zh-hans/",
+        "art": "walkbox-mockup.webp",
+        "icon": "walkbox.webp",
+        "platform": "iPhone",
+        "description": "跟着路线散步，到了再揭晓目的地。"
       }
     ],
     "about": "啊叽咕是一个独立应用工作室，为 Mac、iPhone 和网页制作简洁、实用的小工具。认真打磨日常细节，也给好用留一点玩心。",
@@ -529,6 +547,15 @@
         "icon": "nameplate-icon.webp",
         "platform": "Web",
         "description": "一張桌牌，認真介紹你。"
+      },
+      {
+        "id": "walkbox",
+        "name": "走走看",
+        "url": "/walkbox/zh-hant/",
+        "art": "walkbox-mockup.webp",
+        "icon": "walkbox.webp",
+        "platform": "iPhone",
+        "description": "跟著路線散步，抵達後再揭曉目的地。"
       }
     ],
     "about": "啊嘰咕是一個獨立應用工作室，為 Mac、iPhone 和網頁製作簡潔、實用的小工具。認真打磨日常細節，也給好用留一點玩心。",
@@ -750,6 +777,15 @@
         "icon": "nameplate-icon.webp",
         "platform": "Web",
         "description": "名前を、ていねいに紹介。"
+      },
+      {
+        "id": "walkbox",
+        "name": "走走看",
+        "url": "/walkbox/ja/",
+        "art": "walkbox-mockup.webp",
+        "icon": "walkbox.webp",
+        "platform": "iPhone",
+        "description": "案内に沿って散歩。行き先は着いてからのお楽しみ。"
       }
     ],
     "about": "Mac、iPhone、Web のために、シンプルで役立つアプリをつくる独立スタジオです。毎日の小さな使いやすさに、少しの遊び心を。",
@@ -971,6 +1007,15 @@
         "icon": "nameplate-icon.webp",
         "platform": "Web",
         "description": "이름을 정성스럽게 소개하세요."
+      },
+      {
+        "id": "walkbox",
+        "name": "走走看",
+        "url": "/walkbox/ko/",
+        "art": "walkbox-mockup.webp",
+        "icon": "walkbox.webp",
+        "platform": "iPhone",
+        "description": "안내를 따라 걷고, 도착한 뒤에 목적지를 확인하세요."
       }
     ],
     "about": "Mac, iPhone, 웹을 위한 간결하고 유용한 앱을 만드는 독립 스튜디오입니다. 일상의 작은 디테일에 정성과 즐거움을 담습니다.",

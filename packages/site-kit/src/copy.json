@@ -66,6 +66,7 @@
     "gallery": {
       "firstRelease": "First release",
       "releaseUnknown": "Date unconfirmed",
+      "releasePending": "Not yet released",
       "pricing": {
         "free": "Free",
         "freemium": "Free · In-app purchases",
@@ -134,6 +135,7 @@
     "gallery": {
       "firstRelease": "首次上线",
       "releaseUnknown": "日期待确认",
+      "releasePending": "尚未上架",
       "pricing": {
         "free": "免费",
         "freemium": "免费下载 · 含内购",
@@ -202,6 +204,7 @@
     "gallery": {
       "firstRelease": "首次上線",
       "releaseUnknown": "日期待確認",
+      "releasePending": "尚未上架",
       "pricing": {
         "free": "免費",
         "freemium": "免費下載 · 含內購",
@@ -270,6 +273,7 @@
     "gallery": {
       "firstRelease": "初回リリース",
       "releaseUnknown": "日付未確認",
+      "releasePending": "未配信",
       "pricing": {
         "free": "無料",
         "freemium": "無料 · アプリ内課金あり",
@@ -338,6 +342,7 @@
     "gallery": {
       "firstRelease": "최초 출시",
       "releaseUnknown": "날짜 확인 중",
+      "releasePending": "출시 전",
       "pricing": {
         "free": "무료",
         "freemium": "무료 · 앱 내 구입",
@@ -414,6 +419,7 @@
     "gallery": {
       "firstRelease": "Erstveröffentlichung",
       "releaseUnknown": "Datum unbestätigt",
+      "releasePending": "Noch nicht veröffentlicht",
       "pricing": {
         "free": "Kostenlos",
         "freemium": "Kostenlos · In-App-Käufe",
@@ -490,6 +496,7 @@
     "gallery": {
       "firstRelease": "Première sortie",
       "releaseUnknown": "Date à confirmer",
+      "releasePending": "Pas encore disponible",
       "pricing": {
         "free": "Gratuit",
         "freemium": "Gratuit · Achats intégrés",

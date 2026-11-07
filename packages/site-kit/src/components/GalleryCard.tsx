@@ -16,7 +16,12 @@ interface Props {
   platform: string;
   description: string;
   file: string;
-  facts: { releaseDate: string | null; releaseDateEstimated?: boolean; pricing: string };
+  facts: {
+    releaseDate: string | null;
+    releaseDateEstimated?: boolean;
+    releasePending?: boolean;
+    pricing: string | null;
+  };
   copy: StudioCopy["gallery"];
 }
 export function GalleryCard({ id, name, href, platform, description, file, facts, copy }: Props) {
@@ -40,9 +45,11 @@ export function GalleryCard({ id, name, href, platform, description, file, facts
               <CardTitle>{name}</CardTitle>
               <div className="gallery-meta">
                 <span className="gallery-platform">{platform}</span>
-                <span className="gallery-pricing">
-                  {copy.pricing[facts.pricing as keyof typeof copy.pricing]}
-                </span>
+                {facts.pricing && (
+                  <span className="gallery-pricing">
+                    {copy.pricing[facts.pricing as keyof typeof copy.pricing]}
+                  </span>
+                )}
               </div>
             </div>
           </div>
@@ -50,7 +57,7 @@ export function GalleryCard({ id, name, href, platform, description, file, facts
         </CardHeader>
         <CardFooter className="gallery-details">
           <div className="gallery-release">
-            <span>{copy.firstRelease}</span>
+            {!facts.releasePending && <span>{copy.firstRelease}</span>}
             {facts.releaseDate ? (
               <time
                 dateTime={facts.releaseDate}
@@ -60,7 +67,7 @@ export function GalleryCard({ id, name, href, platform, description, file, facts
                 {facts.releaseDate}
               </time>
             ) : (
-              <span>{copy.releaseUnknown}</span>
+              <span>{facts.releasePending ? copy.releasePending : copy.releaseUnknown}</span>
             )}
           </div>
           <ArrowUpRight className="gallery-arrow" aria-hidden="true" />

@@ -51,5 +51,14 @@
     "screens": [
       "design/mockups/screens/loglift-home.webp"
     ]
+  },
+  "walkbox": {
+    "template": "apple-iphone-15-pro-black-titanium",
+    "screenBackground": "#fdf0d7",
+    "screens": [
+      "design/mockups/screens/walkbox-home.webp",
+      "design/mockups/screens/walkbox-route.webp",
+      "design/mockups/screens/walkbox-arrival.webp"
+    ]
   }
 }
