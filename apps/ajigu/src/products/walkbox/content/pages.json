@@ -112,6 +112,11 @@
     "intro": "Pick a distance or time and the kind of place you feel like visiting. 走走看 picks a nearby destination and reveals it when you get there.",
     "actions": [
       {
+        "href": "https://testflight.apple.com/join/9XMxmAP6",
+        "label": "Join the TestFlight beta",
+        "external": true
+      },
+      {
         "href": "#showcase",
         "label": "From setting out to arriving"
       },
@@ -290,6 +295,11 @@
     "intro": "选个距离或时间，再选一种想去的地方。走走看会在附近挑一个目的地，沿途给你指路，到达后才揭晓。",
     "actions": [
       {
+        "href": "https://testflight.apple.com/join/9XMxmAP6",
+        "label": "加入 TestFlight 公测",
+        "external": true
+      },
+      {
         "href": "#showcase",
         "label": "从出发到揭晓"
       },
@@ -298,7 +308,7 @@
         "label": "产品支持"
       }
     ],
-    "note": "iPhone · 需要 iOS 17 或更新版本 · 尚未上架",
+    "note": "iPhone · 需要 iOS 17 或更新版本 · 正式版尚未上架",
     "showcaseTitle": "从出发到揭晓",
     "previewCaption": "画面截自 iPhone 模拟器，使用示例路线和地点。",
     "mainId": "main",
@@ -468,6 +478,11 @@
     "intro": "選個距離或時間，再挑一種想去的地方。走走看會在附近選一個目的地，沿途為你指路，抵達後才揭曉。",
     "actions": [
       {
+        "href": "https://testflight.apple.com/join/9XMxmAP6",
+        "label": "加入 TestFlight 公測",
+        "external": true
+      },
+      {
         "href": "#showcase",
         "label": "從出發到揭曉"
       },
@@ -476,7 +491,7 @@
         "label": "產品支援"
       }
     ],
-    "note": "iPhone · 需要 iOS 17 或更新版本 · 尚未上架",
+    "note": "iPhone · 需要 iOS 17 或更新版本 · 正式版尚未上架",
     "showcaseTitle": "從出發到揭曉",
     "previewCaption": "畫面擷取自 iPhone 模擬器，使用範例路線與地點。App 介面為簡體中文。",
     "mainId": "main",
@@ -646,6 +661,11 @@
     "intro": "散歩の距離や時間、行きたい場所の種類を選びます。走走看が近くの目的地まで案内し、到着したら場所の名前を明かします。",
     "actions": [
       {
+        "href": "https://testflight.apple.com/join/9XMxmAP6",
+        "label": "TestFlightベータに参加",
+        "external": true
+      },
+      {
         "href": "#showcase",
         "label": "出発から行き先がわかるまで"
       },
@@ -654,7 +674,7 @@
         "label": "サポート"
       }
     ],
-    "note": "iPhone · iOS 17以降 · App Store未配信",
+    "note": "iPhone · iOS 17以降 · App Store正式版は未配信",
     "showcaseTitle": "出発から行き先がわかるまで",
     "previewCaption": "iPhoneシミュレータでサンプルの経路と場所を使って撮影しました。アプリの表示は簡体字中国語です。",
     "mainId": "main",
@@ -824,6 +844,11 @@
     "intro": "걷고 싶은 거리나 시간, 가 보고 싶은 장소의 유형을 고르세요. 走走看이 근처의 목적지를 골라 길을 안내하고, 도착하면 장소 이름을 알려 줍니다.",
     "actions": [
       {
+        "href": "https://testflight.apple.com/join/9XMxmAP6",
+        "label": "TestFlight 베타 참여",
+        "external": true
+      },
+      {
         "href": "#showcase",
         "label": "출발부터 목적지 공개까지"
       },
@@ -832,7 +857,7 @@
         "label": "지원"
       }
     ],
-    "note": "iPhone · iOS 17 이상 · App Store 출시 전",
+    "note": "iPhone · iOS 17 이상 · App Store 정식 출시 전",
     "showcaseTitle": "출발부터 목적지 공개까지",
     "previewCaption": "iPhone 시뮬레이터에서 예시 경로와 장소를 사용해 촬영했습니다. 앱 화면은 중국어 간체입니다.",
     "mainId": "main",

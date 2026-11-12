@@ -343,6 +343,10 @@ try {
       ),
       "x-default": "https://ajigu.com/walkbox/",
     });
+    const beta = page.locator(".product-actions a").first();
+    await expect(beta).toHaveAttribute("href", "https://testflight.apple.com/join/9XMxmAP6");
+    await expect(beta).toHaveAttribute("target", "_blank");
+    await expect(beta).toHaveText(detail.actions[0].label);
     await page.locator('.product-actions a[href="#showcase"]').click();
     await page.waitForURL("**/#showcase");
     const shots = page.locator("#showcase img");
@@ -358,8 +362,8 @@ try {
     await page.locator(".language-switcher").click();
     await page.locator(`[data-language="${next.locale}"]`).click();
     await page.waitForURL((url) => url.pathname === next.route);
-    await page.locator(`.product-actions a[href="${next.actions[1].href}"]`).click();
-    await page.waitForURL((url) => url.pathname === next.actions[1].href);
+    await page.locator(`.product-actions a[href="${next.footerLinks[0].href}"]`).click();
+    await page.waitForURL((url) => url.pathname === next.footerLinks[0].href);
     matrix.push({ site: "ajigu", route: detail.route, walkboxNavigation: "passed" });
   }
   let homeAfterSelection = "/";
