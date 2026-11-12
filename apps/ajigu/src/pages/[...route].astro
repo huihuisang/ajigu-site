@@ -10,11 +10,13 @@ import GoSleepPage from "../products/gosleep/Page.astro";
 import DailyApodPage from "../products/dailyapod/Page.astro";
 import TutuPage from "../products/tutu/Page.astro";
 import LogLiftPage from "../products/loglift/Page.astro";
+import WalkBoxPage from "../products/walkbox/Page.astro";
 import moodsk from "../products/moodsk/content/pages.json";
 import gosleep from "../products/gosleep/content/pages.json";
 import dailyapod from "../products/dailyapod/content/pages.json";
 import tutu from "../products/tutu/content/pages.json";
 import loglift from "../products/loglift/content/pages.json";
+import walkbox from "../products/walkbox/content/pages.json";
 import { productPath } from "@ajigu/site-kit/urls";
 
 export function getStaticPaths() {
@@ -52,6 +54,10 @@ export function getStaticPaths() {
       params: { route: page.route.slice(1, -1) },
       props: { logliftPage: page },
     })),
+    ...walkbox.map((page) => ({
+      params: { route: page.route.slice(1, -1) },
+      props: { walkboxPage: page },
+    })),
   ];
 }
 const {
@@ -64,6 +70,7 @@ const {
   dailyapodPage,
   tutuPage,
   logliftPage,
+  walkboxPage,
 } = Astro.props;
 ---
 
@@ -76,3 +83,4 @@ const {
 {dailyapodPage && <DailyApodPage page={dailyapodPage} />}
 {tutuPage && <TutuPage page={tutuPage} />}
 {logliftPage && <LogLiftPage page={logliftPage} />}
+{walkboxPage && <WalkBoxPage page={walkboxPage} />}
