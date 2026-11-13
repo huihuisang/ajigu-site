@@ -122,8 +122,8 @@ try {
           await page
             .locator(".work-tile")
             .evaluateAll((tiles) => tiles.map((tile) => tile.dataset.productId)),
-          ["loglift", "gosleep", "tutu", "moodsk", "nameplate", "typenote", "dailyapod", "walkbox"],
-          `${entry.route}: newest releases first`,
+          ["walkbox", "loglift", "gosleep", "tutu", "moodsk", "nameplate", "typenote", "dailyapod"],
+          `${entry.route}: newest availability dates first`,
         );
         const clipped = await page.locator(".gallery-card").evaluateAll((cards) =>
           cards.flatMap((card) => {

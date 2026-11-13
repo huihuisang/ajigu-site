@@ -17,11 +17,15 @@ interface Props {
 }
 const page = migrateContent(Astro.props.page);
 const copy = getCopy(page.locale);
-const products = page.products.toSorted((left, right) => {
-  const leftDate = productFacts[left.id as keyof typeof productFacts].releaseDate ?? "";
-  const rightDate = productFacts[right.id as keyof typeof productFacts].releaseDate ?? "";
-  return rightDate.localeCompare(leftDate);
-});
+const availabilityDate = (id: keyof typeof productFacts) => {
+  const facts = productFacts[id];
+  return facts.releaseDate ?? ("publicBetaDate" in facts ? facts.publicBetaDate : "");
+};
+const products = page.products.toSorted((left, right) =>
+  availabilityDate(right.id as keyof typeof productFacts).localeCompare(
+    availabilityDate(left.id as keyof typeof productFacts),
+  ),
+);
 ---
 
 <SiteLayout metadata={page.metadata} locale={page.locale} languages={page.languages} gallery>

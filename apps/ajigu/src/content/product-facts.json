@@ -76,8 +76,12 @@
     "releaseDate": null,
     "pricing": null,
     "releasePending": true,
-    "checkedAt": "2026-11-12",
-    "sources": ["https://appstoreconnect.apple.com/apps/6832618101/distribution"],
-    "note": "App Store Connect shows 1.0 in Prepare for Submission. Pricing and availability are unset."
+    "publicBetaDate": "2026-11-13",
+    "checkedAt": "2026-11-13",
+    "sources": [
+      "https://testflight.apple.com/join/9XMxmAP6",
+      "https://github.com/huihuisang/ajigu-site/actions/runs/43374411911"
+    ],
+    "note": "Date the public TestFlight invitation appeared on ajigu.com. App Store release and pricing are pending."
   }
 }
