@@ -132,13 +132,13 @@
     "steps": [
       {
         "image": "/studio/screens/walkbox-home.webp",
-        "alt": "Start screen with 500 meters selected",
+        "alt": "Walk setup with travel modes, distance or time, and destination categories",
         "title": "Set out",
         "body": "Choose a distance and the kind of place you might like to find."
       },
       {
         "image": "/studio/screens/walkbox-route.webp",
-        "alt": "Navigation showing a left turn in 195 meters and 484 meters remaining",
+        "alt": "Navigation with a turn instruction, remaining distance and a route map",
         "title": "Follow the directions",
         "body": "See your next turn and remaining distance as you go."
       },
@@ -319,13 +319,13 @@
     "steps": [
       {
         "image": "/studio/screens/walkbox-home.webp",
-        "alt": "首页已选中 500 米，下方有开始散步按钮",
+        "alt": "首页可选出行方式、按距离或时间查找，以及目的地类别",
         "title": "选好就出发",
         "body": "选一个距离，再挑挑今天想遇见什么。"
       },
       {
         "image": "/studio/screens/walkbox-route.webp",
-        "alt": "导航界面提示 195 米后左转，剩余 484 米",
+        "alt": "导航界面显示转向提示、剩余距离和路线小地图",
         "title": "跟着提示走",
         "body": "沿途查看转向提示和剩余距离。"
       },
@@ -506,13 +506,13 @@
     "steps": [
       {
         "image": "/studio/screens/walkbox-home.webp",
-        "alt": "首頁已選取 500 公尺，下方有開始散步按鈕",
+        "alt": "首頁可選擇出行方式、依距離或時間搜尋，以及目的地類別",
         "title": "選好就出發",
         "body": "選一個距離，再挑挑今天想遇見什麼。"
       },
       {
         "image": "/studio/screens/walkbox-route.webp",
-        "alt": "導航畫面提示 195 公尺後左轉，剩餘 484 公尺",
+        "alt": "導航畫面顯示轉向提示、剩餘距離和路線小地圖",
         "title": "跟著提示走",
         "body": "沿途查看轉向提示和剩餘距離。"
       },
@@ -693,13 +693,13 @@
     "steps": [
       {
         "image": "/studio/screens/walkbox-home.webp",
-        "alt": "500メートルが選択された散歩の開始画面",
+        "alt": "移動手段、距離または時間、行き先の種類を選ぶ画面",
         "title": "散歩に出かける",
         "body": "歩く距離と、出会いたい場所の種類を選びます。"
       },
       {
         "image": "/studio/screens/walkbox-route.webp",
-        "alt": "195メートル先で左折、残り484メートルと表示された案内画面",
+        "alt": "曲がる方向、残りの距離、ルート地図を表示した案内画面",
         "title": "案内に沿って進む",
         "body": "次に曲がる場所と残りの距離を確認できます。"
       },
@@ -880,13 +880,13 @@
     "steps": [
       {
         "image": "/studio/screens/walkbox-home.webp",
-        "alt": "500미터를 선택한 산책 시작 화면",
+        "alt": "이동 수단, 거리 또는 시간, 목적지 유형을 선택하는 화면",
         "title": "산책 시작하기",
         "body": "걷고 싶은 거리와 만나고 싶은 장소를 고릅니다."
       },
       {
         "image": "/studio/screens/walkbox-route.webp",
-        "alt": "195미터 앞 좌회전과 남은 거리 484미터가 표시된 안내 화면",
+        "alt": "회전 안내, 남은 거리, 경로 지도가 표시된 길 안내 화면",
         "title": "길 안내 따라가기",
         "body": "다음에 돌 방향과 남은 거리를 확인하며 걸을 수 있습니다."
       },

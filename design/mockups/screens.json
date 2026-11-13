@@ -197,54 +197,57 @@
     }
   },
   "design/mockups/screens/walkbox-home.webp": {
-    "sha256": "d67ec9e9f0d0f565da72ff88a6773590abc9dd58dc7b43ef7543bdd0aeb1aa64",
+    "sha256": "45217c72895397792f0846f6bcc92cc6eaab78bccfcbf32ea8757e1816771641",
     "size": [
       1206,
       2622
     ],
     "product": "walkbox",
     "proof": {
-      "capture": "2026-11-12: sim-use capture on an iOS 27.2 simulator, using the native debug sample route and simulated location.",
+      "capture": "2026-11-13: sim-use capture of the normal home screen on an iOS 27.2 simulator.",
       "app": {
         "version": "1.0",
         "build": "1",
-        "bundleID": "com.ajigu.walkbox"
+        "bundleID": "com.ajigu.walkbox",
+        "revision": "7764b62127e5"
       },
-      "originalSHA256": "bc199d097a0babdf189581afb0fe64d019045c55a08a7cd839b049f5f99fc41c"
+      "originalSHA256": "a0fa3888e0898116b3b0643dfaafa6bf28abb6fda4cc916ab467efa2a7f109d9"
     }
   },
   "design/mockups/screens/walkbox-route.webp": {
-    "sha256": "5f3e4d3656b5be8adf597540dc685f9ec24c9b1f9c7bcbf518e8c9e2680a6a22",
+    "sha256": "0f383a69b8811b41689b6bf88f9bb2687c95cf5dfeec207bbeb9dddf6db03c73",
     "size": [
       1206,
       2622
     ],
     "product": "walkbox",
     "proof": {
-      "capture": "2026-11-12: sim-use capture on an iOS 27.2 simulator, using the native debug sample route and simulated location.",
+      "capture": "2026-11-13: sim-use capture on an iOS 27.2 simulator with the native sample route, map preview enabled, and simulated location.",
       "app": {
         "version": "1.0",
         "build": "1",
-        "bundleID": "com.ajigu.walkbox"
+        "bundleID": "com.ajigu.walkbox",
+        "revision": "7764b62127e5"
       },
-      "originalSHA256": "7430734a8159a8d388db07a0f277ffe4b92d5b35c0a86c5e11755f73173b6582"
+      "originalSHA256": "c4c021dae0bc0eea0f0bb594a1f53e56f1a541901b04959047b0197b1a7e06ea"
     }
   },
   "design/mockups/screens/walkbox-arrival.webp": {
-    "sha256": "e28f4cd4fbc9c4a67675b318268135ffc1e0c8d707cf34f2c4d7dde0761d3e82",
+    "sha256": "4c33f11848347724e6723c11d58a5aab42bcbe1ad10e641d8187136ff683edb8",
     "size": [
       1206,
       2622
     ],
     "product": "walkbox",
     "proof": {
-      "capture": "2026-11-12: sim-use capture on an iOS 27.2 simulator, using the native debug sample route and simulated location.",
+      "capture": "2026-11-13: sim-use capture on an iOS 27.2 simulator with the native sample route, map preview enabled, and simulated location.",
       "app": {
         "version": "1.0",
         "build": "1",
-        "bundleID": "com.ajigu.walkbox"
+        "bundleID": "com.ajigu.walkbox",
+        "revision": "7764b62127e5"
       },
-      "originalSHA256": "2e087de82e53fbc6c99c737f101ef4f2f57f79d8ca0a418d5b17d75886a8a6f0"
+      "originalSHA256": "a1a9a4e1598644d1ae0e4820f0e8eaab1322a8149c2665406935588033e44c10"
     }
   }
 }

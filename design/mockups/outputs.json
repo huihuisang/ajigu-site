@@ -101,21 +101,21 @@
   },
   "walkbox": {
     "file": "apps/ajigu/public/gallery/walkbox-mockup.webp",
-    "sha256": "f8a52f467764a3b50bd38a480d2d41f44df38dd6b346c458d71283c68ee27a4d",
+    "sha256": "3521712d150831a2abdceaf6e9b8d500b204b76dd6626f565bcd512a15fe89cb",
     "background": "transparent",
     "template": "apple-iphone-15-pro-black-titanium",
     "screens": [
       {
         "file": "design/mockups/screens/walkbox-home.webp",
-        "sha256": "d67ec9e9f0d0f565da72ff88a6773590abc9dd58dc7b43ef7543bdd0aeb1aa64"
+        "sha256": "45217c72895397792f0846f6bcc92cc6eaab78bccfcbf32ea8757e1816771641"
       },
       {
         "file": "design/mockups/screens/walkbox-route.webp",
-        "sha256": "5f3e4d3656b5be8adf597540dc685f9ec24c9b1f9c7bcbf518e8c9e2680a6a22"
+        "sha256": "0f383a69b8811b41689b6bf88f9bb2687c95cf5dfeec207bbeb9dddf6db03c73"
       },
       {
         "file": "design/mockups/screens/walkbox-arrival.webp",
-        "sha256": "e28f4cd4fbc9c4a67675b318268135ffc1e0c8d707cf34f2c4d7dde0761d3e82"
+        "sha256": "4c33f11848347724e6723c11d58a5aab42bcbe1ad10e641d8187136ff683edb8"
       }
     ]
   }
