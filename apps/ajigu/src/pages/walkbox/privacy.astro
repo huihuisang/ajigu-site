@@ -1,0 +1,126 @@
+---
+import SiteLayout from "@ajigu/site-kit/layouts/SiteLayout.astro";
+
+const title = "走走看隐私政策";
+const metadata = {
+  title,
+  meta: [
+    {
+      name: "description",
+      content: "了解走走看如何使用定位、处理足迹照片和多人房间资料，以及如何管理权限和删除数据。",
+    },
+  ],
+  links: [{ rel: "canonical", href: "https://ajigu.com/walkbox/privacy/" }],
+  structuredData: [],
+};
+---
+
+<SiteLayout metadata={metadata} locale="zh-Hans" product="walkbox">
+  <main class="studio-shell privacy-policy">
+    <a href="/walkbox/zh-hans/">返回走走看</a>
+    <h1>{title}</h1>
+    <p>
+      更新日期：<time datetime="2026-11-13">2026 年 11 月 13 日</time>
+    </p>
+    <p>
+      走走看由啊叽咕（ajigu）提供。你无需注册走走看账号即可使用单人散步。足迹跨设备同步和多人房间使用
+      Apple 的 iCloud 服务。走走看不接入广告、跨 App 跟踪或第三方使用分析 SDK。
+    </p>
+
+    <section aria-labelledby="location">
+      <h2 id="location">定位和地图</h2>
+      <p>
+        在你允许定位后，走走看使用设备位置查找附近地点、规划路线、显示剩余距离和判断是否到达。导航期间，App
+        可以在锁屏时继续使用定位来指路。查找地点和算路时，Apple
+        地图会收到所需的位置、路线起终点和搜索词，包括你选用的自定义标签。
+      </p>
+    </section>
+
+    <section aria-labelledby="footprints">
+      <h2 id="footprints">足迹、照片和感想</h2>
+      <p>
+        单人出行到达后，App
+        会保存足迹，包括地点标识、日期、出行方式、用时和距离。你可以给小票添加感想、拍照或选择照片。App
+        使用你选择的照片制作和保存小票。启用 iCloud 时，足迹和附带的感想、照片通过 CloudKit
+        私有数据库在使用同一 Apple
+        账号的设备之间同步。你主动分享小票时，所选的接收方会收到分享内容。App
+        也会在本机保存最近到访地点的标识和日期，供后续选点时减少重复。
+      </p>
+    </section>
+
+    <section aria-labelledby="rooms">
+      <h2 id="rooms">多人房间</h2>
+      <p>
+        创建或加入房间时，App 使用 CloudKit
+        为走走看提供的账号标识区分成员。房间中的昵称、候选地点、你选择分享的大致出发点、估算距离和时间、路线预览、准备状态及成绩，会通过
+        iCloud
+        与受邀成员同步，用于组队、确定目的地和结算。房间不公开。路线预览只包含抽样和取整后的路线点。
+      </p>
+    </section>
+
+    <section aria-labelledby="retention">
+      <h2 id="retention">保存、删除与权限管理</h2>
+      <p>
+        足迹会保留到你删除为止。你可以在「足迹」中编辑或删除记录。启用同步时，删除会在 iCloud
+        可用后同步到同一账号的设备。App 保留用于同步的删除标记，防止旧记录重新出现。
+      </p>
+      <p>
+        你可以退出多人房间来结束参与。出发前，房主可关闭房间并删除对应的 iCloud
+        房间数据。出发后的成绩等记录可能留在房主的 iCloud
+        房间中。退出也无法删除他人已经保存的副本。需要协助管理房间数据时，请通过下方邮箱联系啊叽咕。
+      </p>
+      <p>
+        你可以在 iPhone
+        系统设置中撤回走走看的定位或相机权限。撤回后，相应功能可能无法使用。你也可以通过系统的
+        iCloud 设置管理同步。关闭权限或同步后，已经保存的资料仍可按上述方式管理。
+      </p>
+    </section>
+
+    <section aria-labelledby="apple">
+      <h2 id="apple">Apple 服务</h2>
+      <p>
+        Apple 地图和 iCloud 按 Apple
+        的政策处理并保护服务所需的数据。有关服务的处理方式和隐私选项，请查看
+        <a href="https://www.apple.com/legal/privacy/data/en/apple-maps/">
+          Apple 地图与隐私
+        </a>和 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>。
+      </p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">联系我们</h2>
+      <p>
+        如有隐私问题，或希望查询、更正或请求删除资料，请发邮件至
+        <a href="mailto:support@ajigu.com">support@ajigu.com</a>
+        。啊叽咕使用你的邮箱地址和来信内容来处理请求，并在处理请求及履行适用义务所需的期间内保留这些信息。
+      </p>
+    </section>
+  </main>
+</SiteLayout>
+
+<style>
+  .privacy-policy {
+    max-width: 760px;
+    padding-block: clamp(32px, 8vw, 96px);
+    overflow-wrap: anywhere;
+  }
+
+  .privacy-policy > a,
+  .privacy-policy p a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  h1 {
+    margin-block: 24px 16px;
+  }
+
+  h2 {
+    margin-block: 32px 12px;
+  }
+
+  p {
+    margin-block: 0 12px;
+    line-height: 1.8;
+  }
+</style>

@@ -21,7 +21,7 @@ test("every sitemap URL has matching canonical and share metadata", async () => 
   const generated = (await Promise.all(["loglift", "walkbox"].map(async (product) =>
     JSON.parse(await readFile(new URL(`apps/ajigu/src/products/${product}/content/pages.json`, root), "utf8"))
   ))).flat();
-  assert.deepEqual(urls.sort(), [...routes, ...generated.map((page) => page.route)].map((route) => domain + route).sort());
+  assert.deepEqual(urls.sort(), [...routes, ...generated.map((page) => page.route), "/walkbox/privacy/"].map((route) => domain + route).sort());
   for (const page of generated) {
     assert.equal(page.metadata.links.find((link) => link.rel === "canonical").href, domain + page.route);
     assert.equal(page.metadata.meta.find((tag) => tag.property === "og:url").content, domain + page.route);

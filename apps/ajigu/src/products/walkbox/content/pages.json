@@ -179,6 +179,10 @@
       {
         "href": "/contact/",
         "label": "Support"
+      },
+      {
+        "href": "/walkbox/privacy/",
+        "label": "Privacy policy (Chinese)"
       }
     ]
   },
@@ -362,6 +366,10 @@
       {
         "href": "/zh-hans/contact/",
         "label": "产品支持"
+      },
+      {
+        "href": "/walkbox/privacy/",
+        "label": "隐私政策"
       }
     ]
   },
@@ -545,6 +553,10 @@
       {
         "href": "/zh-hant/contact/",
         "label": "產品支援"
+      },
+      {
+        "href": "/walkbox/privacy/",
+        "label": "隱私政策（簡體中文）"
       }
     ]
   },
@@ -728,6 +740,10 @@
       {
         "href": "/ja/contact/",
         "label": "サポート"
+      },
+      {
+        "href": "/walkbox/privacy/",
+        "label": "プライバシーポリシー（中国語）"
       }
     ]
   },
@@ -911,6 +927,10 @@
       {
         "href": "/ko/contact/",
         "label": "지원"
+      },
+      {
+        "href": "/walkbox/privacy/",
+        "label": "개인정보 처리방침(중국어)"
       }
     ]
   }

@@ -366,6 +366,23 @@ try {
     await page.waitForURL((url) => url.pathname === next.footerLinks[0].href);
     matrix.push({ site: "ajigu", route: detail.route, walkboxNavigation: "passed" });
   }
+  const privacy = await browser.newContext({
+    javaScriptEnabled: false,
+    viewport: { width: 320, height: 800 },
+  });
+  const policyPage = await privacy.newPage();
+  for (const detail of walkboxPages) {
+    await policyPage.goto(preview.origins.ajigu + detail.route);
+    await policyPage.locator('footer a[href="/walkbox/privacy/"]').click();
+    await expect(policyPage.locator("html")).toHaveAttribute("lang", "zh-Hans");
+    await expect(policyPage.getByRole("heading", { level: 1 })).toHaveText("走走看隐私政策");
+    await expect(policyPage.locator('main a[href="mailto:support@ajigu.com"]')).toBeVisible();
+    assert.equal(
+      await policyPage.evaluate(() => document.documentElement.scrollWidth > innerWidth),
+      false,
+    );
+  }
+  await privacy.close();
   let homeAfterSelection = "/";
   for (const site of products) {
     const contract = JSON.parse(
